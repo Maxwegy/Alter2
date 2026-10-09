@@ -21,6 +21,14 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - The OSRS cache (`data/cache`, `data/xteas.json`) is not committed. Tests that need it skip via JUnit `Assume`.
 - Gradle must run on JDK 17. If the default `java` is older, set `JAVA_HOME` to a JDK 17.
 
+## Data and cache tools
+
+- `./gradlew :alter-data:wikiSync [-PwikiArgs="--offline|--refresh"]`: regenerate `data/cfg/wiki` from the OSRS Wiki; report in `data/reports/`.
+- `./gradlew :plugins:tools:cacheStage -PcacheArgs="--build N | --latest"`: download and verify a cache into `data/cache-staging/` (never `data/cache`).
+- `./gradlew :plugins:tools:cacheDryRun -PcacheArgs="<staged dir> <build>"`: what our decoders and RSCM names would do with that cache.
+- In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`.
+- Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
+
 ## Rules that are not optional
 
 1. **Never work on `main`.** Use a branch or worktree; humans merge.
