@@ -136,12 +136,14 @@ object NpcCombatDsl {
             val builder = StatsBuilder(stats)
             init(builder)
 
+            // Levels come from the list so both `attack = 40` and `+(NpcSkills.ATTACK to 40)` work; unset means 1.
+            fun level(skill: Int) = stats.lastOrNull { it.first == skill }?.second ?: 1
             combatBuilder.setHitpoints(builder.hitpoints)
-            combatBuilder.setAttackLevel(builder.attack)
-            combatBuilder.setDefenceLevel(builder.defence)
-            combatBuilder.setStrengthLevel(builder.strength)
-            combatBuilder.setMagicLevel(builder.magic)
-            combatBuilder.setRangedLevel(builder.ranged)
+            combatBuilder.setAttackLevel(level(NpcSkills.ATTACK))
+            combatBuilder.setDefenceLevel(level(NpcSkills.DEFENCE))
+            combatBuilder.setStrengthLevel(level(NpcSkills.STRENGTH))
+            combatBuilder.setMagicLevel(level(NpcSkills.MAGIC))
+            combatBuilder.setRangedLevel(level(NpcSkills.RANGED))
 
         }
 
@@ -292,26 +294,31 @@ object NpcCombatDsl {
         var attack: Int = 1
             set(value) {
                 set(Pair(NpcSkills.ATTACK, value))
+                field = value
             }
 
         var strength: Int = 1
             set(value) {
                 set(Pair(NpcSkills.STRENGTH, value))
+                field = value
             }
 
         var defence: Int = 1
             set(value) {
                 set(Pair(NpcSkills.DEFENCE, value))
+                field = value
             }
 
         var magic: Int = 1
             set(value) {
                 set(Pair(NpcSkills.MAGIC, value))
+                field = value
             }
 
         var ranged: Int = 1
             set(value) {
                 set(Pair(NpcSkills.RANGED, value))
+                field = value
             }
 
         infix fun set(stat: Pair<Int, Int>) {

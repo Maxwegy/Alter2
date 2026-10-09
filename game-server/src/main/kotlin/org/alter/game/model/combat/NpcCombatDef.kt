@@ -1,5 +1,6 @@
 package org.alter.game.model.combat
 
+import org.alter.game.model.entity.Npc
 import org.alter.game.model.weightedTableBuilder.LootTable
 
 /**
@@ -46,6 +47,23 @@ data class NpcCombatDef(
     val immuneCannons: Boolean,
     val immuneThralls: Boolean
 ) {
+    /**
+     * Combat levels in [org.alter.game.model.entity.Npc.Stats] slot order: attack, strength, defence, magic,
+     * ranged (game-api's `NpcSkills` 0-4, which game-server cannot import). Hitpoints are applied separately.
+     * Unset levels (0) count as 1.
+     */
+    fun statLevels(): IntArray = intArrayOf(attack, strength, defence, magic, ranged).map { maxOf(1, it) }.toIntArray()
+
+    /** Sets both the max and current value of every combat level. */
+    fun applyLevelsTo(stats: Npc.Stats) {
+        statLevels().forEachIndexed { slot, level ->
+            if (slot < stats.nStats) {
+                stats.setMaxLevel(slot, level)
+                stats.setCurrentLevel(slot, level)
+            }
+        }
+    }
+
     companion object {
         private const val DEFAULT_HITPOINTS = 10
         private const val DEFAULT_ATTACK_SPEED = 4
@@ -57,11 +75,11 @@ data class NpcCombatDef(
         val DEFAULT =
             NpcCombatDef(
                 hitpoints = DEFAULT_HITPOINTS,
-                attack = 0,
-                defence = 0,
-                strength = 0,
-                ranged = 0,
-                magic = 0,
+                attack = 1,
+                defence = 1,
+                strength = 1,
+                ranged = 1,
+                magic = 1,
                 attackSpeed = DEFAULT_ATTACK_SPEED,
                 aggressiveRadius = 0,
                 aggroTargetDelay = 0,
