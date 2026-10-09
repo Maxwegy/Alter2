@@ -9,6 +9,7 @@ import org.alter.game.model.World
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.plugins.content.infrastructure.missingcontent.MissingContentService
+import org.alter.plugins.content.infrastructure.npcs.NpcDataService
 
 /**
  * The one place the Phase 1 data infrastructure is wired together.
@@ -27,6 +28,11 @@ class InfrastructurePlugin(
         val io = IoScope()
 
         loadService(InfrastructureService(io))
+
+        // Order matters: services init in registration order, all before NPCs spawn.
+        val gameData = GameDataService(paths.wikiSnapshot)
+        loadService(gameData)
+        loadService(NpcDataService(gameData, paths.npcOverrides))
         if (config.missingContent.enabled) {
             loadService(
                 MissingContentService(

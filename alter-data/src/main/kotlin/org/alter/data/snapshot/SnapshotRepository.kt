@@ -7,6 +7,9 @@ import com.fasterxml.jackson.module.kotlin.registerKotlinModule
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap
 import it.unimi.dsi.fastutil.ints.Int2ObjectMaps
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
+import it.unimi.dsi.fastutil.ints.IntOpenHashSet
+import it.unimi.dsi.fastutil.ints.IntSet
+import it.unimi.dsi.fastutil.ints.IntSets
 import java.nio.file.Files
 import java.nio.file.Path
 import kotlin.io.path.extension
@@ -17,6 +20,9 @@ interface GameDataRepository {
     val cacheRevision: Int
 
     fun npcStats(npcId: Int): NpcEntry?
+
+    /** Every NPC id with stats in the snapshot. */
+    fun npcIds(): IntSet
 
     fun dropTables(npcId: Int): List<DropTable>
 
@@ -34,6 +40,8 @@ class SnapshotRepository private constructor(
     private val items: Int2ObjectMap<ItemEntry>,
 ) : GameDataRepository {
     override fun npcStats(npcId: Int): NpcEntry? = npcs.get(npcId)
+
+    override fun npcIds(): IntSet = IntSets.unmodifiable(IntOpenHashSet(npcs.keys))
 
     override fun dropTables(npcId: Int): List<DropTable> = drops.get(npcId) ?: emptyList()
 

@@ -11,6 +11,8 @@ dependencies {
     implementation(lib.routefinder)
     implementation(projects.alterData)
     implementation(lib.kotlinx.coroutines)
+    implementation(lib.jackson.module.kotlin)
+    implementation(kotlin("reflect"))
 }
 
 tasks.named<Jar>("jar") {
