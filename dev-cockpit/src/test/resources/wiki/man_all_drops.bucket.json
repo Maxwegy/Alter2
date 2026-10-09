@@ -1,0 +1,185 @@
+{
+ "bucketQuery": "bucket('dropsline').select('page_name_sub','item_name','drop_json').where('page_name','Man').limit(40).run()",
+ "bucket": [
+  {
+   "item_name": "Bones",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"Always\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":0,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Bones\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Bronze med helm",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":14,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Bronze med helm\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Iron dagger",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":21,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Iron dagger\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Bronze bolts",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"22/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"2\u201312\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":12,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":2,\"Dropped item\":\"Bronze bolts\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Bronze arrow",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"3/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"7\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":7,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":7,\"Dropped item\":\"Bronze arrow\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Earth rune",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"4\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":4,\"Drop Value\":2,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":4,\"Dropped item\":\"Earth rune\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Fire rune",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"6\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":6,\"Drop Value\":2,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":6,\"Dropped item\":\"Fire rune\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Mind rune",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"9\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":9,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":9,\"Dropped item\":\"Mind rune\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Chaos rune",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"2\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":2,\"Drop Value\":54,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":2,\"Dropped item\":\"Chaos rune\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy guam leaf",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/22.3\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":7,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy guam leaf\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy marrentill",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/29.7\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":8,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy marrentill\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy tarromin",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/39.6\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":9,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy tarromin\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy harralander",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/50.9\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":9,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy harralander\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy ranarr weed",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/64.8\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":18,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy ranarr weed\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy irit leaf",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/89\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":10,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy irit leaf\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy avantoe",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/118.7\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":10,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy avantoe\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy kwuarm",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/142.5\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":12,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy kwuarm\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy cadantine",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/178.1\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":13,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy cadantine\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy lantadyme",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/237.4\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":13,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy lantadyme\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Grimy dwarf weed",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/237.4\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":14,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Grimy dwarf weed\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"38/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"3\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":3,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":3,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"23/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"10\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":10,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":10,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"9/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"5\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":5,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":5,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"4/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"15\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":15,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":15,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"25\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":25,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":25,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Energy potion(3)",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"Common\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":66,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Energy potion(3)\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Fishing bait",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"5/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Fishing bait\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Copper ore",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Copper ore\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Earth talisman",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":2,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Earth talisman\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Cabbage",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":0,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Cabbage\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Key (medium)",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"Always\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":12,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Key (medium)\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Looting bag",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/15\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"Wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":0,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Looting bag\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Clue scroll (beginner)",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/90\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":12,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Clue scroll (beginner)\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Clue scroll (easy)",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":12,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Clue scroll (easy)\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Coins",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"Always\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"1\",\"Drop type\":\"thieving\",\"Drop Quantity\":\"3\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":3,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":3,\"Dropped item\":\"Coins\"}",
+   "page_name_sub": "Man"
+  },
+  {
+   "item_name": "Rocky",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/257,211\",\"Approx\":false,\"Alt Rarity Dash\":\"yes\",\"Drop level\":\"1\",\"Drop type\":\"thieving\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":0,\"Rolls\":1,\"Alt Rarity\":\"1/254,736\",\"Quantity Low\":1,\"Dropped item\":\"Rocky\"}",
+   "page_name_sub": "Man"
+  }
+ ]
+}

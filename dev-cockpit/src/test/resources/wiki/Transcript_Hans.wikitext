@@ -1,0 +1,62 @@
+{{Transcript|npc}}
+
+==Standard dialogue==
+* '''Hans:''' Hello. What are you doing here?
+* {{tselect|Select an option}}
+* {{topt|I'm looking for whoever is in charge of this place.}}
+** '''Player:''' I'm looking for whoever is in charge of this place.
+** '''Hans:''' Who, the Duke? He's in his study, on the first floor.
+** {{tact|end}}
+* {{topt|I have come to kill everyone in this castle!}}
+** '''Player:''' I have come to kill everyone in this castle!
+** {{qact|Hans runs away from the player screaming}}
+** '''Hans:''' {{overhead|Help! Help!}}
+** {{tact|end}}
+* {{topt|I don't know. I'm lost. Where am I?}}
+** '''Player:''' I don't know. I'm lost. Where am I?
+** '''Hans:''' You are in Lumbridge Castle, in the Kingdom of Misthalin. Across the river, the road leads north to Varrock, and to the west lies Draynor Village.
+** {{tact|end}}
+* {{topt|Can you tell me how long I've been here?}}
+** '''Player:''' Can you tell me how long I've been here?
+** '''Hans:''' Ahh, I see all the newcomers arriving in Lumbridge, fresh-faced and eager for adventure. I remember you...
+** '''Hans:''' You've spent [amount] days, [amount] hours, [amount] minutes in the world since you arrived [amount] days ago.
+** {{tact|end}}
+* {{topt|Nothing.}}
+** '''Player:''' Nothing.
+** {{tact|end}}
+
+===Contacting through [[Astral Contact]]'s Random option===
+* '''Player:''' Hiya.
+* '''Hans:''' Oooh! Who are you?
+* '''Player:''' I'm a brave knight! I am coming to kill anyone in the vicinity of Lumbridge Castle!
+* '''Hans:''' Aaaaargh! Run away, run away!
+* '''Player:''' Hehe. Fool!
+* {{tact|end}}
+
+==Treasure Trails==
+===Beginner===
+* '''Hans:''' Well done.
+* {{tact|receives=a [new clue/casket]}}
+* {{tbox|You've [found a new clue/obtained a casket]!}}
+* {{tact|end}}
+
+===Easy===
+* {{tcond|When given another clue scroll:}}
+** {{tbox|pic=clue scroll (easy) detail.png|You've been given another clue!}}
+** {{tact|receives=another clue scroll}}
+** {{tact|end}}
+* {{tcond|When given a reward casket:}}
+** {{tbox|pic=Reward casket (easy) detail.png|You've obtained a casket!}}
+** {{tact|receives=a reward casket}}
+** {{tact|end}}
+
+===Hard===
+* '''Hans:''' Well done, here you go.
+* {{tcond|When given another clue scroll:}}
+** {{tbox|pic=clue scroll (hard) detail.png|Hans has given you another clue scroll!}}
+** {{tact|receives=another clue scroll}}
+** {{tact|end}}
+* {{tcond|When given a reward casket:}}
+** {{tbox|pic=Reward casket (hard) detail.png|You've obtained a casket!}}
+** {{tact|receives=a reward casket}}
+** {{tact|end}}

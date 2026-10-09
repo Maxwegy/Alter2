@@ -1,0 +1,33 @@
+{{External|rs|rsc=Doors}}
+[[File:Exit door.png|thumb|right|100px|The most common door.]]
+A '''door''' or a '''gate''' is an entrance (or exit) in a wall or fence, which sometimes acts as a passage through a [[physical boundary]]. It could be an entrance into a city, into a building, into a room, or into a field (especially when outdoors). The names of particular doors or gates may include an {{wp|adjective}} or other qualifier. For example, the guards' entrance to the [[Black Knights' Fortress (location)|Black Knights' Fortress]] is marked by a [[sturdy door]].
+
+The buildings in [[Al Kharid]] and the [[Kharidian Desert]] have a '''curtain''' that serves in place of a door. A '''trapdoor''' is a similar concept, except that it allows passage vertically downwards from one story to another. It always has a ladder, a [[staircase]], steps or a rope below to allow passage back up again.
+
+Walls appear as white lines on the [[minimap]] and the [[world map]], with doors represented by red markers. Players can pass through an open door simply by left-clicking on a location or object on the other side of it, either in the main playing area or on the [[minimap]]. See [[Game controls]] for more information on moving around and on using less-common pointing devices. The character will walk through the doorway as it is no obstacle at all.
+
+A closed door acts as a [[physical boundary]]. If it is unlocked, players can open it simply by left-clicking on it. Characters will not open a door automatically, and open doors may close after 300 seconds. Many players find this frustrating, although it may be compared to a gameworld respawn. Doors are special movable game objects and have a respawn clock just like any other object. While a longer delay could be used, the relatively short timer is presumably to cripple simple [[macro]]s that are unable to open doors.
+
+Some doors are locked, but players can often unlock them via the [[Thieving]] skill. For example, the entrance to the [[H.A.M. Dungeon]] is marked by a locked trapdoor. Players must pick the lock in order to gain access. A [[lockpick]] may be useful or even necessary to unlock some doors in this way. Some locked doors can only be unlocked with a [[List of keys|key]], usually as part of a [[Quests|quest]].
+
+Players can close an open door by left-clicking on it (notice that the door itself must be clicked on, not the doorway). This can be used to prevent other players or monsters from getting out of a room, effectively trapping them inside. In the past, this could be done maliciously, for example to trap a player in a room with dangerous [[random events]] like the [[evil chicken]] or a [[Shade (random event)|shade]], although the discontinuation of those dangerous events makes that no longer a problem.
+
+After many complaints from players, any given player can only close a door up to five times in quick succession. After reaching this limit, they will receive the message: "The door seems to be stuck.", and no action will be taken. However, while they cannot close any open doors for a short time, they can still open closed doors. Some doors, such as the doors in the [[Piscatoris Fishing Colony]] and in all banks (except for the [[Darkmeyer bank]]), cannot be closed by players to avoid locking players out.
+
+==Trivia==
+*If a player tries to light a fire in front some closed doors, a message "You can't light a fire here." will appear. However, if the door is open, the player is not restricted from lighting a fire in front of it.
+*There is a glitch in which certain doors will sometimes appear both open and closed at the same time. If the door is supposed to be open, it may appear as though [[players]] are walking through a closed door. This appears most often at the [[Catherby]] [[range]] or other places where a high number of players are entering a room.
+*There was a glitch with the eastern door at the [[Lumbridge]] [[general store]]. Although players could enter through it, it was impossible to '''walk''' out the door; players had to [[run]] in order to get through.
+*Some doors in the ground floor of the [[Wizards' Tower]] are at an angle which crosses over a square. If a player stands ''in'' the doorway and another player closes it, the player in the doorway has the door passing through them. They can then walk out of either side of the door.
+*On [[White Wolf Mountain]], there is a trapdoor on the northern-most side that when you examine it, it says "Don't you open that trapdoor!" This is a line of a song taken from ''{{wp|The Trap Door}}'', a children's cartoon.
+*There seems to be a glitch when the Lumbridge Home Teleport spell is cast. When the character is drawing the circle, then quickly opens a closed door in direct vicinity, the character will freeze for a moment, and the door will be open, even though the character has not yet turned to open it.
+*There was an unusable door in the north of [[Shilo Village (location)|Shilo Village]], on the top floor of the tower where [[Duradel]] lives. If you tried to open it, for some reason it would say "I don't think that's possible".
+*There is currently a glitch when you open and close a door repeatedly; it seems as if you walk through the door.
+*Almost all of the doors in ''Old School RuneScape'' have no animation. When you decide to click it, it just pops open without movement.
+*[[Gertrude]] has a spare door leaning up against the back of her house. Attempting to open it will yield the message {{mes|It looks about as open as it's ever going to be.}}
+
+==See also==
+*[[Ladder]]
+*[[Staircase]]
+[[Category:Interactive scenery]]
+[[Category:Mechanics]]

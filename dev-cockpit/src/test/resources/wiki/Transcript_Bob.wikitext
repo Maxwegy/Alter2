@@ -1,0 +1,36 @@
+{{Transcript|npc}}
+
+==Standard dialogue==
+* {{topt|Give me a quest!}}
+** '''Player:''' Give me a quest!
+** '''Bob:''' Get yer own!
+** {{tact|end}}
+* {{topt|Have you anything to sell?}}
+** '''Player:''' Have you anything to sell?
+** '''Bob:''' Yes! I buy and sell axes! Take your pick (or axe)!
+** {{tact|opens=Bob's Brilliant Axes.}}
+* {{topt|Can you repair my items for me?}}
+** '''Player:''' Can you repair my items for me?
+** '''Bob:''' Of course I'll repair it, though the materials may cost you. Just hand me the item and I'll have a look.
+** {{tact|end}}
+
+===Right click "Repair" option===
+* {{tcond|If the player has no repairable equipment:}}
+** '''Bob:''' You don't have anything I can repair.
+** {{tact|end}}
+* {{tcond|If the player has repairable equipment:}}
+** {{tselect|What would you like to do?}}
+** {{topt|Repair that item: [x] coins.}}
+*** {{tact|The item is repaired.}}
+*** '''Bob:''' There you go, happy doing business with you!
+*** {{tact|end}}
+** {{topt|Cancel.}}
+*** {{tact|end}}
+
+===Left click "Use" item on Bob===
+* {{tcond|If the item is repairable:}}
+** {{tselect|What would you like to do?}}
+*** {{tact|above}}
+* {{tcond|If the item is not repairable:}}
+** '''Bob:''' Sorry friend, but I can't do anything with that.
+** {{tact|end}}

@@ -1,0 +1,13 @@
+{
+ "bucketQuery": "bucket('infobox_shop').select('page_name','shop_name','owner','location','specialty','is_members_only').where('page_name','Lumbridge General Store').run()",
+ "bucket": [
+  {
+   "page_name": "Lumbridge General Store",
+   "is_members_only": false,
+   "location": "[[Lumbridge]]",
+   "owner": "[[Shop keeper (Lumbridge)|Shop keeper]], [[Shop assistant (Lumbridge)|Shop assistant]]",
+   "specialty": "General store",
+   "shop_name": "Lumbridge General Store"
+  }
+ ]
+}

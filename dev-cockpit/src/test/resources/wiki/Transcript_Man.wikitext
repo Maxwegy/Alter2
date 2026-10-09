@@ -1,0 +1,212 @@
+{{Transcript|npc}}
+
+==Standard dialogue==
+* {{trandom}}
+* {{topt|Dialogue 1}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Not too bad, but I'm a little worried about the increase of goblins these days.
+** '''Player:''' Don't worry, I'll kill them.
+** {{tact|end}}
+* {{topt|Dialogue 2}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' How can I help you?
+** {{topt|Do you want to trade?}}
+*** '''Player:''' Do you want to trade?
+*** '''Man:''' No, I have nothing I wish to get rid of. If you want to do some trading, there are plenty of shops and market stalls around though.
+*** {{tact|end}}
+** {{topt|I'm in search of a quest.}}
+*** '''Player:''' I'm in search of a quest.
+*** '''Man:''' I'm sorry I can't help you there.
+*** {{tact|end}}
+** {{topt|I'm in search of enemies to kill.}}
+*** '''Player:''' I'm in search of enemies to kill.
+*** '''Man:''' I've heard there are many fearsome creatures that dwell under the ground...
+*** {{tact|end}}
+* {{topt|Dialogue 3}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Get out of my way, I'm in a hurry!
+** {{tact|end}}
+* {{topt|Dialogue 4}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' I'm fine, how are you?
+** '''Player:''' Very well thank you.
+** {{tact|end}}
+* {{topt|Dialogue 5}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Hello there! Nice weather we've been having.
+** {{tact|end}}
+* {{topt|Dialogue 6}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' I'm very well thank you.
+** {{tact|end}}
+* {{topt|Dialogue 7}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Who are you?
+** '''Player:''' I'm a bold adventurer.
+** '''Man:''' Ah, a very noble profession.
+** {{tact|end}}
+* {{topt|Dialogue 8}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Do I know you? I'm in a hurry!
+** {{tact|end}}
+* {{topt|Dialogue 9}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' I think we need a new king. The one we've got isn't very good.
+** {{tact|end}}
+* {{topt|Dialogue 10}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Not too bad thanks.
+** {{tact|end}}
+* {{topt|Dialogue 11}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Are you asking for a fight?
+** {{qact|The man attacks the player}}
+** {{tact|end}}
+* {{topt|Dialogue 12}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' I'm busy right now.
+** {{tact|end}}
+* {{topt|Dialogue 13}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Hello.
+** {{tact|end}}
+* {{topt|Dialogue 14}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' None of your business.
+** {{tact|end}}
+* {{topt|Dialogue 15}}
+** '''Player:''' Hello, how's it going?
+** '''Player:''' Do you wish to trade?
+** '''Man:''' No, I have nothing I wish to get rid of. If you want to do some trading, there are plenty of shops and market stalls around though.
+** {{tact|end}}
+* {{topt|Dialogue 16}}
+** '''Player:''' Hello, how's it going?
+** '''Player:''' I'm in search of a quest.
+** '''Man:''' I'm sorry I can't help you there.
+** {{tact|end}}
+* {{topt|Dialogue 17}}
+** '''Player:''' Hello, how's it going?
+** '''Player:''' I'm in search of enemies to kill.
+** '''Man:''' I've heard there are many fearsome creatures that dwell under the ground...
+** {{tact|end}}
+* {{topt|Dialogue 18}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' No I don't have any spare change.
+** {{tact|end}}
+* {{topt|Dialogue 19}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' I'm a little worried - I've heard there's lots of people going about, killing citizens at random.
+** {{tact|end}}
+* {{topt|Dialogue 20}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' No, I don't want to buy anything!
+** {{tact|end}}
+* {{topt|Dialogue 21}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' That is classified information.
+** {{tact|end}}
+* {{topt|Dialogue 22}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Have this flyer...
+** {{tact|receives=a flyer}}
+** {{tact|end}}
+* {{topt|Dialogue 23}}
+** '''Player:''' Hello, how's it going?
+** '''Man:''' Yo, wassup!
+** {{tact|end}}
+
+===Contacting through [[Astral Contact]]s Random option===
+* '''Player:''' Hello.
+* '''Man:''' Excuse me!
+* '''Player:''' Oh sorry, what did I do?
+* '''Man:''' Can't you see I'm on the toilet?
+* '''Player:''' Wait a minute... a toilet?
+* '''Man:''' Yeah. A toilet.
+* '''Player:''' Riiiight. Oh, man, you didn't wipe your hands?
+* '''Man:''' Get over it.
+* {{tact|end}}
+
+===The Fancily Clad Man in the house south-east of the Falador Park===
+* '''Player:''' Hello.
+* '''Man:''' What are you doing in my house?
+* '''Player:''' I was just exploring.
+* '''Man:''' You're exploring my house?
+* '''Player:''' You don't mind, do you?
+* '''Man:''' But... why are you exploring in my house?
+* '''Player:''' Oh, I don't know, I just wandered in, saw you and thought it'd be fun to speak to you.
+* '''Man:''' ... you are very strange...
+* '''Player:''' Perhaps I should go now.
+* '''Man:''' Yes, please go away now.
+* {{tact|end}}
+* {{qact|NPC backs away from the player}}
+
+===The man with the pink cap in the house north-east of the Falador fountain===
+* '''Player:''' Hello.
+* '''Man:''' [Good day, sir/Good day, madam/Good day]. What brings you to this end of town?
+* '''Player:''' Well, what is there to do around here?
+* '''Man:''' If you're into Mining, plenty! The dwarves have one of the largest mines in the world just under our feet. There's an entrance in the building just north-east of my house.
+* '''Man:''' If you'd rather enjoy yourself, there's the party room just north of here! Or you might like to climb up onto the city wall - you can get a good view of Falador from there.
+* '''Player:''' Thanks.
+* {{tact|end}}
+
+===The suited man on the top floor of the [[Blue Moon Inn]] or the [[Jolly Boar Inn]]===
+* '''Player:''' Hello.
+* '''Man:''' ... whassup?
+* '''Player:''' Are you alright?
+* '''Man:''' ... see... two of you... why there two of you?
+* '''Player:''' There's only one of me, friend.
+* '''Man:''' ... no, two of you... you can't count... ... maybe you drunk too much...
+* '''Player:''' Whatever you say, friend.
+* '''Man:''' ... giant hairy cabbages...
+* {{tact|end}}
+
+===Man with backpack by Musa Point===
+* {{trandom}}
+* {{topt|Dialogue 1}}
+** '''Man:''' Molten lava! MOLTEN LAVA!
+** {{tact|end}}
+* {{topt|Dialogue 2}}
+** '''Man:''' Snakes! Snakes! Ohhhh, there are snakes!
+** {{tact|end}}
+* {{topt|Dialogue 3}}
+** '''Man:''' Why don't I have a 'Teleport Home to Lumbridge' button like everyone else?
+** {{tact|end}}
+* {{topt|Dialogue 4}}
+** '''Man:''' Too many monkeys - I can't stand it!
+** {{tact|end}}
+* {{topt|Dialogue 5}}
+** '''Man:''' I should have stayed in Port Sarim.
+** {{tact|end}}
+* {{topt|Dialogue 6}}
+** '''Man:''' So... many... trees...
+** {{tact|end}}
+* {{topt|Dialogue 7}}
+** '''Man:''' I can't take the heat!
+** {{tact|end}}
+
+==Overhead dialogue for the Falador men==
+===When the [[Falador Party Room|Party Room]] chest contains more than 50,000 or 76,000 coins in Grand Exchange value (on a F2P or members' world respectively)===
+* {{trandom}}
+* {{topt|Dialogue 1}}
+** '''Man:''' {{overhead|Party! Party!}}
+* {{topt|Dialogue 2}}
+** '''Man:''' {{overhead|Something's happening in the party room!}}
+* {{topt|Dialogue 3}}
+** '''Man:''' {{overhead|Everyone get to the party room!}}
+* {{topt|Dialogue 4}}
+** '''Man:''' {{overhead|What's happening in the party room?}}
+* {{topt|Dialogue 5}}
+** '''Man:''' {{overhead|Someone's having a big party!}}
+
+===When the lever is pulled===
+* {{trandom}}
+* {{topt|Dialogue 1}}
+** '''Man:''' {{overhead|Get to the party room NOW!}}
+* {{topt|Dialogue 2}}
+** '''Man:''' {{overhead|Get to the party room!}}
+* {{topt|Dialogue 3}}
+** '''Man:''' {{overhead|Get to the party room quick!}}
+* {{topt|Dialogue 4}}
+** '''Man:''' {{overhead|Big value items in the party room now!}}
+* {{topt|Dialogue 5}}
+** '''Man:''' {{overhead|Quick! Get to the party room!}}

@@ -1,0 +1,4 @@
+{
+ "bucketQuery": "bucket('dropsline').select('page_name_sub','item_name','drop_json').where('page_name','Man').where('drop_json','%pickpocket%').limit(5).run()",
+ "bucket": []
+}
