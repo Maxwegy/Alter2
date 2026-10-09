@@ -9,6 +9,8 @@ dependencies {
     implementation(rootProject.projects.plugins.filestore)
     implementation(rootProject.projects.plugins.rscm)
     implementation(lib.routefinder)
+    implementation(projects.alterData)
+    implementation(lib.kotlinx.coroutines)
 }
 
 tasks.named<Jar>("jar") {
