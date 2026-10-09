@@ -14,7 +14,7 @@ import org.alter.cockpit.auth.Role
 import org.alter.cockpit.events.EventBus
 import org.alter.cockpit.inbox.InboxService
 import org.alter.cockpit.inbox.PlanStep
-import org.alter.cockpit.inbox.ResolveWikiPageExecutor
+import org.alter.cockpit.inbox.EnrichExecutor
 import org.alter.cockpit.inbox.ServerStartExecutor
 import org.alter.cockpit.inbox.sources.MissingContentSource
 import org.alter.cockpit.server.CockpitServer
@@ -26,13 +26,24 @@ import org.alter.cockpit.supervisor.AdminClient
 import org.alter.cockpit.supervisor.GameServerSupervisor
 import org.alter.cockpit.supervisor.LogTail
 import org.alter.cockpit.wiki.PageResolver
+import org.alter.cockpit.workorders.EnrichmentService
+import org.alter.cockpit.workorders.PickpocketEnricher
+import org.alter.cockpit.workorders.RecipeEnricher
+import org.alter.cockpit.workorders.SceneryEnricher
+import org.alter.cockpit.workorders.TalkToEnricher
+import org.alter.cockpit.workorders.TradeEnricher
+import org.alter.cockpit.workorders.WikiPages
+import org.alter.cockpit.workorders.WikiUrls
 import org.alter.data.config.DataPaths
 import org.alter.data.config.InfraConfig
+import org.alter.data.http.WikiHttpClient
 import org.alter.data.io.AtomicFiles
 import org.alter.data.missing.MissingContentEvent
+import org.alter.data.wiki.WikiBucketClient
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.attribute.PosixFilePermissions
+import java.time.Duration
 import java.time.Instant
 
 /** Wiring only: builds every part with its dependencies and runs the background loops. */
@@ -45,6 +56,7 @@ class Cockpit private constructor(
     private val logTail: LogTail,
     private val missingSource: MissingContentSource,
     private val server: CockpitServer,
+    private val wikiHttp: WikiHttpClient,
 ) : AutoCloseable {
     private val logger = KotlinLogging.logger {}
     private var engine: EmbeddedServer<*, *>? = null
@@ -73,6 +85,7 @@ class Cockpit private constructor(
     override fun close() {
         engine?.stop(1_000, 2_000)
         scope.cancel()
+        wikiHttp.close()
         db.close()
     }
 
@@ -103,10 +116,18 @@ class Cockpit private constructor(
                     )
                 }
             }
-            inbox = InboxService(InboxStore(db), audit, bus, listOf(ResolveWikiPageExecutor(resolver), ServerStartExecutor(supervisor)), scope)
-            val missingSource = MissingContentSource(paths.missingContent, inbox, resolver, config.inbox.minCountForCard, config.inbox.missingContentPollSeconds * 1_000)
+            val wikiHttp = WikiHttpClient(infra.wiki)
+            val enrichment = EnrichmentService(
+                resolver,
+                WikiPages(wikiHttp, paths.cockpitDir.resolve("wiki-pages"), Duration.ofHours(infra.wiki.rawCacheTtlHours)),
+                WikiBucketClient(wikiHttp),
+                WikiUrls(),
+                listOf(TalkToEnricher(), TradeEnricher(), PickpocketEnricher(), SceneryEnricher(), RecipeEnricher()),
+            )
+            inbox = InboxService(InboxStore(db), audit, bus, listOf(EnrichExecutor(enrichment), ServerStartExecutor(supervisor)), scope)
+            val missingSource = MissingContentSource(paths.missingContent, inbox, enrichment::plan, config.inbox.minCountForCard, config.inbox.missingContentPollSeconds * 1_000)
             val server = CockpitServer(config, tokens, audit, inbox, bus, supervisor, logTail, paths.missingContent)
-            return Cockpit(db, scope, bus, inbox, supervisor, logTail, missingSource, server)
+            return Cockpit(db, scope, bus, inbox, supervisor, logTail, missingSource, server, wikiHttp)
         }
 
         /**

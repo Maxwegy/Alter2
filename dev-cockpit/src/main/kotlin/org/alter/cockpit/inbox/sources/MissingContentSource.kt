@@ -5,6 +5,7 @@ import io.github.oshai.kotlinlogging.KotlinLogging
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import org.alter.cockpit.Json
+import org.alter.cockpit.inbox.InboxAction
 import org.alter.cockpit.inbox.InboxService
 import org.alter.cockpit.inbox.PlanStep
 import org.alter.cockpit.wiki.PageResolver
@@ -22,7 +23,8 @@ import kotlin.coroutines.coroutineContext
 class MissingContentSource(
     private val file: Path,
     private val inbox: InboxService,
-    private val resolver: PageResolver,
+    /** The exact requests GO would make for these params, shown on the card ([EnrichmentService.plan]). */
+    private val planner: (Map<String, Any?>) -> List<PlanStep>,
     private val minCount: Long = 1,
     private val pollMs: Long = 30_000,
 ) {
@@ -60,25 +62,26 @@ class MissingContentSource(
         if (entry.count >= minCount) propose(entry)
     }
 
-    private fun propose(entry: MissingContentEntry) = inbox.propose(
-        kind = "enrich.${entry.type.lowercase()}",
-        sourceKey = "missing:${entry.key}",
-        title = title(entry),
-        summary = "${entry.count}× since ${entry.firstSeen.take(10)}, last ${entry.lastSeen.take(16).replace('T', ' ')}" +
-            (entry.locations.firstOrNull()?.let { " near ${it.x},${it.z},${it.height}" } ?: ""),
-        evidence = mapOf(
-            "key" to entry.key, "type" to entry.type, "id" to entry.id, "rawId" to entry.rawId, "op" to entry.op,
-            "usedId" to entry.usedId, "component" to entry.component, "name" to entry.name, "optionName" to entry.optionName,
-            "count" to entry.count, "firstSeen" to entry.firstSeen, "lastSeen" to entry.lastSeen,
-            "locations" to entry.locations.map { mapOf("x" to it.x, "z" to it.z, "height" to it.height) },
-        ),
-        plan = plan(entry),
-        params = mapOf("type" to entry.type, "id" to entry.id, "name" to entry.name, "optionName" to entry.optionName, "lookupType" to PageResolver.lookupType(entry.type)),
-    )
-
-    private fun plan(entry: MissingContentEntry): List<PlanStep> {
-        val lookupType = PageResolver.lookupType(entry.type) ?: return emptyList()
-        return listOf(PlanStep(PlanStep.REQUEST, "Find the wiki page for $lookupType ${entry.id}", resolver.lookupUrl(lookupType, entry.id)))
+    private fun propose(entry: MissingContentEntry): InboxAction? {
+        val params = mapOf(
+            "type" to entry.type, "id" to entry.id, "usedId" to entry.usedId.takeIf { it >= 0 }, "name" to entry.name,
+            "optionName" to entry.optionName, "lookupType" to PageResolver.lookupType(entry.type),
+        )
+        return inbox.propose(
+            kind = "enrich.${entry.type.lowercase()}",
+            sourceKey = "missing:${entry.key}",
+            title = title(entry),
+            summary = "${entry.count}× since ${entry.firstSeen.take(10)}, last ${entry.lastSeen.take(16).replace('T', ' ')}" +
+                (entry.locations.firstOrNull()?.let { " near ${it.x},${it.z},${it.height}" } ?: ""),
+            evidence = mapOf(
+                "key" to entry.key, "type" to entry.type, "id" to entry.id, "rawId" to entry.rawId, "op" to entry.op,
+                "usedId" to entry.usedId, "component" to entry.component, "name" to entry.name, "optionName" to entry.optionName,
+                "count" to entry.count, "firstSeen" to entry.firstSeen, "lastSeen" to entry.lastSeen,
+                "locations" to entry.locations.map { mapOf("x" to it.x, "z" to it.z, "height" to it.height) },
+            ),
+            plan = planner(params),
+            params = params,
+        )
     }
 
     companion object {
