@@ -24,7 +24,10 @@ class GameDataService(private val snapshotDir: Path) : Service {
     var repository: GameDataRepository = SnapshotRepository.EMPTY
         private set
 
-    override fun init(server: Server, world: World, serviceProperties: ServerProperties) {
+    override fun init(server: Server, world: World, serviceProperties: ServerProperties) = load()
+
+    /** Loads the snapshot (also usable without a running world, e.g. in tests). */
+    fun load() {
         val started = System.currentTimeMillis()
         when (val result = SnapshotRepository.load(snapshotDir)) {
             SnapshotRepository.LoadResult.Missing ->

@@ -8,6 +8,7 @@ import org.alter.game.Server
 import org.alter.game.model.World
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
+import org.alter.plugins.content.infrastructure.drops.DropDataService
 import org.alter.plugins.content.infrastructure.missingcontent.MissingContentService
 import org.alter.plugins.content.infrastructure.npcs.NpcDataService
 
@@ -33,6 +34,7 @@ class InfrastructurePlugin(
         val gameData = GameDataService(paths.wikiSnapshot)
         loadService(gameData)
         loadService(NpcDataService(gameData, paths.npcOverrides))
+        loadService(DropDataService(gameData, paths.dropOverrides))
         if (config.missingContent.enabled) {
             loadService(
                 MissingContentService(
