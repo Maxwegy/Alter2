@@ -58,6 +58,9 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: 6px
 .card summary { cursor: pointer; color: var(--muted); }
 .card .error { color: var(--danger); }
 .card .result { color: var(--ok); }
+.card .scaffold { margin-top: .75rem; border-top: 1px solid var(--border); padding-top: .5rem; }
+.card .scaffold .manual { color: var(--warn); margin: .4rem 0; padding-left: 1.2rem; }
+.card .scaffold .files { margin: .4rem 0; padding-left: 1.2rem; }
 table { width: 100%; border-collapse: collapse; }
 th, td { text-align: left; padding: .4rem .5rem; border-bottom: 1px solid var(--border); vertical-align: top; }
 th { color: var(--muted); font-weight: 500; }
