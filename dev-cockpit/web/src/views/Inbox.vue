@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, watch } from 'vue'
 import { api, type ActionStatus, type CockpitEvent, type InboxAction, type Principal } from '../api'
+import Enrichment from './Enrichment.vue'
 
 const props = defineProps<{ me: Principal; lastEvent: CockpitEvent | null }>()
 const emit = defineEmits<{ error: [message: string] }>()
@@ -98,10 +99,8 @@ onMounted(load)
     </div>
     <div class="kind">{{ card.kind }} · {{ card.summary }} · updated {{ when(card.updatedAt) }}</div>
     <div v-if="card.error" class="error">{{ card.error }}</div>
-    <div v-if="card.result" class="result">
-      <template v-if="card.result.pageUrl">Wiki page: <a :href="String(card.result.pageUrl)" target="_blank" rel="noopener">{{ card.result.pageUrl }}</a></template>
-      <template v-else>{{ JSON.stringify(card.result) }}</template>
-    </div>
+    <Enrichment v-if="card.result?.kind" :result="card.result" />
+    <div v-else-if="card.result" class="result">{{ JSON.stringify(card.result) }}</div>
     <div v-if="card.decisionReason" class="muted">Reason: {{ card.decisionReason }}</div>
 
     <details>
