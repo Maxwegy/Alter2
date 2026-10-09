@@ -20,3 +20,18 @@ dependencies {
     testImplementation(lib.kotlinx.coroutines.test)
     testFixturesImplementation(rootProject.projects.plugins.filestore)
 }
+
+/**
+ * Regenerates the committed OSRS Wiki snapshot in data/cfg/wiki. Runs from game-server/ so ../data resolves
+ * like it does for the server. Pass flags with -PwikiArgs="--offline" or -PwikiArgs="--refresh".
+ */
+tasks.register<JavaExec>("wikiSync") {
+    group = "alter data"
+    description = "Fetch the OSRS Wiki data and rewrite data/cfg/wiki"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("org.alter.data.cli.WikiSyncMainKt")
+    workingDir = rootProject.file("game-server")
+    maxHeapSize = "3g"
+    args(providers.gradleProperty("wikiArgs").map { it.split(' ').filter(String::isNotBlank) }.getOrElse(emptyList()))
+    outputs.upToDateWhen { false }
+}
