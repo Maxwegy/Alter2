@@ -1,5 +1,6 @@
 package org.alter.plugins.content.infrastructure
 
+import org.alter.plugins.content.infrastructure.items.ItemStatsService
 import org.alter.data.config.DataPaths
 import org.alter.data.config.InfraConfig
 import org.alter.data.io.IoScope
@@ -35,6 +36,7 @@ class InfrastructurePlugin(
         loadService(gameData)
         loadService(NpcDataService(gameData, paths.npcOverrides))
         loadService(DropDataService(gameData, paths.dropOverrides))
+        loadService(ItemStatsService(gameData))
         if (config.missingContent.enabled) {
             loadService(
                 MissingContentService(

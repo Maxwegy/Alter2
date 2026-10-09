@@ -1,5 +1,6 @@
 package org.alter.plugins.content.commands.commands.developer
 
+import org.alter.plugins.content.infrastructure.items.ItemStatsService
 import dev.openrune.cache.CacheManager.itemSize
 import org.alter.api.*
 import org.alter.api.cfg.*
@@ -31,6 +32,8 @@ class ReloaditemPlugin(
     init {
         onCommand("reloaditems", Privilege.DEV_POWER, description = "Reload all itemdefs") {
             world.getService(ItemMetadataService::class.java)!!.loadAll()
+            // loadAll resets stats from the cache; put the wiki gap-fill back on top.
+            world.getService(ItemStatsService::class.java)?.apply()
             player.message("All items were reloaded. Defs: ${itemSize()} Took: ${world.getService(ItemMetadataService::class.java)!!.ms} ms.")
         }
 
