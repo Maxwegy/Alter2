@@ -35,3 +35,9 @@ missingContent:
   flushIntervalSeconds: 30
   maxLocationsPerEntry: 5
   devMessageCooldownSeconds: 60
+
+admin:
+  # Local control API for scripts/alter and the Dev Cockpit. Bound to 127.0.0.1 only; every request needs the
+  # token written to data/run/server.json at startup.
+  enabled: true
+  port: 43595

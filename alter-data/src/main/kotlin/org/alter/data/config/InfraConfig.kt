@@ -13,7 +13,14 @@ import java.nio.file.Path
 data class InfraConfig(
     val wiki: Wiki = Wiki(),
     val missingContent: MissingContent = MissingContent(),
+    val admin: Admin = Admin(),
 ) {
+    /** The local control API used by the `alter` launcher and the Dev Cockpit (127.0.0.1 only, token-protected). */
+    data class Admin(
+        val enabled: Boolean = true,
+        val port: Int = 43595,
+    )
+
     data class Wiki(
         /** Contact shown in the User-Agent (email, Discord or URL). The OSRS Wiki asks API users for one. */
         val contact: String = "",
