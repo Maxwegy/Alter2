@@ -1,5 +1,6 @@
 package org.alter.plugins.api.ext
 
+import gg.rsmod.util.BuildInfo
 import dev.openrune.cache.CacheManager
 import dev.openrune.cache.CacheManager.itemSize
 import org.alter.api.ext.transfer
@@ -78,7 +79,7 @@ class ContainerExtTests {
             val path = Paths.get("../data", "cache")
             check(Files.exists(path)) { "Path does not exist: ${path.toAbsolutePath()}" }
 
-            CacheManager.init(path, 228)
+            CacheManager.init(path, BuildInfo.REVISION)
 
             assertNotEquals(itemSize(), 0)
         }

@@ -1,6 +1,8 @@
 package org.alter.game
 
 import dev.openrune.cache.CacheManager
+import gg.rsmod.util.BuildInfo
+import gg.rsmod.util.RevisionGuard
 import gg.rsmod.util.ServerProperties
 import gg.rsmod.util.Stopwatch
 import io.github.oshai.kotlinlogging.KotlinLogging
@@ -23,6 +25,7 @@ import java.nio.file.Path
 import java.nio.file.Paths
 import java.text.DecimalFormat
 import java.util.concurrent.TimeUnit
+import kotlin.system.exitProcess
 
 /**
  * The [Server] is responsible for starting any and all games.
@@ -84,13 +87,25 @@ class Server {
         logger.info{"Loaded properties for ${gameProperties.get<String>("name")!!}."}
 
         /*
+         * The revision comes from gradle.properties via BuildInfo. A legacy `revision` key in
+         * game.yml must agree, and so must the staged cache's manifest when one exists.
+         */
+        when (val guard = RevisionGuard.check(BuildInfo.REVISION, gameProperties.get<Int>("revision"), filestore.resolve("cache-manifest.json"))) {
+            is RevisionGuard.Result.Fatal -> {
+                logger.error { guard.message }
+                exitProcess(1)
+            }
+            is RevisionGuard.Result.Ok -> guard.warnings.forEach { warning -> logger.warn { warning } }
+        }
+
+        /*
          * Create a game context for our configurations and services to run.
          */
         val gameContext =
             GameContext(
                 initialLaunch = initialLaunch,
                 name = gameProperties.get<String>("name")!!,
-                revision = gameProperties.get<Int>("revision")!!,
+                revision = BuildInfo.REVISION,
                 saveFormat = SaveFormatType.valueOf(gameProperties.get<String>("saveFormat")?: "JSON"),
                 cycleTime = gameProperties.getOrDefault("cycle-time", 600),
                 playerLimit = gameProperties.getOrDefault("max-players", 2048),

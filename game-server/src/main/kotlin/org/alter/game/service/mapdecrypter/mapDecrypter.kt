@@ -1,5 +1,6 @@
 package org.alter.game.service.mapdecrypter
 
+import gg.rsmod.util.BuildInfo
 import dev.openrune.cache.tools.Builder
 import dev.openrune.cache.tools.CacheTool
 import org.alter.game.service.Service
@@ -18,7 +19,7 @@ class decryptMap : Service {
             val backupXteaLocation = xteaLocation.resolveSibling("xteas.json.backup")
 
             val cacheTool = CacheTool(
-                Builder(type = TaskType.BUILD, revision = 228).apply {
+                Builder(type = TaskType.BUILD, revision = BuildInfo.REVISION).apply {
                     extraTasks = arrayOf(
                         RemoveXteas(xteaLocation = xteaLocation.toFile())
                     )

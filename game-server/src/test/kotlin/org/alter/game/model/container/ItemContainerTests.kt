@@ -1,5 +1,6 @@
 package org.alter.game.model.container
 
+import gg.rsmod.util.BuildInfo
 import dev.openrune.cache.CacheManager
 import dev.openrune.cache.CacheManager.itemSize
 import org.junit.BeforeClass
@@ -131,7 +132,7 @@ class ItemContainerTests {
         fun loadCache() {
             val path = Paths.get("..", "data", "cache")
 
-            CacheManager.init(path, 228)
+            CacheManager.init(path, BuildInfo.REVISION)
 
             assertNotEquals(itemSize(), 0)
         }
