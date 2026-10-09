@@ -46,8 +46,11 @@ Template semantics, from [Template:Map/doc](https://oldschool.runescape.wiki/w/T
   `rect` is not a value.
 - Pins "mark things that take up a 1x1 space or otherwise have an exact X/Y location".
 - A rectangle is "defined by a single point" with side lengths `rectX`/`rectY` (defaults 20, minimum 1).
-  Circles and squares take "a centre point" plus `r`. The doc does **not** say whether the rectangle's point is
-  its centre or a corner, nor the units of `rectX`/`rectY` (tiles are implied by the coordinates).
+  Circles and squares take "a centre point" plus `r`. The doc leaves the rectangle's anchor open, but the
+  template's Lua (https://oldschool.runescape.wiki/w/Module:Map, `feat.rectangle`) settles it: the coordinate is
+  the **centre**, `rectX`/`rectY` are **full side lengths** in tiles, halved with `math.floor`
+  (`xLeft = x - floor(rectX/2)`, `xRight = x + floor(rectX/2)`, plus one extra tile on the east/north side when
+  the length is odd). Hans's `3212,3219 rectX=23 rectY=31` is therefore x 3201–3224, y 3204–3235.
 - `plane` is 0–3, default 0.
 - Several pins in one template are several coordinates; several Maps are several locations.
 
@@ -86,10 +89,8 @@ pawn)` and the collision map are public today.
 
 **Open questions.**
 
-1. *Is the rectangle's coordinate its centre or its south-west corner, and are `rectX`/`rectY` full side
-   lengths?* Answer by reading the template's Lua (`Module:Map` on the wiki) and by checking Hans: a 23×31
-   rectangle at 3212,3219 is Lumbridge Castle's ground floor; compare against the castle's walkable bounds in our
-   collision map. One fixture test then locks the interpretation.
+1. *Rectangle anchor:* answered above from `Module:Map` (centre, full side lengths). A fixture test on Hans
+   locks the bounds (x 3201–3224, y 3204–3235) once the parser exists.
 2. *Which tile of a rectangle becomes the spawn?* Proposal: the rectangle's centre if walkable, else the nearest
    walkable tile inside it; `walkRadius` = half the smaller side. Pins spawn exactly there with `walkRadius` 0.
 3. *How many NPC pages give several Maps for several ids?* Count during the first enricher run and report it.
