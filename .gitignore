@@ -27,3 +27,7 @@ dump.hprof
 /data/logs/
 /data/missing_content.json
 /data/run/
+/data/cockpit/
+/dev-cockpit/web/node_modules/
+/dev-cockpit/web/dist/
+/dev-cockpit/.gradle/

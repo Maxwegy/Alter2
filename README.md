@@ -41,6 +41,9 @@ Due to the plugin capabilities, even owners without programming experience can j
 ### Running from the command line
 Without IntelliJ, `scripts/alter.sh up` (or `.\scriptslter.ps1 up` on Windows) builds and starts the server in the background; `down`, `restart`, `status` and `logs` control it. Docker (`docker compose up -d --build`) and systemd are supported too. See [docs/server-control.md](docs/server-control.md).
 
+### Dev Cockpit
+`./gradlew :dev-cockpit:run` starts a local control center at http://127.0.0.1:43600 with an inbox of unscripted content, server start/stop/restart and an audit log. See [docs/dev-cockpit.md](docs/dev-cockpit.md).
+
 > [!NOTE]
 > When you have Intellij Open, navigate to `File` -> `Project Structure` -> And make sure SDK is set to `17 java version 17.x.x`
 > 

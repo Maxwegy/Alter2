@@ -26,6 +26,7 @@ dependencyResolutionManagement {
 
 include(":util")
 include(":alter-data")
+include(":dev-cockpit")
 include(":game-plugins")
 include(":game-api")
 include(":game-server")

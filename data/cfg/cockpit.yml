@@ -1,0 +1,16 @@
+# Alter2 Dev Cockpit (dev-cockpit module). Every value here is the default; the file may be partial.
+# Run with: ./gradlew :dev-cockpit:run
+
+# Loopback only. Changing this exposes server control to the network; the token is the only lock.
+bindAddress: 127.0.0.1
+port: 43600
+
+supervisor:
+  javaOpts: -Xmx3g
+  restartExitCode: 75
+  stopTimeoutSeconds: 90
+  logTailLines: 500
+
+inbox:
+  missingContentPollSeconds: 30
+  minCountForCard: 1
