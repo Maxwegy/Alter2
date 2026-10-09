@@ -75,16 +75,21 @@ class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef:
         val target = dir.resolve(file.path)
         Files.createDirectories(target.parent)
         when (file.mode) {
-            ScaffoldFile.JSON_APPEND -> {
-                val existing: MutableList<Any?> = if (Files.exists(target)) Json.mapper.readValue(target.toFile()) else mutableListOf()
-                val element = Json.mapper.readValue<Any?>(file.content)
-                // Idempotent: previewing twice must not append twice.
-                if (element !in existing) existing += element
-                Files.writeString(target, Json.prettyLf.writeValueAsString(existing) + "\n")
-            }
+            ScaffoldFile.JSON_APPEND -> Files.writeString(target, appendToJsonArray(if (Files.exists(target)) Files.readString(target) else "[]", file.content))
             else -> Files.writeString(target, file.content)
         }
         return PreviewFile(file.path, file.mode, applied = true)
+    }
+
+    /** Appends [element] before the array's closing bracket, keeping the file's own formatting so the diff is only the new entry. */
+    internal fun appendToJsonArray(text: String, element: String): String {
+        val existing: List<Any?> = Json.mapper.readValue(text)
+        val parsed = Json.mapper.readValue<Any?>(element)
+        if (parsed in existing) return text // idempotent: previewing twice must not append twice
+        val close = text.lastIndexOf(']').takeIf { it >= 0 } ?: throw IllegalStateException("Not a JSON array file")
+        val head = text.substring(0, close).trimEnd()
+        val pretty = Json.prettyLf.writeValueAsString(parsed).lines().joinToString("\n") { "  $it" }
+        return head + (if (existing.isEmpty()) "\n" else ",\n") + pretty + "\n]\n"
     }
 
     private fun git(dir: Path, vararg args: String): String {

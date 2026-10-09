@@ -53,8 +53,9 @@ class ScaffoldWorkspaceTests {
         assertTrue(preview.diff.contains("+class HansPlugin"))
         assertTrue(preview.diff.contains("\"b\" : 2"))
         assertFalse(preview.diff.contains("closed"))
-        // Same layout as the committed config files (pickpockets.json, single-doors.json), LF on every OS.
-        assertEquals("[\n  {\n    \"a\" : 1\n  },\n  {\n    \"b\" : 2\n  }\n]\n", Files.readString(Path.of(preview.worktree).resolve("data/cfg/list.json")))
+        // The existing content keeps its formatting; only the new entry is added, so the diff is just that entry.
+        assertEquals("[ {\"a\": 1},\n  {\n    \"b\" : 2\n  }\n]\n", Files.readString(Path.of(preview.worktree).resolve("data/cfg/list.json")))
+        assertEquals(listOf("+  {", "+    \"b\" : 2", "+  }", "+]"), preview.diff.lines().filter { it.startsWith("+") && !it.startsWith("+++") }.filter { "b" in it || it == "+  {" || it == "+  }" || it == "+]" })
         // main is untouched
         assertEquals("hello\n", Files.readString(repo.resolve("README.md")))
         assertFalse(Files.exists(repo.resolve("src/HansPlugin.kt")))
