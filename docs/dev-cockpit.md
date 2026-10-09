@@ -30,6 +30,22 @@ A card's `sourceKey` identifies what it is about, so a source refreshes the evid
 
 Card states: `PENDING` → (`SNOOZED`) → `RUNNING` → `DONE` or `FAILED` (retry with GO), or `DELETED`.
 
+## Scaffolds (work orders, part 2)
+
+After GO, a **Scaffold** button turns the enrichment into files on a branch and shows the diff; **Apply to branch** commits them; **Discard** removes the branch and worktree. Nothing touches `main` and nothing is pushed: each card gets a git worktree under `data/cockpit/worktrees/<card>` on a `cockpit/<kind>-<name>-<id>` branch cut from `workorders.baseRef` (`main`).
+
+| Enrichment | Scaffold | Notes a human must act on |
+|---|---|---|
+| talk-to | `<Name>Plugin.kt` in `areas/<location>/npcs` when that package exists (else `content/generated`): `onNpcOption(..., "talk-to")` and a `dialog()` mirroring the standard section (chatNpc/chatPlayer, option menus, random greetings, conditions as TODOs) | quest-state sections are listed, not generated; shops opened need `createShop` |
+| trade | a shop plugin: `createShop` with the wiki stock as `ShopItem(getRSCM(...), stock, sell, buy)` and `onNpcOption(..., "trade")` | items missing from `item.rscm`, non-coin currencies, restock times |
+| pickpocket | an entry appended to `data/cfg/thieving/pickpockets.json` (loot from the thieving lines, weight = wiki rarity in percent) | thieving xp, stun and success rates |
+| scenery Open/Close | a `single-doors.json` entry; not applyable until the other state's id is filled in | find the opened/closed object id |
+| scenery Climb | `onObjOption(..., "climb-up")` stub | the destination tile |
+| recipe | `onItemOnObj`/`onItemOnItem` stub with level check, material removal, output and xp | animation, timing, failure |
+| anything else | a plugin skeleton with the matching hook | everything |
+
+Generated code says where it came from (wiki URLs, CC BY-NC-SA 3.0) and is a reviewed starting point, never merged blindly.
+
 ## Server control
 
 The supervisor finds the game server through `data/run/server.json` and its admin API, so it also sees a server started by `scripts/alter`, IntelliJ or Docker. Start launches the installed distribution (`./gradlew :game-server:installDist` first) from `game-server/` with `supervisor.javaOpts`, console output to `data/logs/console.log`; a managed server that exits with code 75 (`::update`, Restart) is started again. Stop and Restart go through the admin API, so players are logged out and saved; if the API is unreachable and the process is the cockpit's, it is destroyed after `stopTimeoutSeconds`.
@@ -56,6 +72,7 @@ All under `/api`; JSON in and out; every route except `/api/health` needs a toke
 | `POST /server/start`, `/server/stop?ticks=`, `/server/restart?ticks=`, `/server/wiki-reload` | dev | control |
 | `GET /inbox?status=`, `GET /inbox/counts`, `GET /inbox/{id}` | viewer | cards |
 | `POST /inbox/{id}/go` `{params?}`, `/edit` `{params}`, `/delete` `{reason}`, `/snooze` `{hours|until}` | dev | decisions |
+| `POST /inbox/{id}/scaffold`, `/apply`, `/discard` | dev | generate and preview files on a branch, commit them, throw them away |
 | `GET /audit?limit=&before=` | viewer | audit entries, newest first |
 | `GET /missing?limit=` | viewer | the raw missing-content file |
 | `GET /tokens`, `POST /tokens` `{role,label}`, `DELETE /tokens/{id}` | owner | token management |
