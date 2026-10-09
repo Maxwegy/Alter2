@@ -1,0 +1,30 @@
+{
+  "page" : "Cave abomination",
+  "versions" : [
+    {
+      "source" : "Cave abomination",
+      "ids" : [
+        7401
+      ],
+      "names" : [
+        "npc.cave_abomination"
+      ],
+      "combatLevel" : 206,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 230, "strength" : 195, "defence" : 142, "ranged" : 1, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 1300.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] }
+    }
+  ]
+}

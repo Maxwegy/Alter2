@@ -1,0 +1,217 @@
+{
+  "page" : "White Knight",
+  "versions" : [
+    {
+      "source" : "White Knight#Acolyte (f)",
+      "version" : "Acolyte (f)",
+      "ids" : [
+        11950
+      ],
+      "names" : [
+        "npc.white_knight_11950"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 29, "defence" : 27, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Acolyte (m)",
+      "version" : "Acolyte (m)",
+      "ids" : [
+        1800
+      ],
+      "names" : [
+        "npc.white_knight_1800"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 29, "defence" : 27, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Initiate (f)",
+      "version" : "Initiate (f)",
+      "ids" : [
+        11892,
+        11948
+      ],
+      "names" : [
+        "npc.white_knight_11892",
+        "npc.white_knight_11948"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 29, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Initiate (m)",
+      "version" : "Initiate (m)",
+      "ids" : [
+        1798,
+        8149
+      ],
+      "names" : [
+        "npc.white_knight",
+        "npc.white_knight_8149"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 29, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Partisan (f)",
+      "version" : "Partisan (f)",
+      "ids" : [
+        11951
+      ],
+      "names" : [
+        "npc.white_knight_11951"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 55,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 35, "defence" : 27, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 85, "lightRangedDefence" : 85, "heavyRangedDefence" : 65, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Partisan (m)",
+      "version" : "Partisan (m)",
+      "ids" : [
+        1829
+      ],
+      "names" : [
+        "npc.white_knight_1829"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 55,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 35, "defence" : 27, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 85, "lightRangedDefence" : 85, "heavyRangedDefence" : 65, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Proselyte (f)",
+      "version" : "Proselyte (f)",
+      "ids" : [
+        11949
+      ],
+      "names" : [
+        "npc.white_knight_11949"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 29, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "White Knight#Proselyte (m)",
+      "version" : "Proselyte (m)",
+      "ids" : [
+        1799
+      ],
+      "names" : [
+        "npc.white_knight_1799"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 29, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

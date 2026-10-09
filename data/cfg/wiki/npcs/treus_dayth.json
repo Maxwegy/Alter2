@@ -1,0 +1,37 @@
+{
+  "page" : "Treus Dayth",
+  "versions" : [
+    {
+      "source" : "Treus Dayth#In combat",
+      "ids" : [
+        3616
+      ],
+      "names" : [
+        "npc.treus_dayth"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15 (Ranged)",
+        "8 (Crush)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

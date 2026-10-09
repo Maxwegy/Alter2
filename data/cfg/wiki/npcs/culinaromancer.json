@@ -1,0 +1,49 @@
+{
+  "page" : "Culinaromancer",
+  "versions" : [
+    {
+      "source" : "Culinaromancer",
+      "ids" : [
+        3400,
+        4849,
+        4872,
+        4873,
+        4874,
+        4875,
+        4876,
+        4877,
+        4878,
+        4879
+      ],
+      "names" : [
+        "npc.culinaromancer",
+        "npc.culinaromancer_4849",
+        "npc.culinaromancer_4872",
+        "npc.culinaromancer_4873",
+        "npc.culinaromancer_4874",
+        "npc.culinaromancer_4875",
+        "npc.culinaromancer_4876",
+        "npc.culinaromancer_4877",
+        "npc.culinaromancer_4878",
+        "npc.culinaromancer_4879"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 100, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : -10, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Magic)",
+        "11 (Crush)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

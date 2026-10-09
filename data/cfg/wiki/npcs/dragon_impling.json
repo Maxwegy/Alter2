@@ -1,0 +1,29 @@
+{
+  "page" : "Dragon impling",
+  "versions" : [
+    {
+      "source" : "Dragon impling",
+      "ids" : [
+        1644,
+        1654
+      ],
+      "names" : [
+        "npc.dragon_impling",
+        "npc.dragon_impling_1654"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

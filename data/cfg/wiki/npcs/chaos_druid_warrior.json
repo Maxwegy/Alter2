@@ -1,0 +1,31 @@
+{
+  "page" : "Chaos druid warrior",
+  "versions" : [
+    {
+      "source" : "Chaos druid warrior",
+      "ids" : [
+        532
+      ],
+      "names" : [
+        "npc.chaos_druid_warrior"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 34, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 13, "slashDefence" : 17, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Chaos Druids" ] }
+    }
+  ]
+}

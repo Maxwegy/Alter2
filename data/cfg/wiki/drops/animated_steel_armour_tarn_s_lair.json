@@ -1,0 +1,14 @@
+{
+  "page" : "Animated steel armour (Tarn's Lair)",
+  "tables" : [
+    {
+      "source" : "Animated steel armour (Tarn's Lair)",
+      "npcIds" : [
+        6438
+      ],
+      "always" : [
+        { "item" : 1115, "name" : "item.iron_platebody", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

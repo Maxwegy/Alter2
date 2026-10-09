@@ -1,0 +1,19 @@
+{
+  "page" : "Vasa Nistirio",
+  "tables" : [
+    {
+      "source" : "Vasa Nistirio",
+      "npcIds" : [
+        7566,
+        7567
+      ],
+      "always" : [
+        { "item" : 20888, "name" : "item.nistirios_manifesto", "min" : 1, "max" : 1 },
+        { "item" : 20911, "name" : "item.endarkened_juice", "min" : 5, "max" : 5 },
+        { "item" : 20936, "name" : "item.twisted_4_20936", "min" : 2, "max" : 2 },
+        { "item" : 20984, "name" : "item.xerics_aid_4_20984", "min" : 2, "max" : 2 },
+        { "item" : 20996, "name" : "item.overload_4_20996", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

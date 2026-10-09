@@ -1,0 +1,62 @@
+{
+  "page" : "Warrior (Rellekka)",
+  "tables" : [
+    {
+      "source" : "Warrior (Rellekka)",
+      "npcIds" : [
+        3950
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 3413 ], "wiki" : "1/341.3" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 4551 ], "wiki" : "1/455.1" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 5851 ], "wiki" : "1/585.1" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 10, 7447 ], "wiki" : "1/744.7" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 13653 ], "wiki" : "1/1,365.3" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 8192 ], "wiki" : "1/1,638.4" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 327, "name" : "item.raw_sardine", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 436, "name" : "item.copper_ore", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 948, "name" : "item.bear_fur", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 21, 64 ], "wiki" : "42/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 17, "max" : 17, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 22, "max" : 22, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 27, "max" : 27, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1335, "name" : "item.iron_warhammer", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1337, "name" : "item.bronze_warhammer", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1339, "name" : "item.steel_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1341, "name" : "item.black_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1592, "name" : "item.ring_mould", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1891, "name" : "item.cake", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1929, "name" : "item.bucket_of_water", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 3748, "name" : "item.fremennik_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 3757, "name" : "item.fremennik_blade", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 3758, "name" : "item.fremennik_shield", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 3801, "name" : "item.keg_of_beer_3801", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

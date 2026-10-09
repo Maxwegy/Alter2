@@ -1,0 +1,117 @@
+{
+  "page" : "Icelord",
+  "versions" : [
+    {
+      "source" : "Icelord#Melee, 1",
+      "version" : "Melee, 1",
+      "ids" : [
+        855
+      ],
+      "names" : [
+        "npc.icelord_855"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Icelord#Melee, 2",
+      "version" : "Melee, 2",
+      "ids" : [
+        854
+      ],
+      "names" : [
+        "npc.icelord_854"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Icelord#Melee, 3",
+      "version" : "Melee, 3",
+      "ids" : [
+        853
+      ],
+      "names" : [
+        "npc.icelord_853"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Icelord#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        852
+      ],
+      "names" : [
+        "npc.icelord"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

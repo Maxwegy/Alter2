@@ -1,0 +1,129 @@
+{
+  "page" : "Tormented Demon",
+  "versions" : [
+    {
+      "source" : "Tormented Demon#1",
+      "version" : "1",
+      "ids" : [
+        13599
+      ],
+      "names" : [
+        "npc.tormented_demon"
+      ],
+      "combatLevel" : 450,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "respawnTicks" : 21,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 150, "ranged" : 255, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 300, "stabDefence" : 75, "slashDefence" : 175, "crushDefence" : 68, "magicDefence" : 5, "rangedDefence" : 150, "lightRangedDefence" : 140, "heavyRangedDefence" : 90, "attackBonus" : 400, "strengthBonus" : 10, "rangedStrength" : 5, "magicDamage" : 5 },
+      "maxHits" : [
+        "<div class=\"plainlist \" >\n*31 (auto)\n*45 (special)\n</div>"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1065.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "kuradal", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Tormented Demon#2",
+      "version" : "2",
+      "ids" : [
+        13600
+      ],
+      "names" : [
+        "npc.tormented_demon_13600"
+      ],
+      "combatLevel" : 450,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "respawnTicks" : 21,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 150, "ranged" : 255, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 300, "stabDefence" : 75, "slashDefence" : 175, "crushDefence" : 68, "magicDefence" : 5, "rangedDefence" : 150, "lightRangedDefence" : 140, "heavyRangedDefence" : 90, "attackBonus" : 400, "strengthBonus" : 10, "rangedStrength" : 5, "magicDamage" : 5 },
+      "maxHits" : [
+        "<div class=\"plainlist \" >\n*31 (auto)\n*45 (special)\n</div>"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1065.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "kuradal", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Tormented Demon#3",
+      "version" : "3",
+      "ids" : [
+        13601
+      ],
+      "names" : [
+        "npc.tormented_demon_13601"
+      ],
+      "combatLevel" : 450,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "respawnTicks" : 21,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 150, "ranged" : 255, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 300, "stabDefence" : 75, "slashDefence" : 175, "crushDefence" : 68, "magicDefence" : 5, "rangedDefence" : 150, "lightRangedDefence" : 140, "heavyRangedDefence" : 90, "attackBonus" : 400, "strengthBonus" : 10, "rangedStrength" : 5, "magicDamage" : 5 },
+      "maxHits" : [
+        "<div class=\"plainlist \" >\n*31 (auto)\n*45 (special)\n</div>"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1065.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "kuradal", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Tormented Demon#4",
+      "version" : "4",
+      "ids" : [
+        13602
+      ],
+      "names" : [
+        "npc.tormented_demon_13602"
+      ],
+      "combatLevel" : 450,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "respawnTicks" : 21,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 150, "ranged" : 255, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 300, "stabDefence" : 75, "slashDefence" : 175, "crushDefence" : 68, "magicDefence" : 5, "rangedDefence" : 150, "lightRangedDefence" : 140, "heavyRangedDefence" : 90, "attackBonus" : 400, "strengthBonus" : 10, "rangedStrength" : 5, "magicDamage" : 5 },
+      "maxHits" : [
+        "<div class=\"plainlist \" >\n*31 (auto)\n*45 (special)\n</div>"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1065.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "kuradal", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    }
+  ]
+}

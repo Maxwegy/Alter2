@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated giant",
+  "tables" : [
+    {
+      "source" : "Reanimated giant",
+      "npcIds" : [
+        7027
+      ],
+      "tertiary" : [
+        { "item" : 6800, "name" : "item.giant_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

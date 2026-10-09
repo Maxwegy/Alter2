@@ -1,0 +1,34 @@
+{
+  "page" : "Torag the Corrupted",
+  "versions" : [
+    {
+      "source" : "Torag the Corrupted",
+      "ids" : [
+        1676
+      ],
+      "names" : [
+        "npc.torag_the_corrupted"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -33, "rangedAttack" : -11, "stabDefence" : 221, "slashDefence" : 235, "crushDefence" : 222, "magicDefence" : 0, "rangedDefence" : 221, "lightRangedDefence" : 221, "heavyRangedDefence" : 221, "attackBonus" : 0, "strengthBonus" : 72, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 112.5, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

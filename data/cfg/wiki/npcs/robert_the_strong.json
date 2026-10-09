@@ -1,0 +1,30 @@
+{
+  "page" : "Robert the Strong",
+  "versions" : [
+    {
+      "source" : "Robert the Strong",
+      "ids" : [
+        8057
+      ],
+      "names" : [
+        "npc.robert_the_strong_8057"
+      ],
+      "combatLevel" : 224,
+      "hitpoints" : 280,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 140, "ranged" : 328, "magic" : 128 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 126, "stabDefence" : 140, "slashDefence" : 180, "crushDefence" : 60, "magicDefence" : 940, "rangedDefence" : 860, "lightRangedDefence" : 860, "heavyRangedDefence" : 860, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "34 (Ranged)",
+        "50+ (Special)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "page" : "Ochre Blamish Snail",
+  "tables" : [
+    {
+      "source" : "Ochre Blamish Snail#Pointed",
+      "npcIds" : [
+        2651
+      ],
+      "always" : [
+        { "item" : 3359, "name" : "item.blamish_ochre_shell_3359", "min" : 1, "max" : 1 },
+        { "item" : 3363, "name" : "item.thin_snail", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Ochre Blamish Snail#Round",
+      "npcIds" : [
+        2646
+      ],
+      "always" : [
+        { "item" : 3349, "name" : "item.blamish_ochre_shell", "min" : 1, "max" : 1 },
+        { "item" : 3363, "name" : "item.thin_snail", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

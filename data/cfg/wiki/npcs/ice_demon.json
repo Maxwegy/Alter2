@@ -1,0 +1,65 @@
+{
+  "page" : "Ice demon",
+  "versions" : [
+    {
+      "source" : "Ice demon#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7585
+      ],
+      "names" : [
+        "npc.ice_demon_7585"
+      ],
+      "hitpoints" : 210,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 240, "ranged" : 585, "magic" : 585 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 110, "magicDefence" : 40, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 150 }
+    },
+    {
+      "source" : "Ice demon#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7584
+      ],
+      "names" : [
+        "npc.ice_demon"
+      ],
+      "hitpoints" : 140,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 390, "magic" : 390 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 110, "magicDefence" : 40, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 150 }
+    }
+  ]
+}

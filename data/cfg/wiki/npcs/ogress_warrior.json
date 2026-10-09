@@ -1,0 +1,61 @@
+{
+  "page" : "Ogress Warrior",
+  "versions" : [
+    {
+      "source" : "Ogress Warrior#1",
+      "version" : "1",
+      "ids" : [
+        7989
+      ],
+      "names" : [
+        "npc.ogress_warrior"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 82,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 82, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 12, "crushDefence" : 12, "magicDefence" : 14, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 82.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Ogress Warrior#2",
+      "version" : "2",
+      "ids" : [
+        7990
+      ],
+      "names" : [
+        "npc.ogress_warrior_7990"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 82,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 82, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 12, "crushDefence" : 12, "magicDefence" : 14, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 82.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

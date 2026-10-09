@@ -1,0 +1,17 @@
+{
+  "page" : "Bandit (Pollnivneach)",
+  "tables" : [
+    {
+      "source" : "Bandit (Pollnivneach)",
+      "npcIds" : [
+        734,
+        735,
+        736,
+        737
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

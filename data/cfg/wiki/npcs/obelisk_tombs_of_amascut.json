@@ -1,0 +1,28 @@
+{
+  "page" : "Obelisk (Tombs of Amascut)",
+  "versions" : [
+    {
+      "source" : "Obelisk (Tombs of Amascut)",
+      "ids" : [
+        11751
+      ],
+      "names" : [
+        "npc.obelisk_11751"
+      ],
+      "hitpoints" : 260,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 150, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

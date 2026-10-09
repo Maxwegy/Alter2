@@ -1,0 +1,37 @@
+{
+  "page" : "Flockleader Geerin",
+  "tables" : [
+    {
+      "source" : "Flockleader Geerin",
+      "npcIds" : [
+        3164
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 314, "name" : "item.feather", "min" : 1, "max" : 11 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 214, "name" : "item.grimy_kwuarm_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 391, "name" : "item.manta_ray", "min" : 2, "max" : 2, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 808, "name" : "item.steel_dart", "min" : 91, "max" : 101, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 91, "max" : 101, "chance" : [ 7, 127 ], "wiki" : "7/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1000, "max" : 1100, "chance" : [ 70, 127 ], "wiki" : "70/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1000, "max" : 1100, "chance" : [ 3, 508 ], "wiki" : "9/1,524" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1000, "max" : 1100, "chance" : [ 124, 16129 ], "wiki" : "124/16,129" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4697, "name" : "item.smoke_rune", "min" : 10, "max" : 15, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 6694, "name" : "item.crushed_nest_noted", "min" : 2, "max" : 2, "noted" : true, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 7058, "name" : "item.mushroom_potato", "min" : 3, "max" : 3, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 11818, "name" : "item.godsword_shard_1", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11820, "name" : "item.godsword_shard_2", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11822, "name" : "item.godsword_shard_3", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11826, "name" : "item.armadyl_helmet", "min" : 1, "max" : 1, "chance" : [ 1, 16129 ], "wiki" : "1/16,129" },
+        { "item" : 11828, "name" : "item.armadyl_chestplate", "min" : 1, "max" : 1, "chance" : [ 1, 16129 ], "wiki" : "1/16,129" },
+        { "item" : 11830, "name" : "item.armadyl_chainskirt", "min" : 1, "max" : 1, "chance" : [ 1, 16129 ], "wiki" : "1/16,129" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 91 ], "wiki" : "1/91" },
+        { "item" : 26358, "name" : "item.frozen_key_piece_armadyl", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ]
+    }
+  ]
+}

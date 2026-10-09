@@ -1,0 +1,18 @@
+{
+  "page" : "Lynx",
+  "tables" : [
+    {
+      "source" : "Lynx",
+      "npcIds" : [
+        11068,
+        11069
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

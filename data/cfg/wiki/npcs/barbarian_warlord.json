@@ -1,0 +1,29 @@
+{
+  "page" : "Barbarian Warlord",
+  "versions" : [
+    {
+      "source" : "Barbarian Warlord",
+      "ids" : [
+        10989
+      ],
+      "names" : [
+        "npc.barbarian_warlord"
+      ],
+      "combatLevel" : 91,
+      "hitpoints" : 80,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 50, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 20, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

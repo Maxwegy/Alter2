@@ -1,0 +1,59 @@
+{
+  "page" : "Wall beast",
+  "versions" : [
+    {
+      "source" : "Wall beast#Beast",
+      "version" : "Beast",
+      "ids" : [
+        476
+      ],
+      "names" : [
+        "npc.wall_beast"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4 (Melee)",
+        "18 (without Spiny helmet)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 35, "xp" : 105.0, "categories" : [ "Wall Beasts" ], "assignedBy" : [ "mazchna" ] }
+    },
+    {
+      "source" : "Wall beast#Hole",
+      "version" : "Hole",
+      "ids" : [
+        475
+      ],
+      "names" : [
+        "npc.hole_in_the_wall"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4 (Melee)",
+        "18 (without Spiny helmet)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 35, "xp" : 105.0, "categories" : [ "Wall Beasts" ], "assignedBy" : [ "mazchna" ] }
+    }
+  ]
+}

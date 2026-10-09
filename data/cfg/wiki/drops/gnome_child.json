@@ -1,0 +1,16 @@
+{
+  "page" : "Gnome child",
+  "tables" : [
+    {
+      "source" : "Gnome child",
+      "npcIds" : [
+        6077,
+        6078,
+        6079
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

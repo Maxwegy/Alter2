@@ -1,0 +1,142 @@
+{
+  "page" : "Goblin (Vault of War)",
+  "versions" : [
+    {
+      "source" : "Goblin (Vault of War)#Level 11",
+      "version" : "Level 11",
+      "ids" : [
+        2486
+      ],
+      "names" : [
+        "npc.goblin_2486"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 7,
+      "attackSpeed" : 6,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 3, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 12, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 7.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (Vault of War)#Level 13",
+      "version" : "Level 13",
+      "ids" : [
+        2485
+      ],
+      "names" : [
+        "npc.goblin_2485"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 13, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 8, "magicDefence" : 4, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 16.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (Vault of War)#Level 16",
+      "version" : "Level 16",
+      "ids" : [
+        2487,
+        2489
+      ],
+      "names" : [
+        "npc.goblin_2487",
+        "npc.goblin_2489"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 11, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 22.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (Vault of War)#Level 25",
+      "version" : "Level 25",
+      "ids" : [
+        2488
+      ],
+      "names" : [
+        "npc.goblin_2488"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 26,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 23, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 16, "crushDefence" : 18, "magicDefence" : 14, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 26.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (Vault of War)#Level 5",
+      "version" : "Level 5",
+      "ids" : [
+        2484
+      ],
+      "names" : [
+        "npc.goblin_2484"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 5,
+      "attackSpeed" : 6,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 7, "strength" : 2, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 12, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 5.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

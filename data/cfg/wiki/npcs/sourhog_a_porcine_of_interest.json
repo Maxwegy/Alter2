@@ -1,0 +1,31 @@
+{
+  "page" : "Sourhog (A Porcine of Interest)",
+  "versions" : [
+    {
+      "source" : "Sourhog (A Porcine of Interest)",
+      "ids" : [
+        10436
+      ],
+      "names" : [
+        "npc.sourhog_10436"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 35, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 30, "crushDefence" : 10, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "6",
+        "30 (without Reinforced goggles)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

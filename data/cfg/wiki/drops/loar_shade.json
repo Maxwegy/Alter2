@@ -1,0 +1,15 @@
+{
+  "page" : "Loar Shade",
+  "tables" : [
+    {
+      "source" : "Loar Shade",
+      "npcIds" : [
+        1276,
+        1277
+      ],
+      "always" : [
+        { "item" : 3396, "name" : "item.loar_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "page" : "Abyssal Sire",
+  "versions" : [
+    {
+      "source" : "Abyssal Sire#Phase 1",
+      "version" : "Phase 1",
+      "ids" : [
+        5886,
+        5887,
+        5888
+      ],
+      "names" : [
+        "npc.abyssal_sire",
+        "npc.abyssal_sire_5887",
+        "npc.abyssal_sire_5888"
+      ],
+      "combatLevel" : 350,
+      "hitpoints" : 425,
+      "attackSpeed" : 7,
+      "respawnTicks" : 1,
+      "size" : 6,
+      "levels" : { "attack" : 180, "strength" : 136, "defence" : 250, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 60, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 65, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "66 (Melee)",
+        "96 (with explosion)"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 478.0, "categories" : [ "Abyssal Demons", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Abyssal Sire#Phase 2",
+      "version" : "Phase 2",
+      "ids" : [
+        5889,
+        5890
+      ],
+      "names" : [
+        "npc.abyssal_sire_5889",
+        "npc.abyssal_sire_5890"
+      ],
+      "combatLevel" : 350,
+      "hitpoints" : 425,
+      "attackSpeed" : 7,
+      "size" : 6,
+      "levels" : { "attack" : 180, "strength" : 136, "defence" : 250, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 60, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 65, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "66 (Melee)",
+        "96 (with explosion)"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 478.0, "categories" : [ "Abyssal Demons", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Abyssal Sire#Phase 3 (stage 1)",
+      "version" : "Phase 3 (stage 1)",
+      "ids" : [
+        5891
+      ],
+      "names" : [
+        "npc.abyssal_sire_5891"
+      ],
+      "combatLevel" : 350,
+      "hitpoints" : 425,
+      "attackSpeed" : 7,
+      "size" : 6,
+      "levels" : { "attack" : 180, "strength" : 136, "defence" : 250, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 60, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 65, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "66 (Melee)",
+        "96 (with explosion)"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 478.0, "categories" : [ "Abyssal Demons", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Abyssal Sire#Phase 3 (stage 2)",
+      "version" : "Phase 3 (stage 2)",
+      "ids" : [
+        5908
+      ],
+      "names" : [
+        "npc.abyssal_sire_5908"
+      ],
+      "combatLevel" : 350,
+      "hitpoints" : 425,
+      "attackSpeed" : 7,
+      "size" : 6,
+      "levels" : { "attack" : 180, "strength" : 136, "defence" : 250, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 65, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "66 (Melee)",
+        "96 (with explosion)"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 478.0, "categories" : [ "Abyssal Demons", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

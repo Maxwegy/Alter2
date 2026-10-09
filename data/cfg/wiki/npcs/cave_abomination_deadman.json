@@ -1,0 +1,80 @@
+{
+  "page" : "Cave abomination (Deadman)",
+  "versions" : [
+    {
+      "source" : "Cave abomination (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12454
+      ],
+      "names" : [
+        "npc.cave_abomination_12454"
+      ],
+      "combatLevel" : 957,
+      "hitpoints" : 3000,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 280, "strength" : 250, "defence" : 142, "ranged" : 1, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Cave abomination (Deadman)#Apocalypse, Armageddon",
+      "version" : "Apocalypse, Armageddon",
+      "ids" : [
+        12454
+      ],
+      "names" : [
+        "npc.cave_abomination_12454"
+      ],
+      "combatLevel" : 361,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 230, "strength" : 195, "defence" : 142, "ranged" : 1, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Cave abomination (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12454
+      ],
+      "names" : [
+        "npc.cave_abomination_12454"
+      ],
+      "combatLevel" : 395,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 280, "strength" : 250, "defence" : 142, "ranged" : 1, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Wolf",
+  "tables" : [
+    {
+      "source" : "Crystalline Wolf",
+      "npcIds" : [
+        9031
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 80, "max" : 100 }
+      ]
+    }
+  ]
+}

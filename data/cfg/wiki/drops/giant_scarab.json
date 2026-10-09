@@ -1,0 +1,15 @@
+{
+  "page" : "Giant Scarab",
+  "tables" : [
+    {
+      "source" : "Giant Scarab",
+      "npcIds" : [
+        797,
+        798
+      ],
+      "always" : [
+        { "item" : 10581, "name" : "item.keris", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

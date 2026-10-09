@@ -1,0 +1,17 @@
+{
+  "page" : "Giant snail",
+  "tables" : [
+    {
+      "source" : "Giant snail",
+      "npcIds" : [
+        5628,
+        5629,
+        5630
+      ],
+      "main" : [
+        { "item" : 7800, "name" : "item.snail_shell", "min" : 1, "max" : 1, "chance" : [ 49, 50 ], "wiki" : "49/50" },
+        { "item" : 10996, "name" : "item.perfect_snail_shell", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" }
+      ]
+    }
+  ]
+}

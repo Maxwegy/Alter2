@@ -1,0 +1,14 @@
+{
+  "page" : "Jungle Demon",
+  "tables" : [
+    {
+      "source" : "Jungle Demon",
+      "npcIds" : [
+        1443
+      ],
+      "always" : [
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

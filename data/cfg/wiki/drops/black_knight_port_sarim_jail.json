@@ -1,0 +1,14 @@
+{
+  "page" : "Black knight (Port Sarim jail)",
+  "tables" : [
+    {
+      "source" : "Black knight (Port Sarim jail)",
+      "npcIds" : [
+        1545
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

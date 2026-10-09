@@ -1,0 +1,36 @@
+{
+  "page" : "Callisto",
+  "versions" : [
+    {
+      "source" : "Callisto",
+      "ids" : [
+        6609
+      ],
+      "names" : [
+        "npc.callisto_6609"
+      ],
+      "combatLevel" : 470,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "respawnTicks" : 11,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 300, "defence" : 225, "ranged" : 200, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 150, "slashDefence" : 130, "crushDefence" : 125, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 0 },
+      "maxHits" : [
+        "55 (Crush)",
+        "31 (Ranged)",
+        "50 (Special)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 1300.0, "categories" : [ "Bears", "Bosses" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

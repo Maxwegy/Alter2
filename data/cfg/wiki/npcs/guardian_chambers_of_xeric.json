@@ -1,0 +1,61 @@
+{
+  "page" : "Guardian (Chambers of Xeric)",
+  "versions" : [
+    {
+      "source" : "Guardian (Chambers of Xeric)#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7570,
+        7572
+      ],
+      "names" : [
+        "npc.guardian_7570",
+        "npc.guardian_7572"
+      ],
+      "hitpoints" : 375,
+      "attackSpeed" : 4,
+      "levels" : { "attack" : 210, "strength" : 210, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 180, "crushDefence" : -10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "33"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Guardian (Chambers of Xeric)#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7569,
+        7571
+      ],
+      "names" : [
+        "npc.guardian",
+        "npc.guardian_7571"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "levels" : { "attack" : 140, "strength" : 140, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 180, "crushDefence" : -10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "xerician"
+      ]
+    }
+  ]
+}

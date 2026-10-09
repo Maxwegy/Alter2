@@ -1,0 +1,29 @@
+{
+  "page" : "Mercenary mage",
+  "versions" : [
+    {
+      "source" : "Mercenary mage",
+      "ids" : [
+        13537
+      ],
+      "names" : [
+        "npc.mercenary_mage"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 90, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 40, "crushDefence" : 60, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 5, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

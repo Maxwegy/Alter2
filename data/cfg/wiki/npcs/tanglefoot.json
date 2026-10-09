@@ -1,0 +1,29 @@
+{
+  "page" : "Tanglefoot",
+  "versions" : [
+    {
+      "source" : "Tanglefoot",
+      "ids" : [
+        5848
+      ],
+      "names" : [
+        "npc.tanglefoot"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 102,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 97, "strength" : 97, "defence" : 91, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

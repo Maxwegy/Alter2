@@ -1,0 +1,11 @@
+{
+  "page" : "Ghost (Grave of Scorpius)",
+  "tables" : [
+    {
+      "source" : "Ghost (Grave of Scorpius)",
+      "npcIds" : [
+        5370
+      ]
+    }
+  ]
+}

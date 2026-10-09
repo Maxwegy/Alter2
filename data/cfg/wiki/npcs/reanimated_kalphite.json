@@ -1,0 +1,32 @@
+{
+  "page" : "Reanimated kalphite",
+  "versions" : [
+    {
+      "source" : "Reanimated kalphite",
+      "ids" : [
+        7032
+      ],
+      "names" : [
+        "npc.reanimated_kalphite"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 5, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 35.0, "categories" : [ "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "mazchna", "nieve" ] }
+    }
+  ]
+}

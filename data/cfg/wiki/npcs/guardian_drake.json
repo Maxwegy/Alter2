@@ -1,0 +1,36 @@
+{
+  "page" : "Guardian Drake",
+  "versions" : [
+    {
+      "source" : "Guardian Drake",
+      "ids" : [
+        10400
+      ],
+      "names" : [
+        "npc.guardian_drake"
+      ],
+      "combatLevel" : 376,
+      "hitpoints" : 590,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 270, "strength" : 280, "defence" : 200, "ranged" : 240, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 20, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 20, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "35 (melee)",
+        "39+ (spec)"
+      ],
+      "attackStyles" : [
+        "Ranged melee",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 84, "xp" : 7087.0, "categories" : [ "Drakes" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

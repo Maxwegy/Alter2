@@ -1,0 +1,61 @@
+{
+  "page" : "Arrg (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Arrg (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6331
+      ],
+      "names" : [
+        "npc.arrg_hard"
+      ],
+      "combatLevel" : 210,
+      "hitpoints" : 255,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 140, "strength" : 280, "defence" : 40, "ranged" : 140, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "74 (melee)",
+        "30 (ranged)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 299.6, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Arrg (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6392
+      ],
+      "names" : [
+        "npc.arrg_6392"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 140,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 70, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38 (melee)",
+        "30 (ranged)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

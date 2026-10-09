@@ -1,0 +1,75 @@
+{
+  "page" : "Forgotten Soul (Soul Wars)",
+  "versions" : [
+    {
+      "source" : "Forgotten Soul (Soul Wars)#Level 46",
+      "version" : "Level 46",
+      "ids" : [
+        10523,
+        10524,
+        10534,
+        10535
+      ],
+      "names" : [
+        "npc.forgotten_soul",
+        "npc.forgotten_soul_10524",
+        "npc.forgotten_soul_10534",
+        "npc.forgotten_soul_10535"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 40, "defence" : 20, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Forgotten Soul (Soul Wars)#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        10525,
+        10526,
+        10536,
+        10537
+      ],
+      "names" : [
+        "npc.forgotten_soul_10525",
+        "npc.forgotten_soul_10526",
+        "npc.forgotten_soul_10536",
+        "npc.forgotten_soul_10537"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 30, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

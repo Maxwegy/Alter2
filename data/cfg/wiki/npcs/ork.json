@@ -1,0 +1,37 @@
+{
+  "page" : "Ork",
+  "versions" : [
+    {
+      "source" : "Ork",
+      "ids" : [
+        2237,
+        2238,
+        2239,
+        2240
+      ],
+      "names" : [
+        "npc.ork_2237",
+        "npc.ork_2238",
+        "npc.ork_2239",
+        "npc.ork_2240"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 13, "magicDefence" : 5, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 19, "strengthBonus" : 4, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 15 }
+    }
+  ]
+}

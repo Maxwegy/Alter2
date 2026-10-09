@@ -1,0 +1,225 @@
+{
+  "page" : "Cave goblin miner",
+  "versions" : [
+    {
+      "source" : "Cave goblin miner#1",
+      "version" : "1",
+      "ids" : [
+        5330
+      ],
+      "names" : [
+        "npc.cave_goblin_miner"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#2",
+      "version" : "2",
+      "ids" : [
+        5331
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5331"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#3",
+      "version" : "3",
+      "ids" : [
+        5332
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5332"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#4",
+      "version" : "4",
+      "ids" : [
+        5333
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5333"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#5",
+      "version" : "5",
+      "ids" : [
+        5336
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5336"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#6",
+      "version" : "6",
+      "ids" : [
+        5337
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5337"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#7",
+      "version" : "7",
+      "ids" : [
+        5338
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5338"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin miner#8",
+      "version" : "8",
+      "ids" : [
+        5339
+      ],
+      "names" : [
+        "npc.cave_goblin_miner_5339"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 12, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

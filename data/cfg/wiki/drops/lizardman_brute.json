@@ -1,0 +1,50 @@
+{
+  "page" : "Lizardman brute",
+  "tables" : [
+    {
+      "source" : "Lizardman brute",
+      "npcIds" : [
+        6918,
+        6919,
+        8564,
+        10947
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 5100, "name" : "item.limpwurt_seed", "min" : 1, "max" : 1, "chance" : [ 5, 171 ], "wiki" : "1/34.2" },
+        { "item" : 5104, "name" : "item.jangerberry_seed", "min" : 1, "max" : 1, "chance" : [ 10, 509 ], "wiki" : "1/50.9" },
+        { "item" : 5105, "name" : "item.whiteberry_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1377 ], "wiki" : "1/137.7" },
+        { "item" : 5106, "name" : "item.poison_ivy_seed", "min" : 1, "max" : 1, "chance" : [ 10, 3601 ], "wiki" : "1/360.1" },
+        { "item" : 5280, "name" : "item.cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 3901 ], "wiki" : "1/390.1" },
+        { "item" : 5281, "name" : "item.belladonna_seed", "min" : 1, "max" : 1, "chance" : [ 10, 2601 ], "wiki" : "1/260.1" },
+        { "item" : 5282, "name" : "item.mushroom_spore", "min" : 1, "max" : 1, "chance" : [ 5, 807 ], "wiki" : "1/161.4" },
+        { "item" : 5292, "name" : "item.marrentill_seed", "min" : 1, "max" : 1, "chance" : [ 5, 187 ], "wiki" : "1/37.4" },
+        { "item" : 5293, "name" : "item.tarromin_seed", "min" : 1, "max" : 1, "chance" : [ 10, 551 ], "wiki" : "1/55.1" },
+        { "item" : 5294, "name" : "item.harralander_seed", "min" : 1, "max" : 1, "chance" : [ 5, 418 ], "wiki" : "1/83.6" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 1, 120 ], "wiki" : "1/120" },
+        { "item" : 5296, "name" : "item.toadflax_seed", "min" : 1, "max" : 1, "chance" : [ 5, 867 ], "wiki" : "1/173.4" },
+        { "item" : 5297, "name" : "item.irit_seed", "min" : 1, "max" : 1, "chance" : [ 10, 2601 ], "wiki" : "1/260.1" },
+        { "item" : 5298, "name" : "item.avantoe_seed", "min" : 1, "max" : 1, "chance" : [ 10, 3901 ], "wiki" : "1/390.1" },
+        { "item" : 5299, "name" : "item.kwuarm_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5201 ], "wiki" : "1/520.1" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 5, 4681 ], "wiki" : "1/936.2" },
+        { "item" : 5301, "name" : "item.cadantine_seed", "min" : 1, "max" : 1, "chance" : [ 10, 11703 ], "wiki" : "1/1,170.3" },
+        { "item" : 5302, "name" : "item.lantadyme_seed", "min" : 1, "max" : 1, "chance" : [ 5, 7802 ], "wiki" : "1/1,560.4" },
+        { "item" : 5303, "name" : "item.dwarf_weed_seed", "min" : 1, "max" : 1, "chance" : [ 2, 4681 ], "wiki" : "1/2,340.5" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 10, 46811 ], "wiki" : "1/4,681.1" },
+        { "item" : 5311, "name" : "item.wildblood_seed", "min" : 1, "max" : 1, "chance" : [ 5, 282 ], "wiki" : "1/56.4" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 1, "max" : 1, "chance" : [ 10, 743 ], "wiki" : "1/74.3" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 1, "max" : 1, "chance" : [ 10, 357 ], "wiki" : "1/35.7" },
+        { "item" : 13383, "name" : "item.xerician_fabric", "min" : 1, "max" : 1, "chance" : [ 8, 67 ], "wiki" : "8/67" },
+        { "item" : 13391, "name" : "item.lizardman_fang", "min" : 1, "max" : 1, "chance" : [ 14, 67 ], "wiki" : "14/67" },
+        { "item" : 13392, "name" : "item.xerics_talisman_inert", "min" : 1, "max" : 1, "chance" : [ 1, 250 ], "wiki" : "1/250" },
+        { "item" : 22873, "name" : "item.potato_cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5851 ], "wiki" : "1/585.1" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 1, "chance" : [ 1, 117 ], "wiki" : "1/117" }
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 245 ], "wiki" : "1/245" }
+      ]
+    }
+  ]
+}

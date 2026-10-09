@@ -1,0 +1,32 @@
+{
+  "page" : "King Scorpion",
+  "versions" : [
+    {
+      "source" : "King Scorpion",
+      "ids" : [
+        3027
+      ],
+      "names" : [
+        "npc.king_scorpion"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 29, "defence" : 23, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

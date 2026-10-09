@@ -1,0 +1,34 @@
+{
+  "page" : "Jungle Demon",
+  "versions" : [
+    {
+      "source" : "Jungle Demon",
+      "ids" : [
+        1443
+      ],
+      "names" : [
+        "npc.jungle_demon"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 170,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 170, "strength" : 170, "defence" : 170, "ranged" : 1, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

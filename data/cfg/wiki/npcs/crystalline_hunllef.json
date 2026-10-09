@@ -1,0 +1,36 @@
+{
+  "page" : "Crystalline Hunllef",
+  "versions" : [
+    {
+      "source" : "Crystalline Hunllef",
+      "ids" : [
+        9021,
+        9022,
+        9023,
+        9024
+      ],
+      "names" : [
+        "npc.crystalline_hunllef",
+        "npc.crystalline_hunllef_9022",
+        "npc.crystalline_hunllef_9023",
+        "npc.crystalline_hunllef_9024"
+      ],
+      "combatLevel" : 674,
+      "hitpoints" : 600,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 240, "ranged" : 240, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 76, "rangedAttack" : 76, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 76, "strengthBonus" : 64, "rangedStrength" : 64, "magicDamage" : 64 },
+      "maxHits" : [
+        "50+"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "page" : "Lesser demon",
+  "versions" : [
+    {
+      "source" : "Lesser demon#Level 82",
+      "version" : "Level 82",
+      "ids" : [
+        2005,
+        2006,
+        2007,
+        2008,
+        2018,
+        7656,
+        7657,
+        7664
+      ],
+      "names" : [
+        "npc.lesser_demon",
+        "npc.lesser_demon_2006",
+        "npc.lesser_demon_2007",
+        "npc.lesser_demon_2008",
+        "npc.lesser_demon_2018",
+        "npc.lesser_demon_7656",
+        "npc.lesser_demon_7657",
+        "npc.lesser_demon_7664"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 79,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 79.0, "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon#Level 87",
+      "version" : "Level 87",
+      "ids" : [
+        7247
+      ],
+      "names" : [
+        "npc.lesser_demon_7247"
+      ],
+      "combatLevel" : 87,
+      "hitpoints" : 87,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon#Level 94",
+      "version" : "Level 94",
+      "ids" : [
+        7248
+      ],
+      "names" : [
+        "npc.lesser_demon_7248"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 98,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 85, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 98.0, "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon#Level 94 (Wilderness Slayer Cave)",
+      "version" : "Level 94 (Wilderness Slayer Cave)",
+      "ids" : [
+        7865,
+        7866,
+        7867
+      ],
+      "names" : [
+        "npc.lesser_demon_7865",
+        "npc.lesser_demon_7866",
+        "npc.lesser_demon_7867"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 110,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 85, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 110.0, "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

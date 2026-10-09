@@ -1,0 +1,61 @@
+{
+  "page" : "Cave bug",
+  "versions" : [
+    {
+      "source" : "Cave bug#Level 6",
+      "version" : "Level 6",
+      "ids" : [
+        481
+      ],
+      "names" : [
+        "npc.cave_bug"
+      ],
+      "combatLevel" : 6,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 6, "strength" : 5, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 7, "xp" : 5.0, "categories" : [ "Cave Bugs" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Cave bug#Level 96",
+      "version" : "Level 96",
+      "ids" : [
+        483
+      ],
+      "names" : [
+        "npc.cave_bug_483"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 93,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 82, "strength" : 80, "defence" : 84, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 72, "slashDefence" : 59, "crushDefence" : 35, "magicDefence" : 25, "rangedDefence" : 95, "lightRangedDefence" : 95, "heavyRangedDefence" : 95, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 7, "xp" : 93.0, "categories" : [ "Cave Bugs" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

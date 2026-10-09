@@ -1,0 +1,29 @@
+{
+  "page" : "Sleepwalker (Phosani's Nightmare)",
+  "versions" : [
+    {
+      "source" : "Sleepwalker (Phosani's Nightmare)",
+      "ids" : [
+        9470
+      ],
+      "names" : [
+        "npc.sleepwalker_9470"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : -100, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "page" : "Dire Wolf",
+  "versions" : [
+    {
+      "source" : "Dire Wolf#Level 72",
+      "version" : "Level 72",
+      "ids" : [
+        9181
+      ],
+      "names" : [
+        "npc.dire_wolf_9181"
+      ],
+      "combatLevel" : 72,
+      "hitpoints" : 74,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 60, "strength" : 61, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 74.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Dire Wolf#Level 88",
+      "version" : "Level 88",
+      "ids" : [
+        3426
+      ],
+      "names" : [
+        "npc.dire_wolf"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 85.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Dire Wolf#Meat and Greet",
+      "version" : "Meat and Greet",
+      "ids" : [
+        13813
+      ],
+      "names" : [
+        "npc.dire_wolf_13813"
+      ],
+      "combatLevel" : 72,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 70, "ranged" : 20, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 500, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

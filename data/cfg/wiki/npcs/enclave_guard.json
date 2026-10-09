@@ -1,0 +1,31 @@
+{
+  "page" : "Enclave guard",
+  "versions" : [
+    {
+      "source" : "Enclave guard",
+      "ids" : [
+        4381
+      ],
+      "names" : [
+        "npc.enclave_guard"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 12,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 13, "slashDefence" : 24, "crushDefence" : 19, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 9, "strengthBonus" : 13, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 80.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] }
+    }
+  ]
+}

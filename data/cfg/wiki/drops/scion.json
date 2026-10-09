@@ -1,0 +1,15 @@
+{
+  "page" : "Scion",
+  "tables" : [
+    {
+      "source" : "Scion",
+      "npcIds" : [
+        5918,
+        6177
+      ],
+      "always" : [
+        { "item" : 25766, "name" : "item.fiendish_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

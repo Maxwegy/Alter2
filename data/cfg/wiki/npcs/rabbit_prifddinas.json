@@ -1,0 +1,29 @@
+{
+  "page" : "Rabbit (Prifddinas)",
+  "versions" : [
+    {
+      "source" : "Rabbit (Prifddinas)",
+      "ids" : [
+        9118
+      ],
+      "names" : [
+        "npc.rabbit_9118"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 2000,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 600, "strength" : 200, "defence" : 450, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 80, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "40"
+      ],
+      "attackStyles" : [
+        "Typeless Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true }
+    }
+  ]
+}

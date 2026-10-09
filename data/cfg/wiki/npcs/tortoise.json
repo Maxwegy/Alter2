@@ -1,0 +1,61 @@
+{
+  "page" : "Tortoise",
+  "versions" : [
+    {
+      "source" : "Tortoise#No riders",
+      "version" : "No riders",
+      "ids" : [
+        6075
+      ],
+      "names" : [
+        "npc.tortoise"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 15, "strength" : 90, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Tortoise#With riders",
+      "version" : "With riders",
+      "ids" : [
+        6076
+      ],
+      "names" : [
+        "npc.tortoise_6076"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 30, "strength" : 100, "defence" : 80, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

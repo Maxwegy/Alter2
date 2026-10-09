@@ -1,0 +1,14 @@
+{
+  "page" : "Penguin (monster)",
+  "tables" : [
+    {
+      "source" : "Penguin (monster)",
+      "npcIds" : [
+        2063
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

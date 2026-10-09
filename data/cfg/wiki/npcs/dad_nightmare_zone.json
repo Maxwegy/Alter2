@@ -1,0 +1,59 @@
+{
+  "page" : "Dad (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Dad (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6330
+      ],
+      "names" : [
+        "npc.dad_hard"
+      ],
+      "combatLevel" : 201,
+      "hitpoints" : 240,
+      "attackSpeed" : 8,
+      "size" : 3,
+      "levels" : { "attack" : 132, "strength" : 264, "defence" : 50, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 40, "strengthBonus" : 70, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "57"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 264.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Dad (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6391
+      ],
+      "names" : [
+        "npc.dad_6391"
+      ],
+      "combatLevel" : 101,
+      "hitpoints" : 120,
+      "attackSpeed" : 8,
+      "size" : 3,
+      "levels" : { "attack" : 60, "strength" : 120, "defence" : 50, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 40, "strengthBonus" : 70, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 126.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "page" : "King Black Dragon",
+  "tables" : [
+    {
+      "source" : "King Black Dragon",
+      "npcIds" : [
+        239,
+        2642
+      ],
+      "always" : [
+        { "item" : 536, "name" : "item.dragon_bones", "min" : 1, "max" : 1 },
+        { "item" : 1747, "name" : "item.black_dragonhide", "min" : 2, "max" : 2 },
+        { "item" : 19812, "name" : "item.key_elite", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 385, "name" : "item.shark", "min" : 4, "max" : 4, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 445, "name" : "item.gold_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 300, "max" : 300, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 300, "max" : 300, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 45, "max" : 45, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 67, "max" : 67, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 30, "max" : 30, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 45, "max" : 45, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 30, "max" : 30, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 829, "name" : "item.adamant_javelin", "min" : 20, "max" : 20, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 504123 ], "wiki" : "1/5,041.23" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 690, "max" : 690, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 150, "max" : 150, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 42, "max" : 42, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 25, 2509 ], "wiki" : "1/100.36" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 25, 2509 ], "wiki" : "1/100.36" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3000, "max" : 3000, "chance" : [ 25, 2438 ], "wiki" : "1/97.52" },
+        { "item" : 1123, "name" : "item.adamant_platebody", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1185, "name" : "item.rune_sq_shield", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1199, "name" : "item.adamant_kiteshield", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 212693 ], "wiki" : "1/2,126.93" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 567181 ], "wiki" : "1/5,671.81" },
+        { "item" : 1303, "name" : "item.rune_longsword", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 168041 ], "wiki" : "1/1,680.41" },
+        { "item" : 1516, "name" : "item.yew_logs_noted", "min" : 150, "max" : 150, "noted" : true, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 1615, "name" : "item.dragonstone", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 50, 126031 ], "wiki" : "1/2,520.62" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 20, 12603 ], "wiki" : "1/630.15" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 25, 7877 ], "wiki" : "1/315.08" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 50, 7877 ], "wiki" : "1/157.54" },
+        { "item" : 1731, "name" : "item.amulet_of_power", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 2361, "name" : "item.adamantite_bar", "min" : 3, "max" : 3, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 5, 2048 ], "wiki" : "1/409.6" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 50, 212693 ], "wiki" : "1/4,253.86" },
+        { "item" : 7980, "name" : "item.kbd_heads", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 9144, "name" : "item.runite_bolts", "min" : 10, "max" : 20, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 9431, "name" : "item.runite_limbs", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 11232, "name" : "item.dragon_dart_tip", "min" : 5, "max" : 14, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 11237, "name" : "item.dragon_arrowtips", "min" : 5, "max" : 14, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 11286, "name" : "item.draconic_visage", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 11920, "name" : "item.dragon_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" },
+        { "item" : 19582, "name" : "item.dragon_javelin_heads", "min" : 15, "max" : 15, "chance" : [ 5, 128 ], "wiki" : "5/128" }
+      ],
+      "tertiary" : [
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 450 ], "wiki" : "1/450" },
+        { "item" : 12653, "name" : "item.prince_black_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 3000 ], "wiki" : "1/3,000" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 65 ], "wiki" : "1/65" }
+      ]
+    }
+  ]
+}

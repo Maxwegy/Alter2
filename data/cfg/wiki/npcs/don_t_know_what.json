@@ -1,0 +1,31 @@
+{
+  "page" : "Don't Know What",
+  "versions" : [
+    {
+      "source" : "Don't Know What",
+      "ids" : [
+        8439
+      ],
+      "names" : [
+        "npc.dont_know_what_8439"
+      ],
+      "combatLevel" : 163,
+      "hitpoints" : 220,
+      "attackSpeed" : 3,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 90, "defence" : 160, "ranged" : 115, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

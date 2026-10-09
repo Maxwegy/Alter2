@@ -1,0 +1,165 @@
+{
+  "page" : "Ghost (Melzar's Maze)",
+  "versions" : [
+    {
+      "source" : "Ghost (Melzar's Maze)#1",
+      "version" : "1",
+      "ids" : [
+        3975
+      ],
+      "names" : [
+        "npc.ghost_3975"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost (Melzar's Maze)#2",
+      "version" : "2",
+      "ids" : [
+        3976
+      ],
+      "names" : [
+        "npc.ghost_3976"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost (Melzar's Maze)#3",
+      "version" : "3",
+      "ids" : [
+        3977
+      ],
+      "names" : [
+        "npc.ghost_3977"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost (Melzar's Maze)#4",
+      "version" : "4",
+      "ids" : [
+        3978
+      ],
+      "names" : [
+        "npc.ghost_3978"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost (Melzar's Maze)#5",
+      "version" : "5",
+      "ids" : [
+        3979
+      ],
+      "names" : [
+        "npc.ghost_3979"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

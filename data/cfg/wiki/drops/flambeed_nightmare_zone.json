@@ -1,0 +1,15 @@
+{
+  "page" : "Flambeed (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Flambeed (Nightmare Zone)",
+      "npcIds" : [
+        6309,
+        6370
+      ],
+      "always" : [
+        { "item" : 1891, "name" : "item.cake", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

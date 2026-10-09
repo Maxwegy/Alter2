@@ -1,0 +1,191 @@
+{
+  "page" : "Pirate",
+  "versions" : [
+    {
+      "source" : "Pirate#Asgarnian Ice Dungeon",
+      "version" : "Asgarnian Ice Dungeon",
+      "ids" : [
+        523
+      ],
+      "names" : [
+        "npc.pirate_523"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 23,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 23, "defence" : 23, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 2, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Pirate#Brimhaven",
+      "version" : "Brimhaven",
+      "ids" : [
+        522,
+        6994
+      ],
+      "names" : [
+        "npc.pirate_522",
+        "npc.pirate_6994"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 21, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 2, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Pirate#Cabin Fever",
+      "version" : "Cabin Fever",
+      "ids" : [
+        4043,
+        4044,
+        4045,
+        4046,
+        4047,
+        4048,
+        4049,
+        4050,
+        4051,
+        4052
+      ],
+      "names" : [
+        "npc.pirate_4043",
+        "npc.pirate_4044",
+        "npc.pirate_4045",
+        "npc.pirate_4046",
+        "npc.pirate_4047",
+        "npc.pirate_4048",
+        "npc.pirate_4049",
+        "npc.pirate_4050",
+        "npc.pirate_4051",
+        "npc.pirate_4052"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Pirate#Pirate's Cove",
+      "version" : "Pirate's Cove",
+      "ids" : [
+        521,
+        6993
+      ],
+      "names" : [
+        "npc.pirate",
+        "npc.pirate_6993"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Pirate#Port Piscarilius",
+      "version" : "Port Piscarilius",
+      "ids" : [
+        524,
+        6995
+      ],
+      "names" : [
+        "npc.pirate_524",
+        "npc.pirate_6995"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Pirate#Port Sarim",
+      "version" : "Port Sarim",
+      "ids" : [
+        1447
+      ],
+      "names" : [
+        "npc.pirate_1447"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 20.0, "categories" : [ "Pirates" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

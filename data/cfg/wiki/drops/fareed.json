@@ -1,0 +1,14 @@
+{
+  "page" : "Fareed",
+  "tables" : [
+    {
+      "source" : "Fareed",
+      "npcIds" : [
+        3456
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "page" : "Desert Wolf",
+  "versions" : [
+    {
+      "source" : "Desert Wolf#1",
+      "version" : "1",
+      "ids" : [
+        4649
+      ],
+      "names" : [
+        "npc.desert_wolf"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 21, "defence" : 22, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 34.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Desert Wolf#2",
+      "version" : "2",
+      "ids" : [
+        4650
+      ],
+      "names" : [
+        "npc.desert_wolf_4650"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 21, "defence" : 22, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 34.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Desert Wolf#3",
+      "version" : "3",
+      "ids" : [
+        4651
+      ],
+      "names" : [
+        "npc.desert_wolf_4651"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 21, "defence" : 22, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 34.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

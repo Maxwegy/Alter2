@@ -1,0 +1,107 @@
+{
+  "page" : "The Whisperer",
+  "versions" : [
+    {
+      "source" : "The Whisperer#Awakened",
+      "version" : "Awakened",
+      "ids" : [
+        12204,
+        12205
+      ],
+      "names" : [
+        "npc.the_whisperer",
+        "npc.the_whisperer_12205"
+      ],
+      "combatLevel" : 1146,
+      "hitpoints" : 2700,
+      "attackSpeed" : 10,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 378, "strength" : 378, "defence" : 300, "ranged" : 243, "magic" : 225 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 190, "rangedAttack" : 160, "stabDefence" : 180, "slashDefence" : 300, "crushDefence" : 220, "magicDefence" : 10, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 140, "strengthBonus" : 30, "rangedStrength" : 70, "magicDamage" : 58 },
+      "maxHits" : [
+        "70+ (x2) (Melee)",
+        "53 (Ranged)",
+        "45 (Magic)",
+        "70 (Screech)",
+        "75 (Soul Siphon)"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 2700.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Whisperer#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        12204,
+        12205
+      ],
+      "names" : [
+        "npc.the_whisperer",
+        "npc.the_whisperer_12205"
+      ],
+      "combatLevel" : 791,
+      "hitpoints" : 900,
+      "attackSpeed" : 10,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 250, "ranged" : 180, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 190, "rangedAttack" : 160, "stabDefence" : 180, "slashDefence" : 300, "crushDefence" : 220, "magicDefence" : 10, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 140, "strengthBonus" : 30, "rangedStrength" : 70, "magicDamage" : 58 },
+      "maxHits" : [
+        "42 (x2) (Melee)",
+        "40 (Ranged)",
+        "36 (Magic)",
+        "45 (Screech)",
+        "50 (Soul Siphon)"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 900.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Whisperer#Quest",
+      "version" : "Quest",
+      "ids" : [
+        12206,
+        12207
+      ],
+      "names" : [
+        "npc.the_whisperer_12206",
+        "npc.the_whisperer_12207"
+      ],
+      "combatLevel" : 587,
+      "hitpoints" : 660,
+      "attackSpeed" : 10,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 240, "strength" : 250, "defence" : 200, "ranged" : 130, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 180, "rangedAttack" : 140, "stabDefence" : 150, "slashDefence" : 250, "crushDefence" : 180, "magicDefence" : -10, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 250, "attackBonus" : 100, "strengthBonus" : 10, "rangedStrength" : 66, "magicDamage" : 54 },
+      "maxHits" : [
+        "30 (x2) (Melee)",
+        "28 (Ranged)",
+        "26 (Magic)",
+        "45 (Screech)",
+        "50 (Soul Siphon)"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 660.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "page" : "Apparition",
+  "versions" : [
+    {
+      "source" : "Apparition#Apmeken",
+      "version" : "Apmeken",
+      "ids" : [
+        4196
+      ],
+      "names" : [
+        "npc.apparition_4196"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 85 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Apparition#Crondis",
+      "version" : "Crondis",
+      "ids" : [
+        4198
+      ],
+      "names" : [
+        "npc.apparition_4198"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 70, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Apparition#Het",
+      "version" : "Het",
+      "ids" : [
+        4195
+      ],
+      "names" : [
+        "npc.apparition"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 83, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Apparition#Scabaras",
+      "version" : "Scabaras",
+      "ids" : [
+        4197
+      ],
+      "names" : [
+        "npc.apparition_4197"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

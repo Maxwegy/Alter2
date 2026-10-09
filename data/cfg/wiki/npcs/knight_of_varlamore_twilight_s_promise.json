@@ -1,0 +1,29 @@
+{
+  "page" : "Knight of Varlamore (Twilight's Promise)",
+  "versions" : [
+    {
+      "source" : "Knight of Varlamore (Twilight's Promise)",
+      "ids" : [
+        12916
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_12916"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 40, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 28, "slashDefence" : 26, "crushDefence" : 10, "magicDefence" : 5, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

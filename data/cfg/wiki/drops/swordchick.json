@@ -1,0 +1,19 @@
+{
+  "page" : "Swordchick",
+  "tables" : [
+    {
+      "source" : "Swordchick",
+      "npcIds" : [
+        3603
+      ],
+      "always" : [
+        { "item" : 314, "name" : "item.feather", "min" : 10, "max" : 40 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 10859, "name" : "item.tea_flask", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 10880, "name" : "item.black_satchel", "min" : 1, "max" : 1, "chance" : [ 3, 20 ], "wiki" : "3/20" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Urium Shade",
+  "tables" : [
+    {
+      "source" : "Urium Shade",
+      "npcIds" : [
+        6143,
+        10589
+      ],
+      "always" : [
+        { "item" : 25419, "name" : "item.urium_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

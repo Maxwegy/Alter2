@@ -1,0 +1,14 @@
+{
+  "page" : "Bouncer",
+  "tables" : [
+    {
+      "source" : "Bouncer",
+      "npcIds" : [
+        1224
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

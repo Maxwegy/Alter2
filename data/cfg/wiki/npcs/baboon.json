@@ -1,0 +1,29 @@
+{
+  "page" : "Baboon",
+  "versions" : [
+    {
+      "source" : "Baboon",
+      "ids" : [
+        11781
+      ],
+      "names" : [
+        "npc.baboon"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 50, "ranged" : 80, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 10, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "1?"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

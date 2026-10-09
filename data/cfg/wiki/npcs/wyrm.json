@@ -1,0 +1,71 @@
+{
+  "page" : "Wyrm",
+  "versions" : [
+    {
+      "source" : "Wyrm#Attacking",
+      "version" : "Attacking",
+      "ids" : [
+        8611
+      ],
+      "names" : [
+        "npc.wyrm_8611"
+      ],
+      "combatLevel" : 97,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 85, "strength" : 60, "defence" : 80, "ranged" : 80, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 30 },
+      "maxHits" : [
+        "13 (Magic)",
+        "10 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 123.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Wyrm#Idle",
+      "version" : "Idle",
+      "ids" : [
+        8610
+      ],
+      "names" : [
+        "npc.wyrm_8610"
+      ],
+      "combatLevel" : 97,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 85, "strength" : 60, "defence" : 80, "ranged" : 80, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 30 },
+      "maxHits" : [
+        "13 (Magic)",
+        "10 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 123.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "page" : "Archer (Burthorpe)",
+  "versions" : [
+    {
+      "source" : "Archer (Burthorpe)",
+      "ids" : [
+        4096,
+        4097,
+        4098
+      ],
+      "names" : [
+        "npc.archer_4096",
+        "npc.archer_4097",
+        "npc.archer_4098"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 50,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 40, "ranged" : 40, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 50, "crushDefence" : 49, "magicDefence" : 18, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 34, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

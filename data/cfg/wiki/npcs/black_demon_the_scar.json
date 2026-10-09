@@ -1,0 +1,34 @@
+{
+  "page" : "Black demon (The Scar)",
+  "versions" : [
+    {
+      "source" : "Black demon (The Scar)",
+      "ids" : [
+        12385
+      ],
+      "names" : [
+        "npc.black_demon_12385"
+      ],
+      "combatLevel" : 172,
+      "hitpoints" : 157,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 145, "strength" : 148, "defence" : 152, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 157.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

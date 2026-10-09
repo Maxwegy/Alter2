@@ -1,0 +1,413 @@
+{
+  "page" : "Blue dragon",
+  "versions" : [
+    {
+      "source" : "Blue dragon#1",
+      "version" : "1",
+      "ids" : [
+        265
+      ],
+      "names" : [
+        "npc.blue_dragon"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#2",
+      "version" : "2",
+      "ids" : [
+        266
+      ],
+      "names" : [
+        "npc.blue_dragon_266"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#3",
+      "version" : "3",
+      "ids" : [
+        267
+      ],
+      "names" : [
+        "npc.blue_dragon_267"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#4",
+      "version" : "4",
+      "ids" : [
+        268
+      ],
+      "names" : [
+        "npc.blue_dragon_268"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#5",
+      "version" : "5",
+      "ids" : [
+        269
+      ],
+      "names" : [
+        "npc.blue_dragon_269"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Ruins of Tapoyauik, 1",
+      "version" : "Ruins of Tapoyauik, 1",
+      "ids" : [
+        14103
+      ],
+      "names" : [
+        "npc.blue_dragon_14103"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Ruins of Tapoyauik, 2",
+      "version" : "Ruins of Tapoyauik, 2",
+      "ids" : [
+        14104
+      ],
+      "names" : [
+        "npc.blue_dragon_14104"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Task only, 1",
+      "version" : "Task only, 1",
+      "ids" : [
+        5878
+      ],
+      "names" : [
+        "npc.blue_dragon_5878"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Task only, 2",
+      "version" : "Task only, 2",
+      "ids" : [
+        5879
+      ],
+      "names" : [
+        "npc.blue_dragon_5879"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Task only, 3",
+      "version" : "Task only, 3",
+      "ids" : [
+        5880
+      ],
+      "names" : [
+        "npc.blue_dragon_5880"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Task only, 4",
+      "version" : "Task only, 4",
+      "ids" : [
+        5881
+      ],
+      "names" : [
+        "npc.blue_dragon_5881"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Blue dragon#Task only, 5",
+      "version" : "Task only, 5",
+      "ids" : [
+        5882
+      ],
+      "names" : [
+        "npc.blue_dragon_5882"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Blue Dragons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

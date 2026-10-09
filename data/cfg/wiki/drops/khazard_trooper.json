@@ -1,0 +1,17 @@
+{
+  "page" : "Khazard trooper",
+  "tables" : [
+    {
+      "source" : "Khazard trooper",
+      "npcIds" : [
+        4969,
+        4970,
+        5964,
+        5965
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

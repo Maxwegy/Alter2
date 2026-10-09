@@ -1,0 +1,25 @@
+{
+  "page" : "Nylocas Vasilias",
+  "tables" : [
+    {
+      "source" : "Nylocas Vasilias",
+      "npcIds" : [
+        8354,
+        8355,
+        8356,
+        8357,
+        10786,
+        10787,
+        10788,
+        10789,
+        10807,
+        10808,
+        10809,
+        10810
+      ],
+      "always" : [
+        { "item" : 22508, "name" : "item.arachnids_of_vampyrium", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

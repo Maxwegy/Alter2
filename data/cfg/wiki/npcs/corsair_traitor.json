@@ -1,0 +1,55 @@
+{
+  "page" : "Corsair Traitor",
+  "versions" : [
+    {
+      "source" : "Corsair Traitor#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        7948
+      ],
+      "names" : [
+        "npc.corsair_traitor_hard"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 160,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 80, "ranged" : 1, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Corsair Traitor#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        7949
+      ],
+      "names" : [
+        "npc.corsair_traitor"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 55,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 30, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

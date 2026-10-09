@@ -1,0 +1,33 @@
+{
+  "page" : "Infernal pyrelord",
+  "versions" : [
+    {
+      "source" : "Infernal pyrelord",
+      "ids" : [
+        9465
+      ],
+      "names" : [
+        "npc.infernal_pyrelord"
+      ],
+      "combatLevel" : 134,
+      "hitpoints" : 184,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 124, "strength" : 96, "defence" : 68, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 0, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 30, "xp" : 1840.0, "categories" : [ "Pyrefiends" ], "assignedBy" : [ "mazchna", "mortimer", "vannaka" ] }
+    }
+  ]
+}

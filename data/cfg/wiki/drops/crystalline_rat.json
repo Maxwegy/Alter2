@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Rat",
+  "tables" : [
+    {
+      "source" : "Crystalline Rat",
+      "npcIds" : [
+        9026
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 20, "max" : 30 }
+      ]
+    }
+  ]
+}

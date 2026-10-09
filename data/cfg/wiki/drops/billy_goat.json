@@ -1,0 +1,16 @@
+{
+  "page" : "Billy Goat",
+  "tables" : [
+    {
+      "source" : "Billy Goat",
+      "npcIds" : [
+        1794,
+        1797
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 9735, "name" : "item.desert_goat_horn", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

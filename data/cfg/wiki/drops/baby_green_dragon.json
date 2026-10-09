@@ -1,0 +1,16 @@
+{
+  "page" : "Baby green dragon",
+  "tables" : [
+    {
+      "source" : "Baby green dragon",
+      "npcIds" : [
+        5194,
+        5872,
+        5873
+      ],
+      "always" : [
+        { "item" : 534, "name" : "item.babydragon_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

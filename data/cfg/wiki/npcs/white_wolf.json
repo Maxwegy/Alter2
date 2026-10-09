@@ -1,0 +1,61 @@
+{
+  "page" : "White wolf",
+  "versions" : [
+    {
+      "source" : "White wolf#Level 25",
+      "version" : "Level 25",
+      "ids" : [
+        107
+      ],
+      "names" : [
+        "npc.white_wolf"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 16, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 34.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "White wolf#Level 38",
+      "version" : "Level 38",
+      "ids" : [
+        108
+      ],
+      "names" : [
+        "npc.white_wolf_108"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 44,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 31, "defence" : 32, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 44.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

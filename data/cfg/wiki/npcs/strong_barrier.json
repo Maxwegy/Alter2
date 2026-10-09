@@ -1,0 +1,29 @@
+{
+  "page" : "Strong Barrier",
+  "versions" : [
+    {
+      "source" : "Strong Barrier",
+      "ids" : [
+        11422,
+        11423
+      ],
+      "names" : [
+        "npc.null_11422",
+        "npc.null_11423"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

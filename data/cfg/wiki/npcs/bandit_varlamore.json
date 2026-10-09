@@ -1,0 +1,43 @@
+{
+  "page" : "Bandit (Varlamore)",
+  "versions" : [
+    {
+      "source" : "Bandit (Varlamore)",
+      "ids" : [
+        13283,
+        13284,
+        13285,
+        13286,
+        13287,
+        13288,
+        13289,
+        13290
+      ],
+      "names" : [
+        "npc.bandit_13283",
+        "npc.bandit_13284",
+        "npc.bandit_13285",
+        "npc.bandit_13286",
+        "npc.bandit_13287",
+        "npc.bandit_13288",
+        "npc.bandit_13289",
+        "npc.bandit_13290"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 27,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 22, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 8, "crushDefence" : 5, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 11, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

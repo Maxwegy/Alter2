@@ -1,0 +1,31 @@
+{
+  "page" : "Minotaur (Fortis Colosseum)",
+  "versions" : [
+    {
+      "source" : "Minotaur (Fortis Colosseum)",
+      "ids" : [
+        12812,
+        12813
+      ],
+      "names" : [
+        "npc.minotaur_12812",
+        "npc.minotaur_12813"
+      ],
+      "combatLevel" : 318,
+      "hitpoints" : 225,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 360, "defence" : 190, "ranged" : 120, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 12, "lightRangedDefence" : 12, "heavyRangedDefence" : 12, "attackBonus" : 15, "strengthBonus" : 64, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "74"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

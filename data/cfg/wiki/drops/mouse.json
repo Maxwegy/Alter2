@@ -1,0 +1,19 @@
+{
+  "page" : "Mouse",
+  "tables" : [
+    {
+      "source" : "Mouse",
+      "npcIds" : [
+        5127,
+        5128
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 131, "chance" : [ 3, 4 ], "wiki" : "3/4" },
+        { "item" : 1985, "name" : "item.cheese", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

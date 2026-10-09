@@ -1,0 +1,199 @@
+{
+  "page" : "Great Olm",
+  "versions" : [
+    {
+      "source" : "Great Olm#Head (Challenge Mode)",
+      "version" : "Head (Challenge Mode)",
+      "ids" : [
+        7551,
+        7554
+      ],
+      "names" : [
+        "npc.great_olm",
+        "npc.great_olm_7554"
+      ],
+      "combatLevel" : 1043,
+      "hitpoints" : 800,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 375, "strength" : 375, "defence" : 225, "ranged" : 375, "magic" : 375 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 200, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38 (phases 1 and 2) <br/> 39 <br/> 41 (phase 4)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Great Olm#Head (Normal)",
+      "version" : "Head (Normal)",
+      "ids" : [
+        7551,
+        7554
+      ],
+      "names" : [
+        "npc.great_olm",
+        "npc.great_olm_7554"
+      ],
+      "combatLevel" : 1043,
+      "hitpoints" : 800,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 150, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 200, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27 <br/> 28 <br/> 29 (phase 4)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Great Olm#Left claw (Challenge Mode)",
+      "version" : "Left claw (Challenge Mode)",
+      "ids" : [
+        7552,
+        7555
+      ],
+      "names" : [
+        "npc.great_olm_left_claw",
+        "npc.great_olm_left_claw_7555"
+      ],
+      "combatLevel" : 750,
+      "hitpoints" : 600,
+      "attackSpeed" : -1,
+      "size" : 5,
+      "levels" : { "attack" : 375, "strength" : 375, "defence" : 262, "ranged" : 375, "magic" : 262 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Great Olm#Left claw (Normal)",
+      "version" : "Left claw (Normal)",
+      "ids" : [
+        7552,
+        7555
+      ],
+      "names" : [
+        "npc.great_olm_left_claw",
+        "npc.great_olm_left_claw_7555"
+      ],
+      "combatLevel" : 750,
+      "hitpoints" : 600,
+      "attackSpeed" : -1,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 175, "ranged" : 250, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Great Olm#Right claw (Challenge Mode)",
+      "version" : "Right claw (Challenge Mode)",
+      "ids" : [
+        7550,
+        7553
+      ],
+      "names" : [
+        "npc.great_olm_right_claw",
+        "npc.great_olm_right_claw_7553"
+      ],
+      "combatLevel" : 549,
+      "hitpoints" : 600,
+      "attackSpeed" : -1,
+      "size" : 5,
+      "levels" : { "attack" : 375, "strength" : 375, "defence" : 262, "ranged" : 375, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 50, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Great Olm#Right claw (Normal)",
+      "version" : "Right claw (Normal)",
+      "ids" : [
+        7550,
+        7553
+      ],
+      "names" : [
+        "npc.great_olm_right_claw",
+        "npc.great_olm_right_claw_7553"
+      ],
+      "combatLevel" : 549,
+      "hitpoints" : 600,
+      "attackSpeed" : -1,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 175, "ranged" : 250, "magic" : 87 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 60, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 50, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

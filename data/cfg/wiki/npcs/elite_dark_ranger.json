@@ -1,0 +1,55 @@
+{
+  "page" : "Elite Dark Ranger",
+  "versions" : [
+    {
+      "source" : "Elite Dark Ranger#Female",
+      "version" : "Female",
+      "ids" : [
+        13468
+      ],
+      "names" : [
+        "npc.elite_dark_ranger_13468"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 80, "ranged" : 80, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 5, "slashDefence" : 0, "crushDefence" : 20, "magicDefence" : 60, "rangedDefence" : 5, "lightRangedDefence" : 10, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Elite Dark Ranger#Male",
+      "version" : "Male",
+      "ids" : [
+        13467
+      ],
+      "names" : [
+        "npc.elite_dark_ranger"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 80, "ranged" : 80, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 5, "slashDefence" : 0, "crushDefence" : 20, "magicDefence" : 60, "rangedDefence" : 5, "lightRangedDefence" : 10, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

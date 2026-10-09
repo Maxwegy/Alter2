@@ -1,0 +1,30 @@
+{
+  "page" : "Soldier (Yanille)",
+  "versions" : [
+    {
+      "source" : "Soldier (Yanille)",
+      "ids" : [
+        5421
+      ],
+      "names" : [
+        "npc.soldier_5421"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 26, "strength" : 25, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

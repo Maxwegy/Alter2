@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant cyclops",
+  "versions" : [
+    {
+      "source" : "Revenant cyclops",
+      "ids" : [
+        7934
+      ],
+      "names" : [
+        "npc.revenant_cyclops"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 110,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 60, "strength" : 73, "defence" : 49, "ranged" : 70, "magic" : 65 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 110, "slashDefence" : 130, "crushDefence" : 135, "magicDefence" : 10, "rangedDefence" : 135, "lightRangedDefence" : 135, "heavyRangedDefence" : 95, "attackBonus" : 53, "strengthBonus" : 64, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 119.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

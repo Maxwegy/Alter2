@@ -1,6 +1,7 @@
 package org.alter.game.service.game
 
 import AnimationData
+import com.fasterxml.jackson.annotation.JsonAlias
 import com.fasterxml.jackson.annotation.JsonProperty
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory
@@ -21,6 +22,7 @@ import org.yaml.snakeyaml.LoaderOptions
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
+import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.TimeUnit
 
 /**
@@ -38,13 +40,7 @@ class ItemMetadataService : Service {
     var ms: Long = 0
     fun loadAll() {
         val stopwatch = Stopwatch.createStarted().reset().start()
-        val loaderOptions = LoaderOptions()
-        loaderOptions.codePointLimit = 10 * 1024 * 1024 // 10 MB
-        val yamlFactory =
-            YAMLFactory.builder()
-                .loaderOptions(loaderOptions)
-                .build()
-        val mapper = YAMLMapper(yamlFactory)
+        val mapper = overrideMapper()
 
         val path = Paths.get("../data/cfg/items")
 
@@ -199,73 +195,63 @@ class ItemMetadataService : Service {
         ms = stopwatch.elapsed(TimeUnit.MILLISECONDS)
     }
 
+    /** Field names each item override set, by item id (e.g. "attackSpeed", "bonus.3"). Lets later layers respect them. */
+    val overriddenFields: Map<Int, Set<String>> get() = overridden
+
+    private val overridden = ConcurrentHashMap<Int, Set<String>>()
+
     fun load(item: Metadata) {
-        val def = getItem(item.id)
+        overridden[item.id] = applyOverride(getItem(item.id), item)
+    }
 
-        def.name = item.name
-        def.examine = item.examine ?: ""
-        def.isTradeable = item.tradeable
-        def.weight = item.weight
+    /**
+     * Applies only the fields [item] actually sets; everything else keeps its cache value. Overrides used to
+     * replace the whole definition, so a skillReqs-only file (all 24 Barrows files) zeroed the item's bonuses,
+     * attack speed, examine, weight and render animations. Returns the names of the fields it set.
+     */
+    fun applyOverride(def: ItemType, item: Metadata): Set<String> {
+        val applied = linkedSetOf<String>()
+        item.name?.let { def.name = it; applied += "name" }
+        item.examine?.let { def.examine = it; applied += "examine" }
+        item.tradeable?.let { def.isTradeable = it; applied += "tradeable" }
+        item.weight?.let { def.weight = it; applied += "weight" }
 
-        if (item.equipment != null) {
-            val equipment = item.equipment
-            val slots = if (equipment.equipSlot != null) getEquipmentSlots(equipment.equipSlot, def.id) else null
-
-            def.attackSpeed = equipment.attackSpeed
-
-            if (equipment.weaponType == -1 && slots != null) {
-                if (slots.slot == 3) def.weaponType = 17
-            } else {
-                def.weaponType = equipment.weaponType
-            }
-
-            def.renderAnimations = equipment.renderAnimations?.getAsArray()
-            /**
-             * TODO def.attackSounds = equipment.attackSounds
-             *  - Create Array of AttackStyleID -> It's Sound
-             *  accurateAnim : accurateSound
-             *  aggressiveAnim : aggressiveSound
-             *  controlledAnim : controlledSound
-             *  defensiveAnim : defensiveSound
-             *  <--- AttackStyleID:[Anim, Sound]
-             *  AttackStyle can be from 0-3
-             *  If no data on it, it will be -1
-             *  blockAnim = When target attacks the Pawn on next tick?
-             *
-             *
-             *  TODO def.equipSound = equipment.equipSound
-             */
-            if (slots != null) {
-                def.equipSlot = slots.slot
-                def.equipType = slots.secondary
-            }
-
-            if (equipment.skillReqs != null) {
-                val reqs = Byte2ByteOpenHashMap()
-                equipment.skillReqs.filter { it.skill != null }.forEach { req ->
-                    reqs[getSkillId(req.skill!!)] = req.level!!.toByte()
-                }
-
-                def.skillReqs = reqs
-            }
-
-            def.bonuses = intArrayOf(
-                equipment.attackStab,
-                equipment.attackSlash,
-                equipment.attackCrush,
-                equipment.attackMagic,
-                equipment.attackRanged,
-                equipment.defenceStab,
-                equipment.defenceSlash,
-                equipment.defenceCrush,
-                equipment.defenceMagic,
-                equipment.defenceRanged,
-                equipment.meleeStrength,
-                equipment.rangedStrength,
-                equipment.magicDamage,
-                equipment.prayer,
-            )
+        val equipment = item.equipment ?: return applied
+        val slots = equipment.equipSlot?.let { getEquipmentSlots(it, def.id) }
+        if (slots != null) {
+            def.equipSlot = slots.slot
+            def.equipType = slots.secondary
+            applied += "equipSlot"
         }
+        equipment.attackSpeed?.let { def.attackSpeed = it; applied += "attackSpeed" }
+        val weaponType = equipment.weaponType
+        if (weaponType != null) {
+            def.weaponType = weaponType
+            applied += "weaponType"
+        } else if (slots?.slot == 3 && def.weaponType == -1) {
+            def.weaponType = 17
+            applied += "weaponType"
+        }
+        equipment.renderAnimations?.let { def.renderAnimations = it.getAsArray(); applied += "renderAnimations" }
+        equipment.skillReqs?.let { reqs ->
+            val map = Byte2ByteOpenHashMap()
+            reqs.filter { it.skill != null && it.level != null }.forEach { req -> map[getSkillId(req.skill!!)] = req.level!!.toByte() }
+            def.skillReqs = map
+            applied += "skillReqs"
+        }
+
+        val overrides = equipment.bonuses()
+        if (overrides.any { it != null }) {
+            val bonuses = (if (def.hasBonuses()) def.bonuses else IntArray(BONUS_COUNT)).copyOf(BONUS_COUNT)
+            overrides.forEachIndexed { index, value ->
+                if (value != null) {
+                    bonuses[index] = value
+                    applied += "bonus.$index"
+                }
+            }
+            def.bonuses = bonuses
+        }
+        return applied
     }
 
     private fun getEquipmentSlots(
@@ -365,106 +351,51 @@ class ItemMetadataService : Service {
             else -> throw IllegalArgumentException("Illegal skill name: $name")
         }
 
+    /** An item override document. Every field is optional; absent fields keep the cache value. */
     data class Metadata(
-        val id: Int = -1,
-        val name: String = "",
-        val examine: String? = null,
-        val tradeable: Boolean = false,
-        val weight: Double = 0.0,
-        val tradeable_on_ge: Boolean = false,
-        val cost: Int = 0,
-        val lowalch: Int = 0,
-        val highalch: Int = 0,
-        val buy_limit: Int? = null,
-        val equipment: Equipment? = null,
+        var id: Int = -1,
+        var name: String? = null,
+        var examine: String? = null,
+        var tradeable: Boolean? = null,
+        var weight: Double? = null,
+        @field:JsonAlias("tradeableOnGe") var tradeable_on_ge: Boolean? = null,
+        var cost: Int? = null,
+        var lowalch: Int? = null,
+        var highalch: Int? = null,
+        @field:JsonAlias("buyLimit") var buy_limit: Int? = null,
+        var equipment: Equipment? = null,
     )
 
+    /** Equipment fields accept both camelCase (the committed files) and snake_case keys. */
     data class Equipment(
-        @JsonProperty("equip_slot") val equipSlot: String? = null,
-        @JsonProperty("equip_sound") val equipSound: Int? = -1,
-        @JsonProperty("weapon_type") val weaponType: Int = -1,
-        @JsonProperty("attack_speed") val attackSpeed: Int = -1,
-        @JsonProperty("attack_stab") val attackStab: Int = 0,
-        @JsonProperty("attack_slash") val attackSlash: Int = 0,
-        @JsonProperty("attack_crush") val attackCrush: Int = 0,
-        @JsonProperty("attack_magic") val attackMagic: Int = 0,
-        @JsonProperty("attack_ranged") val attackRanged: Int = 0,
-        @JsonProperty("defence_stab") val defenceStab: Int = 0,
-        @JsonProperty("defence_slash") val defenceSlash: Int = 0,
-        @JsonProperty("defence_crush") val defenceCrush: Int = 0,
-        @JsonProperty("defence_magic") val defenceMagic: Int = 0,
-        @JsonProperty("defence_ranged") val defenceRanged: Int = 0,
-        @JsonProperty("melee_strength") val meleeStrength: Int = 0,
-        @JsonProperty("ranged_strength") val rangedStrength: Int = 0,
-        @JsonProperty("magic_damage") val magicDamage: Int = 0,
-        @JsonProperty("prayer") val prayer: Int = 0,
-        @JsonProperty("render_animations") val renderAnimations: RenderAnimations? = null,
-        @JsonProperty("attackSounds") val attackSounds: IntArray? = null,
-        @JsonProperty("skill_reqs") val skillReqs: Array<SkillRequirement>? = null,
+        @field:JsonAlias("equip_slot") var equipSlot: String? = null,
+        @field:JsonAlias("equip_sound") var equipSound: Int? = null,
+        @field:JsonAlias("weapon_type") var weaponType: Int? = null,
+        @field:JsonAlias("attack_speed") var attackSpeed: Int? = null,
+        @field:JsonAlias("attack_stab") var attackStab: Int? = null,
+        @field:JsonAlias("attack_slash") var attackSlash: Int? = null,
+        @field:JsonAlias("attack_crush") var attackCrush: Int? = null,
+        @field:JsonAlias("attack_magic") var attackMagic: Int? = null,
+        @field:JsonAlias("attack_ranged") var attackRanged: Int? = null,
+        @field:JsonAlias("defence_stab") var defenceStab: Int? = null,
+        @field:JsonAlias("defence_slash") var defenceSlash: Int? = null,
+        @field:JsonAlias("defence_crush") var defenceCrush: Int? = null,
+        @field:JsonAlias("defence_magic") var defenceMagic: Int? = null,
+        @field:JsonAlias("defence_ranged") var defenceRanged: Int? = null,
+        @field:JsonAlias("melee_strength") var meleeStrength: Int? = null,
+        @field:JsonAlias("ranged_strength") var rangedStrength: Int? = null,
+        @field:JsonAlias("magic_damage") var magicDamage: Int? = null,
+        var prayer: Int? = null,
+        @field:JsonAlias("render_animations") var renderAnimations: RenderAnimations? = null,
+        var attackSounds: List<Int>? = null,
+        @field:JsonAlias("skill_reqs") var skillReqs: List<SkillRequirement>? = null,
     ) {
-        override fun equals(other: Any?): Boolean {
-            if (this === other) return true
-            if (javaClass != other?.javaClass) return false
-            other as Equipment
-            if (equipSlot != other.equipSlot) return false
-            if (equipSound != other.equipSound) return false
-            if (weaponType != other.weaponType) return false
-            if (attackSpeed != other.attackSpeed) return false
-            if (attackStab != other.attackStab) return false
-            if (attackSlash != other.attackSlash) return false
-            if (attackCrush != other.attackCrush) return false
-            if (attackMagic != other.attackMagic) return false
-            if (attackRanged != other.attackRanged) return false
-            if (defenceStab != other.defenceStab) return false
-            if (defenceSlash != other.defenceSlash) return false
-            if (defenceCrush != other.defenceCrush) return false
-            if (defenceMagic != other.defenceMagic) return false
-            if (defenceRanged != other.defenceRanged) return false
-            if (meleeStrength != other.meleeStrength) return false
-            if (rangedStrength != other.rangedStrength) return false
-            if (magicDamage != other.magicDamage) return false
-            if (prayer != other.prayer) return false
-
-            if (renderAnimations != null) {
-                if (other.renderAnimations == null) return false
-            } else if (other.renderAnimations != null) {
-                return false
-            }
-
-            if (attackSounds != null) return false
-
-            if (skillReqs != null) {
-                if (other.skillReqs == null) return false
-                if (!skillReqs.contentEquals(other.skillReqs)) return false
-            } else if (other.skillReqs != null) {
-                return false
-            }
-
-            return true
-        }
-
-        override fun hashCode(): Int {
-            var result = equipSlot?.hashCode() ?: 0
-            result = 31 * result + weaponType
-            result = 31 * result + attackSpeed
-            result = 31 * result + attackStab
-            result = 31 * result + attackSlash
-            result = 31 * result + attackCrush
-            result = 31 * result + attackMagic
-            result = 31 * result + attackRanged
-            result = 31 * result + defenceStab
-            result = 31 * result + defenceSlash
-            result = 31 * result + defenceCrush
-            result = 31 * result + defenceMagic
-            result = 31 * result + defenceRanged
-            result = 31 * result + meleeStrength
-            result = 31 * result + rangedStrength
-            result = 31 * result + magicDamage
-            result = 31 * result + prayer
-            result = 31 * result + (renderAnimations?.getAsArray().contentHashCode())
-            result = 31 * result + (skillReqs?.contentHashCode() ?: 0)
-            return result
-        }
+        /** In ItemType.bonuses order; null = not overridden. */
+        fun bonuses(): List<Int?> = listOf(
+            attackStab, attackSlash, attackCrush, attackMagic, attackRanged,
+            defenceStab, defenceSlash, defenceCrush, defenceMagic, defenceRanged,
+            meleeStrength, rangedStrength, magicDamage, prayer,
+        )
     }
 
     data class RenderAnimations(
@@ -490,11 +421,29 @@ class ItemMetadataService : Service {
     }
 
     data class SkillRequirement(
-        @JsonProperty("skill") val skill: String?,
-        @JsonProperty("level") val level: Int?,
+        var skill: String? = null,
+        var level: Int? = null,
     )
 
     companion object {
         val logger = KotlinLogging.logger {}
+
+        /** ItemType.bonuses length: 10 attack/defence, melee strength, ranged strength, magic damage, prayer. */
+        const val BONUS_COUNT = 14
+
+        /** The mapper for override YAML. No Kotlin module: the models are plain mutable beans. */
+        fun overrideMapper(): YAMLMapper {
+            val loaderOptions = LoaderOptions()
+            loaderOptions.codePointLimit = 10 * 1024 * 1024 // 10 MB
+            return YAMLMapper(YAMLFactory.builder().loaderOptions(loaderOptions).build())
+        }
+
+        /** True when the lateinit [ItemType.bonuses] has been assigned. */
+        private fun ItemType.hasBonuses(): Boolean = try {
+            bonuses
+            true
+        } catch (e: UninitializedPropertyAccessException) {
+            false
+        }
     }
 }

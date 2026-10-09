@@ -1,0 +1,29 @@
+{
+  "page" : "Suit of armour",
+  "versions" : [
+    {
+      "source" : "Suit of armour",
+      "ids" : [
+        5043
+      ],
+      "names" : [
+        "npc.suit_of_armour_5043"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 29,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 14, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 46, "slashDefence" : 50, "crushDefence" : 45, "magicDefence" : -12, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "page" : "Revenant imp",
+  "tables" : [
+    {
+      "source" : "Revenant imp",
+      "npcIds" : [
+        7881
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 21820, "name" : "item.revenant_ether", "min" : 2, "max" : 6 }
+      ],
+      "tertiary" : [
+        { "item" : 451, "name" : "item.runite_ore", "min" : 2, "max" : 4, "chance" : [ 4, 3025 ], "wiki" : "1/756.25" },
+        { "item" : 454, "name" : "item.coal_noted", "min" : 30, "max" : 60, "noted" : true, "chance" : [ 100, 50417 ], "wiki" : "1/504.17" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 30, "max" : 60, "chance" : [ 1, 605 ], "wiki" : "1/605" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 20, "max" : 45, "chance" : [ 1, 605 ], "wiki" : "1/605" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 50, "max" : 100, "chance" : [ 1, 605 ], "wiki" : "1/605" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 51, "chance" : [ 100, 103 ], "wiki" : "1/1.03" },
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 2, "max" : 2, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1127, "name" : "item.rune_platebody", "min" : 2, "max" : 2, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 50, 169231 ], "wiki" : "1/3,384.62" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 2, "max" : 2, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 2, "max" : 2, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1215, "name" : "item.dragon_dagger", "min" : 2, "max" : 2, "chance" : [ 1, 3025 ], "wiki" : "1/3,025" },
+        { "item" : 1305, "name" : "item.dragon_longsword", "min" : 2, "max" : 2, "chance" : [ 1, 3025 ], "wiki" : "1/3,025" },
+        { "item" : 1347, "name" : "item.rune_warhammer", "min" : 2, "max" : 2, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1391, "name" : "item.battlestaff", "min" : 4, "max" : 4, "chance" : [ 1, 605 ], "wiki" : "1/605" },
+        { "item" : 1514, "name" : "item.magic_logs_noted", "min" : 8, "max" : 16, "noted" : true, "chance" : [ 2, 3025 ], "wiki" : "1/1,512.5" },
+        { "item" : 1516, "name" : "item.yew_logs_noted", "min" : 20, "max" : 40, "noted" : true, "chance" : [ 4, 3025 ], "wiki" : "1/756.25" },
+        { "item" : 1631, "name" : "item.uncut_dragonstone", "min" : 2, "max" : 5, "chance" : [ 1, 3025 ], "wiki" : "1/3,025" },
+        { "item" : 1747, "name" : "item.black_dragonhide", "min" : 4, "max" : 4, "chance" : [ 4, 3025 ], "wiki" : "1/756.25" },
+        { "item" : 2361, "name" : "item.adamantite_bar", "min" : 4, "max" : 6, "chance" : [ 100, 50417 ], "wiki" : "1/504.17" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 2, "max" : 3, "chance" : [ 100, 100833 ], "wiki" : "1/1,008.33" },
+        { "item" : 4087, "name" : "item.dragon_platelegs", "min" : 1, "max" : 2, "chance" : [ 1, 6050 ], "wiki" : "1/6,050" },
+        { "item" : 4585, "name" : "item.dragon_plateskirt", "min" : 1, "max" : 2, "chance" : [ 1, 6050 ], "wiki" : "1/6,050" },
+        { "item" : 5315, "name" : "item.yew_seed", "min" : 2, "max" : 6, "chance" : [ 1, 11000 ], "wiki" : "1/11,000" },
+        { "item" : 5316, "name" : "item.magic_seed", "min" : 2, "max" : 6, "chance" : [ 1, 11000 ], "wiki" : "1/11,000" },
+        { "item" : 6803, "name" : "item.imp_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 8783, "name" : "item.mahogany_plank_noted", "min" : 8, "max" : 16, "noted" : true, "chance" : [ 100, 100833 ], "wiki" : "1/1,008.33" },
+        { "item" : 9193, "name" : "item.dragonstone_bolt_tips", "min" : 20, "max" : 40, "chance" : [ 100, 100833 ], "wiki" : "1/1,008.33" },
+        { "item" : 9194, "name" : "item.onyx_bolt_tips", "min" : 3, "max" : 6, "chance" : [ 100, 100833 ], "wiki" : "1/1,008.33" },
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" },
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 312 ], "wiki" : "1/312" },
+        { "item" : 21802, "name" : "item.revenant_cave_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 243 ], "wiki" : "1/48.6" },
+        { "item" : 21802, "name" : "item.revenant_cave_teleport", "min" : 1, "max" : 5, "chance" : [ 1, 605 ], "wiki" : "1/605" },
+        { "item" : 21804, "name" : "item.ancient_crystal", "min" : 1, "max" : 1, "chance" : [ 100, 1466667 ], "wiki" : "1/14,666.67" },
+        { "item" : 21807, "name" : "item.ancient_emblem", "min" : 1, "max" : 1, "chance" : [ 100, 733333 ], "wiki" : "1/7,333.33" },
+        { "item" : 21810, "name" : "item.ancient_totem", "min" : 1, "max" : 1, "chance" : [ 1, 11000 ], "wiki" : "1/11,000" },
+        { "item" : 21813, "name" : "item.ancient_statuette", "min" : 1, "max" : 1, "chance" : [ 1, 22000 ], "wiki" : "1/22,000" },
+        { "item" : 21817, "name" : "item.bracelet_of_ethereum_uncharged", "min" : 1, "max" : 1, "chance" : [ 100, 20167 ], "wiki" : "1/201.67" },
+        { "item" : 22299, "name" : "item.ancient_medallion", "min" : 1, "max" : 1, "chance" : [ 1, 44000 ], "wiki" : "1/44,000" },
+        { "item" : 22302, "name" : "item.ancient_effigy", "min" : 1, "max" : 1, "chance" : [ 1, 44000 ], "wiki" : "1/44,000" },
+        { "item" : 22305, "name" : "item.ancient_relic", "min" : 1, "max" : 1, "chance" : [ 1, 44000 ], "wiki" : "1/44,000" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 1698 ], "wiki" : "1/1,698" },
+        { "item" : 24589, "name" : "item.blighted_manta_ray", "min" : 1, "max" : 2, "chance" : [ 5, 81 ], "wiki" : "1/16.2" },
+        { "item" : 24589, "name" : "item.blighted_manta_ray", "min" : 10, "max" : 15, "chance" : [ 4, 3025 ], "wiki" : "1/756.25" },
+        { "item" : 24592, "name" : "item.blighted_anglerfish", "min" : 1, "max" : 2, "chance" : [ 5, 81 ], "wiki" : "1/16.2" },
+        { "item" : 24595, "name" : "item.blighted_karambwan", "min" : 1, "max" : 2, "chance" : [ 10, 243 ], "wiki" : "1/24.3" },
+        { "item" : 24598, "name" : "item.blighted_super_restore4", "min" : 1, "max" : 1, "chance" : [ 5, 243 ], "wiki" : "1/48.6" },
+        { "item" : 24598, "name" : "item.blighted_super_restore4", "min" : 1, "max" : 3, "chance" : [ 100, 100833 ], "wiki" : "1/1,008.33" },
+        { "item" : 24607, "name" : "item.blighted_ancient_ice_sack", "min" : 1, "max" : 10, "chance" : [ 10, 243 ], "wiki" : "1/24.3" },
+        { "item" : 24613, "name" : "item.blighted_entangle_sack", "min" : 1, "max" : 10, "chance" : [ 20, 243 ], "wiki" : "1/12.15" },
+        { "item" : 24615, "name" : "item.blighted_teleport_spell_sack", "min" : 1, "max" : 10, "chance" : [ 10, 243 ], "wiki" : "1/24.3" },
+        { "item" : 24621, "name" : "item.blighted_vengeance_sack", "min" : 1, "max" : 10, "chance" : [ 10, 243 ], "wiki" : "1/24.3" }
+      ]
+    },
+    {
+      "source" : "Revenant imp#Off-task",
+      "npcIds" : [
+        7881
+      ],
+      "main" : [
+        { "item" : 22542, "name" : "item.viggoras_chainmace_u", "min" : 1, "max" : 1, "chance" : [ 2, 293337 ], "wiki" : "1/146,668.5" },
+        { "item" : 22547, "name" : "item.craws_bow_u", "min" : 1, "max" : 1, "chance" : [ 2, 293337 ], "wiki" : "1/146,668.5" },
+        { "item" : 22552, "name" : "item.thammarons_sceptre_u", "min" : 1, "max" : 1, "chance" : [ 2, 293337 ], "wiki" : "1/146,668.5" },
+        { "item" : 22557, "name" : "item.amulet_of_avarice", "min" : 1, "max" : 1, "chance" : [ 4, 293337 ], "wiki" : "1/73,334.25" }
+      ]
+    },
+    {
+      "source" : "Revenant imp#On-task",
+      "npcIds" : [
+        7881
+      ],
+      "main" : [
+        { "item" : 22542, "name" : "item.viggoras_chainmace_u", "min" : 1, "max" : 1, "chance" : [ 2, 58663 ], "wiki" : "1/29,331.5" },
+        { "item" : 22547, "name" : "item.craws_bow_u", "min" : 1, "max" : 1, "chance" : [ 2, 58663 ], "wiki" : "1/29,331.5" },
+        { "item" : 22552, "name" : "item.thammarons_sceptre_u", "min" : 1, "max" : 1, "chance" : [ 2, 58663 ], "wiki" : "1/29,331.5" },
+        { "item" : 22557, "name" : "item.amulet_of_avarice", "min" : 1, "max" : 1, "chance" : [ 4, 58663 ], "wiki" : "1/14,665.75" }
+      ]
+    }
+  ]
+}

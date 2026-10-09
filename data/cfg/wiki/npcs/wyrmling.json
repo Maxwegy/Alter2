@@ -1,0 +1,65 @@
+{
+  "page" : "Wyrmling",
+  "versions" : [
+    {
+      "source" : "Wyrmling#Attacking (Neypotzli)",
+      "version" : "Attacking (Neypotzli)",
+      "ids" : [
+        13032
+      ],
+      "names" : [
+        "npc.wyrmling_13032"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 30, "defence" : 40, "ranged" : 15, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 65.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Wyrmling#Idle (Neypotzli)",
+      "version" : "Idle (Neypotzli)",
+      "ids" : [
+        13031
+      ],
+      "names" : [
+        "npc.wyrmling"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 30, "defence" : 40, "ranged" : 15, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 65.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

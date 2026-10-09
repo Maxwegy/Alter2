@@ -1,0 +1,18 @@
+{
+  "page" : "Undead Zealot",
+  "tables" : [
+    {
+      "source" : "Undead Zealot",
+      "npcIds" : [
+        10591,
+        10592
+      ],
+      "always" : [
+        { "item" : 25422, "name" : "item.bleached_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

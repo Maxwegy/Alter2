@@ -1,0 +1,31 @@
+{
+  "page" : "Arianwyn",
+  "versions" : [
+    {
+      "source" : "Arianwyn#In combat",
+      "ids" : [
+        8865,
+        9248
+      ],
+      "names" : [
+        "npc.arianwyn_8865",
+        "npc.arianwyn_9248"
+      ],
+      "combatLevel" : 212,
+      "hitpoints" : 300,
+      "attackSpeed" : 5,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 102, "ranged" : 368, "magic" : 102 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 84, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 260, "rangedDefence" : 180, "lightRangedDefence" : 180, "heavyRangedDefence" : 180, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38",
+        "47 (special attack)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

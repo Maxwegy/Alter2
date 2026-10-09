@@ -1,0 +1,42 @@
+{
+  "page" : "Suqah",
+  "tables" : [
+    {
+      "source" : "Suqah",
+      "npcIds" : [
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 },
+        { "item" : 9080, "name" : "item.suqah_hide", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 10, 43 ], "wiki" : "30/129" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 25, 129 ], "wiki" : "25/129" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 5, 16512 ], "wiki" : "1/3,302.4" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 16512 ], "wiki" : "1/3,302.4" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 16512 ], "wiki" : "1/3,302.4" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 5, 264192 ], "wiki" : "1/52,838.4" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 5, 704512 ], "wiki" : "1/140,902.4" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 5504 ], "wiki" : "1/1,100.8" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 5, 8256 ], "wiki" : "1/1,651.2" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 5, 2064 ], "wiki" : "1/412.8" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 5, 1032 ], "wiki" : "1/206.4" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 5, 516 ], "wiki" : "1/103.2" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 5, 528384 ], "wiki" : "1/105,676.8" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 129 ], "wiki" : "1/129" },
+        { "item" : 9079, "name" : "item.suqah_tooth", "min" : 1, "max" : 1, "chance" : [ 23, 43 ], "wiki" : "69/129" },
+        { "item" : 9103, "name" : "item.a_special_tiara", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

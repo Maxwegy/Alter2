@@ -1,0 +1,111 @@
+{
+  "page" : "Knight of Ardougne",
+  "versions" : [
+    {
+      "source" : "Knight of Ardougne#Female",
+      "version" : "Female",
+      "ids" : [
+        11936
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_11936"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6 (regular hit)",
+        "3 (pickpocket failure)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Ardougne#Male",
+      "version" : "Male",
+      "ids" : [
+        3297
+      ],
+      "names" : [
+        "npc.knight_of_ardougne"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6 (regular hit)",
+        "3 (pickpocket failure)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Ardougne#West, female",
+      "version" : "West, female",
+      "ids" : [
+        11902
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_11902"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Ardougne#West, male",
+      "version" : "West, male",
+      "ids" : [
+        8854
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_8854"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

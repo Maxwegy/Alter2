@@ -1,0 +1,130 @@
+{
+  "page" : "Spinner",
+  "versions" : [
+    {
+      "source" : "Spinner#Level 36",
+      "version" : "Level 36",
+      "ids" : [
+        1709
+      ],
+      "names" : [
+        "npc.spinner"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 33,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 17, "defence" : 43, "ranged" : 0, "magic" : 37 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Spinner#Level 55",
+      "version" : "Level 55",
+      "ids" : [
+        1710
+      ],
+      "names" : [
+        "npc.spinner_1710"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 53,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 68, "ranged" : 0, "magic" : 52 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Spinner#Level 74",
+      "version" : "Level 74",
+      "ids" : [
+        1711
+      ],
+      "names" : [
+        "npc.spinner_1711"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 73,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 27, "defence" : 93, "ranged" : 0, "magic" : 67 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Spinner#Level 88",
+      "version" : "Level 88",
+      "ids" : [
+        1713
+      ],
+      "names" : [
+        "npc.spinner_1713"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 93,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 37, "defence" : 143, "ranged" : 0, "magic" : 37 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Spinner#Level 92",
+      "version" : "Level 92",
+      "ids" : [
+        1712
+      ],
+      "names" : [
+        "npc.spinner_1712"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 101,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 118, "ranged" : 0, "magic" : 82 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "page" : "Cyclops",
+  "versions" : [
+    {
+      "source" : "Cyclops#Level 106",
+      "version" : "Level 106",
+      "ids" : [
+        2137,
+        2138,
+        2139,
+        2140,
+        2141,
+        2142
+      ],
+      "names" : [
+        "npc.cyclops_2137",
+        "npc.cyclops_2138",
+        "npc.cyclops_2139",
+        "npc.cyclops_2140",
+        "npc.cyclops_2141",
+        "npc.cyclops_2142"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 75, "defence" : 55, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Cyclops#Level 56",
+      "version" : "Level 56",
+      "ids" : [
+        2463,
+        2465,
+        2467
+      ],
+      "names" : [
+        "npc.cyclops_2463",
+        "npc.cyclops_2465",
+        "npc.cyclops_2467"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 47, "strength" : 50, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 75.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Cyclops#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        2464,
+        2466,
+        2468
+      ],
+      "names" : [
+        "npc.cyclops_2464",
+        "npc.cyclops_2466",
+        "npc.cyclops_2468"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    }
+  ]
+}

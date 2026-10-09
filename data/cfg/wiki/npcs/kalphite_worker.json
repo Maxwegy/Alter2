@@ -1,0 +1,39 @@
+{
+  "page" : "Kalphite Worker",
+  "versions" : [
+    {
+      "source" : "Kalphite Worker",
+      "ids" : [
+        955,
+        956,
+        961
+      ],
+      "names" : [
+        "npc.kalphite_worker",
+        "npc.kalphite_worker_956",
+        "npc.kalphite_worker_961"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 1, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 40.0, "categories" : [ "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

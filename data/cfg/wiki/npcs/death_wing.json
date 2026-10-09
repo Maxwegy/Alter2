@@ -1,0 +1,35 @@
+{
+  "page" : "Death wing",
+  "versions" : [
+    {
+      "source" : "Death wing",
+      "ids" : [
+        509
+      ],
+      "names" : [
+        "npc.death_wing"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (approx)"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 80.0, "categories" : [ "Bats", "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    }
+  ]
+}

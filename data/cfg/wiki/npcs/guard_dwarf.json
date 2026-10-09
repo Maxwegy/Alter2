@@ -1,0 +1,65 @@
+{
+  "page" : "Guard (dwarf)",
+  "versions" : [
+    {
+      "source" : "Guard (dwarf)#1",
+      "version" : "1",
+      "ids" : [
+        5185,
+        5186,
+        5188,
+        5189
+      ],
+      "names" : [
+        "npc.guard_5185",
+        "npc.guard_5186",
+        "npc.guard_5188",
+        "npc.guard_5189"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 6, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Guard (dwarf)#2",
+      "version" : "2",
+      "ids" : [
+        5187
+      ],
+      "names" : [
+        "npc.guard_5187"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 6, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

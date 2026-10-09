@@ -1,0 +1,83 @@
+{
+  "page" : "Battle mage",
+  "versions" : [
+    {
+      "source" : "Battle mage#Guthix",
+      "version" : "Guthix",
+      "ids" : [
+        1612
+      ],
+      "names" : [
+        "npc.battle_mage_1612"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 150,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Battle mage#Saradomin",
+      "version" : "Saradomin",
+      "ids" : [
+        1611
+      ],
+      "names" : [
+        "npc.battle_mage_1611"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 150,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Battle mage#Zamorak",
+      "version" : "Zamorak",
+      "ids" : [
+        1610
+      ],
+      "names" : [
+        "npc.battle_mage"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 150,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

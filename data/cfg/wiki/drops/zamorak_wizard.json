@@ -1,0 +1,42 @@
+{
+  "page" : "Zamorak wizard",
+  "tables" : [
+    {
+      "source" : "Zamorak wizard",
+      "npcIds" : [
+        2954
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 51, "max" : 51, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 180, "max" : 180, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 42, "max" : 42, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 126, "max" : 126, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 60, "max" : 60, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 189, "max" : 189, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 79, "max" : 79, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 86, "max" : 86, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 107, "max" : 107, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 45, "max" : 45, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 30, "max" : 30, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 9, "max" : 9, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 8, "max" : 8, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 77, "max" : 77, "chance" : [ 17, 128 ], "wiki" : "17/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 89, "max" : 89, "chance" : [ 25, 128 ], "wiki" : "25/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 240, "max" : 240, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1033, "name" : "item.zamorak_monk_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1035, "name" : "item.zamorak_monk_top", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1393, "name" : "item.fire_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1395, "name" : "item.water_battlestaff", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1397, "name" : "item.air_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1399, "name" : "item.earth_battlestaff", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" }
+      ]
+    }
+  ]
+}

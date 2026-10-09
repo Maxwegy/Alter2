@@ -2,7 +2,10 @@
 # You want to edit these to fit your game.
 name: "Alter"
 game-port: 43594
-revision: 228
+# The OSRS revision is set once in gradle.properties (alter.osrsRevision); do not add it here.
+
+# Minutes between automatic saves of every online player (0 disables). Players are also saved on shutdown.
+autosave-minutes: 5
 
 # The coordinates for the home location.
 home-x: 3218

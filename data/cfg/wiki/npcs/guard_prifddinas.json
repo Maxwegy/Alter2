@@ -1,0 +1,196 @@
+{
+  "page" : "Guard (Prifddinas)",
+  "versions" : [
+    {
+      "source" : "Guard (Prifddinas)#1",
+      "version" : "1",
+      "ids" : [
+        9182
+      ],
+      "names" : [
+        "npc.guard_9182"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#2",
+      "version" : "2",
+      "ids" : [
+        9183
+      ],
+      "names" : [
+        "npc.guard_9183"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#3",
+      "version" : "3",
+      "ids" : [
+        9184
+      ],
+      "names" : [
+        "npc.guard_9184"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#4",
+      "version" : "4",
+      "ids" : [
+        9185
+      ],
+      "names" : [
+        "npc.guard_9185"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#5",
+      "version" : "5",
+      "ids" : [
+        9186,
+        9189
+      ],
+      "names" : [
+        "npc.guard_9186",
+        "npc.guard_9189"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#6",
+      "version" : "6",
+      "ids" : [
+        9187
+      ],
+      "names" : [
+        "npc.guard_9187"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Guard (Prifddinas)#7",
+      "version" : "7",
+      "ids" : [
+        9188
+      ],
+      "names" : [
+        "npc.guard_9188"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    }
+  ]
+}

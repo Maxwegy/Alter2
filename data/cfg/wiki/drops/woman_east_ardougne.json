@@ -1,0 +1,14 @@
+{
+  "page" : "Woman (East Ardougne)",
+  "tables" : [
+    {
+      "source" : "Woman (East Ardougne)",
+      "npcIds" : [
+        3299
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

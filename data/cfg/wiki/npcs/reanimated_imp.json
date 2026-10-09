@@ -1,0 +1,31 @@
+{
+  "page" : "Reanimated imp",
+  "versions" : [
+    {
+      "source" : "Reanimated imp",
+      "ids" : [
+        7020
+      ],
+      "names" : [
+        "npc.reanimated_imp"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -42, "strengthBonus" : -37, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ]
+    }
+  ]
+}

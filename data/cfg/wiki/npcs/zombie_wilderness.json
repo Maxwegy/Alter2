@@ -1,0 +1,377 @@
+{
+  "page" : "Zombie (Wilderness)",
+  "versions" : [
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 1",
+      "version" : "Level 18, 1",
+      "ids" : [
+        45
+      ],
+      "names" : [
+        "npc.zombie_45"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 2",
+      "version" : "Level 18, 2",
+      "ids" : [
+        46
+      ],
+      "names" : [
+        "npc.zombie_46"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 3",
+      "version" : "Level 18, 3",
+      "ids" : [
+        47
+      ],
+      "names" : [
+        "npc.zombie_47"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 4",
+      "version" : "Level 18, 4",
+      "ids" : [
+        48
+      ],
+      "names" : [
+        "npc.zombie_48"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 5",
+      "version" : "Level 18, 5",
+      "ids" : [
+        6596
+      ],
+      "names" : [
+        "npc.zombie_6596"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 6",
+      "version" : "Level 18, 6",
+      "ids" : [
+        6597
+      ],
+      "names" : [
+        "npc.zombie_6597"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 18, 7",
+      "version" : "Level 18, 7",
+      "ids" : [
+        6598
+      ],
+      "names" : [
+        "npc.zombie_6598"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 24,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 24.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 24, 1",
+      "version" : "Level 24, 1",
+      "ids" : [
+        59
+      ],
+      "names" : [
+        "npc.zombie_59"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 24, 2",
+      "version" : "Level 24, 2",
+      "ids" : [
+        60
+      ],
+      "names" : [
+        "npc.zombie_60"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 24, 3",
+      "version" : "Level 24, 3",
+      "ids" : [
+        61
+      ],
+      "names" : [
+        "npc.zombie_61"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 24, 4",
+      "version" : "Level 24, 4",
+      "ids" : [
+        62
+      ],
+      "names" : [
+        "npc.zombie_62"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Wilderness)#Level 24, 5",
+      "version" : "Level 24, 5",
+      "ids" : [
+        63
+      ],
+      "names" : [
+        "npc.zombie_63"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "page" : "Soldier (Yanille)",
+  "tables" : [
+    {
+      "source" : "Soldier (Yanille)",
+      "npcIds" : [
+        5421
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 8, "max" : 8, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 4, "max" : 4, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 8, "max" : 8, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 6, "max" : 6, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 9, "max" : 9, "chance" : [ 37, 128 ], "wiki" : "37/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 24, "max" : 24, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 35, "max" : 35, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1141, "name" : "item.steel_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1295, "name" : "item.steel_longsword", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1448, "name" : "item.mind_talisman", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" }
+      ]
+    }
+  ]
+}

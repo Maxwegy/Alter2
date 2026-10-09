@@ -1,0 +1,215 @@
+{
+  "page" : "Emissary Acolyte",
+  "versions" : [
+    {
+      "source" : "Emissary Acolyte#1",
+      "version" : "1",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Acolyte#2",
+      "version" : "2",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Acolyte#3",
+      "version" : "3",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Acolyte#4",
+      "version" : "4",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Acolyte#5",
+      "version" : "5",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Acolyte#6",
+      "version" : "6",
+      "ids" : [
+        13732,
+        13733,
+        13734,
+        13735,
+        13736,
+        13737
+      ],
+      "names" : [
+        "npc.emissary_acolyte_13732",
+        "npc.emissary_acolyte_13733",
+        "npc.emissary_acolyte_13734",
+        "npc.emissary_acolyte_13735",
+        "npc.emissary_acolyte_13736",
+        "npc.emissary_acolyte_13737"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 35, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "page" : "Dwarf gang member",
+  "versions" : [
+    {
+      "source" : "Dwarf gang member#Level 44",
+      "version" : "Level 44",
+      "ids" : [
+        1354
+      ],
+      "names" : [
+        "npc.dwarf_gang_member"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 7, "slashDefence" : 7, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 7, "lightRangedDefence" : 7, "heavyRangedDefence" : 7, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf gang member#Level 48",
+      "version" : "Level 48",
+      "ids" : [
+        1355
+      ],
+      "names" : [
+        "npc.dwarf_gang_member_1355"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 25,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 7, "slashDefence" : 7, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 7, "lightRangedDefence" : 7, "heavyRangedDefence" : 7, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 25.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf gang member#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        1356
+      ],
+      "names" : [
+        "npc.dwarf_gang_member_1356"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 25,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 60, "defence" : 57, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 7, "slashDefence" : 7, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 7, "lightRangedDefence" : 7, "heavyRangedDefence" : 7, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 25.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

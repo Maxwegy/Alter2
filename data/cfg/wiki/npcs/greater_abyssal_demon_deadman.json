@@ -1,0 +1,121 @@
+{
+  "page" : "Greater abyssal demon (Deadman)",
+  "versions" : [
+    {
+      "source" : "Greater abyssal demon (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12451
+      ],
+      "names" : [
+        "npc.greater_abyssal_demon_12451"
+      ],
+      "combatLevel" : 719,
+      "hitpoints" : 2000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 260, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Greater abyssal demon (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12451
+      ],
+      "names" : [
+        "npc.greater_abyssal_demon_12451"
+      ],
+      "combatLevel" : 429,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 260, "defence" : 240, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Greater abyssal demon (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12451
+      ],
+      "names" : [
+        "npc.greater_abyssal_demon_12451"
+      ],
+      "combatLevel" : 407,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 260, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Greater abyssal demon (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12451
+      ],
+      "names" : [
+        "npc.greater_abyssal_demon_12451"
+      ],
+      "combatLevel" : 407,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 260, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

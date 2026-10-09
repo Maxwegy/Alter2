@@ -1,0 +1,46 @@
+{
+  "page" : "Aberrant spectre",
+  "versions" : [
+    {
+      "source" : "Aberrant spectre",
+      "ids" : [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "names" : [
+        "npc.aberrant_spectre_2",
+        "npc.aberrant_spectre_3",
+        "npc.aberrant_spectre_4",
+        "npc.aberrant_spectre_5",
+        "npc.aberrant_spectre_6",
+        "npc.aberrant_spectre_7"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 90, "ranged" : 1, "magic" : 105 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : -15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8",
+        "14 (without Nose peg)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 60, "xp" : 90.0, "categories" : [ "Aberrant Spectres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

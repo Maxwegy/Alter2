@@ -1,0 +1,34 @@
+{
+  "page" : "Slash Bash",
+  "versions" : [
+    {
+      "source" : "Slash Bash",
+      "ids" : [
+        882
+      ],
+      "names" : [
+        "npc.slash_bash"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 100,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 100, "strength" : 120, "defence" : 60, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

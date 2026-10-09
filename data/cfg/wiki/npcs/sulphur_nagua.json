@@ -1,0 +1,35 @@
+{
+  "page" : "Sulphur Nagua",
+  "versions" : [
+    {
+      "source" : "Sulphur Nagua",
+      "ids" : [
+        13033
+      ],
+      "names" : [
+        "npc.sulphur_nagua_13033"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 90, "strength" : 105, "defence" : 40, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 90, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11 total 6+5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 105.0, "categories" : [ "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 15 }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "page" : "Elite Dark Mage",
+  "versions" : [
+    {
+      "source" : "Elite Dark Mage#Female",
+      "version" : "Female",
+      "ids" : [
+        13470
+      ],
+      "names" : [
+        "npc.elite_dark_mage_13470"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 80, "ranged" : 25, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 10, "crushDefence" : 15, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 5, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Fire Blast)<br>20 (Fire Wave)<br>2 (Wind Strike)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Elite Dark Mage#Male",
+      "version" : "Male",
+      "ids" : [
+        13469
+      ],
+      "names" : [
+        "npc.elite_dark_mage"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 80, "ranged" : 25, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 10, "crushDefence" : 15, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 5, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Fire Blast)<br>20 (Fire Wave)<br>2 (Wind Strike)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

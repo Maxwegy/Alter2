@@ -1,0 +1,57 @@
+{
+  "page" : "Mosquito swarm",
+  "versions" : [
+    {
+      "source" : "Mosquito swarm#Level 17",
+      "version" : "Level 17",
+      "ids" : [
+        6273
+      ],
+      "names" : [
+        "npc.mosquito_swarm"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 9,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 1, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 2, "crushDefence" : 5, "magicDefence" : 2, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 45 }
+    },
+    {
+      "source" : "Mosquito swarm#Level 20",
+      "version" : "Level 20",
+      "ids" : [
+        6402
+      ],
+      "names" : [
+        "npc.mosquito_swarm_6402"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 15,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 1, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 2, "crushDefence" : 5, "magicDefence" : 2, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 45 }
+    }
+  ]
+}

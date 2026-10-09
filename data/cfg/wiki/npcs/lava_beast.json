@@ -1,0 +1,28 @@
+{
+  "page" : "Lava beast",
+  "versions" : [
+    {
+      "source" : "Lava beast",
+      "ids" : [
+        7817
+      ],
+      "names" : [
+        "npc.lava_beast"
+      ],
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 140, "crushDefence" : 50, "magicDefence" : -30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

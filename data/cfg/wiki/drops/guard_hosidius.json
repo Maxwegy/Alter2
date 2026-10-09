@@ -1,0 +1,51 @@
+{
+  "page" : "Guard (Hosidius)",
+  "tables" : [
+    {
+      "source" : "Guard (Hosidius)",
+      "npcIds" : [
+        397,
+        398,
+        399,
+        400
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 3, "max" : 3, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 5, "max" : 5, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 19, 128 ], "wiki" : "19/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 7, "max" : 7, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 17, "max" : 17, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1446, "name" : "item.body_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1947, "name" : "item.grain", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 19 ], "wiki" : "1/19" },
+        { "item" : 5319, "name" : "item.onion_seed", "min" : 4, "max" : 4, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 5320, "name" : "item.sweetcorn_seed", "min" : 3, "max" : 3, "chance" : [ 1, 155 ], "wiki" : "1/155" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 2, "max" : 2, "chance" : [ 1, 651 ], "wiki" : "1/651" },
+        { "item" : 5322, "name" : "item.tomato_seed", "min" : 3, "max" : 3, "chance" : [ 1, 77 ], "wiki" : "1/77" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 2, "max" : 2, "chance" : [ 1, 311 ], "wiki" : "1/311" },
+        { "item" : 5324, "name" : "item.cabbage_seed", "min" : 4, "max" : 4, "chance" : [ 1, 38 ], "wiki" : "1/38" },
+        { "item" : 9140, "name" : "item.iron_bolts", "min" : 2, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 2, "max" : 2, "chance" : [ 1, 896 ], "wiki" : "1/896" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

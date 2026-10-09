@@ -1,0 +1,29 @@
+{
+  "page" : "Starlight",
+  "versions" : [
+    {
+      "source" : "Starlight",
+      "ids" : [
+        2206
+      ],
+      "names" : [
+        "npc.starlight"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 160,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 125, "defence" : 120, "ranged" : 1, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 13, "magicDefence" : 5, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 60, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

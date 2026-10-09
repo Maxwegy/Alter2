@@ -1,0 +1,14 @@
+{
+  "page" : "Shade (Temple Trekking)",
+  "tables" : [
+    {
+      "source" : "Shade (Temple Trekking)",
+      "npcIds" : [
+        5633
+      ],
+      "always" : [
+        { "item" : 3404, "name" : "item.fiyr_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

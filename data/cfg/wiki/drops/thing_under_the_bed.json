@@ -1,0 +1,14 @@
+{
+  "page" : "Thing under the bed",
+  "tables" : [
+    {
+      "source" : "Thing under the bed",
+      "npcIds" : [
+        2115
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

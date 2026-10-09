@@ -1,0 +1,33 @@
+{
+  "page" : "Crazy archaeologist",
+  "versions" : [
+    {
+      "source" : "Crazy archaeologist",
+      "ids" : [
+        6618
+      ],
+      "names" : [
+        "npc.crazy_archaeologist"
+      ],
+      "combatLevel" : 204,
+      "hitpoints" : 225,
+      "attackSpeed" : 3,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 90, "defence" : 240, "ranged" : 180, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 75, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 250, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 250, "attackBonus" : 250, "strengthBonus" : 25, "rangedStrength" : -15, "magicDamage" : 0 },
+      "maxHits" : [
+        "14 (standard)",
+        "24 (special)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 275.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve" ] }
+    }
+  ]
+}

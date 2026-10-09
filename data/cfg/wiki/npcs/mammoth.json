@@ -1,0 +1,31 @@
+{
+  "page" : "Mammoth",
+  "versions" : [
+    {
+      "source" : "Mammoth#Normal",
+      "ids" : [
+        6604
+      ],
+      "names" : [
+        "npc.mammoth"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 70,
+      "size" : 3,
+      "levels" : { "attack" : 55, "strength" : 60, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 130.0, "categories" : [ "Mammoths" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

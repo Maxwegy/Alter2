@@ -1,0 +1,68 @@
+{
+  "page" : "Jungle horror",
+  "tables" : [
+    {
+      "source" : "Jungle horror",
+      "npcIds" : [
+        1042,
+        1043,
+        1044,
+        1045,
+        1046
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 86 ], "wiki" : "1/86" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 1147 ], "wiki" : "1/114.7" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 1529 ], "wiki" : "1/152.9" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 983 ], "wiki" : "1/196.6" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 1251 ], "wiki" : "1/250.2" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 344 ], "wiki" : "1/344" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 4587 ], "wiki" : "1/458.7" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 2752 ], "wiki" : "1/550.4" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 688 ], "wiki" : "1/688" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 9173 ], "wiki" : "1/917.3" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 9, 43 ], "wiki" : "27/129" },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1, "chance" : [ 5, 129 ], "wiki" : "5/129" },
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1, "chance" : [ 1, 43 ], "wiki" : "3/129" },
+        { "item" : 532, "name" : "item.big_bones", "min" : 3, "max" : 3, "chance" : [ 2, 129 ], "wiki" : "2/129" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 1, "max" : 1, "chance" : [ 5, 129 ], "wiki" : "5/129" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 7, 129 ], "wiki" : "7/129" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 3, "max" : 3, "chance" : [ 2, 129 ], "wiki" : "2/129" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 4, "max" : 4, "chance" : [ 10, 129 ], "wiki" : "10/129" },
+        { "item" : 826, "name" : "item.iron_javelin", "min" : 5, "max" : 5, "chance" : [ 2, 129 ], "wiki" : "2/129" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16512 ], "wiki" : "1/16,512" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16512 ], "wiki" : "1/16,512" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16512 ], "wiki" : "1/16,512" },
+        { "item" : 1191, "name" : "item.iron_kiteshield", "min" : 1, "max" : 1, "chance" : [ 5, 129 ], "wiki" : "5/129" },
+        { "item" : 1239, "name" : "item.iron_spear", "min" : 1, "max" : 1, "chance" : [ 4, 129 ], "wiki" : "4/129" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 264192 ], "wiki" : "1/264,192" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 1, 704512 ], "wiki" : "1/704,512" },
+        { "item" : 1335, "name" : "item.iron_warhammer", "min" : 1, "max" : 1, "chance" : [ 6, 43 ], "wiki" : "18/129" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 5504 ], "wiki" : "1/5,504" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8256 ], "wiki" : "1/8,256" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2064 ], "wiki" : "1/2,064" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1032 ], "wiki" : "1/1,032" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 516 ], "wiki" : "1/516" },
+        { "item" : 2114, "name" : "item.pineapple", "min" : 2, "max" : 2, "chance" : [ 8, 129 ], "wiki" : "8/129" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 528384 ], "wiki" : "1/528,384" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 9173 ], "wiki" : "1/917.3" },
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 1, "max" : 4, "chance" : [ 5, 86 ], "wiki" : "1/17.2" },
+        { "item" : 5319, "name" : "item.onion_seed", "min" : 1, "max" : 3, "chance" : [ 5, 172 ], "wiki" : "1/34.4" },
+        { "item" : 5320, "name" : "item.sweetcorn_seed", "min" : 1, "max" : 2, "chance" : [ 5, 1376 ], "wiki" : "1/275.2" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 1, "max" : 1, "chance" : [ 5, 5504 ], "wiki" : "1/1,100.8" },
+        { "item" : 5322, "name" : "item.tomato_seed", "min" : 1, "max" : 2, "chance" : [ 5, 688 ], "wiki" : "1/137.6" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 1, "max" : 1, "chance" : [ 5, 2752 ], "wiki" : "1/550.4" },
+        { "item" : 5324, "name" : "item.cabbage_seed", "min" : 1, "max" : 3, "chance" : [ 5, 344 ], "wiki" : "1/68.8" },
+        { "item" : 6332, "name" : "item.mahogany_logs", "min" : 1, "max" : 1, "chance" : [ 1, 43 ], "wiki" : "3/129" },
+        { "item" : 6334, "name" : "item.teak_logs_noted", "min" : 3, "max" : 3, "noted" : true, "chance" : [ 3, 43 ], "wiki" : "9/129" },
+        { "item" : 13487, "name" : "item.ensouled_horror_head_13487", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 1, "chance" : [ 5, 5504 ], "wiki" : "1/1,100.8" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Shadow (Temple of Light)",
+  "versions" : [
+    {
+      "source" : "Shadow (Temple of Light)",
+      "ids" : [
+        4004
+      ],
+      "names" : [
+        "npc.shadow_4004"
+      ],
+      "combatLevel" : 73,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 120, "defence" : 5, "ranged" : 1, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

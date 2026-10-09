@@ -1,0 +1,31 @@
+{
+  "page" : "Soldier (tier 3)",
+  "versions" : [
+    {
+      "source" : "Soldier (tier 3)",
+      "ids" : [
+        6908,
+        6909
+      ],
+      "names" : [
+        "npc.soldier_tier_3",
+        "npc.soldier_tier_3_6909"
+      ],
+      "combatLevel" : 58,
+      "hitpoints" : 55,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : -1, "lightRangedDefence" : -1, "heavyRangedDefence" : -1, "attackBonus" : 20, "strengthBonus" : 8, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

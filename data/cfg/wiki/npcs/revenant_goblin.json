@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant goblin",
+  "versions" : [
+    {
+      "source" : "Revenant goblin",
+      "ids" : [
+        7931
+      ],
+      "names" : [
+        "npc.revenant_goblin"
+      ],
+      "combatLevel" : 15,
+      "hitpoints" : 14,
+      "attackSpeed" : 5,
+      "respawnTicks" : 83,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 14, "defence" : 14, "ranged" : 15, "magic" : 12 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 37, "rangedAttack" : 21, "stabDefence" : 25, "slashDefence" : 28, "crushDefence" : 31, "magicDefence" : 1, "rangedDefence" : 31, "lightRangedDefence" : 31, "heavyRangedDefence" : 31, "attackBonus" : 6, "strengthBonus" : 8, "rangedStrength" : 12, "magicDamage" : 12 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 14.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

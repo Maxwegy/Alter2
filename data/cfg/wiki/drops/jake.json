@@ -1,0 +1,14 @@
+{
+  "page" : "Jake",
+  "tables" : [
+    {
+      "source" : "Jake",
+      "npcIds" : [
+        3863
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

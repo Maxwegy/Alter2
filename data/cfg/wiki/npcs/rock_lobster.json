@@ -1,0 +1,57 @@
+{
+  "page" : "Rock lobster",
+  "versions" : [
+    {
+      "source" : "Rock lobster#Active",
+      "version" : "Active",
+      "ids" : [
+        5944
+      ],
+      "names" : [
+        "npc.rock_lobster"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 150,
+      "attackSpeed" : 2,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 90, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Rock lobster#Hidden",
+      "version" : "Hidden",
+      "ids" : [
+        5945
+      ],
+      "names" : [
+        "npc.rock_5945"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 150,
+      "attackSpeed" : 2,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 90, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

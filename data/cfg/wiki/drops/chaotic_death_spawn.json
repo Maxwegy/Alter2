@@ -1,0 +1,16 @@
+{
+  "page" : "Chaotic death spawn",
+  "tables" : [
+    {
+      "source" : "Chaotic death spawn",
+      "npcIds" : [
+        6716,
+        6723,
+        7649
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

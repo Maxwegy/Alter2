@@ -1,0 +1,221 @@
+{
+  "page" : "Black Guard",
+  "versions" : [
+    {
+      "source" : "Black Guard#Level 25, 1",
+      "version" : "Level 25, 1",
+      "ids" : [
+        1409
+      ],
+      "names" : [
+        "npc.black_guard"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 25, 2",
+      "version" : "Level 25, 2",
+      "ids" : [
+        1410
+      ],
+      "names" : [
+        "npc.black_guard_1410"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 25, 3",
+      "version" : "Level 25, 3",
+      "ids" : [
+        1411
+      ],
+      "names" : [
+        "npc.black_guard_1411"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 25, 4",
+      "version" : "Level 25, 4",
+      "ids" : [
+        1412
+      ],
+      "names" : [
+        "npc.black_guard_1412"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 4, "magicDefence" : 2, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 48, 1",
+      "version" : "Level 48, 1",
+      "ids" : [
+        6046
+      ],
+      "names" : [
+        "npc.black_guard_6046"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 45, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 30, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 48, 2",
+      "version" : "Level 48, 2",
+      "ids" : [
+        6047
+      ],
+      "names" : [
+        "npc.black_guard_6047"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 45, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 30, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 48, 3",
+      "version" : "Level 48, 3",
+      "ids" : [
+        6048
+      ],
+      "names" : [
+        "npc.black_guard_6048"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 45, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 30, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard#Level 48, 4",
+      "version" : "Level 48, 4",
+      "ids" : [
+        6049
+      ],
+      "names" : [
+        "npc.black_guard_6049"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 45, "defence" : 45, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 30, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

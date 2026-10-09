@@ -1,0 +1,14 @@
+{
+  "page" : "Large mosquito",
+  "tables" : [
+    {
+      "source" : "Large mosquito",
+      "npcIds" : [
+        6272
+      ],
+      "always" : [
+        { "item" : 6319, "name" : "item.proboscis", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

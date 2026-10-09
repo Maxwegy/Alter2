@@ -1,0 +1,14 @@
+{
+  "page" : "Snake (Mos Le'Harmless)",
+  "tables" : [
+    {
+      "source" : "Snake (Mos Le'Harmless)",
+      "npcIds" : [
+        1037
+      ],
+      "always" : [
+        { "item" : 6287, "name" : "item.snake_hide", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

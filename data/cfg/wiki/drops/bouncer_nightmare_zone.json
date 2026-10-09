@@ -1,0 +1,15 @@
+{
+  "page" : "Bouncer (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Bouncer (Nightmare Zone)",
+      "npcIds" : [
+        6293,
+        6355
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

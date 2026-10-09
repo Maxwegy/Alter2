@@ -1,0 +1,31 @@
+{
+  "page" : "Abyssal guardian",
+  "versions" : [
+    {
+      "source" : "Abyssal guardian",
+      "ids" : [
+        2585
+      ],
+      "names" : [
+        "npc.abyssal_guardian"
+      ],
+      "combatLevel" : 59,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 90, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 0, "magicDefence" : 150, "rangedDefence" : 70, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 15, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Poison spider (Escape Caves)",
+  "versions" : [
+    {
+      "source" : "Poison spider (Escape Caves)",
+      "ids" : [
+        11990
+      ],
+      "names" : [
+        "npc.poison_spider_11990"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 73,
+      "attackSpeed" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 35, "ranged" : 45, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 63, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 10, "magicDefence" : 14, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 35, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Typeless Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 73.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

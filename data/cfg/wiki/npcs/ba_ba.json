@@ -1,0 +1,34 @@
+{
+  "page" : "Ba-Ba",
+  "versions" : [
+    {
+      "source" : "Ba-Ba",
+      "ids" : [
+        11778,
+        11779,
+        11780
+      ],
+      "names" : [
+        "npc.baba",
+        "npc.baba_11779",
+        "npc.baba_11780"
+      ],
+      "combatLevel" : 359,
+      "hitpoints" : 380,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 160, "defence" : 80, "ranged" : 0, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 160, "crushDefence" : 240, "magicDefence" : 280, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 26, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

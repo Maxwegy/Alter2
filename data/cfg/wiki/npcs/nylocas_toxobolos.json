@@ -1,0 +1,171 @@
+{
+  "page" : "Nylocas Toxobolos",
+  "versions" : [
+    {
+      "source" : "Nylocas Toxobolos#Big",
+      "version" : "Big",
+      "ids" : [
+        8346,
+        8352,
+        10795,
+        10801
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_8346",
+        "npc.nylocas_toxobolos_8352",
+        "npc.nylocas_toxobolos_10795",
+        "npc.nylocas_toxobolos_10801"
+      ],
+      "combatLevel" : 260,
+      "hitpoints" : 22,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 250, "strength" : 230, "defence" : 20, "ranged" : 250, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 500, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 500 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Toxobolos#Big (Entry Mode)",
+      "version" : "Big (Entry Mode)",
+      "ids" : [
+        10778,
+        10784
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_10778",
+        "npc.nylocas_toxobolos_10784"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 3,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 6, "ranged" : 100, "magic" : 6 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 400, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -6, "magicDamage" : 360 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Toxobolos#Small",
+      "version" : "Small",
+      "ids" : [
+        8343,
+        8349,
+        10792,
+        10798
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_8343",
+        "npc.nylocas_toxobolos_8349",
+        "npc.nylocas_toxobolos_10792",
+        "npc.nylocas_toxobolos_10798"
+      ],
+      "combatLevel" : 162,
+      "hitpoints" : 11,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 160, "defence" : 1, "ranged" : 200, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 1073, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -15, "magicDamage" : 928 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Toxobolos#Small (Entry Mode)",
+      "version" : "Small (Entry Mode)",
+      "ids" : [
+        10775,
+        10781
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_10775",
+        "npc.nylocas_toxobolos_10781"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 2,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 40, "defence" : 1, "ranged" : 80, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 505, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -30, "magicDamage" : 280 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Toxobolos#Verzik",
+      "version" : "Verzik",
+      "ids" : [
+        8382,
+        10859
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_8382",
+        "npc.nylocas_toxobolos_10859"
+      ],
+      "combatLevel" : 162,
+      "hitpoints" : 25,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Toxobolos#Verzik (Entry Mode)",
+      "version" : "Verzik (Entry Mode)",
+      "ids" : [
+        10842
+      ],
+      "names" : [
+        "npc.nylocas_toxobolos_10842"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 3,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

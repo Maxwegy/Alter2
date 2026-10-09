@@ -1,0 +1,29 @@
+{
+  "page" : "Kalphite soldier (Construction)",
+  "versions" : [
+    {
+      "source" : "Kalphite soldier (Construction)",
+      "ids" : [
+        138
+      ],
+      "names" : [
+        "npc.kalphite_soldier_138"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 5, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "page" : "Zygomite",
+  "tables" : [
+    {
+      "source" : "Zygomite#Level 74",
+      "npcIds" : [
+        537
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 2, 143 ], "wiki" : "2/143" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 1, 143 ], "wiki" : "1/143" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 2, "max" : 2, "chance" : [ 6, 143 ], "wiki" : "6/143" },
+        { "item" : 434, "name" : "item.clay", "min" : 1, "max" : 1, "chance" : [ 7, 143 ], "wiki" : "7/143" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 15, "max" : 15, "chance" : [ 5, 143 ], "wiki" : "5/143" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 30, 143 ], "wiki" : "30/143" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 5, 18304 ], "wiki" : "1/3,660.8" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 18304 ], "wiki" : "1/3,660.8" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 18304 ], "wiki" : "1/3,660.8" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 24, "max" : 24, "chance" : [ 3, 143 ], "wiki" : "3/143" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 64, "max" : 64, "chance" : [ 3, 11 ], "wiki" : "39/143" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 120, "max" : 120, "chance" : [ 10, 143 ], "wiki" : "10/143" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 250, "max" : 250, "chance" : [ 2, 143 ], "wiki" : "2/143" },
+        { "item" : 1159, "name" : "item.mithril_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 143 ], "wiki" : "1/143" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 5, 292864 ], "wiki" : "1/58,572.8" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 15619413 ], "wiki" : "1/156,194.13" },
+        { "item" : 1311, "name" : "item.steel_2h_sword", "min" : 1, "max" : 1, "chance" : [ 3, 143 ], "wiki" : "3/143" },
+        { "item" : 1353, "name" : "item.steel_axe", "min" : 1, "max" : 1, "chance" : [ 3, 143 ], "wiki" : "3/143" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 122027 ], "wiki" : "1/1,220.27" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 5, 9152 ], "wiki" : "1/1,830.4" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 5, 2288 ], "wiki" : "1/457.6" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 5, 1144 ], "wiki" : "1/228.8" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 5, 572 ], "wiki" : "1/114.4" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 5, 585728 ], "wiki" : "1/117,145.6" },
+        { "item" : 2970, "name" : "item.mort_myre_fungus", "min" : 1, "max" : 1, "chance" : [ 8, 429 ], "wiki" : "8/429" },
+        { "item" : 5282, "name" : "item.mushroom_spore", "min" : 1, "max" : 1, "chance" : [ 8, 429 ], "wiki" : "8/429" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 143 ], "wiki" : "1/143" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 4, "max" : 4, "chance" : [ 1, 13 ], "wiki" : "11/143" },
+        { "item" : 6035, "name" : "item.supercompost_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 6, 143 ], "wiki" : "6/143" },
+        { "item" : 7432, "name" : "item.fungicide", "min" : 1, "max" : 1, "chance" : [ 8, 429 ], "wiki" : "8/429" }
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 188 ], "wiki" : "1/188" }
+      ]
+    },
+    {
+      "source" : "Zygomite#Level 86",
+      "npcIds" : [
+        1024
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 1, 73 ], "wiki" : "2/146" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 1, 146 ], "wiki" : "1/146" },
+        { "item" : 434, "name" : "item.clay", "min" : 1, "max" : 1, "chance" : [ 7, 146 ], "wiki" : "7/146" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 15, "max" : 15, "chance" : [ 5, 146 ], "wiki" : "5/146" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 3, 146 ], "wiki" : "3/146" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4672 ], "wiki" : "1/4,672" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4672 ], "wiki" : "1/4,672" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4672 ], "wiki" : "1/4,672" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 44, "max" : 44, "chance" : [ 15, 73 ], "wiki" : "30/146" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 102, "max" : 102, "chance" : [ 39, 146 ], "wiki" : "39/146" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 220, "max" : 220, "chance" : [ 7, 146 ], "wiki" : "7/146" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 460, "max" : 460, "chance" : [ 1, 73 ], "wiki" : "2/146" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 146 ], "wiki" : "1/146" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 74752 ], "wiki" : "1/74,752" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 19933867 ], "wiki" : "1/199,338.67" },
+        { "item" : 1311, "name" : "item.steel_2h_sword", "min" : 1, "max" : 1, "chance" : [ 3, 73 ], "wiki" : "6/146" },
+        { "item" : 1353, "name" : "item.steel_axe", "min" : 1, "max" : 1, "chance" : [ 3, 146 ], "wiki" : "3/146" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 155733 ], "wiki" : "1/1,557.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2336 ], "wiki" : "1/2,336" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 584 ], "wiki" : "1/584" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 292 ], "wiki" : "1/292" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 146 ], "wiki" : "1/146" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 149504 ], "wiki" : "1/149,504" },
+        { "item" : 2970, "name" : "item.mort_myre_fungus", "min" : 1, "max" : 1, "chance" : [ 2, 73 ], "wiki" : "4/146" },
+        { "item" : 3051, "name" : "item.grimy_snapdragon", "min" : 1, "max" : 1, "chance" : [ 3, 73 ], "wiki" : "6/146" },
+        { "item" : 5282, "name" : "item.mushroom_spore", "min" : 1, "max" : 1, "chance" : [ 2, 73 ], "wiki" : "4/146" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 146 ], "wiki" : "1/146" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 4, "max" : 4, "chance" : [ 11, 146 ], "wiki" : "11/146" },
+        { "item" : 6035, "name" : "item.supercompost_noted", "min" : 1, "max" : 3, "noted" : true, "chance" : [ 3, 73 ], "wiki" : "6/146" },
+        { "item" : 7432, "name" : "item.fungicide", "min" : 1, "max" : 1, "chance" : [ 2, 73 ], "wiki" : "4/146" }
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 111 ], "wiki" : "1/111" }
+      ]
+    }
+  ]
+}

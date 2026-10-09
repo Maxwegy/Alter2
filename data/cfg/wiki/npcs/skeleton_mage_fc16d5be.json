@@ -1,0 +1,37 @@
+{
+  "page" : "Skeleton (mage)",
+  "versions" : [
+    {
+      "source" : "Skeleton (mage)",
+      "ids" : [
+        6441
+      ],
+      "names" : [
+        "npc.skeleton_6441"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 60, "defence" : 80, "ranged" : 1, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 40, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12 (Magic)",
+        "7 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

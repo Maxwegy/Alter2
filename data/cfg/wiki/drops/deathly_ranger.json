@@ -1,0 +1,14 @@
+{
+  "page" : "Deathly ranger",
+  "tables" : [
+    {
+      "source" : "Deathly ranger",
+      "npcIds" : [
+        7559
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

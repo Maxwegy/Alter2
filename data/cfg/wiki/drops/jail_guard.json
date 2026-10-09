@@ -1,0 +1,17 @@
+{
+  "page" : "Jail guard",
+  "tables" : [
+    {
+      "source" : "Jail guard",
+      "npcIds" : [
+        4276,
+        4277,
+        4278,
+        4279
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

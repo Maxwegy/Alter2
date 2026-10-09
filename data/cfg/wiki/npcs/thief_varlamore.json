@@ -1,0 +1,155 @@
+{
+  "page" : "Thief (Varlamore)",
+  "versions" : [
+    {
+      "source" : "Thief (Varlamore)#1",
+      "version" : "1",
+      "ids" : [
+        13291
+      ],
+      "names" : [
+        "npc.thief_13291"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Thief (Varlamore)#2",
+      "version" : "2",
+      "ids" : [
+        13292
+      ],
+      "names" : [
+        "npc.thief_13292"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Thief (Varlamore)#3",
+      "version" : "3",
+      "ids" : [
+        13293
+      ],
+      "names" : [
+        "npc.thief_13293"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Thief (Varlamore)#4",
+      "version" : "4",
+      "ids" : [
+        13294
+      ],
+      "names" : [
+        "npc.thief_13294"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Thief (Varlamore)#5",
+      "version" : "5",
+      "ids" : [
+        13295
+      ],
+      "names" : [
+        "npc.thief_13295"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Thief (Varlamore)#6",
+      "version" : "6",
+      "ids" : [
+        13296
+      ],
+      "names" : [
+        "npc.thief_13296"
+      ],
+      "combatLevel" : 16,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 13, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

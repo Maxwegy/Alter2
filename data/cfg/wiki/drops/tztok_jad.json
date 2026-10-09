@@ -1,0 +1,14 @@
+{
+  "page" : "TzTok-Jad",
+  "tables" : [
+    {
+      "source" : "TzTok-Jad",
+      "npcIds" : [
+        3127
+      ],
+      "tertiary" : [
+        { "item" : 13225, "name" : "item.tzrekjad", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" }
+      ]
+    }
+  ]
+}

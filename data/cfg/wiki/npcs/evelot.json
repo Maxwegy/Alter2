@@ -1,0 +1,29 @@
+{
+  "page" : "Evelot",
+  "versions" : [
+    {
+      "source" : "Evelot",
+      "ids" : [
+        12047
+      ],
+      "names" : [
+        "npc.evelot_12047"
+      ],
+      "combatLevel" : 148,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 150, "defence" : 120, "ranged" : 0, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 60, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 30, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "34"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

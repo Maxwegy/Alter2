@@ -1,0 +1,14 @@
+{
+  "page" : "Foreman",
+  "tables" : [
+    {
+      "source" : "Foreman",
+      "npcIds" : [
+        1429
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

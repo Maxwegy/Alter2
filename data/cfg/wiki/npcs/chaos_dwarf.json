@@ -1,0 +1,31 @@
+{
+  "page" : "Chaos dwarf",
+  "versions" : [
+    {
+      "source" : "Chaos dwarf",
+      "ids" : [
+        291
+      ],
+      "names" : [
+        "npc.chaos_dwarf"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 61,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 42, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 34, "crushDefence" : 25, "magicDefence" : 10, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 13, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 61.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

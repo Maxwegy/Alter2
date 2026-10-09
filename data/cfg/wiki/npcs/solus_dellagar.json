@@ -1,0 +1,32 @@
+{
+  "page" : "Solus Dellagar",
+  "versions" : [
+    {
+      "source" : "Solus Dellagar",
+      "ids" : [
+        4930,
+        4933,
+        4962
+      ],
+      "names" : [
+        "npc.solus_dellagar",
+        "npc.solus_dellagar_4933",
+        "npc.solus_dellagar_4962"
+      ],
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 72, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

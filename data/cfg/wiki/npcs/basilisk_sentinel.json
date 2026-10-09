@@ -1,0 +1,33 @@
+{
+  "page" : "Basilisk Sentinel",
+  "versions" : [
+    {
+      "source" : "Basilisk Sentinel",
+      "ids" : [
+        9258
+      ],
+      "names" : [
+        "npc.basilisk_sentinel"
+      ],
+      "combatLevel" : 358,
+      "hitpoints" : 520,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 274, "strength" : 274, "defence" : 274, "ranged" : 1, "magic" : 274 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 12, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 12 },
+      "maxHits" : [
+        "28 (normal)",
+        "74+ (special attack)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 60, "xp" : 5590.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "page" : "Shade (Temple Trekking)",
+  "versions" : [
+    {
+      "source" : "Shade (Temple Trekking)",
+      "ids" : [
+        5633
+      ],
+      "names" : [
+        "npc.shade"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 115,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 136, "defence" : 100, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 115.0, "categories" : [ "Shades" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

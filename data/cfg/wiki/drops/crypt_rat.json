@@ -1,0 +1,17 @@
+{
+  "page" : "Crypt rat",
+  "tables" : [
+    {
+      "source" : "Crypt rat",
+      "npcIds" : [
+        1679
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7836, "name" : "item.rat_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

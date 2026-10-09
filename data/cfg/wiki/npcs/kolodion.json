@@ -1,0 +1,131 @@
+{
+  "page" : "Kolodion",
+  "versions" : [
+    {
+      "source" : "Kolodion#Demon",
+      "version" : "Demon",
+      "ids" : [
+        1609
+      ],
+      "names" : [
+        "npc.kolodion_1609"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 107,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 85, "strength" : 98, "defence" : 105, "ranged" : 1, "magic" : 400 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 107.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    },
+    {
+      "source" : "Kolodion#Ghost",
+      "version" : "Ghost",
+      "ids" : [
+        1608
+      ],
+      "names" : [
+        "npc.kolodion_1608"
+      ],
+      "hitpoints" : 78,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 23, "defence" : 58, "ranged" : 1, "magic" : 30 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "No" ] }
+    },
+    {
+      "source" : "Kolodion#Human",
+      "version" : "Human",
+      "ids" : [
+        1603,
+        1604,
+        1605
+      ],
+      "names" : [
+        "npc.kolodion",
+        "npc.kolodion_1604",
+        "npc.kolodion_1605"
+      ],
+      "hitpoints" : 3,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 10, "defence" : 20, "ranged" : 1, "magic" : 15 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "No" ] }
+    },
+    {
+      "source" : "Kolodion#Ogre",
+      "version" : "Ogre",
+      "ids" : [
+        1606
+      ],
+      "names" : [
+        "npc.kolodion_1606"
+      ],
+      "hitpoints" : 65,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 70, "defence" : 72, "ranged" : 1, "magic" : 50 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "No" ] }
+    },
+    {
+      "source" : "Kolodion#Spider",
+      "version" : "Spider",
+      "ids" : [
+        1607
+      ],
+      "names" : [
+        "npc.kolodion_1607"
+      ],
+      "hitpoints" : 78,
+      "attackSpeed" : 7,
+      "size" : 3,
+      "levels" : { "attack" : 69, "strength" : 78, "defence" : 47, "ranged" : 1, "magic" : 70 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "No" ] }
+    }
+  ]
+}

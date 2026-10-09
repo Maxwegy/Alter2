@@ -1,0 +1,31 @@
+{
+  "page" : "Molanisk",
+  "versions" : [
+    {
+      "source" : "Molanisk",
+      "ids" : [
+        1
+      ],
+      "names" : [
+        "npc.molanisk_1"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 52,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 50, "ranged" : 1, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 45, "crushDefence" : 35, "magicDefence" : 30, "rangedDefence" : 55, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 39, "xp" : 52.0, "categories" : [ "Molanisks" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    }
+  ]
+}

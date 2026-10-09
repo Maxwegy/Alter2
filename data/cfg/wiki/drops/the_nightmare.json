@@ -1,0 +1,63 @@
+{
+  "page" : "The Nightmare",
+  "tables" : [
+    {
+      "source" : "The Nightmare",
+      "npcIds" : [
+        9425,
+        9426,
+        9427,
+        9428,
+        9429,
+        9430,
+        9431,
+        9432,
+        9433,
+        9460
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 2, "name" : "item.cannonball", "min" : 6, "max" : 220, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 139, "name" : "item.prayer_potion3", "min" : 1, "max" : 10, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 189, "name" : "item.zamorak_brew3", "min" : 1, "max" : 10, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 216, "name" : "item.grimy_cadantine_noted", "min" : 1, "max" : 16, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 220, "name" : "item.grimy_torstol_noted", "min" : 1, "max" : 16, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 365, "name" : "item.bass", "min" : 1, "max" : 18, "chance" : [ 3, 50 ], "wiki" : "6/100" },
+        { "item" : 385, "name" : "item.shark", "min" : 1, "max" : 16, "chance" : [ 3, 50 ], "wiki" : "6/100" },
+        { "item" : 445, "name" : "item.gold_ore_noted", "min" : 9, "max" : 176, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 448, "name" : "item.mithril_ore_noted", "min" : 11, "max" : 176, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 450, "name" : "item.adamantite_ore_noted", "min" : 40, "max" : 95, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 452, "name" : "item.runite_ore_noted", "min" : 1, "max" : 16, "noted" : true, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 454, "name" : "item.coal_noted", "min" : 15, "max" : 264, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 7, "max" : 176, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 8, "max" : 176, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 11, "max" : 242, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 16, "max" : 440, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 8, "max" : 132, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 31, "max" : 547, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2291, "max" : 43958, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 1514, "name" : "item.magic_logs_noted", "min" : 1, "max" : 55, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 1620, "name" : "item.uncut_ruby_noted", "min" : 27, "max" : 60, "noted" : true, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 1622, "name" : "item.uncut_emerald_noted", "min" : 2, "max" : 44, "noted" : true, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 7, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 6687, "name" : "item.saradomin_brew3", "min" : 1, "max" : 10, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 10927, "name" : "item.sanfew_serum3", "min" : 1, "max" : 8, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 190 ], "wiki" : "1/190" },
+        { "item" : 24417, "name" : "item.inquisitors_mace", "min" : 1, "max" : 1, "chance" : [ 1, 750 ], "wiki" : "1/750" },
+        { "item" : 24419, "name" : "item.inquisitors_great_helm", "min" : 1, "max" : 1, "chance" : [ 1, 420 ], "wiki" : "1/420" },
+        { "item" : 24420, "name" : "item.inquisitors_hauberk", "min" : 1, "max" : 1, "chance" : [ 1, 420 ], "wiki" : "1/420" },
+        { "item" : 24421, "name" : "item.inquisitors_plateskirt", "min" : 1, "max" : 1, "chance" : [ 1, 420 ], "wiki" : "1/420" },
+        { "item" : 24422, "name" : "item.nightmare_staff", "min" : 1, "max" : 1, "chance" : [ 1, 300 ], "wiki" : "1/300" },
+        { "item" : 24491, "name" : "item.little_nightmare", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
+        { "item" : 24495, "name" : "item.jar_of_dreams", "min" : 1, "max" : 1, "chance" : [ 1, 1900 ], "wiki" : "1/1,900" },
+        { "item" : 24511, "name" : "item.harmonised_orb", "min" : 1, "max" : 1, "chance" : [ 1, 960 ], "wiki" : "1/960" },
+        { "item" : 24514, "name" : "item.volatile_orb", "min" : 1, "max" : 1, "chance" : [ 1, 960 ], "wiki" : "1/960" },
+        { "item" : 24517, "name" : "item.eldritch_orb", "min" : 1, "max" : 1, "chance" : [ 1, 960 ], "wiki" : "1/960" }
+      ]
+    }
+  ]
+}

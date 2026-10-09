@@ -1,0 +1,29 @@
+{
+  "page" : "Slug Prince",
+  "versions" : [
+    {
+      "source" : "Slug Prince",
+      "ids" : [
+        4797
+      ],
+      "names" : [
+        "npc.slug_prince"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 99, "rangedDefence" : 99, "lightRangedDefence" : 99, "heavyRangedDefence" : 99, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

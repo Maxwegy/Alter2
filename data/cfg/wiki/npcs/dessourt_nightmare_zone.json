@@ -1,0 +1,63 @@
+{
+  "page" : "Dessourt (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Dessourt (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6311
+      ],
+      "names" : [
+        "npc.dessourt_hard"
+      ],
+      "combatLevel" : 217,
+      "hitpoints" : 255,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 198, "strength" : 198, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "37 (Melee)",
+        "5 (Magic)",
+        "5 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Dessourt (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6372
+      ],
+      "names" : [
+        "npc.dessourt_6372"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 130,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 99, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19 (Melee)",
+        "5 (Magic)",
+        "5 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

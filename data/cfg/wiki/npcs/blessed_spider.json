@@ -1,0 +1,61 @@
+{
+  "page" : "Blessed spider",
+  "versions" : [
+    {
+      "source" : "Blessed spider#Normal",
+      "version" : "Normal",
+      "ids" : [
+        4533
+      ],
+      "names" : [
+        "npc.blessed_spider"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "respawnTicks" : 300,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 35, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 16, "crushDefence" : 7, "magicDefence" : 12, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 32.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Blessed spider#Song of the Elves",
+      "version" : "Song of the Elves",
+      "ids" : [
+        8978
+      ],
+      "names" : [
+        "npc.blessed_spider_8978"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "respawnTicks" : 300,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 35, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 16, "crushDefence" : 7, "magicDefence" : 12, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 32.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

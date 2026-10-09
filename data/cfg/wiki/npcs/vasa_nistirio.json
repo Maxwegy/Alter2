@@ -1,0 +1,65 @@
+{
+  "page" : "Vasa Nistirio",
+  "versions" : [
+    {
+      "source" : "Vasa Nistirio#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7566,
+        7567
+      ],
+      "names" : [
+        "npc.vasa_nistirio",
+        "npc.vasa_nistirio_7567"
+      ],
+      "hitpoints" : 450,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 262, "ranged" : 345, "magic" : 345 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 170, "slashDefence" : 190, "crushDefence" : 40, "magicDefence" : 400, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vasa Nistirio#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7566,
+        7567
+      ],
+      "names" : [
+        "npc.vasa_nistirio",
+        "npc.vasa_nistirio_7567"
+      ],
+      "hitpoints" : 300,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 175, "ranged" : 230, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 170, "slashDefence" : 190, "crushDefence" : 40, "magicDefence" : 400, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    }
+  ]
+}

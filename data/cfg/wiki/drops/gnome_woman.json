@@ -1,0 +1,15 @@
+{
+  "page" : "Gnome woman",
+  "tables" : [
+    {
+      "source" : "Gnome woman",
+      "npcIds" : [
+        6086,
+        6087
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

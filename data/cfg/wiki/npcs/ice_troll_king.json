@@ -1,0 +1,36 @@
+{
+  "page" : "Ice Troll King",
+  "versions" : [
+    {
+      "source" : "Ice Troll King",
+      "ids" : [
+        5822
+      ],
+      "names" : [
+        "npc.ice_troll_king"
+      ],
+      "combatLevel" : 122,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 45, "crushDefence" : 45, "magicDefence" : 2000, "rangedDefence" : 2000, "lightRangedDefence" : 2000, "heavyRangedDefence" : 2000, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21 (melee)",
+        "16 (special)",
+        "11 (Magic)",
+        "7 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 161.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

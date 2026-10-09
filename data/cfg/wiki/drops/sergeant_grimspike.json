@@ -1,0 +1,39 @@
+{
+  "page" : "Sergeant Grimspike",
+  "tables" : [
+    {
+      "source" : "Sergeant Grimspike",
+      "npcIds" : [
+        2218
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 157, "name" : "item.super_strength3", "min" : 1, "max" : 1, "chance" : [ 2, 127 ], "wiki" : "2/127" },
+        { "item" : 226, "name" : "item.limpwurt_root_noted", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 385, "name" : "item.shark", "min" : 2, "max" : 2, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 15, "max" : 20, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 25, "max" : 30, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 808, "name" : "item.steel_dart", "min" : 95, "max" : 100, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 95, "max" : 100, "chance" : [ 7, 127 ], "wiki" : "7/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1400, "max" : 1500, "chance" : [ 66, 127 ], "wiki" : "66/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1400, "max" : 1500, "chance" : [ 3, 508 ], "wiki" : "9/1,524" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1400, "max" : 1500, "chance" : [ 125, 16256 ], "wiki" : "125/16,256" },
+        { "item" : 1025, "name" : "item.right_eye_patch", "min" : 1, "max" : 1, "chance" : [ 1, 6 ], "wiki" : "1/6" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 7054, "name" : "item.chilli_potato", "min" : 3, "max" : 3, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 9741, "name" : "item.combat_potion3", "min" : 1, "max" : 1, "chance" : [ 2, 127 ], "wiki" : "2/127" },
+        { "item" : 11818, "name" : "item.godsword_shard_1", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11820, "name" : "item.godsword_shard_2", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11822, "name" : "item.godsword_shard_3", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11832, "name" : "item.bandos_chestplate", "min" : 1, "max" : 1, "chance" : [ 1, 16256 ], "wiki" : "1/16,256" },
+        { "item" : 11834, "name" : "item.bandos_tassets", "min" : 1, "max" : 1, "chance" : [ 1, 16256 ], "wiki" : "1/16,256" },
+        { "item" : 11836, "name" : "item.bandos_boots", "min" : 1, "max" : 1, "chance" : [ 1, 16256 ], "wiki" : "1/16,256" },
+        { "item" : 26360, "name" : "item.frozen_key_piece_bandos", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ]
+    }
+  ]
+}

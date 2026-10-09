@@ -1,0 +1,89 @@
+{
+  "page" : "Catablepon",
+  "versions" : [
+    {
+      "source" : "Catablepon#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        2474
+      ],
+      "names" : [
+        "npc.catablepon"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "respawnTicks" : 20,
+      "size" : 2,
+      "levels" : { "attack" : 45, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 30, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 40.0, "categories" : [ "Catablepon" ], "assignedBy" : [ "mazchna" ] }
+    },
+    {
+      "source" : "Catablepon#Level 64",
+      "version" : "Level 64",
+      "ids" : [
+        2475
+      ],
+      "names" : [
+        "npc.catablepon_2475"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 20,
+      "size" : 2,
+      "levels" : { "attack" : 55, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 40, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Catablepon" ], "assignedBy" : [ "mazchna" ] }
+    },
+    {
+      "source" : "Catablepon#Level 68",
+      "version" : "Level 68",
+      "ids" : [
+        2476
+      ],
+      "names" : [
+        "npc.catablepon_2476"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 20,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 40, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Catablepon" ], "assignedBy" : [ "mazchna" ] }
+    }
+  ]
+}

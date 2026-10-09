@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated ogre",
+  "tables" : [
+    {
+      "source" : "Reanimated ogre",
+      "npcIds" : [
+        7028
+      ],
+      "main" : [
+        { "item" : 7842, "name" : "item.ogre_ribs", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

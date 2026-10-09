@@ -1,0 +1,70 @@
+{
+  "page" : "Sulphur Lizard",
+  "tables" : [
+    {
+      "source" : "Sulphur Lizard",
+      "npcIds" : [
+        8614
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "1/51.2" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 683 ], "wiki" : "1/68.3" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 1, 91 ], "wiki" : "1/91" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 1, 117 ], "wiki" : "1/117" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 10, 1489 ], "wiki" : "1/148.9" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 1024 ], "wiki" : "1/204.8" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 2731 ], "wiki" : "1/273.1" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 3277 ], "wiki" : "1/327.7" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 2048 ], "wiki" : "1/409.6" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 5461 ], "wiki" : "1/546.1" },
+        { "item" : 437, "name" : "item.copper_ore_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 439, "name" : "item.tin_ore_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 441, "name" : "item.iron_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 43, 256 ], "wiki" : "21.5/128" },
+        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 448, "name" : "item.mithril_ore_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 454, "name" : "item.coal_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 10, "max" : 25, "chance" : [ 13, 64 ], "wiki" : "26/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 40, "max" : 60, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 5, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4369067 ], "wiki" : "1/43,690.67" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 25, 2912711 ], "wiki" : "1/116,508.44" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 50, 45511 ], "wiki" : "1/910.22" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 136533 ], "wiki" : "1/1,365.33" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 34133 ], "wiki" : "1/341.33" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "wiki" : "1/170.67" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 8533 ], "wiki" : "1/85.33" },
+        { "item" : 2352, "name" : "item.iron_bar_noted", "min" : 6, "max" : 10, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 2354, "name" : "item.steel_bar_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 2356, "name" : "item.silver_bar_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 5461 ], "wiki" : "1/546.1" },
+        { "item" : 4115, "name" : "item.mystic_gloves_light", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 5305, "name" : "item.barley_seed", "min" : 4, "max" : 4, "chance" : [ 1, 2070 ], "wiki" : "1/2,070" },
+        { "item" : 5306, "name" : "item.jute_seed", "min" : 2, "max" : 2, "chance" : [ 1, 2772 ], "wiki" : "1/2,772" },
+        { "item" : 5307, "name" : "item.hammerstone_seed", "min" : 3, "max" : 3, "chance" : [ 1, 2079 ], "wiki" : "1/2,079" },
+        { "item" : 5308, "name" : "item.asgarnian_seed", "min" : 3, "max" : 3, "chance" : [ 1, 2756 ], "wiki" : "1/2,756" },
+        { "item" : 5309, "name" : "item.yanillian_seed", "min" : 2, "max" : 2, "chance" : [ 1, 4158 ], "wiki" : "1/4,158" },
+        { "item" : 5310, "name" : "item.krandorian_seed", "min" : 2, "max" : 2, "chance" : [ 1, 8317 ], "wiki" : "1/8,317" },
+        { "item" : 5311, "name" : "item.wildblood_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16347 ], "wiki" : "1/16,347" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 40 ], "wiki" : "1/40" },
+        { "item" : 5319, "name" : "item.onion_seed", "min" : 4, "max" : 4, "chance" : [ 1, 53 ], "wiki" : "1/53" },
+        { "item" : 5320, "name" : "item.sweetcorn_seed", "min" : 3, "max" : 3, "chance" : [ 1, 321 ], "wiki" : "1/321" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 2, "max" : 2, "chance" : [ 1, 1343 ], "wiki" : "1/1,343" },
+        { "item" : 5322, "name" : "item.tomato_seed", "min" : 3, "max" : 3, "chance" : [ 1, 160 ], "wiki" : "1/160" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 2, "max" : 2, "chance" : [ 1, 642 ], "wiki" : "1/642" },
+        { "item" : 5324, "name" : "item.cabbage_seed", "min" : 4, "max" : 4, "chance" : [ 1, 80 ], "wiki" : "1/80" },
+        { "item" : 10136, "name" : "item.rainbow_fish", "min" : 1, "max" : 1, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 2, "max" : 2, "chance" : [ 1, 1847 ], "wiki" : "1/1,847" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

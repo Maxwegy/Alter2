@@ -1,0 +1,80 @@
+{
+  "page" : "Mourner (Song of the Elves)",
+  "versions" : [
+    {
+      "source" : "Mourner (Song of the Elves)#Level 106",
+      "version" : "Level 106",
+      "ids" : [
+        8846
+      ],
+      "names" : [
+        "npc.mourner_8846"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 50, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mourner (Song of the Elves)#Level 24",
+      "version" : "Level 24",
+      "ids" : [
+        8844
+      ],
+      "names" : [
+        "npc.mourner_8844"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 16, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 15, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mourner (Song of the Elves)#Level 51",
+      "version" : "Level 51",
+      "ids" : [
+        8845
+      ],
+      "names" : [
+        "npc.mourner_8845"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 50, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

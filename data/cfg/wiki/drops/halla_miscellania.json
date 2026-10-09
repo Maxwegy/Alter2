@@ -1,0 +1,14 @@
+{
+  "page" : "Halla (Miscellania)",
+  "tables" : [
+    {
+      "source" : "Halla (Miscellania)",
+      "npcIds" : [
+        3678
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

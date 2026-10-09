@@ -1,0 +1,20 @@
+{
+  "page" : "Guard (Another Slice of H.A.M.)",
+  "versions" : [
+    {
+      "source" : "Guard (Another Slice of H.A.M.)",
+      "ids" : [
+        5141
+      ],
+      "names" : [
+        "npc.guard_5141"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 20, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

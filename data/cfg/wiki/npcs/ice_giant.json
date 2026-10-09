@@ -1,0 +1,285 @@
+{
+  "page" : "Ice giant",
+  "versions" : [
+    {
+      "source" : "Ice giant#1",
+      "version" : "1",
+      "ids" : [
+        2085
+      ],
+      "names" : [
+        "npc.ice_giant"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#2",
+      "version" : "2",
+      "ids" : [
+        2086
+      ],
+      "names" : [
+        "npc.ice_giant_2086"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#3",
+      "version" : "3",
+      "ids" : [
+        2087
+      ],
+      "names" : [
+        "npc.ice_giant_2087"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Asgarnia Ice Dungeon 1",
+      "version" : "Asgarnia Ice Dungeon 1",
+      "ids" : [
+        2088
+      ],
+      "names" : [
+        "npc.ice_giant_2088"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Asgarnia Ice Dungeon 2",
+      "version" : "Asgarnia Ice Dungeon 2",
+      "ids" : [
+        2089
+      ],
+      "names" : [
+        "npc.ice_giant_2089"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Varlamore 1",
+      "version" : "Varlamore 1",
+      "ids" : [
+        13796
+      ],
+      "names" : [
+        "npc.ice_giant_13796"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Varlamore 2",
+      "version" : "Varlamore 2",
+      "ids" : [
+        13797
+      ],
+      "names" : [
+        "npc.ice_giant_13797"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 70,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Wilderness Slayer Cave 1",
+      "version" : "Wilderness Slayer Cave 1",
+      "ids" : [
+        7878
+      ],
+      "names" : [
+        "npc.ice_giant_7878"
+      ],
+      "combatLevel" : 67,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 60, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Wilderness Slayer Cave 2",
+      "version" : "Wilderness Slayer Cave 2",
+      "ids" : [
+        7879
+      ],
+      "names" : [
+        "npc.ice_giant_7879"
+      ],
+      "combatLevel" : 67,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 60, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice giant#Wilderness Slayer Cave 3",
+      "version" : "Wilderness Slayer Cave 3",
+      "ids" : [
+        7880
+      ],
+      "names" : [
+        "npc.ice_giant_7880"
+      ],
+      "combatLevel" : 67,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 60, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

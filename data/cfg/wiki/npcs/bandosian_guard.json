@@ -1,0 +1,29 @@
+{
+  "page" : "Bandosian guard",
+  "versions" : [
+    {
+      "source" : "Bandosian guard",
+      "ids" : [
+        6588
+      ],
+      "names" : [
+        "npc.bandosian_guard"
+      ],
+      "combatLevel" : 125,
+      "hitpoints" : 130,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 115, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 13, "magicDefence" : 5, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 19, "strengthBonus" : 4, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

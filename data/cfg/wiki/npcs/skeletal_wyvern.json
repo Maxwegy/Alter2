@@ -1,0 +1,145 @@
+{
+  "page" : "Skeletal Wyvern",
+  "versions" : [
+    {
+      "source" : "Skeletal Wyvern#1",
+      "version" : "1",
+      "ids" : [
+        468
+      ],
+      "names" : [
+        "npc.skeletal_wyvern_468"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 116, "defence" : 120, "ranged" : 120, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 140, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Ranged)",
+        "13 (Melee)",
+        "50+ (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 72, "xp" : 210.0, "categories" : [ "Skeletal Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Skeletal Wyvern#2",
+      "version" : "2",
+      "ids" : [
+        465
+      ],
+      "names" : [
+        "npc.skeletal_wyvern_465"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 116, "defence" : 120, "ranged" : 120, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 140, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Ranged)",
+        "13 (Melee)",
+        "50+ (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 72, "xp" : 210.0, "categories" : [ "Skeletal Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Skeletal Wyvern#3",
+      "version" : "3",
+      "ids" : [
+        466
+      ],
+      "names" : [
+        "npc.skeletal_wyvern_466"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 116, "defence" : 120, "ranged" : 120, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 140, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Ranged)",
+        "13 (Melee)",
+        "50+ (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 72, "xp" : 210.0, "categories" : [ "Skeletal Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Skeletal Wyvern#4",
+      "version" : "4",
+      "ids" : [
+        467
+      ],
+      "names" : [
+        "npc.skeletal_wyvern_467"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 116, "defence" : 120, "ranged" : 120, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 140, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Ranged)",
+        "13 (Melee)",
+        "50+ (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 72, "xp" : 210.0, "categories" : [ "Skeletal Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

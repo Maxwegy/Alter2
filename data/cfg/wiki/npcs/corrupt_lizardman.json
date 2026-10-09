@@ -1,0 +1,31 @@
+{
+  "page" : "Corrupt Lizardman",
+  "versions" : [
+    {
+      "source" : "Corrupt Lizardman",
+      "ids" : [
+        8000
+      ],
+      "names" : [
+        "npc.corrupt_lizardman_8000"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 38, "ranged" : 38, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 22, "stabDefence" : -10, "slashDefence" : 25, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 20, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] }
+    }
+  ]
+}

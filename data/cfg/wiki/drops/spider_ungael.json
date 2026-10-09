@@ -1,0 +1,12 @@
+{
+  "page" : "Spider (Ungael)",
+  "tables" : [
+    {
+      "source" : "Spider (Ungael)",
+      "npcIds" : [
+        8137,
+        8138
+      ]
+    }
+  ]
+}

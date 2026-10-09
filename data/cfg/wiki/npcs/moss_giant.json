@@ -1,0 +1,105 @@
+{
+  "page" : "Moss giant",
+  "versions" : [
+    {
+      "source" : "Moss giant#Level 42",
+      "version" : "Level 42",
+      "ids" : [
+        2090,
+        2091,
+        2092,
+        2093,
+        7262
+      ],
+      "names" : [
+        "npc.moss_giant",
+        "npc.moss_giant_2091",
+        "npc.moss_giant_2092",
+        "npc.moss_giant_2093",
+        "npc.moss_giant_7262"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 60,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 33, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Moss Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Moss giant#Level 42 (Varlamore)",
+      "version" : "Level 42 (Varlamore)",
+      "ids" : [
+        12844,
+        12845,
+        12846,
+        12847
+      ],
+      "names" : [
+        "npc.moss_giant_12844",
+        "npc.moss_giant_12845",
+        "npc.moss_giant_12846",
+        "npc.moss_giant_12847"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 60,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 33, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Moss Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Moss giant#Level 48",
+      "version" : "Level 48",
+      "ids" : [
+        3851,
+        3852
+      ],
+      "names" : [
+        "npc.moss_giant_3851",
+        "npc.moss_giant_3852"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 85,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 33, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 85.0, "categories" : [ "Moss Giants" ], "assignedBy" : [ "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant hellhound",
+  "versions" : [
+    {
+      "source" : "Revenant hellhound",
+      "ids" : [
+        7935
+      ],
+      "names" : [
+        "npc.revenant_hellhound"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 76, "strength" : 80, "defence" : 80, "ranged" : 80, "magic" : 104 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 30, "rangedAttack" : 0, "stabDefence" : 98, "slashDefence" : 140, "crushDefence" : 142, "magicDefence" : 62, "rangedDefence" : 140, "lightRangedDefence" : 110, "heavyRangedDefence" : 140, "attackBonus" : 38, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 86.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

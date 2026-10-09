@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty pyrelord",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty pyrelord",
+      "ids" : [
+        12563
+      ],
+      "names" : [
+        "npc.bloodthirsty_pyrelord"
+      ],
+      "combatLevel" : 145,
+      "hitpoints" : 187,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 147, "strength" : 97, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 0, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 30, "categories" : [ "Pyrefiends" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] }
+    }
+  ]
+}

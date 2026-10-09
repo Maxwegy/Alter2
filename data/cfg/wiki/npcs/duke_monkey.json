@@ -1,0 +1,30 @@
+{
+  "page" : "Duke (monkey)",
+  "versions" : [
+    {
+      "source" : "Duke (monkey)",
+      "ids" : [
+        5258
+      ],
+      "names" : [
+        "npc.duke"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 130, "ranged" : 1, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 130.0, "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

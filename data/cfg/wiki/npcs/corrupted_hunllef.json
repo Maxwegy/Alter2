@@ -1,0 +1,36 @@
+{
+  "page" : "Corrupted Hunllef",
+  "versions" : [
+    {
+      "source" : "Corrupted Hunllef",
+      "ids" : [
+        9035,
+        9036,
+        9037,
+        9038
+      ],
+      "names" : [
+        "npc.corrupted_hunllef",
+        "npc.corrupted_hunllef_9036",
+        "npc.corrupted_hunllef_9037",
+        "npc.corrupted_hunllef_9038"
+      ],
+      "combatLevel" : 894,
+      "hitpoints" : 1000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 240, "ranged" : 240, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 90, "rangedAttack" : 90, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 90, "strengthBonus" : 112, "rangedStrength" : 112, "magicDamage" : 112 },
+      "maxHits" : [
+        "68"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

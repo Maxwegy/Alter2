@@ -1,0 +1,14 @@
+{
+  "page" : "Wormbrain",
+  "tables" : [
+    {
+      "source" : "Wormbrain",
+      "npcIds" : [
+        820
+      ],
+      "always" : [
+        { "item" : 1536, "name" : "item.map_part_1536", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

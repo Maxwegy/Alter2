@@ -1,0 +1,59 @@
+{
+  "page" : "Wallasalki",
+  "versions" : [
+    {
+      "source" : "Wallasalki#1",
+      "version" : "1",
+      "ids" : [
+        5938
+      ],
+      "names" : [
+        "npc.wallasalki"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 120,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 80, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 150, "crushDefence" : 175, "magicDefence" : 250, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    },
+    {
+      "source" : "Wallasalki#2",
+      "version" : "2",
+      "ids" : [
+        5939
+      ],
+      "names" : [
+        "npc.wallasalki_5939"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 120,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 80, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 150, "crushDefence" : 175, "magicDefence" : 250, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

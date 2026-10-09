@@ -1,0 +1,15 @@
+{
+  "page" : "Kebbit (Eagles' Peak)",
+  "tables" : [
+    {
+      "source" : "Kebbit (Eagles' Peak)",
+      "npcIds" : [
+        1494
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 10176, "name" : "item.silver_feather", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

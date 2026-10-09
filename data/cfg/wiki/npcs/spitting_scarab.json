@@ -1,0 +1,33 @@
+{
+  "page" : "Spitting Scarab",
+  "versions" : [
+    {
+      "source" : "Spitting Scarab",
+      "ids" : [
+        11725
+      ],
+      "names" : [
+        "npc.spitting_scarab"
+      ],
+      "combatLevel" : 89,
+      "hitpoints" : 40,
+      "attackSpeed" : 3,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 80, "defence" : 80, "ranged" : 95, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 250, "rangedAttack" : 350, "stabDefence" : 15, "slashDefence" : 250, "crushDefence" : 30, "magicDefence" : 250, "rangedDefence" : 125, "lightRangedDefence" : 125, "heavyRangedDefence" : 125, "attackBonus" : 0, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 65 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

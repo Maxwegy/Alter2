@@ -1,0 +1,60 @@
+{
+  "page" : "Fareed (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Fareed (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        4115
+      ],
+      "names" : [
+        "npc.fareed_hard"
+      ],
+      "combatLevel" : 299,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 380, "strength" : 240, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 120, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "72"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Fareed (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6348
+      ],
+      "names" : [
+        "npc.fareed_6348"
+      ],
+      "combatLevel" : 167,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 190, "strength" : 120, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 120, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "37",
+        "40 (without Ice gloves)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    }
+  ]
+}

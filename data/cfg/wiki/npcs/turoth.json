@@ -1,0 +1,125 @@
+{
+  "page" : "Turoth",
+  "versions" : [
+    {
+      "source" : "Turoth#Baby",
+      "version" : "Baby",
+      "ids" : [
+        430
+      ],
+      "names" : [
+        "npc.turoth_430"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 76,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 53, "strength" : 83, "defence" : 83, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 55, "xp" : 76.0, "categories" : [ "Turoth" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Turoth#Child",
+      "version" : "Child",
+      "ids" : [
+        429
+      ],
+      "names" : [
+        "npc.turoth_429"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 84, "defence" : 84, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 55, "xp" : 77.0, "categories" : [ "Turoth" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Turoth#Dad",
+      "version" : "Dad",
+      "ids" : [
+        427
+      ],
+      "names" : [
+        "npc.turoth_427"
+      ],
+      "combatLevel" : 89,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 58, "strength" : 88, "defence" : 88, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 55, "xp" : 81.0, "categories" : [ "Turoth" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Turoth#Mum",
+      "version" : "Mum",
+      "ids" : [
+        428
+      ],
+      "names" : [
+        "npc.turoth_428"
+      ],
+      "combatLevel" : 87,
+      "hitpoints" : 79,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 56, "strength" : 86, "defence" : 86, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 55, "xp" : 79.0, "categories" : [ "Turoth" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

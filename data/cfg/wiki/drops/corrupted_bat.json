@@ -1,0 +1,21 @@
+{
+  "page" : "Corrupted Bat",
+  "tables" : [
+    {
+      "source" : "Corrupted Bat",
+      "npcIds" : [
+        9042
+      ],
+      "always" : [
+        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 20, "max" : 30 }
+      ],
+      "main" : [
+        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 3, "max" : 7, "chance" : [ 3, 8 ], "wiki" : "9/24" },
+        { "item" : 23834, "name" : "item.weapon_frame", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
+        { "item" : 23835, "name" : "item.grym_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 12 ], "wiki" : "2/24" },
+        { "item" : 23858, "name" : "item.corrupted_teleport_crystal", "min" : 1, "max" : 1, "chance" : [ 1, 24 ], "wiki" : "1/24" },
+        { "item" : 23872, "name" : "item.raw_paddlefish", "min" : 1, "max" : 3, "chance" : [ 1, 8 ], "wiki" : "3/24" }
+      ]
+    }
+  ]
+}

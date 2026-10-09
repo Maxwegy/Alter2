@@ -1,0 +1,54 @@
+{
+  "page" : "TzHaar-Hur",
+  "versions" : [
+    {
+      "source" : "TzHaar-Hur",
+      "ids" : [
+        2161,
+        2162,
+        2163,
+        2164,
+        2165,
+        2166,
+        7682,
+        7683,
+        7684,
+        7685,
+        7686,
+        7687
+      ],
+      "names" : [
+        "npc.tzhaarhur_2161",
+        "npc.tzhaarhur_2162",
+        "npc.tzhaarhur_2163",
+        "npc.tzhaarhur_2164",
+        "npc.tzhaarhur_2165",
+        "npc.tzhaarhur_2166",
+        "npc.tzhaarhur_7682",
+        "npc.tzhaarhur_7683",
+        "npc.tzhaarhur_7684",
+        "npc.tzhaarhur_7685",
+        "npc.tzhaarhur_7686",
+        "npc.tzhaarhur_7687"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 80.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

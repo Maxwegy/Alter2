@@ -1,0 +1,39 @@
+{
+  "page" : "Abyssal walker",
+  "tables" : [
+    {
+      "source" : "Abyssal walker",
+      "npcIds" : [
+        2586
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 1438, "name" : "item.air_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1442, "name" : "item.fire_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1444, "name" : "item.water_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1446, "name" : "item.body_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1448, "name" : "item.mind_talisman", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "2/256" },
+        { "item" : 1454, "name" : "item.cosmic_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "2/256" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "2/256" },
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 5509, "name" : "item.small_pouch", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" },
+        { "item" : 5510, "name" : "item.medium_pouch", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" },
+        { "item" : 5512, "name" : "item.large_pouch", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" },
+        { "item" : 5514, "name" : "item.giant_pouch", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" },
+        { "item" : 5516, "name" : "item.elemental_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 5521, "name" : "item.binding_necklace", "min" : 1, "max" : 1, "chance" : [ 3, 256 ], "wiki" : "3/256" },
+        { "item" : 7936, "name" : "item.pure_essence", "min" : 1, "max" : 1, "chance" : [ 17, 128 ], "wiki" : "34/256" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 9, 64 ], "wiki" : "36/256" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "4/256" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "4/256" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 15, "max" : 15, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "4/256" },
+        { "item" : 13508, "name" : "item.ensouled_abyssal_head_13508", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" }
+      ]
+    }
+  ]
+}

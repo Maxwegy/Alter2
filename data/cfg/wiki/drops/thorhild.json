@@ -1,0 +1,14 @@
+{
+  "page" : "Thorhild",
+  "tables" : [
+    {
+      "source" : "Thorhild",
+      "npcIds" : [
+        3677
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "page" : "Rock Golem (monster)",
+  "versions" : [
+    {
+      "source" : "Rock Golem (monster)#Level 115",
+      "version" : "Level 115",
+      "ids" : [
+        6729
+      ],
+      "names" : [
+        "npc.rock_golem_6729"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 75, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Rock Golem (monster)#Level 13",
+      "version" : "Level 13",
+      "ids" : [
+        6725
+      ],
+      "names" : [
+        "npc.rock_golem_6725"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 9, "strength" : 9, "defence" : 9, "ranged" : 8, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Rock Golem (monster)#Level 154",
+      "version" : "Level 154",
+      "ids" : [
+        6730
+      ],
+      "names" : [
+        "npc.rock_golem_6730"
+      ],
+      "combatLevel" : 154,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 130, "ranged" : 80, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Rock Golem (monster)#Level 27",
+      "version" : "Level 27",
+      "ids" : [
+        6726
+      ],
+      "names" : [
+        "npc.rock_golem_6726"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 20, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Rock Golem (monster)#Level 46",
+      "version" : "Level 46",
+      "ids" : [
+        6727
+      ],
+      "names" : [
+        "npc.rock_golem_6727"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 38, "ranged" : 35, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Rock Golem (monster)#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        6728
+      ],
+      "names" : [
+        "npc.rock_golem_6728"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 70, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

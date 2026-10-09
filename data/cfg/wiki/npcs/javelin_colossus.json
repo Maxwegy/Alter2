@@ -1,0 +1,32 @@
+{
+  "page" : "Javelin Colossus",
+  "versions" : [
+    {
+      "source" : "Javelin Colossus",
+      "ids" : [
+        12817
+      ],
+      "names" : [
+        "npc.javelin_colossus"
+      ],
+      "combatLevel" : 278,
+      "hitpoints" : 220,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 300, "defence" : 190, "ranged" : 360, "magic" : 225 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 25, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "48",
+        "49 (Relentless I)",
+        "51 (Relentless II)",
+        "54 (Relentless III)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

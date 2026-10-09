@@ -1,0 +1,40 @@
+{
+  "page" : "Frost Nagua",
+  "versions" : [
+    {
+      "source" : "Frost Nagua",
+      "ids" : [
+        13728,
+        13787,
+        13788
+      ],
+      "names" : [
+        "npc.frost_nagua",
+        "npc.frost_nagua_13787",
+        "npc.frost_nagua_13788"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 120,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 40, "ranged" : 1, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 70, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 15 },
+      "maxHits" : [
+        "12 total",
+        "6+6"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 120.0, "categories" : [ "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

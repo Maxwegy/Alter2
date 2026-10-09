@@ -1,0 +1,15 @@
+{
+  "page" : "Dessourt (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Dessourt (Nightmare Zone)",
+      "npcIds" : [
+        6311,
+        6372
+      ],
+      "always" : [
+        { "item" : 1975, "name" : "item.chocolate_dust", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

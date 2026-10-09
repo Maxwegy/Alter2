@@ -1,0 +1,26 @@
+{
+  "page" : "Maniacal Monkey Archer",
+  "tables" : [
+    {
+      "source" : "Maniacal Monkey Archer",
+      "npcIds" : [
+        7119
+      ],
+      "always" : [
+        { "item" : 3179, "name" : "item.small_ninja_monkey_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 143, "name" : "item.prayer_potion1", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "2/20" },
+        { "item" : 177, "name" : "item.antipoison2", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "2/20" },
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "2/20" },
+        { "item" : 365, "name" : "item.bass", "min" : 2, "max" : 2, "chance" : [ 1, 5 ], "wiki" : "4/20" },
+        { "item" : 853, "name" : "item.maple_shortbow", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 954, "name" : "item.rope", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 1325, "name" : "item.steel_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "2/20" },
+        { "item" : 1963, "name" : "item.banana", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "2/20" },
+        { "item" : 5626, "name" : "item.adamant_arrowp_5626", "min" : 5, "max" : 5, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 8778, "name" : "item.oak_plank", "min" : 1, "max" : 1, "chance" : [ 3, 20 ], "wiki" : "3/20" }
+      ]
+    }
+  ]
+}

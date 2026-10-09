@@ -1,0 +1,34 @@
+{
+  "page" : "Karil the Tainted",
+  "versions" : [
+    {
+      "source" : "Karil the Tainted",
+      "ids" : [
+        1675
+      ],
+      "names" : [
+        "npc.karil_the_tainted"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -26, "rangedAttack" : 134, "stabDefence" : 79, "slashDefence" : 71, "crushDefence" : 90, "magicDefence" : 106, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 55, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

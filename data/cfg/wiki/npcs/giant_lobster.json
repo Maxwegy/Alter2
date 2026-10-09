@@ -1,0 +1,34 @@
+{
+  "page" : "Giant lobster",
+  "versions" : [
+    {
+      "source" : "Giant lobster",
+      "ids" : [
+        4799,
+        4800
+      ],
+      "names" : [
+        "npc.giant_lobster_4799",
+        "npc.giant_lobster_4800"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 30, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 15, "magicDefence" : 99, "rangedDefence" : 50, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "page" : "Archer (Burthorpe)",
+  "tables" : [
+    {
+      "source" : "Archer (Burthorpe)",
+      "npcIds" : [
+        4096,
+        4097,
+        4098
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 447, "name" : "item.mithril_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 17, "max" : 17, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 29, "max" : 29, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 6, "max" : 6, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 847, "name" : "item.willow_longbow", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 853, "name" : "item.maple_shortbow", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 14, "max" : 14, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 14, "max" : 14, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 37, 128 ], "wiki" : "37/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 28, "max" : 28, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 42, "max" : 42, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 46, "max" : 46, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1097, "name" : "item.studded_chaps", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 1099, "name" : "item.green_dhide_chaps", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" }
+      ]
+    }
+  ]
+}

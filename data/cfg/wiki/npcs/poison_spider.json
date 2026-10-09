@@ -1,0 +1,62 @@
+{
+  "page" : "Poison spider",
+  "versions" : [
+    {
+      "source" : "Poison spider#Level 31",
+      "version" : "Level 31",
+      "ids" : [
+        5373
+      ],
+      "names" : [
+        "npc.poison_spider_5373"
+      ],
+      "combatLevel" : 31,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 28, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 10, "magicDefence" : 14, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Poison spider#Level 64",
+      "version" : "Level 64",
+      "ids" : [
+        3023,
+        11999
+      ],
+      "names" : [
+        "npc.poison_spider",
+        "npc.poison_spider_11999"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 64,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 58, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 10, "magicDefence" : 14, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 64.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

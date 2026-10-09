@@ -1,0 +1,37 @@
+{
+  "page" : "Undead Druid",
+  "versions" : [
+    {
+      "source" : "Undead Druid",
+      "ids" : [
+        2145
+      ],
+      "names" : [
+        "npc.undead_druid"
+      ],
+      "combatLevel" : 105,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 50, "defence" : 60, "ranged" : 0, "magic" : 115 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 30, "crushDefence" : 80, "magicDefence" : 140, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "22 (Magic)",
+        "11 (Melee)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 147.0, "categories" : [ "Undead Druids", "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

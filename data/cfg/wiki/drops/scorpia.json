@@ -1,0 +1,53 @@
+{
+  "page" : "Scorpia",
+  "tables" : [
+    {
+      "source" : "Scorpia",
+      "npcIds" : [
+        6615
+      ],
+      "main" : [
+        { "item" : 214, "name" : "item.grimy_kwuarm_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 218, "name" : "item.grimy_dwarf_weed_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 220, "name" : "item.grimy_torstol_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 452, "name" : "item.runite_ore_noted", "min" : 3, "max" : 3, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 100, "max" : 150, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 150, "max" : 200, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 100, "max" : 150, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25002, "max" : 34962, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1113, "name" : "item.rune_chainbody", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1275, "name" : "item.rune_pickaxe", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1333, "name" : "item.rune_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1347, "name" : "item.rune_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1392, "name" : "item.battlestaff_noted", "min" : 5, "max" : 8, "noted" : true, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1407, "name" : "item.mystic_earth_staff", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1618, "name" : "item.uncut_diamond_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1620, "name" : "item.uncut_ruby_noted", "min" : 15, "max" : 20, "noted" : true, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 3052, "name" : "item.grimy_snapdragon_noted", "min" : 4, "max" : 7, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 4091, "name" : "item.mystic_robe_top", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4093, "name" : "item.mystic_robe_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4587, "name" : "item.dragon_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 7158, "name" : "item.dragon_2h_sword", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 9194, "name" : "item.onyx_bolt_tips", "min" : 6, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11930, "name" : "item.odium_shard_3", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 11933, "name" : "item.malediction_shard_3", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 19582, "name" : "item.dragon_javelin_heads", "min" : 30, "max" : 50, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "1/30" },
+        { "item" : 24251, "name" : "item.wilderness_crabs_teleport", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 13181, "name" : "item.scorpias_offspring", "min" : 1, "max" : 1, "chance" : [ 4, 8063 ], "wiki" : "1/2,015.75" },
+        { "item" : 13460, "name" : "item.ensouled_scorpion_head_13460", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "wiki" : "1/18" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 75 ], "wiki" : "1/75" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 72 ], "wiki" : "1/72" },
+        { "item" : 24593, "name" : "item.blighted_anglerfish_noted", "min" : 15, "max" : 25, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 24599, "name" : "item.blighted_super_restore4_noted", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" }
+      ]
+    }
+  ]
+}

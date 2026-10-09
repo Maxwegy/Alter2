@@ -1,0 +1,80 @@
+{
+  "page" : "Magic Mark",
+  "versions" : [
+    {
+      "source" : "Magic Mark#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13663
+      ],
+      "names" : [
+        "npc.magic_mark"
+      ],
+      "combatLevel" : 967,
+      "hitpoints" : 3500,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 30, "ranged" : 0, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 150, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Magic Mark#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13663
+      ],
+      "names" : [
+        "npc.magic_mark"
+      ],
+      "combatLevel" : 467,
+      "hitpoints" : 1500,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 30, "ranged" : 0, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 150, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Magic Mark#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13663
+      ],
+      "names" : [
+        "npc.magic_mark"
+      ],
+      "combatLevel" : 467,
+      "hitpoints" : 1500,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 30, "ranged" : 0, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 150, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

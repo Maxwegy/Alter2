@@ -1,0 +1,32 @@
+{
+  "page" : "Smoke devil",
+  "versions" : [
+    {
+      "source" : "Smoke devil",
+      "ids" : [
+        498
+      ],
+      "names" : [
+        "npc.smoke_devil_498"
+      ],
+      "combatLevel" : 160,
+      "hitpoints" : 185,
+      "attackSpeed" : 4,
+      "respawnTicks" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 140, "strength" : 130, "defence" : 275, "ranged" : 195, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 600, "rangedDefence" : 44, "lightRangedDefence" : 44, "heavyRangedDefence" : 44, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 93, "xp" : 185.0, "categories" : [ "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

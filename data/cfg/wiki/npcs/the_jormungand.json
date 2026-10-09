@@ -1,0 +1,36 @@
+{
+  "page" : "The Jormungand",
+  "versions" : [
+    {
+      "source" : "The Jormungand",
+      "ids" : [
+        9290,
+        9291
+      ],
+      "names" : [
+        "npc.the_jormungand_9290",
+        "npc.the_jormungand_9291"
+      ],
+      "combatLevel" : 363,
+      "hitpoints" : 600,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 214, "strength" : 214, "defence" : 214, "ranged" : 214, "magic" : 214 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22",
+        "50+ (Gaze attack)",
+        "50+ (Bind attack)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Not immune", "freeze" : "100% resistance" },
+      "slayer" : { "level" : 40, "xp" : 600.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

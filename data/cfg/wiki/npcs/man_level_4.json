@@ -1,0 +1,56 @@
+{
+  "page" : "Man (level 4)",
+  "versions" : [
+    {
+      "source" : "Man (level 4)#Normal",
+      "version" : "Normal",
+      "ids" : [
+        1118
+      ],
+      "names" : [
+        "npc.man_1118"
+      ],
+      "combatLevel" : 4,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 2, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 1, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Man (level 4)#Unused",
+      "version" : "Unused",
+      "ids" : [
+        1138
+      ],
+      "names" : [
+        "npc.man_1138"
+      ],
+      "combatLevel" : 4,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 2, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 1, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "page" : "Guard (Desert Mining Camp)",
+  "versions" : [
+    {
+      "source" : "Guard (Desert Mining Camp)#Bald",
+      "version" : "Bald",
+      "ids" : [
+        4665
+      ],
+      "names" : [
+        "npc.guard_4665"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Desert Mining Camp)#Bronze helm",
+      "version" : "Bronze helm",
+      "ids" : [
+        4661,
+        4663,
+        4667
+      ],
+      "names" : [
+        "npc.guard_4661",
+        "npc.guard_4663",
+        "npc.guard_4667"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Desert Mining Camp)#Brown hair",
+      "version" : "Brown hair",
+      "ids" : [
+        4660,
+        4666,
+        4669
+      ],
+      "names" : [
+        "npc.guard_4660",
+        "npc.guard_4666",
+        "npc.guard_4669"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Desert Mining Camp)#Coif",
+      "version" : "Coif",
+      "ids" : [
+        4664
+      ],
+      "names" : [
+        "npc.guard_4664"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Desert Mining Camp)#Iron helm",
+      "version" : "Iron helm",
+      "ids" : [
+        4662,
+        4668
+      ],
+      "names" : [
+        "npc.guard_4662",
+        "npc.guard_4668"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

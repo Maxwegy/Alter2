@@ -1,5 +1,6 @@
 package org.alter.plugins.content.combat.strategy
 
+import org.alter.plugins.content.infrastructure.items.WeaponRanges
 import org.alter.api.EquipmentType
 import org.alter.api.Skills
 import org.alter.api.WeaponType
@@ -35,7 +36,8 @@ object RangedCombatStrategy : CombatStrategy {
             val weapon = pawn.getEquipment(EquipmentType.WEAPON)
             val attackStyle = CombatConfigs.getAttackStyle(pawn)
 
-            var range =
+            // The wiki snapshot's base range wins; the table below is the fallback for weapons it doesn't know.
+            var range = weapon?.id?.let(WeaponRanges::baseRange) ?:
                 when (weapon?.id) {
                     getRSCM("item.armadyl_crossbow") -> 8
                     getRSCM("item.craws_bow"), getRSCM("item.craws_bow_u") -> 10

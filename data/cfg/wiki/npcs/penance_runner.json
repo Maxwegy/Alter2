@@ -1,0 +1,214 @@
+{
+  "page" : "Penance Runner",
+  "versions" : [
+    {
+      "source" : "Penance Runner#Wave 1",
+      "version" : "Wave 1",
+      "ids" : [
+        1669,
+        5748
+      ],
+      "names" : [
+        "npc.penance_runner",
+        "npc.penance_runner_5748"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 2",
+      "version" : "Wave 2",
+      "ids" : [
+        5749
+      ],
+      "names" : [
+        "npc.penance_runner_5749"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 3",
+      "version" : "Wave 3",
+      "ids" : [
+        5750
+      ],
+      "names" : [
+        "npc.penance_runner_5750"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 4",
+      "version" : "Wave 4",
+      "ids" : [
+        5751
+      ],
+      "names" : [
+        "npc.penance_runner_5751"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 5",
+      "version" : "Wave 5",
+      "ids" : [
+        5752
+      ],
+      "names" : [
+        "npc.penance_runner_5752"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 6",
+      "version" : "Wave 6",
+      "ids" : [
+        5753
+      ],
+      "names" : [
+        "npc.penance_runner_5753"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 7/10",
+      "version" : "Wave 7/10",
+      "ids" : [
+        5754
+      ],
+      "names" : [
+        "npc.penance_runner_5754"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 8",
+      "version" : "Wave 8",
+      "ids" : [
+        5755
+      ],
+      "names" : [
+        "npc.penance_runner_5755"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Runner#Wave 9",
+      "version" : "Wave 9",
+      "ids" : [
+        5756
+      ],
+      "names" : [
+        "npc.penance_runner_5756"
+      ],
+      "hitpoints" : 5,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

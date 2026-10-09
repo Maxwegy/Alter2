@@ -1,0 +1,34 @@
+{
+  "page" : "Akkha's Shadow",
+  "versions" : [
+    {
+      "source" : "Akkha's Shadow",
+      "ids" : [
+        11797,
+        11798,
+        11799
+      ],
+      "names" : [
+        "npc.akkhas_shadow",
+        "npc.akkhas_shadow_11798",
+        "npc.akkhas_shadow_11799"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 70,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 100, "strength" : 140, "defence" : 30, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 115, "rangedAttack" : 115, "stabDefence" : 60, "slashDefence" : 120, "crushDefence" : 120, "magicDefence" : 10, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 115, "strengthBonus" : 30, "rangedStrength" : 40, "magicDamage" : 40 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 60 }
+    }
+  ]
+}

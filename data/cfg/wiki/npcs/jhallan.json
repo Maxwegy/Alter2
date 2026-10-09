@@ -1,0 +1,57 @@
+{
+  "page" : "Jhallan",
+  "versions" : [
+    {
+      "source" : "Jhallan",
+      "ids" : [
+        12353,
+        12354
+      ],
+      "names" : [
+        "npc.jhallan_12353",
+        "npc.jhallan_12354"
+      ],
+      "combatLevel" : 491,
+      "hitpoints" : 1500,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 250, "ranged" : 0, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 30, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 300, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Jhallan",
+      "ids" : [
+        12353,
+        12354
+      ],
+      "names" : [
+        "npc.jhallan_12353",
+        "npc.jhallan_12354"
+      ],
+      "combatLevel" : 491,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 83, "ranged" : 0, "magic" : 83 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 30, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 300, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

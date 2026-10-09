@@ -1,0 +1,36 @@
+{
+  "page" : "Hydra",
+  "versions" : [
+    {
+      "source" : "Hydra",
+      "ids" : [
+        8609
+      ],
+      "names" : [
+        "npc.hydra_8609"
+      ],
+      "combatLevel" : 194,
+      "hitpoints" : 300,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 210, "magic" : 210 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 160, "slashDefence" : 160, "crushDefence" : 160, "magicDefence" : 160, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 322.5, "categories" : [ "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

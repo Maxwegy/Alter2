@@ -1,0 +1,29 @@
+{
+  "page" : "Hobgoblin guard",
+  "versions" : [
+    {
+      "source" : "Hobgoblin guard",
+      "ids" : [
+        132
+      ],
+      "names" : [
+        "npc.hobgoblin"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 62,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 43, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "page" : "Nazastarool (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Ghost (Hard Mode)",
+      "version" : "Ghost (Hard Mode)",
+      "ids" : [
+        6339
+      ],
+      "names" : [
+        "npc.nazastarool_hard_6339"
+      ],
+      "combatLevel" : 181,
+      "hitpoints" : 176,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 187, "strength" : 176, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    },
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Ghost (Normal Mode)",
+      "version" : "Ghost (Normal Mode)",
+      "ids" : [
+        6400
+      ],
+      "names" : [
+        "npc.nazastarool_6400"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 85, "strength" : 80, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    },
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Skeleton (Hard Mode)",
+      "version" : "Skeleton (Hard Mode)",
+      "ids" : [
+        6338
+      ],
+      "names" : [
+        "npc.nazastarool_hard_6338"
+      ],
+      "combatLevel" : 153,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 140, "defence" : 58, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 15, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Skeleton (Normal Mode)",
+      "version" : "Skeleton (Normal Mode)",
+      "ids" : [
+        6399
+      ],
+      "names" : [
+        "npc.nazastarool_6399"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 58, "strength" : 54, "defence" : 58, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 15, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Zombie (Hard Mode)",
+      "version" : "Zombie (Hard Mode)",
+      "ids" : [
+        6337
+      ],
+      "names" : [
+        "npc.nazastarool_hard"
+      ],
+      "combatLevel" : 176,
+      "hitpoints" : 154,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 187, "strength" : 176, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Nazastarool (Nightmare Zone)#Zombie (Normal Mode)",
+      "version" : "Zombie (Normal Mode)",
+      "ids" : [
+        6398
+      ],
+      "names" : [
+        "npc.nazastarool_6398"
+      ],
+      "combatLevel" : 91,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 85, "strength" : 80, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

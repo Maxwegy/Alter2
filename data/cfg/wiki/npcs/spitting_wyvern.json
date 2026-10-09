@@ -1,0 +1,39 @@
+{
+  "page" : "Spitting Wyvern",
+  "versions" : [
+    {
+      "source" : "Spitting Wyvern",
+      "ids" : [
+        7794
+      ],
+      "names" : [
+        "npc.spitting_wyvern"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 80, "defence" : 90, "ranged" : 125, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 140, "rangedDefence" : 70, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9 (Melee)",
+        "8 (Ranged)",
+        "50+ (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 66, "xp" : 205.0, "categories" : [ "Fossil Island Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

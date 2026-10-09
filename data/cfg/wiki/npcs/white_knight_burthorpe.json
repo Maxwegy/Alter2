@@ -1,0 +1,30 @@
+{
+  "page" : "White Knight (Burthorpe)",
+  "versions" : [
+    {
+      "source" : "White Knight (Burthorpe)",
+      "ids" : [
+        4114
+      ],
+      "names" : [
+        "npc.white_knight_4114"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 52,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 29, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 83, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 74, "lightRangedDefence" : 74, "heavyRangedDefence" : 54, "attackBonus" : 30, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

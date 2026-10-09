@@ -1,0 +1,66 @@
+{
+  "page" : "Vet'ion",
+  "versions" : [
+    {
+      "source" : "Vet'ion#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        6612
+      ],
+      "names" : [
+        "npc.vetion_6612"
+      ],
+      "combatLevel" : 454,
+      "hitpoints" : 255,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 430, "strength" : 430, "defence" : 395, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 201, "slashDefence" : 200, "crushDefence" : -10, "magicDefence" : 250, "rangedDefence" : 270, "lightRangedDefence" : 270, "heavyRangedDefence" : 270, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "44"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 322.0, "categories" : [ "Bosses", "Skeletons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    },
+    {
+      "source" : "Vet'ion#Normal",
+      "version" : "Normal",
+      "ids" : [
+        6611
+      ],
+      "names" : [
+        "npc.vetion"
+      ],
+      "combatLevel" : 454,
+      "hitpoints" : 255,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 430, "strength" : 430, "defence" : 395, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 201, "slashDefence" : 200, "crushDefence" : -10, "magicDefence" : 250, "rangedDefence" : 270, "lightRangedDefence" : 270, "heavyRangedDefence" : 270, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "44"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 624.0, "categories" : [ "Bosses", "Skeletons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    }
+  ]
+}

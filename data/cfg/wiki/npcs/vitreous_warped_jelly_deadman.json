@@ -1,0 +1,108 @@
+{
+  "page" : "Vitreous warped Jelly (Deadman)",
+  "versions" : [
+    {
+      "source" : "Vitreous warped Jelly (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12457
+      ],
+      "names" : [
+        "npc.vitreous_warped_jelly_12457"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 3000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 50, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    },
+    {
+      "source" : "Vitreous warped Jelly (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12457
+      ],
+      "names" : [
+        "npc.vitreous_warped_jelly_12457"
+      ],
+      "combatLevel" : 333,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 250, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Vitreous warped Jelly (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12457
+      ],
+      "names" : [
+        "npc.vitreous_warped_jelly_12457"
+      ],
+      "combatLevel" : 408,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 50, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    },
+    {
+      "source" : "Vitreous warped Jelly (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12457
+      ],
+      "names" : [
+        "npc.vitreous_warped_jelly_12457"
+      ],
+      "combatLevel" : 283,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 50, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Khazard warlord (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Khazard warlord (Nightmare Zone)",
+      "npcIds" : [
+        6329,
+        6390
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

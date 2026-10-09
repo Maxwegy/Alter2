@@ -1,0 +1,92 @@
+{
+  "page" : "Dust devil",
+  "versions" : [
+    {
+      "source" : "Dust devil#Catacombs of Kourend",
+      "version" : "Catacombs of Kourend",
+      "ids" : [
+        7249
+      ],
+      "names" : [
+        "npc.dust_devil_7249"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 90, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10",
+        "16 (without Facemask)"
+      ],
+      "attackStyles" : [
+        "Ranged melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 65, "xp" : 130.0, "categories" : [ "Dust Devils" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    },
+    {
+      "source" : "Dust devil#Smoke Dungeon",
+      "version" : "Smoke Dungeon",
+      "ids" : [
+        423
+      ],
+      "names" : [
+        "npc.dust_devil_423"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 70, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8",
+        "16 (without Facemask)"
+      ],
+      "attackStyles" : [
+        "Ranged melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 65, "xp" : 105.0, "categories" : [ "Dust Devils" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    },
+    {
+      "source" : "Dust devil#Wilderness Slayer Cave",
+      "version" : "Wilderness Slayer Cave",
+      "ids" : [
+        11238
+      ],
+      "names" : [
+        "npc.dust_devil_11238"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 70, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8",
+        "16 (without Facemask)"
+      ],
+      "attackStyles" : [
+        "Ranged melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 65, "xp" : 105.0, "categories" : [ "Dust Devils" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "page" : "Emissary Chosen",
+  "versions" : [
+    {
+      "source" : "Emissary Chosen#1",
+      "version" : "1",
+      "ids" : [
+        13738
+      ],
+      "names" : [
+        "npc.emissary_chosen"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Chosen#2",
+      "version" : "2",
+      "ids" : [
+        13739
+      ],
+      "names" : [
+        "npc.emissary_chosen_13739"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Chosen#3",
+      "version" : "3",
+      "ids" : [
+        13740
+      ],
+      "names" : [
+        "npc.emissary_chosen_13740"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Chosen#4",
+      "version" : "4",
+      "ids" : [
+        13741
+      ],
+      "names" : [
+        "npc.emissary_chosen_13741"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Chosen#5",
+      "version" : "5",
+      "ids" : [
+        13742
+      ],
+      "names" : [
+        "npc.emissary_chosen_13742"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Chosen#6",
+      "version" : "6",
+      "ids" : [
+        13743
+      ],
+      "names" : [
+        "npc.emissary_chosen_13743"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 15, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

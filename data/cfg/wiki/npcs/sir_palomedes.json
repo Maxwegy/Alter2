@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Palomedes",
+  "versions" : [
+    {
+      "source" : "Sir Palomedes",
+      "ids" : [
+        4343,
+        4358
+      ],
+      "names" : [
+        "npc.sir_palomedes_4343",
+        "npc.sir_palomedes_4358"
+      ],
+      "combatLevel" : 118,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 105, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 250, "slashDefence" : 250, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 35, "strengthBonus" : 35, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page" : "Emissary Forebearer (unused)",
+  "versions" : [
+    {
+      "source" : "Emissary Forebearer (unused)#1",
+      "version" : "1",
+      "ids" : [
+        13752
+      ],
+      "names" : [
+        "npc.emissary_forebearer"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Forebearer (unused)#2",
+      "version" : "2",
+      "ids" : [
+        13753
+      ],
+      "names" : [
+        "npc.emissary_forebearer_13753"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Forebearer (unused)#3",
+      "version" : "3",
+      "ids" : [
+        13754
+      ],
+      "names" : [
+        "npc.emissary_forebearer_13754"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Forebearer (unused)#4",
+      "version" : "4",
+      "ids" : [
+        13755
+      ],
+      "names" : [
+        "npc.emissary_forebearer_13755"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Forebearer (unused)#5",
+      "version" : "5",
+      "ids" : [
+        13756
+      ],
+      "names" : [
+        "npc.emissary_forebearer_13756"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Forebearer (unused)#6",
+      "version" : "6",
+      "ids" : [
+        13757
+      ],
+      "names" : [
+        "npc.emissary_forebearer_13757"
+      ],
+      "combatLevel" : 131,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

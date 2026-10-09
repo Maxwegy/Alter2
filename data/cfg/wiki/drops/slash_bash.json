@@ -1,0 +1,22 @@
+{
+  "page" : "Slash Bash",
+  "tables" : [
+    {
+      "source" : "Slash Bash",
+      "npcIds" : [
+        882
+      ],
+      "always" : [
+        { "item" : 4812, "name" : "item.zogre_bones", "min" : 2, "max" : 2 },
+        { "item" : 4818, "name" : "item.ogre_artefact", "min" : 1, "max" : 1 },
+        { "item" : 4834, "name" : "item.ourg_bones", "min" : 3, "max" : 3 }
+      ],
+      "main" : [
+        { "item" : 7848, "name" : "item.zogre_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ],
+      "tertiary" : [
+        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "page" : "Fortress Guard",
+  "tables" : [
+    {
+      "source" : "Fortress Guard",
+      "npcIds" : [
+        4772,
+        4773,
+        4774,
+        4775,
+        4776
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

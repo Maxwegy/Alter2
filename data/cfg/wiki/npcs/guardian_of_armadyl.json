@@ -1,0 +1,57 @@
+{
+  "page" : "Guardian of Armadyl",
+  "versions" : [
+    {
+      "source" : "Guardian of Armadyl#Female",
+      "version" : "Female",
+      "ids" : [
+        3446
+      ],
+      "names" : [
+        "npc.guardian_of_armadyl_3446"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 37, "defence" : 37, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 43, "slashDefence" : 55, "crushDefence" : 50, "magicDefence" : -12, "rangedDefence" : 51, "lightRangedDefence" : 51, "heavyRangedDefence" : 51, "attackBonus" : 14, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guardian of Armadyl#Male",
+      "version" : "Male",
+      "ids" : [
+        3445
+      ],
+      "names" : [
+        "npc.guardian_of_armadyl"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 50,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 37, "defence" : 37, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 43, "slashDefence" : 55, "crushDefence" : 50, "magicDefence" : -12, "rangedDefence" : 51, "lightRangedDefence" : 51, "heavyRangedDefence" : 51, "attackBonus" : 14, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

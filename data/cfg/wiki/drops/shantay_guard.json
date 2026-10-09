@@ -1,0 +1,15 @@
+{
+  "page" : "Shantay Guard",
+  "tables" : [
+    {
+      "source" : "Shantay Guard",
+      "npcIds" : [
+        4643,
+        4648
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

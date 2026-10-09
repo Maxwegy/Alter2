@@ -1,0 +1,23 @@
+{
+  "page" : "Culinaromancer",
+  "tables" : [
+    {
+      "source" : "Culinaromancer",
+      "npcIds" : [
+        3400,
+        4849,
+        4872,
+        4873,
+        4874,
+        4875,
+        4876,
+        4877,
+        4878,
+        4879
+      ],
+      "always" : [
+        { "item" : 1891, "name" : "item.cake", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

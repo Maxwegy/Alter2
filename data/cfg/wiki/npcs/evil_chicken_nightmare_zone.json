@@ -1,0 +1,57 @@
+{
+  "page" : "Evil Chicken (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Evil Chicken (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6306
+      ],
+      "names" : [
+        "npc.evil_chicken_hard"
+      ],
+      "combatLevel" : 286,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 126, "ranged" : 1, "magic" : 400 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 240.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Evil Chicken (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6367
+      ],
+      "names" : [
+        "npc.evil_chicken_6367"
+      ],
+      "combatLevel" : 159,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 126, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 120.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

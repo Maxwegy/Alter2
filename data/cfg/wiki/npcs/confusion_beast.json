@@ -1,0 +1,87 @@
+{
+  "page" : "Confusion beast",
+  "versions" : [
+    {
+      "source" : "Confusion beast#Level 43 (crush)",
+      "version" : "Level 43 (crush)",
+      "ids" : [
+        1068,
+        1069,
+        1070,
+        1071
+      ],
+      "names" : [
+        "npc.confusion_beast_1068",
+        "npc.confusion_beast_1069",
+        "npc.confusion_beast_1070",
+        "npc.confusion_beast_1071"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 42, "strength" : 41, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Confusion beast#Level 43 (stab)",
+      "version" : "Level 43 (stab)",
+      "ids" : [
+        1067
+      ],
+      "names" : [
+        "npc.confusion_beast"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 42, "strength" : 41, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Confusion beast#Level 63",
+      "version" : "Level 63",
+      "ids" : [
+        4694
+      ],
+      "names" : [
+        "npc.confusion_beast_4694"
+      ],
+      "combatLevel" : 63,
+      "hitpoints" : 64,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 52, "strength" : 55, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

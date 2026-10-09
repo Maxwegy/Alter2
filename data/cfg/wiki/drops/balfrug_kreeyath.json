@@ -1,0 +1,35 @@
+{
+  "page" : "Balfrug Kreeyath",
+  "tables" : [
+    {
+      "source" : "Balfrug Kreeyath",
+      "npcIds" : [
+        3132
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 145, "name" : "item.super_attack3", "min" : 1, "max" : 1, "chance" : [ 2, 127 ], "wiki" : "2/127" },
+        { "item" : 157, "name" : "item.super_strength3", "min" : 1, "max" : 1, "chance" : [ 2, 127 ], "wiki" : "2/127" },
+        { "item" : 246, "name" : "item.wine_of_zamorak_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 385, "name" : "item.shark", "min" : 3, "max" : 3, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 5, "max" : 10, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 5, "max" : 10, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 808, "name" : "item.steel_dart", "min" : 95, "max" : 100, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 95, "max" : 100, "chance" : [ 7, 127 ], "wiki" : "7/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1300, "max" : 1400, "chance" : [ 66, 127 ], "wiki" : "66/127" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1300, "max" : 1400, "chance" : [ 3, 508 ], "wiki" : "9/1,524" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1300, "max" : 1400, "chance" : [ 124, 16129 ], "wiki" : "124/16,129" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 7060, "name" : "item.tuna_potato", "min" : 2, "max" : 2, "chance" : [ 8, 127 ], "wiki" : "8/127" },
+        { "item" : 11818, "name" : "item.godsword_shard_1", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11820, "name" : "item.godsword_shard_2", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11822, "name" : "item.godsword_shard_3", "min" : 1, "max" : 1, "chance" : [ 1, 1524 ], "wiki" : "1/1,524" },
+        { "item" : 11824, "name" : "item.zamorakian_spear", "min" : 1, "max" : 1, "chance" : [ 3, 16129 ], "wiki" : "3/16,129" },
+        { "item" : 26362, "name" : "item.frozen_key_piece_zamorak", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page" : "Giant Scarab",
+  "versions" : [
+    {
+      "source" : "Giant Scarab",
+      "ids" : [
+        797,
+        798
+      ],
+      "names" : [
+        "npc.giant_scarab",
+        "npc.giant_scarab_798"
+      ],
+      "combatLevel" : 191,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 169, "strength" : 190, "defence" : 169, "ranged" : 190, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 99, "crushDefence" : 99, "magicDefence" : 159, "rangedDefence" : 103, "lightRangedDefence" : 149, "heavyRangedDefence" : 149, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 137.0, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

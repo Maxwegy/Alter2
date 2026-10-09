@@ -1,0 +1,14 @@
+{
+  "page" : "Irvig Senay",
+  "tables" : [
+    {
+      "source" : "Irvig Senay",
+      "npcIds" : [
+        3965
+      ],
+      "always" : [
+        { "item" : 742, "name" : "item.hunk_of_crystal", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

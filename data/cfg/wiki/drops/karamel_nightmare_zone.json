@@ -1,0 +1,15 @@
+{
+  "page" : "Karamel (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Karamel (Nightmare Zone)",
+      "npcIds" : [
+        6310,
+        6371
+      ],
+      "always" : [
+        { "item" : 6794, "name" : "item.chocice", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

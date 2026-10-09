@@ -1,0 +1,83 @@
+{
+  "page" : "Bee Swarm (Deadman)",
+  "versions" : [
+    {
+      "source" : "Bee Swarm (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13658
+      ],
+      "names" : [
+        "npc.bee_swarm_13658"
+      ],
+      "combatLevel" : 1420,
+      "hitpoints" : 5000,
+      "attackSpeed" : 1,
+      "size" : 3,
+      "levels" : { "attack" : 400, "strength" : 100, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Bee Swarm (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13658
+      ],
+      "names" : [
+        "npc.bee_swarm_13658"
+      ],
+      "combatLevel" : 670,
+      "hitpoints" : 2000,
+      "attackSpeed" : 1,
+      "size" : 3,
+      "levels" : { "attack" : 400, "strength" : 100, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Bee Swarm (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13658
+      ],
+      "names" : [
+        "npc.bee_swarm_13658"
+      ],
+      "combatLevel" : 545,
+      "hitpoints" : 1500,
+      "attackSpeed" : 1,
+      "size" : 3,
+      "levels" : { "attack" : 400, "strength" : 100, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

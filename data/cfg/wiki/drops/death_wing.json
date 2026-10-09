@@ -1,0 +1,11 @@
+{
+  "page" : "Death wing",
+  "tables" : [
+    {
+      "source" : "Death wing",
+      "npcIds" : [
+        509
+      ]
+    }
+  ]
+}

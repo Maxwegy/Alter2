@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant knight",
+  "versions" : [
+    {
+      "source" : "Revenant knight",
+      "ids" : [
+        7939
+      ],
+      "names" : [
+        "npc.revenant_knight"
+      ],
+      "combatLevel" : 126,
+      "hitpoints" : 143,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 119, "defence" : 80, "ranged" : 146, "magic" : 146 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 55, "rangedAttack" : 55, "stabDefence" : 145, "slashDefence" : 200, "crushDefence" : 180, "magicDefence" : 95, "rangedDefence" : 190, "lightRangedDefence" : 190, "heavyRangedDefence" : 150, "attackBonus" : 69, "strengthBonus" : 71, "rangedStrength" : 45, "magicDamage" : 30 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 168.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

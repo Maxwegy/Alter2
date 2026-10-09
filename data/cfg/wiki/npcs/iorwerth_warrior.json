@@ -1,0 +1,63 @@
+{
+  "page" : "Iorwerth Warrior",
+  "versions" : [
+    {
+      "source" : "Iorwerth Warrior#Iorwerth Camp",
+      "version" : "Iorwerth Camp",
+      "ids" : [
+        3429,
+        8759
+      ],
+      "names" : [
+        "npc.iorwerth_warrior",
+        "npc.iorwerth_warrior_8759"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Iorwerth Warrior#Iorwerth Dungeon",
+      "version" : "Iorwerth Dungeon",
+      "ids" : [
+        9502,
+        9503
+      ],
+      "names" : [
+        "npc.iorwerth_warrior_9502",
+        "npc.iorwerth_warrior_9503"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    }
+  ]
+}

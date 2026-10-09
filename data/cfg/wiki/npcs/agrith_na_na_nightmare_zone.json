@@ -1,0 +1,57 @@
+{
+  "page" : "Agrith-Na-Na (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Agrith-Na-Na (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6308
+      ],
+      "names" : [
+        "npc.agrithnana_hard"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 166, "strength" : 300, "defence" : 82, "ranged" : 200, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 60, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 60, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31 (melee)",
+        "16 (magic)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Agrith-Na-Na (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6369
+      ],
+      "names" : [
+        "npc.agrithnana_6369"
+      ],
+      "combatLevel" : 146,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 83, "strength" : 150, "defence" : 82, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 60, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 60, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (melee)",
+        "16 (magic)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

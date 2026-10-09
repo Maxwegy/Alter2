@@ -1,0 +1,35 @@
+{
+  "page" : "Deranged archaeologist",
+  "versions" : [
+    {
+      "source" : "Deranged archaeologist",
+      "ids" : [
+        7806
+      ],
+      "names" : [
+        "npc.deranged_archaeologist"
+      ],
+      "combatLevel" : 276,
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 280, "strength" : 160, "defence" : 280, "ranged" : 320, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 90, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 50, "magicDefence" : 300, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 280, "strengthBonus" : 30, "rangedStrength" : -10, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (melee)",
+        "25 (range)",
+        "56 (special direct hit)",
+        "18+ (special indirect hit)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 275.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

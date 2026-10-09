@@ -1,0 +1,55 @@
+{
+  "page" : "Snakeling",
+  "versions" : [
+    {
+      "source" : "Snakeling#Magic",
+      "version" : "Magic",
+      "ids" : [
+        2046
+      ],
+      "names" : [
+        "npc.snakeling_2046"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 1,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 185 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : -40, "slashDefence" : -40, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : -40, "lightRangedDefence" : -40, "heavyRangedDefence" : -40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : -20 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Snakeling#Melee",
+      "version" : "Melee",
+      "ids" : [
+        2045
+      ],
+      "names" : [
+        "npc.snakeling"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 1,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 140, "strength" : 138, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -40, "slashDefence" : -40, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : -40, "lightRangedDefence" : -40, "heavyRangedDefence" : -40, "attackBonus" : 120, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

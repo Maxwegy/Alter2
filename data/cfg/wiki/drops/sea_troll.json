@@ -1,0 +1,33 @@
+{
+  "page" : "Sea troll",
+  "tables" : [
+    {
+      "source" : "Sea troll#High level",
+      "npcIds" : [
+        4308,
+        4309,
+        4310,
+        4311
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    },
+    {
+      "source" : "Sea troll#Low level",
+      "npcIds" : [
+        4308,
+        4309,
+        4310,
+        4311
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

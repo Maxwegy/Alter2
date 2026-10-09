@@ -1,0 +1,55 @@
+{
+  "page" : "Knight of Ardougne (Song of the Elves)",
+  "versions" : [
+    {
+      "source" : "Knight of Ardougne (Song of the Elves)#Level 27",
+      "version" : "Level 27",
+      "ids" : [
+        8851
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_8851"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 15, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Ardougne (Song of the Elves)#Level 53",
+      "version" : "Level 53",
+      "ids" : [
+        8852
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_8852"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 54,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 44, "strength" : 52, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

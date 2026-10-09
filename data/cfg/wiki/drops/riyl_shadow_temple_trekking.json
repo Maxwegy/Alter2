@@ -1,0 +1,14 @@
+{
+  "page" : "Riyl shadow (Temple Trekking)",
+  "tables" : [
+    {
+      "source" : "Riyl shadow (Temple Trekking)",
+      "npcIds" : [
+        5631
+      ],
+      "always" : [
+        { "item" : 3400, "name" : "item.riyl_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

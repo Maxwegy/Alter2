@@ -1,0 +1,32 @@
+{
+  "page" : "Giant Sea Snake",
+  "versions" : [
+    {
+      "source" : "Giant Sea Snake",
+      "ids" : [
+        1101
+      ],
+      "names" : [
+        "npc.giant_sea_snake"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 170, "strength" : 90, "defence" : 160, "ranged" : 130, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 40, "categories" : [ "Sea Snakes" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

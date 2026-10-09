@@ -1,0 +1,22 @@
+{
+  "page" : "Akkha",
+  "tables" : [
+    {
+      "source" : "Akkha",
+      "npcIds" : [
+        11789,
+        11790,
+        11791,
+        11792,
+        11793,
+        11794,
+        11795,
+        11796
+      ],
+      "always" : [
+        { "item" : 27223, "name" : "item.eldritch_ashes", "min" : 1, "max" : 1 },
+        { "item" : 27302, "name" : "item.hets_capture", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

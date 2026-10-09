@@ -1,0 +1,29 @@
+{
+  "page" : "Third Age Mage",
+  "versions" : [
+    {
+      "source" : "Third Age Mage",
+      "ids" : [
+        8637
+      ],
+      "names" : [
+        "npc.third_age_mage"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 80, "ranged" : 1, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 145, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 6, "crushDefence" : 5, "magicDefence" : 65, "rangedDefence" : -5, "lightRangedDefence" : -5, "heavyRangedDefence" : -5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 24 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

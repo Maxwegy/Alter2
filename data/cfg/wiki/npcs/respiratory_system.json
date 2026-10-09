@@ -1,0 +1,32 @@
+{
+  "page" : "Respiratory system",
+  "versions" : [
+    {
+      "source" : "Respiratory system",
+      "ids" : [
+        5914
+      ],
+      "names" : [
+        "npc.respiratory_system"
+      ],
+      "hitpoints" : 50,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 50.0, "categories" : [ "Abyssal Demons", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

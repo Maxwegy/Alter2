@@ -1,0 +1,60 @@
+{
+  "page" : "Cave goblin guard",
+  "versions" : [
+    {
+      "source" : "Cave goblin guard#Level 24",
+      "version" : "Level 24",
+      "ids" : [
+        5335
+      ],
+      "names" : [
+        "npc.cave_goblin_guard_5335"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 26,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 16, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -4, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 12, "lightRangedDefence" : 12, "heavyRangedDefence" : 12, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 26.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Cave goblin guard#Level 26",
+      "version" : "Level 26",
+      "ids" : [
+        5334
+      ],
+      "names" : [
+        "npc.cave_goblin_guard"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 26,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 18, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 16, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 12, "lightRangedDefence" : 12, "heavyRangedDefence" : 12, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 26.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

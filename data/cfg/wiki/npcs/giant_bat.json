@@ -1,0 +1,60 @@
+{
+  "page" : "Giant bat",
+  "versions" : [
+    {
+      "source" : "Giant bat#Arceuus",
+      "version" : "Arceuus",
+      "ids" : [
+        6824
+      ],
+      "names" : [
+        "npc.giant_bat_6824"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 32.0, "categories" : [ "Bats" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 10 }
+    },
+    {
+      "source" : "Giant bat#Normal",
+      "version" : "Normal",
+      "ids" : [
+        2834
+      ],
+      "names" : [
+        "npc.giant_bat"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 32.0, "categories" : [ "Bats" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 10 }
+    }
+  ]
+}

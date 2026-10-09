@@ -1,0 +1,313 @@
+{
+  "page" : "Jelly",
+  "versions" : [
+    {
+      "source" : "Jelly#Dark",
+      "version" : "Dark",
+      "ids" : [
+        441
+      ],
+      "names" : [
+        "npc.jelly_441"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Dark (w)",
+      "version" : "Dark (w)",
+      "ids" : [
+        11245
+      ],
+      "names" : [
+        "npc.jelly_11245"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Green",
+      "version" : "Green",
+      "ids" : [
+        442
+      ],
+      "names" : [
+        "npc.jelly_442"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Grey",
+      "version" : "Grey",
+      "ids" : [
+        438
+      ],
+      "names" : [
+        "npc.jelly_438"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Grey (w)",
+      "version" : "Grey (w)",
+      "ids" : [
+        11242
+      ],
+      "names" : [
+        "npc.jelly_11242"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Olive",
+      "version" : "Olive",
+      "ids" : [
+        440
+      ],
+      "names" : [
+        "npc.jelly_440"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Olive (w)",
+      "version" : "Olive (w)",
+      "ids" : [
+        11244
+      ],
+      "names" : [
+        "npc.jelly_11244"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Regular",
+      "version" : "Regular",
+      "ids" : [
+        437
+      ],
+      "names" : [
+        "npc.jelly_437"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Regular (w)",
+      "version" : "Regular (w)",
+      "ids" : [
+        11241
+      ],
+      "names" : [
+        "npc.jelly_11241"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Tan",
+      "version" : "Tan",
+      "ids" : [
+        439
+      ],
+      "names" : [
+        "npc.jelly_439"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Jelly#Tan (w)",
+      "version" : "Tan (w)",
+      "ids" : [
+        11243
+      ],
+      "names" : [
+        "npc.jelly_11243"
+      ],
+      "combatLevel" : 78,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 120, "ranged" : 1, "magic" : 45 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 75.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "krystilia", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Weaponsmaster",
+  "tables" : [
+    {
+      "source" : "Weaponsmaster",
+      "npcIds" : [
+        14137
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

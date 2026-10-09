@@ -1,0 +1,15 @@
+{
+  "page" : "Fareed (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Fareed (Nightmare Zone)",
+      "npcIds" : [
+        4115,
+        6348
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

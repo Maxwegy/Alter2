@@ -1,0 +1,31 @@
+{
+  "page" : "Khazard warlord",
+  "versions" : [
+    {
+      "source" : "Khazard warlord",
+      "ids" : [
+        7621,
+        7622
+      ],
+      "names" : [
+        "npc.khazard_warlord_7621",
+        "npc.khazard_warlord_7622"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 78, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Sergeant Grimspike",
+  "versions" : [
+    {
+      "source" : "Sergeant Grimspike",
+      "ids" : [
+        2218
+      ],
+      "names" : [
+        "npc.sergeant_grimspike"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 146,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 132, "ranged" : 150, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 20, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 146.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

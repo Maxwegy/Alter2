@@ -1,0 +1,33 @@
+{
+  "page" : "Spider (Ungael)",
+  "versions" : [
+    {
+      "source" : "Spider (Ungael)",
+      "ids" : [
+        8137,
+        8138
+      ],
+      "names" : [
+        "npc.spider_8137",
+        "npc.spider_8138"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 4,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 47, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 17, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 4.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

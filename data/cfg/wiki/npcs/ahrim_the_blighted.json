@@ -1,0 +1,34 @@
+{
+  "page" : "Ahrim the Blighted",
+  "versions" : [
+    {
+      "source" : "Ahrim the Blighted",
+      "ids" : [
+        1672
+      ],
+      "names" : [
+        "npc.ahrim_the_blighted"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 100,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 73, "rangedAttack" : -19, "stabDefence" : 103, "slashDefence" : 85, "crushDefence" : 117, "magicDefence" : 73, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 68, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 102.5, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Pirate Guard",
+  "tables" : [
+    {
+      "source" : "Pirate Guard",
+      "npcIds" : [
+        4926
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

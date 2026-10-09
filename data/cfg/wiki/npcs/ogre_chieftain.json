@@ -1,0 +1,32 @@
+{
+  "page" : "Ogre chieftain",
+  "versions" : [
+    {
+      "source" : "Ogre chieftain",
+      "ids" : [
+        4362
+      ],
+      "names" : [
+        "npc.ogre_chieftain"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 300,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 71, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 21, "crushDefence" : 16, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

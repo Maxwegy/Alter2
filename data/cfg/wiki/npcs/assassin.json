@@ -1,0 +1,30 @@
+{
+  "page" : "Assassin",
+  "versions" : [
+    {
+      "source" : "Assassin",
+      "ids" : [
+        12062
+      ],
+      "names" : [
+        "npc.assassin_12062"
+      ],
+      "combatLevel" : 262,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 140, "strength" : 140, "defence" : 140, "ranged" : 140, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 66, "stabDefence" : 60, "slashDefence" : 30, "crushDefence" : 80, "magicDefence" : 200, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 66, "strengthBonus" : 12, "rangedStrength" : 12, "magicDamage" : 0 },
+      "maxHits" : [
+        "39"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

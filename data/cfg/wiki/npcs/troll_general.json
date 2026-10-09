@@ -1,0 +1,89 @@
+{
+  "page" : "Troll general",
+  "versions" : [
+    {
+      "source" : "Troll general#Hammer (brown)",
+      "version" : "Hammer (brown)",
+      "ids" : [
+        4122
+      ],
+      "names" : [
+        "npc.troll_general_4122"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 120, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "Troll general#Hammer (grey)",
+      "version" : "Hammer (grey)",
+      "ids" : [
+        4121
+      ],
+      "names" : [
+        "npc.troll_general_4121"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 120, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "Troll general#Sword",
+      "version" : "Sword",
+      "ids" : [
+        4120
+      ],
+      "names" : [
+        "npc.troll_general"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 120, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "page" : "Kraken",
+  "tables" : [
+    {
+      "source" : "Kraken",
+      "npcIds" : [
+        494,
+        496
+      ],
+      "main" : [
+        { "item" : 311, "name" : "item.harpoon", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 384, "name" : "item.raw_shark_noted", "min" : 50, "max" : 50, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 385, "name" : "item.shark", "min" : 5, "max" : 5, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 402, "name" : "item.seaweed_noted", "min" : 125, "max" : 125, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 403, "name" : "item.edible_seaweed", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 400, "max" : 400, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 150, "max" : 150, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 200, "max" : 200, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 60, "max" : 60, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 50, "max" : 50, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 568, "name" : "item.unpowered_orb_noted", "min" : 50, "max" : 50, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 686, "name" : "item.rusty_sword", "min" : 1, "max" : 1, "chance" : [ 7, 512 ], "wiki" : "1.75/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 989, "name" : "item.crystal_key", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 10000, "max" : 19999, "chance" : [ 15, 128 ], "wiki" : "15/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "wiki" : "1/131,072" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 34952533 ], "wiki" : "1/349,525.33" },
+        { "item" : 1303, "name" : "item.rune_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1347, "name" : "item.rune_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1392, "name" : "item.battlestaff_noted", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1403, "name" : "item.mystic_water_staff", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 1602, "name" : "item.diamond_noted", "min" : 8, "max" : 8, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 1645, "name" : "item.dragonstone_ring", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1925, "name" : "item.bucket", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 3052, "name" : "item.grimy_snapdragon_noted", "min" : 6, "max" : 6, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 4091, "name" : "item.mystic_robe_top", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4093, "name" : "item.mystic_robe_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4695, "name" : "item.mist_rune", "min" : 100, "max" : 100, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5316, "name" : "item.magic_seed", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 24, "max" : 24, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 5953, "name" : "item.antidote4_noted_5953", "min" : 2, "max" : 2, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 7114, "name" : "item.pirate_boots", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 7945, "name" : "item.raw_monkfish_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 8779, "name" : "item.oak_plank_noted", "min" : 60, "max" : 60, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 10925, "name" : "item.sanfew_serum4", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 11905, "name" : "item.trident_of_the_seas_full", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 12004, "name" : "item.kraken_tentacle", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 12007, "name" : "item.jar_of_dirt", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" }
+      ],
+      "tertiary" : [
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 12655, "name" : "item.pet_kraken", "min" : 1, "max" : 1, "chance" : [ 1, 3000 ], "wiki" : "1/3,000" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 49 ], "wiki" : "1/49" }
+      ]
+    }
+  ]
+}

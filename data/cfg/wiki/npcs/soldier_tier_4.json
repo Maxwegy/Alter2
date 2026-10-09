@@ -1,0 +1,31 @@
+{
+  "page" : "Soldier (tier 4)",
+  "versions" : [
+    {
+      "source" : "Soldier (tier 4)",
+      "ids" : [
+        6910,
+        6911
+      ],
+      "names" : [
+        "npc.soldier_tier_4",
+        "npc.soldier_tier_4_6911"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 65,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 8, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

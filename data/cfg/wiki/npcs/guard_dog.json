@@ -1,0 +1,59 @@
+{
+  "page" : "Guard dog",
+  "versions" : [
+    {
+      "source" : "Guard dog#Hosidius",
+      "version" : "Hosidius",
+      "ids" : [
+        7209
+      ],
+      "names" : [
+        "npc.guard_dog_7209"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 49,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 36, "defence" : 37, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 49.0, "categories" : [ "Dogs" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Guard dog#Normal",
+      "version" : "Normal",
+      "ids" : [
+        114
+      ],
+      "names" : [
+        "npc.guard_dog_114"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 49,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 36, "defence" : 37, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 49.0, "categories" : [ "Dogs" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

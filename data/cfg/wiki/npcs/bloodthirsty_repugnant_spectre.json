@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty Repugnant spectre",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Repugnant spectre",
+      "ids" : [
+        12574
+      ],
+      "names" : [
+        "npc.bloodthirsty_repugnant_spectre"
+      ],
+      "combatLevel" : 335,
+      "hitpoints" : 380,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 220, "ranged" : 1, "magic" : 380 },
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 60, "categories" : [ "Aberrant Spectres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

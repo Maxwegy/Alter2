@@ -1,0 +1,54 @@
+{
+  "page" : "Zogre",
+  "versions" : [
+    {
+      "source" : "Zogre",
+      "ids" : [
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        873,
+        874,
+        875,
+        876,
+        877
+      ],
+      "names" : [
+        "npc.zogre",
+        "npc.zogre_867",
+        "npc.zogre_868",
+        "npc.zogre_869",
+        "npc.zogre_870",
+        "npc.zogre_871",
+        "npc.zogre_873",
+        "npc.zogre_874",
+        "npc.zogre_875",
+        "npc.zogre_876",
+        "npc.zogre_877"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 71,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 36, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 71.0, "categories" : [ "Ogres", "Zombies" ], "assignedBy" : [ "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

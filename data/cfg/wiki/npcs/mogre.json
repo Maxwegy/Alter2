@@ -1,0 +1,31 @@
+{
+  "page" : "Mogre",
+  "versions" : [
+    {
+      "source" : "Mogre",
+      "ids" : [
+        2592
+      ],
+      "names" : [
+        "npc.mogre_2592"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 48,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 58, "strength" : 55, "defence" : 48, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 32, "xp" : 48.0, "categories" : [ "Mogres", "Ogres" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

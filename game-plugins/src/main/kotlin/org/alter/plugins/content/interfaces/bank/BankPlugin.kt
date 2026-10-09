@@ -1,5 +1,7 @@
 package org.alter.plugins.content.interfaces.bank
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.api.*
 import org.alter.api.cfg.*
 import org.alter.api.dsl.*
@@ -453,6 +455,7 @@ class BankPlugin(
                             "Unhandled button action: [component=[${BANK_INTERFACE_ID}:$component], option=$opt, slot=$slot, item=${item.id}]",
                         )
                     }
+                    world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.WORN_OP, id = item.id, op = opt, slot = equipment.id))
                 }
             }
         }

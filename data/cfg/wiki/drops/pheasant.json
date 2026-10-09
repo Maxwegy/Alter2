@@ -1,0 +1,17 @@
+{
+  "page" : "Pheasant",
+  "tables" : [
+    {
+      "source" : "Pheasant",
+      "npcIds" : [
+        373,
+        374,
+        5500,
+        5502
+      ],
+      "always" : [
+        { "item" : 11704, "name" : "item.raw_pheasant_11704", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

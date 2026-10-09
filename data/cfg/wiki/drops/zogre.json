@@ -1,0 +1,31 @@
+{
+  "page" : "Zogre",
+  "tables" : [
+    {
+      "source" : "Zogre",
+      "npcIds" : [
+        866,
+        867,
+        868,
+        869,
+        870,
+        871,
+        873,
+        874,
+        875,
+        876,
+        877
+      ],
+      "always" : [
+        { "item" : 4812, "name" : "item.zogre_bones", "min" : 1, "max" : 1 },
+        { "item" : 4850, "name" : "item.ogre_coffin_key", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7848, "name" : "item.zogre_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ],
+      "tertiary" : [
+        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

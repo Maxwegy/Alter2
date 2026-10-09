@@ -1,0 +1,28 @@
+{
+  "page" : "Surok Magis",
+  "versions" : [
+    {
+      "source" : "Surok Magis",
+      "ids" : [
+        13482
+      ],
+      "names" : [
+        "npc.surok_magis_13482"
+      ],
+      "combatLevel" : 265,
+      "hitpoints" : 450,
+      "attackSpeed" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 1, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 85, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 105 },
+      "maxHits" : [
+        "45+ (Special)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

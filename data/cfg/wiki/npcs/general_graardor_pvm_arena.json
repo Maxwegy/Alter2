@@ -1,0 +1,33 @@
+{
+  "page" : "General Graardor (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "General Graardor (PvM Arena)",
+      "ids" : [
+        6494
+      ],
+      "names" : [
+        "npc.general_graardor_6494"
+      ],
+      "combatLevel" : 624,
+      "hitpoints" : 255,
+      "attackSpeed" : 6,
+      "respawnTicks" : 150,
+      "size" : 4,
+      "levels" : { "attack" : 280, "strength" : 350, "defence" : 250, "ranged" : 350, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 298, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (melee)",
+        "35 (ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 338.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

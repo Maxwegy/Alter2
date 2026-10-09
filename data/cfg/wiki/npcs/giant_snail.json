@@ -1,0 +1,83 @@
+{
+  "page" : "Giant snail",
+  "versions" : [
+    {
+      "source" : "Giant snail#Level 109",
+      "version" : "Level 109",
+      "ids" : [
+        5629
+      ],
+      "names" : [
+        "npc.giant_snail_5629"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 75, "ranged" : 110, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 45 }
+    },
+    {
+      "source" : "Giant snail#Level 139",
+      "version" : "Level 139",
+      "ids" : [
+        5630
+      ],
+      "names" : [
+        "npc.giant_snail_5630"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 86, "ranged" : 160, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 45 }
+    },
+    {
+      "source" : "Giant snail#Level 80",
+      "version" : "Level 80",
+      "ids" : [
+        5628
+      ],
+      "names" : [
+        "npc.giant_snail"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 60, "ranged" : 70, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 45 }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "page" : "Vespine soldier",
+  "versions" : [
+    {
+      "source" : "Vespine soldier#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7538,
+        7539
+      ],
+      "names" : [
+        "npc.vespine_soldier",
+        "npc.vespine_soldier_7539"
+      ],
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 60, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -8, "rangedStrength" : -8, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying",
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vespine soldier#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7538,
+        7539
+      ],
+      "names" : [
+        "npc.vespine_soldier",
+        "npc.vespine_soldier_7539"
+      ],
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -8, "rangedStrength" : -8, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying",
+        "xerician"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page" : "Hero",
+  "versions" : [
+    {
+      "source" : "Hero#1",
+      "version" : "1",
+      "ids" : [
+        3295
+      ],
+      "names" : [
+        "npc.hero_3295"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 82,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 55, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Hero#2",
+      "version" : "2",
+      "ids" : [
+        11934
+      ],
+      "names" : [
+        "npc.hero_11934"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 82,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 55, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Hero#3",
+      "version" : "3",
+      "ids" : [
+        11935
+      ],
+      "names" : [
+        "npc.hero_11935"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 82,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 55, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

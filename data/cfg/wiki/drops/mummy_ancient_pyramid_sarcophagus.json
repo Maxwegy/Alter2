@@ -1,0 +1,15 @@
+{
+  "page" : "Mummy (Ancient Pyramid sarcophagus)",
+  "tables" : [
+    {
+      "source" : "Mummy (Ancient Pyramid sarcophagus)",
+      "npcIds" : [
+        717,
+        724
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

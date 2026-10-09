@@ -1,0 +1,72 @@
+{
+  "page" : "Ranis Drakan",
+  "versions" : [
+    {
+      "source" : "Ranis Drakan#A Taste of Hope",
+      "ids" : [
+        8242,
+        8243,
+        8244,
+        8245,
+        8246,
+        8247
+      ],
+      "names" : [
+        "npc.ranis_drakan_8242",
+        "npc.ranis_drakan_8243",
+        "npc.ranis_drakan_8244",
+        "npc.ranis_drakan_8245",
+        "npc.ranis_drakan_8246",
+        "npc.ranis_drakan_8247"
+      ],
+      "combatLevel" : 233,
+      "hitpoints" : 400,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 120, "ranged" : 1, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 34, "rangedStrength" : 0, "magicDamage" : 34 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 400.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Ranis Drakan#A Taste of Hope (1/4th health)",
+      "ids" : [
+        8248
+      ],
+      "names" : [
+        "npc.ranis_drakan_8248"
+      ],
+      "combatLevel" : 233,
+      "hitpoints" : 400,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 120, "ranged" : 1, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 160, "strengthBonus" : -36, "rangedStrength" : 0, "magicDamage" : 34 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 400.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

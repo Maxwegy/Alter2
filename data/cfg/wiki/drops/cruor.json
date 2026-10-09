@@ -1,0 +1,18 @@
+{
+  "page" : "Cruor",
+  "tables" : [
+    {
+      "source" : "Cruor",
+      "npcIds" : [
+        11285
+      ],
+      "main" : [
+        { "item" : 26221, "name" : "item.ancient_ceremonial_top", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" },
+        { "item" : 26223, "name" : "item.ancient_ceremonial_legs", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" },
+        { "item" : 26225, "name" : "item.ancient_ceremonial_mask", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" },
+        { "item" : 26227, "name" : "item.ancient_ceremonial_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" },
+        { "item" : 26229, "name" : "item.ancient_ceremonial_boots", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" }
+      ]
+    }
+  ]
+}

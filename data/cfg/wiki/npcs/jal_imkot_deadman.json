@@ -1,0 +1,112 @@
+{
+  "page" : "Jal-ImKot (Deadman)",
+  "versions" : [
+    {
+      "source" : "Jal-ImKot (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12455
+      ],
+      "names" : [
+        "npc.jalimkot_12455"
+      ],
+      "combatLevel" : 240,
+      "hitpoints" : 3000,
+      "attackSpeed" : 5,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 290, "defence" : 120, "ranged" : 220, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "49"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Jal-ImKot (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12455
+      ],
+      "names" : [
+        "npc.jalimkot_12455"
+      ],
+      "combatLevel" : 240,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 290, "defence" : 120, "ranged" : 220, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "49"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] }
+    },
+    {
+      "source" : "Jal-ImKot (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12455
+      ],
+      "names" : [
+        "npc.jalimkot_12455"
+      ],
+      "combatLevel" : 240,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 290, "defence" : 120, "ranged" : 220, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "49"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Jal-ImKot (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12455
+      ],
+      "names" : [
+        "npc.jalimkot_12455"
+      ],
+      "combatLevel" : 240,
+      "hitpoints" : 500,
+      "attackSpeed" : 5,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 290, "defence" : 120, "ranged" : 220, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "49"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    }
+  ]
+}

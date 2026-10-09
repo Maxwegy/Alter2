@@ -1,0 +1,389 @@
+{
+  "page" : "Portal (Pest Control)",
+  "versions" : [
+    {
+      "source" : "Portal (Pest Control)#Blue, Intermediate/veteran",
+      "version" : "Blue, Intermediate/veteran",
+      "ids" : [
+        1740
+      ],
+      "names" : [
+        "npc.portal_1740"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Blue, Intermediate/veteran (shielded)",
+      "version" : "Blue, Intermediate/veteran (shielded)",
+      "ids" : [
+        1744
+      ],
+      "names" : [
+        "npc.portal_1744"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Blue, Novice",
+      "version" : "Blue, Novice",
+      "ids" : [
+        1748
+      ],
+      "names" : [
+        "npc.portal_1748"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Blue, Novice (shielded)",
+      "version" : "Blue, Novice (shielded)",
+      "ids" : [
+        1752
+      ],
+      "names" : [
+        "npc.portal_1752"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Purple, Intermediate/veteran",
+      "version" : "Purple, Intermediate/veteran",
+      "ids" : [
+        1739
+      ],
+      "names" : [
+        "npc.portal"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Purple, Intermediate/veteran (shielded)",
+      "version" : "Purple, Intermediate/veteran (shielded)",
+      "ids" : [
+        1743
+      ],
+      "names" : [
+        "npc.portal_1743"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Purple, Novice",
+      "version" : "Purple, Novice",
+      "ids" : [
+        1747
+      ],
+      "names" : [
+        "npc.portal_1747"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Purple, Novice (shielded)",
+      "version" : "Purple, Novice (shielded)",
+      "ids" : [
+        1751
+      ],
+      "names" : [
+        "npc.portal_1751"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Red, Intermediate/veteran",
+      "version" : "Red, Intermediate/veteran",
+      "ids" : [
+        1742
+      ],
+      "names" : [
+        "npc.portal_1742"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Red, Intermediate/veteran (shielded)",
+      "version" : "Red, Intermediate/veteran (shielded)",
+      "ids" : [
+        1746
+      ],
+      "names" : [
+        "npc.portal_1746"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Red, Novice",
+      "version" : "Red, Novice",
+      "ids" : [
+        1750
+      ],
+      "names" : [
+        "npc.portal_1750"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Red, Novice (shielded)",
+      "version" : "Red, Novice (shielded)",
+      "ids" : [
+        1754
+      ],
+      "names" : [
+        "npc.portal_1754"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Yellow, Intermediate/veteran",
+      "version" : "Yellow, Intermediate/veteran",
+      "ids" : [
+        1741
+      ],
+      "names" : [
+        "npc.portal_1741"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Yellow, Intermediate/veteran (shielded)",
+      "version" : "Yellow, Intermediate/veteran (shielded)",
+      "ids" : [
+        1745
+      ],
+      "names" : [
+        "npc.portal_1745"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Yellow, Novice",
+      "version" : "Yellow, Novice",
+      "ids" : [
+        1749
+      ],
+      "names" : [
+        "npc.portal_1749"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Portal (Pest Control)#Yellow, Novice (shielded)",
+      "version" : "Yellow, Novice (shielded)",
+      "ids" : [
+        1753
+      ],
+      "names" : [
+        "npc.portal_1753"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 120, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

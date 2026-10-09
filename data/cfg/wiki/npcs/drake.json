@@ -1,0 +1,41 @@
+{
+  "page" : "Drake",
+  "versions" : [
+    {
+      "source" : "Drake",
+      "ids" : [
+        8612,
+        8613
+      ],
+      "names" : [
+        "npc.drake_8612",
+        "npc.drake_8613"
+      ],
+      "combatLevel" : 192,
+      "hitpoints" : 225,
+      "attackSpeed" : 4,
+      "respawnTicks" : 20,
+      "size" : 5,
+      "levels" : { "attack" : 140, "strength" : 118, "defence" : 120, "ranged" : 140, "magic" : 112 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 5, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 20, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 12, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "15 (Ranged)",
+        "15 (Ranged melee)",
+        "32 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Ranged melee",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 84, "xp" : 230.6, "categories" : [ "Drakes" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

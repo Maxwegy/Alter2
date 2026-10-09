@@ -1,0 +1,99 @@
+{
+  "page" : "Zombie pirate",
+  "versions" : [
+    {
+      "source" : "Zombie pirate#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        13489
+      ],
+      "names" : [
+        "npc.zombie_pirate_13489"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 10, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Pirates", "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate#Level 28",
+      "version" : "Level 28",
+      "ids" : [
+        13490,
+        13491
+      ],
+      "names" : [
+        "npc.zombie_pirate_13490",
+        "npc.zombie_pirate_13491"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 15, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 35.0, "categories" : [ "Pirates", "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate#Level 34",
+      "version" : "Level 34",
+      "ids" : [
+        13492,
+        13493
+      ],
+      "names" : [
+        "npc.zombie_pirate_13492",
+        "npc.zombie_pirate_13493"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 40.0, "categories" : [ "Pirates", "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

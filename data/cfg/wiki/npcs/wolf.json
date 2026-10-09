@@ -1,0 +1,145 @@
+{
+  "page" : "Wolf",
+  "versions" : [
+    {
+      "source" : "Wolf#Level 11",
+      "version" : "Level 11",
+      "ids" : [
+        2491
+      ],
+      "names" : [
+        "npc.wolf_2491"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Wolf#Level 14",
+      "version" : "Level 14",
+      "ids" : [
+        2490
+      ],
+      "names" : [
+        "npc.wolf_2490"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 15, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 15.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Wolf#Level 25",
+      "version" : "Level 25",
+      "ids" : [
+        110
+      ],
+      "names" : [
+        "npc.wolf_110"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 16, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 34.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Wolf#Level 64",
+      "version" : "Level 64",
+      "ids" : [
+        106
+      ],
+      "names" : [
+        "npc.wolf"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 69,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 55, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 69.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Wolf#Level 64 (Rellekka)",
+      "version" : "Level 64 (Rellekka)",
+      "ids" : [
+        3912
+      ],
+      "names" : [
+        "npc.wolf_3912"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 69,
+      "attackSpeed" : 4,
+      "respawnTicks" : 90,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 55, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 69.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

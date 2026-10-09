@@ -1,0 +1,25 @@
+{
+  "page" : "Penance Runner",
+  "tables" : [
+    {
+      "source" : "Penance Runner",
+      "npcIds" : [
+        1669,
+        5748,
+        5749,
+        5750,
+        5751,
+        5752,
+        5753,
+        5754,
+        5755,
+        5756
+      ],
+      "always" : [
+        { "item" : 10531, "name" : "item.green_egg", "min" : 2, "max" : 2 },
+        { "item" : 10532, "name" : "item.red_egg", "min" : 2, "max" : 2 },
+        { "item" : 10533, "name" : "item.blue_egg", "min" : 2, "max" : 2 }
+      ]
+    }
+  ]
+}

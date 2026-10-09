@@ -1,0 +1,31 @@
+{
+  "page" : "Sulphur Lizard",
+  "versions" : [
+    {
+      "source" : "Sulphur Lizard",
+      "ids" : [
+        8614
+      ],
+      "names" : [
+        "npc.sulphur_lizard_8614"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 45, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 0, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 44, "xp" : 50.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

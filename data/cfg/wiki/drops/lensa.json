@@ -1,0 +1,66 @@
+{
+  "page" : "Lensa",
+  "tables" : [
+    {
+      "source" : "Lensa",
+      "npcIds" : [
+        3943
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 1024 ], "wiki" : "1/204.8" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 2731 ], "wiki" : "1/273.1" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 3641 ], "wiki" : "1/364.1" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 4681 ], "wiki" : "1/468.1" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 2979 ], "wiki" : "1/595.8" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 4096 ], "wiki" : "1/819.2" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 10923 ], "wiki" : "1/1,092.3" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 13107 ], "wiki" : "1/1,310.7" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 8192 ], "wiki" : "1/1,638.4" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 2, 4369 ], "wiki" : "1/2,184.5" },
+        { "item" : 221, "name" : "item.eye_of_newt", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "4/512" },
+        { "item" : 227, "name" : "item.vial_of_water", "min" : 1, "max" : 1, "chance" : [ 25, 256 ], "wiki" : "50/512" },
+        { "item" : 229, "name" : "item.vial", "min" : 1, "max" : 1, "chance" : [ 25, 256 ], "wiki" : "50/512" },
+        { "item" : 231, "name" : "item.snape_grass", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "2/512" },
+        { "item" : 247, "name" : "item.jangerberries", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "2/512" },
+        { "item" : 436, "name" : "item.copper_ore", "min" : 5, "max" : 5, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 5, "max" : 5, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 5, "max" : 5, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 453, "name" : "item.coal", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 25, 256 ], "wiki" : "50/512" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 6, "max" : 6, "chance" : [ 5, 128 ], "wiki" : "20/512" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 15, 512 ], "wiki" : "15/512" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 16, "max" : 16, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 20, "max" : 20, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 38, "max" : 38, "chance" : [ 5, 512 ], "wiki" : "5/512" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 1048576 ], "wiki" : "1/1,048,576" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 279620267 ], "wiki" : "1/2,796,202.67" },
+        { "item" : 1335, "name" : "item.iron_warhammer", "min" : 1, "max" : 1, "chance" : [ 35, 256 ], "wiki" : "70/512" },
+        { "item" : 1337, "name" : "item.bronze_warhammer", "min" : 1, "max" : 1, "chance" : [ 25, 128 ], "wiki" : "100/512" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 2184533 ], "wiki" : "1/21,845.33" },
+        { "item" : 1582, "name" : "item.blamish_oil", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "wiki" : "1/32,768" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "2/512" },
+        { "item" : 1925, "name" : "item.bucket", "min" : 1, "max" : 1, "chance" : [ 17, 512 ], "wiki" : "17/512" },
+        { "item" : 2353, "name" : "item.steel_bar", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 2097152 ], "wiki" : "1/2,097,152" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 2, 4369 ], "wiki" : "1/2,184.5" },
+        { "item" : 3689, "name" : "item.lyre", "min" : 1, "max" : 1, "chance" : [ 15, 256 ], "wiki" : "30/512" },
+        { "item" : 3748, "name" : "item.fremennik_helm", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 3757, "name" : "item.fremennik_blade", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 3758, "name" : "item.fremennik_shield", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

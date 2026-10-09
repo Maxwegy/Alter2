@@ -1,0 +1,58 @@
+{
+  "page" : "Cave kraken",
+  "versions" : [
+    {
+      "source" : "Cave kraken#Cave kraken",
+      "version" : "Cave kraken",
+      "ids" : [
+        492
+      ],
+      "names" : [
+        "npc.cave_kraken_492"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 125,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 150, "ranged" : 1, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -63, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "slayer" : { "level" : 87, "xp" : 125.0, "categories" : [ "Cave Kraken" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Cave kraken#Whirlpool",
+      "version" : "Whirlpool",
+      "ids" : [
+        493
+      ],
+      "names" : [
+        "npc.whirlpool"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 125,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 150, "ranged" : 1, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -63, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true },
+      "slayer" : { "level" : 87, "xp" : 125.0, "categories" : [ "Cave Kraken" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

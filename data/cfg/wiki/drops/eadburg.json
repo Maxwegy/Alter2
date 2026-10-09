@@ -1,0 +1,14 @@
+{
+  "page" : "Eadburg",
+  "tables" : [
+    {
+      "source" : "Eadburg",
+      "npcIds" : [
+        4095
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

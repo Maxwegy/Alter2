@@ -1,0 +1,14 @@
+{
+  "page" : "Dark energy core",
+  "tables" : [
+    {
+      "source" : "Dark energy core",
+      "npcIds" : [
+        320
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "page" : "Hobgoblin",
+  "versions" : [
+    {
+      "source" : "Hobgoblin#Hobgoblin",
+      "version" : "Hobgoblin",
+      "ids" : [
+        3049
+      ],
+      "names" : [
+        "npc.hobgoblin_3049"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (GWD)",
+      "version" : "Hobgoblin (GWD)",
+      "ids" : [
+        2241
+      ],
+      "names" : [
+        "npc.hobgoblin_2241"
+      ],
+      "combatLevel" : 47,
+      "hitpoints" : 52,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 39, "strength" : 39, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 52.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (armed)",
+      "version" : "Hobgoblin (armed)",
+      "ids" : [
+        3050
+      ],
+      "names" : [
+        "npc.hobgoblin_3050"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 49,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 33, "strength" : 31, "defence" : 36, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 49.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (brown)",
+      "version" : "Hobgoblin (brown)",
+      "ids" : [
+        3286
+      ],
+      "names" : [
+        "npc.hobgoblin_3286"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (brown, armed)",
+      "version" : "Hobgoblin (brown, armed)",
+      "ids" : [
+        3289
+      ],
+      "names" : [
+        "npc.hobgoblin_3289"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (grey)",
+      "version" : "Hobgoblin (grey)",
+      "ids" : [
+        3287
+      ],
+      "names" : [
+        "npc.hobgoblin_3287"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    },
+    {
+      "source" : "Hobgoblin#Hobgoblin (khaki)",
+      "version" : "Hobgoblin (khaki)",
+      "ids" : [
+        3288
+      ],
+      "names" : [
+        "npc.hobgoblin_3288"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Hobgoblins" ], "assignedBy" : [ "mazchna", "vannaka" ] }
+    }
+  ]
+}

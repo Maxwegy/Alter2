@@ -1,0 +1,39 @@
+{
+  "page" : "Infernal Mage",
+  "versions" : [
+    {
+      "source" : "Infernal Mage",
+      "ids" : [
+        443,
+        444,
+        445,
+        446,
+        447
+      ],
+      "names" : [
+        "npc.infernal_mage_443",
+        "npc.infernal_mage_444",
+        "npc.infernal_mage_445",
+        "npc.infernal_mage_446",
+        "npc.infernal_mage_447"
+      ],
+      "combatLevel" : 66,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 60, "ranged" : 1, "magic" : 75 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 40, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "level" : 45, "xp" : 60.0, "categories" : [ "Infernal Mages" ], "assignedBy" : [ "mortimer", "vannaka" ] }
+    }
+  ]
+}

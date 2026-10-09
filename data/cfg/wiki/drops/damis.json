@@ -1,0 +1,14 @@
+{
+  "page" : "Damis",
+  "tables" : [
+    {
+      "source" : "Damis#Second form",
+      "npcIds" : [
+        683
+      ],
+      "always" : [
+        { "item" : 4673, "name" : "item.shadow_diamond", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

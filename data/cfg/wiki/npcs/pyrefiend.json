@@ -1,0 +1,75 @@
+{
+  "page" : "Pyrefiend",
+  "versions" : [
+    {
+      "source" : "Pyrefiend#Level 43",
+      "version" : "Level 43",
+      "ids" : [
+        433,
+        434,
+        435,
+        436
+      ],
+      "names" : [
+        "npc.pyrefiend_433",
+        "npc.pyrefiend_434",
+        "npc.pyrefiend_435",
+        "npc.pyrefiend_436"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 45,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 52, "strength" : 30, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "demon",
+        "fiery"
+      ],
+      "slayer" : { "level" : 30, "xp" : 45.0, "categories" : [ "Pyrefiends" ], "assignedBy" : [ "mazchna", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    },
+    {
+      "source" : "Pyrefiend#Level 48",
+      "version" : "Level 48",
+      "ids" : [
+        3139
+      ],
+      "names" : [
+        "npc.pyrefiend_3139"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 48,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 36, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "demon",
+        "fiery"
+      ],
+      "slayer" : { "level" : 30, "xp" : 45.0, "categories" : [ "Pyrefiends" ], "assignedBy" : [ "mazchna", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

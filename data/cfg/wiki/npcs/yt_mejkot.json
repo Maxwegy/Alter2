@@ -1,0 +1,59 @@
+{
+  "page" : "Yt-MejKot",
+  "versions" : [
+    {
+      "source" : "Yt-MejKot#Spawn point",
+      "version" : "Spawn point",
+      "ids" : [
+        3124
+      ],
+      "names" : [
+        "npc.ytmejkot_3124"
+      ],
+      "combatLevel" : 180,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 160, "strength" : 240, "defence" : 120, "ranged" : 240, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 80.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Yt-MejKot#Standard",
+      "version" : "Standard",
+      "ids" : [
+        3123
+      ],
+      "names" : [
+        "npc.ytmejkot"
+      ],
+      "combatLevel" : 180,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 160, "strength" : 240, "defence" : 120, "ranged" : 240, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 80.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

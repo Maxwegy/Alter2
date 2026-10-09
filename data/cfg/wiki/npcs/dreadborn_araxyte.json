@@ -1,0 +1,32 @@
+{
+  "page" : "Dreadborn Araxyte",
+  "versions" : [
+    {
+      "source" : "Dreadborn Araxyte",
+      "ids" : [
+        13680
+      ],
+      "names" : [
+        "npc.dreadborn_araxyte"
+      ],
+      "combatLevel" : 281,
+      "hitpoints" : 350,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 260, "strength" : 260, "defence" : 100, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 30, "crushDefence" : 0, "magicDefence" : 10, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 200, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31 (normal)",
+        "50 (special attack)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 92, "xp" : 4462.5, "categories" : [ "Araxytes", "Spiders" ], "assignedBy" : [ "duradel", "mortimer", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

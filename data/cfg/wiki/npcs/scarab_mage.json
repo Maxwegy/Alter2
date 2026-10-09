@@ -1,0 +1,97 @@
+{
+  "page" : "Scarab Mage",
+  "versions" : [
+    {
+      "source" : "Scarab Mage#Level 119 (Beneath Cursed Sands)",
+      "version" : "Level 119 (Beneath Cursed Sands)",
+      "ids" : [
+        11508
+      ],
+      "names" : [
+        "npc.scarab_mage_11508"
+      ],
+      "combatLevel" : 119,
+      "hitpoints" : 120,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 60, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 30, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 30 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 51.2, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Scarab Mage#Level 66 (Contact!)",
+      "version" : "Level 66 (Contact!)",
+      "ids" : [
+        799
+      ],
+      "names" : [
+        "npc.scarab_mage_799"
+      ],
+      "combatLevel" : 66,
+      "hitpoints" : 50,
+      "attackSpeed" : 15,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 70, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 34, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 51.2, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Scarab Mage#Level 93",
+      "version" : "Level 93",
+      "ids" : [
+        794
+      ],
+      "names" : [
+        "npc.scarab_mage"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 50,
+      "attackSpeed" : 15,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 70, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 34, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 80, "magicDamage" : 70 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 51.2, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

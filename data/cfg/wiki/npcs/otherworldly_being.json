@@ -1,0 +1,35 @@
+{
+  "page" : "Otherworldly being",
+  "versions" : [
+    {
+      "source" : "Otherworldly being",
+      "ids" : [
+        2843
+      ],
+      "names" : [
+        "npc.otherworldly_being"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 66,
+      "attackSpeed" : 4,
+      "respawnTicks" : 20,
+      "size" : 1,
+      "levels" : { "attack" : 56, "strength" : 56, "defence" : 46, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 10, "crushDefence" : 20, "magicDefence" : -5, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 66.0, "categories" : [ "Otherworldly Beings" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

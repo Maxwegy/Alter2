@@ -1,0 +1,63 @@
+{
+  "page" : "Zombified Spawn",
+  "versions" : [
+    {
+      "source" : "Zombified Spawn#Dragon Slayer II",
+      "version" : "Dragon Slayer II",
+      "ids" : [
+        8062
+      ],
+      "names" : [
+        "npc.zombified_spawn"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 8,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 3, "crushDefence" : 3, "magicDefence" : -100, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombified Spawn#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        8063
+      ],
+      "names" : [
+        "npc.zombified_spawn_8063"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 38,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 82, "strength" : 82, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 3, "crushDefence" : 3, "magicDefence" : -100, "rangedDefence" : 3, "lightRangedDefence" : 3, "heavyRangedDefence" : 3, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "60"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

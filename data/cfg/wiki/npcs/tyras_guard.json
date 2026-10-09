@@ -1,0 +1,48 @@
+{
+  "page" : "Tyras guard",
+  "versions" : [
+    {
+      "source" : "Tyras guard",
+      "ids" : [
+        639,
+        1327,
+        3433,
+        3434,
+        3436,
+        8945,
+        8961,
+        8962,
+        8963,
+        8964
+      ],
+      "names" : [
+        "npc.tyras_guard",
+        "npc.tyras_guard_1327",
+        "npc.tyras_guard_3433",
+        "npc.tyras_guard_3434",
+        "npc.tyras_guard_3436",
+        "npc.tyras_guard_8945",
+        "npc.tyras_guard_8961",
+        "npc.tyras_guard_8962",
+        "npc.tyras_guard_8963",
+        "npc.tyras_guard_8964"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 85, "strength" : 95, "defence" : 100, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

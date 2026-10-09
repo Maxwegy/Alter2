@@ -1,0 +1,59 @@
+{
+  "page" : "Screaming banshee",
+  "tables" : [
+    {
+      "source" : "Screaming banshee",
+      "npcIds" : [
+        7390
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 10, 151 ], "rolls" : 3, "wiki" : "1/15.1" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 201 ], "rolls" : 3, "wiki" : "1/20.1" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 134 ], "rolls" : 3, "wiki" : "1/26.8" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 172 ], "rolls" : 3, "wiki" : "1/34.4" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 219 ], "rolls" : 3, "wiki" : "1/43.8" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 301 ], "rolls" : 3, "wiki" : "1/60.2" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 803 ], "rolls" : 3, "wiki" : "1/80.3" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 482 ], "rolls" : 3, "wiki" : "1/96.4" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 2, 241 ], "rolls" : 3, "wiki" : "1/120.5" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 5, 803 ], "rolls" : 3, "wiki" : "1/160.6" },
+        { "item" : 221, "name" : "item.eye_of_newt", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 7, "max" : 7, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 15, "max" : 15, "chance" : [ 11, 64 ], "rolls" : 3, "wiki" : "22/128" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 7, "max" : 7, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 3, "max" : 3, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 3, "max" : 3, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 7, "max" : 7, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 8192 ], "rolls" : 3, "wiki" : "1/8,192" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "rolls" : 3, "wiki" : "1/8,192" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "rolls" : 3, "wiki" : "1/8,192" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 13, "max" : 13, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 26, "max" : 26, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 35, "max" : 35, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "8/128" },
+        { "item" : 1191, "name" : "item.iron_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "rolls" : 3, "wiki" : "1/131,072" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 34952533 ], "rolls" : 3, "wiki" : "1/349,525.33" },
+        { "item" : 1420, "name" : "item.iron_mace", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "rolls" : 3, "wiki" : "1/2,730.67" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "rolls" : 3, "wiki" : "1/1,024" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "rolls" : 3, "wiki" : "1/256" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "rolls" : 3, "wiki" : "1/262,144" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 5, 803 ], "rolls" : 3, "wiki" : "1/160.6" },
+        { "item" : 4105, "name" : "item.mystic_gloves_dark", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 13, "max" : 13, "noted" : true, "chance" : [ 11, 64 ], "rolls" : 3, "wiki" : "22/128" },
+        { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 1288 ], "wiki" : "1/1,288" },
+        { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 368 ], "wiki" : "1/368" },
+        { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 368 ], "wiki" : "1/368" },
+        { "item" : 21270, "name" : "item.eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 1288 ], "wiki" : "1/1,288" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+      ]
+    }
+  ]
+}

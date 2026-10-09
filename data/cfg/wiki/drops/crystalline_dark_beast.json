@@ -1,0 +1,15 @@
+{
+  "page" : "Crystalline Dark Beast",
+  "tables" : [
+    {
+      "source" : "Crystalline Dark Beast",
+      "npcIds" : [
+        9034
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 50, "max" : 60 },
+        { "item" : 23871, "name" : "item.weapon_frame_23871", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

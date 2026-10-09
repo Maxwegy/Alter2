@@ -1,0 +1,178 @@
+{
+  "page" : "Greater demon",
+  "versions" : [
+    {
+      "source" : "Greater demon#Level 100",
+      "version" : "Level 100",
+      "ids" : [
+        7245
+      ],
+      "names" : [
+        "npc.greater_demon_7245"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 115,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 90, "strength" : 70, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 115.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Greater demon#Level 101",
+      "version" : "Level 101",
+      "ids" : [
+        7244
+      ],
+      "names" : [
+        "npc.greater_demon_7244"
+      ],
+      "combatLevel" : 101,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 120.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Greater demon#Level 104 (Wilderness Slayer Cave)",
+      "version" : "Level 104 (Wilderness Slayer Cave)",
+      "ids" : [
+        7871,
+        7872,
+        7873
+      ],
+      "names" : [
+        "npc.greater_demon_7871",
+        "npc.greater_demon_7872",
+        "npc.greater_demon_7873"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 76, "strength" : 90, "defence" : 81, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 120.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Greater demon#Level 113",
+      "version" : "Level 113",
+      "ids" : [
+        7246
+      ],
+      "names" : [
+        "npc.greater_demon_7246"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 90, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 130.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Greater demon#Level 92",
+      "version" : "Level 92",
+      "ids" : [
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032
+      ],
+      "names" : [
+        "npc.greater_demon",
+        "npc.greater_demon_2026",
+        "npc.greater_demon_2027",
+        "npc.greater_demon_2028",
+        "npc.greater_demon_2029",
+        "npc.greater_demon_2030",
+        "npc.greater_demon_2031",
+        "npc.greater_demon_2032"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 87,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 76, "strength" : 78, "defence" : 81, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 87.0, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

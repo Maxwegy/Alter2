@@ -1,0 +1,57 @@
+{
+  "page" : "Ancient Guardian",
+  "versions" : [
+    {
+      "source" : "Ancient Guardian#Golem",
+      "version" : "Golem",
+      "ids" : [
+        10654,
+        10665
+      ],
+      "names" : [
+        "npc.ancient_guardian",
+        "npc.ancient_guardian_10665"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 25, "strength" : 33, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 20, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ancient Guardian#Rubble",
+      "version" : "Rubble",
+      "ids" : [
+        10666
+      ],
+      "names" : [
+        "npc.rubble"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 25, "strength" : 33, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 20, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

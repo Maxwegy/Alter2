@@ -1,0 +1,59 @@
+{
+  "page" : "Essyllt (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Essyllt (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        9247
+      ],
+      "names" : [
+        "npc.essyllt_hard"
+      ],
+      "combatLevel" : 395,
+      "hitpoints" : 320,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 408, "strength" : 408, "defence" : 104, "ranged" : 512, "magic" : 104 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 168, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 30, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 14, "strengthBonus" : 28, "rangedStrength" : 28, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (melee)",
+        "75 (ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Essyllt (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        9249
+      ],
+      "names" : [
+        "npc.essyllt_9249"
+      ],
+      "combatLevel" : 236,
+      "hitpoints" : 320,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 268, "strength" : 268, "defence" : 104, "ranged" : 342, "magic" : 104 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 30, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 28, "rangedStrength" : 28, "magicDamage" : 0 },
+      "maxHits" : [
+        "40 (melee)",
+        "51 (ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" }
+    }
+  ]
+}

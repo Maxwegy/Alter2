@@ -1,0 +1,17 @@
+{
+  "page" : "Apparition",
+  "tables" : [
+    {
+      "source" : "Apparition",
+      "npcIds" : [
+        4195,
+        4196,
+        4197,
+        4198
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Eldric the Ice King",
+  "versions" : [
+    {
+      "source" : "Eldric the Ice King",
+      "ids" : [
+        14147
+      ],
+      "names" : [
+        "npc.null_14147"
+      ],
+      "combatLevel" : 350,
+      "hitpoints" : 600,
+      "attackSpeed" : 7,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 250, "defence" : 100, "ranged" : 150, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 12, "slashDefence" : 12, "crushDefence" : 0, "magicDefence" : 700, "rangedDefence" : 700, "lightRangedDefence" : 700, "heavyRangedDefence" : 700, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 100, "magicDamage" : 100 },
+      "maxHits" : [
+        "26 (Melee)",
+        "12 (Wall)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Not immune", "freeze" : "100% resistance" },
+      "slayer" : { "xp" : 735.0, "categories" : [ "Ice Giants" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

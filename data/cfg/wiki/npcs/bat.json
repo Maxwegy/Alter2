@@ -1,0 +1,36 @@
+{
+  "page" : "Bat",
+  "versions" : [
+    {
+      "source" : "Bat",
+      "ids" : [
+        2827,
+        10888,
+        14042
+      ],
+      "names" : [
+        "npc.bat",
+        "npc.bat_10888",
+        "npc.bat_14042"
+      ],
+      "combatLevel" : 6,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 2, "crushDefence" : 5, "magicDefence" : 2, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Bats" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Ent",
+  "tables" : [
+    {
+      "source" : "Ent",
+      "npcIds" : [
+        6594,
+        7234
+      ],
+      "main" : [
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 236 ], "wiki" : "1/236" }
+      ]
+    }
+  ]
+}

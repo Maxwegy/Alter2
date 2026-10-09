@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Scorpion",
+  "tables" : [
+    {
+      "source" : "Crystalline Scorpion",
+      "npcIds" : [
+        9030
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 80, "max" : 100 }
+      ]
+    }
+  ]
+}

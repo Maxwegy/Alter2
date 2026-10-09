@@ -1,0 +1,46 @@
+{
+  "page" : "TzHaar-Mej",
+  "versions" : [
+    {
+      "source" : "TzHaar-Mej",
+      "ids" : [
+        2154,
+        2155,
+        2156,
+        2157,
+        2158,
+        2159,
+        2160
+      ],
+      "names" : [
+        "npc.tzhaarmej",
+        "npc.tzhaarmej_2155",
+        "npc.tzhaarmej_2156",
+        "npc.tzhaarmej_2157",
+        "npc.tzhaarmej_2158",
+        "npc.tzhaarmej_2159",
+        "npc.tzhaarmej_2160"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 80, "ranged" : 1, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 Magic",
+        "9 Melee"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

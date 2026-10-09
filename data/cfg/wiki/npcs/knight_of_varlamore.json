@@ -1,0 +1,155 @@
+{
+  "page" : "Knight of Varlamore",
+  "versions" : [
+    {
+      "source" : "Knight of Varlamore#1",
+      "version" : "1",
+      "ids" : [
+        13114
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13114"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Varlamore#2",
+      "version" : "2",
+      "ids" : [
+        13115
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13115"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Varlamore#3",
+      "version" : "3",
+      "ids" : [
+        13116
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13116"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Varlamore#4",
+      "version" : "4",
+      "ids" : [
+        13117
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13117"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Varlamore#5",
+      "version" : "5",
+      "ids" : [
+        13118
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13118"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Varlamore#6",
+      "version" : "6",
+      "ids" : [
+        13119
+      ],
+      "names" : [
+        "npc.knight_of_varlamore_13119"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 40, "crushDefence" : 36, "magicDefence" : -11, "rangedDefence" : 36, "lightRangedDefence" : 36, "heavyRangedDefence" : 36, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

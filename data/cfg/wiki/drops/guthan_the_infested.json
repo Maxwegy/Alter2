@@ -1,0 +1,14 @@
+{
+  "page" : "Guthan the Infested",
+  "tables" : [
+    {
+      "source" : "Guthan the Infested",
+      "npcIds" : [
+        1674
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 97 ], "wiki" : "1/97" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Basilisk Knight",
+  "versions" : [
+    {
+      "source" : "Basilisk Knight",
+      "ids" : [
+        9293
+      ],
+      "names" : [
+        "npc.basilisk_knight_9293"
+      ],
+      "combatLevel" : 204,
+      "hitpoints" : 300,
+      "attackSpeed" : 0,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 186, "strength" : 186, "defence" : 186, "ranged" : 1, "magic" : 186 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : -15, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : -15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "slayer" : { "level" : 60, "xp" : 300.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Monstrous Basilisk (The Fremennik Exiles)",
+  "versions" : [
+    {
+      "source" : "Monstrous Basilisk (The Fremennik Exiles)",
+      "ids" : [
+        9287,
+        9288
+      ],
+      "names" : [
+        "npc.monstrous_basilisk_9287",
+        "npc.monstrous_basilisk_9288"
+      ],
+      "combatLevel" : 135,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 88, "strength" : 98, "defence" : 130, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 35, "crushDefence" : 0, "magicDefence" : 35, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "slayer" : { "level" : 40, "xp" : 170.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

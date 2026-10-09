@@ -1,0 +1,55 @@
+{
+  "page" : "Barrelchest (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Barrelchest (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        1126
+      ],
+      "names" : [
+        "npc.barrelchest_hard"
+      ],
+      "combatLevel" : 380,
+      "hitpoints" : 255,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 306, "strength" : 261, "defence" : 140, "ranged" : 1, "magic" : 162 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 80, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "61"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barrelchest (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6342
+      ],
+      "names" : [
+        "npc.barrelchest_6342"
+      ],
+      "combatLevel" : 190,
+      "hitpoints" : 134,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 170, "strength" : 145, "defence" : 140, "ranged" : 1, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 80, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "35"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

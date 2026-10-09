@@ -1,0 +1,30 @@
+{
+  "page" : "Disciple of Iban",
+  "versions" : [
+    {
+      "source" : "Disciple of Iban",
+      "ids" : [
+        8997
+      ],
+      "names" : [
+        "npc.disciple_of_iban"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 250,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

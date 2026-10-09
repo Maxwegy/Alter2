@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated unicorn",
+  "tables" : [
+    {
+      "source" : "Reanimated unicorn",
+      "npcIds" : [
+        7024
+      ],
+      "always" : [
+        { "item" : 7821, "name" : "item.unicorn_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

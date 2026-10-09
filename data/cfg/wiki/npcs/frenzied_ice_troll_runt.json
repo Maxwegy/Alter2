@@ -1,0 +1,32 @@
+{
+  "page" : "Frenzied ice troll runt",
+  "versions" : [
+    {
+      "source" : "Frenzied ice troll runt",
+      "ids" : [
+        5823
+      ],
+      "names" : [
+        "npc.frenzied_ice_troll_runt"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 63.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

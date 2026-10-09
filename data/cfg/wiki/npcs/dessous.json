@@ -1,0 +1,39 @@
+{
+  "page" : "Dessous",
+  "versions" : [
+    {
+      "source" : "Dessous",
+      "ids" : [
+        3459,
+        3460
+      ],
+      "names" : [
+        "npc.dessous",
+        "npc.dessous_3460"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 99, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19 (Melee)",
+        "5 (Magic)",
+        "5 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre1"
+      ],
+      "slayer" : { "xp" : 220.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Necromancer (Great Kourend)",
+  "versions" : [
+    {
+      "source" : "Necromancer (Great Kourend)",
+      "ids" : [
+        11088
+      ],
+      "names" : [
+        "npc.necromancer_11088"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 56, "strength" : 56, "defence" : 50, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 10, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 8, "crushDefence" : 8, "magicDefence" : 4, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

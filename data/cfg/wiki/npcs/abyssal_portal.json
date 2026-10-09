@@ -1,0 +1,61 @@
+{
+  "page" : "Abyssal portal",
+  "versions" : [
+    {
+      "source" : "Abyssal portal#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7533
+      ],
+      "names" : [
+        "npc.abyssal_portal"
+      ],
+      "hitpoints" : 370,
+      "attackSpeed" : 2,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 264, "ranged" : 1, "magic" : 264 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 110, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Abyssal portal#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7533
+      ],
+      "names" : [
+        "npc.abyssal_portal"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : 2,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 176, "ranged" : 1, "magic" : 176 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 110, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

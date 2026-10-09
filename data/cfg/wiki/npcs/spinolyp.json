@@ -1,0 +1,61 @@
+{
+  "page" : "Spinolyp",
+  "versions" : [
+    {
+      "source" : "Spinolyp#Spinolyp",
+      "version" : "Spinolyp",
+      "ids" : [
+        5947,
+        5961,
+        5963
+      ],
+      "names" : [
+        "npc.spinolyp",
+        "npc.spinolyp_5961",
+        "npc.spinolyp_5963"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Spinolyp#Suspicious water",
+      "version" : "Suspicious water",
+      "ids" : [
+        5946,
+        5948,
+        5962
+      ],
+      "names" : [
+        "npc.suspicious_water",
+        "npc.suspicious_water_5948",
+        "npc.suspicious_water_5962"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 100,
+      "respawnTicks" : 500,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "10"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

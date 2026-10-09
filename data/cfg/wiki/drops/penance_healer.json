@@ -1,0 +1,25 @@
+{
+  "page" : "Penance Healer",
+  "tables" : [
+    {
+      "source" : "Penance Healer",
+      "npcIds" : [
+        1670,
+        5766,
+        5767,
+        5768,
+        5769,
+        5770,
+        5771,
+        5772,
+        5773,
+        5774
+      ],
+      "always" : [
+        { "item" : 10531, "name" : "item.green_egg", "min" : 2, "max" : 2 },
+        { "item" : 10532, "name" : "item.red_egg", "min" : 2, "max" : 2 },
+        { "item" : 10533, "name" : "item.blue_egg", "min" : 2, "max" : 2 }
+      ]
+    }
+  ]
+}

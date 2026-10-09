@@ -1,0 +1,63 @@
+{
+  "page" : "Nezikchened (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Nezikchened (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6318
+      ],
+      "names" : [
+        "npc.nezikchened_hard"
+      ],
+      "combatLevel" : 295,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 330, "strength" : 336, "defence" : 167, "ranged" : 320, "magic" : 320 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "35"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 10 }
+    },
+    {
+      "source" : "Nezikchened (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6379
+      ],
+      "names" : [
+        "npc.nezikchened_6379"
+      ],
+      "combatLevel" : 187,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 165, "strength" : 168, "defence" : 167, "ranged" : 160, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 10 }
+    }
+  ]
+}

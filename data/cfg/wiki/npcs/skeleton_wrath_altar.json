@@ -1,0 +1,19 @@
+{
+  "page" : "Skeleton (Wrath Altar)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Wrath Altar)",
+      "ids" : [
+        8139
+      ],
+      "names" : [
+        "npc.skeleton_8139"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 60,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

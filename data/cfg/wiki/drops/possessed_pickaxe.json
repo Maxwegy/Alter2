@@ -1,0 +1,35 @@
+{
+  "page" : "Possessed pickaxe",
+  "tables" : [
+    {
+      "source" : "Possessed pickaxe#Catacombs of Kourend",
+      "npcIds" : [
+        7268
+      ],
+      "main" : [
+        { "item" : 1267, "name" : "item.iron_pickaxe", "min" : 1, "max" : 1, "chance" : [ 19, 20 ], "wiki" : "475/500" },
+        { "item" : 1269, "name" : "item.steel_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "10/500" },
+        { "item" : 1271, "name" : "item.adamant_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 125 ], "wiki" : "4/500" },
+        { "item" : 1273, "name" : "item.mithril_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "10/500" },
+        { "item" : 1275, "name" : "item.rune_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 19677, "name" : "item.ancient_shard", "min" : 1, "max" : 1, "chance" : [ 1, 306 ], "wiki" : "1/306" },
+        { "item" : 19679, "name" : "item.dark_totem_base", "min" : 1, "max" : 1, "chance" : [ 1, 460 ], "wiki" : "1/460" },
+        { "item" : 19681, "name" : "item.dark_totem_middle", "min" : 1, "max" : 1, "chance" : [ 1, 460 ], "wiki" : "1/460" },
+        { "item" : 19683, "name" : "item.dark_totem_top", "min" : 1, "max" : 1, "chance" : [ 1, 460 ], "wiki" : "1/460" }
+      ]
+    },
+    {
+      "source" : "Possessed pickaxe#Regular",
+      "npcIds" : [
+        3612,
+        6469
+      ],
+      "always" : [
+        { "item" : 1267, "name" : "item.iron_pickaxe", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

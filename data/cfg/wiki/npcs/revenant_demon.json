@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant demon",
+  "versions" : [
+    {
+      "source" : "Revenant demon",
+      "ids" : [
+        7936
+      ],
+      "names" : [
+        "npc.revenant_demon"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 83, "strength" : 76, "defence" : 80, "ranged" : 80, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 40, "stabDefence" : 124, "slashDefence" : 118, "crushDefence" : 130, "magicDefence" : 85, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 30, "strengthBonus" : 50, "rangedStrength" : 30, "magicDamage" : 24 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 86.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

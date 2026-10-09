@@ -1,0 +1,28 @@
+{
+  "page" : "Experiment",
+  "tables" : [
+    {
+      "source" : "Experiment",
+      "npcIds" : [
+        1273,
+        1274,
+        1275
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7893, "name" : "item.experiment_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    },
+    {
+      "source" : "Experiment#Level 51",
+      "npcIds" : [
+        1273
+      ],
+      "always" : [
+        { "item" : 4184, "name" : "item.cavern_key", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

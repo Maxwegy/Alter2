@@ -1,0 +1,63 @@
+{
+  "page" : "Tribesman",
+  "tables" : [
+    {
+      "source" : "Tribesman",
+      "npcIds" : [
+        6406,
+        6407
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 181, "name" : "item.superantipoison3", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" },
+        { "item" : 183, "name" : "item.superantipoison2", "min" : 1, "max" : 1, "chance" : [ 1, 46 ], "wiki" : "3/138" },
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 251 ], "wiki" : "1/50.2" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 669 ], "wiki" : "1/66.9" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 446 ], "wiki" : "1/89.2" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 1147 ], "wiki" : "1/114.7" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 1, 146 ], "wiki" : "1/146" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 10, 2007 ], "wiki" : "1/200.7" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 5, 1338 ], "wiki" : "1/267.6" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 1606 ], "wiki" : "1/321.2" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 2, 803 ], "wiki" : "1/401.5" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 5353 ], "wiki" : "1/535.3" },
+        { "item" : 225, "name" : "item.limpwurt_root", "min" : 1, "max" : 1, "chance" : [ 2, 23 ], "wiki" : "12/138" },
+        { "item" : 231, "name" : "item.snape_grass", "min" : 1, "max" : 1, "chance" : [ 10, 69 ], "wiki" : "20/138" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" },
+        { "item" : 444, "name" : "item.gold_ore", "min" : 1, "max" : 1, "chance" : [ 5, 138 ], "wiki" : "5/138" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 3, "max" : 3, "chance" : [ 4, 69 ], "wiki" : "8/138" },
+        { "item" : 827, "name" : "item.steel_javelin", "min" : 10, "max" : 10, "chance" : [ 1, 46 ], "wiki" : "3/138" },
+        { "item" : 828, "name" : "item.mithril_javelin", "min" : 10, "max" : 10, "chance" : [ 1, 69 ], "wiki" : "2/138" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 8832 ], "wiki" : "1/8,832" },
+        { "item" : 878, "name" : "item.bronze_bolts_p", "min" : 4, "max" : 4, "chance" : [ 1, 69 ], "wiki" : "2/138" },
+        { "item" : 887, "name" : "item.steel_arrowp", "min" : 5, "max" : 5, "chance" : [ 1, 69 ], "wiki" : "2/138" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8832 ], "wiki" : "1/8,832" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8832 ], "wiki" : "1/8,832" },
+        { "item" : 1237, "name" : "item.bronze_spear", "min" : 1, "max" : 1, "chance" : [ 7, 138 ], "wiki" : "7/138" },
+        { "item" : 1239, "name" : "item.iron_spear", "min" : 1, "max" : 1, "chance" : [ 1, 69 ], "wiki" : "2/138" },
+        { "item" : 1243, "name" : "item.mithril_spear", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 141312 ], "wiki" : "1/141,312" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 1, 376832 ], "wiki" : "1/376,832" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 2944 ], "wiki" : "1/2,944" },
+        { "item" : 1525, "name" : "item.grimy_snake_weed", "min" : 1, "max" : 1, "chance" : [ 5, 138 ], "wiki" : "5/138" },
+        { "item" : 1533, "name" : "item.grimy_rogues_purse", "min" : 1, "max" : 1, "chance" : [ 5, 138 ], "wiki" : "5/138" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 4416 ], "wiki" : "1/4,416" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1104 ], "wiki" : "1/1,104" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 552 ], "wiki" : "1/552" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 276 ], "wiki" : "1/276" },
+        { "item" : 1933, "name" : "item.pot_of_flour", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" },
+        { "item" : 2309, "name" : "item.bread", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 282624 ], "wiki" : "1/282,624" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 5353 ], "wiki" : "1/535.3" },
+        { "item" : 3188, "name" : "item.cleaning_cloth", "min" : 1, "max" : 1, "chance" : [ 2, 23 ], "wiki" : "12/138" },
+        { "item" : 6306, "name" : "item.trading_sticks", "min" : 15, "max" : 15, "chance" : [ 25, 138 ], "wiki" : "25/138" },
+        { "item" : 6306, "name" : "item.trading_sticks", "min" : 62, "max" : 62, "chance" : [ 5, 138 ], "wiki" : "5/138" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 138 ], "wiki" : "1/138" }
+      ]
+    }
+  ]
+}

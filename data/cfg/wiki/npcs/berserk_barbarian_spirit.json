@@ -1,0 +1,34 @@
+{
+  "page" : "Berserk barbarian spirit",
+  "versions" : [
+    {
+      "source" : "Berserk barbarian spirit",
+      "ids" : [
+        5565
+      ],
+      "names" : [
+        "npc.berserk_barbarian_spirit"
+      ],
+      "combatLevel" : 166,
+      "hitpoints" : 190,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 140, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

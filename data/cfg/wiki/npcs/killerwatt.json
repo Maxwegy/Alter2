@@ -1,0 +1,66 @@
+{
+  "page" : "Killerwatt",
+  "versions" : [
+    {
+      "source" : "Killerwatt#Attacking",
+      "version" : "Attacking",
+      "ids" : [
+        469
+      ],
+      "names" : [
+        "npc.killerwatt_469"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 51,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 67, "magic" : 67 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 20, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Ranged)",
+        "6 (Melee)",
+        "15 (Ranged/Melee; without insulated boots)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 37, "xp" : 51.0, "categories" : [ "Killerwatts" ], "assignedBy" : [ "mazchna" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 60 }
+    },
+    {
+      "source" : "Killerwatt#Idle",
+      "version" : "Idle",
+      "ids" : [
+        470
+      ],
+      "names" : [
+        "npc.killerwatt_470"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 51,
+      "attackSpeed" : 2,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 67, "magic" : 67 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 20, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Ranged)",
+        "6 (Melee)",
+        "15 (Ranged/Melee; without insulated boots)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 37, "xp" : 51.0, "categories" : [ "Killerwatts" ], "assignedBy" : [ "mazchna" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 60 }
+    }
+  ]
+}

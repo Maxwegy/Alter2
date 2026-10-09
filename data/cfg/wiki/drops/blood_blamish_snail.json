@@ -1,0 +1,25 @@
+{
+  "page" : "Blood Blamish Snail",
+  "tables" : [
+    {
+      "source" : "Blood Blamish Snail#Pointed",
+      "npcIds" : [
+        2650
+      ],
+      "always" : [
+        { "item" : 3357, "name" : "item.blamish_red_shell_3357", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Blood Blamish Snail#Round",
+      "npcIds" : [
+        2645
+      ],
+      "always" : [
+        { "item" : 3347, "name" : "item.blamish_red_shell", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

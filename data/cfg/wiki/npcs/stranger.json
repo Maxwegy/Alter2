@@ -1,0 +1,29 @@
+{
+  "page" : "Stranger",
+  "versions" : [
+    {
+      "source" : "Stranger",
+      "ids" : [
+        685
+      ],
+      "names" : [
+        "npc.stranger"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 80, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 1, "rangedAttack" : 0, "stabDefence" : 81, "slashDefence" : 93, "crushDefence" : 98, "magicDefence" : 1, "rangedDefence" : 82, "lightRangedDefence" : 82, "heavyRangedDefence" : 82, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "115% of targeted player's max hit'\"`UNIQ--ref-000000D3-QINU`\"'"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

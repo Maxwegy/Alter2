@@ -1,0 +1,17 @@
+{
+  "page" : "Knight of Ardougne",
+  "tables" : [
+    {
+      "source" : "Knight of Ardougne",
+      "npcIds" : [
+        3297,
+        8854,
+        11902,
+        11936
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

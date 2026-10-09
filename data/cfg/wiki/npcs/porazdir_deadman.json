@@ -1,0 +1,129 @@
+{
+  "page" : "Porazdir (Deadman)",
+  "versions" : [
+    {
+      "source" : "Porazdir (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12448
+      ],
+      "names" : [
+        "npc.porazdir_12448"
+      ],
+      "combatLevel" : 655,
+      "hitpoints" : 2000,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    },
+    {
+      "source" : "Porazdir (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12448
+      ],
+      "names" : [
+        "npc.porazdir_12448"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    },
+    {
+      "source" : "Porazdir (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12448
+      ],
+      "names" : [
+        "npc.porazdir_12448"
+      ],
+      "combatLevel" : 280,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    },
+    {
+      "source" : "Porazdir (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12448
+      ],
+      "names" : [
+        "npc.porazdir_12448"
+      ],
+      "combatLevel" : 280,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    }
+  ]
+}

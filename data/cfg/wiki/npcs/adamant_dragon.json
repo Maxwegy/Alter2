@@ -1,0 +1,45 @@
+{
+  "page" : "Adamant dragon",
+  "versions" : [
+    {
+      "source" : "Adamant dragon",
+      "ids" : [
+        8030,
+        8090
+      ],
+      "names" : [
+        "npc.adamant_dragon",
+        "npc.adamant_dragon_8090"
+      ],
+      "combatLevel" : 338,
+      "hitpoints" : 295,
+      "attackSpeed" : 4,
+      "respawnTicks" : 22,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 272, "ranged" : 186, "magic" : 186 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 110, "crushDefence" : 85, "magicDefence" : 30, "rangedDefence" : 95, "lightRangedDefence" : 95, "heavyRangedDefence" : 65, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29 (Melee)",
+        "20 (Ranged)",
+        "20 (Magic)",
+        "50 (Dragonfire)",
+        "25 (Poison special)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 324.5, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

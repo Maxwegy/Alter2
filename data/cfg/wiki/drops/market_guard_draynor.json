@@ -1,0 +1,15 @@
+{
+  "page" : "Market Guard (Draynor)",
+  "tables" : [
+    {
+      "source" : "Market Guard (Draynor)",
+      "npcIds" : [
+        2120,
+        5732
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

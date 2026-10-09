@@ -1,0 +1,188 @@
+{
+  "page" : "The Hueycoatl",
+  "versions" : [
+    {
+      "source" : "The Hueycoatl#Body",
+      "ids" : [
+        14017
+      ],
+      "names" : [
+        "npc.hueycoatl_body"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 250,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Hueycoatl#Defeated",
+      "version" : "Defeated",
+      "ids" : [
+        14012
+      ],
+      "names" : [
+        "npc.the_hueycoatl_14012"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 2500,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Hueycoatl#Normal",
+      "version" : "Normal",
+      "ids" : [
+        14009,
+        14010,
+        14013
+      ],
+      "names" : [
+        "npc.the_hueycoatl_14009",
+        "npc.the_hueycoatl_14010",
+        "npc.the_hueycoatl_14013"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 2500,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Hueycoatl#Shielded",
+      "version" : "Shielded",
+      "ids" : [
+        14011
+      ],
+      "names" : [
+        "npc.the_hueycoatl_14011"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 2500,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Hueycoatl#Tail",
+      "version" : "Normal",
+      "ids" : [
+        14014
+      ],
+      "names" : [
+        "npc.hueycoatl_tail"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 300,
+      "attackSpeed" : 0,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    },
+    {
+      "source" : "The Hueycoatl#Tail (broken)",
+      "version" : "Broken",
+      "ids" : [
+        14015
+      ],
+      "names" : [
+        "npc.hueycoatl_tail_broken"
+      ],
+      "combatLevel" : 642,
+      "hitpoints" : 300,
+      "attackSpeed" : 0,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 50, "defence" : 125, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 250, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 350, "lightRangedDefence" : 350, "heavyRangedDefence" : 350, "attackBonus" : 100, "strengthBonus" : 50, "rangedStrength" : 50, "magicDamage" : 50 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    }
+  ]
+}

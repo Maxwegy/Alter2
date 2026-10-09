@@ -1,5 +1,7 @@
 package org.alter.game.message.handler
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import net.rsprot.protocol.game.incoming.players.OpPlayerT
 import org.alter.game.message.MessageHandler
 import org.alter.game.model.attr.INTERACTING_COMPONENT_CHILD
@@ -38,6 +40,10 @@ class OpPlayerTHandler : MessageHandler<OpPlayerT> {
             if (client.world.devContext.debugMagicSpells) {
                 client.writeMessage("Unhandled magic spell: [$parent, $child]")
             }
+            client.world.plugins.executeUnhandledInteraction(
+                client,
+                UnhandledInteraction(InteractionType.SPELL_ON_PLAYER, id = player.index, component = (parent shl 16) or child, tile = player.tile),
+            )
         }
     }
 }

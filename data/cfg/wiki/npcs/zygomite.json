@@ -1,0 +1,63 @@
+{
+  "page" : "Zygomite",
+  "versions" : [
+    {
+      "source" : "Zygomite#Level 74",
+      "ids" : [
+        537
+      ],
+      "names" : [
+        "npc.zygomite"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 65, "magic" : 65 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7 (Melee)",
+        "6 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Magical melee",
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 57, "xp" : 65.0, "categories" : [ "Mutated Zygomites" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Zygomite#Level 86",
+      "ids" : [
+        1024
+      ],
+      "names" : [
+        "npc.zygomite_1024"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 75, "ranged" : 75, "magic" : 75 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Melee)",
+        "10 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Magical melee",
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 57, "xp" : 75.0, "categories" : [ "Mutated Zygomites" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

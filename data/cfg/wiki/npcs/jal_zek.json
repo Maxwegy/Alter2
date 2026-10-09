@@ -1,0 +1,35 @@
+{
+  "page" : "Jal-Zek",
+  "versions" : [
+    {
+      "source" : "Jal-Zek",
+      "ids" : [
+        7699,
+        7703
+      ],
+      "names" : [
+        "npc.jalzek",
+        "npc.jalzek_7703"
+      ],
+      "combatLevel" : 490,
+      "hitpoints" : 220,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 370, "strength" : 510, "defence" : 260, "ranged" : 510, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "70 (Magic)",
+        "52 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 220.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

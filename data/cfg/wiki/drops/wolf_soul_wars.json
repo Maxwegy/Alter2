@@ -1,0 +1,15 @@
+{
+  "page" : "Wolf (Soul Wars)",
+  "tables" : [
+    {
+      "source" : "Wolf (Soul Wars)",
+      "npcIds" : [
+        10522,
+        10533
+      ],
+      "always" : [
+        { "item" : 25199, "name" : "item.bones_25199", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

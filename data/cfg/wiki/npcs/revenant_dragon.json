@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant dragon",
+  "versions" : [
+    {
+      "source" : "Revenant dragon",
+      "ids" : [
+        7940
+      ],
+      "names" : [
+        "npc.revenant_dragon"
+      ],
+      "combatLevel" : 135,
+      "hitpoints" : 155,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 5,
+      "levels" : { "attack" : 106, "strength" : 126, "defence" : 87, "ranged" : 151, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 61, "rangedAttack" : 60, "stabDefence" : 143, "slashDefence" : 206, "crushDefence" : 188, "magicDefence" : 101, "rangedDefence" : 197, "lightRangedDefence" : 197, "heavyRangedDefence" : 157, "attackBonus" : 72, "strengthBonus" : 78, "rangedStrength" : 51, "magicDamage" : 35 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 186.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

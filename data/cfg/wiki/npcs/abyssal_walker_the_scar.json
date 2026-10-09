@@ -1,0 +1,55 @@
+{
+  "page" : "Abyssal walker (The Scar)",
+  "versions" : [
+    {
+      "source" : "Abyssal walker (The Scar)#Level 109",
+      "version" : "Level 109",
+      "ids" : [
+        12392
+      ],
+      "names" : [
+        "npc.abyssal_walker_12392"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 120,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 150, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 75, "crushDefence" : 10, "magicDefence" : 75, "rangedDefence" : 75, "lightRangedDefence" : 75, "heavyRangedDefence" : 75, "attackBonus" : 5, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Abyssal walker (The Scar)#Level 90",
+      "version" : "Level 90",
+      "ids" : [
+        12394
+      ],
+      "names" : [
+        "npc.abyssal_walker_12394"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 120,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 150, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 75, "crushDefence" : 10, "magicDefence" : 75, "rangedDefence" : 75, "lightRangedDefence" : 75, "heavyRangedDefence" : 75, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

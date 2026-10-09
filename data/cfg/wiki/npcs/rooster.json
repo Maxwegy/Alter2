@@ -1,0 +1,59 @@
+{
+  "page" : "Rooster",
+  "versions" : [
+    {
+      "source" : "Rooster#Level 2",
+      "version" : "Level 2",
+      "ids" : [
+        3663
+      ],
+      "names" : [
+        "npc.rooster_3663"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -47, "strengthBonus" : -42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 5.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Rooster#Level 3",
+      "version" : "Level 3",
+      "ids" : [
+        1175
+      ],
+      "names" : [
+        "npc.rooster"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 2, "strength" : 2, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -20, "strengthBonus" : -20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 7.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

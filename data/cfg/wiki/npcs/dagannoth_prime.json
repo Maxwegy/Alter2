@@ -1,0 +1,32 @@
+{
+  "page" : "Dagannoth Prime",
+  "versions" : [
+    {
+      "source" : "Dagannoth Prime",
+      "ids" : [
+        2266
+      ],
+      "names" : [
+        "npc.dagannoth_prime"
+      ],
+      "combatLevel" : 303,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "respawnTicks" : 150,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 0, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 255, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "50"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 331.4, "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

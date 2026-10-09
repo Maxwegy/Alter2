@@ -1,0 +1,30 @@
+{
+  "page" : "Malevolent Mage",
+  "versions" : [
+    {
+      "source" : "Malevolent Mage",
+      "ids" : [
+        7396
+      ],
+      "names" : [
+        "npc.malevolent_mage"
+      ],
+      "combatLevel" : 162,
+      "hitpoints" : 175,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 135, "ranged" : 1, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 75, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "level" : 45, "xp" : 1750.0, "categories" : [ "Infernal Mages" ], "assignedBy" : [ "mortimer", "vannaka" ] }
+    }
+  ]
+}

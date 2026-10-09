@@ -1,0 +1,46 @@
+{
+  "page" : "Mithril dragon",
+  "versions" : [
+    {
+      "source" : "Mithril dragon",
+      "ids" : [
+        2919,
+        8088,
+        8089
+      ],
+      "names" : [
+        "npc.mithril_dragon",
+        "npc.mithril_dragon_8088",
+        "npc.mithril_dragon_8089"
+      ],
+      "combatLevel" : 304,
+      "hitpoints" : 254,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 268, "strength" : 268, "defence" : 268, "ranged" : 168, "magic" : 168 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 100, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28 (Melee)",
+        "18 (Magic)",
+        "18 (Magical ranged)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Magical ranged",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 266.5, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

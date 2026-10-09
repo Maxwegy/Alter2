@@ -1,0 +1,30 @@
+{
+  "page" : "Khazard Scorpion",
+  "versions" : [
+    {
+      "source" : "Khazard Scorpion",
+      "ids" : [
+        1226
+      ],
+      "names" : [
+        "npc.khazard_scorpion"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 40, "strength" : 39, "defence" : 34, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

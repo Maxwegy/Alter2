@@ -1,0 +1,65 @@
+{
+  "page" : "Tz-Kek",
+  "versions" : [
+    {
+      "source" : "Tz-Kek#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        3120
+      ],
+      "names" : [
+        "npc.tzkek_3120"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 30, "defence" : 15, "ranged" : 30, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 10.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Tz-Kek#Level 45",
+      "version" : "Level 45",
+      "ids" : [
+        2191,
+        2192,
+        3118,
+        3119
+      ],
+      "names" : [
+        "npc.tzkek",
+        "npc.tzkek_2192",
+        "npc.tzkek_3118",
+        "npc.tzkek_3119"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 60, "defence" : 30, "ranged" : 60, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 20.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "page" : "Earth elemental",
+  "versions" : [
+    {
+      "source" : "Earth elemental#Normal",
+      "version" : "Normal",
+      "ids" : [
+        1366
+      ],
+      "names" : [
+        "npc.earth_elemental"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 35, "defence" : 35, "ranged" : 30, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Earth elemental#Ore",
+      "version" : "Ore",
+      "ids" : [
+        1367
+      ],
+      "names" : [
+        "npc.earth_elemental_1367"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 35, "defence" : 35, "ranged" : 30, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

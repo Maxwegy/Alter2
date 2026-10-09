@@ -1,0 +1,31 @@
+{
+  "page" : "Keef",
+  "versions" : [
+    {
+      "source" : "Keef",
+      "ids" : [
+        7104,
+        7105
+      ],
+      "names" : [
+        "npc.keef",
+        "npc.keef_7105"
+      ],
+      "combatLevel" : 178,
+      "hitpoints" : 180,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 165, "strength" : 120, "defence" : 165, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 190, "strengthBonus" : 170, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "47"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "page" : "Scorpion",
+  "versions" : [
+    {
+      "source" : "Scorpion#Level 14",
+      "version" : "Level 14",
+      "ids" : [
+        3024,
+        13001
+      ],
+      "names" : [
+        "npc.scorpion_3024",
+        "npc.scorpion_13001"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 12, "defence" : 11, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 17.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Scorpion#Level 37",
+      "version" : "Level 37",
+      "ids" : [
+        2480
+      ],
+      "names" : [
+        "npc.scorpion_2480"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 37,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 31, "strength" : 32, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 30, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 37.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Scorpion#Level 38",
+      "version" : "Level 38",
+      "ids" : [
+        5242
+      ],
+      "names" : [
+        "npc.scorpion_5242"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 10, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 15.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Scorpion#Level 59",
+      "version" : "Level 59",
+      "ids" : [
+        2479
+      ],
+      "names" : [
+        "npc.scorpion"
+      ],
+      "combatLevel" : 59,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 22,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 52, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 55, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 55.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

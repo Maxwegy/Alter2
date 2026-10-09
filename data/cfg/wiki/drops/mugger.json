@@ -1,0 +1,49 @@
+{
+  "page" : "Mugger",
+  "tables" : [
+    {
+      "source" : "Mugger",
+      "npcIds" : [
+        513,
+        1461,
+        6996,
+        13282
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 197 ], "wiki" : "1/39.4" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 2, 105 ], "wiki" : "1/52.5" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 1, 70 ], "wiki" : "1/70" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 573 ], "wiki" : "1/114.6" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 2, 315 ], "wiki" : "1/157.5" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 2101 ], "wiki" : "1/210.1" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 2521 ], "wiki" : "1/252.1" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 10, 3151 ], "wiki" : "1/315.1" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 4201 ], "wiki" : "1/420.1" },
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 436, "name" : "item.copper_ore", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 9, "max" : 9, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 877, "name" : "item.bronze_bolts", "min" : 2, "max" : 12, "chance" : [ 27, 128 ], "wiki" : "27/128" },
+        { "item" : 946, "name" : "item.knife", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 954, "name" : "item.rope", "min" : 1, "max" : 1, "chance" : [ 5, 16 ], "wiki" : "40/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1139, "name" : "item.bronze_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1965, "name" : "item.cabbage", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 4201 ], "wiki" : "1/420.1" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
+      ]
+    }
+  ]
+}

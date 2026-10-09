@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Bedivere",
+  "versions" : [
+    {
+      "source" : "Sir Bedivere",
+      "ids" : [
+        4345,
+        4361
+      ],
+      "names" : [
+        "npc.sir_bedivere_4345",
+        "npc.sir_bedivere_4361"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 90,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 95, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 0, "crushDefence" : 190, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 20, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

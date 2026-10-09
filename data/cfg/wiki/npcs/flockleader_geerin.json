@@ -1,0 +1,34 @@
+{
+  "page" : "Flockleader Geerin",
+  "versions" : [
+    {
+      "source" : "Flockleader Geerin",
+      "ids" : [
+        3164
+      ],
+      "names" : [
+        "npc.flockleader_geerin"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 132,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 175, "ranged" : 150, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 60, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 35, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 132.5, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

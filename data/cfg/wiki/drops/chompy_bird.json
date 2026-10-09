@@ -1,0 +1,19 @@
+{
+  "page" : "Chompy bird",
+  "tables" : [
+    {
+      "source" : "Chompy bird",
+      "npcIds" : [
+        1475
+      ],
+      "always" : [
+        { "item" : 314, "name" : "item.feather", "min" : 10, "max" : 30 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2876, "name" : "item.raw_chompy", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 13071, "name" : "item.chompy_chick", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" }
+      ]
+    }
+  ]
+}

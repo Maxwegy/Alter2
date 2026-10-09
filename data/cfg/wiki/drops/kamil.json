@@ -1,0 +1,15 @@
+{
+  "page" : "Kamil",
+  "tables" : [
+    {
+      "source" : "Kamil",
+      "npcIds" : [
+        3458
+      ],
+      "always" : [
+        { "item" : 1897, "name" : "item.chocolate_cake", "min" : 2, "max" : 2 },
+        { "item" : 3024, "name" : "item.super_restore4", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Crimson sanguisphera",
+  "tables" : [
+    {
+      "source" : "Crimson sanguisphera",
+      "npcIds" : [
+        12369
+      ],
+      "always" : [
+        { "item" : 28462, "name" : "item.crimson_fibre", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

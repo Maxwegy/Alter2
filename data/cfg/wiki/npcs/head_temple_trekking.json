@@ -1,0 +1,55 @@
+{
+  "page" : "Head (Temple Trekking)",
+  "versions" : [
+    {
+      "source" : "Head (Temple Trekking)#Submerged",
+      "version" : "Submerged",
+      "ids" : [
+        5645
+      ],
+      "names" : [
+        "npc.head_5645"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 150,
+      "attackSpeed" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 186, "defence" : 75, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Head (Temple Trekking)#Visible",
+      "version" : "Visible",
+      "ids" : [
+        5644
+      ],
+      "names" : [
+        "npc.head"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 150,
+      "attackSpeed" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 186, "defence" : 75, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

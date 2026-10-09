@@ -1,0 +1,36 @@
+{
+  "page" : "Spindel",
+  "versions" : [
+    {
+      "source" : "Spindel",
+      "ids" : [
+        11998
+      ],
+      "names" : [
+        "npc.spindel"
+      ],
+      "combatLevel" : 302,
+      "hitpoints" : 515,
+      "attackSpeed" : 4,
+      "respawnTicks" : 9,
+      "size" : 4,
+      "levels" : { "attack" : 200, "strength" : 130, "defence" : 225, "ranged" : 286, "magic" : 235 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 10, "magicDefence" : 205, "rangedDefence" : 103, "lightRangedDefence" : 103, "heavyRangedDefence" : 103, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14 (Melee)",
+        "31 (Ranged)",
+        "24 (Magic)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 541.0, "categories" : [ "Bosses", "Spiders" ], "assignedBy" : [ "duradel", "konar", "krystilia", "kuradal", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

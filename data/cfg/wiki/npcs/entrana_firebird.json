@@ -1,0 +1,32 @@
+{
+  "page" : "Entrana firebird",
+  "versions" : [
+    {
+      "source" : "Entrana firebird",
+      "ids" : [
+        4927
+      ],
+      "names" : [
+        "npc.entrana_firebird"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -26, "slashDefence" : -26, "crushDefence" : -26, "magicDefence" : -26, "rangedDefence" : -26, "lightRangedDefence" : -26, "heavyRangedDefence" : -26, "attackBonus" : -31, "strengthBonus" : -26, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 5.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

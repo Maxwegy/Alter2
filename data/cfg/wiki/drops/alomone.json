@@ -1,0 +1,17 @@
+{
+  "page" : "Alomone",
+  "tables" : [
+    {
+      "source" : "Alomone",
+      "npcIds" : [
+        11976,
+        12092,
+        12093,
+        12094
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "page" : "Rune dragon (Construction)",
+  "versions" : [
+    {
+      "source" : "Rune dragon (Construction)",
+      "ids" : [
+        8027
+      ],
+      "names" : [
+        "npc.rune_dragon_8027"
+      ],
+      "combatLevel" : 380,
+      "hitpoints" : 330,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 284, "strength" : 284, "defence" : 276, "ranged" : 246, "magic" : 196 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 115, "crushDefence" : 90, "magicDefence" : 30, "rangedDefence" : 95, "lightRangedDefence" : 95, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 14, "magicDamage" : 16 },
+      "maxHits" : [
+        "29 (Melee)",
+        "31 (Ranged)",
+        "26 (Magic)",
+        "40 (range special)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

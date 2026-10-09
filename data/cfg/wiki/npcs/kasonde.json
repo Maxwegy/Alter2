@@ -1,0 +1,32 @@
+{
+  "page" : "Kasonde",
+  "versions" : [
+    {
+      "source" : "Kasonde",
+      "ids" : [
+        12262,
+        12263
+      ],
+      "names" : [
+        "npc.kasonde_12262",
+        "npc.kasonde_12263"
+      ],
+      "combatLevel" : 231,
+      "hitpoints" : 240,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 190, "strength" : 190, "defence" : 90, "ranged" : 190, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 50, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 250, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 40, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

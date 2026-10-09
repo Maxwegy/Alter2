@@ -1,0 +1,14 @@
+{
+  "page" : "San Tojalon",
+  "tables" : [
+    {
+      "source" : "San Tojalon",
+      "npcIds" : [
+        3964
+      ],
+      "always" : [
+        { "item" : 741, "name" : "item.chunk_of_crystal", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

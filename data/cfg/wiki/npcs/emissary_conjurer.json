@@ -1,0 +1,55 @@
+{
+  "page" : "Emissary Conjurer",
+  "versions" : [
+    {
+      "source" : "Emissary Conjurer#1",
+      "version" : "1",
+      "ids" : [
+        13777
+      ],
+      "names" : [
+        "npc.emissary_conjurer"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 40, "defence" : 70, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 10, "magicDefence" : 15, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 40 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Emissary Conjurer#2",
+      "version" : "2",
+      "ids" : [
+        13778
+      ],
+      "names" : [
+        "npc.emissary_conjurer_13778"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 40, "defence" : 70, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 10, "magicDefence" : 15, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 40 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

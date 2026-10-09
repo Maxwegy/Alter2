@@ -1,0 +1,31 @@
+{
+  "page" : "Experiment No.2",
+  "versions" : [
+    {
+      "source" : "Experiment No.2",
+      "ids" : [
+        5126
+      ],
+      "names" : [
+        "npc.experiment_no2"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 95,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 2,
+      "levels" : { "attack" : 104, "strength" : 92, "defence" : 90, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 70, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 25, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11 (approx)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : true }
+    }
+  ]
+}

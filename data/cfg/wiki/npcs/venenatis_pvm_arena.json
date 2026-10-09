@@ -1,0 +1,32 @@
+{
+  "page" : "Venenatis (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "Venenatis (PvM Arena)",
+      "ids" : [
+        6504
+      ],
+      "names" : [
+        "npc.venenatis"
+      ],
+      "combatLevel" : 464,
+      "hitpoints" : 255,
+      "attackSpeed" : 0,
+      "respawnTicks" : 50,
+      "size" : 4,
+      "levels" : { "attack" : 470, "strength" : 490, "defence" : 490, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 260, "slashDefence" : 260, "crushDefence" : 260, "magicDefence" : 850, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "50"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 388.8, "categories" : [ "Bosses", "Spiders" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "spria", "turael" ] }
+    }
+  ]
+}

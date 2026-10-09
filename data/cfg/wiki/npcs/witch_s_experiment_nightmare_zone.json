@@ -1,0 +1,205 @@
+{
+  "page" : "Witch's experiment (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Bear (Hard Mode)",
+      "version" : "Bear (Hard Mode)",
+      "ids" : [
+        6335
+      ],
+      "names" : [
+        "npc.witchs_experiment_third_form_hard"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 102,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 75, "defence" : 39, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Bear (Normal Mode)",
+      "version" : "Bear (Normal Mode)",
+      "ids" : [
+        6396
+      ],
+      "names" : [
+        "npc.witchs_experiment_third_form_6396"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 41,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 38, "strength" : 30, "defence" : 39, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Skavid (Hard Mode)",
+      "version" : "Skavid (Hard Mode)",
+      "ids" : [
+        6333
+      ],
+      "names" : [
+        "npc.witchs_experiment_hard"
+      ],
+      "combatLevel" : 47,
+      "hitpoints" : 63,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 30, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Skavid (Normal Mode)",
+      "version" : "Skavid (Normal Mode)",
+      "ids" : [
+        6394
+      ],
+      "names" : [
+        "npc.witchs_experiment_6394"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 21,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 10, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Spider (Hard Mode)",
+      "version" : "Spider (Hard Mode)",
+      "ids" : [
+        6334
+      ],
+      "names" : [
+        "npc.witchs_experiment_second_form_hard"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 93,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 84, "strength" : 60, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Spider (Normal Mode)",
+      "version" : "Spider (Normal Mode)",
+      "ids" : [
+        6395
+      ],
+      "names" : [
+        "npc.witchs_experiment_second_form_6395"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 31,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 20, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Wolf (Hard Mode)",
+      "version" : "Wolf (Hard Mode)",
+      "ids" : [
+        6336
+      ],
+      "names" : [
+        "npc.witchs_experiment_fourth_form_hard"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 113,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 105, "strength" : 88, "defence" : 49, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment (Nightmare Zone)#Wolf (Normal Mode)",
+      "version" : "Wolf (Normal Mode)",
+      "ids" : [
+        6397
+      ],
+      "names" : [
+        "npc.witchs_experiment_fourth_form_6397"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 48, "strength" : 40, "defence" : 49, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

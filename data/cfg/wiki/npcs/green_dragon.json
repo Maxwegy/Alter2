@@ -1,0 +1,91 @@
+{
+  "page" : "Green dragon",
+  "versions" : [
+    {
+      "source" : "Green dragon#Level 79",
+      "version" : "Level 79",
+      "ids" : [
+        260,
+        261,
+        262,
+        263,
+        264,
+        8073,
+        8076,
+        8082
+      ],
+      "names" : [
+        "npc.green_dragon",
+        "npc.green_dragon_261",
+        "npc.green_dragon_262",
+        "npc.green_dragon_263",
+        "npc.green_dragon_264",
+        "npc.green_dragon_8073",
+        "npc.green_dragon_8076",
+        "npc.green_dragon_8082"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 68, "strength" : 68, "defence" : 68, "ranged" : 1, "magic" : 68 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 75.0, "categories" : [ "Green Dragons" ], "assignedBy" : [ "krystilia" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Green dragon#Level 88",
+      "version" : "Level 88",
+      "ids" : [
+        7868,
+        7869,
+        7870
+      ],
+      "names" : [
+        "npc.green_dragon_7868",
+        "npc.green_dragon_7869",
+        "npc.green_dragon_7870"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 68, "strength" : 75, "defence" : 68, "ranged" : 1, "magic" : 75 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Slash)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Green Dragons" ], "assignedBy" : [ "krystilia" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "page" : "Lizardman shaman",
+  "versions" : [
+    {
+      "source" : "Lizardman shaman#Lizardman Temple",
+      "version" : "Lizardman Temple",
+      "ids" : [
+        8565
+      ],
+      "names" : [
+        "npc.lizardman_shaman_8565"
+      ],
+      "combatLevel" : 150,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "respawnTicks" : 27,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 140, "ranged" : 120, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 45, "stabDefence" : -20, "slashDefence" : 40, "crushDefence" : 30, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 45, "strengthBonus" : 38, "rangedStrength" : 38, "magicDamage" : 0 },
+      "maxHits" : [
+        "31 (Melee)",
+        "21 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 157.5, "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Lizardman shaman#Standard",
+      "version" : "Standard",
+      "ids" : [
+        6766,
+        6767,
+        7744,
+        7745
+      ],
+      "names" : [
+        "npc.lizardman_shaman",
+        "npc.lizardman_shaman_6767",
+        "npc.lizardman_shaman_7744",
+        "npc.lizardman_shaman_7745"
+      ],
+      "combatLevel" : 150,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "respawnTicks" : 27,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 140, "ranged" : 120, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 45, "stabDefence" : -20, "slashDefence" : 40, "crushDefence" : 30, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 45, "strengthBonus" : 38, "rangedStrength" : 38, "magicDamage" : 0 },
+      "maxHits" : [
+        "31 (Melee)",
+        "21 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 157.5, "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

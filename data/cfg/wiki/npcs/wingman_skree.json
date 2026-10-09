@@ -1,0 +1,34 @@
+{
+  "page" : "Wingman Skree",
+  "versions" : [
+    {
+      "source" : "Wingman Skree",
+      "ids" : [
+        3163
+      ],
+      "names" : [
+        "npc.wingman_skree"
+      ],
+      "combatLevel" : 143,
+      "hitpoints" : 121,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 50, "defence" : 160, "ranged" : 100, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 45, "strengthBonus" : 25, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 124.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

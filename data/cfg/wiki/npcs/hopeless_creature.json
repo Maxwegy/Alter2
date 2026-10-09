@@ -1,0 +1,64 @@
+{
+  "page" : "Hopeless creature",
+  "versions" : [
+    {
+      "source" : "Hopeless creature#Level 40",
+      "version" : "Level 40",
+      "ids" : [
+        1072,
+        1073,
+        1074
+      ],
+      "names" : [
+        "npc.hopeless_creature",
+        "npc.hopeless_creature_1073",
+        "npc.hopeless_creature_1074"
+      ],
+      "combatLevel" : 40,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 38, "strength" : 36, "defence" : 39, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5 (Melee)",
+        "? (Ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Hopeless creature#Level 71",
+      "version" : "Level 71",
+      "ids" : [
+        4695
+      ],
+      "names" : [
+        "npc.hopeless_creature_4695"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 71,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 59, "strength" : 62, "defence" : 59, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

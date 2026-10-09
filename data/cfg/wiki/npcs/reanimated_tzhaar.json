@@ -1,0 +1,29 @@
+{
+  "page" : "Reanimated TzHaar",
+  "versions" : [
+    {
+      "source" : "Reanimated TzHaar",
+      "ids" : [
+        7035
+      ],
+      "names" : [
+        "npc.reanimated_tzhaar"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 140, "defence" : 120, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] }
+    }
+  ]
+}

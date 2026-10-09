@@ -1,0 +1,94 @@
+{
+  "page" : "Stone Guardian",
+  "versions" : [
+    {
+      "source" : "Stone Guardian#Magic",
+      "version" : "Magic",
+      "ids" : [
+        8066
+      ],
+      "names" : [
+        "npc.stone_guardian_8066"
+      ],
+      "combatLevel" : 124,
+      "hitpoints" : 62,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 138, "ranged" : 1, "magic" : 128 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 10, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 35, "magicDefence" : 35, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Stone Guardian#Melee",
+      "version" : "Melee",
+      "ids" : [
+        8064
+      ],
+      "names" : [
+        "npc.stone_guardian"
+      ],
+      "combatLevel" : 124,
+      "hitpoints" : 62,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 148, "defence" : 138, "ranged" : 1, "magic" : 118 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 15, "magicDefence" : 10, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Stone Guardian#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        8065
+      ],
+      "names" : [
+        "npc.stone_guardian_8065"
+      ],
+      "combatLevel" : 124,
+      "hitpoints" : 62,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 138, "ranged" : 128, "magic" : 118 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 10, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 0, "magicDefence" : 55, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 10, "magicDamage" : 10 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

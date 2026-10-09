@@ -1,0 +1,151 @@
+{
+  "page" : "Ghost",
+  "versions" : [
+    {
+      "source" : "Ghost#Level 19",
+      "version" : "Level 19",
+      "ids" : [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        95,
+        97,
+        99,
+        472,
+        473,
+        474,
+        505,
+        506,
+        507,
+        7263,
+        7264
+      ],
+      "names" : [
+        "npc.ghost",
+        "npc.ghost_86",
+        "npc.ghost_87",
+        "npc.ghost_88",
+        "npc.ghost_89",
+        "npc.ghost_90",
+        "npc.ghost_91",
+        "npc.ghost_92",
+        "npc.ghost_93",
+        "npc.ghost_95",
+        "npc.ghost_97",
+        "npc.ghost_99",
+        "npc.ghost_472",
+        "npc.ghost_473",
+        "npc.ghost_474",
+        "npc.ghost_505",
+        "npc.ghost_506",
+        "npc.ghost_507",
+        "npc.ghost_7263",
+        "npc.ghost_7264"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 13, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        2531,
+        2532,
+        2533,
+        2534
+      ],
+      "names" : [
+        "npc.ghost_2531",
+        "npc.ghost_2532",
+        "npc.ghost_2533",
+        "npc.ghost_2534"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 63, "strength" : 63, "defence" : 68, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 45, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 75.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Ghost#Level 77",
+      "version" : "Level 77",
+      "ids" : [
+        2527,
+        2528,
+        2529,
+        2530
+      ],
+      "names" : [
+        "npc.ghost_2527",
+        "npc.ghost_2528",
+        "npc.ghost_2529",
+        "npc.ghost_2530"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 63, "strength" : 63, "defence" : 68, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 55, "slashDefence" : 55, "crushDefence" : 5, "magicDefence" : 55, "rangedDefence" : 55, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 80.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

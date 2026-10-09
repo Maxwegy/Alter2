@@ -1,0 +1,34 @@
+{
+  "page" : "Chaos Elemental",
+  "versions" : [
+    {
+      "source" : "Chaos Elemental",
+      "ids" : [
+        2054
+      ],
+      "names" : [
+        "npc.chaos_elemental_2054"
+      ],
+      "combatLevel" : 305,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 3,
+      "levels" : { "attack" : 270, "strength" : 270, "defence" : 270, "ranged" : 270, "magic" : 270 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 70, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged",
+        "Melee (Crush?)"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 268.75, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

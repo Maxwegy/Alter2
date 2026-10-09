@@ -1,0 +1,23 @@
+{
+  "page" : "Mosquito swarm",
+  "tables" : [
+    {
+      "source" : "Mosquito swarm#Level 17",
+      "npcIds" : [
+        6273
+      ],
+      "always" : [
+        { "item" : 6319, "name" : "item.proboscis", "min" : 3, "max" : 3 }
+      ]
+    },
+    {
+      "source" : "Mosquito swarm#Level 20",
+      "npcIds" : [
+        6402
+      ],
+      "always" : [
+        { "item" : 6319, "name" : "item.proboscis", "min" : 5, "max" : 5 }
+      ]
+    }
+  ]
+}

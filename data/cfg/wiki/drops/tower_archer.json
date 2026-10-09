@@ -1,0 +1,41 @@
+{
+  "page" : "Tower Archer",
+  "tables" : [
+    {
+      "source" : "Tower Archer#East",
+      "npcIds" : [
+        6066
+      ],
+      "main" : [
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 1, "max" : 1, "chance" : [ 3, 25 ], "wiki" : "12/100", "approx" : true }
+      ]
+    },
+    {
+      "source" : "Tower Archer#North",
+      "npcIds" : [
+        6065
+      ],
+      "main" : [
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 1, "max" : 1, "chance" : [ 7, 50 ], "wiki" : "14/100", "approx" : true }
+      ]
+    },
+    {
+      "source" : "Tower Archer#South",
+      "npcIds" : [
+        6067
+      ],
+      "main" : [
+        { "item" : 888, "name" : "item.mithril_arrow", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "10/100", "approx" : true }
+      ]
+    },
+    {
+      "source" : "Tower Archer#West",
+      "npcIds" : [
+        6068
+      ],
+      "main" : [
+        { "item" : 890, "name" : "item.adamant_arrow", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "8/100", "approx" : true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "page" : "Pirate",
+  "tables" : [
+    {
+      "source" : "Pirate",
+      "npcIds" : [
+        521,
+        522,
+        523,
+        524,
+        1447,
+        4043,
+        4044,
+        4045,
+        4046,
+        4047,
+        4048,
+        4049,
+        4050,
+        4051,
+        4052,
+        6993,
+        6994,
+        6995
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2832, "name" : "item.key_medium", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 9, "max" : 9, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 12, "max" : 12, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 7, "max" : 7, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 35, "max" : 35, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 55, "max" : 55, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1025, "name" : "item.right_eye_patch", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 1115, "name" : "item.iron_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1321, "name" : "item.bronze_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1949, "name" : "item.chefs_hat", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2351, "name" : "item.iron_bar", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 9140, "name" : "item.iron_bolts", "min" : 2, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 6 ], "wiki" : "1/6" }
+      ]
+    },
+    {
+      "source" : "Pirate#Pirate's Cove",
+      "npcIds" : [
+        521,
+        6993
+      ],
+      "main" : [
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 304 ], "wiki" : "1/304" }
+      ],
+      "tertiary" : [
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 1074 ], "wiki" : "1/1,074" }
+      ]
+    }
+  ]
+}

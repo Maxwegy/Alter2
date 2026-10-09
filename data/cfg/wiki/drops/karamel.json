@@ -1,0 +1,14 @@
+{
+  "page" : "Karamel",
+  "tables" : [
+    {
+      "source" : "Karamel",
+      "npcIds" : [
+        4882
+      ],
+      "always" : [
+        { "item" : 6794, "name" : "item.chocice", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

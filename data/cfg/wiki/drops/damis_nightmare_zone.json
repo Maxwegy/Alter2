@@ -1,0 +1,17 @@
+{
+  "page" : "Damis (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Damis (Nightmare Zone)",
+      "npcIds" : [
+        1134,
+        1135,
+        6346,
+        6347
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "page" : "Thrower troll (Trollheim)",
+  "versions" : [
+    {
+      "source" : "Thrower troll (Trollheim)",
+      "ids" : [
+        4135,
+        4136,
+        4137,
+        4138,
+        4139
+      ],
+      "names" : [
+        "npc.thrower_troll_4135",
+        "npc.thrower_troll_4136",
+        "npc.thrower_troll_4137",
+        "npc.thrower_troll_4138",
+        "npc.thrower_troll_4139"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 95,
+      "attackSpeed" : 7,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 95, "defence" : 15, "ranged" : 60, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 120, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 95.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

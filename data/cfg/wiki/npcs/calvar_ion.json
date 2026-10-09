@@ -1,0 +1,67 @@
+{
+  "page" : "Calvar'ion",
+  "versions" : [
+    {
+      "source" : "Calvar'ion#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        11994
+      ],
+      "names" : [
+        "npc.calvarion_11994"
+      ],
+      "combatLevel" : 264,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "respawnTicks" : 14,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 225, "ranged" : 1, "magic" : 178 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 130, "slashDefence" : 128, "crushDefence" : -10, "magicDefence" : 198, "rangedDefence" : 211, "lightRangedDefence" : 211, "heavyRangedDefence" : 211, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 322.5, "categories" : [ "Bosses", "Skeletons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    },
+    {
+      "source" : "Calvar'ion#Normal",
+      "version" : "Normal",
+      "ids" : [
+        11993
+      ],
+      "names" : [
+        "npc.calvarion"
+      ],
+      "combatLevel" : 264,
+      "hitpoints" : 150,
+      "attackSpeed" : 6,
+      "respawnTicks" : 14,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 225, "ranged" : 1, "magic" : 178 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 130, "slashDefence" : 128, "crushDefence" : -10, "magicDefence" : 198, "rangedDefence" : 211, "lightRangedDefence" : 211, "heavyRangedDefence" : 211, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 322.5, "categories" : [ "Bosses", "Skeletons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    }
+  ]
+}

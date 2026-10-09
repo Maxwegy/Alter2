@@ -1,0 +1,31 @@
+{
+  "page" : "Vitreous Warped Jelly",
+  "versions" : [
+    {
+      "source" : "Vitreous Warped Jelly",
+      "ids" : [
+        7400
+      ],
+      "names" : [
+        "npc.vitreous_warped_jelly"
+      ],
+      "combatLevel" : 241,
+      "hitpoints" : 220,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 180, "defence" : 250, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 2200.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

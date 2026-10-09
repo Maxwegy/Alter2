@@ -1,0 +1,29 @@
+{
+  "page" : "Crystalline Dragon",
+  "versions" : [
+    {
+      "source" : "Crystalline Dragon",
+      "ids" : [
+        9033
+      ],
+      "names" : [
+        "npc.crystalline_dragon"
+      ],
+      "combatLevel" : 172,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 98, "strength" : 98, "defence" : 98, "ranged" : 98, "magic" : 98 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 54, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 106 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

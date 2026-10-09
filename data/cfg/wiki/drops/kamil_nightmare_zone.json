@@ -1,0 +1,15 @@
+{
+  "page" : "Kamil (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Kamil (Nightmare Zone)",
+      "npcIds" : [
+        1129,
+        6345
+      ],
+      "always" : [
+        { "item" : 1897, "name" : "item.chocolate_cake", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

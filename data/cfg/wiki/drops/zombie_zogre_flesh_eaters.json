@@ -1,0 +1,20 @@
+{
+  "page" : "Zombie (Zogre Flesh Eaters)",
+  "tables" : [
+    {
+      "source" : "Zombie (Zogre Flesh Eaters)",
+      "npcIds" : [
+        880
+      ],
+      "always" : [
+        { "item" : 4810, "name" : "item.ruined_backpack", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7863, "name" : "item.zombie_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ],
+      "tertiary" : [
+        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

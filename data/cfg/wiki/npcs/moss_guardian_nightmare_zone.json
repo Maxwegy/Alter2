@@ -1,0 +1,59 @@
+{
+  "page" : "Moss Guardian (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Moss Guardian (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6325
+      ],
+      "names" : [
+        "npc.moss_guardian_hard"
+      ],
+      "combatLevel" : 182,
+      "hitpoints" : 240,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 165, "strength" : 165, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 66, "strengthBonus" : 62, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "34"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Moss Guardian (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6386
+      ],
+      "names" : [
+        "npc.moss_guardian_6386"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 120,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 66, "strengthBonus" : 62, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

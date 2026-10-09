@@ -1,0 +1,14 @@
+{
+  "page" : "Sir Mordred",
+  "tables" : [
+    {
+      "source" : "Sir Mordred",
+      "npcIds" : [
+        3527
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

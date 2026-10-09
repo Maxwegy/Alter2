@@ -1,5 +1,7 @@
 package org.alter.game.model.move
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import dev.openrune.cache.CacheManager.getItem
 import org.alter.game.model.attr.GROUNDITEM_PICKUP_TRANSACTION
 import org.alter.game.model.attr.INTERACTING_GROUNDITEM_ATTR
@@ -123,11 +125,23 @@ object GroundItemRouteAction {
             if (!handled && p.world.devContext.debugItemActions) {
                 p.writeMessage("Unhandled item on ground item action: [item=${item.id}, ground=${groundItem.item}]")
             }
+            if (!handled) {
+                p.world.plugins.executeUnhandledInteraction(
+                    p,
+                    UnhandledInteraction(InteractionType.ITEM_ON_GROUND, id = groundItem.item, usedId = item.id, tile = groundItem.tile),
+                )
+            }
         } else {
             val handled = p.world.plugins.executeGroundItem(p, groundItem.item, opt)
             if (!handled && p.world.devContext.debugItemActions) {
                 val definition = getItem(groundItem.item)
                 p.writeMessage("Unhandled ground item action: [item=${groundItem.item}, option=[$opt, ${definition.options[opt - 1]}]]")
+            }
+            if (!handled) {
+                p.world.plugins.executeUnhandledInteraction(
+                    p,
+                    UnhandledInteraction(InteractionType.GROUND_OP, id = groundItem.item, op = opt, tile = groundItem.tile),
+                )
             }
         }
     }

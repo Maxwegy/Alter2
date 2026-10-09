@@ -1,0 +1,145 @@
+{
+  "page" : "Cave horror",
+  "versions" : [
+    {
+      "source" : "Cave horror#Alpha",
+      "version" : "Alpha",
+      "ids" : [
+        1051
+      ],
+      "names" : [
+        "npc.cave_horror_1051"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 77, "defence" : 62, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 55.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Cave horror#Guard",
+      "version" : "Guard",
+      "ids" : [
+        1049
+      ],
+      "names" : [
+        "npc.cave_horror_1049"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 77, "defence" : 62, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 55.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Cave horror#Small guard",
+      "version" : "Small guard",
+      "ids" : [
+        1050
+      ],
+      "names" : [
+        "npc.cave_horror_1050"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 77, "defence" : 62, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 55.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Cave horror#Worker",
+      "version" : "Worker",
+      "ids" : [
+        1047
+      ],
+      "names" : [
+        "npc.cave_horror_1047"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 77, "defence" : 62, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 55.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Cave horror#Young worker",
+      "version" : "Young worker",
+      "ids" : [
+        1048
+      ],
+      "names" : [
+        "npc.cave_horror_1048"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 77, "defence" : 62, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 58, "xp" : 55.0, "categories" : [ "Cave Horrors" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

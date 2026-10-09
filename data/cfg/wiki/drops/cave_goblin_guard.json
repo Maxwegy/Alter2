@@ -1,0 +1,26 @@
+{
+  "page" : "Cave goblin guard",
+  "tables" : [
+    {
+      "source" : "Cave goblin guard",
+      "npcIds" : [
+        5334,
+        5335
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 1101, "name" : "item.iron_chainbody", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 4537, "name" : "item.oil_lantern", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 5016, "name" : "item.bone_spear", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 5018, "name" : "item.bone_club", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 7905, "name" : "item.cave_goblin_skull", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

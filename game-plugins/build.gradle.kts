@@ -9,6 +9,11 @@ dependencies {
     implementation(rootProject.projects.plugins.filestore)
     implementation(rootProject.projects.plugins.rscm)
     implementation(lib.routefinder)
+    implementation(projects.alterData)
+    implementation(lib.kotlinx.coroutines)
+    implementation(lib.jackson.module.kotlin)
+    implementation(lib.okhttp)
+    implementation(kotlin("reflect"))
 }
 
 tasks.named<Jar>("jar") {

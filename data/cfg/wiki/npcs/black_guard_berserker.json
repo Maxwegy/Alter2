@@ -1,0 +1,88 @@
+{
+  "page" : "Black Guard Berserker",
+  "versions" : [
+    {
+      "source" : "Black Guard Berserker#Blue",
+      "version" : "Blue",
+      "ids" : [
+        6051
+      ],
+      "names" : [
+        "npc.black_guard_berserker_6051"
+      ],
+      "combatLevel" : 66,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 0, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 55, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard Berserker#Green",
+      "version" : "Green",
+      "ids" : [
+        2232,
+        6052
+      ],
+      "names" : [
+        "npc.black_guard_berserker",
+        "npc.black_guard_berserker_6052"
+      ],
+      "combatLevel" : 66,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 0, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 55, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Black Guard Berserker#Red",
+      "version" : "Red",
+      "ids" : [
+        6050
+      ],
+      "names" : [
+        "npc.black_guard_berserker_6050"
+      ],
+      "combatLevel" : 66,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 0, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 55, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

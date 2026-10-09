@@ -1,0 +1,61 @@
+{
+  "page" : "King Sand Crab",
+  "versions" : [
+    {
+      "source" : "King Sand Crab#Active",
+      "version" : "Active",
+      "ids" : [
+        7266
+      ],
+      "names" : [
+        "npc.king_sand_crab"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 200.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 15 }
+    },
+    {
+      "source" : "King Sand Crab#Hidden",
+      "version" : "Hidden",
+      "ids" : [
+        7267
+      ],
+      "names" : [
+        "npc.sandy_boulder"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 200.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 15 }
+    }
+  ]
+}

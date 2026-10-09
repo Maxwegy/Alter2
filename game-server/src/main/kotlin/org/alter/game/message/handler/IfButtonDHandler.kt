@@ -1,5 +1,7 @@
 package org.alter.game.message.handler
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import net.rsprot.protocol.game.incoming.buttons.IfButtonD
 import org.alter.game.message.MessageHandler
 import org.alter.game.model.attr.INTERACTING_COMPONENT_CHILD
@@ -53,6 +55,19 @@ class IfButtonDHandler : MessageHandler<IfButtonD> {
             client.writeMessage(
                 "[IfButtonDHandler] Unhandled component to component swap: [from_item=$fromItemId, to_item=$toItemId, from_slot=$fromSlot, to_slot=$toSlot, " +
                     "from_component=[$fromInterfaceId:$fromComponent], to_component=[$toInterfaceId:$toComponent]]",
+            )
+        }
+        if (!swapped) {
+            client.world.plugins.executeUnhandledInteraction(
+                client,
+                UnhandledInteraction(
+                    InteractionType.IF_DRAG,
+                    id = fromInterfaceId,
+                    usedId = fromItemId,
+                    component = (fromInterfaceId shl 16) or fromComponent,
+                    targetComponent = (toInterfaceId shl 16) or toComponent,
+                    slot = fromSlot,
+                ),
             )
         }
     }

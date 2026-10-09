@@ -1,0 +1,25 @@
+{
+  "page" : "Baby red dragon",
+  "tables" : [
+    {
+      "source" : "Baby red dragon",
+      "npcIds" : [
+        244,
+        245,
+        246
+      ],
+      "always" : [
+        { "item" : 534, "name" : "item.babydragon_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 23499, "name" : "item.grubby_key", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" },
+        { "item" : 23510, "name" : "item.tattered_moon_page", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 23512, "name" : "item.tattered_sun_page", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 23514, "name" : "item.tattered_temple_page", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 640 ], "wiki" : "1/640" }
+      ]
+    }
+  ]
+}

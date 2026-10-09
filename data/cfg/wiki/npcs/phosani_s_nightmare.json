@@ -1,0 +1,53 @@
+{
+  "page" : "Phosani's Nightmare",
+  "versions" : [
+    {
+      "source" : "Phosani's Nightmare",
+      "ids" : [
+        9416,
+        9417,
+        9418,
+        9419,
+        9420,
+        9421,
+        9422,
+        9424,
+        11153,
+        11154,
+        11155
+      ],
+      "names" : [
+        "npc.phosanis_nightmare_9416",
+        "npc.phosanis_nightmare_9417",
+        "npc.phosanis_nightmare_9418",
+        "npc.phosanis_nightmare_9419",
+        "npc.phosanis_nightmare_9420",
+        "npc.phosanis_nightmare_9421",
+        "npc.phosanis_nightmare_9422",
+        "npc.phosanis_nightmare_9424",
+        "npc.phosanis_nightmare_11153",
+        "npc.phosanis_nightmare_11154",
+        "npc.phosanis_nightmare_11155"
+      ],
+      "combatLevel" : 1024,
+      "hitpoints" : 3200,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 220, "rangedAttack" : 220, "stabDefence" : 120, "slashDefence" : 180, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 600, "lightRangedDefence" : 600, "heavyRangedDefence" : 600, "attackBonus" : 220, "strengthBonus" : 274, "rangedStrength" : 162, "magicDamage" : 162 },
+      "maxHits" : [
+        "73 (melee)",
+        "80 (magic/ranged)",
+        "~85 (dash)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

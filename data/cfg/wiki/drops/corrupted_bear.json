@@ -1,0 +1,21 @@
+{
+  "page" : "Corrupted Bear",
+  "tables" : [
+    {
+      "source" : "Corrupted Bear",
+      "npcIds" : [
+        9046
+      ],
+      "always" : [
+        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 50, "max" : 60 },
+        { "item" : 23834, "name" : "item.weapon_frame", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 10, "max" : 21, "chance" : [ 1, 2 ], "wiki" : "9/18" },
+        { "item" : 23835, "name" : "item.grym_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 9 ], "wiki" : "2/18" },
+        { "item" : 23858, "name" : "item.corrupted_teleport_crystal", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "wiki" : "1/18" },
+        { "item" : 23872, "name" : "item.raw_paddlefish", "min" : 3, "max" : 5, "chance" : [ 1, 6 ], "wiki" : "3/18" }
+      ]
+    }
+  ]
+}

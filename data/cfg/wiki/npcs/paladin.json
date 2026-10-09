@@ -1,0 +1,212 @@
+{
+  "page" : "Paladin",
+  "versions" : [
+    {
+      "source" : "Paladin",
+      "ids" : [
+        3294
+      ],
+      "names" : [
+        "npc.paladin_3294"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#1",
+      "version" : "1",
+      "ids" : [
+        3293
+      ],
+      "names" : [
+        "npc.paladin_3293"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#2",
+      "version" : "2",
+      "ids" : [
+        11930
+      ],
+      "names" : [
+        "npc.paladin_11930"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#3",
+      "version" : "3",
+      "ids" : [
+        11931
+      ],
+      "names" : [
+        "npc.paladin_11931"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#4",
+      "version" : "4",
+      "ids" : [
+        11932
+      ],
+      "names" : [
+        "npc.paladin_11932"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#5",
+      "version" : "5",
+      "ids" : [
+        11933
+      ],
+      "names" : [
+        "npc.paladin_11933"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#Female",
+      "version" : "Female",
+      "ids" : [
+        11901
+      ],
+      "names" : [
+        "npc.paladin_11901"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin#Male",
+      "version" : "Male",
+      "ids" : [
+        8853
+      ],
+      "names" : [
+        "npc.paladin_8853"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

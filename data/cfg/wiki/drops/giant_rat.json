@@ -1,0 +1,47 @@
+{
+  "page" : "Giant rat",
+  "tables" : [
+    {
+      "source" : "Giant rat#Level 26",
+      "npcIds" : [
+        2510,
+        2511,
+        2512
+      ],
+      "always" : [
+        { "item" : 300, "name" : "item.rats_tail", "min" : 1, "max" : 1 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7824, "name" : "item.giant_rat_bone", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7836, "name" : "item.rat_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    },
+    {
+      "source" : "Giant rat#Low level",
+      "npcIds" : [
+        2510,
+        2511,
+        2512,
+        2856,
+        2857,
+        2858,
+        2859,
+        2860,
+        2861,
+        2862,
+        2863,
+        2864
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2134, "name" : "item.raw_rat_meat", "min" : 1, "max" : 1 },
+        { "item" : 7824, "name" : "item.giant_rat_bone", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

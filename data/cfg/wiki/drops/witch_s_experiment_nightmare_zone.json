@@ -1,0 +1,21 @@
+{
+  "page" : "Witch's experiment (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Witch's experiment (Nightmare Zone)",
+      "npcIds" : [
+        6333,
+        6334,
+        6335,
+        6336,
+        6394,
+        6395,
+        6396,
+        6397
+      ],
+      "always" : [
+        { "item" : 2859, "name" : "item.wolf_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

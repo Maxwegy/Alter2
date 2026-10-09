@@ -1,0 +1,14 @@
+{
+  "page" : "Asyn shadow (Temple Trekking)",
+  "tables" : [
+    {
+      "source" : "Asyn shadow (Temple Trekking)",
+      "npcIds" : [
+        5632
+      ],
+      "always" : [
+        { "item" : 3402, "name" : "item.asyn_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

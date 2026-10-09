@@ -1,0 +1,34 @@
+{
+  "page" : "Colossal Hydra",
+  "versions" : [
+    {
+      "source" : "Colossal Hydra",
+      "ids" : [
+        10402
+      ],
+      "names" : [
+        "npc.colossal_hydra"
+      ],
+      "combatLevel" : 309,
+      "hitpoints" : 750,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : 200, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "34"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 8625.0, "categories" : [ "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] }
+    }
+  ]
+}

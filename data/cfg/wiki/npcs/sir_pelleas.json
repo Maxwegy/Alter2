@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Pelleas",
+  "versions" : [
+    {
+      "source" : "Sir Pelleas",
+      "ids" : [
+        4347,
+        4360
+      ],
+      "names" : [
+        "npc.sir_pelleas_4347",
+        "npc.sir_pelleas_4360"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 99,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 99, "defence" : 98, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : -5, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

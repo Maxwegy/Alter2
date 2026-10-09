@@ -1,0 +1,65 @@
+{
+  "page" : "Vardorvis",
+  "tables" : [
+    {
+      "source" : "Vardorvis",
+      "npcIds" : [
+        12223,
+        12224,
+        12228,
+        12425,
+        12426
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 28336, "name" : "item.ancient_blood_ornament_kit", "min" : 1, "max" : 1 },
+        { "item" : 28389, "name" : "item.temple_key_28389", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 139, "name" : "item.prayer_potion3", "min" : 1, "max" : 1, "chance" : [ 10, 53 ], "wiki" : "1/5.3" },
+        { "item" : 384, "name" : "item.raw_shark_noted", "min" : 200, "max" : 300, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 441, "name" : "item.iron_ore_noted", "min" : 38, "max" : 57, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 38, "max" : 57, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 448, "name" : "item.mithril_ore_noted", "min" : 38, "max" : 57, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 450, "name" : "item.adamantite_ore_noted", "min" : 45, "max" : 67, "noted" : true, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 452, "name" : "item.runite_ore_noted", "min" : 18, "max" : 27, "noted" : true, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 454, "name" : "item.coal_noted", "min" : 130, "max" : 195, "noted" : true, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 120, "max" : 180, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 120, "max" : 180, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 200, "max" : 300, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 400, "max" : 600, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 825, "name" : "item.bronze_javelin", "min" : 42, "max" : 63, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 828, "name" : "item.mithril_javelin", "min" : 42, "max" : 63, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 829, "name" : "item.adamant_javelin", "min" : 42, "max" : 63, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1604, "name" : "item.ruby_noted", "min" : 17, "max" : 25, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1606, "name" : "item.emerald_noted", "min" : 17, "max" : 25, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1608, "name" : "item.sapphire_noted", "min" : 17, "max" : 25, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1618, "name" : "item.uncut_diamond_noted", "min" : 25, "max" : 37, "noted" : true, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 1620, "name" : "item.uncut_ruby_noted", "min" : 25, "max" : 37, "noted" : true, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 160 ], "wiki" : "1/160" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 160 ], "wiki" : "1/160" },
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 160 ], "wiki" : "1/160" },
+        { "item" : 4699, "name" : "item.lava_rune", "min" : 200, "max" : 300, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 7060, "name" : "item.tuna_potato", "min" : 3, "max" : 4, "chance" : [ 10, 53 ], "wiki" : "1/5.3" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 120, "max" : 180, "noted" : true, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 9245, "name" : "item.onyx_bolts_e", "min" : 60, "max" : 90, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 11232, "name" : "item.dragon_dart_tip", "min" : 100, "max" : 150, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 160 ], "wiki" : "1/160" },
+        { "item" : 12699, "name" : "item.super_combat_potion2", "min" : 1, "max" : 1, "chance" : [ 10, 53 ], "wiki" : "1/5.3" },
+        { "item" : 19580, "name" : "item.rune_javelin_heads", "min" : 36, "max" : 54, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 19582, "name" : "item.dragon_javelin_heads", "min" : 36, "max" : 54, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 26241, "name" : "item.virtus_mask", "min" : 1, "max" : 1, "chance" : [ 1, 3264 ], "wiki" : "1/3,264" },
+        { "item" : 26243, "name" : "item.virtus_robe_top", "min" : 1, "max" : 1, "chance" : [ 1, 3264 ], "wiki" : "1/3,264" },
+        { "item" : 26245, "name" : "item.virtus_robe_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 3264 ], "wiki" : "1/3,264" },
+        { "item" : 28248, "name" : "item.butch", "min" : 1, "max" : 1, "chance" : [ 1, 3000 ], "wiki" : "1/3,000" },
+        { "item" : 28268, "name" : "item.blood_quartz", "min" : 1, "max" : 1, "chance" : [ 1, 204 ], "wiki" : "1/204" },
+        { "item" : 28276, "name" : "item.chromium_ingot", "min" : 1, "max" : 1, "chance" : [ 3, 1088 ], "wiki" : "3/1,088" },
+        { "item" : 28285, "name" : "item.ultor_vestige", "min" : 1, "max" : 1, "chance" : [ 1, 1088 ], "wiki" : "1/1,088" },
+        { "item" : 28319, "name" : "item.executioners_axe_head", "min" : 1, "max" : 1, "chance" : [ 1, 1088 ], "wiki" : "1/1,088" },
+        { "item" : 28330, "name" : "item.strangled_tablet", "min" : 1, "max" : 1, "chance" : [ 2, 51 ], "wiki" : "1/25.5" },
+        { "item" : 28334, "name" : "item.awakeners_orb", "min" : 1, "max" : 1, "chance" : [ 5, 403 ], "wiki" : "1/80.6" }
+      ]
+    }
+  ]
+}

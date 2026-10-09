@@ -1,0 +1,255 @@
+{
+  "page" : "Guard (Aldarin)",
+  "versions" : [
+    {
+      "source" : "Guard (Aldarin)#1",
+      "version" : "1",
+      "ids" : [
+        13986
+      ],
+      "names" : [
+        "npc.guard_13986"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#10",
+      "version" : "10",
+      "ids" : [
+        13995
+      ],
+      "names" : [
+        "npc.guard_13995"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#2",
+      "version" : "2",
+      "ids" : [
+        13987
+      ],
+      "names" : [
+        "npc.guard_13987"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#3",
+      "version" : "3",
+      "ids" : [
+        13988
+      ],
+      "names" : [
+        "npc.guard_13988"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#4",
+      "version" : "4",
+      "ids" : [
+        13989
+      ],
+      "names" : [
+        "npc.guard_13989"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#5",
+      "version" : "5",
+      "ids" : [
+        13990
+      ],
+      "names" : [
+        "npc.guard_13990"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#6",
+      "version" : "6",
+      "ids" : [
+        13991
+      ],
+      "names" : [
+        "npc.guard_13991"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#7",
+      "version" : "7",
+      "ids" : [
+        13992
+      ],
+      "names" : [
+        "npc.guard_13992"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#8",
+      "version" : "8",
+      "ids" : [
+        13993
+      ],
+      "names" : [
+        "npc.guard_13993"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Aldarin)#9",
+      "version" : "9",
+      "ids" : [
+        13994
+      ],
+      "names" : [
+        "npc.guard_13994"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

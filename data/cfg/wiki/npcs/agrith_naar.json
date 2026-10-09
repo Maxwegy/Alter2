@@ -1,0 +1,35 @@
+{
+  "page" : "Agrith Naar",
+  "versions" : [
+    {
+      "source" : "Agrith Naar",
+      "ids" : [
+        911
+      ],
+      "names" : [
+        "npc.agrith_naar"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 95,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 83, "strength" : 90, "defence" : 82, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Crush)",
+        "10 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 25 }
+    }
+  ]
+}

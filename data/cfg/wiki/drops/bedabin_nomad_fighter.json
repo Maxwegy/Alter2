@@ -1,0 +1,14 @@
+{
+  "page" : "Bedabin Nomad Fighter",
+  "tables" : [
+    {
+      "source" : "Bedabin Nomad Fighter",
+      "npcIds" : [
+        4655
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

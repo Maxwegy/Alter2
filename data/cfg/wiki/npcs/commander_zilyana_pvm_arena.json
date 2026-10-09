@@ -1,0 +1,33 @@
+{
+  "page" : "Commander Zilyana (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "Commander Zilyana (PvM Arena)",
+      "ids" : [
+        6493
+      ],
+      "names" : [
+        "npc.commander_zilyana_6493"
+      ],
+      "combatLevel" : 596,
+      "hitpoints" : 255,
+      "attackSpeed" : 2,
+      "respawnTicks" : 150,
+      "size" : 2,
+      "levels" : { "attack" : 280, "strength" : 196, "defence" : 300, "ranged" : 250, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 195, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27 (melee)",
+        "20 (magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 350.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

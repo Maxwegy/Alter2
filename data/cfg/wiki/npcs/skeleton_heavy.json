@@ -1,0 +1,34 @@
+{
+  "page" : "Skeleton heavy",
+  "versions" : [
+    {
+      "source" : "Skeleton heavy",
+      "ids" : [
+        1540
+      ],
+      "names" : [
+        "npc.skeleton_heavy"
+      ],
+      "combatLevel" : 130,
+      "hitpoints" : 114,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 115, "strength" : 114, "defence" : 110, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 124.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

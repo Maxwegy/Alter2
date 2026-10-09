@@ -1,0 +1,18 @@
+{
+  "page" : "Camp dweller",
+  "tables" : [
+    {
+      "source" : "Camp dweller",
+      "npcIds" : [
+        1379,
+        1380,
+        1381,
+        1382,
+        1383
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

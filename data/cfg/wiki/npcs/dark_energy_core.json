@@ -1,0 +1,31 @@
+{
+  "page" : "Dark energy core",
+  "versions" : [
+    {
+      "source" : "Dark energy core",
+      "ids" : [
+        320
+      ],
+      "names" : [
+        "npc.dark_energy_core"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 25,
+      "attackSpeed" : 2,
+      "respawnTicks" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : -5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 0.0 }
+    }
+  ]
+}

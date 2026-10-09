@@ -1,0 +1,140 @@
+{
+  "page" : "Dark warrior",
+  "versions" : [
+    {
+      "source" : "Dark warrior#Level 145",
+      "version" : "Level 145",
+      "ids" : [
+        6606
+      ],
+      "names" : [
+        "npc.dark_warrior_6606"
+      ],
+      "combatLevel" : 145,
+      "hitpoints" : 165,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 55, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 106, "slashDefence" : 109, "crushDefence" : 139, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 80, "strengthBonus" : 76, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 181.5, "categories" : [ "Dark Warriors" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Dark warrior#Level 37",
+      "version" : "Level 37",
+      "ids" : [
+        11111
+      ],
+      "names" : [
+        "npc.dark_warrior_11111"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 20, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Dark Warriors" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Dark warrior#Level 51",
+      "version" : "Level 51",
+      "ids" : [
+        11110
+      ],
+      "names" : [
+        "npc.dark_warrior_11110"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 30, "ranged" : 1, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Dark Warriors" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Dark warrior#Level 62",
+      "version" : "Level 62",
+      "ids" : [
+        11109
+      ],
+      "names" : [
+        "npc.dark_warrior_11109"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 80.0, "categories" : [ "Dark Warriors" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Dark warrior#Level 8",
+      "version" : "Level 8",
+      "ids" : [
+        531
+      ],
+      "names" : [
+        "npc.dark_warrior"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 96, "slashDefence" : 79, "crushDefence" : 59, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 20, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 17.0, "categories" : [ "Dark Warriors" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

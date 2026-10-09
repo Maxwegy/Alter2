@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Gawain",
+  "versions" : [
+    {
+      "source" : "Sir Gawain",
+      "ids" : [
+        4348,
+        4356
+      ],
+      "names" : [
+        "npc.sir_gawain_4348",
+        "npc.sir_gawain_4356"
+      ],
+      "combatLevel" : 122,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 105, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 90, "crushDefence" : 300, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 40, "strengthBonus" : 45, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

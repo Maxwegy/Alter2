@@ -1,0 +1,95 @@
+{
+  "page" : "Black dragon",
+  "versions" : [
+    {
+      "source" : "Black dragon#Level 227",
+      "version" : "Level 227",
+      "ids" : [
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        8084,
+        8085
+      ],
+      "names" : [
+        "npc.black_dragon",
+        "npc.black_dragon_253",
+        "npc.black_dragon_254",
+        "npc.black_dragon_255",
+        "npc.black_dragon_256",
+        "npc.black_dragon_257",
+        "npc.black_dragon_258",
+        "npc.black_dragon_259",
+        "npc.black_dragon_8084",
+        "npc.black_dragon_8085"
+      ],
+      "combatLevel" : 227,
+      "hitpoints" : 190,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 200, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 194.7, "categories" : [ "Black Dragons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Black dragon#Level 247",
+      "version" : "Level 247",
+      "ids" : [
+        7861,
+        7862,
+        7863
+      ],
+      "names" : [
+        "npc.black_dragon_7861",
+        "npc.black_dragon_7862",
+        "npc.black_dragon_7863"
+      ],
+      "combatLevel" : 247,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 200, "strength" : 215, "defence" : 200, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Melee)",
+        "50+ (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 262.0, "categories" : [ "Black Dragons" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

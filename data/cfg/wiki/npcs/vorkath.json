@@ -1,0 +1,88 @@
+{
+  "page" : "Vorkath",
+  "versions" : [
+    {
+      "source" : "Vorkath#Dragon Slayer II",
+      "version" : "Dragon Slayer II",
+      "ids" : [
+        8058,
+        8060
+      ],
+      "names" : [
+        "npc.vorkath_8058",
+        "npc.vorkath_8060"
+      ],
+      "combatLevel" : 392,
+      "hitpoints" : 460,
+      "attackSpeed" : 5,
+      "size" : 7,
+      "levels" : { "attack" : 560, "strength" : 268, "defence" : 164, "ranged" : 268, "magic" : 148 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 148, "rangedAttack" : 96, "stabDefence" : 66, "slashDefence" : 126, "crushDefence" : 126, "magicDefence" : 204, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 14, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 42 },
+      "maxHits" : [
+        "30 (Magic)",
+        "28 (Ranged)",
+        "32 (Melee)",
+        "72 (Dragonfire)",
+        "121 (Dragonfire Bomb/Special)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic",
+        "Ranged",
+        "Dragonfire"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "dragon",
+        "fiery",
+        "undead"
+      ],
+      "slayer" : { "xp" : 460.0, "categories" : [ "Blue Dragons", "Bosses", "Zombies" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Vorkath#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        8059,
+        8061
+      ],
+      "names" : [
+        "npc.vorkath_8059",
+        "npc.vorkath_8061"
+      ],
+      "combatLevel" : 732,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 7,
+      "levels" : { "attack" : 560, "strength" : 308, "defence" : 214, "ranged" : 308, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 78, "stabDefence" : 26, "slashDefence" : 108, "crushDefence" : 108, "magicDefence" : 240, "rangedDefence" : 26, "lightRangedDefence" : 26, "heavyRangedDefence" : 26, "attackBonus" : 16, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 56 },
+      "maxHits" : [
+        "30 (Magic)",
+        "32 (Ranged)",
+        "32 (Melee)",
+        "80 (Dragonfire)",
+        "121 (Dragonfire Bomb/Special)",
+        "41 (Rapid Fire/Special)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic",
+        "Ranged",
+        "Dragonfire"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "dragon",
+        "fiery",
+        "undead"
+      ],
+      "slayer" : { "xp" : 750.0, "categories" : [ "Blue Dragons", "Bosses", "Zombies" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

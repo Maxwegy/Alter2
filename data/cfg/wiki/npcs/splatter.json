@@ -1,0 +1,130 @@
+{
+  "page" : "Splatter",
+  "versions" : [
+    {
+      "source" : "Splatter#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        1689
+      ],
+      "names" : [
+        "npc.splatter"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 17, "defence" : 33, "ranged" : 0, "magic" : 17 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Splatter#Level 33",
+      "version" : "Level 33",
+      "ids" : [
+        1690
+      ],
+      "names" : [
+        "npc.splatter_1690"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 23,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 53, "ranged" : 0, "magic" : 22 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Splatter#Level 44",
+      "version" : "Level 44",
+      "ids" : [
+        1691
+      ],
+      "names" : [
+        "npc.splatter_1691"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 33,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 27, "defence" : 73, "ranged" : 0, "magic" : 27 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Splatter#Level 54",
+      "version" : "Level 54",
+      "ids" : [
+        1692
+      ],
+      "names" : [
+        "npc.splatter_1692"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 43,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 93, "ranged" : 0, "magic" : 32 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Splatter#Level 65",
+      "version" : "Level 65",
+      "ids" : [
+        1693
+      ],
+      "names" : [
+        "npc.splatter_1693"
+      ],
+      "combatLevel" : 65,
+      "hitpoints" : 53,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 37, "defence" : 113, "ranged" : 0, "magic" : 37 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

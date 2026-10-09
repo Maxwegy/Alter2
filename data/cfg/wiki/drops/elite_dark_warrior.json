@@ -1,0 +1,26 @@
+{
+  "page" : "Elite Dark Warrior",
+  "tables" : [
+    {
+      "source" : "Elite Dark Warrior",
+      "npcIds" : [
+        13465,
+        13466
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 143, "name" : "item.prayer_potion1", "min" : 1, "max" : 1, "chance" : [ 16, 117 ], "wiki" : "16/117" },
+        { "item" : 149, "name" : "item.super_attack1", "min" : 1, "max" : 1, "chance" : [ 16, 117 ], "wiki" : "16/117" },
+        { "item" : 161, "name" : "item.super_strength1", "min" : 1, "max" : 1, "chance" : [ 16, 117 ], "wiki" : "16/117" },
+        { "item" : 379, "name" : "item.lobster", "min" : 1, "max" : 2, "chance" : [ 16, 117 ], "wiki" : "16/117" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 22, "max" : 100, "chance" : [ 5, 39 ], "wiki" : "15/117" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 153, "max" : 250, "chance" : [ 5, 39 ], "wiki" : "15/117" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 677, "max" : 1000, "chance" : [ 5, 39 ], "wiki" : "15/117" },
+        { "item" : 1643, "name" : "item.diamond_ring", "min" : 1, "max" : 1, "chance" : [ 1, 117 ], "wiki" : "1/117" },
+        { "item" : 2327, "name" : "item.meat_pie", "min" : 1, "max" : 1, "chance" : [ 7, 117 ], "wiki" : "7/117" }
+      ]
+    }
+  ]
+}

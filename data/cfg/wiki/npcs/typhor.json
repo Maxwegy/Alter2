@@ -1,0 +1,33 @@
+{
+  "page" : "Typhor",
+  "versions" : [
+    {
+      "source" : "Typhor",
+      "ids" : [
+        9295,
+        9296
+      ],
+      "names" : [
+        "npc.typhor",
+        "npc.typhor_9296"
+      ],
+      "combatLevel" : 218,
+      "hitpoints" : 360,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 186, "strength" : 186, "defence" : 186, "ranged" : 1, "magic" : 186 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 0, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Not immune", "freeze" : "100% resistance" },
+      "slayer" : { "level" : 40, "xp" : 360.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

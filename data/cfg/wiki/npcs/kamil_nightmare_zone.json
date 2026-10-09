@@ -1,0 +1,63 @@
+{
+  "page" : "Kamil (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Kamil (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        1129
+      ],
+      "names" : [
+        "npc.kamil_hard"
+      ],
+      "combatLevel" : 273,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 380, "strength" : 160, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "43 (Melee)",
+        "5x2 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 312.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 10 }
+    },
+    {
+      "source" : "Kamil (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6345
+      ],
+      "names" : [
+        "npc.kamil_6345"
+      ],
+      "combatLevel" : 154,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 190, "strength" : 80, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23 (Melee)",
+        "5x2 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 146.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 10 }
+    }
+  ]
+}

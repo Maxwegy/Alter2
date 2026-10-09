@@ -1,0 +1,44 @@
+{
+  "page" : "Head Guard",
+  "versions" : [
+    {
+      "source" : "Head Guard",
+      "ids" : [
+        11093,
+        11095,
+        11097,
+        11099,
+        11101,
+        11103,
+        11105,
+        11107
+      ],
+      "names" : [
+        "npc.head_guard_11093",
+        "npc.head_guard_11095",
+        "npc.head_guard_11097",
+        "npc.head_guard_11099",
+        "npc.head_guard_11101",
+        "npc.head_guard_11103",
+        "npc.head_guard_11105",
+        "npc.head_guard_11107"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 86,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 73, "defence" : 61, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 16, "slashDefence" : 16, "crushDefence" : 18, "magicDefence" : -12, "rangedDefence" : 27, "lightRangedDefence" : 27, "heavyRangedDefence" : 27, "attackBonus" : 17, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

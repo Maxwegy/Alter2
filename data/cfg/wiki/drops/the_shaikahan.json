@@ -1,0 +1,14 @@
+{
+  "page" : "The Shaikahan",
+  "tables" : [
+    {
+      "source" : "The Shaikahan",
+      "npcIds" : [
+        4708
+      ],
+      "always" : [
+        { "item" : 3123, "name" : "item.shaikahan_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

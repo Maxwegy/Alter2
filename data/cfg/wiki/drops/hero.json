@@ -1,0 +1,16 @@
+{
+  "page" : "Hero",
+  "tables" : [
+    {
+      "source" : "Hero",
+      "npcIds" : [
+        3295,
+        11934,
+        11935
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

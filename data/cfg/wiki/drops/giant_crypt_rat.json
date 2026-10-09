@@ -1,0 +1,17 @@
+{
+  "page" : "Giant crypt rat",
+  "tables" : [
+    {
+      "source" : "Giant crypt rat",
+      "npcIds" : [
+        1680,
+        1681,
+        1682
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7824, "name" : "item.giant_rat_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Soldier Scarab",
+  "versions" : [
+    {
+      "source" : "Soldier Scarab",
+      "ids" : [
+        11724
+      ],
+      "names" : [
+        "npc.soldier_scarab"
+      ],
+      "combatLevel" : 89,
+      "hitpoints" : 40,
+      "attackSpeed" : 7,
+      "size" : 3,
+      "levels" : { "attack" : 75, "strength" : 80, "defence" : 80, "ranged" : 95, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 250, "rangedAttack" : 350, "stabDefence" : 15, "slashDefence" : 250, "crushDefence" : 30, "magicDefence" : -15, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 250, "attackBonus" : 100, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 65 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

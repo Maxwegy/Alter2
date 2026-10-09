@@ -1,0 +1,65 @@
+{
+  "page" : "Bloodthirsty Shadow Wyrm",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Shadow Wyrm#Attacking",
+      "version" : "Attacking",
+      "ids" : [
+        12585
+      ],
+      "names" : [
+        "npc.bloodthirsty_shadow_wyrm_12585"
+      ],
+      "combatLevel" : 400,
+      "hitpoints" : 480,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 450, "strength" : 270, "defence" : 125, "ranged" : 187, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 30 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 5520.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Bloodthirsty Shadow Wyrm#Idle",
+      "version" : "Idle",
+      "ids" : [
+        12584
+      ],
+      "names" : [
+        "npc.bloodthirsty_shadow_wyrm"
+      ],
+      "combatLevel" : 400,
+      "hitpoints" : 480,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 450, "strength" : 270, "defence" : 125, "ranged" : 187, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 50, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 30 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 5520.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

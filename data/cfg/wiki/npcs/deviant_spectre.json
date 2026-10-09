@@ -1,0 +1,37 @@
+{
+  "page" : "Deviant spectre",
+  "versions" : [
+    {
+      "source" : "Deviant spectre",
+      "ids" : [
+        7279
+      ],
+      "names" : [
+        "npc.deviant_spectre"
+      ],
+      "combatLevel" : 169,
+      "hitpoints" : 190,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 90, "ranged" : 1, "magic" : 205 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 0, "rangedDefence" : 85, "lightRangedDefence" : 85, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8",
+        "14 (without Nose peg)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 60, "xp" : 194.5, "categories" : [ "Aberrant Spectres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

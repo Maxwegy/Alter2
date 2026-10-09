@@ -1,0 +1,32 @@
+{
+  "page" : "Golem guard",
+  "versions" : [
+    {
+      "source" : "Golem guard",
+      "ids" : [
+        14125
+      ],
+      "names" : [
+        "npc.golem_guard"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 170, "strength" : 170, "defence" : 100, "ranged" : 0, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 180, "slashDefence" : 200, "crushDefence" : 20, "magicDefence" : 40, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ]
+    }
+  ]
+}

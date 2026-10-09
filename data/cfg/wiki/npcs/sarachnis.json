@@ -1,0 +1,33 @@
+{
+  "page" : "Sarachnis",
+  "versions" : [
+    {
+      "source" : "Sarachnis",
+      "ids" : [
+        8713
+      ],
+      "names" : [
+        "npc.sarachnis"
+      ],
+      "combatLevel" : 318,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "respawnTicks" : 17,
+      "size" : 5,
+      "levels" : { "attack" : 200, "strength" : 240, "defence" : 150, "ranged" : 300, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 15, "stabDefence" : 60, "slashDefence" : 40, "crushDefence" : 10, "magicDefence" : 150, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 15, "magicDamage" : 0 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 430.0, "categories" : [ "Bosses", "Spiders" ], "assignedBy" : [ "duradel", "konar", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

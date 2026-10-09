@@ -1,0 +1,21 @@
+{
+  "page" : "Cow calf",
+  "tables" : [
+    {
+      "source" : "Cow calf",
+      "npcIds" : [
+        2792,
+        2794,
+        2801
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 1739, "name" : "item.cowhide", "min" : 1, "max" : 1 },
+        { "item" : 2132, "name" : "item.raw_beef", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

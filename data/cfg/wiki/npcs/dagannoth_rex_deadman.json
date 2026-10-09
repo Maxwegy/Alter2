@@ -1,0 +1,112 @@
+{
+  "page" : "Dagannoth Rex (Deadman)",
+  "versions" : [
+    {
+      "source" : "Dagannoth Rex (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12439
+      ],
+      "names" : [
+        "npc.dagannoth_rex_12439"
+      ],
+      "combatLevel" : 1104,
+      "hitpoints" : 3500,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 255, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 10, "rangedDefence" : 255, "lightRangedDefence" : 255, "heavyRangedDefence" : 255, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth Rex (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12439
+      ],
+      "names" : [
+        "npc.dagannoth_rex_12439"
+      ],
+      "combatLevel" : 417,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 255, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 10, "rangedDefence" : 255, "lightRangedDefence" : 255, "heavyRangedDefence" : 255, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Dagannoth Rex (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12439
+      ],
+      "names" : [
+        "npc.dagannoth_rex_12439"
+      ],
+      "combatLevel" : 479,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 255, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 10, "rangedDefence" : 255, "lightRangedDefence" : 255, "heavyRangedDefence" : 255, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth Rex (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12439
+      ],
+      "names" : [
+        "npc.dagannoth_rex_12439"
+      ],
+      "combatLevel" : 479,
+      "hitpoints" : 1000,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 255, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 10, "rangedDefence" : 255, "lightRangedDefence" : 255, "heavyRangedDefence" : 255, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    }
+  ]
+}

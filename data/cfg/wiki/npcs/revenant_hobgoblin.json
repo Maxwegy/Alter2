@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant hobgoblin",
+  "versions" : [
+    {
+      "source" : "Revenant hobgoblin",
+      "ids" : [
+        7933
+      ],
+      "names" : [
+        "npc.revenant_hobgoblin"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 72,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 41, "ranged" : 60, "magic" : 55 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 5, "rangedAttack" : 25, "stabDefence" : 65, "slashDefence" : 60, "crushDefence" : 68, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 20, "attackBonus" : 20, "strengthBonus" : 24, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 73.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

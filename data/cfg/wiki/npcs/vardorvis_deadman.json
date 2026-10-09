@@ -1,0 +1,85 @@
+{
+  "page" : "Vardorvis (Deadman)",
+  "versions" : [
+    {
+      "source" : "Vardorvis (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13656
+      ],
+      "names" : [
+        "npc.vardorvis_13656"
+      ],
+      "combatLevel" : 777,
+      "hitpoints" : 2500,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 25, "ranged" : 0, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 65, "crushDefence" : 85, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Vardorvis (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13656
+      ],
+      "names" : [
+        "npc.vardorvis_13656"
+      ],
+      "combatLevel" : 558,
+      "hitpoints" : 1500,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 150, "ranged" : 0, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 65, "crushDefence" : 85, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Vardorvis (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13656
+      ],
+      "names" : [
+        "npc.vardorvis_13656"
+      ],
+      "combatLevel" : 402,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 25, "ranged" : 0, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 65, "crushDefence" : 85, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

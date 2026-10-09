@@ -1,0 +1,25 @@
+{
+  "page" : "Myre Blamish Snail",
+  "tables" : [
+    {
+      "source" : "Myre Blamish Snail#Pointed",
+      "npcIds" : [
+        2649
+      ],
+      "always" : [
+        { "item" : 3355, "name" : "item.blamish_myre_shell_3355", "min" : 1, "max" : 1 },
+        { "item" : 3363, "name" : "item.thin_snail", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Myre Blamish Snail#Round",
+      "npcIds" : [
+        2634
+      ],
+      "always" : [
+        { "item" : 3345, "name" : "item.blamish_myre_shell", "min" : 1, "max" : 1 },
+        { "item" : 3363, "name" : "item.thin_snail", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

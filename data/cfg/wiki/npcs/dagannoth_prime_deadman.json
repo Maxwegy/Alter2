@@ -1,0 +1,112 @@
+{
+  "page" : "Dagannoth Prime (Deadman)",
+  "versions" : [
+    {
+      "source" : "Dagannoth Prime (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12442
+      ],
+      "names" : [
+        "npc.dagannoth_prime_12442"
+      ],
+      "combatLevel" : 947,
+      "hitpoints" : 3000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 125, "ranged" : 0, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 255, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth Prime (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12442
+      ],
+      "names" : [
+        "npc.dagannoth_prime_12442"
+      ],
+      "combatLevel" : 417,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 0, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 255, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Dagannoth Prime (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12442
+      ],
+      "names" : [
+        "npc.dagannoth_prime_12442"
+      ],
+      "combatLevel" : 447,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 125, "ranged" : 0, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 255, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth Prime (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12442
+      ],
+      "names" : [
+        "npc.dagannoth_prime_12442"
+      ],
+      "combatLevel" : 447,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 125, "ranged" : 0, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 255, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    }
+  ]
+}

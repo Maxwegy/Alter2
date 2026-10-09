@@ -1,0 +1,95 @@
+{
+  "page" : "Armoured zombie (Defender of Varrock)",
+  "versions" : [
+    {
+      "source" : "Armoured zombie (Defender of Varrock)#Melee (invasion)",
+      "version" : "Melee (invasion)",
+      "ids" : [
+        12730,
+        12731,
+        12732,
+        12733,
+        12734,
+        12736,
+        12738,
+        12755,
+        12757,
+        12758
+      ],
+      "names" : [
+        "npc.armoured_zombie_12730",
+        "npc.armoured_zombie_12731",
+        "npc.armoured_zombie_12732",
+        "npc.armoured_zombie_12733",
+        "npc.armoured_zombie_12734",
+        "npc.armoured_zombie_12736",
+        "npc.armoured_zombie_12738",
+        "npc.armoured_zombie_12755",
+        "npc.armoured_zombie_12757",
+        "npc.armoured_zombie_12758"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 72, "defence" : 68, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Armoured zombie (Defender of Varrock)#Ranged (invasion)",
+      "version" : "Ranged (invasion)",
+      "ids" : [
+        12735,
+        12738,
+        12739,
+        12761,
+        12763,
+        12764
+      ],
+      "names" : [
+        "npc.armoured_zombie_12735",
+        "npc.armoured_zombie_12738",
+        "npc.armoured_zombie_12739",
+        "npc.armoured_zombie_12761",
+        "npc.armoured_zombie_12763",
+        "npc.armoured_zombie_12764"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 72, "defence" : 68, "ranged" : 72, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

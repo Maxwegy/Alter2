@@ -1,0 +1,171 @@
+{
+  "page" : "Ankou",
+  "versions" : [
+    {
+      "source" : "Ankou#Level 75",
+      "version" : "Level 75",
+      "ids" : [
+        2514,
+        2517
+      ],
+      "names" : [
+        "npc.ankou",
+        "npc.ankou_2517"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ankou" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Ankou#Level 82",
+      "version" : "Level 82",
+      "ids" : [
+        2515,
+        2518
+      ],
+      "names" : [
+        "npc.ankou_2515",
+        "npc.ankou_2518"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 65.0, "categories" : [ "Ankou" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Ankou#Level 86",
+      "version" : "Level 86",
+      "ids" : [
+        2516,
+        2519,
+        6608
+      ],
+      "names" : [
+        "npc.ankou_2516",
+        "npc.ankou_2519",
+        "npc.ankou_6608"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Ankou" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Ankou#Level 95",
+      "version" : "Level 95",
+      "ids" : [
+        7257
+      ],
+      "names" : [
+        "npc.ankou_7257"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 70, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ankou" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Ankou#Level 98",
+      "version" : "Level 98",
+      "ids" : [
+        7864
+      ],
+      "names" : [
+        "npc.ankou_7864"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 90, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Ankou" ], "assignedBy" : [ "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

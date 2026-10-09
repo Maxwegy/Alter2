@@ -1,0 +1,35 @@
+{
+  "page" : "Broodoo victim",
+  "tables" : [
+    {
+      "source" : "Broodoo victim#Green",
+      "npcIds" : [
+        6408,
+        6409
+      ],
+      "always" : [
+        { "item" : 6335, "name" : "item.tribal_mask", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Broodoo victim#White",
+      "npcIds" : [
+        6412,
+        6413
+      ],
+      "always" : [
+        { "item" : 6339, "name" : "item.tribal_mask_6339", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Broodoo victim#Yellow",
+      "npcIds" : [
+        6410,
+        6411
+      ],
+      "always" : [
+        { "item" : 6337, "name" : "item.tribal_mask_6337", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

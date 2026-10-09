@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated monkey",
+  "tables" : [
+    {
+      "source" : "Reanimated monkey",
+      "npcIds" : [
+        7019
+      ],
+      "always" : [
+        { "item" : 7854, "name" : "item.monkey_paw", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

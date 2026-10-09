@@ -1,0 +1,30 @@
+{
+  "page" : "Guard (Ranging Guild)",
+  "versions" : [
+    {
+      "source" : "Guard (Ranging Guild)",
+      "ids" : [
+        6056
+      ],
+      "names" : [
+        "npc.guard_6056"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 50,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 40, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 23, "crushDefence" : 27, "magicDefence" : 10, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 19, "strengthBonus" : 8, "rangedStrength" : 8, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

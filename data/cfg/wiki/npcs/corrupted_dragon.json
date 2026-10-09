@@ -1,0 +1,29 @@
+{
+  "page" : "Corrupted Dragon",
+  "versions" : [
+    {
+      "source" : "Corrupted Dragon",
+      "ids" : [
+        9047
+      ],
+      "names" : [
+        "npc.corrupted_dragon"
+      ],
+      "combatLevel" : 258,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 147, "strength" : 147, "defence" : 98, "ranged" : 147, "magic" : 98 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 146, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 226 },
+      "maxHits" : [
+        "48"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

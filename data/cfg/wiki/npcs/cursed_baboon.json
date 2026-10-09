@@ -1,0 +1,29 @@
+{
+  "page" : "Cursed Baboon",
+  "versions" : [
+    {
+      "source" : "Cursed Baboon",
+      "ids" : [
+        11717
+      ],
+      "names" : [
+        "npc.cursed_baboon"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 20, "ranged" : 60, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 25, "stabDefence" : 900, "slashDefence" : 900, "crushDefence" : 900, "magicDefence" : -60, "rangedDefence" : -50, "lightRangedDefence" : -50, "heavyRangedDefence" : -50, "attackBonus" : 25, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true }
+    }
+  ]
+}

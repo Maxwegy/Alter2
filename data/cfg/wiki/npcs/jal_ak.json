@@ -1,0 +1,33 @@
+{
+  "page" : "Jal-Ak",
+  "versions" : [
+    {
+      "source" : "Jal-Ak",
+      "ids" : [
+        7693
+      ],
+      "names" : [
+        "npc.jalak"
+      ],
+      "combatLevel" : 165,
+      "hitpoints" : 40,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 160, "strength" : 160, "defence" : 95, "ranged" : 160, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 45, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 25, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 0, "strengthBonus" : 45, "rangedStrength" : 45, "magicDamage" : 45 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 40.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

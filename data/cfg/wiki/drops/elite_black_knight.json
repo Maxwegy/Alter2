@@ -1,0 +1,48 @@
+{
+  "page" : "Elite Black Knight",
+  "tables" : [
+    {
+      "source" : "Elite Black Knight",
+      "npcIds" : [
+        13463,
+        13464,
+        13480,
+        13481
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 45, "name" : "item.opal_bolt_tips", "min" : 30, "max" : 40, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 143, "name" : "item.prayer_potion1", "min" : 1, "max" : 3, "chance" : [ 7, 61 ], "wiki" : "14/122" },
+        { "item" : 147, "name" : "item.super_attack2", "min" : 1, "max" : 2, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 159, "name" : "item.super_strength2", "min" : 1, "max" : 2, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 173, "name" : "item.ranging_potion1", "min" : 1, "max" : 2, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 379, "name" : "item.lobster", "min" : 2, "max" : 4, "chance" : [ 1, 61 ], "wiki" : "2/122" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 545, "max" : 2500, "chance" : [ 19, 122 ], "wiki" : "19/122" },
+        { "item" : 1604, "name" : "item.ruby_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 1606, "name" : "item.emerald_noted", "min" : 5, "max" : 8, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 1608, "name" : "item.sapphire_noted", "min" : 8, "max" : 12, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 1615, "name" : "item.dragonstone", "min" : 1, "max" : 1, "chance" : [ 1, 122 ], "wiki" : "1/122" },
+        { "item" : 1640, "name" : "item.emerald_ring_noted", "min" : 6, "max" : 10, "noted" : true, "chance" : [ 7, 122 ], "wiki" : "7/122" },
+        { "item" : 1642, "name" : "item.ruby_ring_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 1644, "name" : "item.diamond_ring_noted", "min" : 2, "max" : 5, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 1645, "name" : "item.dragonstone_ring", "min" : 1, "max" : 1, "chance" : [ 1, 122 ], "wiki" : "1/122" },
+        { "item" : 1657, "name" : "item.sapphire_necklace_noted", "min" : 6, "max" : 10, "noted" : true, "chance" : [ 7, 122 ], "wiki" : "7/122" },
+        { "item" : 2327, "name" : "item.meat_pie", "min" : 1, "max" : 1, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 2356, "name" : "item.silver_bar_noted", "min" : 20, "max" : 30, "noted" : true, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 2878, "name" : "item.cooked_chompy", "min" : 28, "max" : 28, "chance" : [ 1, 122 ], "wiki" : "1/122" },
+        { "item" : 3042, "name" : "item.magic_potion3", "min" : 1, "max" : 1, "chance" : [ 3, 122 ], "wiki" : "3/122" },
+        { "item" : 7188, "name" : "item.fish_pie", "min" : 1, "max" : 1, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 9189, "name" : "item.sapphire_bolt_tips", "min" : 45, "max" : 60, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 9190, "name" : "item.emerald_bolt_tips", "min" : 30, "max" : 45, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 9193, "name" : "item.dragonstone_bolt_tips", "min" : 25, "max" : 75, "chance" : [ 1, 61 ], "wiki" : "2/122" },
+        { "item" : 9194, "name" : "item.onyx_bolt_tips", "min" : 15, "max" : 60, "chance" : [ 1, 122 ], "wiki" : "1/122" },
+        { "item" : 21085, "name" : "item.jade_ring_noted", "min" : 1, "max" : 3, "noted" : true, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 21091, "name" : "item.opal_necklace_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 7, 122 ], "wiki" : "7/122" },
+        { "item" : 21094, "name" : "item.jade_necklace_noted", "min" : 2, "max" : 5, "noted" : true, "chance" : [ 2, 61 ], "wiki" : "4/122" },
+        { "item" : 21106, "name" : "item.topaz_amulet_u_noted", "min" : 2, "max" : 3, "noted" : true, "chance" : [ 1, 61 ], "wiki" : "2/122" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "page" : "K'ril Tsutsaroth (Deadman)",
+  "versions" : [
+    {
+      "source" : "K'ril Tsutsaroth (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12446
+      ],
+      "names" : [
+        "npc.kril_tsutsaroth_12446"
+      ],
+      "combatLevel" : 650,
+      "hitpoints" : 1500,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 340, "strength" : 300, "defence" : 270, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 130, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "46 (Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "K'ril Tsutsaroth (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12446
+      ],
+      "names" : [
+        "npc.kril_tsutsaroth_12446"
+      ],
+      "combatLevel" : 650,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 340, "strength" : 300, "defence" : 270, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 130, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "46 (Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "K'ril Tsutsaroth (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12446
+      ],
+      "names" : [
+        "npc.kril_tsutsaroth_12446"
+      ],
+      "combatLevel" : 650,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 340, "strength" : 300, "defence" : 270, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 130, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "46 (Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "K'ril Tsutsaroth (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12446
+      ],
+      "names" : [
+        "npc.kril_tsutsaroth_12446"
+      ],
+      "combatLevel" : 650,
+      "hitpoints" : 750,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 340, "strength" : 300, "defence" : 270, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 130, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "46 (Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "page" : "Highwayman",
+  "versions" : [
+    {
+      "source" : "Highwayman#Hood",
+      "version" : "Hood",
+      "ids" : [
+        519
+      ],
+      "names" : [
+        "npc.highwayman_519"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 2, "strength" : 2, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Highwayman#No hood",
+      "version" : "No hood",
+      "ids" : [
+        518
+      ],
+      "names" : [
+        "npc.highwayman"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 2, "strength" : 2, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Mutated Tortoise",
+  "versions" : [
+    {
+      "source" : "Mutated Tortoise",
+      "ids" : [
+        12465
+      ],
+      "names" : [
+        "npc.mutated_tortoise"
+      ],
+      "combatLevel" : 247,
+      "hitpoints" : 440,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 130, "strength" : 170, "defence" : 120, "ranged" : 0, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 56, "xp" : 4510.0, "categories" : [ "Warped Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "konar quo maten", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page" : "Lobstrosity",
+  "versions" : [
+    {
+      "source" : "Lobstrosity",
+      "ids" : [
+        7796
+      ],
+      "names" : [
+        "npc.lobstrosity"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 3,
+      "levels" : { "attack" : 60, "strength" : 80, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 50, "crushDefence" : 15, "magicDefence" : 99, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

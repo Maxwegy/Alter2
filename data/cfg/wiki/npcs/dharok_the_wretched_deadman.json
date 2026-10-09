@@ -1,0 +1,124 @@
+{
+  "page" : "Dharok the Wretched (Deadman)",
+  "versions" : [
+    {
+      "source" : "Dharok the Wretched (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12447
+      ],
+      "names" : [
+        "npc.dharok_the_wretched_12447"
+      ],
+      "combatLevel" : 666,
+      "hitpoints" : 300,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -58, "rangedAttack" : -18, "stabDefence" : 252, "slashDefence" : 250, "crushDefence" : 244, "magicDefence" : -11, "rangedDefence" : 249, "lightRangedDefence" : 249, "heavyRangedDefence" : 249, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    },
+    {
+      "source" : "Dharok the Wretched (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12447
+      ],
+      "names" : [
+        "npc.dharok_the_wretched_12447"
+      ],
+      "combatLevel" : 666,
+      "hitpoints" : 200,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -58, "rangedAttack" : -18, "stabDefence" : 252, "slashDefence" : 250, "crushDefence" : 244, "magicDefence" : -11, "rangedDefence" : 249, "lightRangedDefence" : 249, "heavyRangedDefence" : 249, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Dharok the Wretched (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12447
+      ],
+      "names" : [
+        "npc.dharok_the_wretched_12447"
+      ],
+      "combatLevel" : 666,
+      "hitpoints" : 200,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -58, "rangedAttack" : -18, "stabDefence" : 252, "slashDefence" : 250, "crushDefence" : 244, "magicDefence" : -11, "rangedDefence" : 249, "lightRangedDefence" : 249, "heavyRangedDefence" : 249, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    },
+    {
+      "source" : "Dharok the Wretched (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12447
+      ],
+      "names" : [
+        "npc.dharok_the_wretched_12447"
+      ],
+      "combatLevel" : 666,
+      "hitpoints" : 300,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -58, "rangedAttack" : -18, "stabDefence" : 252, "slashDefence" : 250, "crushDefence" : 244, "magicDefence" : -11, "rangedDefence" : 249, "lightRangedDefence" : 249, "heavyRangedDefence" : 249, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    }
+  ]
+}

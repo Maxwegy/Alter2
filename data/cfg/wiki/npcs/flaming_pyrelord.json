@@ -1,0 +1,34 @@
+{
+  "page" : "Flaming pyrelord",
+  "versions" : [
+    {
+      "source" : "Flaming pyrelord",
+      "ids" : [
+        7394
+      ],
+      "names" : [
+        "npc.flaming_pyrelord"
+      ],
+      "combatLevel" : 97,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 98, "strength" : 65, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 0, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 30, "xp" : 1250.0, "categories" : [ "Pyrefiends" ], "assignedBy" : [ "mazchna", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

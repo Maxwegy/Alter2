@@ -1,0 +1,59 @@
+{
+  "page" : "Bandit",
+  "versions" : [
+    {
+      "source" : "Bandit#Level 130",
+      "version" : "Level 130",
+      "ids" : [
+        6605
+      ],
+      "names" : [
+        "npc.bandit_6605"
+      ],
+      "combatLevel" : 130,
+      "hitpoints" : 155,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 57, "strength" : 57, "defence" : 57, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 23, "crushDefence" : 22, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 57, "strengthBonus" : 52, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 158.8, "categories" : [ "Bandits" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Bandit#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        1026
+      ],
+      "names" : [
+        "npc.bandit_1026"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 27,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 17, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 11, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 27.0, "categories" : [ "Bandits" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "page" : "Elvarg (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Elvarg (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6118
+      ],
+      "names" : [
+        "npc.elvarg_hard"
+      ],
+      "combatLevel" : 214,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 210, "defence" : 70, "ranged" : 1, "magic" : 210 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Slash)",
+        "70 (Dragonfire)",
+        "10 (with anti-dragon shield)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 246.0, "categories" : [ "Green Dragons" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    },
+    {
+      "source" : "Elvarg (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6349
+      ],
+      "names" : [
+        "npc.elvarg_6349"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Slash)",
+        "70 (Dragonfire)",
+        "10 (with anti-dragon shield)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 80.0, "categories" : [ "Green Dragons" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 30 }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "page" : "Rabbit",
+  "tables" : [
+    {
+      "source" : "Rabbit",
+      "npcIds" : [
+        1852,
+        1853,
+        3420,
+        3421,
+        3422,
+        3664,
+        3665,
+        12851,
+        12852,
+        12853
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 3226, "name" : "item.raw_rabbit", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7896, "name" : "item.rabbit_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

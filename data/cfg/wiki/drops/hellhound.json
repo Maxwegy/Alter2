@@ -1,0 +1,112 @@
+{
+  "page" : "Hellhound",
+  "tables" : [
+    {
+      "source" : "Hellhound#Catacombs of Kourend",
+      "npcIds" : [
+        104,
+        105,
+        3133,
+        7256,
+        7877
+      ],
+      "tertiary" : [
+        { "item" : 19677, "name" : "item.ancient_shard", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 19679, "name" : "item.dark_totem_base", "min" : 1, "max" : 1, "chance" : [ 1, 384 ], "wiki" : "1/384" },
+        { "item" : 19681, "name" : "item.dark_totem_middle", "min" : 1, "max" : 1, "chance" : [ 1, 384 ], "wiki" : "1/384" },
+        { "item" : 19683, "name" : "item.dark_totem_top", "min" : 1, "max" : 1, "chance" : [ 1, 384 ], "wiki" : "1/384" }
+      ]
+    },
+    {
+      "source" : "Hellhound#God Wars Dungeon",
+      "npcIds" : [
+        104,
+        105,
+        3133,
+        7256,
+        7877
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 95 ], "wiki" : "1/95" },
+        { "item" : 26997, "name" : "item.ensouled_hellhound_head_26997", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" }
+      ]
+    },
+    {
+      "source" : "Hellhound#Regular",
+      "npcIds" : [
+        104,
+        105,
+        3133,
+        7256,
+        7877
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 560, "name" : "item.death_rune", "min" : 10, "max" : 10, "chance" : [ 3, 25 ], "wiki" : "6/50" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 20, "max" : 20, "chance" : [ 3, 50 ], "wiki" : "3/50" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 50, "max" : 50, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 13233, "name" : "item.smouldering_stone", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "wiki" : "1/32,768" },
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 228 ], "wiki" : "1/228" }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 96 ], "wiki" : "1/96" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 91 ], "wiki" : "1/91" },
+        { "item" : 26997, "name" : "item.ensouled_hellhound_head_26997", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" }
+      ]
+    },
+    {
+      "source" : "Hellhound#Wilderness Slayer Cave",
+      "npcIds" : [
+        104,
+        105,
+        3133,
+        7256,
+        7877
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 12775, "name" : "item.annakarl_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12776, "name" : "item.carrallanger_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12777, "name" : "item.dareeyak_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12778, "name" : "item.ghorrock_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12779, "name" : "item.kharyrll_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12780, "name" : "item.lassar_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12781, "name" : "item.paddewwa_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12782, "name" : "item.senntisten_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 12783, "name" : "item.ring_of_wealth_scroll", "min" : 1, "max" : 1, "chance" : [ 2, 653 ], "wiki" : "1/326.5", "approx" : true },
+        { "item" : 12786, "name" : "item.magic_shortbow_scroll", "min" : 1, "max" : 1, "chance" : [ 2, 653 ], "wiki" : "1/326.5", "approx" : true },
+        { "item" : 13233, "name" : "item.smouldering_stone", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
+        { "item" : 21802, "name" : "item.revenant_cave_teleport", "min" : 1, "max" : 1, "chance" : [ 10, 261 ], "wiki" : "1/26.1", "approx" : true },
+        { "item" : 24187, "name" : "item.trouver_parchment", "min" : 2, "max" : 2, "chance" : [ 10, 13059 ], "wiki" : "1/1,305.9", "approx" : true },
+        { "item" : 24251, "name" : "item.wilderness_crabs_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 24336, "name" : "item.target_teleport", "min" : 1, "max" : 1, "chance" : [ 5, 653 ], "wiki" : "1/130.6", "approx" : true },
+        { "item" : 24585, "name" : "item.looting_bag_note", "min" : 1, "max" : 1, "chance" : [ 10, 13059 ], "wiki" : "1/1,305.9", "approx" : true }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 76 ], "wiki" : "1/76" },
+        { "item" : 24589, "name" : "item.blighted_manta_ray", "min" : 1, "max" : 2, "chance" : [ 10, 87 ], "wiki" : "1/8.7", "approx" : true },
+        { "item" : 24592, "name" : "item.blighted_anglerfish", "min" : 1, "max" : 2, "chance" : [ 10, 87 ], "wiki" : "1/8.7", "approx" : true },
+        { "item" : 24595, "name" : "item.blighted_karambwan", "min" : 1, "max" : 2, "chance" : [ 10, 131 ], "wiki" : "1/13.1", "approx" : true },
+        { "item" : 24598, "name" : "item.blighted_super_restore4", "min" : 1, "max" : 1, "chance" : [ 10, 261 ], "wiki" : "1/26.1", "approx" : true },
+        { "item" : 24607, "name" : "item.blighted_ancient_ice_sack", "min" : 1, "max" : 10, "chance" : [ 10, 131 ], "wiki" : "1/13.1", "approx" : true },
+        { "item" : 24613, "name" : "item.blighted_entangle_sack", "min" : 1, "max" : 10, "chance" : [ 2, 13 ], "wiki" : "1/6.5", "approx" : true },
+        { "item" : 24615, "name" : "item.blighted_teleport_spell_sack", "min" : 1, "max" : 10, "chance" : [ 10, 131 ], "wiki" : "1/13.1", "approx" : true },
+        { "item" : 24621, "name" : "item.blighted_vengeance_sack", "min" : 1, "max" : 10, "chance" : [ 10, 131 ], "wiki" : "1/13.1", "approx" : true },
+        { "item" : 26997, "name" : "item.ensouled_hellhound_head_26997", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" }
+      ]
+    }
+  ]
+}

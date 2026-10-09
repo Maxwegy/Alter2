@@ -1,0 +1,15 @@
+{
+  "page" : "Tanglefoot (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Tanglefoot (Nightmare Zone)",
+      "npcIds" : [
+        6291,
+        6353
+      ],
+      "always" : [
+        { "item" : 6020, "name" : "item.leaves", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

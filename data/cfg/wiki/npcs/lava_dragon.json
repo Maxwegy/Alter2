@@ -1,0 +1,38 @@
+{
+  "page" : "Lava dragon",
+  "versions" : [
+    {
+      "source" : "Lava dragon",
+      "ids" : [
+        6593
+      ],
+      "names" : [
+        "npc.lava_dragon"
+      ],
+      "combatLevel" : 252,
+      "hitpoints" : 230,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 4,
+      "levels" : { "attack" : 240, "strength" : 220, "defence" : 220, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 248.0, "categories" : [ "Lava Dragons" ], "assignedBy" : [ "krystilia" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

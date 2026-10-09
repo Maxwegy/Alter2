@@ -1,0 +1,14 @@
+{
+  "page" : "Gnome Mage",
+  "tables" : [
+    {
+      "source" : "Gnome Mage",
+      "npcIds" : [
+        6099
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

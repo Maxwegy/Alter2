@@ -638,6 +638,7 @@ class World(val gameContext: GameContext, val devContext: DevContext) {
         npc.combatDef.bonuses.forEachIndexed { index, bonus -> npc.equipmentBonuses[index] = bonus }
         npc.respawns = combatDef.respawnDelay > 0
         npc.setCurrentHp(npc.combatDef.hitpoints)
+        combatDef.applyLevelsTo(npc.stats)
     }
 
     /**

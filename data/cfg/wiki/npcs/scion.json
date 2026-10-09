@@ -1,0 +1,33 @@
+{
+  "page" : "Scion",
+  "versions" : [
+    {
+      "source" : "Scion",
+      "ids" : [
+        5918,
+        6177
+      ],
+      "names" : [
+        "npc.scion",
+        "npc.scion_6177"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 90, "defence" : 50, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 30, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Ranged)",
+        "10 (Melee)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

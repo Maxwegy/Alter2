@@ -1,0 +1,19 @@
+{
+  "page" : "Jubster",
+  "tables" : [
+    {
+      "source" : "Jubster",
+      "npcIds" : [
+        3604
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7566, "name" : "item.raw_jubbly", "min" : 3, "max" : 7 }
+      ],
+      "main" : [
+        { "item" : 10859, "name" : "item.tea_flask", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 10881, "name" : "item.gold_satchel", "min" : 1, "max" : 1, "chance" : [ 3, 20 ], "wiki" : "3/20" }
+      ]
+    }
+  ]
+}

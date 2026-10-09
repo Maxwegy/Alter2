@@ -1,0 +1,20 @@
+{
+  "page" : "Monkey Archer",
+  "tables" : [
+    {
+      "source" : "Monkey Archer",
+      "npcIds" : [
+        5272,
+        5273,
+        5274,
+        6813
+      ],
+      "always" : [
+        { "item" : 3179, "name" : "item.small_ninja_monkey_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 13451, "name" : "item.ensouled_monkey_head_13451", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
+      ]
+    }
+  ]
+}

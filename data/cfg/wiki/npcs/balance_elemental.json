@@ -1,0 +1,80 @@
+{
+  "page" : "Balance Elemental",
+  "versions" : [
+    {
+      "source" : "Balance Elemental#Magic",
+      "version" : "Magic",
+      "ids" : [
+        13530
+      ],
+      "names" : [
+        "npc.balance_elemental_13530"
+      ],
+      "combatLevel" : 524,
+      "hitpoints" : 750,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 275, "strength" : 286, "defence" : 275, "ranged" : 275, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 0, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : 0, "lightRangedDefence" : 5, "heavyRangedDefence" : -40, "attackBonus" : 0, "strengthBonus" : 22, "rangedStrength" : 22, "magicDamage" : 22 },
+      "maxHits" : [
+        "40 (standard)<br>89 (stat-draining)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Balance Elemental#Melee",
+      "version" : "Melee",
+      "ids" : [
+        13529
+      ],
+      "names" : [
+        "npc.balance_elemental_13529"
+      ],
+      "combatLevel" : 524,
+      "hitpoints" : 750,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 275, "strength" : 286, "defence" : 275, "ranged" : 275, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 0, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : 0, "lightRangedDefence" : 5, "heavyRangedDefence" : -40, "attackBonus" : 0, "strengthBonus" : 22, "rangedStrength" : 22, "magicDamage" : 22 },
+      "maxHits" : [
+        "40 (standard)<br>89 (stat-draining)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Balance Elemental#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        13528
+      ],
+      "names" : [
+        "npc.balance_elemental"
+      ],
+      "combatLevel" : 524,
+      "hitpoints" : 750,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 275, "strength" : 286, "defence" : 275, "ranged" : 275, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 0, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : 0, "lightRangedDefence" : 5, "heavyRangedDefence" : -40, "attackBonus" : 0, "strengthBonus" : 22, "rangedStrength" : 22, "magicDamage" : 22 },
+      "maxHits" : [
+        "40 (standard)<br>89 (stat-draining)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

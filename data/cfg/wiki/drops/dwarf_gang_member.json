@@ -1,0 +1,16 @@
+{
+  "page" : "Dwarf gang member",
+  "tables" : [
+    {
+      "source" : "Dwarf gang member",
+      "npcIds" : [
+        1354,
+        1355,
+        1356
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

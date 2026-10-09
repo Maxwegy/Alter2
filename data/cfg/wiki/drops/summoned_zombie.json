@@ -1,0 +1,14 @@
+{
+  "page" : "Summoned Zombie",
+  "tables" : [
+    {
+      "source" : "Summoned Zombie",
+      "npcIds" : [
+        69
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "page" : "Screaming banshee",
+  "versions" : [
+    {
+      "source" : "Screaming banshee",
+      "ids" : [
+        7390
+      ],
+      "names" : [
+        "npc.screaming_banshee"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 61,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 65, "strength" : 61, "defence" : 56, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 13, "slashDefence" : 13, "crushDefence" : 13, "magicDefence" : 0, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 15, "xp" : 610.0, "categories" : [ "Banshees" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

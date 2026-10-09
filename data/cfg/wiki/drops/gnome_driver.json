@@ -1,0 +1,14 @@
+{
+  "page" : "Gnome Driver",
+  "tables" : [
+    {
+      "source" : "Gnome Driver",
+      "npcIds" : [
+        6098
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

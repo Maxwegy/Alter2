@@ -1,0 +1,15 @@
+{
+  "page" : "The Kendal (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "The Kendal (Nightmare Zone)",
+      "npcIds" : [
+        6322,
+        6383
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

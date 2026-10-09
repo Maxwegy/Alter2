@@ -1,0 +1,80 @@
+{
+  "page" : "Nechryael",
+  "tables" : [
+    {
+      "source" : "Nechryael",
+      "npcIds" : [
+        8,
+        11
+      ],
+      "always" : [
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 361, "name" : "item.tuna", "min" : 1, "max" : 1, "chance" : [ 3, 116 ], "wiki" : "3/116" },
+        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 5, "max" : 5, "chance" : [ 3, 58 ], "wiki" : "6/116" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 10, "max" : 10, "chance" : [ 3, 58 ], "wiki" : "6/116" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 45, "max" : 45, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 67, "max" : 67, "chance" : [ 100, 494933 ], "wiki" : "1/4,949.33" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 37, "max" : 37, "chance" : [ 2, 29 ], "wiki" : "8/116" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 25, "max" : 35, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 45, "max" : 45, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 15, "max" : 20, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 829, "name" : "item.adamant_javelin", "min" : 20, "max" : 20, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 287961 ], "wiki" : "1/2,879.61" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 150, "max" : 150, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 42, "max" : 42, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 59023 ], "wiki" : "1/590.23" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 59023 ], "wiki" : "1/590.23" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 500, "max" : 999, "chance" : [ 5, 232 ], "wiki" : "2.5/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1000, "max" : 1499, "chance" : [ 13, 116 ], "wiki" : "13/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1500, "max" : 2000, "chance" : [ 21, 232 ], "wiki" : "10.5/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2500, "max" : 2999, "chance" : [ 3, 58 ], "wiki" : "6/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3000, "max" : 3000, "chance" : [ 20, 14141 ], "wiki" : "1/707.05" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3000, "max" : 3500, "chance" : [ 3, 116 ], "wiki" : "3/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5000, "max" : 5000, "chance" : [ 1, 116 ], "wiki" : "1/116" },
+        { "item" : 1073, "name" : "item.adamant_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 14848 ], "wiki" : "1/14,848" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 3, 116 ], "wiki" : "3/116" },
+        { "item" : 1185, "name" : "item.rune_sq_shield", "min" : 1, "max" : 1, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 1199, "name" : "item.adamant_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 58 ], "wiki" : "2/116" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 14848 ], "wiki" : "1/14,848" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 25, 294658 ], "wiki" : "1/11,786.32" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 3143019 ], "wiki" : "1/31,430.19" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 100, 494933 ], "wiki" : "1/4,949.33" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 100, 494933 ], "wiki" : "1/4,949.33" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 95987 ], "wiki" : "1/959.87" },
+        { "item" : 1615, "name" : "item.dragonstone", "min" : 1, "max" : 1, "chance" : [ 1, 7424 ], "wiki" : "1/7,424" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 143981 ], "wiki" : "1/1,439.81" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 20, 7199 ], "wiki" : "1/359.95" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 50, 8999 ], "wiki" : "1/179.98" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 8999 ], "wiki" : "1/89.99" },
+        { "item" : 1762, "name" : "item.soft_clay_noted", "min" : 25, "max" : 25, "noted" : true, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 5, 14848 ], "wiki" : "1/2,969.6" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 25, 589316 ], "wiki" : "1/23,572.64" },
+        { "item" : 4131, "name" : "item.rune_boots", "min" : 1, "max" : 1, "chance" : [ 1, 116 ], "wiki" : "1/116" },
+        { "item" : 5100, "name" : "item.limpwurt_seed", "min" : 1, "max" : 1, "chance" : [ 3, 58 ], "wiki" : "6/116" },
+        { "item" : 5106, "name" : "item.poison_ivy_seed", "min" : 1, "max" : 1, "chance" : [ 5, 341 ], "rolls" : 2, "wiki" : "1/68.2" },
+        { "item" : 5280, "name" : "item.cactus_seed", "min" : 1, "max" : 1, "chance" : [ 5, 366 ], "rolls" : 2, "wiki" : "1/73.2" },
+        { "item" : 5281, "name" : "item.belladonna_seed", "min" : 1, "max" : 1, "chance" : [ 10, 491 ], "rolls" : 2, "wiki" : "1/49.1" },
+        { "item" : 5296, "name" : "item.toadflax_seed", "min" : 1, "max" : 1, "chance" : [ 2, 65 ], "rolls" : 2, "wiki" : "1/32.5" },
+        { "item" : 5297, "name" : "item.irit_seed", "min" : 1, "max" : 1, "chance" : [ 2, 95 ], "rolls" : 2, "wiki" : "1/47.5" },
+        { "item" : 5298, "name" : "item.avantoe_seed", "min" : 1, "max" : 1, "chance" : [ 2, 139 ], "rolls" : 2, "wiki" : "1/69.5" },
+        { "item" : 5299, "name" : "item.kwuarm_seed", "min" : 1, "max" : 1, "chance" : [ 5, 509 ], "rolls" : 2, "wiki" : "1/101.8" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1527 ], "rolls" : 2, "wiki" : "1/152.7" },
+        { "item" : 5301, "name" : "item.cadantine_seed", "min" : 1, "max" : 1, "chance" : [ 2, 439 ], "rolls" : 2, "wiki" : "1/219.5" },
+        { "item" : 5302, "name" : "item.lantadyme_seed", "min" : 1, "max" : 1, "chance" : [ 5, 1527 ], "rolls" : 2, "wiki" : "1/305.4" },
+        { "item" : 5303, "name" : "item.dwarf_weed_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5017 ], "rolls" : 2, "wiki" : "1/501.7" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 2, 1561 ], "rolls" : 2, "wiki" : "1/780.5" },
+        { "item" : 22873, "name" : "item.potato_cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1003 ], "rolls" : 2, "wiki" : "1/100.3" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 3, "max" : 6, "chance" : [ 5, 1756 ], "rolls" : 2, "wiki" : "1/351.2" }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 77 ], "wiki" : "1/77" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "page" : "Revenant maledictus",
+  "versions" : [
+    {
+      "source" : "Revenant maledictus",
+      "ids" : [
+        11246
+      ],
+      "names" : [
+        "npc.revenant_maledictus"
+      ],
+      "combatLevel" : 397,
+      "hitpoints" : 1250,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 106, "strength" : 126, "defence" : 90, "ranged" : 130, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 265, "stabDefence" : 201, "slashDefence" : 206, "crushDefence" : 188, "magicDefence" : 101, "rangedDefence" : 231, "lightRangedDefence" : 231, "heavyRangedDefence" : 231, "attackBonus" : 72, "strengthBonus" : 78, "rangedStrength" : 60, "magicDamage" : 60 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 920.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

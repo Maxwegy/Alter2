@@ -1,0 +1,272 @@
+{
+  "page" : "Vyrewatch",
+  "versions" : [
+    {
+      "source" : "Vyrewatch#Level 105",
+      "version" : "Level 105",
+      "ids" : [
+        3709,
+        3713,
+        3717,
+        3721,
+        3725,
+        3729,
+        3748,
+        3752,
+        3756,
+        3760,
+        8300,
+        8301,
+        8302,
+        8303,
+        8304,
+        8305,
+        8306,
+        8307,
+        9735,
+        9736,
+        9737,
+        9738,
+        9739,
+        9740,
+        9741,
+        9742
+      ],
+      "names" : [
+        "npc.vyrewatch",
+        "npc.vyrewatch_3713",
+        "npc.vyrewatch_3717",
+        "npc.vyrewatch_3721",
+        "npc.vyrewatch_3725",
+        "npc.vyrewatch_3729",
+        "npc.vyrewatch_3748",
+        "npc.vyrewatch_3752",
+        "npc.vyrewatch_3756",
+        "npc.vyrewatch_3760",
+        "npc.vyrewatch_8300",
+        "npc.vyrewatch_8301",
+        "npc.vyrewatch_8302",
+        "npc.vyrewatch_8303",
+        "npc.vyrewatch_8304",
+        "npc.vyrewatch_8305",
+        "npc.vyrewatch_8306",
+        "npc.vyrewatch_8307",
+        "npc.vyrewatch_9735",
+        "npc.vyrewatch_9736",
+        "npc.vyrewatch_9737",
+        "npc.vyrewatch_9738",
+        "npc.vyrewatch_9739",
+        "npc.vyrewatch_9740",
+        "npc.vyrewatch_9741",
+        "npc.vyrewatch_9742"
+      ],
+      "combatLevel" : 105,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 86, "defence" : 85, "ranged" : 105, "magic" : 105 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 90.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vyrewatch#Level 110",
+      "version" : "Level 110",
+      "ids" : [
+        3710,
+        3714,
+        3718,
+        3722,
+        3726,
+        3730,
+        3749,
+        3753,
+        3757,
+        3761
+      ],
+      "names" : [
+        "npc.vyrewatch_3710",
+        "npc.vyrewatch_3714",
+        "npc.vyrewatch_3718",
+        "npc.vyrewatch_3722",
+        "npc.vyrewatch_3726",
+        "npc.vyrewatch_3730",
+        "npc.vyrewatch_3749",
+        "npc.vyrewatch_3753",
+        "npc.vyrewatch_3757",
+        "npc.vyrewatch_3761"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 90,
+      "attackSpeed" : 8,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 96, "defence" : 85, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 90.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vyrewatch#Level 120",
+      "version" : "Level 120",
+      "ids" : [
+        3711,
+        3715,
+        3719,
+        3723,
+        3727,
+        3731,
+        3750,
+        3754,
+        3758,
+        3762
+      ],
+      "names" : [
+        "npc.vyrewatch_3711",
+        "npc.vyrewatch_3715",
+        "npc.vyrewatch_3719",
+        "npc.vyrewatch_3723",
+        "npc.vyrewatch_3727",
+        "npc.vyrewatch_3731",
+        "npc.vyrewatch_3750",
+        "npc.vyrewatch_3754",
+        "npc.vyrewatch_3758",
+        "npc.vyrewatch_3762"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 105,
+      "attackSpeed" : 8,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 106, "defence" : 85, "ranged" : 120, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 105.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vyrewatch#Level 125",
+      "version" : "Level 125",
+      "ids" : [
+        3712,
+        3716,
+        3720,
+        3724,
+        3728,
+        3732,
+        3751,
+        3755,
+        3759,
+        3763
+      ],
+      "names" : [
+        "npc.vyrewatch_3712",
+        "npc.vyrewatch_3716",
+        "npc.vyrewatch_3720",
+        "npc.vyrewatch_3724",
+        "npc.vyrewatch_3728",
+        "npc.vyrewatch_3732",
+        "npc.vyrewatch_3751",
+        "npc.vyrewatch_3755",
+        "npc.vyrewatch_3759",
+        "npc.vyrewatch_3763"
+      ],
+      "combatLevel" : 125,
+      "hitpoints" : 110,
+      "attackSpeed" : 8,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 116, "defence" : 85, "ranged" : 120, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 110.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vyrewatch#Level 87",
+      "version" : "Level 87",
+      "ids" : [
+        8252,
+        8253,
+        8254,
+        8255,
+        8256,
+        8257,
+        8258,
+        8259
+      ],
+      "names" : [
+        "npc.vyrewatch_8252",
+        "npc.vyrewatch_8253",
+        "npc.vyrewatch_8254",
+        "npc.vyrewatch_8255",
+        "npc.vyrewatch_8256",
+        "npc.vyrewatch_8257",
+        "npc.vyrewatch_8258",
+        "npc.vyrewatch_8259"
+      ],
+      "combatLevel" : 87,
+      "hitpoints" : 75,
+      "attackSpeed" : 8,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 75, "defence" : 75, "ranged" : 1, "magic" : 75 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 90.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "page" : "Swamp snake",
+  "versions" : [
+    {
+      "source" : "Swamp snake#Level 109",
+      "version" : "Level 109",
+      "ids" : [
+        5616
+      ],
+      "names" : [
+        "npc.swamp_snake_5616"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 70, "strength" : 110, "defence" : 80, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Swamp snake#Level 139",
+      "version" : "Level 139",
+      "ids" : [
+        5617
+      ],
+      "names" : [
+        "npc.swamp_snake_5617"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 90, "strength" : 170, "defence" : 90, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Swamp snake#Level 80",
+      "version" : "Level 80",
+      "ids" : [
+        5615
+      ],
+      "names" : [
+        "npc.swamp_snake"
+      ],
+      "combatLevel" : 80,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 70, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Agrith-Na-Na (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Agrith-Na-Na (Nightmare Zone)",
+      "npcIds" : [
+        6308,
+        6369
+      ],
+      "always" : [
+        { "item" : 1963, "name" : "item.banana", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

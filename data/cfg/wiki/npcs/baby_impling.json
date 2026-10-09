@@ -1,0 +1,51 @@
+{
+  "page" : "Baby impling",
+  "versions" : [
+    {
+      "source" : "Baby impling#Overworld",
+      "version" : "Overworld",
+      "ids" : [
+        1635
+      ],
+      "names" : [
+        "npc.baby_impling"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 10, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Baby impling#Puro-Puro",
+      "version" : "Puro-Puro",
+      "ids" : [
+        1645
+      ],
+      "names" : [
+        "npc.baby_impling_1645"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 10, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

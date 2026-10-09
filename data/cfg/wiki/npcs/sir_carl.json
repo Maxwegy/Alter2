@@ -1,0 +1,29 @@
+{
+  "page" : "Sir Carl",
+  "versions" : [
+    {
+      "source" : "Sir Carl",
+      "ids" : [
+        8988
+      ],
+      "names" : [
+        "npc.sir_carl"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 57,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 20, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

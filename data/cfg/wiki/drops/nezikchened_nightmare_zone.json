@@ -1,0 +1,15 @@
+{
+  "page" : "Nezikchened (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Nezikchened (Nightmare Zone)",
+      "npcIds" : [
+        6318,
+        6379
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "page" : "Skeleton (Stronghold of Security)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Stronghold of Security)#1",
+      "version" : "1",
+      "ids" : [
+        2521
+      ],
+      "names" : [
+        "npc.skeleton_2521"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 70,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 35, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#2",
+      "version" : "2",
+      "ids" : [
+        2522
+      ],
+      "names" : [
+        "npc.skeleton_2522"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 35, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#3",
+      "version" : "3",
+      "ids" : [
+        2523
+      ],
+      "names" : [
+        "npc.skeleton_2523"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 70,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 35, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#4",
+      "version" : "4",
+      "ids" : [
+        2520
+      ],
+      "names" : [
+        "npc.skeleton_2520"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 50, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 35, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#5",
+      "version" : "5",
+      "ids" : [
+        2524
+      ],
+      "names" : [
+        "npc.skeleton_2524"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 74, "strength" : 74, "defence" : 74, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 79, "slashDefence" : 31, "crushDefence" : 20, "magicDefence" : 5, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 77.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#6",
+      "version" : "6",
+      "ids" : [
+        2525
+      ],
+      "names" : [
+        "npc.skeleton_2525"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 74, "strength" : 74, "defence" : 74, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 79, "slashDefence" : 31, "crushDefence" : 20, "magicDefence" : 5, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 77.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Stronghold of Security)#7",
+      "version" : "7",
+      "ids" : [
+        2526
+      ],
+      "names" : [
+        "npc.skeleton_2526"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 74, "strength" : 74, "defence" : 74, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 79, "slashDefence" : 31, "crushDefence" : 20, "magicDefence" : 5, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10?"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 77.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

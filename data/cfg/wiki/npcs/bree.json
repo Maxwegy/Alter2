@@ -1,0 +1,29 @@
+{
+  "page" : "Bree",
+  "versions" : [
+    {
+      "source" : "Bree",
+      "ids" : [
+        2208
+      ],
+      "names" : [
+        "npc.bree"
+      ],
+      "combatLevel" : 146,
+      "hitpoints" : 162,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 80, "defence" : 130, "ranged" : 150, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 14, "magicDefence" : 18, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 10, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

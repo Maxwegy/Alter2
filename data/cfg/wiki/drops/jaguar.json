@@ -1,0 +1,15 @@
+{
+  "page" : "Jaguar",
+  "tables" : [
+    {
+      "source" : "Jaguar",
+      "npcIds" : [
+        12976
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 29218, "name" : "item.jaguar_fur", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

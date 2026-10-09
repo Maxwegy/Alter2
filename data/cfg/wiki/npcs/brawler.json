@@ -1,0 +1,130 @@
+{
+  "page" : "Brawler",
+  "versions" : [
+    {
+      "source" : "Brawler#Level 101",
+      "version" : "Level 101",
+      "ids" : [
+        1736
+      ],
+      "names" : [
+        "npc.brawler_1736"
+      ],
+      "combatLevel" : 101,
+      "hitpoints" : 113,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 47, "strength" : 107, "defence" : 93, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Brawler#Level 129",
+      "version" : "Level 129",
+      "ids" : [
+        1737
+      ],
+      "names" : [
+        "npc.brawler_1737"
+      ],
+      "combatLevel" : 129,
+      "hitpoints" : 143,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 67, "strength" : 132, "defence" : 118, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Brawler#Level 158",
+      "version" : "Level 158",
+      "ids" : [
+        1738
+      ],
+      "names" : [
+        "npc.brawler_1738"
+      ],
+      "combatLevel" : 158,
+      "hitpoints" : 173,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 87, "strength" : 157, "defence" : 143, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Brawler#Level 51",
+      "version" : "Level 51",
+      "ids" : [
+        1734
+      ],
+      "names" : [
+        "npc.brawler"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 53,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 27, "strength" : 57, "defence" : 43, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Brawler#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        1735
+      ],
+      "names" : [
+        "npc.brawler_1735"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 83,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 37, "strength" : 82, "defence" : 67, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Radiant sanguisphera",
+  "tables" : [
+    {
+      "source" : "Radiant sanguisphera",
+      "npcIds" : [
+        12370
+      ],
+      "always" : [
+        { "item" : 28463, "name" : "item.radiant_fibre", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "page" : "Rat",
+  "tables" : [
+    {
+      "source" : "Rat#Regular",
+      "npcIds" : [
+        2854,
+        2855
+      ],
+      "always" : [
+        { "item" : 300, "name" : "item.rats_tail", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7836, "name" : "item.rat_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" }
+      ]
+    },
+    {
+      "source" : "Rat#Stronghold of Security",
+      "npcIds" : [
+        2492,
+        2513
+      ],
+      "always" : [
+        { "item" : 300, "name" : "item.rats_tail", "min" : 1, "max" : 1 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7836, "name" : "item.rat_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "page" : "Ravager",
+  "versions" : [
+    {
+      "source" : "Ravager#Level 106",
+      "version" : "Level 106",
+      "ids" : [
+        1708
+      ],
+      "names" : [
+        "npc.ravager_1708"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 83,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 67, "strength" : 157, "defence" : 53, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ravager#Level 36",
+      "version" : "Level 36",
+      "ids" : [
+        1704
+      ],
+      "names" : [
+        "npc.ravager"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 23,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 57, "defence" : 13, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ravager#Level 53",
+      "version" : "Level 53",
+      "ids" : [
+        1705
+      ],
+      "names" : [
+        "npc.ravager_1705"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 82, "defence" : 23, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ravager#Level 71",
+      "version" : "Level 71",
+      "ids" : [
+        1706
+      ],
+      "names" : [
+        "npc.ravager_1706"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 53,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 107, "defence" : 33, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ravager#Level 89",
+      "version" : "Level 89",
+      "ids" : [
+        1707
+      ],
+      "names" : [
+        "npc.ravager_1707"
+      ],
+      "combatLevel" : 89,
+      "hitpoints" : 68,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 57, "strength" : 132, "defence" : 43, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

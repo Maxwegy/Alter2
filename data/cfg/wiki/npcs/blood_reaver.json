@@ -1,0 +1,63 @@
+{
+  "page" : "Blood Reaver",
+  "versions" : [
+    {
+      "source" : "Blood Reaver#Ancient Prison",
+      "version" : "Ancient Prison",
+      "ids" : [
+        11293
+      ],
+      "names" : [
+        "npc.blood_reaver"
+      ],
+      "combatLevel" : 174,
+      "hitpoints" : 125,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 1, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 80, "crushDefence" : 120, "magicDefence" : 300, "rangedDefence" : 55, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ]
+    },
+    {
+      "source" : "Blood Reaver#Nex's chamber",
+      "version" : "Nex's chamber",
+      "ids" : [
+        11294
+      ],
+      "names" : [
+        "npc.blood_reaver_11294"
+      ],
+      "combatLevel" : 161,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 1, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 80, "crushDefence" : 120, "magicDefence" : 300, "rangedDefence" : 55, "lightRangedDefence" : 55, "heavyRangedDefence" : 55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ]
+    }
+  ]
+}

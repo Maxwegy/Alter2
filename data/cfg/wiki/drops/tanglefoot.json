@@ -1,0 +1,14 @@
+{
+  "page" : "Tanglefoot",
+  "tables" : [
+    {
+      "source" : "Tanglefoot",
+      "npcIds" : [
+        5848
+      ],
+      "always" : [
+        { "item" : 7410, "name" : "item.queens_secateurs", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

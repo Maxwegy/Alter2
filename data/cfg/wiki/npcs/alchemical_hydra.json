@@ -1,0 +1,144 @@
+{
+  "page" : "Alchemical Hydra",
+  "versions" : [
+    {
+      "source" : "Alchemical Hydra#Electric",
+      "version" : "Electric",
+      "ids" : [
+        8617,
+        8619
+      ],
+      "names" : [
+        "npc.alchemical_hydra_8617",
+        "npc.alchemical_hydra_8619"
+      ],
+      "combatLevel" : 426,
+      "hitpoints" : 1100,
+      "attackSpeed" : 6,
+      "respawnTicks" : 43,
+      "size" : 6,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 260, "magic" : 260 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 45, "stabDefence" : 75, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "35 (default)",
+        "26x2 (empowered)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 1320.0, "categories" : [ "Bosses", "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Alchemical Hydra#Extinguished",
+      "version" : "Extinguished",
+      "ids" : [
+        8621,
+        8622
+      ],
+      "names" : [
+        "npc.alchemical_hydra_8621",
+        "npc.alchemical_hydra_8622"
+      ],
+      "combatLevel" : 426,
+      "hitpoints" : 1100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 43,
+      "size" : 6,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 260, "magic" : 260 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 45, "stabDefence" : 75, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "55"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 1320.0, "categories" : [ "Bosses", "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Alchemical Hydra#Fire",
+      "version" : "Fire",
+      "ids" : [
+        8618,
+        8620
+      ],
+      "names" : [
+        "npc.alchemical_hydra_8618",
+        "npc.alchemical_hydra_8620"
+      ],
+      "combatLevel" : 426,
+      "hitpoints" : 1100,
+      "attackSpeed" : 6,
+      "respawnTicks" : 43,
+      "size" : 6,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 260, "magic" : 260 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 45, "stabDefence" : 75, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "35 (default)",
+        "52 (empowered)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 1320.0, "categories" : [ "Bosses", "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Alchemical Hydra#Serpentine",
+      "version" : "Serpentine",
+      "ids" : [
+        8615,
+        8616
+      ],
+      "names" : [
+        "npc.alchemical_hydra",
+        "npc.alchemical_hydra_8616"
+      ],
+      "combatLevel" : 426,
+      "hitpoints" : 1100,
+      "attackSpeed" : 6,
+      "respawnTicks" : 43,
+      "size" : 6,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 260, "magic" : 260 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 45, "stabDefence" : 75, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "17x2 (default)",
+        "26x2 (empowered)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 95, "xp" : 1320.0, "categories" : [ "Bosses", "Hydras" ], "assignedBy" : [ "konar", "mortimer" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

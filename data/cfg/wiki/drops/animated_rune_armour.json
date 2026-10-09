@@ -1,0 +1,17 @@
+{
+  "page" : "Animated Rune Armour",
+  "tables" : [
+    {
+      "source" : "Animated Rune Armour",
+      "npcIds" : [
+        2456
+      ],
+      "always" : [
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 1, "max" : 1 },
+        { "item" : 1127, "name" : "item.rune_platebody", "min" : 1, "max" : 1 },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1 },
+        { "item" : 8851, "name" : "item.warrior_guild_token", "min" : 40, "max" : 40 }
+      ]
+    }
+  ]
+}

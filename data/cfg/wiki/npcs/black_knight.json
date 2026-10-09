@@ -1,0 +1,115 @@
+{
+  "page" : "Black Knight",
+  "versions" : [
+    {
+      "source" : "Black Knight#Hostile, female",
+      "version" : "Hostile, female",
+      "ids" : [
+        11953
+      ],
+      "names" : [
+        "npc.black_knight_11953"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 42,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 73, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 72, "lightRangedDefence" : 72, "heavyRangedDefence" : 72, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 42.0, "categories" : [ "Black Knights" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Black Knight#Hostile, male",
+      "version" : "Hostile, male",
+      "ids" : [
+        517,
+        4331
+      ],
+      "names" : [
+        "npc.black_knight_517",
+        "npc.black_knight_4331"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 42,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 73, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 72, "lightRangedDefence" : 72, "heavyRangedDefence" : 72, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 42.0, "categories" : [ "Black Knights" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Black Knight#Passive, female",
+      "version" : "Passive, female",
+      "ids" : [
+        11952
+      ],
+      "names" : [
+        "npc.black_knight_11952"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 42,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 73, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 72, "lightRangedDefence" : 72, "heavyRangedDefence" : 72, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 42.0, "categories" : [ "Black Knights" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Black Knight#Passive, male",
+      "version" : "Passive, male",
+      "ids" : [
+        516
+      ],
+      "names" : [
+        "npc.black_knight"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 42,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 73, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 72, "lightRangedDefence" : 72, "heavyRangedDefence" : 72, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 42.0, "categories" : [ "Black Knights" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

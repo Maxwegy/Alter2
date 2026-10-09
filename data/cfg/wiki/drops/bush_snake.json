@@ -1,0 +1,18 @@
+{
+  "page" : "Bush snake",
+  "tables" : [
+    {
+      "source" : "Bush snake",
+      "npcIds" : [
+        6102,
+        6103
+      ],
+      "always" : [
+        { "item" : 6287, "name" : "item.snake_hide", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7860, "name" : "item.snake_spine", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

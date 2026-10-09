@@ -1,0 +1,71 @@
+{
+  "page" : "Gargoyle",
+  "versions" : [
+    {
+      "source" : "Gargoyle#Basement",
+      "version" : "Basement",
+      "ids" : [
+        413,
+        1543
+      ],
+      "names" : [
+        "npc.gargoyle_413",
+        "npc.gargoyle_1543"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 75, "strength" : 105, "defence" : 107, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 60, "crushDefence" : -20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : -20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 105.0, "categories" : [ "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Gargoyle#Upstairs",
+      "version" : "Upstairs",
+      "ids" : [
+        412,
+        413
+      ],
+      "names" : [
+        "npc.gargoyle_412",
+        "npc.gargoyle_413"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 75, "strength" : 105, "defence" : 107, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 60, "crushDefence" : -20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : -20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 105.0, "categories" : [ "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

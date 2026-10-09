@@ -16,11 +16,16 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
             files("../gradle/libs.versions.toml")
+            // The rsprot artifact is derived from the single revision source in gradle.properties.
+            val osrsRevision = providers.gradleProperty("alter.osrsRevision").get()
+            val rsprotVersion = providers.gradleProperty("alter.rsprotVersion").get()
+            library("rsprot", "net.rsprot", "osrs-$osrsRevision-api").version(rsprotVersion)
         }
     }
 }
 
 include(":util")
+include(":alter-data")
 include(":game-plugins")
 include(":game-api")
 include(":game-server")

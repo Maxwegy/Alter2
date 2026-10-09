@@ -1,0 +1,35 @@
+{
+  "page" : "Abhorrent spectre",
+  "versions" : [
+    {
+      "source" : "Abhorrent spectre",
+      "ids" : [
+        7402
+      ],
+      "names" : [
+        "npc.abhorrent_spectre"
+      ],
+      "combatLevel" : 253,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 180, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : -30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 60, "xp" : 2500.0, "categories" : [ "Aberrant Spectres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

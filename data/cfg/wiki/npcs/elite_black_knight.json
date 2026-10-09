@@ -1,0 +1,59 @@
+{
+  "page" : "Elite Black Knight",
+  "versions" : [
+    {
+      "source" : "Elite Black Knight#Female",
+      "version" : "Female",
+      "ids" : [
+        13464,
+        13481
+      ],
+      "names" : [
+        "npc.elite_black_knight_13464",
+        "npc.elite_black_knight_13481"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 120, "defence" : 90, "ranged" : 20, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 110, "slashDefence" : 130, "crushDefence" : 40, "magicDefence" : -5, "rangedDefence" : 135, "lightRangedDefence" : 140, "heavyRangedDefence" : 60, "attackBonus" : 85, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Elite Black Knight#Male",
+      "version" : "Male",
+      "ids" : [
+        13463,
+        13480
+      ],
+      "names" : [
+        "npc.elite_black_knight",
+        "npc.elite_black_knight_13480"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 120, "defence" : 90, "ranged" : 20, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 110, "slashDefence" : 130, "crushDefence" : 40, "magicDefence" : -5, "rangedDefence" : 135, "lightRangedDefence" : 140, "heavyRangedDefence" : 60, "attackBonus" : 85, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

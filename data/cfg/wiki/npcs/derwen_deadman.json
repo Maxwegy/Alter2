@@ -1,0 +1,113 @@
+{
+  "page" : "Derwen (Deadman)",
+  "versions" : [
+    {
+      "source" : "Derwen (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12450
+      ],
+      "names" : [
+        "npc.derwen_12450"
+      ],
+      "combatLevel" : 655,
+      "hitpoints" : 2000,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Derwen (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12450
+      ],
+      "names" : [
+        "npc.derwen_12450"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Derwen (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12450
+      ],
+      "names" : [
+        "npc.derwen_12450"
+      ],
+      "combatLevel" : 280,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Derwen (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12450
+      ],
+      "names" : [
+        "npc.derwen_12450"
+      ],
+      "combatLevel" : 280,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

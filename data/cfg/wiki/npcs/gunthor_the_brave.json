@@ -1,0 +1,31 @@
+{
+  "page" : "Gunthor the brave",
+  "versions" : [
+    {
+      "source" : "Gunthor the brave",
+      "ids" : [
+        299
+      ],
+      "names" : [
+        "npc.gunthor_the_brave"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 10, "magicDefence" : -1, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 8, "strengthBonus" : 13, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0 }
+    }
+  ]
+}

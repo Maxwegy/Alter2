@@ -1,0 +1,31 @@
+{
+  "page" : "Soldier (tier 5)",
+  "versions" : [
+    {
+      "source" : "Soldier (tier 5)",
+      "ids" : [
+        6912,
+        6913
+      ],
+      "names" : [
+        "npc.soldier_tier_5",
+        "npc.soldier_tier_5_6913"
+      ],
+      "combatLevel" : 99,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 85, "strength" : 85, "defence" : 86, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

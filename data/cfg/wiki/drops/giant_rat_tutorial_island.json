@@ -1,0 +1,17 @@
+{
+  "page" : "Giant rat (Tutorial Island)",
+  "tables" : [
+    {
+      "source" : "Giant rat (Tutorial Island)",
+      "npcIds" : [
+        3313,
+        3314,
+        3315,
+        9483
+      ],
+      "always" : [
+        { "item" : 2530, "name" : "item.bones_2530", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

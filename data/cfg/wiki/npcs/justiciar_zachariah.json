@@ -1,0 +1,33 @@
+{
+  "page" : "Justiciar Zachariah",
+  "versions" : [
+    {
+      "source" : "Justiciar Zachariah",
+      "ids" : [
+        5977,
+        7858
+      ],
+      "names" : [
+        "npc.justiciar_zachariah",
+        "npc.justiciar_zachariah_7858"
+      ],
+      "combatLevel" : 348,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 500, "strength" : 250, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (melee)",
+        "26 (magic)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

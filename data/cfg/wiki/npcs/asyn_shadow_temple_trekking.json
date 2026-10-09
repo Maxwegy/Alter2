@@ -1,0 +1,35 @@
+{
+  "page" : "Asyn shadow (Temple Trekking)",
+  "versions" : [
+    {
+      "source" : "Asyn shadow (Temple Trekking)",
+      "ids" : [
+        5632
+      ],
+      "names" : [
+        "npc.asyn_shadow_5632"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 94,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 96, "defence" : 80, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 94.0, "categories" : [ "Shades" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

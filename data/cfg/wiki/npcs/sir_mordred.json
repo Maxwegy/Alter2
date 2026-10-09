@@ -1,0 +1,30 @@
+{
+  "page" : "Sir Mordred",
+  "versions" : [
+    {
+      "source" : "Sir Mordred",
+      "ids" : [
+        3527
+      ],
+      "names" : [
+        "npc.sir_mordred"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 33, "strength" : 33, "defence" : 33, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 99, "slashDefence" : 82, "crushDefence" : 45, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 20, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

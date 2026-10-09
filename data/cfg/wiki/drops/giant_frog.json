@@ -1,0 +1,48 @@
+{
+  "page" : "Giant frog",
+  "tables" : [
+    {
+      "source" : "Giant frog#Level 13",
+      "npcIds" : [
+        8700
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" }
+      ]
+    },
+    {
+      "source" : "Giant frog#Level 99",
+      "npcIds" : [
+        477
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 453, "name" : "item.coal", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 3, "max" : 3, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 9, "max" : 9, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 22, "max" : 22, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 45, "max" : 45, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2, "max" : 2, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 37, "max" : 37, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1243, "name" : "item.mithril_spear", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1969, "name" : "item.spinach_roll", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4517, "name" : "item.giant_frog_legs", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "64/128" }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

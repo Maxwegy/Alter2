@@ -1,0 +1,14 @@
+{
+  "page" : "Dire Wolf Alpha",
+  "tables" : [
+    {
+      "source" : "Dire Wolf Alpha",
+      "npcIds" : [
+        13812
+      ],
+      "always" : [
+        { "item" : 2859, "name" : "item.wolf_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

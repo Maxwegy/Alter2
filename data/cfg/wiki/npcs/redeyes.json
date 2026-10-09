@@ -1,0 +1,33 @@
+{
+  "page" : "Redeyes",
+  "versions" : [
+    {
+      "source" : "Redeyes",
+      "ids" : [
+        11272,
+        11299
+      ],
+      "names" : [
+        "npc.redeyes",
+        "npc.redeyes_11299"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 70 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 36, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 36, "strengthBonus" : 46, "rangedStrength" : 0, "magicDamage" : 46 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "slayer" : { "xp" : 160.0, "categories" : [ "Goblins", "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

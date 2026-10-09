@@ -1,0 +1,109 @@
+{
+  "page" : "Mercenary",
+  "versions" : [
+    {
+      "source" : "Mercenary#Brown beard",
+      "version" : "Brown beard",
+      "ids" : [
+        4658
+      ],
+      "names" : [
+        "npc.mercenary_4658"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mercenary#Coif",
+      "version" : "Coif",
+      "ids" : [
+        4659
+      ],
+      "names" : [
+        "npc.mercenary_4659"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mercenary#Facemask",
+      "version" : "Facemask",
+      "ids" : [
+        4657
+      ],
+      "names" : [
+        "npc.mercenary_4657"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mercenary#White beard",
+      "version" : "White beard",
+      "ids" : [
+        4656
+      ],
+      "names" : [
+        "npc.mercenary"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 39, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 15, "crushDefence" : 19, "magicDefence" : -3, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 9, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "page" : "Dire Wolf",
+  "tables" : [
+    {
+      "source" : "Dire Wolf",
+      "npcIds" : [
+        3426,
+        9181,
+        13813
+      ],
+      "always" : [
+        { "item" : 2859, "name" : "item.wolf_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 7830, "name" : "item.wolf_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

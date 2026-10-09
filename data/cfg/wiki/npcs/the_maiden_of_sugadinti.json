@@ -1,0 +1,155 @@
+{
+  "page" : "The Maiden of Sugadinti",
+  "versions" : [
+    {
+      "source" : "The Maiden of Sugadinti#30% Health",
+      "version" : "30% Health",
+      "ids" : [
+        8363
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti_8363"
+      ],
+      "combatLevel" : 940,
+      "hitpoints" : 1050,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 350, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "36"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Maiden of Sugadinti#50% Health",
+      "version" : "50% Health",
+      "ids" : [
+        8362
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti_8362"
+      ],
+      "combatLevel" : 940,
+      "hitpoints" : 1750,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 350, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "36"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Maiden of Sugadinti#70% Health",
+      "version" : "70% Health",
+      "ids" : [
+        8361
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti_8361"
+      ],
+      "combatLevel" : 940,
+      "hitpoints" : 2450,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 350, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "36"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Maiden of Sugadinti#Entry Mode",
+      "version" : "Entry Mode",
+      "ids" : [
+        10814
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti_10814"
+      ],
+      "combatLevel" : 324,
+      "hitpoints" : 2000,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 140, "strength" : 140, "defence" : 80, "ranged" : 140, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 12 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Maiden of Sugadinti#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        10822
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti_10822"
+      ],
+      "combatLevel" : 1128,
+      "hitpoints" : 3500,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 350, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "36"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Maiden of Sugadinti#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8360
+      ],
+      "names" : [
+        "npc.the_maiden_of_sugadinti"
+      ],
+      "combatLevel" : 940,
+      "hitpoints" : 3500,
+      "attackSpeed" : 10,
+      "size" : 6,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 350, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "36"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

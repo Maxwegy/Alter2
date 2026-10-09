@@ -1,5 +1,7 @@
 package org.alter.plugins.api.ext
 
+import org.junit.Assume
+import gg.rsmod.util.BuildInfo
 import dev.openrune.cache.CacheManager
 import dev.openrune.cache.CacheManager.itemSize
 import org.alter.api.ext.transfer
@@ -76,9 +78,10 @@ class ContainerExtTests {
         @JvmStatic
         fun loadCache() {
             val path = Paths.get("../data", "cache")
-            check(Files.exists(path)) { "Path does not exist: ${path.toAbsolutePath()}" }
+            // The OSRS cache is not committed; skip (rather than fail) where it hasn't been installed, e.g. CI.
+            Assume.assumeTrue("No cache at ${path.toAbsolutePath()}", Files.exists(path.resolve("main_file_cache.dat2")))
 
-            CacheManager.init(path, 228)
+            CacheManager.init(path, BuildInfo.REVISION)
 
             assertNotEquals(itemSize(), 0)
         }

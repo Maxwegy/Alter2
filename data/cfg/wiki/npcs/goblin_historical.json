@@ -1,0 +1,57 @@
+{
+  "page" : "Goblin (historical)",
+  "versions" : [
+    {
+      "source" : "Goblin (historical)#Green (original)",
+      "version" : "Green (original)",
+      "ids" : [
+        677
+      ],
+      "names" : [
+        "npc.goblin_677"
+      ],
+      "combatLevel" : 5,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Goblin (historical)#Green (updated)",
+      "version" : "Green (updated)",
+      "ids" : [
+        3048
+      ],
+      "names" : [
+        "npc.goblin_3048"
+      ],
+      "combatLevel" : 5,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Goblin (historical)#Red (original)",
+      "version" : "Red (original)",
+      "ids" : [
+        678
+      ],
+      "names" : [
+        "npc.goblin_678"
+      ],
+      "combatLevel" : 5,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Goblin (historical)#Red (updated)",
+      "version" : "Red (updated)",
+      "ids" : [
+        3047
+      ],
+      "names" : [
+        "npc.goblin_3047"
+      ],
+      "combatLevel" : 5,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

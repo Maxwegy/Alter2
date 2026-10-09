@@ -1,0 +1,30 @@
+{
+  "page" : "Glod",
+  "versions" : [
+    {
+      "source" : "Glod",
+      "ids" : [
+        5129
+      ],
+      "names" : [
+        "npc.glod"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 115, "strength" : 120, "defence" : 110, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 105, "slashDefence" : 110, "crushDefence" : 130, "magicDefence" : 125, "rangedDefence" : 80, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "page" : "Ice warrior",
+  "versions" : [
+    {
+      "source" : "Ice warrior#Asgarnia Ice Dungeon",
+      "version" : "Asgarnia Ice Dungeon",
+      "ids" : [
+        2842
+      ],
+      "names" : [
+        "npc.ice_warrior_2842"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 59,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 47, "defence" : 47, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 59.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice warrior#Ice Queen's Lair",
+      "version" : "Ice Queen's Lair",
+      "ids" : [
+        2851
+      ],
+      "names" : [
+        "npc.ice_warrior_2851"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 59,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 47, "defence" : 47, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 59.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice warrior#Normal",
+      "version" : "Normal",
+      "ids" : [
+        2841
+      ],
+      "names" : [
+        "npc.ice_warrior"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 59,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 47, "defence" : 47, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 59.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice warrior#Varlamore",
+      "version" : "Varlamore",
+      "ids" : [
+        13802
+      ],
+      "names" : [
+        "npc.ice_warrior_13802"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 59,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 47, "defence" : 47, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 59.0, "categories" : [ "Ice Warriors" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

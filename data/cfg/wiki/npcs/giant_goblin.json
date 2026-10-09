@@ -1,0 +1,109 @@
+{
+  "page" : "Giant goblin",
+  "versions" : [
+    {
+      "source" : "Giant goblin#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12452
+      ],
+      "names" : [
+        "npc.giant_goblin"
+      ],
+      "combatLevel" : 1022,
+      "hitpoints" : 3500,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Giant goblin#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12452
+      ],
+      "names" : [
+        "npc.giant_goblin"
+      ],
+      "combatLevel" : 347,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 250, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Giant goblin#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12452
+      ],
+      "names" : [
+        "npc.giant_goblin"
+      ],
+      "combatLevel" : 397,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Giant goblin#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12452
+      ],
+      "names" : [
+        "npc.giant_goblin"
+      ],
+      "combatLevel" : 397,
+      "hitpoints" : 1000,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

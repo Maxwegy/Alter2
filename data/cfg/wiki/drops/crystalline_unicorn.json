@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Unicorn",
+  "tables" : [
+    {
+      "source" : "Crystalline Unicorn",
+      "npcIds" : [
+        9029
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 80, "max" : 100 }
+      ]
+    }
+  ]
+}

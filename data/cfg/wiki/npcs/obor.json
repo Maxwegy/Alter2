@@ -1,0 +1,33 @@
+{
+  "page" : "Obor",
+  "versions" : [
+    {
+      "source" : "Obor",
+      "ids" : [
+        7416
+      ],
+      "names" : [
+        "npc.obor"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 120,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 90, "strength" : 100, "defence" : 60, "ranged" : 120, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 35, "slashDefence" : 40, "crushDefence" : 45, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 100, "strengthBonus" : 68, "rangedStrength" : 65, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Melee)",
+        "26 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 129.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

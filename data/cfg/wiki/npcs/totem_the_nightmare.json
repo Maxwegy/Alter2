@@ -1,0 +1,54 @@
+{
+  "page" : "Totem (The Nightmare)",
+  "versions" : [
+    {
+      "source" : "Totem (The Nightmare)",
+      "ids" : [
+        9435,
+        9438,
+        9441,
+        9444
+      ],
+      "names" : [
+        "npc.totem_9435",
+        "npc.totem_9438",
+        "npc.totem_9441",
+        "npc.totem_9444"
+      ],
+      "hitpoints" : 300,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 70 }
+    },
+    {
+      "source" : "Totem (The Nightmare)",
+      "ids" : [
+        9436,
+        9439,
+        9442,
+        9445
+      ],
+      "names" : [
+        "npc.totem_9436",
+        "npc.totem_9439",
+        "npc.totem_9442",
+        "npc.totem_9445"
+      ],
+      "hitpoints" : 300,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

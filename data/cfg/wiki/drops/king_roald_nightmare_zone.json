@@ -1,0 +1,15 @@
+{
+  "page" : "King Roald (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "King Roald (Nightmare Zone)",
+      "npcIds" : [
+        6328,
+        6389
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

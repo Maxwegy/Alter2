@@ -1,0 +1,37 @@
+{
+  "page" : "Banshee",
+  "versions" : [
+    {
+      "source" : "Banshee",
+      "ids" : [
+        414
+      ],
+      "names" : [
+        "npc.banshee_414"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 15, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2",
+        "6 (without Earmuffs)"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 15, "xp" : 22.0, "categories" : [ "Banshees" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

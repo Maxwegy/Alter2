@@ -1,0 +1,29 @@
+{
+  "page" : "Jogre Champion",
+  "versions" : [
+    {
+      "source" : "Jogre Champion",
+      "ids" : [
+        3356
+      ],
+      "names" : [
+        "npc.jogre_champion"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 86, "strength" : 86, "defence" : 86, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

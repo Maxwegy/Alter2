@@ -779,6 +779,13 @@ class ItemContainer(val key: ContainerKey) : Iterable<Item?> {
 
     operator fun get(index: Int): Item? = items[index]
 
+    /**
+     * The item at [slot] if [slot] is a real slot of this container and holds [itemId]; otherwise null.
+     * Use this for client-supplied slots, which can be out of range (e.g. -1 when a spell is the source).
+     */
+    fun validated(slot: Int, itemId: Int): Item? =
+        if (slot !in 0 until capacity) null else items[slot]?.takeIf { it.id == itemId }
+
     operator fun set(
         index: Int,
         item: Item?,

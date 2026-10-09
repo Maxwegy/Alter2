@@ -1,0 +1,34 @@
+{
+  "page" : "Irvig Senay",
+  "versions" : [
+    {
+      "source" : "Irvig Senay",
+      "ids" : [
+        3965
+      ],
+      "names" : [
+        "npc.irvig_senay"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "respawnTicks" : 51,
+      "size" : 1,
+      "levels" : { "attack" : 76, "strength" : 74, "defence" : 81, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 27, "slashDefence" : 31, "crushDefence" : 29, "magicDefence" : -1, "rangedDefence" : 29, "lightRangedDefence" : 29, "heavyRangedDefence" : 29, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    }
+  ]
+}

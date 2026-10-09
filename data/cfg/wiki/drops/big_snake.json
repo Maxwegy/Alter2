@@ -1,0 +1,15 @@
+{
+  "page" : "Big Snake",
+  "tables" : [
+    {
+      "source" : "Big Snake",
+      "npcIds" : [
+        2978
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7576, "name" : "item.snake_corpse", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

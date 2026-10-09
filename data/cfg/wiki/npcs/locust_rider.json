@@ -1,0 +1,127 @@
+{
+  "page" : "Locust rider",
+  "versions" : [
+    {
+      "source" : "Locust rider#Lancer",
+      "version" : "Lancer",
+      "ids" : [
+        795
+      ],
+      "names" : [
+        "npc.locust_rider"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 92.5, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Locust rider#Lancer (Quest)",
+      "version" : "Lancer (Quest)",
+      "ids" : [
+        800
+      ],
+      "names" : [
+        "npc.locust_rider_800"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 92.5, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Locust rider#Ranger",
+      "version" : "Ranger",
+      "ids" : [
+        796
+      ],
+      "names" : [
+        "npc.locust_rider_796"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "respawnTicks" : 10,
+      "size" : 2,
+      "levels" : { "attack" : 105, "strength" : 90, "defence" : 50, "ranged" : 90, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 50, "slashDefence" : 90, "crushDefence" : 50, "magicDefence" : 34, "rangedDefence" : 66, "lightRangedDefence" : 66, "heavyRangedDefence" : 66, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 80, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 92.5, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Locust rider#Ranger (Quest)",
+      "version" : "Ranger (Quest)",
+      "ids" : [
+        801
+      ],
+      "names" : [
+        "npc.locust_rider_801"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 105, "strength" : 90, "defence" : 50, "ranged" : 90, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 50, "slashDefence" : 90, "crushDefence" : 50, "magicDefence" : 34, "rangedDefence" : 66, "lightRangedDefence" : 66, "heavyRangedDefence" : 66, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 80, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 92.5, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

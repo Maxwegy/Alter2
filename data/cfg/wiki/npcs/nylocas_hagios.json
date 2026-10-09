@@ -1,0 +1,147 @@
+{
+  "page" : "Nylocas Hagios",
+  "versions" : [
+    {
+      "source" : "Nylocas Hagios#Big",
+      "version" : "Big",
+      "ids" : [
+        8347,
+        8353,
+        10796,
+        10802
+      ],
+      "names" : [
+        "npc.nylocas_hagios_8347",
+        "npc.nylocas_hagios_8353",
+        "npc.nylocas_hagios_10796",
+        "npc.nylocas_hagios_10802"
+      ],
+      "combatLevel" : 260,
+      "hitpoints" : 22,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 250, "strength" : 230, "defence" : 20, "ranged" : 250, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 500, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 500 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Hagios#Big (Entry Mode)",
+      "version" : "Big (Entry Mode)",
+      "ids" : [
+        10779,
+        10785
+      ],
+      "names" : [
+        "npc.nylocas_hagios_10779",
+        "npc.nylocas_hagios_10785"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 3,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 6, "ranged" : 100, "magic" : 6 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 400, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -6, "magicDamage" : 360 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Hagios#Small",
+      "version" : "Small",
+      "ids" : [
+        8344,
+        8350,
+        10793,
+        10799
+      ],
+      "names" : [
+        "npc.nylocas_hagios",
+        "npc.nylocas_hagios_8350",
+        "npc.nylocas_hagios_10793",
+        "npc.nylocas_hagios_10799"
+      ],
+      "combatLevel" : 162,
+      "hitpoints" : 11,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 160, "defence" : 1, "ranged" : 200, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 1073, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -15, "magicDamage" : 928 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Hagios#Small (Entry Mode)",
+      "version" : "Small (Entry Mode)",
+      "ids" : [
+        10776,
+        10782
+      ],
+      "names" : [
+        "npc.nylocas_hagios_10776",
+        "npc.nylocas_hagios_10782"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 2,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 40, "defence" : 1, "ranged" : 80, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 505, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -30, "magicDamage" : 280 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Hagios#Verzik",
+      "version" : "Verzik",
+      "ids" : [
+        10843
+      ],
+      "names" : [
+        "npc.nylocas_hagios_10843"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 3,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

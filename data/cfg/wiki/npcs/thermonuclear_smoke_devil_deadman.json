@@ -1,0 +1,85 @@
+{
+  "page" : "Thermonuclear smoke devil (Deadman)",
+  "versions" : [
+    {
+      "source" : "Thermonuclear smoke devil (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13659
+      ],
+      "names" : [
+        "npc.thermonuclear_smoke_devil_13659"
+      ],
+      "combatLevel" : 563,
+      "hitpoints" : 1500,
+      "attackSpeed" : 2,
+      "size" : 4,
+      "levels" : { "attack" : 230, "strength" : 220, "defence" : 150, "ranged" : 310, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 12, "crushDefence" : 20, "magicDefence" : 200, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    },
+    {
+      "source" : "Thermonuclear smoke devil (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13659
+      ],
+      "names" : [
+        "npc.thermonuclear_smoke_devil_13659"
+      ],
+      "combatLevel" : 313,
+      "hitpoints" : 500,
+      "attackSpeed" : 2,
+      "size" : 4,
+      "levels" : { "attack" : 230, "strength" : 220, "defence" : 150, "ranged" : 310, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 12, "crushDefence" : 20, "magicDefence" : 200, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Thermonuclear smoke devil (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13659
+      ],
+      "names" : [
+        "npc.thermonuclear_smoke_devil_13659"
+      ],
+      "combatLevel" : 313,
+      "hitpoints" : 500,
+      "attackSpeed" : 2,
+      "size" : 4,
+      "levels" : { "attack" : 230, "strength" : 220, "defence" : 150, "ranged" : 310, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 12, "crushDefence" : 20, "magicDefence" : 200, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses", "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    }
+  ]
+}

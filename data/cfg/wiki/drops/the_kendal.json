@@ -1,0 +1,16 @@
+{
+  "page" : "The Kendal",
+  "tables" : [
+    {
+      "source" : "The Kendal",
+      "npcIds" : [
+        1377,
+        1378
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 4502, "name" : "item.bearhead", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

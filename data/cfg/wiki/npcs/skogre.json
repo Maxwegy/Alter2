@@ -1,0 +1,95 @@
+{
+  "page" : "Skogre",
+  "versions" : [
+    {
+      "source" : "Skogre#1",
+      "version" : "1",
+      "ids" : [
+        872
+      ],
+      "names" : [
+        "npc.skogre"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 71,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 36, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 71.0, "categories" : [ "Ogres", "Skeletons" ], "assignedBy" : [ "spria", "turael", "vannaka" ] }
+    },
+    {
+      "source" : "Skogre#2",
+      "version" : "2",
+      "ids" : [
+        878
+      ],
+      "names" : [
+        "npc.skogre_878"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 71,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 36, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 71.0, "categories" : [ "Ogres", "Zombies" ], "assignedBy" : [ "spria", "turael", "vannaka" ] }
+    },
+    {
+      "source" : "Skogre#3",
+      "version" : "3",
+      "ids" : [
+        879
+      ],
+      "names" : [
+        "npc.skogre_879"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 71,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 36, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 71.0, "categories" : [ "Ogres", "Skeletons" ], "assignedBy" : [ "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

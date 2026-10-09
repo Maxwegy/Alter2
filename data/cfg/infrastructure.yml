@@ -1,0 +1,37 @@
+# Alter2 data infrastructure settings (read by alter-data's InfraConfig).
+# Every key is optional; a missing key uses the default shown here.
+
+wiki:
+  # Contact shown in the User-Agent sent to the OSRS Wiki API, which asks API users to identify themselves.
+  # Use a project email, Discord handle or URL. Leave empty to send only the project name.
+  contact: ""
+  # Public repository URL shown in the User-Agent.
+  repositoryUrl: ""
+  # Minimum gap between two wiki requests. Requests are always sequential.
+  minRequestIntervalMs: 1000
+  # Raw API responses in data/wiki-cache are reused for this long unless wikiSync runs with --refresh.
+  rawCacheTtlHours: 24
+  # Reject a sync if any bucket returns this many percent fewer rows than the last committed manifest.
+  maxRowDropPercent: 10
+  # Drop lines whose item name matches one of these (case-insensitive regex) are independent tertiary rolls.
+  # Pets are added automatically from the wiki's Category:Pets.
+  tertiaryPatterns:
+    - "^clue (scroll|bottle|nest|geode)"
+    - "^scroll box"
+    - "^ensouled .* head$"
+    - "champion scroll$"
+    - "^(brimstone|larran's|mossy|giant|ecumenical) key"
+    - "^dark totem"
+    - "^ancient shard$"
+    - "^looting bag$"
+    - "^blighted "
+    - "^long bone$"
+    - "^curved bone$"
+
+missingContent:
+  enabled: true
+  # data/missing_content.json is rewritten at most this often (and on shutdown). It is also flushed
+  # periodically because IntelliJ's stop button on Windows skips JVM shutdown hooks.
+  flushIntervalSeconds: 30
+  maxLocationsPerEntry: 5
+  devMessageCooldownSeconds: 60

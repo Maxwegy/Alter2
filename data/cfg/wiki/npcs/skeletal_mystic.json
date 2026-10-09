@@ -1,0 +1,73 @@
+{
+  "page" : "Skeletal Mystic",
+  "versions" : [
+    {
+      "source" : "Skeletal Mystic#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7604,
+        7605,
+        7606
+      ],
+      "names" : [
+        "npc.skeletal_mystic",
+        "npc.skeletal_mystic_7605",
+        "npc.skeletal_mystic_7606"
+      ],
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 210, "strength" : 210, "defence" : 280, "ranged" : 1, "magic" : 210 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 0, "stabDefence" : 155, "slashDefence" : 155, "crushDefence" : 75, "magicDefence" : 140, "rangedDefence" : 115, "lightRangedDefence" : 115, "heavyRangedDefence" : 75, "attackBonus" : 85, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 38 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead",
+        "xerician"
+      ],
+      "slayer" : { "xp" : 240.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Skeletal Mystic#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7604,
+        7605,
+        7606
+      ],
+      "names" : [
+        "npc.skeletal_mystic",
+        "npc.skeletal_mystic_7605",
+        "npc.skeletal_mystic_7606"
+      ],
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 140, "strength" : 140, "defence" : 187, "ranged" : 1, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 0, "stabDefence" : 155, "slashDefence" : 155, "crushDefence" : 75, "magicDefence" : 140, "rangedDefence" : 115, "lightRangedDefence" : 115, "heavyRangedDefence" : 75, "attackBonus" : 85, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 38 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead",
+        "xerician"
+      ],
+      "slayer" : { "xp" : 160.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

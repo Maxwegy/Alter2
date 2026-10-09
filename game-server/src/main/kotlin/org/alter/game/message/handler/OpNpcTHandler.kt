@@ -1,5 +1,7 @@
 package org.alter.game.message.handler
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import net.rsprot.protocol.game.incoming.npcs.OpNpcT
 import org.alter.game.message.MessageHandler
 import org.alter.game.model.attr.*
@@ -46,12 +48,26 @@ class OpNpcTHandler : MessageHandler<OpNpcT> {
             if (client.world.devContext.debugItemActions) {
                 client.writeMessage("Unhandled item on npc [ $verify on ${npc.id}] ] ")
             }
+            client.world.plugins.executeUnhandledInteraction(
+                client,
+                UnhandledInteraction(InteractionType.ITEM_ON_NPC, id = npc.getTransform(client), rawId = npc.id, usedId = verify, tile = npc.tile),
+            )
         } else {
             if (!client.world.plugins.executeSpellOnNpc(client, parent, child)) {
                 client.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
                 if (client.world.devContext.debugMagicSpells) {
                     client.writeMessage("Unhandled magic spell: [$parent, $child] out here")
                 }
+                client.world.plugins.executeUnhandledInteraction(
+                    client,
+                    UnhandledInteraction(
+                        InteractionType.SPELL_ON_NPC,
+                        id = npc.getTransform(client),
+                        rawId = npc.id,
+                        component = (parent shl 16) or child,
+                        tile = npc.tile,
+                    ),
+                )
             }
         }
     }

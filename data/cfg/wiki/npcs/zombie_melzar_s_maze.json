@@ -1,0 +1,37 @@
+{
+  "page" : "Zombie (Melzar's Maze)",
+  "versions" : [
+    {
+      "source" : "Zombie (Melzar's Maze)",
+      "ids" : [
+        3980,
+        3981
+      ],
+      "names" : [
+        "npc.zombie_3980",
+        "npc.zombie_3981"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 11, "lightRangedDefence" : 11, "heavyRangedDefence" : 11, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

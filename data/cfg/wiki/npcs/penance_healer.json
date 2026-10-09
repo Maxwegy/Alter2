@@ -1,0 +1,214 @@
+{
+  "page" : "Penance Healer",
+  "versions" : [
+    {
+      "source" : "Penance Healer#Wave 1",
+      "version" : "Wave 1",
+      "ids" : [
+        1670,
+        5766
+      ],
+      "names" : [
+        "npc.penance_healer",
+        "npc.penance_healer_5766"
+      ],
+      "hitpoints" : 27,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 9, "strength" : 8, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 2",
+      "version" : "Wave 2",
+      "ids" : [
+        5767
+      ],
+      "names" : [
+        "npc.penance_healer_5767"
+      ],
+      "hitpoints" : 32,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 13, "strength" : 15, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 3",
+      "version" : "Wave 3",
+      "ids" : [
+        5768
+      ],
+      "names" : [
+        "npc.penance_healer_5768"
+      ],
+      "hitpoints" : 37,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 18, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 4",
+      "version" : "Wave 4",
+      "ids" : [
+        5769
+      ],
+      "names" : [
+        "npc.penance_healer_5769"
+      ],
+      "hitpoints" : 43,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 23, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 5",
+      "version" : "Wave 5",
+      "ids" : [
+        5770
+      ],
+      "names" : [
+        "npc.penance_healer_5770"
+      ],
+      "hitpoints" : 49,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 26, "strength" : 27, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 6",
+      "version" : "Wave 6",
+      "ids" : [
+        5771
+      ],
+      "names" : [
+        "npc.penance_healer_5771"
+      ],
+      "hitpoints" : 55,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 32, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 7/10",
+      "version" : "Wave 7/10",
+      "ids" : [
+        5772
+      ],
+      "names" : [
+        "npc.penance_healer_5772"
+      ],
+      "hitpoints" : 60,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 33, "strength" : 36, "defence" : 34, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 8",
+      "version" : "Wave 8",
+      "ids" : [
+        5773
+      ],
+      "names" : [
+        "npc.penance_healer_5773"
+      ],
+      "hitpoints" : 67,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 38, "defence" : 36, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Penance Healer#Wave 9",
+      "version" : "Wave 9",
+      "ids" : [
+        5774
+      ],
+      "names" : [
+        "npc.penance_healer_5774"
+      ],
+      "hitpoints" : 76,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 44, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Bird",
+  "versions" : [
+    {
+      "source" : "Bird#Level 11",
+      "version" : "Level 11",
+      "ids" : [
+        5240
+      ],
+      "names" : [
+        "npc.bird"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    },
+    {
+      "source" : "Bird#Level 5",
+      "version" : "Level 5",
+      "ids" : [
+        5241,
+        10541
+      ],
+      "names" : [
+        "npc.bird_5241",
+        "npc.bird_10541"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 5 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 5.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page" : "Porazdir",
+  "versions" : [
+    {
+      "source" : "Porazdir",
+      "ids" : [
+        7515,
+        7860
+      ],
+      "names" : [
+        "npc.porazdir",
+        "npc.porazdir_7860"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 376.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve" ] }
+    }
+  ]
+}

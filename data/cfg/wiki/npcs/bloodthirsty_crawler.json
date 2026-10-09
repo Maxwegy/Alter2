@@ -1,0 +1,26 @@
+{
+  "page" : "Bloodthirsty Crawler",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Crawler",
+      "ids" : [
+        12539
+      ],
+      "names" : [
+        "npc.bloodthirsty_crawler"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 64, "strength" : 59, "defence" : 55, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "chaeldar", "mazchna", "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

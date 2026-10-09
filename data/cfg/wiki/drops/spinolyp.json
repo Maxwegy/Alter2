@@ -1,0 +1,19 @@
+{
+  "page" : "Spinolyp",
+  "tables" : [
+    {
+      "source" : "Spinolyp",
+      "npcIds" : [
+        5946,
+        5947,
+        5948,
+        5961,
+        5962,
+        5963
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}
