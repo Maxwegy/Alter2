@@ -6,6 +6,7 @@ import net.rsprot.protocol.game.incoming.buttons.IfButtonT
 import org.alter.game.message.MessageHandler
 import org.alter.game.model.attr.*
 import org.alter.game.model.entity.Client
+import org.alter.game.model.entity.Entity
 import java.lang.ref.WeakReference
 
 class IfButtonTHandler : MessageHandler<IfButtonT> {
@@ -31,12 +32,37 @@ class IfButtonTHandler : MessageHandler<IfButtonT> {
          * So we can switch by Parent and determine if it's item on item or spell on item
          */
 
-        val fromItem = client.inventory[fromSlot] ?: return
-        val toItem = client.inventory[toSlot] ?: return
+        val toItem = client.inventory.validated(toSlot, toItemId) ?: return
 
-        if (fromItem.id != fromItemId || toItem.id != toItemId) {
+        /*
+         * A source outside the inventory (selectedSub = -1) is a spell, e.g. alchemy, cast on an inventory item.
+         */
+        if (fromSlot !in 0 until client.inventory.capacity) {
+            if (!client.lock.canItemInteract()) {
+                return
+            }
+            val spellComponent = (fromInterfaceId shl 16) or fromComponent
+            val targetComponent = (toInterfaceId shl 16) or toComponent
+            client.attr[OTHER_ITEM_ATTR] = WeakReference(toItem)
+            client.attr[OTHER_ITEM_ID_ATTR] = toItem.id
+            client.attr[OTHER_ITEM_SLOT_ATTR] = toSlot
+            if (!client.world.plugins.executeSpellOnItem(client, spellComponent, targetComponent)) {
+                client.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
+                client.world.plugins.executeUnhandledInteraction(
+                    client,
+                    UnhandledInteraction(
+                        InteractionType.SPELL_ON_ITEM,
+                        id = toItem.id,
+                        component = spellComponent,
+                        targetComponent = targetComponent,
+                        slot = toSlot,
+                    ),
+                )
+            }
             return
         }
+
+        val fromItem = client.inventory.validated(fromSlot, fromItemId) ?: return
 
         if (!client.lock.canItemInteract()) {
             return
