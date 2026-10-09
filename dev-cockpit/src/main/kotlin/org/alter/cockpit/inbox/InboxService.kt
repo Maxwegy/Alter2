@@ -127,6 +127,17 @@ class InboxService(
         return snoozed
     }
 
+    /** Merges [patch] into a finished card's result (scaffold preview, applied branch...) and audits it. */
+    fun attachResult(id: String, principal: Principal, action: String, patch: Map<String, Any?>, details: Map<String, Any?> = emptyMap()): InboxAction {
+        val card = get(id)
+        if (card.status != ActionStatus.DONE) throw ApiException(409, "Card is ${card.status}; run it first")
+        val updated = card.copy(result = card.result.orEmpty() + patch, updatedAt = now())
+        store.update(updated)
+        audit.record(principal, action, id, mapOf("kind" to card.kind) + details)
+        bus.publish("inbox.updated", updated)
+        return updated
+    }
+
     /** Puts snoozed cards whose time is up back in the inbox. Returns how many woke. */
     fun wakeSnoozed(): Int {
         val now = Instant.now(clock)

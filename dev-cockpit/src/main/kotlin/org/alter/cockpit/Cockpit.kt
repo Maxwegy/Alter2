@@ -26,14 +26,27 @@ import org.alter.cockpit.supervisor.AdminClient
 import org.alter.cockpit.supervisor.GameServerSupervisor
 import org.alter.cockpit.supervisor.LogTail
 import org.alter.cockpit.wiki.PageResolver
+import org.alter.cockpit.workorders.DialogueGenerator
+import org.alter.cockpit.workorders.DoorGenerator
 import org.alter.cockpit.workorders.EnrichmentService
+import org.alter.cockpit.workorders.Kt
 import org.alter.cockpit.workorders.PickpocketEnricher
+import org.alter.cockpit.workorders.PickpocketGenerator
 import org.alter.cockpit.workorders.RecipeEnricher
+import org.alter.cockpit.workorders.RecipeGenerator
+import org.alter.cockpit.workorders.RscmNames
+import org.alter.cockpit.workorders.ScaffoldContext
+import org.alter.cockpit.workorders.ScaffoldService
+import org.alter.cockpit.workorders.ScaffoldWorkspace
 import org.alter.cockpit.workorders.SceneryEnricher
+import org.alter.cockpit.workorders.ShopGenerator
+import org.alter.cockpit.workorders.SkeletonGenerator
 import org.alter.cockpit.workorders.TalkToEnricher
 import org.alter.cockpit.workorders.TradeEnricher
+import org.alter.cockpit.workorders.TransportGenerator
 import org.alter.cockpit.workorders.WikiPages
 import org.alter.cockpit.workorders.WikiUrls
+import org.alter.cockpit.workorders.WorkOrders
 import org.alter.data.config.DataPaths
 import org.alter.data.config.InfraConfig
 import org.alter.data.http.WikiHttpClient
@@ -126,7 +139,12 @@ class Cockpit private constructor(
             )
             inbox = InboxService(InboxStore(db), audit, bus, listOf(EnrichExecutor(enrichment), ServerStartExecutor(supervisor)), scope)
             val missingSource = MissingContentSource(paths.missingContent, inbox, enrichment::plan, config.inbox.minCountForCard, config.inbox.missingContentPollSeconds * 1_000)
-            val server = CockpitServer(config, tokens, audit, inbox, bus, supervisor, logTail, paths.missingContent)
+            val scaffolds = ScaffoldService(
+                listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), SkeletonGenerator()),
+                ScaffoldContext(RscmNames(paths.dataDir.resolve("cfg/rscm"))) { pkg -> Files.isDirectory(paths.root.resolve(Kt.packagePath(pkg))) },
+            )
+            val workOrders = WorkOrders(inbox, scaffolds, ScaffoldWorkspace(paths.root, paths.cockpitDir.resolve("worktrees"), config.workorders.baseRef))
+            val server = CockpitServer(config, tokens, audit, inbox, bus, supervisor, logTail, paths.missingContent, workOrders)
             return Cockpit(db, scope, bus, inbox, supervisor, logTail, missingSource, server, wikiHttp)
         }
 

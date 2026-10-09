@@ -1,10 +1,23 @@
 package org.alter.cockpit.workorders
 
+import com.fasterxml.jackson.annotation.JsonSubTypes
+import com.fasterxml.jackson.annotation.JsonTypeInfo
+
 /**
  * A wiki `Transcript:` page as a tree. Lines are what someone says; options are the choices the player gets;
  * actions are what the wiki marks with `{{tact}}` (end, a shop opening, "same as above", a continuation).
- * `type` is serialized so the UI and the scaffold generators can switch on it.
+ * `type` is serialized so the UI and the scaffold generators can switch on it, and read back from a card's
+ * stored result.
  */
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true)
+@JsonSubTypes(
+    JsonSubTypes.Type(Node.Line::class, name = "line"),
+    JsonSubTypes.Type(Node.Options::class, name = "options"),
+    JsonSubTypes.Type(Node.Random::class, name = "random"),
+    JsonSubTypes.Type(Node.Action::class, name = "action"),
+    JsonSubTypes.Type(Node.Condition::class, name = "condition"),
+    JsonSubTypes.Type(Node.Note::class, name = "note"),
+)
 sealed class Node {
     abstract val type: String
 
