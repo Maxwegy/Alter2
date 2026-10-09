@@ -1,0 +1,55 @@
+{
+  "page" : "Baboon Mage",
+  "versions" : [
+    {
+      "source" : "Baboon Mage#Level 56",
+      "version" : "Level 56",
+      "ids" : [
+        11711
+      ],
+      "names" : [
+        "npc.baboon_mage"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 12, "ranged" : 40, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 20, "stabDefence" : 900, "slashDefence" : 900, "crushDefence" : 900, "magicDefence" : 900, "rangedDefence" : -50, "lightRangedDefence" : -50, "heavyRangedDefence" : -50, "attackBonus" : 20, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Baboon Mage#Level 68",
+      "version" : "Level 68",
+      "ids" : [
+        11714
+      ],
+      "names" : [
+        "npc.baboon_mage_11714"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 20, "ranged" : 40, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 25, "stabDefence" : 900, "slashDefence" : 900, "crushDefence" : 900, "magicDefence" : 900, "rangedDefence" : -50, "lightRangedDefence" : -50, "heavyRangedDefence" : -50, "attackBonus" : 25, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

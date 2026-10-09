@@ -1,0 +1,16 @@
+{
+  "page" : "Kephri",
+  "tables" : [
+    {
+      "source" : "Kephri",
+      "npcIds" : [
+        11719,
+        11721
+      ],
+      "always" : [
+        { "item" : 27214, "name" : "item.scarab_dung", "min" : 1, "max" : 1 },
+        { "item" : 27306, "name" : "item.scabaras_capture", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

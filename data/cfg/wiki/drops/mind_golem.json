@@ -1,0 +1,30 @@
+{
+  "page" : "Mind Golem",
+  "tables" : [
+    {
+      "source" : "Mind Golem",
+      "npcIds" : [
+        10693,
+        10694
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 434, "name" : "item.clay", "min" : 2, "max" : 3, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 436, "name" : "item.copper_ore", "min" : 2, "max" : 3, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 2, "max" : 3, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 2, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 1, "max" : 1, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 5, "max" : 10, "chance" : [ 2, 13 ], "wiki" : "8/52" },
+        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 52 ], "wiki" : "1/52" },
+        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 52 ], "wiki" : "1/52" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 26 ], "wiki" : "2/52" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 13 ], "wiki" : "4/52" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50", "approx" : true },
+        { "item" : 25639, "name" : "item.barronite_guard", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 25676, "name" : "item.barronite_shards", "min" : 8, "max" : 16, "chance" : [ 5, 36 ], "wiki" : "5/36" },
+        { "item" : 25696, "name" : "item.mind_core", "min" : 1, "max" : 1, "chance" : [ 5, 36 ], "wiki" : "5/36" }
+      ]
+    }
+  ]
+}

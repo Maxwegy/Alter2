@@ -1,0 +1,29 @@
+{
+  "page" : "Shockwave Colossus",
+  "versions" : [
+    {
+      "source" : "Shockwave Colossus",
+      "ids" : [
+        12819
+      ],
+      "names" : [
+        "npc.shockwave_colossus"
+      ],
+      "combatLevel" : 239,
+      "hitpoints" : 125,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 190, "defence" : 150, "ranged" : 220, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 55, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 5, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 35 },
+      "maxHits" : [
+        "56"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

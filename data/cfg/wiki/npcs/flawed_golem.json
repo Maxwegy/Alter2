@@ -1,0 +1,61 @@
+{
+  "page" : "Flawed Golem",
+  "versions" : [
+    {
+      "source" : "Flawed Golem#Golem",
+      "version" : "Golem",
+      "ids" : [
+        10695
+      ],
+      "names" : [
+        "npc.flawed_golem"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 25,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 7, "strength" : 12, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 0, "magicDefence" : 2, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Flawed Golem#Rubble",
+      "version" : "Rubble",
+      "ids" : [
+        10696
+      ],
+      "names" : [
+        "npc.rubble_10696"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 25,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 7, "strength" : 12, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 0, "magicDefence" : 2, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

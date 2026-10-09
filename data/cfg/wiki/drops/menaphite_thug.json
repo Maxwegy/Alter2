@@ -1,0 +1,15 @@
+{
+  "page" : "Menaphite Thug",
+  "tables" : [
+    {
+      "source" : "Menaphite Thug",
+      "npcIds" : [
+        3549,
+        3550
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

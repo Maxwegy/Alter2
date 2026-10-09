@@ -1,0 +1,63 @@
+{
+  "page" : "Kephri",
+  "versions" : [
+    {
+      "source" : "Kephri#Aggressive",
+      "version" : "Aggressive",
+      "ids" : [
+        11721
+      ],
+      "names" : [
+        "npc.kephri_11721"
+      ],
+      "combatLevel" : 341,
+      "hitpoints" : 80,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 80, "ranged" : 0, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 300, "crushDefence" : 100, "magicDefence" : 200, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Kephri#Shielded",
+      "version" : "Shielded",
+      "ids" : [
+        11719
+      ],
+      "names" : [
+        "npc.kephri"
+      ],
+      "combatLevel" : 341,
+      "hitpoints" : 150,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 80, "ranged" : 0, "magic" : 125 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 300, "crushDefence" : 100, "magicDefence" : 200, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

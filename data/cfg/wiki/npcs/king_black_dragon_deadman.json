@@ -1,0 +1,132 @@
+{
+  "page" : "King Black Dragon (Deadman)",
+  "versions" : [
+    {
+      "source" : "King Black Dragon (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12440
+      ],
+      "names" : [
+        "npc.king_black_dragon_12440"
+      ],
+      "combatLevel" : 318,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 150, "ranged" : 1, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 40, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Melee)",
+        "65 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "categories" : [ "Black Dragons", "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "King Black Dragon (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12440
+      ],
+      "names" : [
+        "npc.king_black_dragon_12440"
+      ],
+      "combatLevel" : 278,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 240, "ranged" : 1, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 40, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Melee)",
+        "65 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "categories" : [ "Black Dragons", "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "King Black Dragon (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12440
+      ],
+      "names" : [
+        "npc.king_black_dragon_12440"
+      ],
+      "combatLevel" : 256,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 150, "ranged" : 1, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 40, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Melee)",
+        "65 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "categories" : [ "Black Dragons", "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "King Black Dragon (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12440
+      ],
+      "names" : [
+        "npc.king_black_dragon_12440"
+      ],
+      "combatLevel" : 281,
+      "hitpoints" : 350,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 240, "defence" : 150, "ranged" : 1, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 80, "rangedDefence" : 40, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Melee)",
+        "65 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "categories" : [ "Black Dragons", "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "page" : "Durial321 (Deadman)",
+  "versions" : [
+    {
+      "source" : "Durial321 (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13662
+      ],
+      "names" : [
+        "npc.durial321"
+      ],
+      "combatLevel" : 709,
+      "hitpoints" : 2500,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 98, "defence" : 88, "ranged" : 80, "magic" : 94 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : -12, "stabDefence" : 148, "slashDefence" : 134, "crushDefence" : 162, "magicDefence" : 69, "rangedDefence" : 88, "lightRangedDefence" : 88, "heavyRangedDefence" : 88, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Durial321 (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13662
+      ],
+      "names" : [
+        "npc.durial321"
+      ],
+      "combatLevel" : 334,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 98, "defence" : 88, "ranged" : 80, "magic" : 94 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 47, "rangedAttack" : -12, "stabDefence" : 148, "slashDefence" : 134, "crushDefence" : 162, "magicDefence" : 69, "rangedDefence" : 88, "lightRangedDefence" : 88, "heavyRangedDefence" : 88, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Durial321 (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13662
+      ],
+      "names" : [
+        "npc.durial321"
+      ],
+      "combatLevel" : 272,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 98, "defence" : 88, "ranged" : 80, "magic" : 94 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : -12, "stabDefence" : 148, "slashDefence" : 134, "crushDefence" : 162, "magicDefence" : 69, "rangedDefence" : 88, "lightRangedDefence" : 88, "heavyRangedDefence" : 88, "attackBonus" : 0, "strengthBonus" : 105, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

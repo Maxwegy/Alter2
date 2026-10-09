@@ -1,0 +1,15 @@
+{
+  "page" : "Gnome guard",
+  "tables" : [
+    {
+      "source" : "Gnome guard",
+      "npcIds" : [
+        6081,
+        6082
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

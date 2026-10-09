@@ -1,0 +1,32 @@
+{
+  "page" : "Giant crypt spider",
+  "versions" : [
+    {
+      "source" : "Giant crypt spider",
+      "ids" : [
+        1684
+      ],
+      "names" : [
+        "npc.giant_crypt_spider"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 67, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 17, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 80.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

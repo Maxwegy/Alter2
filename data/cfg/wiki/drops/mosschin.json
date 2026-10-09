@@ -1,0 +1,15 @@
+{
+  "page" : "Mosschin",
+  "tables" : [
+    {
+      "source" : "Mosschin",
+      "npcIds" : [
+        11271,
+        11298
+      ],
+      "always" : [
+        { "item" : 26591, "name" : "item.mosschins_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

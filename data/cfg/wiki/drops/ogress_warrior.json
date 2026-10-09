@@ -1,0 +1,73 @@
+{
+  "page" : "Ogress Warrior",
+  "tables" : [
+    {
+      "source" : "Ogress Warrior",
+      "npcIds" : [
+        7989,
+        7990
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 225, "name" : "item.limpwurt_root", "min" : 1, "max" : 1, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 329, "name" : "item.salmon", "min" : 1, "max" : 3, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 10, "max" : 20, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 10, "max" : 20, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 10, "max" : 20, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 10, "max" : 20, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 10, "max" : 20, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 8, "max" : 15, "chance" : [ 3, 58 ], "wiki" : "6/116" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 8, "max" : 15, "chance" : [ 7, 116 ], "wiki" : "7/116" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 15, "max" : 30, "chance" : [ 7, 116 ], "wiki" : "7/116" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 8, "max" : 15, "chance" : [ 7, 116 ], "wiki" : "7/116" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 10, "max" : 15, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 20, "max" : 40, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 10, "max" : 30, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 888, "name" : "item.mithril_arrow", "min" : 5, "max" : 15, "chance" : [ 7, 116 ], "wiki" : "7/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 5, 116 ], "wiki" : "5/116" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 500, "max" : 1000, "chance" : [ 9, 116 ], "wiki" : "9/116" },
+        { "item" : 1147, "name" : "item.rune_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1197, "name" : "item.mithril_kiteshield", "min" : 1, "max" : 1, "chance" : [ 7, 116 ], "wiki" : "7/116" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "wiki" : "4/116" },
+        { "item" : 5100, "name" : "item.limpwurt_seed", "min" : 1, "max" : 1, "chance" : [ 2, 355 ], "wiki" : "1/177.5" },
+        { "item" : 5104, "name" : "item.jangerberry_seed", "min" : 1, "max" : 1, "chance" : [ 10, 2643 ], "wiki" : "1/264.3" },
+        { "item" : 5105, "name" : "item.whiteberry_seed", "min" : 1, "max" : 1, "chance" : [ 10, 7151 ], "wiki" : "1/715.1" },
+        { "item" : 5106, "name" : "item.poison_ivy_seed", "min" : 1, "max" : 1, "chance" : [ 10, 18703 ], "wiki" : "1/1,870.3" },
+        { "item" : 5280, "name" : "item.cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 20261 ], "wiki" : "1/2,026.1" },
+        { "item" : 5281, "name" : "item.belladonna_seed", "min" : 1, "max" : 1, "chance" : [ 5, 6754 ], "wiki" : "1/1,350.8" },
+        { "item" : 5282, "name" : "item.mushroom_spore", "min" : 1, "max" : 1, "chance" : [ 5, 4192 ], "wiki" : "1/838.4" },
+        { "item" : 5292, "name" : "item.marrentill_seed", "min" : 1, "max" : 1, "chance" : [ 2, 389 ], "wiki" : "1/194.5" },
+        { "item" : 5293, "name" : "item.tarromin_seed", "min" : 1, "max" : 1, "chance" : [ 1, 286 ], "wiki" : "1/286" },
+        { "item" : 5294, "name" : "item.harralander_seed", "min" : 1, "max" : 1, "chance" : [ 5, 2171 ], "wiki" : "1/434.2" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 5, 3117 ], "wiki" : "1/623.4" },
+        { "item" : 5296, "name" : "item.toadflax_seed", "min" : 1, "max" : 1, "chance" : [ 2, 1801 ], "wiki" : "1/900.5" },
+        { "item" : 5297, "name" : "item.irit_seed", "min" : 1, "max" : 1, "chance" : [ 5, 6754 ], "wiki" : "1/1,350.8" },
+        { "item" : 5298, "name" : "item.avantoe_seed", "min" : 1, "max" : 1, "chance" : [ 10, 20261 ], "wiki" : "1/2,026.1" },
+        { "item" : 5299, "name" : "item.kwuarm_seed", "min" : 1, "max" : 1, "chance" : [ 2, 5403 ], "wiki" : "1/2,701.5" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 10, 48627 ], "wiki" : "1/4,862.7" },
+        { "item" : 5301, "name" : "item.cadantine_seed", "min" : 1, "max" : 1, "chance" : [ 5, 30392 ], "wiki" : "1/6,078.4" },
+        { "item" : 5302, "name" : "item.lantadyme_seed", "min" : 1, "max" : 1, "chance" : [ 2, 16209 ], "wiki" : "1/8,104.5" },
+        { "item" : 5303, "name" : "item.dwarf_weed_seed", "min" : 1, "max" : 1, "chance" : [ 5, 60784 ], "wiki" : "1/12,156.8" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 5, 121568 ], "wiki" : "1/24,313.6" },
+        { "item" : 5311, "name" : "item.wildblood_seed", "min" : 1, "max" : 1, "chance" : [ 10, 2929 ], "wiki" : "1/292.9" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 1, "max" : 1, "chance" : [ 10, 3859 ], "wiki" : "1/385.9" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 1, "max" : 1, "chance" : [ 5, 928 ], "wiki" : "1/185.6" },
+        { "item" : 7842, "name" : "item.ogre_ribs", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" },
+        { "item" : 13478, "name" : "item.ensouled_ogre_head_13478", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "1/30" },
+        { "item" : 21838, "name" : "item.shaman_mask", "min" : 1, "max" : 1, "chance" : [ 1, 1200 ], "wiki" : "1/1,200" },
+        { "item" : 22873, "name" : "item.potato_cactus_seed", "min" : 1, "max" : 1, "chance" : [ 5, 15196 ], "wiki" : "1/3,039.2" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 1, "chance" : [ 5, 3039 ], "wiki" : "1/607.8" }
+      ]
+    }
+  ]
+}

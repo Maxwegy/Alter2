@@ -1,0 +1,34 @@
+{
+  "page" : "Skeleton Hellhound (Vet'ion)",
+  "versions" : [
+    {
+      "source" : "Skeleton Hellhound (Vet'ion)",
+      "ids" : [
+        6613
+      ],
+      "names" : [
+        "npc.skeleton_hellhound_6613"
+      ],
+      "combatLevel" : 194,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 210, "strength" : 250, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 101, "slashDefence" : 103, "crushDefence" : 10, "magicDefence" : 180, "rangedDefence" : 266, "lightRangedDefence" : 266, "heavyRangedDefence" : 266, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 33.0, "categories" : [ "Hellhounds", "Skeletons" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

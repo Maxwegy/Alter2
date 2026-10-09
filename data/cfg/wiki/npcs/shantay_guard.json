@@ -1,0 +1,32 @@
+{
+  "page" : "Shantay Guard",
+  "versions" : [
+    {
+      "source" : "Shantay Guard",
+      "ids" : [
+        4643,
+        4648
+      ],
+      "names" : [
+        "npc.shantay_guard",
+        "npc.shantay_guard_4648"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 16, "defence" : 16, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 15, "crushDefence" : 18, "magicDefence" : 6, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 11, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

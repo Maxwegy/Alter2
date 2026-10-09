@@ -1,0 +1,68 @@
+{
+  "page" : "Kalphite Queen (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "Kalphite Queen (PvM Arena)#Airborne",
+      "version" : "Airborne",
+      "ids" : [
+        6501
+      ],
+      "names" : [
+        "npc.kalphite_queen_6501"
+      ],
+      "combatLevel" : 333,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 300, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 535.5, "categories" : [ "Bosses", "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] }
+    },
+    {
+      "source" : "Kalphite Queen (PvM Arena)#Crawling",
+      "version" : "Crawling",
+      "ids" : [
+        6500
+      ],
+      "names" : [
+        "npc.kalphite_queen_6500"
+      ],
+      "combatLevel" : 333,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 300, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 535.5, "categories" : [ "Bosses", "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

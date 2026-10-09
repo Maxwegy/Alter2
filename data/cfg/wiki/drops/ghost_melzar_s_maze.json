@@ -1,0 +1,18 @@
+{
+  "page" : "Ghost (Melzar's Maze)",
+  "tables" : [
+    {
+      "source" : "Ghost (Melzar's Maze)",
+      "npcIds" : [
+        3975,
+        3976,
+        3977,
+        3978,
+        3979
+      ],
+      "always" : [
+        { "item" : 1544, "name" : "item.key_1544", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

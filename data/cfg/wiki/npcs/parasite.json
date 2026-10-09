@@ -1,0 +1,59 @@
+{
+  "page" : "Parasite",
+  "versions" : [
+    {
+      "source" : "Parasite#Regular",
+      "version" : "Regular",
+      "ids" : [
+        9452
+      ],
+      "names" : [
+        "npc.parasite"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 60, "ranged" : 60, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 20, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 20, "magicDefence" : 120, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 46, "magicDamage" : 46 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "fire", "percent" : 50 }
+    },
+    {
+      "source" : "Parasite#Weakened",
+      "version" : "Weakened",
+      "ids" : [
+        9453
+      ],
+      "names" : [
+        "npc.parasite_9453"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 40, "ranged" : 60, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 12, "rangedAttack" : 12, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 10, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 26, "magicDamage" : 26 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "fire", "percent" : 50 }
+    }
+  ]
+}

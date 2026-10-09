@@ -1,0 +1,32 @@
+{
+  "page" : "Callisto (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "Callisto (PvM Arena)",
+      "ids" : [
+        6503
+      ],
+      "names" : [
+        "npc.callisto"
+      ],
+      "combatLevel" : 470,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 370, "defence" : 440, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 135, "slashDefence" : 104, "crushDefence" : 175, "magicDefence" : 900, "rangedDefence" : 230, "lightRangedDefence" : 230, "heavyRangedDefence" : 230, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "50 (Crush)",
+        "60 (Special)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 312.0, "categories" : [ "Bears", "Bosses" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    }
+  ]
+}

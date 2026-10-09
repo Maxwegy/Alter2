@@ -1,0 +1,38 @@
+{
+  "page" : "Fragment of Seren",
+  "versions" : [
+    {
+      "source" : "Fragment of Seren",
+      "ids" : [
+        8917,
+        8918,
+        8919,
+        8920
+      ],
+      "names" : [
+        "npc.fragment_of_seren",
+        "npc.fragment_of_seren_8918",
+        "npc.fragment_of_seren_8919",
+        "npc.fragment_of_seren_8920"
+      ],
+      "combatLevel" : 494,
+      "hitpoints" : 1000,
+      "attackSpeed" : 7,
+      "size" : 3,
+      "levels" : { "attack" : 242, "strength" : 288, "defence" : 102, "ranged" : 235, "magic" : 102 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 224, "stabDefence" : 320, "slashDefence" : 220, "crushDefence" : 320, "magicDefence" : 10, "rangedDefence" : 480, "lightRangedDefence" : 480, "heavyRangedDefence" : 480, "attackBonus" : 236, "strengthBonus" : 44, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12+12 (standard)",
+        "3+3 (Protect from Missiles)",
+        "Max HP minus 1 (special)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

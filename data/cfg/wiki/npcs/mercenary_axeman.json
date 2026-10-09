@@ -1,0 +1,55 @@
+{
+  "page" : "Mercenary axeman",
+  "versions" : [
+    {
+      "source" : "Mercenary axeman#1",
+      "version" : "1",
+      "ids" : [
+        13535
+      ],
+      "names" : [
+        "npc.mercenary_axeman"
+      ],
+      "combatLevel" : 131,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 110, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 110, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 10, "rangedDefence" : 70, "lightRangedDefence" : 90, "heavyRangedDefence" : 30, "attackBonus" : 75, "strengthBonus" : 25, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mercenary axeman#2",
+      "version" : "2",
+      "ids" : [
+        13536
+      ],
+      "names" : [
+        "npc.mercenary_axeman_13536"
+      ],
+      "combatLevel" : 131,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 110, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 110, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 10, "rangedDefence" : 70, "lightRangedDefence" : 90, "heavyRangedDefence" : 30, "attackBonus" : 75, "strengthBonus" : 25, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

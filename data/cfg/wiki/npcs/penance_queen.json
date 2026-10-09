@@ -1,0 +1,31 @@
+{
+  "page" : "Penance Queen",
+  "versions" : [
+    {
+      "source" : "Penance Queen",
+      "ids" : [
+        5775
+      ],
+      "names" : [
+        "npc.penance_queen"
+      ],
+      "combatLevel" : 209,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 260, "strength" : 92, "defence" : 132, "ranged" : 116, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Ranged)",
+        "5 (Melee)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Single and multi-target Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

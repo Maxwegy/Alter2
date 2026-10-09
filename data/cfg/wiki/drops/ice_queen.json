@@ -1,0 +1,14 @@
+{
+  "page" : "Ice Queen",
+  "tables" : [
+    {
+      "source" : "Ice Queen",
+      "npcIds" : [
+        4922
+      ],
+      "always" : [
+        { "item" : 1580, "name" : "item.ice_gloves", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

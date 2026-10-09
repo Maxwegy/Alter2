@@ -1,0 +1,125 @@
+{
+  "page" : "Dagannoth",
+  "versions" : [
+    {
+      "source" : "Dagannoth#Level 74 (1)",
+      "version" : "Level 74 (1)",
+      "ids" : [
+        970,
+        971,
+        972
+      ],
+      "names" : [
+        "npc.dagannoth_970",
+        "npc.dagannoth_971",
+        "npc.dagannoth_972"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth#Level 74 (2)",
+      "version" : "Level 74 (2)",
+      "ids" : [
+        7259
+      ],
+      "names" : [
+        "npc.dagannoth_7259"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth#Level 92 (1)",
+      "version" : "Level 92 (1)",
+      "ids" : [
+        973,
+        974,
+        975
+      ],
+      "names" : [
+        "npc.dagannoth_973",
+        "npc.dagannoth_974",
+        "npc.dagannoth_975"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 120.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth#Level 92 (2)",
+      "version" : "Level 92 (2)",
+      "ids" : [
+        7260
+      ],
+      "names" : [
+        "npc.dagannoth_7260"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 120.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

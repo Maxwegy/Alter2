@@ -1,0 +1,42 @@
+{
+  "page" : "Gelatinnoth Mother",
+  "versions" : [
+    {
+      "source" : "Gelatinnoth Mother",
+      "ids" : [
+        4884,
+        4885,
+        4886,
+        4887,
+        4888,
+        4889
+      ],
+      "names" : [
+        "npc.gelatinnoth_mother",
+        "npc.gelatinnoth_mother_4885",
+        "npc.gelatinnoth_mother_4886",
+        "npc.gelatinnoth_mother_4887",
+        "npc.gelatinnoth_mother_4888",
+        "npc.gelatinnoth_mother_4889"
+      ],
+      "combatLevel" : 130,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 78, "strength" : 78, "defence" : 81, "ranged" : 50, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9 (melee)",
+        "20x2 (ranged/magic)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

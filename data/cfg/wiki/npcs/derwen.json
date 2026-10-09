@@ -1,0 +1,33 @@
+{
+  "page" : "Derwen",
+  "versions" : [
+    {
+      "source" : "Derwen",
+      "ids" : [
+        7513,
+        7859
+      ],
+      "names" : [
+        "npc.derwen",
+        "npc.derwen_7859"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 180, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Magic)",
+        "16 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

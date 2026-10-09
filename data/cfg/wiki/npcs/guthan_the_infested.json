@@ -1,0 +1,34 @@
+{
+  "page" : "Guthan the Infested",
+  "versions" : [
+    {
+      "source" : "Guthan the Infested",
+      "ids" : [
+        1674
+      ],
+      "names" : [
+        "npc.guthan_the_infested"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -50, "rangedAttack" : -19, "stabDefence" : 259, "slashDefence" : 257, "crushDefence" : 241, "magicDefence" : -11, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 250, "attackBonus" : 0, "strengthBonus" : 75, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 115.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

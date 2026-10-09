@@ -1,0 +1,15 @@
+{
+  "page" : "Skraeling (Miscellania)",
+  "tables" : [
+    {
+      "source" : "Skraeling (Miscellania)",
+      "npcIds" : [
+        3684,
+        3686
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

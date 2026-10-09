@@ -1,0 +1,39 @@
+{
+  "page" : "Essyllt",
+  "versions" : [
+    {
+      "source" : "Essyllt#Normal",
+      "ids" : [
+        8847,
+        8871,
+        8872,
+        8950,
+        9016
+      ],
+      "names" : [
+        "npc.essyllt_8847",
+        "npc.essyllt_8871",
+        "npc.essyllt_8872",
+        "npc.essyllt_8950",
+        "npc.essyllt_9016"
+      ],
+      "combatLevel" : 236,
+      "hitpoints" : 320,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 268, "strength" : 268, "defence" : 104, "ranged" : 342, "magic" : 104 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 30, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 28, "rangedStrength" : 28, "magicDamage" : 0 },
+      "maxHits" : [
+        "40 (melee)",
+        "51 (ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

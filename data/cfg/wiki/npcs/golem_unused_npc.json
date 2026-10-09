@@ -1,0 +1,19 @@
+{
+  "page" : "Golem (unused NPC)",
+  "versions" : [
+    {
+      "source" : "Golem (unused NPC)",
+      "ids" : [
+        2836
+      ],
+      "names" : [
+        "npc.golem"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 70,
+      "size" : 2,
+      "levels" : { "attack" : 35, "strength" : 60, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

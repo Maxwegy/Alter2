@@ -1,0 +1,30 @@
+{
+  "page" : "Avatar of Destruction",
+  "versions" : [
+    {
+      "source" : "Avatar of Destruction",
+      "ids" : [
+        10532
+      ],
+      "names" : [
+        "npc.avatar_of_destruction_10532"
+      ],
+      "combatLevel" : 525,
+      "hitpoints" : 1500,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 160, "strength" : 320, "defence" : 10, "ranged" : 0, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 160, "strengthBonus" : 42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "54"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "slayer" : { "xp" : 0.0 }
+    }
+  ]
+}

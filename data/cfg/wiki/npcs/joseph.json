@@ -1,0 +1,30 @@
+{
+  "page" : "Joseph",
+  "versions" : [
+    {
+      "source" : "Joseph",
+      "ids" : [
+        2616
+      ],
+      "names" : [
+        "npc.joseph"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

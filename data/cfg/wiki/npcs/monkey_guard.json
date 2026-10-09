@@ -1,0 +1,59 @@
+{
+  "page" : "Monkey Guard",
+  "versions" : [
+    {
+      "source" : "Monkey Guard#Bearded",
+      "version" : "Bearded",
+      "ids" : [
+        5276
+      ],
+      "names" : [
+        "npc.monkey_guard_5276"
+      ],
+      "combatLevel" : 167,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 12,
+      "size" : 2,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 200, "ranged" : 1, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 133.0, "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Monkey Guard#Unbearded",
+      "version" : "Unbearded",
+      "ids" : [
+        5275
+      ],
+      "names" : [
+        "npc.monkey_guard_5275"
+      ],
+      "combatLevel" : 167,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 200, "ranged" : 1, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 133.0, "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "page" : "Ouhai",
+  "tables" : [
+    {
+      "source" : "Ouhai",
+      "npcIds" : [
+        5261
+      ],
+      "always" : [
+        { "item" : 3180, "name" : "item.medium_ninja_monkey_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

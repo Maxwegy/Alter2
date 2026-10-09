@@ -1,0 +1,29 @@
+{
+  "page" : "Tar Monster",
+  "versions" : [
+    {
+      "source" : "Tar Monster",
+      "ids" : [
+        7804
+      ],
+      "names" : [
+        "npc.tar_monster"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 80, "defence" : 70, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Typeless Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Sourhog",
+  "versions" : [
+    {
+      "source" : "Sourhog",
+      "ids" : [
+        10435
+      ],
+      "names" : [
+        "npc.sourhog"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 35, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 30, "crushDefence" : 10, "magicDefence" : 30, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "6",
+        "20-30 (without Reinforced goggles)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 40.0, "categories" : [ "Sourhogs" ], "assignedBy" : [ "spria" ] }
+    }
+  ]
+}

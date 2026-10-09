@@ -1,0 +1,213 @@
+{
+  "page" : "Mummy (Ancient Pyramid)",
+  "versions" : [
+    {
+      "source" : "Mummy (Ancient Pyramid)#1",
+      "version" : "1",
+      "ids" : [
+        720
+      ],
+      "names" : [
+        "npc.mummy_720"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#1 alight",
+      "version" : "1 alight",
+      "ids" : [
+        725
+      ],
+      "names" : [
+        "npc.mummy_725"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#2",
+      "version" : "2",
+      "ids" : [
+        721
+      ],
+      "names" : [
+        "npc.mummy_721"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#2 alight",
+      "version" : "2 alight",
+      "ids" : [
+        726
+      ],
+      "names" : [
+        "npc.mummy_726"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#3",
+      "version" : "3",
+      "ids" : [
+        722
+      ],
+      "names" : [
+        "npc.mummy_722"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#3 alight",
+      "version" : "3 alight",
+      "ids" : [
+        727
+      ],
+      "names" : [
+        "npc.mummy_727"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#4",
+      "version" : "4",
+      "ids" : [
+        723
+      ],
+      "names" : [
+        "npc.mummy_723"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mummy (Ancient Pyramid)#4 alight",
+      "version" : "4 alight",
+      "ids" : [
+        728
+      ],
+      "names" : [
+        "npc.mummy_728"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

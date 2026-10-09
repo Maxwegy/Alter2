@@ -1,0 +1,31 @@
+{
+  "page" : "Cave goblin miner",
+  "tables" : [
+    {
+      "source" : "Cave goblin miner",
+      "npcIds" : [
+        5330,
+        5331,
+        5332,
+        5333,
+        5336,
+        5337,
+        5338,
+        5339
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 440, "name" : "item.iron_ore", "min" : 2, "max" : 2, "chance" : [ 15, 128 ], "wiki" : "15/128" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 7, "max" : 7, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 442, "name" : "item.silver_ore", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 6, "max" : 6, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 5014, "name" : "item.mining_helmet_5014", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 7905, "name" : "item.cave_goblin_skull", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

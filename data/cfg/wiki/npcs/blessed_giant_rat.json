@@ -1,0 +1,65 @@
+{
+  "page" : "Blessed giant rat",
+  "versions" : [
+    {
+      "source" : "Blessed giant rat#1",
+      "version" : "1",
+      "ids" : [
+        4534
+      ],
+      "names" : [
+        "npc.blessed_giant_rat"
+      ],
+      "combatLevel" : 9,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 300,
+      "size" : 2,
+      "levels" : { "attack" : 5, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -24, "slashDefence" : -24, "crushDefence" : -24, "magicDefence" : -24, "rangedDefence" : -24, "lightRangedDefence" : -24, "heavyRangedDefence" : -24, "attackBonus" : 0, "strengthBonus" : -24, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Blessed giant rat#2",
+      "version" : "2",
+      "ids" : [
+        4535
+      ],
+      "names" : [
+        "npc.blessed_giant_rat_4535"
+      ],
+      "combatLevel" : 9,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 300,
+      "size" : 2,
+      "levels" : { "attack" : 5, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -24, "slashDefence" : -24, "crushDefence" : -24, "magicDefence" : -24, "rangedDefence" : -24, "lightRangedDefence" : -24, "heavyRangedDefence" : -24, "attackBonus" : 0, "strengthBonus" : -24, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

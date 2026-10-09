@@ -1,0 +1,109 @@
+{
+  "page" : "Pheasant",
+  "versions" : [
+    {
+      "source" : "Pheasant#1 tail",
+      "version" : "1 tail",
+      "ids" : [
+        373
+      ],
+      "names" : [
+        "npc.pheasant_373"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pheasant#2 tails",
+      "version" : "2 tails",
+      "ids" : [
+        5500
+      ],
+      "names" : [
+        "npc.pheasant_5500"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pheasant#3 tails",
+      "version" : "3 tails",
+      "ids" : [
+        374
+      ],
+      "names" : [
+        "npc.pheasant_374"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pheasant#4 tails",
+      "version" : "4 tails",
+      "ids" : [
+        5502
+      ],
+      "names" : [
+        "npc.pheasant_5502"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

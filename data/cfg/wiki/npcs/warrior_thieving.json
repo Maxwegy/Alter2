@@ -1,0 +1,161 @@
+{
+  "page" : "Warrior (Thieving)",
+  "versions" : [
+    {
+      "source" : "Warrior (Thieving)#Apricot",
+      "version" : "Apricot",
+      "ids" : [
+        11926
+      ],
+      "names" : [
+        "npc.warrior_11926"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior (Thieving)#Bald",
+      "version" : "Bald",
+      "ids" : [
+        11929
+      ],
+      "names" : [
+        "npc.warrior_11929"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior (Thieving)#Blonde",
+      "version" : "Blonde",
+      "ids" : [
+        3260
+      ],
+      "names" : [
+        "npc.warrior_3260"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior (Thieving)#Brown",
+      "version" : "Brown",
+      "ids" : [
+        11927
+      ],
+      "names" : [
+        "npc.warrior_11927"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior (Thieving)#Goatee",
+      "version" : "Goatee",
+      "ids" : [
+        11928
+      ],
+      "names" : [
+        "npc.warrior_11928"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior (Thieving)#Wind braids",
+      "version" : "Wind braids",
+      "ids" : [
+        11925
+      ],
+      "names" : [
+        "npc.warrior_11925"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 6, "rangedAttack" : 6, "stabDefence" : 40, "slashDefence" : 41, "crushDefence" : 37, "magicDefence" : -10, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 6, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

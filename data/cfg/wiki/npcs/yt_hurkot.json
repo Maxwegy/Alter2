@@ -1,0 +1,63 @@
+{
+  "page" : "Yt-HurKot",
+  "versions" : [
+    {
+      "source" : "Yt-HurKot#Level 108",
+      "version" : "Level 108",
+      "ids" : [
+        3128
+      ],
+      "names" : [
+        "npc.ythurkot"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 140, "strength" : 100, "defence" : 60, "ranged" : 120, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 60.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Yt-HurKot#Level 141",
+      "version" : "Level 141",
+      "ids" : [
+        7701,
+        7705,
+        10624
+      ],
+      "names" : [
+        "npc.ythurkot_7701",
+        "npc.ythurkot_7705",
+        "npc.ythurkot_10624"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 165, "strength" : 125, "defence" : 100, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 80, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 130, "rangedDefence" : 130, "lightRangedDefence" : 130, "heavyRangedDefence" : 130, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 90.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

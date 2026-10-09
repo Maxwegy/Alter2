@@ -1,0 +1,57 @@
+{
+  "page" : "Skraeling (Miscellania)",
+  "versions" : [
+    {
+      "source" : "Skraeling (Miscellania)#Brown shirt",
+      "version" : "Brown shirt",
+      "ids" : [
+        3684
+      ],
+      "names" : [
+        "npc.skraeling_3684"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -12, "slashDefence" : -12, "crushDefence" : -12, "magicDefence" : -12, "rangedDefence" : -12, "lightRangedDefence" : -12, "heavyRangedDefence" : -12, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Skraeling (Miscellania)#Green shirt",
+      "version" : "Green shirt",
+      "ids" : [
+        3686
+      ],
+      "names" : [
+        "npc.skraeling_3686"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -12, "slashDefence" : -12, "crushDefence" : -12, "magicDefence" : -12, "rangedDefence" : -12, "lightRangedDefence" : -12, "heavyRangedDefence" : -12, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

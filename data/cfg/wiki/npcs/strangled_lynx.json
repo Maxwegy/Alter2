@@ -1,0 +1,30 @@
+{
+  "page" : "Strangled Lynx",
+  "versions" : [
+    {
+      "source" : "Strangled Lynx",
+      "ids" : [
+        12290
+      ],
+      "names" : [
+        "npc.strangled_lynx"
+      ],
+      "combatLevel" : 182,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 2,
+      "levels" : { "attack" : 190, "strength" : 70, "defence" : 40, "ranged" : 0, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

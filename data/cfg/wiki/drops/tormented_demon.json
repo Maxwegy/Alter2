@@ -1,0 +1,66 @@
+{
+  "page" : "Tormented Demon",
+  "tables" : [
+    {
+      "source" : "Tormented Demon",
+      "npcIds" : [
+        13599,
+        13600,
+        13601,
+        13602
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 25778, "name" : "item.infernal_ashes", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 70, "name" : "item.magic_longbow_u", "min" : 1, "max" : 1, "chance" : [ 1, 255 ], "wiki" : "1/255", "approx" : true },
+        { "item" : 73, "name" : "item.magic_shortbow_u_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 29, 255 ], "wiki" : "29/255", "approx" : true },
+        { "item" : 141, "name" : "item.prayer_potion2", "min" : 2, "max" : 2, "chance" : [ 1, 51 ], "wiki" : "1/51", "approx" : true },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 1, 102 ], "wiki" : "1/102" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 5, 408 ], "wiki" : "1/81.6" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 204 ], "wiki" : "1/40.8" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 51 ], "wiki" : "1/51" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 1, 51 ], "wiki" : "1/51" },
+        { "item" : 219, "name" : "item.grimy_torstol", "min" : 1, "max" : 1, "chance" : [ 1, 136 ], "wiki" : "1/136" },
+        { "item" : 391, "name" : "item.manta_ray", "min" : 1, "max" : 2, "chance" : [ 4, 51 ], "wiki" : "4/51", "approx" : true },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 25, "max" : 100, "chance" : [ 4, 51 ], "wiki" : "4/51", "approx" : true },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 50, "max" : 75, "chance" : [ 2, 51 ], "wiki" : "2/51", "approx" : true },
+        { "item" : 570, "name" : "item.fire_orb_noted", "min" : 5, "max" : 7, "noted" : true, "chance" : [ 2, 51 ], "wiki" : "2/51", "approx" : true },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 65, "max" : 125, "chance" : [ 4, 51 ], "wiki" : "4/51", "approx" : true },
+        { "item" : 1127, "name" : "item.rune_platebody", "min" : 1, "max" : 1, "chance" : [ 4, 51 ], "wiki" : "4/51", "approx" : true },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 2, 51 ], "wiki" : "2/51", "approx" : true },
+        { "item" : 1215, "name" : "item.dragon_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 17 ], "wiki" : "3/51", "approx" : true },
+        { "item" : 1392, "name" : "item.battlestaff_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 17 ], "wiki" : "3/51", "approx" : true },
+        { "item" : 2434, "name" : "item.prayer_potion4", "min" : 1, "max" : 1, "chance" : [ 1, 51 ], "wiki" : "1/51", "approx" : true },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 1, 68 ], "wiki" : "1/68" },
+        { "item" : 3051, "name" : "item.grimy_snapdragon", "min" : 1, "max" : 1, "chance" : [ 1, 102 ], "wiki" : "1/102" },
+        { "item" : 5288, "name" : "item.papaya_tree_seed", "min" : 1, "max" : 1, "chance" : [ 10, 9107 ], "wiki" : "1/910.7", "approx" : true },
+        { "item" : 5289, "name" : "item.palm_tree_seed", "min" : 1, "max" : 1, "chance" : [ 1, 1275 ], "wiki" : "1/1,275", "approx" : true },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 1, 425 ], "wiki" : "1/425", "approx" : true },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 5, 2277 ], "wiki" : "1/455.4", "approx" : true },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 2, 1159 ], "wiki" : "1/579.5", "approx" : true },
+        { "item" : 5313, "name" : "item.willow_seed", "min" : 1, "max" : 1, "chance" : [ 2, 1275 ], "wiki" : "1/637.5", "approx" : true },
+        { "item" : 5314, "name" : "item.maple_seed", "min" : 1, "max" : 1, "chance" : [ 10, 7083 ], "wiki" : "1/708.3", "approx" : true },
+        { "item" : 5315, "name" : "item.yew_seed", "min" : 1, "max" : 1, "chance" : [ 10, 7083 ], "wiki" : "1/708.3", "approx" : true },
+        { "item" : 5316, "name" : "item.magic_seed", "min" : 1, "max" : 1, "chance" : [ 10, 11591 ], "wiki" : "1/1,159.1", "approx" : true },
+        { "item" : 5317, "name" : "item.spirit_seed", "min" : 1, "max" : 1, "chance" : [ 10, 15937 ], "wiki" : "1/1,593.7", "approx" : true },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 15, "max" : 15, "chance" : [ 10, 6071 ], "wiki" : "1/607.1", "approx" : true },
+        { "item" : 11237, "name" : "item.dragon_arrowtips", "min" : 30, "max" : 40, "chance" : [ 1, 51 ], "wiki" : "1/51", "approx" : true },
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 21486, "name" : "item.teak_seed", "min" : 1, "max" : 1, "chance" : [ 10, 7083 ], "wiki" : "1/708.3", "approx" : true },
+        { "item" : 21488, "name" : "item.mahogany_seed", "min" : 1, "max" : 1, "chance" : [ 10, 7083 ], "wiki" : "1/708.3", "approx" : true },
+        { "item" : 22869, "name" : "item.celastrus_seed", "min" : 1, "max" : 1, "chance" : [ 2, 6375 ], "wiki" : "1/3,187.5", "approx" : true },
+        { "item" : 22871, "name" : "item.redwood_tree_seed", "min" : 1, "max" : 1, "chance" : [ 2, 6375 ], "wiki" : "1/3,187.5", "approx" : true },
+        { "item" : 22877, "name" : "item.dragonfruit_tree_seed", "min" : 1, "max" : 1, "chance" : [ 1, 2125 ], "wiki" : "1/2,125", "approx" : true },
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 2, "max" : 3, "chance" : [ 2, 51 ], "wiki" : "2/51", "approx" : true },
+        { "item" : 29574, "name" : "item.burning_claw", "min" : 1, "max" : 1, "chance" : [ 499, 250000 ], "wiki" : "499/250,000" },
+        { "item" : 29580, "name" : "item.tormented_synapse", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 29583, "name" : "item.smouldering_heart", "min" : 1, "max" : 1, "chance" : [ 1, 125 ], "wiki" : "1/125", "approx" : true },
+        { "item" : 29585, "name" : "item.smouldering_pile_of_flesh", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25", "approx" : true },
+        { "item" : 29587, "name" : "item.smouldering_gland", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25", "approx" : true },
+        { "item" : 29684, "name" : "item.guthixian_temple_teleport", "min" : 2, "max" : 2, "chance" : [ 1, 12 ], "wiki" : "1/12" }
+      ]
+    }
+  ]
+}

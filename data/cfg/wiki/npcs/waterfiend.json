@@ -1,0 +1,67 @@
+{
+  "page" : "Waterfiend",
+  "versions" : [
+    {
+      "source" : "Waterfiend#Normal",
+      "version" : "Normal",
+      "ids" : [
+        2916
+      ],
+      "names" : [
+        "npc.waterfiend"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 128,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 128, "ranged" : 105, "magic" : 105 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 10, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Magical ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 128.0, "categories" : [ "Waterfiends" ], "assignedBy" : [ "duradel", "konar" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 100 }
+    },
+    {
+      "source" : "Waterfiend#Slayer task",
+      "version" : "Slayer task",
+      "ids" : [
+        2917
+      ],
+      "names" : [
+        "npc.waterfiend_2917"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 128,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 128, "ranged" : 105, "magic" : 105 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 10, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Magical ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 128.0, "categories" : [ "Waterfiends" ], "assignedBy" : [ "duradel", "konar" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 100 }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "page" : "Afflicted",
+  "versions" : [
+    {
+      "source" : "Afflicted#Level 30",
+      "version" : "Level 30",
+      "ids" : [
+        1298
+      ],
+      "names" : [
+        "npc.afflicted_1298"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 34, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Afflicted#Level 32",
+      "version" : "Level 32",
+      "ids" : [
+        1297
+      ],
+      "names" : [
+        "npc.afflicted_1297"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 26,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 26, "strength" : 26, "defence" : 36, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Afflicted#Level 34",
+      "version" : "Level 34",
+      "ids" : [
+        1294
+      ],
+      "names" : [
+        "npc.afflicted_1294"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 28, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Afflicted#Level 37",
+      "version" : "Level 37",
+      "ids" : [
+        1293
+      ],
+      "names" : [
+        "npc.afflicted"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

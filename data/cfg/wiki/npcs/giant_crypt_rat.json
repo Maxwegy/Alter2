@@ -1,0 +1,38 @@
+{
+  "page" : "Giant crypt rat",
+  "versions" : [
+    {
+      "source" : "Giant crypt rat",
+      "ids" : [
+        1680,
+        1681,
+        1682
+      ],
+      "names" : [
+        "npc.giant_crypt_rat",
+        "npc.giant_crypt_rat_1681",
+        "npc.giant_crypt_rat_1682"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 50, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

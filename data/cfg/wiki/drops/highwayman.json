@@ -1,0 +1,27 @@
+{
+  "page" : "Highwayman",
+  "tables" : [
+    {
+      "source" : "Highwayman#Hood",
+      "npcIds" : [
+        519
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Highwayman#No hood",
+      "npcIds" : [
+        518
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 1019, "name" : "item.black_cape", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 9140, "name" : "item.iron_bolts", "min" : 2, "max" : 12, "chance" : [ 1, 20 ], "wiki" : "5/100" }
+      ]
+    }
+  ]
+}

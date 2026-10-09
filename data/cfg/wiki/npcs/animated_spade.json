@@ -1,0 +1,31 @@
+{
+  "page" : "Animated spade",
+  "versions" : [
+    {
+      "source" : "Animated spade",
+      "ids" : [
+        6470
+      ],
+      "names" : [
+        "npc.animated_spade"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 55, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

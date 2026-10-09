@@ -1,0 +1,30 @@
+{
+  "page" : "Al Kharid warrior",
+  "versions" : [
+    {
+      "source" : "Al Kharid warrior",
+      "ids" : [
+        3292
+      ],
+      "names" : [
+        "npc.al_kharid_warrior"
+      ],
+      "combatLevel" : 9,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 7, "strength" : 5, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 15, "crushDefence" : 10, "magicDefence" : -1, "rangedDefence" : 12, "lightRangedDefence" : 12, "heavyRangedDefence" : 12, "attackBonus" : 10, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

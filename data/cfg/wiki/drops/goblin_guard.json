@@ -1,0 +1,41 @@
+{
+  "page" : "Goblin guard",
+  "tables" : [
+    {
+      "source" : "Goblin guard",
+      "npcIds" : [
+        5369
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7812, "name" : "item.goblin_skull", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 288, "name" : "item.goblin_mail", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 6, "max" : 6, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 7, "max" : 7, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 877, "name" : "item.bronze_bolts", "min" : 8, "max" : 8, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 7, 32 ], "wiki" : "28/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 9, "max" : 9, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 20, "max" : 20, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1009, "name" : "item.brass_necklace", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1173, "name" : "item.bronze_sq_shield", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1237, "name" : "item.bronze_spear", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1438, "name" : "item.air_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1949, "name" : "item.chefs_hat", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 2347, "name" : "item.hammer", "min" : 1, "max" : 1, "chance" : [ 15, 128 ], "wiki" : "15/128" },
+        { "item" : 10999, "name" : "item.goblin_book", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 13448, "name" : "item.ensouled_goblin_head_13448", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" }
+      ]
+    }
+  ]
+}

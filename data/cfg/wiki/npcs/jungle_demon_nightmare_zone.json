@@ -1,0 +1,64 @@
+{
+  "page" : "Jungle Demon (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Jungle Demon (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6321
+      ],
+      "names" : [
+        "npc.jungle_demon_hard"
+      ],
+      "combatLevel" : 327,
+      "hitpoints" : 255,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 340, "strength" : 340, "defence" : 170, "ranged" : 1, "magic" : 340 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "62"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
+      "source" : "Jungle Demon (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6382
+      ],
+      "names" : [
+        "npc.jungle_demon_6382"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 170,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 170, "strength" : 170, "defence" : 170, "ranged" : 1, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

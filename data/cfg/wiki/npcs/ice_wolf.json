@@ -1,0 +1,75 @@
+{
+  "page" : "Ice wolf",
+  "versions" : [
+    {
+      "source" : "Ice wolf#Level 132",
+      "version" : "Level 132",
+      "ids" : [
+        647,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715
+      ],
+      "names" : [
+        "npc.ice_wolf_647",
+        "npc.ice_wolf_710",
+        "npc.ice_wolf_711",
+        "npc.ice_wolf_712",
+        "npc.ice_wolf_713",
+        "npc.ice_wolf_714",
+        "npc.ice_wolf_715"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    },
+    {
+      "source" : "Ice wolf#Level 96",
+      "version" : "Level 96",
+      "ids" : [
+        645,
+        646
+      ],
+      "names" : [
+        "npc.ice_wolf",
+        "npc.ice_wolf_646"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 70.0, "categories" : [ "Wolves" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

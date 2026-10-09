@@ -1,0 +1,33 @@
+{
+  "page" : "Bloodthirsty Nechryarch",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Nechryarch",
+      "ids" : [
+        12582
+      ],
+      "names" : [
+        "npc.bloodthirsty_nechryarch"
+      ],
+      "combatLevel" : 450,
+      "hitpoints" : 480,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 465, "strength" : 390, "defence" : 140, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "40"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 80, "xp" : 5040.0, "categories" : [ "Nechryael" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

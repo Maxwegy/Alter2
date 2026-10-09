@@ -1,0 +1,35 @@
+{
+  "page" : "Skotizo",
+  "versions" : [
+    {
+      "source" : "Skotizo",
+      "ids" : [
+        7286
+      ],
+      "names" : [
+        "npc.skotizo"
+      ],
+      "combatLevel" : 321,
+      "hitpoints" : 450,
+      "attackSpeed" : 0,
+      "size" : 5,
+      "levels" : { "attack" : 240, "strength" : 250, "defence" : 200, "ranged" : 1, "magic" : 280 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 80, "rangedDefence" : 130, "lightRangedDefence" : 130, "heavyRangedDefence" : 130, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 618.5, "categories" : [ "Black Demons", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

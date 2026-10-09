@@ -1,0 +1,26 @@
+{
+  "page" : "Bloodthirst rockslug",
+  "versions" : [
+    {
+      "source" : "Bloodthirst rockslug",
+      "ids" : [
+        12561
+      ],
+      "names" : [
+        "npc.bloodthirst_rockslug"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 72, "strength" : 77, "defence" : 77, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 20, "categories" : [ "Rockslugs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] }
+    }
+  ]
+}

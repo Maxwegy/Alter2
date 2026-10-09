@@ -1,0 +1,59 @@
+{
+  "page" : "Billy Goat",
+  "versions" : [
+    {
+      "source" : "Billy Goat#Brown",
+      "version" : "Brown",
+      "ids" : [
+        1794
+      ],
+      "names" : [
+        "npc.billy_goat"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 31, "strength" : 29, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 30, "strengthBonus" : 29, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 10 }
+    },
+    {
+      "source" : "Billy Goat#Tan",
+      "version" : "Tan",
+      "ids" : [
+        1797
+      ],
+      "names" : [
+        "npc.billy_goat_1797"
+      ],
+      "combatLevel" : 33,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 1,
+      "levels" : { "attack" : 31, "strength" : 29, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 30, "strengthBonus" : 29, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 10 }
+    }
+  ]
+}

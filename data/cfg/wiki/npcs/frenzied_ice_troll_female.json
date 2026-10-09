@@ -1,0 +1,31 @@
+{
+  "page" : "Frenzied ice troll female",
+  "versions" : [
+    {
+      "source" : "Frenzied ice troll female",
+      "ids" : [
+        5825
+      ],
+      "names" : [
+        "npc.frenzied_ice_troll_female"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 84.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

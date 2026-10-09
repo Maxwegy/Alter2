@@ -1,0 +1,213 @@
+{
+  "page" : "Emissary Ascended",
+  "versions" : [
+    {
+      "source" : "Emissary Ascended#1",
+      "version" : "1",
+      "ids" : [
+        13744
+      ],
+      "names" : [
+        "npc.emissary_ascended_13744"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#2",
+      "version" : "2",
+      "ids" : [
+        13745
+      ],
+      "names" : [
+        "npc.emissary_ascended_13745"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#3",
+      "version" : "3",
+      "ids" : [
+        13746
+      ],
+      "names" : [
+        "npc.emissary_ascended_13746"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#4",
+      "version" : "4",
+      "ids" : [
+        13747
+      ],
+      "names" : [
+        "npc.emissary_ascended_13747"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#5",
+      "version" : "5",
+      "ids" : [
+        13748
+      ],
+      "names" : [
+        "npc.emissary_ascended_13748"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#6",
+      "version" : "6",
+      "ids" : [
+        13749
+      ],
+      "names" : [
+        "npc.emissary_ascended_13749"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#7",
+      "version" : "7",
+      "ids" : [
+        13750
+      ],
+      "names" : [
+        "npc.emissary_ascended_13750"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Emissary Ascended#8",
+      "version" : "8",
+      "ids" : [
+        13751
+      ],
+      "names" : [
+        "npc.emissary_ascended_13751"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 20, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

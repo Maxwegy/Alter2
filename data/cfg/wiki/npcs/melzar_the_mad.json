@@ -1,0 +1,31 @@
+{
+  "page" : "Melzar the Mad",
+  "versions" : [
+    {
+      "source" : "Melzar the Mad",
+      "ids" : [
+        823
+      ],
+      "names" : [
+        "npc.melzar_the_mad"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 44,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 37, "strength" : 37, "defence" : 34, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

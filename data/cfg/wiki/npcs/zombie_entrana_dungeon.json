@@ -1,0 +1,160 @@
+{
+  "page" : "Zombie (Entrana Dungeon)",
+  "versions" : [
+    {
+      "source" : "Zombie (Entrana Dungeon)#1",
+      "version" : "1",
+      "ids" : [
+        64
+      ],
+      "names" : [
+        "npc.zombie_64"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Entrana Dungeon)#2",
+      "version" : "2",
+      "ids" : [
+        65
+      ],
+      "names" : [
+        "npc.zombie_65"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Entrana Dungeon)#3",
+      "version" : "3",
+      "ids" : [
+        66
+      ],
+      "names" : [
+        "npc.zombie_66"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Entrana Dungeon)#4",
+      "version" : "4",
+      "ids" : [
+        67
+      ],
+      "names" : [
+        "npc.zombie_67"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Entrana Dungeon)#5",
+      "version" : "5",
+      "ids" : [
+        68
+      ],
+      "names" : [
+        "npc.zombie_68"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 8, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

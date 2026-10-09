@@ -1,0 +1,61 @@
+{
+  "page" : "Small Lizard",
+  "versions" : [
+    {
+      "source" : "Small Lizard#Green",
+      "version" : "Green",
+      "ids" : [
+        462,
+        12004
+      ],
+      "names" : [
+        "npc.small_lizard",
+        "npc.small_lizard_12004"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 22, "xp" : 15.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Small Lizard#Orange",
+      "version" : "Orange",
+      "ids" : [
+        463
+      ],
+      "names" : [
+        "npc.small_lizard_463"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 22, "xp" : 15.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

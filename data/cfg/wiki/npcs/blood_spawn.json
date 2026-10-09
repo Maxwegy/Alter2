@@ -1,0 +1,65 @@
+{
+  "page" : "Blood spawn",
+  "versions" : [
+    {
+      "source" : "Blood spawn#Entry",
+      "version" : "Entry",
+      "ids" : [
+        8367,
+        10821,
+        10829
+      ],
+      "names" : [
+        "npc.blood_spawn",
+        "npc.blood_spawn_10821",
+        "npc.blood_spawn_10829"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 7,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 1, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1 (does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Blood spawn#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8367,
+        10821,
+        10829
+      ],
+      "names" : [
+        "npc.blood_spawn",
+        "npc.blood_spawn_10821",
+        "npc.blood_spawn_10829"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 120,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 1, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1 (does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

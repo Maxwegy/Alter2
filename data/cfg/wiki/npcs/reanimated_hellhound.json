@@ -1,0 +1,32 @@
+{
+  "page" : "Reanimated hellhound",
+  "versions" : [
+    {
+      "source" : "Reanimated hellhound",
+      "ids" : [
+        11463
+      ],
+      "names" : [
+        "npc.reanimated_hellhound"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 105, "strength" : 104, "defence" : 102, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve", "vannaka" ] }
+    }
+  ]
+}

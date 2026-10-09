@@ -1,0 +1,222 @@
+{
+  "page" : "Skeleton (Wilderness Agility Course)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#1",
+      "version" : "1",
+      "ids" : [
+        13495
+      ],
+      "names" : [
+        "npc.skeleton_13495"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#2",
+      "version" : "2",
+      "ids" : [
+        13496
+      ],
+      "names" : [
+        "npc.skeleton_13496"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#3",
+      "version" : "3",
+      "ids" : [
+        13497
+      ],
+      "names" : [
+        "npc.skeleton_13497"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#4",
+      "version" : "4",
+      "ids" : [
+        13498
+      ],
+      "names" : [
+        "npc.skeleton_13498"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#5",
+      "version" : "5",
+      "ids" : [
+        13499
+      ],
+      "names" : [
+        "npc.skeleton_13499"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#6",
+      "version" : "6",
+      "ids" : [
+        13500
+      ],
+      "names" : [
+        "npc.skeleton_13500"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Wilderness Agility Course)#7",
+      "version" : "7",
+      "ids" : [
+        13501
+      ],
+      "names" : [
+        "npc.skeleton_13501"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 1, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "page" : "Ranging Ro",
+  "versions" : [
+    {
+      "source" : "Ranging Ro#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13664
+      ],
+      "names" : [
+        "npc.ranging_ro"
+      ],
+      "combatLevel" : 973,
+      "hitpoints" : 3500,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 100, "ranged" : 150, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 200, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ranging Ro#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13664
+      ],
+      "names" : [
+        "npc.ranging_ro"
+      ],
+      "combatLevel" : 473,
+      "hitpoints" : 1500,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 100, "ranged" : 150, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 200, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ranging Ro#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13664
+      ],
+      "names" : [
+        "npc.ranging_ro"
+      ],
+      "combatLevel" : 473,
+      "hitpoints" : 1500,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 30, "defence" : 100, "ranged" : 150, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 200, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

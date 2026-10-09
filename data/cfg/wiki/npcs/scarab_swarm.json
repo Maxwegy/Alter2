@@ -1,0 +1,65 @@
+{
+  "page" : "Scarab Swarm",
+  "versions" : [
+    {
+      "source" : "Scarab Swarm#Normal",
+      "version" : "Normal",
+      "ids" : [
+        4192
+      ],
+      "names" : [
+        "npc.scarab_swarm_4192"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 25,
+      "attackSpeed" : 1,
+      "size" : 1,
+      "levels" : { "attack" : 255, "strength" : 5, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 5, "magicDefence" : 90, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 1.0, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Scarab Swarm#Pyramid Plunder",
+      "version" : "Pyramid Plunder",
+      "ids" : [
+        1782
+      ],
+      "names" : [
+        "npc.scarab_swarm"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 25,
+      "attackSpeed" : 1,
+      "size" : 1,
+      "levels" : { "attack" : 255, "strength" : 5, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 5, "magicDefence" : 90, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 1.0, "categories" : [ "Scabarites" ], "assignedBy" : [ "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

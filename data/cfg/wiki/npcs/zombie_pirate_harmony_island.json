@@ -1,0 +1,833 @@
+{
+  "page" : "Zombie pirate (Harmony Island)",
+  "versions" : [
+    {
+      "source" : "Zombie pirate (Harmony Island)#1",
+      "version" : "1",
+      "ids" : [
+        563,
+        564
+      ],
+      "names" : [
+        "npc.zombie_pirate",
+        "npc.zombie_pirate_564"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#10",
+      "version" : "10",
+      "ids" : [
+        575
+      ],
+      "names" : [
+        "npc.zombie_pirate_575"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#11",
+      "version" : "11",
+      "ids" : [
+        576
+      ],
+      "names" : [
+        "npc.zombie_pirate_576"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#12",
+      "version" : "12",
+      "ids" : [
+        577
+      ],
+      "names" : [
+        "npc.zombie_pirate_577"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#13",
+      "version" : "13",
+      "ids" : [
+        578
+      ],
+      "names" : [
+        "npc.zombie_pirate_578"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#14",
+      "version" : "14",
+      "ids" : [
+        579
+      ],
+      "names" : [
+        "npc.zombie_pirate_579"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#15",
+      "version" : "15",
+      "ids" : [
+        580
+      ],
+      "names" : [
+        "npc.zombie_pirate_580"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#16",
+      "version" : "16",
+      "ids" : [
+        581
+      ],
+      "names" : [
+        "npc.zombie_pirate_581"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#17",
+      "version" : "17",
+      "ids" : [
+        582,
+        583
+      ],
+      "names" : [
+        "npc.zombie_pirate_582",
+        "npc.zombie_pirate_583"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#18",
+      "version" : "18",
+      "ids" : [
+        584,
+        585
+      ],
+      "names" : [
+        "npc.zombie_pirate_584",
+        "npc.zombie_pirate_585"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#19",
+      "version" : "19",
+      "ids" : [
+        586,
+        587
+      ],
+      "names" : [
+        "npc.zombie_pirate_586",
+        "npc.zombie_pirate_587"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#2",
+      "version" : "2",
+      "ids" : [
+        565,
+        566
+      ],
+      "names" : [
+        "npc.zombie_pirate_565",
+        "npc.zombie_pirate_566"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#20",
+      "version" : "20",
+      "ids" : [
+        588,
+        589
+      ],
+      "names" : [
+        "npc.zombie_pirate_588",
+        "npc.zombie_pirate_589"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#21",
+      "version" : "21",
+      "ids" : [
+        590,
+        591
+      ],
+      "names" : [
+        "npc.zombie_pirate_590",
+        "npc.zombie_pirate_591"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#22",
+      "version" : "22",
+      "ids" : [
+        592
+      ],
+      "names" : [
+        "npc.zombie_pirate_592"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#23",
+      "version" : "23",
+      "ids" : [
+        593,
+        594
+      ],
+      "names" : [
+        "npc.zombie_pirate_593",
+        "npc.zombie_pirate_594"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#24",
+      "version" : "24",
+      "ids" : [
+        595,
+        596
+      ],
+      "names" : [
+        "npc.zombie_pirate_595",
+        "npc.zombie_pirate_596"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#25",
+      "version" : "25",
+      "ids" : [
+        597,
+        598
+      ],
+      "names" : [
+        "npc.zombie_pirate_597",
+        "npc.zombie_pirate_598"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#26",
+      "version" : "26",
+      "ids" : [
+        599
+      ],
+      "names" : [
+        "npc.zombie_pirate_599"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#3",
+      "version" : "3",
+      "ids" : [
+        567
+      ],
+      "names" : [
+        "npc.zombie_pirate_567"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#4",
+      "version" : "4",
+      "ids" : [
+        568
+      ],
+      "names" : [
+        "npc.zombie_pirate_568"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#5",
+      "version" : "5",
+      "ids" : [
+        569,
+        570
+      ],
+      "names" : [
+        "npc.zombie_pirate_569",
+        "npc.zombie_pirate_570"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#6",
+      "version" : "6",
+      "ids" : [
+        571
+      ],
+      "names" : [
+        "npc.zombie_pirate_571"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#7",
+      "version" : "7",
+      "ids" : [
+        572
+      ],
+      "names" : [
+        "npc.zombie_pirate_572"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#8",
+      "version" : "8",
+      "ids" : [
+        573
+      ],
+      "names" : [
+        "npc.zombie_pirate_573"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie pirate (Harmony Island)#9",
+      "version" : "9",
+      "ids" : [
+        574
+      ],
+      "names" : [
+        "npc.zombie_pirate_574"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 52,
+      "attackSpeed" : 3,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 49, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 52.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

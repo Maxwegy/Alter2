@@ -1,0 +1,31 @@
+{
+  "page" : "Jal-ImKot",
+  "versions" : [
+    {
+      "source" : "Jal-ImKot",
+      "ids" : [
+        7697
+      ],
+      "names" : [
+        "npc.jalimkot"
+      ],
+      "combatLevel" : 240,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 210, "strength" : 290, "defence" : 120, "ranged" : 220, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 65, "slashDefence" : 65, "crushDefence" : 65, "magicDefence" : 30, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "49"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 81.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

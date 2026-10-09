@@ -1,0 +1,25 @@
+{
+  "page" : "Bruise Blamish Snail",
+  "tables" : [
+    {
+      "source" : "Bruise Blamish Snail#Pointed",
+      "npcIds" : [
+        2652
+      ],
+      "always" : [
+        { "item" : 3361, "name" : "item.blamish_blue_shell_3361", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+      ]
+    },
+    {
+      "source" : "Bruise Blamish Snail#Round",
+      "npcIds" : [
+        2647
+      ],
+      "always" : [
+        { "item" : 3351, "name" : "item.blamish_blue_shell", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "page" : "Scarred lesser demon",
+  "versions" : [
+    {
+      "source" : "Scarred lesser demon#Level 121 (mage)",
+      "version" : "Level 121 (mage)",
+      "ids" : [
+        12360
+      ],
+      "names" : [
+        "npc.scarred_lesser_demon"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Scarred lesser demon#Level 121 (melee)",
+      "version" : "Level 121 (melee)",
+      "ids" : [
+        12362
+      ],
+      "names" : [
+        "npc.scarred_lesser_demon_12362"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 100,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Scarred lesser demon#Level 121 (ranged)",
+      "version" : "Level 121 (ranged)",
+      "ids" : [
+        12364
+      ],
+      "names" : [
+        "npc.scarred_lesser_demon_12364"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Scarred lesser demon#Level 121 (summoning circle)",
+      "version" : "Level 121 (summoning circle)",
+      "ids" : [
+        12378
+      ],
+      "names" : [
+        "npc.scarred_lesser_demon_12378"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 148, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 66, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Scarred lesser demon#Level 85",
+      "version" : "Level 85",
+      "ids" : [
+        12390
+      ],
+      "names" : [
+        "npc.scarred_lesser_demon_12390"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 79,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 80, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

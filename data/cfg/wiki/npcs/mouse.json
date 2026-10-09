@@ -1,0 +1,57 @@
+{
+  "page" : "Mouse",
+  "versions" : [
+    {
+      "source" : "Mouse#Dark",
+      "version" : "Dark",
+      "ids" : [
+        5128
+      ],
+      "names" : [
+        "npc.mouse_5128"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 80, "defence" : 86, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 55, "crushDefence" : 65, "magicDefence" : 50, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mouse#Light",
+      "version" : "Light",
+      "ids" : [
+        5127
+      ],
+      "names" : [
+        "npc.mouse_5127"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 4,
+      "levels" : { "attack" : 95, "strength" : 80, "defence" : 86, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 55, "crushDefence" : 65, "magicDefence" : 50, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

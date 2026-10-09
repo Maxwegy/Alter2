@@ -1,0 +1,14 @@
+{
+  "page" : "A Doubt",
+  "tables" : [
+    {
+      "source" : "A Doubt",
+      "npcIds" : [
+        3477
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

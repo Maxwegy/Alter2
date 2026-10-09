@@ -1,0 +1,33 @@
+{
+  "page" : "King kurask",
+  "versions" : [
+    {
+      "source" : "King kurask",
+      "ids" : [
+        7405
+      ],
+      "names" : [
+        "npc.king_kurask"
+      ],
+      "combatLevel" : 295,
+      "hitpoints" : 270,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 190, "strength" : 320, "defence" : 250, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "33"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 70, "xp" : 2767.4, "categories" : [ "Kurask" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

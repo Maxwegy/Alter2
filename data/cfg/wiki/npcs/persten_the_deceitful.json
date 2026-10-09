@@ -1,0 +1,32 @@
+{
+  "page" : "Persten the Deceitful",
+  "versions" : [
+    {
+      "source" : "Persten the Deceitful",
+      "ids" : [
+        12333
+      ],
+      "names" : [
+        "npc.persten_the_deceitful"
+      ],
+      "combatLevel" : 264,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 130, "ranged" : 0, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 200, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 15 },
+      "maxHits" : [
+        "32"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "spectral"
+      ]
+    }
+  ]
+}

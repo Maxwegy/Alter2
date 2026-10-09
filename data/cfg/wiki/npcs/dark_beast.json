@@ -1,0 +1,36 @@
+{
+  "page" : "Dark beast",
+  "versions" : [
+    {
+      "source" : "Dark beast",
+      "ids" : [
+        4005,
+        7250
+      ],
+      "names" : [
+        "npc.dark_beast_4005",
+        "npc.dark_beast_7250"
+      ],
+      "combatLevel" : 182,
+      "hitpoints" : 220,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 140, "strength" : 160, "defence" : 120, "ranged" : 1, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 40, "crushDefence" : 100, "magicDefence" : 90, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17 (melee)",
+        "8 (magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 90, "xp" : 225.4, "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 60 }
+    }
+  ]
+}

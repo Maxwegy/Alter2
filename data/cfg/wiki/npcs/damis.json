@@ -1,0 +1,55 @@
+{
+  "page" : "Damis",
+  "versions" : [
+    {
+      "source" : "Damis#First form",
+      "version" : "First form",
+      "ids" : [
+        682
+      ],
+      "names" : [
+        "npc.damis"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Damis#Second form",
+      "version" : "Second form",
+      "ids" : [
+        683
+      ],
+      "names" : [
+        "npc.damis_683"
+      ],
+      "combatLevel" : 174,
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 100, "defence" : 160, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

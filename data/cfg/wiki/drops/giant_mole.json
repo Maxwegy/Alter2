@@ -1,0 +1,69 @@
+{
+  "page" : "Giant Mole",
+  "tables" : [
+    {
+      "source" : "Giant Mole",
+      "npcIds" : [
+        5779
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 },
+        { "item" : 7416, "name" : "item.mole_claw", "min" : 1, "max" : 1 },
+        { "item" : 7418, "name" : "item.mole_skin", "min" : 1, "max" : 3 }
+      ],
+      "main" : [
+        { "item" : 385, "name" : "item.shark", "min" : 4, "max" : 4, "chance" : [ 4, 131 ], "wiki" : "4/131" },
+        { "item" : 413, "name" : "item.oyster_pearls", "min" : 1, "max" : 1, "chance" : [ 1, 131 ], "wiki" : "1/131" },
+        { "item" : 441, "name" : "item.iron_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 2, 131 ], "wiki" : "2/131" },
+        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 105, "max" : 105, "chance" : [ 11, 131 ], "wiki" : "11/131" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 105, "max" : 105, "chance" : [ 20, 131 ], "wiki" : "20/131" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 45, "max" : 45, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 50, "max" : 50, "chance" : [ 3, 131 ], "wiki" : "3/131" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 67, "max" : 67, "chance" : [ 100, 139733 ], "wiki" : "1/1,397.33" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 15, "max" : 15, "chance" : [ 5, 131 ], "wiki" : "5/131" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 45, "max" : 45, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 15, "max" : 15, "chance" : [ 19, 131 ], "wiki" : "19/131" },
+        { "item" : 829, "name" : "item.adamant_javelin", "min" : 20, "max" : 20, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 50, 126551 ], "wiki" : "1/2,531.02" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 690, "max" : 690, "chance" : [ 10, 131 ], "wiki" : "10/131" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 150, "max" : 150, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 42, "max" : 42, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 19357 ], "wiki" : "1/193.57" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 19357 ], "wiki" : "1/193.57" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3000, "max" : 3000, "chance" : [ 50, 9981 ], "wiki" : "1/199.62" },
+        { "item" : 1121, "name" : "item.mithril_platebody", "min" : 1, "max" : 1, "chance" : [ 9, 131 ], "wiki" : "9/131" },
+        { "item" : 1147, "name" : "item.rune_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 131 ], "wiki" : "1/131" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 4192 ], "wiki" : "1/4,192" },
+        { "item" : 1185, "name" : "item.rune_sq_shield", "min" : 1, "max" : 1, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 4192 ], "wiki" : "1/4,192" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 25, 100671 ], "wiki" : "1/4,026.84" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 1073823 ], "wiki" : "1/10,738.23" },
+        { "item" : 1301, "name" : "item.adamant_longsword", "min" : 1, "max" : 1, "chance" : [ 10, 131 ], "wiki" : "10/131" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 100, 139733 ], "wiki" : "1/1,397.33" },
+        { "item" : 1355, "name" : "item.mithril_axe", "min" : 1, "max" : 1, "chance" : [ 2, 131 ], "wiki" : "2/131" },
+        { "item" : 1369, "name" : "item.mithril_battleaxe", "min" : 1, "max" : 1, "chance" : [ 1, 131 ], "wiki" : "1/131" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 100, 139733 ], "wiki" : "1/1,397.33" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 84367 ], "wiki" : "1/843.67" },
+        { "item" : 1516, "name" : "item.yew_logs_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 10, 131 ], "wiki" : "10/131" },
+        { "item" : 1615, "name" : "item.dragonstone", "min" : 1, "max" : 1, "chance" : [ 1, 2096 ], "wiki" : "1/2,096" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 126551 ], "wiki" : "1/1,265.51" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 50, 15819 ], "wiki" : "1/316.38" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 15819 ], "wiki" : "1/158.19" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 7909 ], "wiki" : "1/79.09" },
+        { "item" : 1725, "name" : "item.amulet_of_strength", "min" : 1, "max" : 1, "chance" : [ 7, 131 ], "wiki" : "7/131" },
+        { "item" : 2359, "name" : "item.mithril_bar", "min" : 1, "max" : 1, "chance" : [ 3, 131 ], "wiki" : "3/131" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 5, 4192 ], "wiki" : "1/838.4" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 805367 ], "wiki" : "1/8,053.67" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 3, 131 ], "wiki" : "3/131" }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" },
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 12646, "name" : "item.baby_mole", "min" : 1, "max" : 1, "chance" : [ 1, 3000 ], "wiki" : "1/3,000" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 74 ], "wiki" : "1/74" }
+      ]
+    }
+  ]
+}

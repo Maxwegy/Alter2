@@ -1,0 +1,158 @@
+{
+  "page" : "Ogre shaman",
+  "versions" : [
+    {
+      "source" : "Ogre shaman#1",
+      "version" : "1",
+      "ids" : [
+        4383
+      ],
+      "names" : [
+        "npc.ogre_shaman_4383"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 51,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ogre shaman#2",
+      "version" : "2",
+      "ids" : [
+        4387
+      ],
+      "names" : [
+        "npc.ogre_shaman_4387"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 51,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ogre shaman#3",
+      "version" : "3",
+      "ids" : [
+        4389
+      ],
+      "names" : [
+        "npc.ogre_shaman_4389"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 51,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ogre shaman#4",
+      "version" : "4",
+      "ids" : [
+        4391
+      ],
+      "names" : [
+        "npc.ogre_shaman_4391"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ogre shaman#5",
+      "version" : "5",
+      "ids" : [
+        4393
+      ],
+      "names" : [
+        "npc.ogre_shaman_4393"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ogre shaman#6",
+      "version" : "6",
+      "ids" : [
+        4395
+      ],
+      "names" : [
+        "npc.ogre_shaman_4395"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

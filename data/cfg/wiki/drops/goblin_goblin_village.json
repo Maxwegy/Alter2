@@ -1,0 +1,98 @@
+{
+  "page" : "Goblin (Goblin Village)",
+  "tables" : [
+    {
+      "source" : "Goblin (Goblin Village)",
+      "npcIds" : [
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7812, "name" : "item.goblin_skull", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 3413 ], "wiki" : "1/341.3" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 4551 ], "wiki" : "1/455.1" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 5851 ], "wiki" : "1/585.1" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 10, 7447 ], "wiki" : "1/744.7" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 13653 ], "wiki" : "1/1,365.3" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 8192 ], "wiki" : "1/1,638.4" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 825, "name" : "item.bronze_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 7, "max" : 7, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 17, 64 ], "wiki" : "34/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 3, "max" : 3, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 16, "max" : 16, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 24, "max" : 24, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1007, "name" : "item.red_cape", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1237, "name" : "item.bronze_spear", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 1321, "name" : "item.bronze_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1351, "name" : "item.bronze_axe", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1987, "name" : "item.grapes", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2347, "name" : "item.hammer", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 10999, "name" : "item.goblin_book", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 13448, "name" : "item.ensouled_goblin_head_13448", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "1/30" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
+      ]
+    },
+    {
+      "source" : "Goblin (Goblin Village)#Green",
+      "npcIds" : [
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668
+      ],
+      "main" : [
+        { "item" : 9057, "name" : "item.green_goblin_mail", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+      ]
+    },
+    {
+      "source" : "Goblin (Goblin Village)#Red",
+      "npcIds" : [
+        655,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661
+      ],
+      "main" : [
+        { "item" : 9054, "name" : "item.red_goblin_mail", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+      ]
+    }
+  ]
+}

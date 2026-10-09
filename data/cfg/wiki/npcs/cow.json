@@ -1,0 +1,140 @@
+{
+  "page" : "Cow",
+  "versions" : [
+    {
+      "source" : "Cow#1",
+      "version" : "1",
+      "ids" : [
+        2790
+      ],
+      "names" : [
+        "npc.cow"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow#2",
+      "version" : "2",
+      "ids" : [
+        2791
+      ],
+      "names" : [
+        "npc.cow_2791"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow#3",
+      "version" : "3",
+      "ids" : [
+        2793
+      ],
+      "names" : [
+        "npc.cow_2793"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow#Isle of Souls",
+      "version" : "Isle of Souls",
+      "ids" : [
+        2795
+      ],
+      "names" : [
+        "npc.cow_2795"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow#Zanaris",
+      "version" : "Zanaris",
+      "ids" : [
+        5842
+      ],
+      "names" : [
+        "npc.cow_5842"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

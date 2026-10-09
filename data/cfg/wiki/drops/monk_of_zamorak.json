@@ -1,0 +1,26 @@
+{
+  "page" : "Monk of Zamorak",
+  "tables" : [
+    {
+      "source" : "Monk of Zamorak",
+      "npcIds" : [
+        527,
+        528,
+        529,
+        8400,
+        8401,
+        8698
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 1033, "name" : "item.zamorak_monk_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 1035, "name" : "item.zamorak_monk_top", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 6 ], "wiki" : "1/6" }
+      ]
+    }
+  ]
+}

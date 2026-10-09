@@ -1,0 +1,57 @@
+{
+  "page" : "Ungadulu",
+  "versions" : [
+    {
+      "source" : "Ungadulu#Normal",
+      "version" : "Normal",
+      "ids" : [
+        3957
+      ],
+      "names" : [
+        "npc.ungadulu"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 57, "strength" : 61, "defence" : 65, "ranged" : 0, "magic" : 65 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 7, "strengthBonus" : 3, "rangedStrength" : 7, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Ungadulu#Possessed",
+      "version" : "Possessed",
+      "ids" : [
+        3958
+      ],
+      "names" : [
+        "npc.ungadulu_3958"
+      ],
+      "combatLevel" : 169,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 147, "strength" : 147, "defence" : 147, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 3, "rangedStrength" : 7, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

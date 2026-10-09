@@ -1,0 +1,89 @@
+{
+  "page" : "Spider",
+  "versions" : [
+    {
+      "source" : "Spider#Common",
+      "version" : "Common",
+      "ids" : [
+        3019
+      ],
+      "names" : [
+        "npc.spider_3019"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 2,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -53, "slashDefence" : -53, "crushDefence" : -53, "magicDefence" : -53, "rangedDefence" : -53, "lightRangedDefence" : -53, "heavyRangedDefence" : -53, "attackBonus" : -35, "strengthBonus" : -58, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Spider#Stronghold of Security",
+      "version" : "Stronghold of Security",
+      "ids" : [
+        2478
+      ],
+      "names" : [
+        "npc.spider"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 27,
+      "size" : 1,
+      "levels" : { "attack" : 21, "strength" : 21, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 53, "slashDefence" : 53, "crushDefence" : 53, "magicDefence" : 53, "rangedDefence" : 53, "lightRangedDefence" : 53, "heavyRangedDefence" : 53, "attackBonus" : 35, "strengthBonus" : 58, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 22.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Spider#Underground Pass",
+      "version" : "Underground Pass",
+      "ids" : [
+        4561
+      ],
+      "names" : [
+        "npc.spider_4561"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 2,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -53, "slashDefence" : -53, "crushDefence" : -53, "magicDefence" : -53, "rangedDefence" : -53, "lightRangedDefence" : -53, "heavyRangedDefence" : -53, "attackBonus" : -35, "strengthBonus" : -58, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

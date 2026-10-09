@@ -1,0 +1,57 @@
+{
+  "page" : "Xamphur",
+  "versions" : [
+    {
+      "source" : "Xamphur",
+      "ids" : [
+        10954,
+        10955
+      ],
+      "names" : [
+        "npc.xamphur_10954",
+        "npc.xamphur_10955"
+      ],
+      "combatLevel" : 239,
+      "hitpoints" : 450,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 100, "ranged" : 0, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 0, "stabDefence" : 180, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 260, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 12 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Xamphur",
+      "ids" : [
+        10953,
+        10956
+      ],
+      "names" : [
+        "npc.xamphur_10953",
+        "npc.xamphur_10956"
+      ],
+      "combatLevel" : 239,
+      "hitpoints" : 450,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 100, "ranged" : 0, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 0, "stabDefence" : 180, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 260, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 12 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

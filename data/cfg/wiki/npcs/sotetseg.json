@@ -1,0 +1,95 @@
+{
+  "page" : "Sotetseg",
+  "versions" : [
+    {
+      "source" : "Sotetseg#Entry",
+      "version" : "Entry",
+      "ids" : [
+        10864,
+        10865
+      ],
+      "names" : [
+        "npc.sotetseg_10864",
+        "npc.sotetseg_10865"
+      ],
+      "combatLevel" : 336,
+      "hitpoints" : 2240,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 180, "strength" : 140, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -10, "rangedAttack" : -10, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 20, "rangedStrength" : 26, "magicDamage" : 26 },
+      "maxHits" : [
+        "20 (Melee)",
+        "22 (Ranged)",
+        "22 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Sotetseg#Hard",
+      "version" : "Hard",
+      "ids" : [
+        10867,
+        10868
+      ],
+      "names" : [
+        "npc.sotetseg_10867",
+        "npc.sotetseg_10868"
+      ],
+      "combatLevel" : 1195,
+      "hitpoints" : 4000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 250, "defence" : 200, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -10, "rangedAttack" : -10, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 0, "strengthBonus" : 48, "rangedStrength" : 60, "magicDamage" : 60 },
+      "maxHits" : [
+        "45 (Melee)",
+        "50 (Ranged)",
+        "50 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Sotetseg#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8387,
+        8388
+      ],
+      "names" : [
+        "npc.sotetseg",
+        "npc.sotetseg_8388"
+      ],
+      "combatLevel" : 995,
+      "hitpoints" : 4000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 200, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -10, "rangedAttack" : -10, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 0, "strengthBonus" : 48, "rangedStrength" : 60, "magicDamage" : 60 },
+      "maxHits" : [
+        "45 (Melee)",
+        "50 (Ranged)",
+        "50 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

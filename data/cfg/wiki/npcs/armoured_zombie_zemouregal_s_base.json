@@ -1,0 +1,83 @@
+{
+  "page" : "Armoured zombie (Zemouregal's Base)",
+  "versions" : [
+    {
+      "source" : "Armoured zombie (Zemouregal's Base)#Melee",
+      "version" : "Melee",
+      "ids" : [
+        12720,
+        12721,
+        12722,
+        12723,
+        12724
+      ],
+      "names" : [
+        "npc.armoured_zombie",
+        "npc.armoured_zombie_12721",
+        "npc.armoured_zombie_12722",
+        "npc.armoured_zombie_12723",
+        "npc.armoured_zombie_12724"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 72, "defence" : 68, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 75.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Armoured zombie (Zemouregal's Base)#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        12725,
+        12726,
+        12727,
+        12728,
+        12729
+      ],
+      "names" : [
+        "npc.armoured_zombie_12725",
+        "npc.armoured_zombie_12726",
+        "npc.armoured_zombie_12727",
+        "npc.armoured_zombie_12728",
+        "npc.armoured_zombie_12729"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 72, "defence" : 68, "ranged" : 72, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 75.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

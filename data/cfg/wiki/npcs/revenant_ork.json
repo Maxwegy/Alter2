@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant ork",
+  "versions" : [
+    {
+      "source" : "Revenant ork",
+      "ids" : [
+        7937
+      ],
+      "names" : [
+        "npc.revenant_ork"
+      ],
+      "combatLevel" : 105,
+      "hitpoints" : 105,
+      "attackSpeed" : 5,
+      "respawnTicks" : 27,
+      "size" : 3,
+      "levels" : { "attack" : 99, "strength" : 100, "defence" : 60, "ranged" : 130, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 50, "stabDefence" : 118, "slashDefence" : 150, "crushDefence" : 146, "magicDefence" : 50, "rangedDefence" : 148, "lightRangedDefence" : 148, "heavyRangedDefence" : 118, "attackBonus" : 60, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 115.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

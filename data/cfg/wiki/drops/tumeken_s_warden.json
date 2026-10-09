@@ -1,0 +1,18 @@
+{
+  "page" : "Tumeken's Warden",
+  "tables" : [
+    {
+      "source" : "Tumeken's Warden",
+      "npcIds" : [
+        11756,
+        11757,
+        11758,
+        11762,
+        11764
+      ],
+      "always" : [
+        { "item" : 27310, "name" : "item.the_wardens", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

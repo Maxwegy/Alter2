@@ -1,0 +1,57 @@
+{
+  "page" : "Enormous Tentacle",
+  "versions" : [
+    {
+      "source" : "Enormous Tentacle#Enormous Tentacle",
+      "version" : "Enormous Tentacle",
+      "ids" : [
+        5535
+      ],
+      "names" : [
+        "npc.enormous_tentacle"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 150, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -15, "rangedDefence" : 270, "lightRangedDefence" : 270, "heavyRangedDefence" : 270, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 40 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Magical ranged (100% prayer penetration)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 87 },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Enormous Tentacle#Whirlpool",
+      "version" : "Whirlpool",
+      "ids" : [
+        5534
+      ],
+      "names" : [
+        "npc.whirlpool_5534"
+      ],
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 150, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -15, "rangedDefence" : 270, "lightRangedDefence" : 270, "heavyRangedDefence" : 270, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 40 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Magical ranged (100% prayer penetration)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 87 }
+    }
+  ]
+}

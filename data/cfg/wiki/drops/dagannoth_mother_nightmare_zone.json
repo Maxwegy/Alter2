@@ -1,0 +1,25 @@
+{
+  "page" : "Dagannoth mother (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Dagannoth mother (Nightmare Zone)",
+      "npcIds" : [
+        6300,
+        6301,
+        6302,
+        6303,
+        6304,
+        6305,
+        6361,
+        6362,
+        6363,
+        6364,
+        6365,
+        6366
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

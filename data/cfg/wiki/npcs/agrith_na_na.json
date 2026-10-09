@@ -1,0 +1,30 @@
+{
+  "page" : "Agrith-Na-Na",
+  "versions" : [
+    {
+      "source" : "Agrith-Na-Na",
+      "ids" : [
+        4880
+      ],
+      "names" : [
+        "npc.agrithnana"
+      ],
+      "combatLevel" : 146,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 83, "strength" : 150, "defence" : 82, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 60, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 60, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

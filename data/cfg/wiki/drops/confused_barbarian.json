@@ -1,0 +1,14 @@
+{
+  "page" : "Confused barbarian",
+  "tables" : [
+    {
+      "source" : "Confused barbarian",
+      "npcIds" : [
+        2920
+      ],
+      "always" : [
+        { "item" : 11337, "name" : "item.mangled_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

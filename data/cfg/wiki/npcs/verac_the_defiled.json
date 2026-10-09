@@ -1,0 +1,35 @@
+{
+  "page" : "Verac the Defiled",
+  "versions" : [
+    {
+      "source" : "Verac the Defiled",
+      "ids" : [
+        1677
+      ],
+      "names" : [
+        "npc.verac_the_defiled"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : -42, "rangedAttack" : -14, "stabDefence" : 227, "slashDefence" : 230, "crushDefence" : 221, "magicDefence" : 0, "rangedDefence" : 225, "lightRangedDefence" : 225, "heavyRangedDefence" : 225, "attackBonus" : 0, "strengthBonus" : 72, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23 (Stab)",
+        "15 (Protect from Melee)"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 112.5, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "kuradal", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

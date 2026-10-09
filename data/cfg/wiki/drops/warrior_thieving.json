@@ -1,0 +1,19 @@
+{
+  "page" : "Warrior (Thieving)",
+  "tables" : [
+    {
+      "source" : "Warrior (Thieving)",
+      "npcIds" : [
+        3260,
+        11925,
+        11926,
+        11927,
+        11928,
+        11929
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

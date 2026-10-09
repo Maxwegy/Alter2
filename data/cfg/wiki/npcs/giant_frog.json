@@ -1,0 +1,59 @@
+{
+  "page" : "Giant frog",
+  "versions" : [
+    {
+      "source" : "Giant frog#Level 13",
+      "version" : "Level 13",
+      "ids" : [
+        8700
+      ],
+      "names" : [
+        "npc.giant_frog_8700"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 23,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 8, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Giant frog#Level 99",
+      "version" : "Level 99",
+      "ids" : [
+        477
+      ],
+      "names" : [
+        "npc.giant_frog"
+      ],
+      "combatLevel" : 99,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 80, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

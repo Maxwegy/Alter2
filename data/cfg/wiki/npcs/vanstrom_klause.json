@@ -1,0 +1,84 @@
+{
+  "page" : "Vanstrom Klause",
+  "versions" : [
+    {
+      "source" : "Vanstrom Klause#Sins of the Father",
+      "ids" : [
+        9567,
+        9568,
+        9569,
+        9570,
+        9571,
+        9632
+      ],
+      "names" : [
+        "npc.vanstrom_klause_9567",
+        "npc.vanstrom_klause_9568",
+        "npc.vanstrom_klause_9569",
+        "npc.vanstrom_klause_9570",
+        "npc.vanstrom_klause_9571",
+        "npc.vanstrom_klause_9632"
+      ],
+      "combatLevel" : 459,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 180, "ranged" : 0, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 16, "rangedAttack" : 0, "stabDefence" : 34, "slashDefence" : 34, "crushDefence" : 34, "magicDefence" : 34, "rangedDefence" : 34, "lightRangedDefence" : 34, "heavyRangedDefence" : 34, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 18 },
+      "maxHits" : [
+        "24 (Standard)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Vampyres'\"`UNIQ--ref-0000003A-QINU`\"'" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vanstrom Klause#Vampyre",
+      "ids" : [
+        3734,
+        3735,
+        3736,
+        3737,
+        3738,
+        3739,
+        8239,
+        8240
+      ],
+      "names" : [
+        "npc.vanstrom_klause_3734",
+        "npc.vanstrom_klause_3735",
+        "npc.vanstrom_klause_3736",
+        "npc.vanstrom_klause_3737",
+        "npc.vanstrom_klause_3738",
+        "npc.vanstrom_klause_3739",
+        "npc.vanstrom_klause_8239",
+        "npc.vanstrom_klause_8240"
+      ],
+      "combatLevel" : 169,
+      "hitpoints" : 155,
+      "attackSpeed" : 8,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 136, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre3"
+      ]
+    }
+  ]
+}

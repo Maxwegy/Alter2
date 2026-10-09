@@ -1,0 +1,14 @@
+{
+  "page" : "Mourner (boss)",
+  "tables" : [
+    {
+      "source" : "Mourner (boss)",
+      "npcIds" : [
+        9008
+      ],
+      "always" : [
+        { "item" : 423, "name" : "item.key_423", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

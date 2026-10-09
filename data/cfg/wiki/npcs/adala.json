@@ -1,0 +1,29 @@
+{
+  "page" : "Adala",
+  "versions" : [
+    {
+      "source" : "Adala",
+      "ids" : [
+        13824
+      ],
+      "names" : [
+        "npc.adala_13824"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 30, "defence" : 10, "ranged" : 1, "magic" : 5 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true }
+    }
+  ]
+}

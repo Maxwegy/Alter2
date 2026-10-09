@@ -1,0 +1,58 @@
+{
+  "page" : "Kree'arra (Deadman)",
+  "versions" : [
+    {
+      "source" : "Kree'arra (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12443
+      ],
+      "names" : [
+        "npc.kreearra_12443"
+      ],
+      "combatLevel" : 580,
+      "hitpoints" : 350,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 200, "defence" : 260, "ranged" : 380, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 180, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 136, "strengthBonus" : 12, "rangedStrength" : 50, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Aviansie", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Kree'arra (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12443
+      ],
+      "names" : [
+        "npc.kreearra_12443"
+      ],
+      "combatLevel" : 580,
+      "hitpoints" : 350,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 200, "defence" : 150, "ranged" : 380, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 180, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 136, "strengthBonus" : 12, "rangedStrength" : 50, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Aviansie", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

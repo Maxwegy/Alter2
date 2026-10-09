@@ -1,0 +1,35 @@
+{
+  "page" : "Jal-Xil",
+  "versions" : [
+    {
+      "source" : "Jal-Xil",
+      "ids" : [
+        7698,
+        7702
+      ],
+      "names" : [
+        "npc.jalxil",
+        "npc.jalxil_7702"
+      ],
+      "combatLevel" : 370,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 140, "strength" : 180, "defence" : 60, "ranged" : 250, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 50, "magicDamage" : 0 },
+      "maxHits" : [
+        "46 (Ranged)",
+        "19 (Melee)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 125.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

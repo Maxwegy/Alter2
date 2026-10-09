@@ -1,0 +1,14 @@
+{
+  "page" : "Dessourt",
+  "tables" : [
+    {
+      "source" : "Dessourt",
+      "npcIds" : [
+        4883
+      ],
+      "always" : [
+        { "item" : 1975, "name" : "item.chocolate_dust", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

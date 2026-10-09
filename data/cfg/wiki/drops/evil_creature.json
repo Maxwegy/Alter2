@@ -1,0 +1,19 @@
+{
+  "page" : "Evil Creature",
+  "tables" : [
+    {
+      "source" : "Evil Creature",
+      "npcIds" : [
+        1241,
+        1244,
+        1247,
+        1250,
+        1253,
+        1256
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Kob",
+  "versions" : [
+    {
+      "source" : "Kob",
+      "ids" : [
+        7106,
+        7107
+      ],
+      "names" : [
+        "npc.kob",
+        "npc.kob_7107"
+      ],
+      "combatLevel" : 185,
+      "hitpoints" : 200,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 180, "strength" : 175, "defence" : 80, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 85, "crushDefence" : 90, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 135, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "57 (normal)",
+        "27 (Protect from Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

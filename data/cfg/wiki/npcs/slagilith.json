@@ -1,0 +1,32 @@
+{
+  "page" : "Slagilith",
+  "versions" : [
+    {
+      "source" : "Slagilith",
+      "ids" : [
+        1362,
+        1364
+      ],
+      "names" : [
+        "npc.slagilith",
+        "npc.slagilith_1364"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 60, "strength" : 120, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 10, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

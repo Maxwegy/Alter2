@@ -1,0 +1,14 @@
+{
+  "page" : "Animated spade",
+  "tables" : [
+    {
+      "source" : "Animated spade",
+      "npcIds" : [
+        6470
+      ],
+      "always" : [
+        { "item" : 952, "name" : "item.spade", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

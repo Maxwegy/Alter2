@@ -1,0 +1,161 @@
+{
+  "page" : "Tree spirit",
+  "versions" : [
+    {
+      "source" : "Tree spirit#Level 120",
+      "version" : "Level 120",
+      "ids" : [
+        1865
+      ],
+      "names" : [
+        "npc.tree_spirit_1865"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Tree spirit#Level 14",
+      "version" : "Level 14",
+      "ids" : [
+        1861
+      ],
+      "names" : [
+        "npc.tree_spirit_1861"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 9, "strength" : 9, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Tree spirit#Level 159",
+      "version" : "Level 159",
+      "ids" : [
+        1866
+      ],
+      "names" : [
+        "npc.tree_spirit_1866"
+      ],
+      "combatLevel" : 159,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 130, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Tree spirit#Level 29",
+      "version" : "Level 29",
+      "ids" : [
+        1862
+      ],
+      "names" : [
+        "npc.tree_spirit_1862"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Tree spirit#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        1863
+      ],
+      "names" : [
+        "npc.tree_spirit_1863"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Tree spirit#Level 79",
+      "version" : "Level 79",
+      "ids" : [
+        1864
+      ],
+      "names" : [
+        "npc.tree_spirit_1864"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

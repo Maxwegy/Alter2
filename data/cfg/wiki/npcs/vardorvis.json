@@ -1,0 +1,100 @@
+{
+  "page" : "Vardorvis",
+  "versions" : [
+    {
+      "source" : "Vardorvis#Awakened",
+      "version" : "Awakened",
+      "ids" : [
+        12223,
+        12426
+      ],
+      "names" : [
+        "npc.vardorvis",
+        "npc.vardorvis_12426"
+      ],
+      "combatLevel" : 1136,
+      "hitpoints" : 1400,
+      "attackSpeed" : 5,
+      "respawnTicks" : 17,
+      "size" : 2,
+      "levels" : { "attack" : 420, "strength" : 1, "defence" : 1, "ranged" : 0, "magic" : 215 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 215, "slashDefence" : 65, "crushDefence" : 85, "magicDefence" : 580, "rangedDefence" : 580, "lightRangedDefence" : 580, "heavyRangedDefence" : 580, "attackBonus" : 190, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "46-61 (Melee)'\"`UNIQ--ref-0000003B-QINU`\"'",
+        "96 (axes)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 1400.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Vardorvis#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        12223,
+        12426
+      ],
+      "names" : [
+        "npc.vardorvis",
+        "npc.vardorvis_12426"
+      ],
+      "combatLevel" : 784,
+      "hitpoints" : 700,
+      "attackSpeed" : 5,
+      "respawnTicks" : 17,
+      "size" : 2,
+      "levels" : { "attack" : 280, "strength" : 1, "defence" : 1, "ranged" : 0, "magic" : 215 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 215, "slashDefence" : 65, "crushDefence" : 85, "magicDefence" : 580, "rangedDefence" : 580, "lightRangedDefence" : 580, "heavyRangedDefence" : 580, "attackBonus" : 190, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32-43 (Melee)'\"`UNIQ--ref-0000003A-QINU`\"'",
+        "35 (axes)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 1085.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    },
+    {
+      "source" : "Vardorvis#Quest",
+      "version" : "Quest",
+      "ids" : [
+        12224,
+        12228,
+        12425
+      ],
+      "names" : [
+        "npc.vardorvis_12224",
+        "npc.vardorvis_12228",
+        "npc.vardorvis_12425"
+      ],
+      "combatLevel" : 572,
+      "hitpoints" : 500,
+      "attackSpeed" : 5,
+      "respawnTicks" : 17,
+      "size" : 2,
+      "levels" : { "attack" : 260, "strength" : 1, "defence" : 1, "ranged" : 0, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 25, "crushDefence" : 50, "magicDefence" : 560, "rangedDefence" : 560, "lightRangedDefence" : 560, "heavyRangedDefence" : 560, "attackBonus" : 185, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30-37 (Melee)'\"`UNIQ--ref-0000003C-QINU`\"'",
+        "?? (axes)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 500.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

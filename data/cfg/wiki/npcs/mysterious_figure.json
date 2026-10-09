@@ -1,0 +1,31 @@
+{
+  "page" : "Mysterious Figure",
+  "versions" : [
+    {
+      "source" : "Mysterious Figure",
+      "ids" : [
+        12300,
+        12301
+      ],
+      "names" : [
+        "npc.mysterious_figure_12300",
+        "npc.mysterious_figure_12301"
+      ],
+      "combatLevel" : 271,
+      "hitpoints" : 450,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 120, "ranged" : 120, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 80, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 60, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 80, "strengthBonus" : 25, "rangedStrength" : 25, "magicDamage" : 25 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

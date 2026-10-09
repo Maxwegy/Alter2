@@ -1,0 +1,15 @@
+{
+  "page" : "Black demon (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Black demon (Nightmare Zone)",
+      "npcIds" : [
+        6295,
+        6357
+      ],
+      "always" : [
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

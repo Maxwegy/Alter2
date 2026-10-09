@@ -1,0 +1,32 @@
+{
+  "page" : "Dagannoth fledgeling",
+  "versions" : [
+    {
+      "source" : "Dagannoth fledgeling",
+      "ids" : [
+        2264
+      ],
+      "names" : [
+        "npc.dagannoth_fledgeling"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 0.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page" : "Third Age Warrior",
+  "versions" : [
+    {
+      "source" : "Third Age Warrior",
+      "ids" : [
+        8635
+      ],
+      "names" : [
+        "npc.third_age_warrior"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 75, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 96, "slashDefence" : 108, "crushDefence" : 113, "magicDefence" : -4, "rangedDefence" : 97, "lightRangedDefence" : 97, "heavyRangedDefence" : 97, "attackBonus" : 105, "strengthBonus" : 75, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

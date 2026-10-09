@@ -1,0 +1,68 @@
+{
+  "page" : "Tortured gorilla",
+  "versions" : [
+    {
+      "source" : "Tortured gorilla#Level 141",
+      "version" : "Level 141",
+      "ids" : [
+        7150,
+        7151,
+        7153
+      ],
+      "names" : [
+        "npc.tortured_gorilla_7150",
+        "npc.tortured_gorilla_7151",
+        "npc.tortured_gorilla_7153"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 210,
+      "attackSpeed" : 5,
+      "respawnTicks" : 100,
+      "size" : 2,
+      "levels" : { "attack" : 105, "strength" : 95, "defence" : 95, "ranged" : 95, "magic" : 95 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 22, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 25, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 16, "rangedStrength" : 16, "magicDamage" : 16 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 210.0, "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Tortured gorilla#Level 142",
+      "version" : "Level 142",
+      "ids" : [
+        7095,
+        7096,
+        7097
+      ],
+      "names" : [
+        "npc.tortured_gorilla",
+        "npc.tortured_gorilla_7096",
+        "npc.tortured_gorilla_7097"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 110,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 180, "strength" : 90, "defence" : 110, "ranged" : 1, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 90, "strengthBonus" : 123, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 110.0, "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

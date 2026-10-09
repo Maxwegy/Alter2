@@ -1,0 +1,157 @@
+{
+  "page" : "Galvek",
+  "versions" : [
+    {
+      "source" : "Galvek#Air",
+      "version" : "Air",
+      "ids" : [
+        8097
+      ],
+      "names" : [
+        "npc.galvek_8097"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 1200,
+      "attackSpeed" : 6,
+      "size" : 7,
+      "levels" : { "attack" : 632, "strength" : 268, "defence" : 188, "ranged" : 246, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 180, "stabDefence" : 80, "slashDefence" : 140, "crushDefence" : 140, "magicDefence" : 280, "rangedDefence" : 86, "lightRangedDefence" : 86, "heavyRangedDefence" : 86, "attackBonus" : 34, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 42 },
+      "maxHits" : [
+        "28 (Ranged)",
+        "28 (Slash)",
+        "28 (Magic)",
+        "121 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Galvek#Earth",
+      "version" : "Earth",
+      "ids" : [
+        8098,
+        8178,
+        8179
+      ],
+      "names" : [
+        "npc.galvek_8098",
+        "npc.galvek_8178",
+        "npc.galvek_8179"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 1200,
+      "attackSpeed" : 6,
+      "size" : 7,
+      "levels" : { "attack" : 632, "strength" : 268, "defence" : 188, "ranged" : 246, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 180, "stabDefence" : 80, "slashDefence" : 140, "crushDefence" : 140, "magicDefence" : 280, "rangedDefence" : 86, "lightRangedDefence" : 86, "heavyRangedDefence" : 86, "attackBonus" : 34, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 42 },
+      "maxHits" : [
+        "28 (Ranged)",
+        "28 (Slash)",
+        "28 (Magic)",
+        "121 (Dragonfire; Fire traps; Tsunami)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Galvek#Fire",
+      "version" : "Fire",
+      "ids" : [
+        8094,
+        8095,
+        8177
+      ],
+      "names" : [
+        "npc.galvek",
+        "npc.galvek_8095",
+        "npc.galvek_8177"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 1200,
+      "attackSpeed" : 6,
+      "size" : 7,
+      "levels" : { "attack" : 632, "strength" : 268, "defence" : 188, "ranged" : 246, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 180, "stabDefence" : 80, "slashDefence" : 140, "crushDefence" : 140, "magicDefence" : 280, "rangedDefence" : 86, "lightRangedDefence" : 86, "heavyRangedDefence" : 86, "attackBonus" : 34, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 42 },
+      "maxHits" : [
+        "28 (Ranged)",
+        "28 (Slash)",
+        "28 (Magic)",
+        "121 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Galvek#Water",
+      "version" : "Water",
+      "ids" : [
+        8096
+      ],
+      "names" : [
+        "npc.galvek_8096"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 1200,
+      "attackSpeed" : 6,
+      "size" : 7,
+      "levels" : { "attack" : 632, "strength" : 268, "defence" : 188, "ranged" : 246, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 180, "stabDefence" : 80, "slashDefence" : 140, "crushDefence" : 140, "magicDefence" : 280, "rangedDefence" : 86, "lightRangedDefence" : 86, "heavyRangedDefence" : 86, "attackBonus" : 34, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 42 },
+      "maxHits" : [
+        "28 (Ranged)",
+        "28 (Slash)",
+        "28 (Magic)",
+        "121 (Dragonfire; Tsunami)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Dagannoth Rex (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "Dagannoth Rex (PvM Arena)",
+      "ids" : [
+        6498
+      ],
+      "names" : [
+        "npc.dagannoth_rex_6498"
+      ],
+      "combatLevel" : 303,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "respawnTicks" : 150,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 255, "ranged" : 255, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 255, "crushDefence" : 255, "magicDefence" : 10, "rangedDefence" : 255, "lightRangedDefence" : 255, "heavyRangedDefence" : 255, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 331.4, "categories" : [ "Bosses", "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

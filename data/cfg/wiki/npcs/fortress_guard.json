@@ -1,0 +1,130 @@
+{
+  "page" : "Fortress Guard",
+  "versions" : [
+    {
+      "source" : "Fortress Guard",
+      "ids" : [
+        4773
+      ],
+      "names" : [
+        "npc.fortress_guard_4773"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 18, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 5, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Fortress Guard",
+      "ids" : [
+        4774
+      ],
+      "names" : [
+        "npc.fortress_guard_4774"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 18, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 5, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Fortress Guard",
+      "ids" : [
+        4775
+      ],
+      "names" : [
+        "npc.fortress_guard_4775"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 18, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 5, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Fortress Guard",
+      "ids" : [
+        4776
+      ],
+      "names" : [
+        "npc.fortress_guard_4776"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 18, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 5, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Fortress Guard",
+      "ids" : [
+        4772
+      ],
+      "names" : [
+        "npc.fortress_guard"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 14, "slashDefence" : 18, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 5, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page" : "Albino bat",
+  "versions" : [
+    {
+      "source" : "Albino bat",
+      "ids" : [
+        1039
+      ],
+      "names" : [
+        "npc.albino_bat"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 33,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 2,
+      "levels" : { "attack" : 57, "strength" : 57, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 33.0, "categories" : [ "Bats" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

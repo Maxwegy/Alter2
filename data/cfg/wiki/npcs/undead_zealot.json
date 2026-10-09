@@ -1,0 +1,57 @@
+{
+  "page" : "Undead Zealot",
+  "versions" : [
+    {
+      "source" : "Undead Zealot#1",
+      "version" : "1",
+      "ids" : [
+        10591
+      ],
+      "names" : [
+        "npc.undead_zealot"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 28, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Zealot#2",
+      "version" : "2",
+      "ids" : [
+        10592
+      ],
+      "names" : [
+        "npc.undead_zealot_10592"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 28, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Soldier (Burthorpe)",
+  "versions" : [
+    {
+      "source" : "Soldier (Burthorpe)",
+      "ids" : [
+        4088
+      ],
+      "names" : [
+        "npc.soldier_4088"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 23, "crushDefence" : 21, "magicDefence" : 6, "rangedDefence" : 14, "lightRangedDefence" : 14, "heavyRangedDefence" : 14, "attackBonus" : 11, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

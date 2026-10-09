@@ -1,0 +1,33 @@
+{
+  "page" : "Giant Roc",
+  "versions" : [
+    {
+      "source" : "Giant Roc",
+      "ids" : [
+        763
+      ],
+      "names" : [
+        "npc.giant_roc"
+      ],
+      "combatLevel" : 172,
+      "hitpoints" : 250,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 100, "ranged" : 130, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 150, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14 (Melee)",
+        "20 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 250.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "page" : "Fever spider",
+  "tables" : [
+    {
+      "source" : "Fever spider",
+      "npcIds" : [
+        626
+      ],
+      "always" : [
+        { "item" : 6718, "name" : "item.fever_spider_body", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 1, 6 ], "wiki" : "6/36" },
+        { "item" : 225, "name" : "item.limpwurt_root", "min" : 1, "max" : 1, "chance" : [ 1, 9 ], "wiki" : "4/36" },
+        { "item" : 365, "name" : "item.bass", "min" : 1, "max" : 2, "chance" : [ 7, 36 ], "wiki" : "7/36" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4608 ], "wiki" : "1/4,608" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4608 ], "wiki" : "1/4,608" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4608 ], "wiki" : "1/4,608" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 200, "max" : 600, "chance" : [ 2, 9 ], "wiki" : "8/36" },
+        { "item" : 1145, "name" : "item.adamant_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "wiki" : "2/36" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 73728 ], "wiki" : "1/73,728" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 1, 196608 ], "wiki" : "1/196,608" },
+        { "item" : 1357, "name" : "item.adamant_axe", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "wiki" : "2/36" },
+        { "item" : 1371, "name" : "item.adamant_battleaxe", "min" : 1, "max" : 1, "chance" : [ 1, 36 ], "wiki" : "1/36" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 1536 ], "wiki" : "1/1,536" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2304 ], "wiki" : "1/2,304" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 576 ], "wiki" : "1/576" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 288 ], "wiki" : "1/288" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 144 ], "wiki" : "1/144" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 147456 ], "wiki" : "1/147,456" },
+        { "item" : 2495, "name" : "item.red_dhide_chaps", "min" : 1, "max" : 1, "chance" : [ 1, 12 ], "wiki" : "3/36" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 100, "max" : 200, "noted" : true, "chance" : [ 1, 18 ], "wiki" : "2/36" }
+      ]
+    }
+  ]
+}

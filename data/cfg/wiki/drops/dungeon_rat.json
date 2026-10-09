@@ -1,0 +1,34 @@
+{
+  "page" : "Dungeon rat",
+  "tables" : [
+    {
+      "source" : "Dungeon rat#Full tail",
+      "npcIds" : [
+        2865
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2134, "name" : "item.raw_rat_meat", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    },
+    {
+      "source" : "Dungeon rat#Normal",
+      "npcIds" : [
+        2865,
+        2866,
+        2867,
+        3607,
+        3608,
+        3609
+      ],
+      "always" : [
+        { "item" : 300, "name" : "item.rats_tail", "min" : 1, "max" : 1 },
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7824, "name" : "item.giant_rat_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

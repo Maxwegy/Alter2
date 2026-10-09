@@ -1,0 +1,56 @@
+{
+  "page" : "Zalcano",
+  "versions" : [
+    {
+      "source" : "Zalcano#Armoured",
+      "version" : "Armoured",
+      "ids" : [
+        9049
+      ],
+      "names" : [
+        "npc.zalcano"
+      ],
+      "combatLevel" : 336,
+      "hitpoints" : 300,
+      "attackSpeed" : 5,
+      "respawnTicks" : 37,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "53"
+      ],
+      "attackStyles" : [
+        "Various"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Zalcano#Weakened",
+      "version" : "Weakened",
+      "ids" : [
+        9050
+      ],
+      "names" : [
+        "npc.zalcano_9050"
+      ],
+      "combatLevel" : 336,
+      "hitpoints" : 1000,
+      "attackSpeed" : 0,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

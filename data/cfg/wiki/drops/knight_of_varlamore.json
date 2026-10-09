@@ -1,0 +1,37 @@
+{
+  "page" : "Knight of Varlamore",
+  "tables" : [
+    {
+      "source" : "Knight of Varlamore",
+      "npcIds" : [
+        13114,
+        13115,
+        13116,
+        13117,
+        13118,
+        13119
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 19, 100 ], "wiki" : "190/1,000" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 6, "max" : 6, "chance" : [ 19, 100 ], "wiki" : "190/1,000" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 41, 200 ], "wiki" : "205/1,000" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 7, 50 ], "wiki" : "140/1,000" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 29, 200 ], "wiki" : "145/1,000" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 55, "max" : 55, "chance" : [ 2, 25 ], "wiki" : "80/1,000" },
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 54 ], "wiki" : "1/54" },
+        { "item" : 5319, "name" : "item.onion_seed", "min" : 4, "max" : 4, "chance" : [ 1, 73 ], "wiki" : "1/73" },
+        { "item" : 5320, "name" : "item.sweetcorn_seed", "min" : 3, "max" : 3, "chance" : [ 1, 438 ], "wiki" : "1/438" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 2, "max" : 2, "chance" : [ 1, 1832 ], "wiki" : "1/1,832" },
+        { "item" : 5322, "name" : "item.tomato_seed", "min" : 3, "max" : 3, "chance" : [ 1, 219 ], "wiki" : "1/219" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 2, "max" : 2, "chance" : [ 1, 876 ], "wiki" : "1/876" },
+        { "item" : 5324, "name" : "item.cabbage_seed", "min" : 4, "max" : 4, "chance" : [ 1, 109 ], "wiki" : "1/109" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 2, "max" : 2, "chance" : [ 1, 2520 ], "wiki" : "1/2,520" }
+      ]
+    }
+  ]
+}

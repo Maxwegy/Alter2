@@ -1,0 +1,57 @@
+{
+  "page" : "Tribeswoman",
+  "versions" : [
+    {
+      "source" : "Tribeswoman#Dark brown",
+      "version" : "Dark brown",
+      "ids" : [
+        11955
+      ],
+      "names" : [
+        "npc.tribeswoman"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 27, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 6, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tribeswoman#Light brown",
+      "version" : "Light brown",
+      "ids" : [
+        11956
+      ],
+      "names" : [
+        "npc.tribeswoman_11956"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 27, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 6, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "page" : "Guard dog",
+  "tables" : [
+    {
+      "source" : "Guard dog",
+      "npcIds" : [
+        114,
+        7209
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2832, "name" : "item.key_medium", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 13469, "name" : "item.ensouled_dog_head_13469", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
+      ]
+    }
+  ]
+}

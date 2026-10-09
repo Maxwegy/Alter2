@@ -1,0 +1,33 @@
+{
+  "page" : "TzHaar-Mej",
+  "tables" : [
+    {
+      "source" : "TzHaar-Mej",
+      "npcIds" : [
+        2154,
+        2155,
+        2156,
+        2157,
+        2158,
+        2159,
+        2160
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 25, "max" : 25, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 25, "max" : 25, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 25, "max" : 25, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "4/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "8/2,048" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "16/2,048" },
+        { "item" : 6526, "name" : "item.toktzmejtal", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 6529, "name" : "item.tokkul", "min" : 1, "max" : 21, "chance" : [ 31, 64 ], "wiki" : "62/128" },
+        { "item" : 6529, "name" : "item.tokkul", "min" : 22, "max" : 22, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 6568, "name" : "item.obsidian_cape", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" }
+      ]
+    }
+  ]
+}

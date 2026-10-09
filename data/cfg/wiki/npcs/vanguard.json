@@ -1,0 +1,188 @@
+{
+  "page" : "Vanguard",
+  "versions" : [
+    {
+      "source" : "Vanguard#Magic",
+      "version" : "Magic",
+      "ids" : [
+        7529
+      ],
+      "names" : [
+        "npc.vanguard_7529"
+      ],
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 160, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 0, "stabDefence" : 315, "slashDefence" : 340, "crushDefence" : 400, "magicDefence" : 110, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 25 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Magic (Challenge Mode)",
+      "version" : "Magic (Challenge Mode)",
+      "ids" : [
+        7529
+      ],
+      "names" : [
+        "npc.vanguard_7529"
+      ],
+      "hitpoints" : 280,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 240, "ranged" : 225, "magic" : 225 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 0, "stabDefence" : 315, "slashDefence" : 340, "crushDefence" : 400, "magicDefence" : 110, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 25 },
+      "maxHits" : [
+        "33"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Melee",
+      "version" : "Melee",
+      "ids" : [
+        7527
+      ],
+      "names" : [
+        "npc.vanguard_7527"
+      ],
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 160, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 20, "rangedDefence" : 400, "lightRangedDefence" : 400, "heavyRangedDefence" : 400, "attackBonus" : 20, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Melee (Challenge Mode)",
+      "version" : "Melee (Challenge Mode)",
+      "ids" : [
+        7527
+      ],
+      "names" : [
+        "npc.vanguard_7527"
+      ],
+      "hitpoints" : 280,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 240, "ranged" : 225, "magic" : 225 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 20, "rangedDefence" : 400, "lightRangedDefence" : 400, "heavyRangedDefence" : 400, "attackBonus" : 20, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Moving",
+      "version" : "Moving",
+      "ids" : [
+        7526
+      ],
+      "names" : [
+        "npc.vanguard_7526"
+      ],
+      "attackSpeed" : 4,
+      "size" : 3,
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        7528
+      ],
+      "names" : [
+        "npc.vanguard_7528"
+      ],
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 160, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 55, "slashDefence" : 60, "crushDefence" : 100, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 25, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Vanguard#Ranged (Challenge Mode)",
+      "version" : "Ranged (Challenge Mode)",
+      "ids" : [
+        7528
+      ],
+      "names" : [
+        "npc.vanguard_7528"
+      ],
+      "hitpoints" : 280,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 240, "ranged" : 225, "magic" : 225 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 55, "slashDefence" : 60, "crushDefence" : 100, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 25, "magicDamage" : 0 },
+      "maxHits" : [
+        "33"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    }
+  ]
+}

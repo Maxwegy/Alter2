@@ -1,0 +1,89 @@
+{
+  "page" : "Swamp Crab",
+  "versions" : [
+    {
+      "source" : "Swamp Crab#Bloomed",
+      "version" : "Bloomed",
+      "ids" : [
+        8298
+      ],
+      "names" : [
+        "npc.swamp_crab_8298"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : -55, "lightRangedDefence" : -55, "heavyRangedDefence" : -55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 75.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Swamp Crab#Hidden",
+      "version" : "Hidden",
+      "ids" : [
+        8299
+      ],
+      "names" : [
+        "npc.swampy_log"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : -55, "lightRangedDefence" : -55, "heavyRangedDefence" : -55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 75.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Swamp Crab#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8297
+      ],
+      "names" : [
+        "npc.swamp_crab"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 100, "rangedDefence" : -55, "lightRangedDefence" : -55, "heavyRangedDefence" : -55, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 75.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

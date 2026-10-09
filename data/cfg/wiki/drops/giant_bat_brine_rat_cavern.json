@@ -1,0 +1,14 @@
+{
+  "page" : "Giant bat (Brine Rat Cavern)",
+  "tables" : [
+    {
+      "source" : "Giant bat (Brine Rat Cavern)",
+      "npcIds" : [
+        4504
+      ],
+      "always" : [
+        { "item" : 530, "name" : "item.bat_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

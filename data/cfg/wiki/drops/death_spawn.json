@@ -1,0 +1,14 @@
+{
+  "page" : "Death spawn",
+  "tables" : [
+    {
+      "source" : "Death spawn",
+      "npcIds" : [
+        10
+      ],
+      "always" : [
+        { "item" : 25766, "name" : "item.fiendish_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

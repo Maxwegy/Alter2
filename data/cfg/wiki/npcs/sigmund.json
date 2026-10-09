@@ -1,0 +1,75 @@
+{
+  "page" : "Sigmund",
+  "versions" : [
+    {
+      "source" : "Sigmund#Another Slice of H.A.M.",
+      "ids" : [
+        5139,
+        5142,
+        5143,
+        5144,
+        5145,
+        5146,
+        5329
+      ],
+      "names" : [
+        "npc.sigmund_5139",
+        "npc.sigmund_5142",
+        "npc.sigmund_5143",
+        "npc.sigmund_5144",
+        "npc.sigmund_5145",
+        "npc.sigmund_5146",
+        "npc.sigmund_5329"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 55, "defence" : 44, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 8, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Sigmund#Death to the Dorgeshuun",
+      "ids" : [
+        990,
+        991,
+        992,
+        993,
+        994,
+        4328
+      ],
+      "names" : [
+        "npc.sigmund",
+        "npc.sigmund_991",
+        "npc.sigmund_992",
+        "npc.sigmund_993",
+        "npc.sigmund_994",
+        "npc.sigmund_4328"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 45, "strength" : 45, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 8, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

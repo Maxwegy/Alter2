@@ -1,0 +1,57 @@
+{
+  "page" : "Sand Snake (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Sand Snake (Nightmare Zone)#Hard",
+      "version" : "Hard",
+      "ids" : [
+        7894
+      ],
+      "names" : [
+        "npc.sand_snake_hard"
+      ],
+      "combatLevel" : 154,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 180, "strength" : 140, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Sand Snake (Nightmare Zone)#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7895
+      ],
+      "names" : [
+        "npc.sand_snake"
+      ],
+      "combatLevel" : 36,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 30, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

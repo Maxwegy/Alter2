@@ -1,0 +1,73 @@
+{
+  "page" : "Mountain troll",
+  "versions" : [
+    {
+      "source" : "Mountain troll#Level 69",
+      "version" : "Level 69",
+      "ids" : [
+        936,
+        937,
+        938,
+        939,
+        940,
+        941,
+        942
+      ],
+      "names" : [
+        "npc.mountain_troll",
+        "npc.mountain_troll_937",
+        "npc.mountain_troll_938",
+        "npc.mountain_troll_939",
+        "npc.mountain_troll_940",
+        "npc.mountain_troll_941",
+        "npc.mountain_troll_942"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 75, "defence" : 40, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 10, "magicDefence" : 200, "rangedDefence" : 40, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 20, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 90.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Mountain troll#Level 71",
+      "version" : "Level 71",
+      "ids" : [
+        4143
+      ],
+      "names" : [
+        "npc.mountain_troll_4143"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 90, "defence" : 25, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 10, "magicDefence" : 200, "rangedDefence" : 40, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 20, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 90.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

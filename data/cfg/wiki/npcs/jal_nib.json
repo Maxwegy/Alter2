@@ -1,0 +1,31 @@
+{
+  "page" : "Jal-Nib",
+  "versions" : [
+    {
+      "source" : "Jal-Nib",
+      "ids" : [
+        7691
+      ],
+      "names" : [
+        "npc.jalnib"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 15, "ranged" : 1, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -20, "slashDefence" : -20, "crushDefence" : -20, "magicDefence" : -20, "rangedDefence" : -20, "lightRangedDefence" : -20, "heavyRangedDefence" : -20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 10.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

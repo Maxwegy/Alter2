@@ -1,0 +1,37 @@
+{
+  "page" : "Tz-Kih",
+  "versions" : [
+    {
+      "source" : "Tz-Kih",
+      "ids" : [
+        2189,
+        2190,
+        3116,
+        3117
+      ],
+      "names" : [
+        "npc.tzkih",
+        "npc.tzkih_2190",
+        "npc.tzkih_3116",
+        "npc.tzkih_3117"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 30, "defence" : 15, "ranged" : 30, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 10.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

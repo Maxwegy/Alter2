@@ -1,0 +1,17 @@
+{
+  "page" : "Gnome troop",
+  "tables" : [
+    {
+      "source" : "Gnome troop",
+      "npcIds" : [
+        4973,
+        4974,
+        5966,
+        5967
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

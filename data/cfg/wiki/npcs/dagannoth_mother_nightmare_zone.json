@@ -1,0 +1,83 @@
+{
+  "page" : "Dagannoth mother (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Dagannoth mother (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6300,
+        6301,
+        6302,
+        6303,
+        6304,
+        6305
+      ],
+      "names" : [
+        "npc.dagannoth_mother_hard",
+        "npc.dagannoth_mother_hard_6301",
+        "npc.dagannoth_mother_hard_6302",
+        "npc.dagannoth_mother_hard_6303",
+        "npc.dagannoth_mother_hard_6304",
+        "npc.dagannoth_mother_hard_6305"
+      ],
+      "combatLevel" : 201,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 186, "strength" : 186, "defence" : 81, "ranged" : 120, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (Stab)",
+        "12×2 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 252.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth mother (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6361,
+        6362,
+        6363,
+        6364,
+        6365,
+        6366
+      ],
+      "names" : [
+        "npc.dagannoth_mother_6361",
+        "npc.dagannoth_mother_6362",
+        "npc.dagannoth_mother_6363",
+        "npc.dagannoth_mother_6364",
+        "npc.dagannoth_mother_6365",
+        "npc.dagannoth_mother_6366"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 78, "strength" : 78, "defence" : 81, "ranged" : 50, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9 (Stab)",
+        "12×2 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 126.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Baby red dragon (Construction)",
+  "versions" : [
+    {
+      "source" : "Baby red dragon (Construction)",
+      "ids" : [
+        137
+      ],
+      "names" : [
+        "npc.baby_red_dragon_137"
+      ],
+      "combatLevel" : 65,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 55, "strength" : 55, "defence" : 55, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

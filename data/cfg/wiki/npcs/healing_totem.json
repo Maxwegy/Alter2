@@ -1,0 +1,17 @@
+{
+  "page" : "Healing totem",
+  "versions" : [
+    {
+      "source" : "Healing totem",
+      "ids" : [
+        12825
+      ],
+      "names" : [
+        "npc.healing_totem"
+      ],
+      "hitpoints" : 1,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

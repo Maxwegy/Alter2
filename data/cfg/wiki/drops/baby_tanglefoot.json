@@ -1,0 +1,15 @@
+{
+  "page" : "Baby tanglefoot",
+  "tables" : [
+    {
+      "source" : "Baby tanglefoot",
+      "npcIds" : [
+        5853,
+        5854
+      ],
+      "always" : [
+        { "item" : 6020, "name" : "item.leaves", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

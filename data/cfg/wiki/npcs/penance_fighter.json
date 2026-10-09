@@ -1,0 +1,259 @@
+{
+  "page" : "Penance Fighter",
+  "versions" : [
+    {
+      "source" : "Penance Fighter#Wave 1",
+      "version" : "Wave 1",
+      "ids" : [
+        1667,
+        5739
+      ],
+      "names" : [
+        "npc.penance_fighter",
+        "npc.penance_fighter_5739"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 26, "strength" : 26, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 2",
+      "version" : "Wave 2",
+      "ids" : [
+        5740
+      ],
+      "names" : [
+        "npc.penance_fighter_5740"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 29, "defence" : 27, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 3",
+      "version" : "Wave 3",
+      "ids" : [
+        5741
+      ],
+      "names" : [
+        "npc.penance_fighter_5741"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 33, "strength" : 32, "defence" : 34, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 4",
+      "version" : "Wave 4",
+      "ids" : [
+        5742
+      ],
+      "names" : [
+        "npc.penance_fighter_5742"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 37,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 36, "strength" : 38, "defence" : 37, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 5",
+      "version" : "Wave 5",
+      "ids" : [
+        5743
+      ],
+      "names" : [
+        "npc.penance_fighter_5743"
+      ],
+      "combatLevel" : 47,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 41, "strength" : 43, "defence" : 44, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 6",
+      "version" : "Wave 6",
+      "ids" : [
+        5744
+      ],
+      "names" : [
+        "npc.penance_fighter_5744"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 49,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 48, "defence" : 48, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 7/10",
+      "version" : "Wave 7/10",
+      "ids" : [
+        5745
+      ],
+      "names" : [
+        "npc.penance_fighter_5745"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 56, "strength" : 55, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 8",
+      "version" : "Wave 8",
+      "ids" : [
+        5746
+      ],
+      "names" : [
+        "npc.penance_fighter_5746"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 61, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Fighter#Wave 9",
+      "version" : "Wave 9",
+      "ids" : [
+        5747
+      ],
+      "names" : [
+        "npc.penance_fighter_5747"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 56,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 71, "strength" : 73, "defence" : 66, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    }
+  ]
+}

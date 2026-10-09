@@ -1,0 +1,19 @@
+{
+  "page" : "Black dragon (Echo)",
+  "versions" : [
+    {
+      "source" : "Black dragon (Echo)",
+      "ids" : [
+        14146
+      ],
+      "names" : [
+        "npc.black_dragon_14146"
+      ],
+      "combatLevel" : 227,
+      "hitpoints" : 190,
+      "size" : 4,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 200, "ranged" : 1, "magic" : 100 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "page" : "Kraken",
+  "versions" : [
+    {
+      "source" : "Kraken#Kraken",
+      "version" : "Kraken",
+      "ids" : [
+        494
+      ],
+      "names" : [
+        "npc.kraken"
+      ],
+      "combatLevel" : 291,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 130, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic (100% prayer penetration)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 87, "xp" : 255.0, "categories" : [ "Bosses", "Cave Kraken" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Kraken#Whirlpool",
+      "version" : "Whirlpool",
+      "ids" : [
+        496
+      ],
+      "names" : [
+        "npc.whirlpool_496"
+      ],
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 130, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic (100% prayer penetration)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 87, "xp" : 255.0, "categories" : [ "Bosses", "Cave Kraken" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

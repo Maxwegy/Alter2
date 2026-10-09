@@ -1,0 +1,29 @@
+{
+  "page" : "Fumus",
+  "versions" : [
+    {
+      "source" : "Fumus",
+      "ids" : [
+        11283
+      ],
+      "names" : [
+        "npc.fumus"
+      ],
+      "combatLevel" : 285,
+      "hitpoints" : 500,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 200, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 150, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 25 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

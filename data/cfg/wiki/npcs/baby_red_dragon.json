@@ -1,0 +1,98 @@
+{
+  "page" : "Baby red dragon",
+  "versions" : [
+    {
+      "source" : "Baby red dragon#1",
+      "version" : "1",
+      "ids" : [
+        244
+      ],
+      "names" : [
+        "npc.baby_red_dragon_244"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Red Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Baby red dragon#2",
+      "version" : "2",
+      "ids" : [
+        245
+      ],
+      "names" : [
+        "npc.baby_red_dragon_245"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Red Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Baby red dragon#3",
+      "version" : "3",
+      "ids" : [
+        246
+      ],
+      "names" : [
+        "npc.baby_red_dragon_246"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Red Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Snailfeet",
+  "tables" : [
+    {
+      "source" : "Snailfeet",
+      "npcIds" : [
+        11270,
+        11275
+      ],
+      "always" : [
+        { "item" : 26590, "name" : "item.snailfeets_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

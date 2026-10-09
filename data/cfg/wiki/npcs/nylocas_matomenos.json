@@ -1,0 +1,160 @@
+{
+  "page" : "Nylocas Matomenos",
+  "versions" : [
+    {
+      "source" : "Nylocas Matomenos#Entry Mode Maiden",
+      "version" : "Entry Mode Maiden",
+      "ids" : [
+        10820
+      ],
+      "names" : [
+        "npc.nylocas_matomenos_10820"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 64,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Matomenos#Entry Mode Verzik",
+      "version" : "Entry Mode Verzik",
+      "ids" : [
+        10845
+      ],
+      "names" : [
+        "npc.nylocas_matomenos_10845"
+      ],
+      "combatLevel" : 68,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Matomenos#Hard Mode Maiden",
+      "version" : "Hard Mode Maiden",
+      "ids" : [
+        10828
+      ],
+      "names" : [
+        "npc.nylocas_matomenos_10828"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 100,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Matomenos#Hard Mode Verzik",
+      "version" : "Hard Mode Verzik",
+      "ids" : [
+        10862
+      ],
+      "names" : [
+        "npc.nylocas_matomenos_10862"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Matomenos#Normal Mode Maiden",
+      "version" : "Normal Mode Maiden",
+      "ids" : [
+        8366
+      ],
+      "names" : [
+        "npc.nylocas_matomenos"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 100,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 100, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Matomenos#Normal Mode Verzik",
+      "version" : "Normal Mode Verzik",
+      "ids" : [
+        8385
+      ],
+      "names" : [
+        "npc.nylocas_matomenos_8385"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 200,
+      "attackSpeed" : -1,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

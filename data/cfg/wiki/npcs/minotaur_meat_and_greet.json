@@ -1,0 +1,32 @@
+{
+  "page" : "Minotaur (Meat and Greet)",
+  "versions" : [
+    {
+      "source" : "Minotaur (Meat and Greet)",
+      "ids" : [
+        13814,
+        13815
+      ],
+      "names" : [
+        "npc.minotaur_13814",
+        "npc.minotaur_13815"
+      ],
+      "combatLevel" : 193,
+      "hitpoints" : 240,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 140, "strength" : 110, "defence" : 100, "ranged" : 0, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 50, "magicDefence" : 80, "rangedDefence" : 140, "lightRangedDefence" : 140, "heavyRangedDefence" : 140, "attackBonus" : 60, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 5 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

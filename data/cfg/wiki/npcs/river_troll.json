@@ -1,0 +1,167 @@
+{
+  "page" : "River troll",
+  "versions" : [
+    {
+      "source" : "River troll#Level 120",
+      "version" : "Level 120",
+      "ids" : [
+        6736
+      ],
+      "names" : [
+        "npc.river_troll_6736"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 3.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "River troll#Level 14",
+      "version" : "Level 14",
+      "ids" : [
+        6732
+      ],
+      "names" : [
+        "npc.river_troll"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 9, "strength" : 9, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 1.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "River troll#Level 159",
+      "version" : "Level 159",
+      "ids" : [
+        6737
+      ],
+      "names" : [
+        "npc.river_troll_6737"
+      ],
+      "combatLevel" : 159,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 130, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 4.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "River troll#Level 29",
+      "version" : "Level 29",
+      "ids" : [
+        6733
+      ],
+      "names" : [
+        "npc.river_troll_6733"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 1.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "River troll#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        6734
+      ],
+      "names" : [
+        "npc.river_troll_6734"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 1.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    },
+    {
+      "source" : "River troll#Level 79",
+      "version" : "Level 79",
+      "ids" : [
+        6735
+      ],
+      "names" : [
+        "npc.river_troll_6735"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    }
+  ]
+}

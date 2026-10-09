@@ -1,0 +1,23 @@
+{
+  "page" : "Rooster",
+  "tables" : [
+    {
+      "source" : "Rooster",
+      "npcIds" : [
+        1175,
+        3663
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2138, "name" : "item.raw_chicken", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 314, "name" : "item.feather", "min" : 5, "max" : 5, "chance" : [ 1, 2 ], "wiki" : "64/128" },
+        { "item" : 314, "name" : "item.feather", "min" : 15, "max" : 15, "chance" : [ 1, 4 ], "wiki" : "32/128" }
+      ],
+      "tertiary" : [
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 300 ], "wiki" : "1/300" }
+      ]
+    }
+  ]
+}

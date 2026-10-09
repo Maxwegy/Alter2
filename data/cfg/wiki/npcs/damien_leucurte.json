@@ -1,0 +1,40 @@
+{
+  "page" : "Damien Leucurte",
+  "versions" : [
+    {
+      "source" : "Damien Leucurte",
+      "ids" : [
+        9561,
+        9562,
+        9563,
+        9564
+      ],
+      "names" : [
+        "npc.damien_leucurte",
+        "npc.damien_leucurte_9562",
+        "npc.damien_leucurte_9563",
+        "npc.damien_leucurte_9564"
+      ],
+      "combatLevel" : 204,
+      "hitpoints" : 217,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 160, "ranged" : 160, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 18, "rangedAttack" : 18, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 12, "magicDamage" : 12 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "xp" : 360.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "page" : "Judge of Yama (A Kingdom Divided)",
+  "versions" : [
+    {
+      "source" : "Judge of Yama (A Kingdom Divided)",
+      "ids" : [
+        10936,
+        10938
+      ],
+      "names" : [
+        "npc.judge_of_yama",
+        "npc.judge_of_yama_10938"
+      ],
+      "combatLevel" : 168,
+      "hitpoints" : 260,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 186, "strength" : 112, "defence" : 84, "ranged" : 0, "magic" : 84 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 600, "lightRangedDefence" : 600, "heavyRangedDefence" : 600, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Magic (Fire Waves)",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 266.5, "categories" : [ "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

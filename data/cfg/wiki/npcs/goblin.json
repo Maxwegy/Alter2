@@ -1,0 +1,191 @@
+{
+  "page" : "Goblin",
+  "versions" : [
+    {
+      "source" : "Goblin#Level 13",
+      "version" : "Level 13",
+      "ids" : [
+        3046
+      ],
+      "names" : [
+        "npc.goblin_3046"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 13, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 8, "magicDefence" : 4, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin#Level 2",
+      "version" : "Level 2",
+      "ids" : [
+        3028,
+        3029,
+        3030,
+        3031,
+        3032,
+        3033,
+        3034,
+        3035,
+        3036,
+        3037,
+        3038,
+        3039,
+        3040,
+        3041,
+        3042,
+        3043,
+        3044,
+        3051,
+        3052,
+        3053,
+        3054,
+        5195,
+        5196,
+        5197,
+        5198,
+        5199,
+        5200,
+        5201,
+        5202,
+        5203
+      ],
+      "names" : [
+        "npc.goblin_3028",
+        "npc.goblin_3029",
+        "npc.goblin_3030",
+        "npc.goblin_3031",
+        "npc.goblin_3032",
+        "npc.goblin_3033",
+        "npc.goblin_3034",
+        "npc.goblin_3035",
+        "npc.goblin_3036",
+        "npc.goblin_3037",
+        "npc.goblin_3038",
+        "npc.goblin_3039",
+        "npc.goblin_3040",
+        "npc.goblin_3041",
+        "npc.goblin_3042",
+        "npc.goblin_3043",
+        "npc.goblin_3044",
+        "npc.goblin_3051",
+        "npc.goblin_3052",
+        "npc.goblin_3053",
+        "npc.goblin_3054",
+        "npc.goblin_5195",
+        "npc.goblin_5196",
+        "npc.goblin_5197",
+        "npc.goblin_5198",
+        "npc.goblin_5199",
+        "npc.goblin_5200",
+        "npc.goblin_5201",
+        "npc.goblin_5202",
+        "npc.goblin_5203"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : -21, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 5.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin#Level 2 (armed)",
+      "version" : "Level 2 (armed)",
+      "ids" : [
+        5192,
+        5193,
+        5204,
+        5205,
+        5206,
+        5207,
+        5208
+      ],
+      "names" : [
+        "npc.goblin_5192",
+        "npc.goblin_5193",
+        "npc.goblin_5204",
+        "npc.goblin_5205",
+        "npc.goblin_5206",
+        "npc.goblin_5207",
+        "npc.goblin_5208"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 1, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -15, "slashDefence" : -15, "crushDefence" : -15, "magicDefence" : -15, "rangedDefence" : -15, "lightRangedDefence" : -15, "heavyRangedDefence" : -15, "attackBonus" : -21, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 5.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin#Level 5",
+      "version" : "Level 5",
+      "ids" : [
+        3045,
+        3073,
+        3074,
+        3075,
+        3076
+      ],
+      "names" : [
+        "npc.goblin_3045",
+        "npc.goblin_3073",
+        "npc.goblin_3074",
+        "npc.goblin_3075",
+        "npc.goblin_3076"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 12,
+      "attackSpeed" : 6,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 1, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 12, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 12.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

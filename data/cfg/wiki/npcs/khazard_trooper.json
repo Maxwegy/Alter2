@@ -1,0 +1,61 @@
+{
+  "page" : "Khazard trooper",
+  "versions" : [
+    {
+      "source" : "Khazard trooper#Mace",
+      "version" : "Mace",
+      "ids" : [
+        4969,
+        5964
+      ],
+      "names" : [
+        "npc.khazard_trooper",
+        "npc.khazard_trooper_5964"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 33, "slashDefence" : 34, "crushDefence" : 29, "magicDefence" : -7, "rangedDefence" : -33, "lightRangedDefence" : -33, "heavyRangedDefence" : -33, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Khazard trooper#Spear",
+      "version" : "Spear",
+      "ids" : [
+        4970,
+        5965
+      ],
+      "names" : [
+        "npc.khazard_trooper_4970",
+        "npc.khazard_trooper_5965"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 16, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 22, "magicDefence" : -7, "rangedDefence" : -25, "lightRangedDefence" : -25, "heavyRangedDefence" : -25, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

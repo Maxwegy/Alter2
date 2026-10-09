@@ -1,0 +1,29 @@
+{
+  "page" : "Shadow Keeper",
+  "versions" : [
+    {
+      "source" : "Shadow Keeper",
+      "ids" : [
+        12248
+      ],
+      "names" : [
+        "npc.shadow_keeper"
+      ],
+      "combatLevel" : 131,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 140, "strength" : 110, "defence" : 100, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" }
+    }
+  ]
+}

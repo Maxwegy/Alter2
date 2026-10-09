@@ -1,0 +1,83 @@
+{
+  "page" : "H.A.M. Guard",
+  "versions" : [
+    {
+      "source" : "H.A.M. Guard#Level 12",
+      "version" : "Level 12",
+      "ids" : [
+        2536
+      ],
+      "names" : [
+        "npc.ham_guard"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 15,
+      "attackSpeed" : 7,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 12, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "H.A.M. Guard#Level 18",
+      "version" : "Level 18",
+      "ids" : [
+        2537
+      ],
+      "names" : [
+        "npc.ham_guard_2537"
+      ],
+      "combatLevel" : 18,
+      "hitpoints" : 20,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 18, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 6, "slashDefence" : 6, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 6, "lightRangedDefence" : 6, "heavyRangedDefence" : 6, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "H.A.M. Guard#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        2538
+      ],
+      "names" : [
+        "npc.ham_guard_2538"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 20, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 7, "slashDefence" : 7, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 7, "lightRangedDefence" : 7, "heavyRangedDefence" : 7, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

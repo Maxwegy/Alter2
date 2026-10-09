@@ -1,0 +1,21 @@
+{
+  "page" : "Khazard Guard",
+  "tables" : [
+    {
+      "source" : "Khazard Guard",
+      "npcIds" : [
+        1208,
+        1211,
+        12019,
+        12020,
+        12021,
+        12022,
+        12023,
+        12024
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

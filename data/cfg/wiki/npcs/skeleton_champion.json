@@ -1,0 +1,33 @@
+{
+  "page" : "Skeleton Champion",
+  "versions" : [
+    {
+      "source" : "Skeleton Champion",
+      "ids" : [
+        3358
+      ],
+      "names" : [
+        "npc.skeleton_champion"
+      ],
+      "combatLevel" : 40,
+      "hitpoints" : 58,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 34, "ranged" : 36, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Araxxor",
+  "versions" : [
+    {
+      "source" : "Araxxor#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        13668
+      ],
+      "names" : [
+        "npc.araxxor"
+      ],
+      "combatLevel" : 890,
+      "hitpoints" : 1020,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 7,
+      "levels" : { "attack" : 320, "strength" : 320, "defence" : 170, "ranged" : 241, "magic" : 218 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 260, "rangedAttack" : 283, "stabDefence" : 160, "slashDefence" : 75, "crushDefence" : 15, "magicDefence" : 237, "rangedDefence" : 218, "lightRangedDefence" : 218, "heavyRangedDefence" : 218, "attackBonus" : 218, "strengthBonus" : 10, "rangedStrength" : 35, "magicDamage" : 5 },
+      "maxHits" : [
+        "38 (melee) <br/> 21 (magic) <br/> 34 (ranged)"
+      ],
+      "attackStyles" : [
+        "All"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 92, "xp" : 1708.0, "categories" : [ "Araxytes", "Bosses", "Spiders" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Araxxor#In combat",
+      "version" : "In combat",
+      "ids" : [
+        13668
+      ],
+      "names" : [
+        "npc.araxxor"
+      ],
+      "combatLevel" : 890,
+      "hitpoints" : 1020,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 7,
+      "levels" : { "attack" : 320, "strength" : 320, "defence" : 135, "ranged" : 210, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 260, "rangedAttack" : 283, "stabDefence" : 160, "slashDefence" : 75, "crushDefence" : 15, "magicDefence" : 237, "rangedDefence" : 218, "lightRangedDefence" : 218, "heavyRangedDefence" : 218, "attackBonus" : 218, "strengthBonus" : 10, "rangedStrength" : 35, "magicDamage" : 5 },
+      "maxHits" : [
+        "38 (melee) <br/> 21 (magic) <br/> 34 (ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "'\"`UNIQ--ref-00000048-QINU`\"' Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 92, "xp" : 1708.0, "categories" : [ "Araxytes", "Bosses", "Spiders" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

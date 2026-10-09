@@ -1,0 +1,29 @@
+{
+  "page" : "Crystalline Unicorn",
+  "versions" : [
+    {
+      "source" : "Crystalline Unicorn",
+      "ids" : [
+        9029
+      ],
+      "names" : [
+        "npc.crystalline_unicorn"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 48, "defence" : 18, "ranged" : 0, "magic" : 24 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

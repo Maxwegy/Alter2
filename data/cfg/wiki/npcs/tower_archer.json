@@ -1,0 +1,105 @@
+{
+  "page" : "Tower Archer",
+  "versions" : [
+    {
+      "source" : "Tower Archer#East",
+      "version" : "East",
+      "ids" : [
+        6066
+      ],
+      "names" : [
+        "npc.tower_archer_6066"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 50,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 40, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 24, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 22, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tower Archer#North",
+      "version" : "North",
+      "ids" : [
+        6065
+      ],
+      "names" : [
+        "npc.tower_archer"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 30,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 20, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 6, "rangedDefence" : 12, "lightRangedDefence" : 12, "heavyRangedDefence" : 12, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 16, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tower Archer#South",
+      "version" : "South",
+      "ids" : [
+        6067
+      ],
+      "names" : [
+        "npc.tower_archer_6067"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 70,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 60, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 31, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tower Archer#West",
+      "version" : "West",
+      "ids" : [
+        6068
+      ],
+      "names" : [
+        "npc.tower_archer_6068"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 90,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 80, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 34, "rangedDefence" : 66, "lightRangedDefence" : 66, "heavyRangedDefence" : 66, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 49, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "page" : "Spider (Ape Atoll)",
+  "tables" : [
+    {
+      "source" : "Spider (Ape Atoll)",
+      "npcIds" : [
+        5238,
+        5239
+      ]
+    }
+  ]
+}

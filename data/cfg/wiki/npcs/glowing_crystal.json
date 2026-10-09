@@ -1,0 +1,59 @@
+{
+  "page" : "Glowing crystal",
+  "versions" : [
+    {
+      "source" : "Glowing crystal#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7568
+      ],
+      "names" : [
+        "npc.glowing_crystal"
+      ],
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -5, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Glowing crystal#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7568
+      ],
+      "names" : [
+        "npc.glowing_crystal"
+      ],
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -5, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    }
+  ]
+}

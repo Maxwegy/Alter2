@@ -1,0 +1,312 @@
+{
+  "page" : "Duke Sucellus",
+  "versions" : [
+    {
+      "source" : "Duke Sucellus#Awakened, Asleep",
+      "version" : "Asleep",
+      "ids" : [
+        12166,
+        12167
+      ],
+      "names" : [
+        "npc.duke_sucellus",
+        "npc.duke_sucellus_12167"
+      ],
+      "combatLevel" : 1099,
+      "hitpoints" : 1697,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 435, "strength" : 500, "defence" : 316, "ranged" : 0, "magic" : 465 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 65, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "81 (Melee)",
+        "71 (Magic)",
+        "121 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1697.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Awakened, Awake",
+      "version" : "Awake",
+      "ids" : [
+        12191
+      ],
+      "names" : [
+        "npc.duke_sucellus_12191"
+      ],
+      "combatLevel" : 1099,
+      "hitpoints" : 1697,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 435, "strength" : 500, "defence" : 316, "ranged" : 0, "magic" : 465 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 65, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "81 (Melee)",
+        "71 (Magic)",
+        "121 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1697.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Awakened, Defeated",
+      "version" : "Defeated",
+      "ids" : [
+        12192,
+        12196
+      ],
+      "names" : [
+        "npc.duke_sucellus_12192",
+        "npc.duke_sucellus_12196"
+      ],
+      "combatLevel" : 1099,
+      "hitpoints" : 1697,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 435, "strength" : 500, "defence" : 316, "ranged" : 0, "magic" : 465 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 65, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "81 (Melee)",
+        "71 (Magic)",
+        "121 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 1697.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Post-quest, Asleep",
+      "version" : "Asleep",
+      "ids" : [
+        12166,
+        12167
+      ],
+      "names" : [
+        "npc.duke_sucellus",
+        "npc.duke_sucellus_12167"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 485,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 300, "strength" : 345, "defence" : 275, "ranged" : 0, "magic" : 310 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 45, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "56 (Melee)",
+        "48 (Magic)",
+        "101 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 305.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Post-quest, Awake",
+      "version" : "Awake",
+      "ids" : [
+        12191
+      ],
+      "names" : [
+        "npc.duke_sucellus_12191"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 485,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 300, "strength" : 345, "defence" : 275, "ranged" : 0, "magic" : 310 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 45, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "56 (Melee)",
+        "48 (Magic)",
+        "101 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 305.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Post-quest, Defeated",
+      "version" : "Defeated",
+      "ids" : [
+        12192,
+        12196
+      ],
+      "names" : [
+        "npc.duke_sucellus_12192",
+        "npc.duke_sucellus_12196"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 485,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 300, "strength" : 345, "defence" : 275, "ranged" : 0, "magic" : 310 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 255, "slashDefence" : 45, "crushDefence" : 190, "magicDefence" : 440, "rangedDefence" : 320, "lightRangedDefence" : 320, "heavyRangedDefence" : 320, "attackBonus" : 200, "strengthBonus" : 38, "rangedStrength" : 0, "magicDamage" : 32 },
+      "maxHits" : [
+        "56 (Melee)",
+        "48 (Magic)",
+        "101 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 305.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Quest, Asleep",
+      "version" : "Asleep",
+      "ids" : [
+        12193,
+        12194
+      ],
+      "names" : [
+        "npc.duke_sucellus_12193",
+        "npc.duke_sucellus_12194"
+      ],
+      "combatLevel" : 538,
+      "hitpoints" : 330,
+      "attackSpeed" : 6,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 250, "strength" : 280, "defence" : 215, "ranged" : 0, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 210, "slashDefence" : 30, "crushDefence" : 160, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "36 (Melee)",
+        "28 (Magic)",
+        "99 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 360.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Quest, Awake",
+      "version" : "Awake",
+      "ids" : [
+        12195
+      ],
+      "names" : [
+        "npc.duke_sucellus_12195"
+      ],
+      "combatLevel" : 538,
+      "hitpoints" : 330,
+      "attackSpeed" : 6,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 250, "strength" : 280, "defence" : 215, "ranged" : 0, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 210, "slashDefence" : 30, "crushDefence" : 160, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "36 (Melee)",
+        "28 (Magic)",
+        "99 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 360.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Duke Sucellus#Quest, Defeated",
+      "version" : "Defeated",
+      "ids" : [
+        12196
+      ],
+      "names" : [
+        "npc.duke_sucellus_12196"
+      ],
+      "combatLevel" : 538,
+      "hitpoints" : 330,
+      "attackSpeed" : 6,
+      "respawnTicks" : 20,
+      "size" : 7,
+      "levels" : { "attack" : 250, "strength" : 280, "defence" : 215, "ranged" : 0, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 210, "slashDefence" : 30, "crushDefence" : 160, "magicDefence" : 400, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 200, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "36 (Melee)",
+        "28 (Magic)",
+        "99 (Gaze)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 360.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

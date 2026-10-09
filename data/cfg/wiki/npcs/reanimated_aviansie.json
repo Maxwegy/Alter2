@@ -1,0 +1,32 @@
+{
+  "page" : "Reanimated aviansie",
+  "versions" : [
+    {
+      "source" : "Reanimated aviansie",
+      "ids" : [
+        7037
+      ],
+      "names" : [
+        "npc.reanimated_aviansie"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 71, "strength" : 1, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 35.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] }
+    }
+  ]
+}

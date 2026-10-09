@@ -1,0 +1,57 @@
+{
+  "page" : "Guard (Burthorpe)",
+  "versions" : [
+    {
+      "source" : "Guard (Burthorpe)#Black beard",
+      "version" : "Black beard",
+      "ids" : [
+        4099
+      ],
+      "names" : [
+        "npc.guard_4099"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 30, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 36, "slashDefence" : 48, "crushDefence" : 50, "magicDefence" : -4, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Burthorpe)#Grey beard",
+      "version" : "Grey beard",
+      "ids" : [
+        4100
+      ],
+      "names" : [
+        "npc.guard_4100"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 30, "defence" : 30, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 36, "slashDefence" : 48, "crushDefence" : 50, "magicDefence" : -4, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

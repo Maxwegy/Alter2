@@ -1,0 +1,109 @@
+{
+  "page" : "Jail guard",
+  "versions" : [
+    {
+      "source" : "Jail guard#1",
+      "version" : "1",
+      "ids" : [
+        4276
+      ],
+      "names" : [
+        "npc.jail_guard"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 32,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 23, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 10, "magicDefence" : 4, "rangedDefence" : 9, "lightRangedDefence" : 9, "heavyRangedDefence" : 9, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Jail guard#2",
+      "version" : "2",
+      "ids" : [
+        4277
+      ],
+      "names" : [
+        "npc.jail_guard_4277"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 32,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 23, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 10, "magicDefence" : 4, "rangedDefence" : 9, "lightRangedDefence" : 9, "heavyRangedDefence" : 9, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Jail guard#3",
+      "version" : "3",
+      "ids" : [
+        4278
+      ],
+      "names" : [
+        "npc.jail_guard_4278"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 32,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 23, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 10, "magicDefence" : 4, "rangedDefence" : 9, "lightRangedDefence" : 9, "heavyRangedDefence" : 9, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Jail guard#4",
+      "version" : "4",
+      "ids" : [
+        4279
+      ],
+      "names" : [
+        "npc.jail_guard_4279"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 32,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 23, "defence" : 21, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 10, "magicDefence" : 4, "rangedDefence" : 9, "lightRangedDefence" : 9, "heavyRangedDefence" : 9, "attackBonus" : 9, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

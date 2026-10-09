@@ -1,0 +1,57 @@
+{
+  "page" : "Baby tanglefoot",
+  "versions" : [
+    {
+      "source" : "Baby tanglefoot#Brown",
+      "version" : "Brown",
+      "ids" : [
+        5854
+      ],
+      "names" : [
+        "npc.baby_tanglefoot_5854"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 38, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    },
+    {
+      "source" : "Baby tanglefoot#Tan",
+      "version" : "Tan",
+      "ids" : [
+        5853
+      ],
+      "names" : [
+        "npc.baby_tanglefoot"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 38, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

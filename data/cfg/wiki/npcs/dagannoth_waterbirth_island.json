@@ -1,0 +1,65 @@
+{
+  "page" : "Dagannoth (Waterbirth Island)",
+  "versions" : [
+    {
+      "source" : "Dagannoth (Waterbirth Island)#Level 88",
+      "version" : "Level 88",
+      "ids" : [
+        2259,
+        5942
+      ],
+      "names" : [
+        "npc.dagannoth_2259",
+        "npc.dagannoth_5942"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 85,
+      "attackSpeed" : 3,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 75, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 90, "magicDefence" : 200, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 85.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Dagannoth (Waterbirth Island)#Level 90",
+      "version" : "Level 90",
+      "ids" : [
+        3185,
+        5943
+      ],
+      "names" : [
+        "npc.dagannoth_3185",
+        "npc.dagannoth_5943"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 95,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 76, "strength" : 78, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 99.6, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

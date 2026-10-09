@@ -1,0 +1,32 @@
+{
+  "page" : "Arrav",
+  "versions" : [
+    {
+      "source" : "Arrav",
+      "ids" : [
+        14132
+      ],
+      "names" : [
+        "npc.arrav_14132"
+      ],
+      "combatLevel" : 339,
+      "hitpoints" : 600,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 220, "strength" : 220, "defence" : 150, "ranged" : 0, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 40, "magicDefence" : 160, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 100, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "page" : "Skeleton (Forthos Ruin)",
+  "tables" : [
+    {
+      "source" : "Skeleton (Forthos Ruin)",
+      "npcIds" : [
+        10717,
+        10718,
+        10719,
+        10720,
+        10721
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 6806, "name" : "item.skeleton_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Kay",
+  "versions" : [
+    {
+      "source" : "Sir Kay",
+      "ids" : [
+        4349,
+        4355
+      ],
+      "names" : [
+        "npc.sir_kay_4349",
+        "npc.sir_kay_4355"
+      ],
+      "combatLevel" : 124,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 300, "crushDefence" : 65, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 55, "strengthBonus" : 55, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

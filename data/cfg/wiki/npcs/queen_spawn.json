@@ -1,0 +1,29 @@
+{
+  "page" : "Queen spawn",
+  "versions" : [
+    {
+      "source" : "Queen spawn",
+      "ids" : [
+        5776
+      ],
+      "names" : [
+        "npc.queen_spawn"
+      ],
+      "combatLevel" : 63,
+      "hitpoints" : 45,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 62, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

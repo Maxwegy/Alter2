@@ -1,0 +1,30 @@
+{
+  "page" : "Chaos Golem",
+  "tables" : [
+    {
+      "source" : "Chaos Golem",
+      "npcIds" : [
+        10689,
+        10690
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 434, "name" : "item.clay", "min" : 3, "max" : 4, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 3, "max" : 4, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 442, "name" : "item.silver_ore", "min" : 3, "max" : 4, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 444, "name" : "item.gold_ore", "min" : 2, "max" : 3, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 5, "max" : 10, "chance" : [ 2, 13 ], "wiki" : "8/52" },
+        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 4, "max" : 6, "noted" : true, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 52 ], "wiki" : "1/52" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 52 ], "wiki" : "1/52" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 26 ], "wiki" : "2/52" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 13 ], "wiki" : "4/52" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100", "approx" : true },
+        { "item" : 25639, "name" : "item.barronite_guard", "min" : 1, "max" : 1, "chance" : [ 1, 150 ], "wiki" : "1/150", "approx" : true },
+        { "item" : 25676, "name" : "item.barronite_shards", "min" : 12, "max" : 24, "chance" : [ 3, 10 ], "wiki" : "3/10", "approx" : true },
+        { "item" : 25700, "name" : "item.chaos_core", "min" : 1, "max" : 1, "chance" : [ 2, 15 ], "wiki" : "2/15", "approx" : true }
+      ]
+    }
+  ]
+}

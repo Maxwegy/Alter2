@@ -1,0 +1,29 @@
+{
+  "page" : "Acidic Bloodveld",
+  "versions" : [
+    {
+      "source" : "Acidic Bloodveld",
+      "ids" : [
+        9573
+      ],
+      "names" : [
+        "npc.acidic_bloodveld"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 46, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : -100, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "50"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Kruk",
+  "versions" : [
+    {
+      "source" : "Kruk",
+      "ids" : [
+        6805
+      ],
+      "names" : [
+        "npc.kruk_6805"
+      ],
+      "combatLevel" : 207,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 150, "ranged" : 170, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 250, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 160, "strengthBonus" : 90, "rangedStrength" : 70, "magicDamage" : 0 },
+      "maxHits" : [
+        "33 (melee)",
+        "37 (ranged)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "page" : "Amoxliatl",
+  "tables" : [
+    {
+      "source" : "Amoxliatl#Post-quest",
+      "npcIds" : [
+        13685
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 139, "name" : "item.prayer_potion3", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 445, "name" : "item.gold_ore_noted", "min" : 20, "max" : 30, "noted" : true, "chance" : [ 5, 58 ], "rolls" : 2, "wiki" : "5/58" },
+        { "item" : 450, "name" : "item.adamantite_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 452, "name" : "item.runite_ore_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 454, "name" : "item.coal_noted", "min" : 20, "max" : 30, "noted" : true, "chance" : [ 5, 58 ], "rolls" : 2, "wiki" : "5/58" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 200, "max" : 400, "chance" : [ 5, 58 ], "rolls" : 2, "wiki" : "5/58" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 20, "max" : 40, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 30, "max" : 60, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 30, "max" : 60, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 15, "max" : 30, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 30, "max" : 45, "chance" : [ 2, 29 ], "rolls" : 2, "wiki" : "4/58" },
+        { "item" : 572, "name" : "item.water_orb_noted", "min" : 10, "max" : 20, "noted" : true, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 3712 ], "rolls" : 2, "wiki" : "1/3,712" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 3712 ], "rolls" : 2, "wiki" : "1/3,712" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 3712 ], "rolls" : 2, "wiki" : "1/3,712" },
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 58 ], "rolls" : 2, "wiki" : "1/58" },
+        { "item" : 1127, "name" : "item.rune_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 58 ], "rolls" : 2, "wiki" : "1/58" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 59392 ], "rolls" : 2, "wiki" : "1/59,392" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 15837867 ], "rolls" : 2, "wiki" : "1/158,378.67" },
+        { "item" : 1275, "name" : "item.rune_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 1432, "name" : "item.rune_mace", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 1444, "name" : "item.water_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 123733 ], "rolls" : 2, "wiki" : "1/1,237.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 1856 ], "rolls" : 2, "wiki" : "1/1,856" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 464 ], "rolls" : 2, "wiki" : "1/464" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 232 ], "rolls" : 2, "wiki" : "1/232" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 116 ], "rolls" : 2, "wiki" : "1/116" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 118784 ], "rolls" : 2, "wiki" : "1/118,784" },
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 54 ], "wiki" : "1/54" },
+        { "item" : 29381, "name" : "item.blessed_bone_shards", "min" : 60, "max" : 100, "chance" : [ 1, 29 ], "rolls" : 2, "wiki" : "2/58" },
+        { "item" : 29889, "name" : "item.glacial_temotli", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 29892, "name" : "item.pendant_of_ates_inert", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 29895, "name" : "item.frozen_tear", "min" : 2, "max" : 4, "chance" : [ 3, 5 ], "wiki" : "6/10" },
+        { "item" : 29895, "name" : "item.frozen_tear", "min" : 5, "max" : 10, "chance" : [ 3, 10 ], "wiki" : "3/10" },
+        { "item" : 29895, "name" : "item.frozen_tear", "min" : 10, "max" : 20, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 30088, "name" : "item.huasca_seed", "min" : 1, "max" : 1, "chance" : [ 1, 58 ], "rolls" : 2, "wiki" : "1/58" },
+        { "item" : 30105, "name" : "item.tooth_half_of_key_30105", "min" : 1, "max" : 1, "chance" : [ 1, 125 ], "wiki" : "1/125" },
+        { "item" : 30154, "name" : "item.moxi", "min" : 1, "max" : 1, "chance" : [ 1, 3000 ], "wiki" : "1/3,000" }
+      ]
+    }
+  ]
+}

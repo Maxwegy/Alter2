@@ -1,0 +1,67 @@
+{
+  "page" : "Lizardman",
+  "versions" : [
+    {
+      "source" : "Lizardman#Level 53",
+      "version" : "Level 53",
+      "ids" : [
+        6914,
+        6915
+      ],
+      "names" : [
+        "npc.lizardman",
+        "npc.lizardman_6915"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 12,
+      "size" : 1,
+      "levels" : { "attack" : 43, "strength" : 43, "defence" : 43, "ranged" : 43, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 22, "stabDefence" : -20, "slashDefence" : 25, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 20, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Lizardman#Level 62",
+      "version" : "Level 62",
+      "ids" : [
+        6916,
+        6917,
+        8563
+      ],
+      "names" : [
+        "npc.lizardman_6916",
+        "npc.lizardman_6917",
+        "npc.lizardman_8563"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 12,
+      "size" : 1,
+      "levels" : { "attack" : 53, "strength" : 53, "defence" : 52, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 28, "stabDefence" : -20, "slashDefence" : 20, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 28, "strengthBonus" : 25, "rangedStrength" : 25, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

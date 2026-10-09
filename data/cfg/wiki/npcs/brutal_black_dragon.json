@@ -1,0 +1,43 @@
+{
+  "page" : "Brutal black dragon",
+  "versions" : [
+    {
+      "source" : "Brutal black dragon",
+      "ids" : [
+        7275,
+        8092,
+        8093
+      ],
+      "names" : [
+        "npc.brutal_black_dragon_7275",
+        "npc.brutal_black_dragon_8092",
+        "npc.brutal_black_dragon_8093"
+      ],
+      "combatLevel" : 318,
+      "hitpoints" : 315,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 330, "strength" : 210, "defence" : 258, "ranged" : 0, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29 (Melee; Magic)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "level" : 77, "xp" : 346.4, "categories" : [ "Black Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

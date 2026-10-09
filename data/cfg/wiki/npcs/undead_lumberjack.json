@@ -1,0 +1,401 @@
+{
+  "page" : "Undead Lumberjack",
+  "versions" : [
+    {
+      "source" : "Undead Lumberjack#Level 30",
+      "version" : "Level 30",
+      "ids" : [
+        5648,
+        5649,
+        5650,
+        5651,
+        5652,
+        5653,
+        5654,
+        5655
+      ],
+      "names" : [
+        "npc.undead_lumberjack",
+        "npc.undead_lumberjack_5649",
+        "npc.undead_lumberjack_5650",
+        "npc.undead_lumberjack_5651",
+        "npc.undead_lumberjack_5652",
+        "npc.undead_lumberjack_5653",
+        "npc.undead_lumberjack_5654",
+        "npc.undead_lumberjack_5655"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 73, "strength" : 6, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 35",
+      "version" : "Level 35",
+      "ids" : [
+        5656,
+        5657,
+        5658,
+        5659,
+        5660,
+        5661,
+        5662,
+        5663
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5656",
+        "npc.undead_lumberjack_5657",
+        "npc.undead_lumberjack_5658",
+        "npc.undead_lumberjack_5659",
+        "npc.undead_lumberjack_5660",
+        "npc.undead_lumberjack_5661",
+        "npc.undead_lumberjack_5662",
+        "npc.undead_lumberjack_5663"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 11,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 87, "strength" : 6, "defence" : 11, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 40",
+      "version" : "Level 40",
+      "ids" : [
+        5665,
+        5666,
+        5667,
+        5668,
+        5669,
+        5670,
+        5671,
+        5672
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5665",
+        "npc.undead_lumberjack_5666",
+        "npc.undead_lumberjack_5667",
+        "npc.undead_lumberjack_5668",
+        "npc.undead_lumberjack_5669",
+        "npc.undead_lumberjack_5670",
+        "npc.undead_lumberjack_5671",
+        "npc.undead_lumberjack_5672"
+      ],
+      "combatLevel" : 40,
+      "hitpoints" : 12,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 101, "strength" : 6, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 45",
+      "version" : "Level 45",
+      "ids" : [
+        5673,
+        5674,
+        5675,
+        5676,
+        5677,
+        5678,
+        5679,
+        5680
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5673",
+        "npc.undead_lumberjack_5674",
+        "npc.undead_lumberjack_5675",
+        "npc.undead_lumberjack_5676",
+        "npc.undead_lumberjack_5677",
+        "npc.undead_lumberjack_5678",
+        "npc.undead_lumberjack_5679",
+        "npc.undead_lumberjack_5680"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 16, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 50",
+      "version" : "Level 50",
+      "ids" : [
+        5681,
+        5682,
+        5683,
+        5684,
+        5685,
+        5686,
+        5687,
+        5688
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5681",
+        "npc.undead_lumberjack_5682",
+        "npc.undead_lumberjack_5683",
+        "npc.undead_lumberjack_5684",
+        "npc.undead_lumberjack_5685",
+        "npc.undead_lumberjack_5686",
+        "npc.undead_lumberjack_5687",
+        "npc.undead_lumberjack_5688"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 14,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 117, "strength" : 16, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 55",
+      "version" : "Level 55",
+      "ids" : [
+        5689,
+        5690,
+        5691,
+        5692,
+        5693,
+        5694,
+        5695,
+        5696
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5689",
+        "npc.undead_lumberjack_5690",
+        "npc.undead_lumberjack_5691",
+        "npc.undead_lumberjack_5692",
+        "npc.undead_lumberjack_5693",
+        "npc.undead_lumberjack_5694",
+        "npc.undead_lumberjack_5695",
+        "npc.undead_lumberjack_5696"
+      ],
+      "combatLevel" : 55,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 133, "strength" : 16, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 60",
+      "version" : "Level 60",
+      "ids" : [
+        5697,
+        5698,
+        5699,
+        5700,
+        5701,
+        5702,
+        5703,
+        5704
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5697",
+        "npc.undead_lumberjack_5698",
+        "npc.undead_lumberjack_5699",
+        "npc.undead_lumberjack_5700",
+        "npc.undead_lumberjack_5701",
+        "npc.undead_lumberjack_5702",
+        "npc.undead_lumberjack_5703",
+        "npc.undead_lumberjack_5704"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 137, "strength" : 26, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 64",
+      "version" : "Level 64",
+      "ids" : [
+        5705,
+        5706,
+        5707,
+        5708,
+        5709,
+        5710,
+        5711,
+        5712
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5705",
+        "npc.undead_lumberjack_5706",
+        "npc.undead_lumberjack_5707",
+        "npc.undead_lumberjack_5708",
+        "npc.undead_lumberjack_5709",
+        "npc.undead_lumberjack_5710",
+        "npc.undead_lumberjack_5711",
+        "npc.undead_lumberjack_5712"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 147, "strength" : 26, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Undead Lumberjack#Level 70",
+      "version" : "Level 70",
+      "ids" : [
+        5713,
+        5714,
+        5715,
+        5716,
+        5717,
+        5718,
+        5719,
+        5720
+      ],
+      "names" : [
+        "npc.undead_lumberjack_5713",
+        "npc.undead_lumberjack_5714",
+        "npc.undead_lumberjack_5715",
+        "npc.undead_lumberjack_5716",
+        "npc.undead_lumberjack_5717",
+        "npc.undead_lumberjack_5718",
+        "npc.undead_lumberjack_5719",
+        "npc.undead_lumberjack_5720"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 163, "strength" : 26, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

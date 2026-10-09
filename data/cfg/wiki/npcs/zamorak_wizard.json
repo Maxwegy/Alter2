@@ -1,0 +1,29 @@
+{
+  "page" : "Zamorak wizard",
+  "versions" : [
+    {
+      "source" : "Zamorak wizard",
+      "ids" : [
+        2954
+      ],
+      "names" : [
+        "npc.zamorak_wizard"
+      ],
+      "combatLevel" : 65,
+      "hitpoints" : 76,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 3, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

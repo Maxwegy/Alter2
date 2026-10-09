@@ -1,0 +1,755 @@
+{
+  "page" : "Guard (Deadman Mode)",
+  "versions" : [
+    {
+      "source" : "Guard (Deadman Mode)#Catherby (ranged)",
+      "version" : "Catherby (ranged)",
+      "ids" : [
+        6576
+      ],
+      "names" : [
+        "npc.guard_6576"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#East Ardougne",
+      "version" : "East Ardougne",
+      "ids" : [
+        6579
+      ],
+      "names" : [
+        "npc.guard_6579"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#East Ardougne (ranged)",
+      "version" : "East Ardougne (ranged)",
+      "ids" : [
+        11200
+      ],
+      "names" : [
+        "npc.guard_11200"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Falador",
+      "version" : "Falador",
+      "ids" : [
+        6581
+      ],
+      "names" : [
+        "npc.guard_6581"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Falador (ranged)",
+      "version" : "Falador (ranged)",
+      "ids" : [
+        11202
+      ],
+      "names" : [
+        "npc.guard_11202"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Fremennik Isles",
+      "version" : "Fremennik Isles",
+      "ids" : [
+        6700
+      ],
+      "names" : [
+        "npc.guard_6700"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Fremennik Isles (ranged)",
+      "version" : "Fremennik Isles (ranged)",
+      "ids" : [
+        11207
+      ],
+      "names" : [
+        "npc.guard_11207"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Gnome Stronghold",
+      "version" : "Gnome Stronghold",
+      "ids" : [
+        6574
+      ],
+      "names" : [
+        "npc.gnome_guard_6574"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Gnome Stronghold (ranged)",
+      "version" : "Gnome Stronghold (ranged)",
+      "ids" : [
+        11199
+      ],
+      "names" : [
+        "npc.gnome_guard_11199"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Kourend Castle",
+      "version" : "Kourend Castle",
+      "ids" : [
+        3361
+      ],
+      "names" : [
+        "npc.guard_3361"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Kourend Castle (ranged)",
+      "version" : "Kourend Castle (ranged)",
+      "ids" : [
+        11210
+      ],
+      "names" : [
+        "npc.guard_11210"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Lumbridge",
+      "version" : "Lumbridge",
+      "ids" : [
+        6583
+      ],
+      "names" : [
+        "npc.guard_6583"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Lumbridge (ranged)",
+      "version" : "Lumbridge (ranged)",
+      "ids" : [
+        11204
+      ],
+      "names" : [
+        "npc.guard_11204"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Port Phasmatys",
+      "version" : "Port Phasmatys",
+      "ids" : [
+        6698
+      ],
+      "names" : [
+        "npc.ghost_guard_6698"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Port Phasmatys (ranged)",
+      "version" : "Port Phasmatys (ranged)",
+      "ids" : [
+        11205
+      ],
+      "names" : [
+        "npc.ghost_guard_11205"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Prifddinas",
+      "version" : "Prifddinas",
+      "ids" : [
+        6595
+      ],
+      "names" : [
+        "npc.prifddinas_guard"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Prifddinas (ranged)",
+      "version" : "Prifddinas (ranged)",
+      "ids" : [
+        11211
+      ],
+      "names" : [
+        "npc.prifddinas_guard_11211"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Rellekka",
+      "version" : "Rellekka",
+      "ids" : [
+        6702
+      ],
+      "names" : [
+        "npc.guard_6702"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Rellekka (ranged)",
+      "version" : "Rellekka (ranged)",
+      "ids" : [
+        11209
+      ],
+      "names" : [
+        "npc.guard_11209"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Seers' Village (ranged)",
+      "version" : "Seers' Village (ranged)",
+      "ids" : [
+        6575
+      ],
+      "names" : [
+        "npc.guard_6575"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Sophanem",
+      "version" : "Sophanem",
+      "ids" : [
+        6699
+      ],
+      "names" : [
+        "npc.guard_6699"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Sophanem (ranged)",
+      "version" : "Sophanem (ranged)",
+      "ids" : [
+        11206
+      ],
+      "names" : [
+        "npc.guard_11206"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Varrock",
+      "version" : "Varrock",
+      "ids" : [
+        6582
+      ],
+      "names" : [
+        "npc.guard_6582"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Varrock (ranged)",
+      "version" : "Varrock (ranged)",
+      "ids" : [
+        11203
+      ],
+      "names" : [
+        "npc.guard_11203"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Void Knights' Outpost",
+      "version" : "Void Knights' Outpost",
+      "ids" : [
+        6701
+      ],
+      "names" : [
+        "npc.guard_6701"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Void Knights' Outpost (ranged)",
+      "version" : "Void Knights' Outpost (ranged)",
+      "ids" : [
+        11208
+      ],
+      "names" : [
+        "npc.guard_11208"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Warriors' Guild",
+      "version" : "Warriors' Guild",
+      "ids" : [
+        12460
+      ],
+      "names" : [
+        "npc.guard_12460"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Warriors' Guild (ranged)",
+      "version" : "Warriors' Guild (ranged)",
+      "ids" : [
+        12461
+      ],
+      "names" : [
+        "npc.guard_12461"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Yanille",
+      "version" : "Yanille",
+      "ids" : [
+        6580
+      ],
+      "names" : [
+        "npc.guard_6580"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Deadman Mode)#Yanille (ranged)",
+      "version" : "Yanille (ranged)",
+      "ids" : [
+        11201
+      ],
+      "names" : [
+        "npc.guard_11201"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

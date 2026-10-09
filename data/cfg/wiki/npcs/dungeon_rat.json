@@ -1,0 +1,100 @@
+{
+  "page" : "Dungeon rat",
+  "versions" : [
+    {
+      "source" : "Dungeon rat#Full tail",
+      "version" : "Full tail",
+      "ids" : [
+        2865
+      ],
+      "names" : [
+        "npc.dungeon_rat"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 12,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 12.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dungeon rat#Short tail",
+      "version" : "Short tail",
+      "ids" : [
+        2866,
+        2867
+      ],
+      "names" : [
+        "npc.dungeon_rat_2866",
+        "npc.dungeon_rat_2867"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 12,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 12.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dungeon rat#Small",
+      "ids" : [
+        3607,
+        3608,
+        3609
+      ],
+      "names" : [
+        "npc.dungeon_rat_3607",
+        "npc.dungeon_rat_3608",
+        "npc.dungeon_rat_3609"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 12,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 12.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

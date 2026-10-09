@@ -1,0 +1,41 @@
+{
+  "page" : "Cerberus",
+  "versions" : [
+    {
+      "source" : "Cerberus",
+      "ids" : [
+        5862,
+        5863,
+        5866
+      ],
+      "names" : [
+        "npc.cerberus",
+        "npc.cerberus_5863",
+        "npc.cerberus_5866"
+      ],
+      "combatLevel" : 318,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 5,
+      "levels" : { "attack" : 220, "strength" : 220, "defence" : 100, "ranged" : 220, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 50, "slashDefence" : 100, "crushDefence" : 25, "magicDefence" : 65, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 91, "xp" : 690.0, "categories" : [ "Bosses", "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

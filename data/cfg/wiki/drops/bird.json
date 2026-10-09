@@ -1,0 +1,16 @@
+{
+  "page" : "Bird",
+  "tables" : [
+    {
+      "source" : "Bird",
+      "npcIds" : [
+        5240,
+        5241,
+        10541
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

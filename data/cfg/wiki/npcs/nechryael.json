@@ -1,0 +1,65 @@
+{
+  "page" : "Nechryael",
+  "versions" : [
+    {
+      "source" : "Nechryael#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8
+      ],
+      "names" : [
+        "npc.nechryael_8"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 97, "strength" : 97, "defence" : 105, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 80, "xp" : 105.0, "categories" : [ "Nechryael" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Nechryael#Slayer task",
+      "version" : "Slayer task",
+      "ids" : [
+        11
+      ],
+      "names" : [
+        "npc.nechryael_11"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 97, "strength" : 97, "defence" : 105, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 80, "xp" : 105.0, "categories" : [ "Nechryael" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

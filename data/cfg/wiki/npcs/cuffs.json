@@ -1,0 +1,30 @@
+{
+  "page" : "Cuffs",
+  "versions" : [
+    {
+      "source" : "Cuffs",
+      "ids" : [
+        3279
+      ],
+      "names" : [
+        "npc.cuffs"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "page" : "Guard (Shayzien)",
+  "versions" : [
+    {
+      "source" : "Guard (Shayzien)",
+      "ids" : [
+        11092,
+        11094,
+        11096,
+        11098,
+        11100,
+        11102,
+        11104,
+        11106
+      ],
+      "names" : [
+        "npc.guard_11092",
+        "npc.guard_11094",
+        "npc.guard_11096",
+        "npc.guard_11098",
+        "npc.guard_11100",
+        "npc.guard_11102",
+        "npc.guard_11104",
+        "npc.guard_11106"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

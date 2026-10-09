@@ -1,0 +1,113 @@
+{
+  "page" : "Justiciar Zachariah (Deadman)",
+  "versions" : [
+    {
+      "source" : "Justiciar Zachariah (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12449
+      ],
+      "names" : [
+        "npc.justiciar_zachariah_12449"
+      ],
+      "combatLevel" : 768,
+      "hitpoints" : 2000,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 500, "strength" : 250, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Melee)",
+        "26 (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Justiciar Zachariah (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12449
+      ],
+      "names" : [
+        "npc.justiciar_zachariah_12449"
+      ],
+      "combatLevel" : 348,
+      "hitpoints" : 320,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 500, "strength" : 250, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Melee)",
+        "26 (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Justiciar Zachariah (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12449
+      ],
+      "names" : [
+        "npc.justiciar_zachariah_12449"
+      ],
+      "combatLevel" : 393,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 500, "strength" : 250, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Melee)",
+        "26 (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Justiciar Zachariah (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12449
+      ],
+      "names" : [
+        "npc.justiciar_zachariah_12449"
+      ],
+      "combatLevel" : 393,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 500, "strength" : 250, "defence" : 100, "ranged" : 1, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : 200, "slashDefence" : 200, "crushDefence" : 200, "magicDefence" : -60, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 200, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 80 },
+      "maxHits" : [
+        "43 (Melee)",
+        "26 (Magic)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

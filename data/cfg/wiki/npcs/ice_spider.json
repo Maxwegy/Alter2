@@ -1,0 +1,89 @@
+{
+  "page" : "Ice spider",
+  "versions" : [
+    {
+      "source" : "Ice spider#Normal",
+      "version" : "Normal",
+      "ids" : [
+        3022
+      ],
+      "names" : [
+        "npc.ice_spider"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 55, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 12, "magicDefence" : 13, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 65.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice spider#Ruins of Tapoyauik",
+      "version" : "Ruins of Tapoyauik",
+      "ids" : [
+        13798
+      ],
+      "names" : [
+        "npc.ice_spider_13798"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 55, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 12, "magicDefence" : 13, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 65.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice spider#Settlement Ruins",
+      "version" : "Settlement Ruins",
+      "ids" : [
+        10722
+      ],
+      "names" : [
+        "npc.ice_spider_10722"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 55, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 17, "crushDefence" : 12, "magicDefence" : 13, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 65.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

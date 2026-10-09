@@ -1,0 +1,33 @@
+{
+  "page" : "Greater abyssal demon",
+  "versions" : [
+    {
+      "source" : "Greater abyssal demon",
+      "ids" : [
+        7410
+      ],
+      "names" : [
+        "npc.greater_abyssal_demon"
+      ],
+      "combatLevel" : 342,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 300, "strength" : 260, "defence" : 240, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 4200.0, "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

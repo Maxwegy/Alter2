@@ -1,0 +1,38 @@
+{
+  "page" : "Guard (H.A.M. Storerooms)",
+  "versions" : [
+    {
+      "source" : "Guard (H.A.M. Storerooms)",
+      "ids" : [
+        4522,
+        4523,
+        4524,
+        4525,
+        4526
+      ],
+      "names" : [
+        "npc.guard_4522",
+        "npc.guard_4523",
+        "npc.guard_4524",
+        "npc.guard_4525",
+        "npc.guard_4526"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 20, "defence" : 12, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 7, "slashDefence" : 7, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 7, "lightRangedDefence" : 7, "heavyRangedDefence" : 7, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

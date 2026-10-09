@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated bear",
+  "tables" : [
+    {
+      "source" : "Reanimated bear",
+      "npcIds" : [
+        7023
+      ],
+      "always" : [
+        { "item" : 7815, "name" : "item.bear_ribs", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

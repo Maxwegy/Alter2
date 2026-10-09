@@ -1,0 +1,40 @@
+{
+  "page" : "Ancient Wyvern",
+  "versions" : [
+    {
+      "source" : "Ancient Wyvern",
+      "ids" : [
+        7795
+      ],
+      "names" : [
+        "npc.ancient_wyvern"
+      ],
+      "combatLevel" : 210,
+      "hitpoints" : 300,
+      "attackSpeed" : 5,
+      "respawnTicks" : 15,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 150, "ranged" : 90, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 170, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 90, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Ranged)",
+        "16 (Melee)",
+        "44 (Icy breath)",
+        "10 (Icy breath with Elemental shield equipped)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Typeless Ranged",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 82, "xp" : 315.0, "categories" : [ "Fossil Island Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

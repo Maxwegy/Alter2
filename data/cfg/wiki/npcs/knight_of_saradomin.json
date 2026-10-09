@@ -1,0 +1,57 @@
+{
+  "page" : "Knight of Saradomin",
+  "versions" : [
+    {
+      "source" : "Knight of Saradomin#Level 101",
+      "version" : "Level 101",
+      "ids" : [
+        2214
+      ],
+      "names" : [
+        "npc.knight_of_saradomin_2214"
+      ],
+      "combatLevel" : 101,
+      "hitpoints" : 108,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 90, "defence" : 82, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 13, "magicDefence" : 0, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 13, "strengthBonus" : 11, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Knight of Saradomin#Level 103",
+      "version" : "Level 103",
+      "ids" : [
+        2213
+      ],
+      "names" : [
+        "npc.knight_of_saradomin"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 135,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 85, "defence" : 70, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 8, "strengthBonus" : 8, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page" : "Tribesman",
+  "versions" : [
+    {
+      "source" : "Tribesman",
+      "ids" : [
+        6406,
+        6407
+      ],
+      "names" : [
+        "npc.tribesman_6406",
+        "npc.tribesman_6407"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 27, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 6, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tribesman#Dark brown",
+      "version" : "Dark brown",
+      "ids" : [
+        530
+      ],
+      "names" : [
+        "npc.tribesman"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 27, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 6, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Tribesman#Light brown",
+      "version" : "Light brown",
+      "ids" : [
+        11954
+      ],
+      "names" : [
+        "npc.tribesman_11954"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 27, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 6, "crushDefence" : 6, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

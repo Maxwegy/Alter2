@@ -1,0 +1,55 @@
+{
+  "page" : "Rock Crab",
+  "tables" : [
+    {
+      "source" : "Rock Crab",
+      "npcIds" : [
+        100,
+        101,
+        102,
+        103
+      ],
+      "always" : [
+        { "item" : 20543, "name" : "item.reward_casket_elite", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 45, "name" : "item.opal_bolt_tips", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 401, "name" : "item.seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 401, "name" : "item.seaweed", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 401, "name" : "item.seaweed", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 403, "name" : "item.edible_seaweed", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 407, "name" : "item.oyster", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 407, "name" : "item.oyster", "min" : 2, "max" : 2, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 409, "name" : "item.empty_oyster", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 409, "name" : "item.empty_oyster", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 411, "name" : "item.oyster_pearl", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 436, "name" : "item.copper_ore", "min" : 3, "max" : 3, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 438, "name" : "item.tin_ore", "min" : 3, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 453, "name" : "item.coal", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 36, "max" : 36, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1265, "name" : "item.bronze_pickaxe", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1267, "name" : "item.iron_pickaxe", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1969, "name" : "item.spinach_roll", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

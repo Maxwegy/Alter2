@@ -1,0 +1,161 @@
+{
+  "page" : "Spiritual ranger",
+  "versions" : [
+    {
+      "source" : "Spiritual ranger#Armadyl",
+      "version" : "Armadyl",
+      "ids" : [
+        3167
+      ],
+      "names" : [
+        "npc.spiritual_ranger_3167"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 89,
+      "attackSpeed" : 3,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 130, "ranged" : 150, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 17, "slashDefence" : 16, "crushDefence" : 8, "magicDefence" : 35, "rangedDefence" : 41, "lightRangedDefence" : 41, "heavyRangedDefence" : 41, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 63, "xp" : 120.0, "categories" : [ "Spiritual Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    },
+    {
+      "source" : "Spiritual ranger#Bandos",
+      "version" : "Bandos",
+      "ids" : [
+        2242
+      ],
+      "names" : [
+        "npc.spiritual_ranger_2242"
+      ],
+      "combatLevel" : 115,
+      "hitpoints" : 131,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 96, "ranged" : 121, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 13, "magicDefence" : 5, "rangedDefence" : 13, "lightRangedDefence" : 13, "heavyRangedDefence" : 13, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 63, "xp" : 131.0, "categories" : [ "Spiritual Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    },
+    {
+      "source" : "Spiritual ranger#Saradomin",
+      "version" : "Saradomin",
+      "ids" : [
+        2211
+      ],
+      "names" : [
+        "npc.spiritual_ranger"
+      ],
+      "combatLevel" : 122,
+      "hitpoints" : 106,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 146, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 5, "crushDefence" : 13, "magicDefence" : 16, "rangedDefence" : 23, "lightRangedDefence" : 23, "heavyRangedDefence" : 23, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 63, "xp" : 106.0, "categories" : [ "Spiritual Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    },
+    {
+      "source" : "Spiritual ranger#Zamorak",
+      "version" : "Zamorak",
+      "ids" : [
+        3160
+      ],
+      "names" : [
+        "npc.spiritual_ranger_3160"
+      ],
+      "combatLevel" : 118,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 80, "ranged" : 140, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 63, "xp" : 106.0, "categories" : [ "Spiritual Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    },
+    {
+      "source" : "Spiritual ranger#Zaros",
+      "version" : "Zaros",
+      "ids" : [
+        11291
+      ],
+      "names" : [
+        "npc.spiritual_ranger_11291"
+      ],
+      "combatLevel" : 158,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 190, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 0, "crushDefence" : 20, "magicDefence" : 300, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20",
+        "35 (special)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 63, "xp" : 110.0, "categories" : [ "Spiritual Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 200 }
+    }
+  ]
+}

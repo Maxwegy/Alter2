@@ -1,0 +1,55 @@
+{
+  "page" : "Baboon Thrower",
+  "versions" : [
+    {
+      "source" : "Baboon Thrower#Level 56",
+      "version" : "Level 56",
+      "ids" : [
+        11710
+      ],
+      "names" : [
+        "npc.baboon_thrower"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 12, "ranged" : 40, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 20, "rangedAttack" : 20, "stabDefence" : -50, "slashDefence" : -50, "crushDefence" : -50, "magicDefence" : 900, "rangedDefence" : 900, "lightRangedDefence" : 900, "heavyRangedDefence" : 900, "attackBonus" : 20, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Baboon Thrower#Level 68",
+      "version" : "Level 68",
+      "ids" : [
+        11713
+      ],
+      "names" : [
+        "npc.baboon_thrower_11713"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 20, "ranged" : 40, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 25, "stabDefence" : -50, "slashDefence" : -50, "crushDefence" : -50, "magicDefence" : 900, "rangedDefence" : 900, "lightRangedDefence" : 900, "heavyRangedDefence" : 900, "attackBonus" : 25, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "page" : "Alomone",
+  "versions" : [
+    {
+      "source" : "Alomone",
+      "ids" : [
+        11976,
+        12092,
+        12093,
+        12094
+      ],
+      "names" : [
+        "npc.null_11976",
+        "npc.alomone",
+        "npc.alomone_12093",
+        "npc.alomone_12094"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 6, "crushDefence" : 8, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

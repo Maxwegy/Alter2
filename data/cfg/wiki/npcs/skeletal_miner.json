@@ -1,0 +1,30 @@
+{
+  "page" : "Skeletal miner",
+  "versions" : [
+    {
+      "source" : "Skeletal miner",
+      "ids" : [
+        3615
+      ],
+      "names" : [
+        "npc.skeletal_miner"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 39,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 37, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 39.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

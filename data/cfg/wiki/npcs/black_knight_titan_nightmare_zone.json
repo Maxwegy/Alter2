@@ -1,0 +1,55 @@
+{
+  "page" : "Black Knight Titan (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Black Knight Titan (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6299
+      ],
+      "names" : [
+        "npc.black_knight_titan_hard"
+      ],
+      "combatLevel" : 210,
+      "hitpoints" : 255,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 182, "strength" : 200, "defence" : 91, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 27, "crushDefence" : 18, "magicDefence" : 1000, "rangedDefence" : 1000, "lightRangedDefence" : 1000, "heavyRangedDefence" : 1000, "attackBonus" : 27, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Black Knight Titan (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6360
+      ],
+      "names" : [
+        "npc.black_knight_titan_6360"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 142,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 91, "strength" : 100, "defence" : 91, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 27, "crushDefence" : 18, "magicDefence" : 1000, "rangedDefence" : 1000, "lightRangedDefence" : 1000, "heavyRangedDefence" : 1000, "attackBonus" : 27, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

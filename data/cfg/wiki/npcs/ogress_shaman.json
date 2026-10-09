@@ -1,0 +1,34 @@
+{
+  "page" : "Ogress Shaman",
+  "versions" : [
+    {
+      "source" : "Ogress Shaman",
+      "ids" : [
+        7991,
+        7992
+      ],
+      "names" : [
+        "npc.ogress_shaman",
+        "npc.ogress_shaman_7992"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 82,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 20, "defence" : 82, "ranged" : 1, "magic" : 68 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 14, "magicDefence" : 16, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 82.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

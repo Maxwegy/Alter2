@@ -1,0 +1,16 @@
+{
+  "page" : "Angry giant rat",
+  "tables" : [
+    {
+      "source" : "Angry giant rat",
+      "npcIds" : [
+        1062,
+        4689,
+        4690
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

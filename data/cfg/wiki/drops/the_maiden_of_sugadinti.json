@@ -1,0 +1,19 @@
+{
+  "page" : "The Maiden of Sugadinti",
+  "tables" : [
+    {
+      "source" : "The Maiden of Sugadinti",
+      "npcIds" : [
+        8360,
+        8361,
+        8362,
+        8363,
+        10814,
+        10822
+      ],
+      "always" : [
+        { "item" : 22504, "name" : "item.serafinas_diary", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

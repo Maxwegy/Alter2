@@ -1,0 +1,57 @@
+{
+  "page" : "Nylocas Athanatos",
+  "versions" : [
+    {
+      "source" : "Nylocas Athanatos#Entry",
+      "version" : "Entry",
+      "ids" : [
+        10844
+      ],
+      "names" : [
+        "npc.nylocas_athanatos_10844"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 30,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Athanatos#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8384
+      ],
+      "names" : [
+        "npc.nylocas_athanatos"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 180,
+      "attackSpeed" : -1,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

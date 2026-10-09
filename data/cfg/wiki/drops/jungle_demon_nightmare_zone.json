@@ -1,0 +1,15 @@
+{
+  "page" : "Jungle Demon (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Jungle Demon (Nightmare Zone)",
+      "npcIds" : [
+        6321,
+        6382
+      ],
+      "always" : [
+        { "item" : 25772, "name" : "item.malicious_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

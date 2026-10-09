@@ -1,0 +1,32 @@
+{
+  "page" : "Sol Heredit",
+  "versions" : [
+    {
+      "source" : "Sol Heredit",
+      "ids" : [
+        12821
+      ],
+      "names" : [
+        "npc.sol_heredit"
+      ],
+      "combatLevel" : 1563,
+      "hitpoints" : 1500,
+      "attackSpeed" : 0,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 400, "defence" : 200, "ranged" : 350, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : 65, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 750, "rangedDefence" : 825, "lightRangedDefence" : 825, "heavyRangedDefence" : 825, "attackBonus" : 250, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "44 (Typeless AOE)",
+        "44 (Grapple)",
+        "15-25-35 (Triple Parry 1)",
+        "15-30-45 (Triple Parry 2)"
+      ],
+      "attackStyles" : [
+        "Various"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true, "freeze" : "100% resistance" }
+    }
+  ]
+}

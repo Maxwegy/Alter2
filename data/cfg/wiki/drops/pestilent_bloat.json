@@ -1,0 +1,16 @@
+{
+  "page" : "Pestilent Bloat",
+  "tables" : [
+    {
+      "source" : "Pestilent Bloat",
+      "npcIds" : [
+        8359,
+        10812,
+        10813
+      ],
+      "always" : [
+        { "item" : 22506, "name" : "item.the_butcher", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

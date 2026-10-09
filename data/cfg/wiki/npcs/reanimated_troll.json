@@ -1,0 +1,29 @@
+{
+  "page" : "Reanimated troll",
+  "versions" : [
+    {
+      "source" : "Reanimated troll",
+      "ids" : [
+        7030
+      ],
+      "names" : [
+        "npc.reanimated_troll"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 75, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 10, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 20, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    }
+  ]
+}

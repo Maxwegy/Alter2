@@ -1,0 +1,29 @@
+{
+  "page" : "Fire Warrior of Lesarkus",
+  "versions" : [
+    {
+      "source" : "Fire Warrior of Lesarkus",
+      "ids" : [
+        3448
+      ],
+      "names" : [
+        "npc.fire_warrior_of_lesarkus"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 59,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 78, "strength" : 78, "defence" : 78, "ranged" : 1, "magic" : 62 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 34, "slashDefence" : 37, "crushDefence" : 35, "magicDefence" : -7, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : -12, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

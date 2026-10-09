@@ -1,0 +1,63 @@
+{
+  "page" : "Zebak",
+  "versions" : [
+    {
+      "source" : "Zebak#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        11732
+      ],
+      "names" : [
+        "npc.zebak_11732"
+      ],
+      "combatLevel" : 371,
+      "hitpoints" : 580,
+      "attackSpeed" : 4,
+      "size" : 9,
+      "levels" : { "attack" : 250, "strength" : 140, "defence" : 70, "ranged" : 120, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 215, "rangedAttack" : 220, "stabDefence" : 160, "slashDefence" : 160, "crushDefence" : 260, "magicDefence" : 200, "rangedDefence" : 110, "lightRangedDefence" : 110, "heavyRangedDefence" : 110, "attackBonus" : 160, "strengthBonus" : 100, "rangedStrength" : 16, "magicDamage" : 30 },
+      "maxHits" : [
+        "38 (Melee)",
+        "16 (Magic)",
+        "16 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Zebak#Normal",
+      "version" : "Normal",
+      "ids" : [
+        11730
+      ],
+      "names" : [
+        "npc.zebak_11730"
+      ],
+      "combatLevel" : 371,
+      "hitpoints" : 580,
+      "attackSpeed" : 7,
+      "size" : 9,
+      "levels" : { "attack" : 250, "strength" : 140, "defence" : 70, "ranged" : 120, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 215, "rangedAttack" : 220, "stabDefence" : 160, "slashDefence" : 160, "crushDefence" : 260, "magicDefence" : 200, "rangedDefence" : 110, "lightRangedDefence" : 110, "heavyRangedDefence" : 110, "attackBonus" : 160, "strengthBonus" : 100, "rangedStrength" : 16, "magicDamage" : 30 },
+      "maxHits" : [
+        "38 (Melee)",
+        "16 (Magic)",
+        "16 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

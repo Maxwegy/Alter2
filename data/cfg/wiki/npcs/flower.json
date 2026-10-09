@@ -1,0 +1,27 @@
+{
+  "page" : "Flower",
+  "versions" : [
+    {
+      "source" : "Flower",
+      "ids" : [
+        8584
+      ],
+      "names" : [
+        "npc.flower"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "0 (Does not attack)"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "page" : "Nail beast",
+  "versions" : [
+    {
+      "source" : "Nail beast#Level 141",
+      "version" : "Level 141",
+      "ids" : [
+        2948,
+        9613
+      ],
+      "names" : [
+        "npc.nail_beast_2948",
+        "npc.nail_beast_9613"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 75,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 320, "strength" : 26, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4 (x3)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Nail beast#Level 69",
+      "version" : "Level 69",
+      "ids" : [
+        2946,
+        9612
+      ],
+      "names" : [
+        "npc.nail_beast",
+        "npc.nail_beast_9612"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 55,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 6, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2 (x3)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Nail beast#Level 98",
+      "version" : "Level 98",
+      "ids" : [
+        2947
+      ],
+      "names" : [
+        "npc.nail_beast_2947"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 65,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 215, "strength" : 16, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3 (x3)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "page" : "Knight of Ardougne (unused)",
+  "versions" : [
+    {
+      "source" : "Knight of Ardougne (unused)",
+      "ids" : [
+        3300
+      ],
+      "names" : [
+        "npc.knight_of_ardougne_3300"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 52,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 40, "defence" : 31, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

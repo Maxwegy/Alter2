@@ -1,0 +1,14 @@
+{
+  "page" : "Ranalph Devere",
+  "tables" : [
+    {
+      "source" : "Ranalph Devere",
+      "npcIds" : [
+        3966
+      ],
+      "always" : [
+        { "item" : 743, "name" : "item.lump_of_crystal", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

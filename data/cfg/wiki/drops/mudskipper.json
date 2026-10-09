@@ -1,0 +1,18 @@
+{
+  "page" : "Mudskipper",
+  "tables" : [
+    {
+      "source" : "Mudskipper",
+      "npcIds" : [
+        4820,
+        4821
+      ],
+      "always" : [
+        { "item" : 7532, "name" : "item.mudskipper_hide", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 407, "name" : "item.oyster", "min" : 1, "max" : 1, "chance" : [ 11, 64 ], "wiki" : "22/128" }
+      ]
+    }
+  ]
+}

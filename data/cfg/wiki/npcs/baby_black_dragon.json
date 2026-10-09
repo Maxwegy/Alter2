@@ -1,0 +1,66 @@
+{
+  "page" : "Baby black dragon",
+  "versions" : [
+    {
+      "source" : "Baby black dragon#Myths' Guild",
+      "version" : "Myths' Guild",
+      "ids" : [
+        7955
+      ],
+      "names" : [
+        "npc.baby_black_dragon_7955"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "xp" : 80.0, "categories" : [ "Black Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Baby black dragon#Normal",
+      "version" : "Normal",
+      "ids" : [
+        1871,
+        1872
+      ],
+      "names" : [
+        "npc.baby_black_dragon",
+        "npc.baby_black_dragon_1872"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "xp" : 80.0, "categories" : [ "Black Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

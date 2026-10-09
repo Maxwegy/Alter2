@@ -1,0 +1,30 @@
+{
+  "page" : "Animated Adamant Armour",
+  "versions" : [
+    {
+      "source" : "Animated Adamant Armour",
+      "ids" : [
+        2455
+      ],
+      "names" : [
+        "npc.animated_adamant_armour"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 99,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 99, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : 400, "rangedDefence" : 400, "lightRangedDefence" : 400, "heavyRangedDefence" : 400, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true, "burn" : "Immune (strong)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

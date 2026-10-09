@@ -1,0 +1,374 @@
+{
+  "page" : "Hill Giant",
+  "versions" : [
+    {
+      "source" : "Hill Giant",
+      "ids" : [
+        7261
+      ],
+      "names" : [
+        "npc.hill_giant_7261"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#1",
+      "version" : "1",
+      "ids" : [
+        2098,
+        13502
+      ],
+      "names" : [
+        "npc.hill_giant",
+        "npc.hill_giant_13502"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#2",
+      "version" : "2",
+      "ids" : [
+        2099,
+        13503
+      ],
+      "names" : [
+        "npc.hill_giant_2099",
+        "npc.hill_giant_13503"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#3",
+      "version" : "3",
+      "ids" : [
+        2100,
+        13504
+      ],
+      "names" : [
+        "npc.hill_giant_2100",
+        "npc.hill_giant_13504"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#4",
+      "version" : "4",
+      "ids" : [
+        2101
+      ],
+      "names" : [
+        "npc.hill_giant_2101"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#5",
+      "version" : "5",
+      "ids" : [
+        2102
+      ],
+      "names" : [
+        "npc.hill_giant_2102"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#6",
+      "version" : "6",
+      "ids" : [
+        2103
+      ],
+      "names" : [
+        "npc.hill_giant_2103"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "krystilia", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Brassard",
+      "version" : "Brassard",
+      "ids" : [
+        10374
+      ],
+      "names" : [
+        "npc.hill_giant_10374"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Clothed",
+      "version" : "Clothed",
+      "ids" : [
+        12849
+      ],
+      "names" : [
+        "npc.hill_giant_12849"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Hammer",
+      "version" : "Hammer",
+      "ids" : [
+        10375
+      ],
+      "names" : [
+        "npc.hill_giant_10375"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Helmetless",
+      "version" : "Helmetless",
+      "ids" : [
+        12850
+      ],
+      "names" : [
+        "npc.hill_giant_12850"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Scimitar and singlet",
+      "version" : "Scimitar and singlet",
+      "ids" : [
+        10376
+      ],
+      "names" : [
+        "npc.hill_giant_10376"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Hill Giant#Shirtless",
+      "version" : "Shirtless",
+      "ids" : [
+        12848
+      ],
+      "names" : [
+        "npc.hill_giant_12848"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 35,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 18, "strength" : 22, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Hill Giants" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant pyrefiend",
+  "versions" : [
+    {
+      "source" : "Revenant pyrefiend",
+      "ids" : [
+        7932
+      ],
+      "names" : [
+        "npc.revenant_pyrefiend"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 48,
+      "attackSpeed" : 5,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 40, "defence" : 33, "ranged" : 40, "magic" : 67 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 45, "slashDefence" : 40, "crushDefence" : 50, "magicDefence" : 15, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 48.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

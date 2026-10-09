@@ -1,0 +1,14 @@
+{
+  "page" : "Shaeded Beast",
+  "tables" : [
+    {
+      "source" : "Shaeded Beast",
+      "npcIds" : [
+        8709
+      ],
+      "always" : [
+        { "item" : 23497, "name" : "item.temple_coin", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

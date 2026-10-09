@@ -1,0 +1,87 @@
+{
+  "page" : "Zulrah",
+  "versions" : [
+    {
+      "source" : "Zulrah#Magma",
+      "version" : "Magma",
+      "ids" : [
+        2043
+      ],
+      "names" : [
+        "npc.zulrah_2043"
+      ],
+      "combatLevel" : 725,
+      "hitpoints" : 500,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 300, "ranged" : 300, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 500.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zulrah#Serpentine",
+      "version" : "Serpentine",
+      "ids" : [
+        2042
+      ],
+      "names" : [
+        "npc.zulrah"
+      ],
+      "combatLevel" : 725,
+      "hitpoints" : 500,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 300, "ranged" : 300, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -45, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 500.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zulrah#Tanzanite",
+      "version" : "Tanzanite",
+      "ids" : [
+        2044
+      ],
+      "names" : [
+        "npc.zulrah_2044"
+      ],
+      "combatLevel" : 725,
+      "hitpoints" : 500,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 300, "ranged" : 300, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 300, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 20 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 500.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

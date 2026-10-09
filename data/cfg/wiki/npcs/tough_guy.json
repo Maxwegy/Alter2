@@ -1,0 +1,29 @@
+{
+  "page" : "Tough Guy",
+  "versions" : [
+    {
+      "source" : "Tough Guy",
+      "ids" : [
+        3551
+      ],
+      "names" : [
+        "npc.tough_guy"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 85, "strength" : 50, "defence" : 50, "ranged" : 0, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 8, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 9, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

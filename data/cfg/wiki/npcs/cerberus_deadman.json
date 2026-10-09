@@ -1,0 +1,95 @@
+{
+  "page" : "Cerberus (Deadman)",
+  "versions" : [
+    {
+      "source" : "Cerberus (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13657
+      ],
+      "names" : [
+        "npc.cerberus_13657"
+      ],
+      "combatLevel" : 726,
+      "hitpoints" : 2000,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 280, "defence" : 150, "ranged" : 220, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 50, "slashDefence" : 100, "crushDefence" : 25, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses", "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Cerberus (Deadman)#Apocalypse, Armageddon",
+      "version" : "Apocalypse, Armageddon",
+      "ids" : [
+        13657
+      ],
+      "names" : [
+        "npc.cerberus_13657"
+      ],
+      "combatLevel" : 430,
+      "hitpoints" : 1000,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 220, "strength" : 220, "defence" : 150, "ranged" : 220, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 50, "slashDefence" : 100, "crushDefence" : 25, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses", "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Cerberus (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13657
+      ],
+      "names" : [
+        "npc.cerberus_13657"
+      ],
+      "combatLevel" : 413,
+      "hitpoints" : 750,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 280, "defence" : 150, "ranged" : 220, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 50, "stabDefence" : 50, "slashDefence" : 100, "crushDefence" : 25, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses", "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

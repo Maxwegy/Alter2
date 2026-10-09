@@ -1,0 +1,75 @@
+{
+  "page" : "Bronze dragon",
+  "versions" : [
+    {
+      "source" : "Bronze dragon#Catacombs of Kourend",
+      "version" : "Catacombs of Kourend",
+      "ids" : [
+        7253
+      ],
+      "names" : [
+        "npc.bronze_dragon_7253"
+      ],
+      "combatLevel" : 143,
+      "hitpoints" : 122,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 112, "ranged" : 1, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 125.0, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Bronze dragon#Standard",
+      "version" : "Standard",
+      "ids" : [
+        270,
+        271
+      ],
+      "names" : [
+        "npc.bronze_dragon",
+        "npc.bronze_dragon_271"
+      ],
+      "combatLevel" : 131,
+      "hitpoints" : 122,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 112, "strength" : 112, "defence" : 112, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 125.0, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

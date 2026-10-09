@@ -1,0 +1,30 @@
+{
+  "page" : "Abyssal walker",
+  "versions" : [
+    {
+      "source" : "Abyssal walker",
+      "ids" : [
+        2586
+      ],
+      "names" : [
+        "npc.abyssal_walker"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 95,
+      "attackSpeed" : 5,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 100, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 75, "crushDefence" : 0, "magicDefence" : 75, "rangedDefence" : 75, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

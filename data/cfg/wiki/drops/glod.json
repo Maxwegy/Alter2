@@ -1,0 +1,22 @@
+{
+  "page" : "Glod",
+  "tables" : [
+    {
+      "source" : "Glod",
+      "npcIds" : [
+        5129
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 2, "max" : 2 },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1 },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1 },
+        { "item" : 5336, "name" : "item.watering_can4", "min" : 1, "max" : 1 },
+        { "item" : 11210, "name" : "item.golden_goblin", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Strongbones",
+  "tables" : [
+    {
+      "source" : "Strongbones",
+      "npcIds" : [
+        11273,
+        11300
+      ],
+      "always" : [
+        { "item" : 26593, "name" : "item.strongbones_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

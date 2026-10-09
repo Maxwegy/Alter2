@@ -1,0 +1,14 @@
+{
+  "page" : "Deathly mage",
+  "tables" : [
+    {
+      "source" : "Deathly mage",
+      "npcIds" : [
+        7560
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

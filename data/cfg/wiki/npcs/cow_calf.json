@@ -1,0 +1,86 @@
+{
+  "page" : "Cow calf",
+  "versions" : [
+    {
+      "source" : "Cow calf#1",
+      "version" : "1",
+      "ids" : [
+        2792
+      ],
+      "names" : [
+        "npc.cow_calf"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 6,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -26, "slashDefence" : -26, "crushDefence" : -26, "magicDefence" : -26, "rangedDefence" : -26, "lightRangedDefence" : -26, "heavyRangedDefence" : -26, "attackBonus" : -20, "strengthBonus" : -20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 6.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow calf#2",
+      "version" : "2",
+      "ids" : [
+        2794
+      ],
+      "names" : [
+        "npc.cow_calf_2794"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 6,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -26, "slashDefence" : -26, "crushDefence" : -26, "magicDefence" : -26, "rangedDefence" : -26, "lightRangedDefence" : -26, "heavyRangedDefence" : -26, "attackBonus" : -20, "strengthBonus" : -20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 6.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Cow calf#Farmland",
+      "version" : "Farmland",
+      "ids" : [
+        2801
+      ],
+      "names" : [
+        "npc.cow_calf_2801"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 6,
+      "attackSpeed" : 4,
+      "respawnTicks" : 45,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -26, "slashDefence" : -26, "crushDefence" : -26, "magicDefence" : -26, "rangedDefence" : -26, "lightRangedDefence" : -26, "heavyRangedDefence" : -26, "attackBonus" : -20, "strengthBonus" : -20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 6.0, "categories" : [ "Cows" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

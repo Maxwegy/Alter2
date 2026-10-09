@@ -1,0 +1,120 @@
+{
+  "page" : "Flaming pyrelord (Deadman)",
+  "versions" : [
+    {
+      "source" : "Flaming pyrelord (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12453
+      ],
+      "names" : [
+        "npc.flaming_pyrelord_12453"
+      ],
+      "combatLevel" : 1026,
+      "hitpoints" : 3500,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 150, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1 (11 with burn)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    },
+    {
+      "source" : "Flaming pyrelord (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12453
+      ],
+      "names" : [
+        "npc.flaming_pyrelord_12453"
+      ],
+      "combatLevel" : 363,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 250, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 150, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "demon"
+      ]
+    },
+    {
+      "source" : "Flaming pyrelord (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12453
+      ],
+      "names" : [
+        "npc.flaming_pyrelord_12453"
+      ],
+      "combatLevel" : 338,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 150, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    },
+    {
+      "source" : "Flaming pyrelord (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12453
+      ],
+      "names" : [
+        "npc.flaming_pyrelord_12453"
+      ],
+      "combatLevel" : 338,
+      "hitpoints" : 750,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 150, "rangedDefence" : 18, "lightRangedDefence" : 18, "heavyRangedDefence" : 18, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1 (11 with burn)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

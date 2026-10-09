@@ -1,0 +1,26 @@
+{
+  "page" : "Bloodthirsty choke devil",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty choke devil",
+      "ids" : [
+        12575
+      ],
+      "names" : [
+        "npc.bloodthirsty_choke_devil"
+      ],
+      "combatLevel" : 396,
+      "hitpoints" : 300,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 260, "strength" : 230, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "Ranged melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 65, "categories" : [ "Dust Devils" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

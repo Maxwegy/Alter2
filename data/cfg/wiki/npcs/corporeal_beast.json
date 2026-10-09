@@ -1,0 +1,34 @@
+{
+  "page" : "Corporeal Beast",
+  "versions" : [
+    {
+      "source" : "Corporeal Beast",
+      "ids" : [
+        319
+      ],
+      "names" : [
+        "npc.corporeal_beast"
+      ],
+      "combatLevel" : 785,
+      "hitpoints" : 2000,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 320, "strength" : 320, "defence" : 310, "ranged" : 150, "magic" : 350 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 200, "crushDefence" : 100, "magicDefence" : 150, "rangedDefence" : 230, "lightRangedDefence" : 230, "heavyRangedDefence" : 100, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "33 (Melee)",
+        "65 (Magic)",
+        "51 (Stomp)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 10 }
+    }
+  ]
+}

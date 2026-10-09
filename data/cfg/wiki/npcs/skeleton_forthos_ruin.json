@@ -1,0 +1,145 @@
+{
+  "page" : "Skeleton (Forthos Ruin)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Forthos Ruin)#1",
+      "version" : "1",
+      "ids" : [
+        10717
+      ],
+      "names" : [
+        "npc.skeleton_10717"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -1, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Forthos Ruin)#2",
+      "version" : "2",
+      "ids" : [
+        10718
+      ],
+      "names" : [
+        "npc.skeleton_10718"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -1, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Forthos Ruin)#3",
+      "version" : "3",
+      "ids" : [
+        10719
+      ],
+      "names" : [
+        "npc.skeleton_10719"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -1, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Forthos Ruin)#4",
+      "version" : "4",
+      "ids" : [
+        10720
+      ],
+      "names" : [
+        "npc.skeleton_10720"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -1, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Forthos Ruin)#5",
+      "version" : "5",
+      "ids" : [
+        10721
+      ],
+      "names" : [
+        "npc.skeleton_10721"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 17,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -1, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 17.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page" : "Growler",
+  "versions" : [
+    {
+      "source" : "Growler",
+      "ids" : [
+        2207
+      ],
+      "names" : [
+        "npc.growler"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 146,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 100, "strength" : 101, "defence" : 120, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 12, "slashDefence" : 14, "crushDefence" : 14, "magicDefence" : 18, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 10, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

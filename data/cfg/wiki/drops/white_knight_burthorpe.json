@@ -1,0 +1,14 @@
+{
+  "page" : "White Knight (Burthorpe)",
+  "tables" : [
+    {
+      "source" : "White Knight (Burthorpe)",
+      "npcIds" : [
+        4114
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

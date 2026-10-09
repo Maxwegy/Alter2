@@ -1,0 +1,59 @@
+{
+  "page" : "The Inadequacy (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "The Inadequacy (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6119
+      ],
+      "names" : [
+        "npc.the_inadequacy_hard"
+      ],
+      "combatLevel" : 600,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 1128, "strength" : 340, "defence" : 240, "ranged" : 340, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "35 (Melee)",
+        "33+ (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Inadequacy (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6350
+      ],
+      "names" : [
+        "npc.the_inadequacy_6350"
+      ],
+      "combatLevel" : 343,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 564, "strength" : 170, "defence" : 240, "ranged" : 170, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18 (Melee)",
+        "20+ (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "page" : "Grizzly bear cub",
+  "tables" : [
+    {
+      "source" : "Grizzly bear cub",
+      "npcIds" : [
+        3424,
+        3425
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 948, "name" : "item.bear_fur", "min" : 1, "max" : 1 },
+        { "item" : 2136, "name" : "item.raw_bear_meat", "min" : 1, "max" : 1 },
+        { "item" : 7815, "name" : "item.bear_ribs", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 13463, "name" : "item.ensouled_bear_head_13463", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "page" : "Barbarian",
+  "versions" : [
+    {
+      "source" : "Barbarian#Level 10 (Acelin)",
+      "version" : "Level 10 (Acelin)",
+      "ids" : [
+        3065
+      ],
+      "names" : [
+        "npc.barbarian_3065"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Adelino)",
+      "version" : "Level 10 (Adelino)",
+      "ids" : [
+        3066
+      ],
+      "names" : [
+        "npc.barbarian_3066"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Adolpho)",
+      "version" : "Level 10 (Adolpho)",
+      "ids" : [
+        3067
+      ],
+      "names" : [
+        "npc.barbarian_3067"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Edelschwarz)",
+      "version" : "Level 10 (Edelschwarz)",
+      "ids" : [
+        3071
+      ],
+      "names" : [
+        "npc.barbarian_3071"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Fafner)",
+      "version" : "Level 10 (Fafner)",
+      "ids" : [
+        3056
+      ],
+      "names" : [
+        "npc.barbarian_3056"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Gutrune)",
+      "version" : "Level 10 (Gutrune)",
+      "ids" : [
+        3070
+      ],
+      "names" : [
+        "npc.barbarian_3070"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Hagen)",
+      "version" : "Level 10 (Hagen)",
+      "ids" : [
+        3061
+      ],
+      "names" : [
+        "npc.barbarian_3061"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Lydspor)",
+      "version" : "Level 10 (Lydspor)",
+      "ids" : [
+        3060
+      ],
+      "names" : [
+        "npc.barbarian_3060"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Siegfried)",
+      "version" : "Level 10 (Siegfried)",
+      "ids" : [
+        3059
+      ],
+      "names" : [
+        "npc.barbarian_3059"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 10 (Wotan)",
+      "version" : "Level 10 (Wotan)",
+      "ids" : [
+        3064
+      ],
+      "names" : [
+        "npc.barbarian_3064"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 15 (Aitan)",
+      "version" : "Level 15 (Aitan)",
+      "ids" : [
+        3068
+      ],
+      "names" : [
+        "npc.barbarian_3068"
+      ],
+      "combatLevel" : 15,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 3, "defence" : 10, "ranged" : 15, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 17 (Alberich)",
+      "version" : "Level 17 (Alberich)",
+      "ids" : [
+        3055
+      ],
+      "names" : [
+        "npc.barbarian"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 14, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 17 (Brunnhilde)",
+      "version" : "Level 17 (Brunnhilde)",
+      "ids" : [
+        3069
+      ],
+      "names" : [
+        "npc.barbarian_3069"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 14, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 17 (Fasolt)",
+      "version" : "Level 17 (Fasolt)",
+      "ids" : [
+        3057
+      ],
+      "names" : [
+        "npc.barbarian_3057"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 14, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 17 (Minarch)",
+      "version" : "Level 17 (Minarch)",
+      "ids" : [
+        3062
+      ],
+      "names" : [
+        "npc.barbarian_3062"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 14, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 17 (Siegmund)",
+      "version" : "Level 17 (Siegmund)",
+      "ids" : [
+        3058
+      ],
+      "names" : [
+        "npc.barbarian_3058"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 24,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 14, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : -3, "rangedDefence" : 2, "lightRangedDefence" : 2, "heavyRangedDefence" : 2, "attackBonus" : 9, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 8 (Blue Moon Inn)",
+      "version" : "Level 8 (Blue Moon Inn)",
+      "ids" : [
+        3262
+      ],
+      "names" : [
+        "npc.barbarian_3262"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 14,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 6, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Barbarian#Level 9 (Sieglinde)",
+      "version" : "Level 9 (Sieglinde)",
+      "ids" : [
+        3072
+      ],
+      "names" : [
+        "npc.barbarian_3072"
+      ],
+      "combatLevel" : 9,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 6, "strength" : 7, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : -3, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 9, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

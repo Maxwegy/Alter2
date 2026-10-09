@@ -1,0 +1,125 @@
+{
+  "page" : "Rabbit",
+  "versions" : [
+    {
+      "source" : "Rabbit#Enchanted Valley",
+      "version" : "Enchanted Valley",
+      "ids" : [
+        1852,
+        1853
+      ],
+      "names" : [
+        "npc.rabbit_1852",
+        "npc.rabbit_1853"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 1,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : -47, "strengthBonus" : -42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 20 }
+    },
+    {
+      "source" : "Rabbit#Miscellania",
+      "version" : "Miscellania",
+      "ids" : [
+        3664,
+        3665
+      ],
+      "names" : [
+        "npc.rabbit_3664",
+        "npc.rabbit_3665"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -47, "strengthBonus" : -42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 20 }
+    },
+    {
+      "source" : "Rabbit#Tirannwn",
+      "version" : "Tirannwn",
+      "ids" : [
+        3420,
+        3421,
+        3422
+      ],
+      "names" : [
+        "npc.rabbit_3420",
+        "npc.rabbit_3421",
+        "npc.rabbit_3422"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -47, "strengthBonus" : -42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 20 }
+    },
+    {
+      "source" : "Rabbit#Varlamore",
+      "version" : "Varlamore",
+      "ids" : [
+        12851,
+        12852,
+        12853
+      ],
+      "names" : [
+        "npc.rabbit_12851",
+        "npc.rabbit_12852",
+        "npc.rabbit_12853"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -42, "slashDefence" : -42, "crushDefence" : -42, "magicDefence" : -42, "rangedDefence" : -42, "lightRangedDefence" : -42, "heavyRangedDefence" : -42, "attackBonus" : -47, "strengthBonus" : -42, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 20 }
+    }
+  ]
+}

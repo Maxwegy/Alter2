@@ -1,0 +1,15 @@
+{
+  "page" : "Snothead",
+  "tables" : [
+    {
+      "source" : "Snothead",
+      "npcIds" : [
+        11269,
+        11274
+      ],
+      "always" : [
+        { "item" : 26589, "name" : "item.snotheads_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

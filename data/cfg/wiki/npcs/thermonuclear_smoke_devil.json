@@ -1,0 +1,32 @@
+{
+  "page" : "Thermonuclear smoke devil",
+  "versions" : [
+    {
+      "source" : "Thermonuclear smoke devil",
+      "ids" : [
+        499
+      ],
+      "names" : [
+        "npc.thermonuclear_smoke_devil"
+      ],
+      "combatLevel" : 301,
+      "hitpoints" : 240,
+      "attackSpeed" : 2,
+      "respawnTicks" : 15,
+      "size" : 4,
+      "levels" : { "attack" : 230, "strength" : 220, "defence" : 360, "ranged" : 310, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 11, "slashDefence" : 4, "crushDefence" : 9, "magicDefence" : 800, "rangedDefence" : 900, "lightRangedDefence" : 900, "heavyRangedDefence" : 900, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Magical ranged (100% prayer penetration)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "level" : 93, "xp" : 240.0, "categories" : [ "Bosses", "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 20 }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "page" : "Ice troll runt",
+  "versions" : [
+    {
+      "source" : "Ice troll runt#Variant 1",
+      "version" : "Variant 1",
+      "ids" : [
+        5828
+      ],
+      "names" : [
+        "npc.ice_troll_runt_5828"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 63.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice troll runt#Variant 2",
+      "version" : "Variant 2",
+      "ids" : [
+        1874
+      ],
+      "names" : [
+        "npc.ice_troll_runt"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 63.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

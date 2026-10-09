@@ -1,0 +1,15 @@
+{
+  "page" : "Redeyes",
+  "tables" : [
+    {
+      "source" : "Redeyes",
+      "npcIds" : [
+        11272,
+        11299
+      ],
+      "always" : [
+        { "item" : 26592, "name" : "item.redeyes_bone", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

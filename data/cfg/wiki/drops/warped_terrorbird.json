@@ -1,0 +1,63 @@
+{
+  "page" : "Warped Terrorbird",
+  "tables" : [
+    {
+      "source" : "Warped Terrorbird",
+      "npcIds" : [
+        12491,
+        12492,
+        12493,
+        12494,
+        12495,
+        12496,
+        12497,
+        12498,
+        12499,
+        12500,
+        12501,
+        12502,
+        12503,
+        12504
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 187, "name" : "item.weapon_poison", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 314, "name" : "item.feather", "min" : 100, "max" : 200, "chance" : [ 1, 16 ], "wiki" : "4/64" },
+        { "item" : 384, "name" : "item.raw_shark_noted", "min" : 3, "max" : 7, "noted" : true, "chance" : [ 5, 64 ], "wiki" : "5/64" },
+        { "item" : 450, "name" : "item.adamantite_ore_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 80, "max" : 120, "chance" : [ 3, 32 ], "wiki" : "6/64" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 80, "max" : 100, "chance" : [ 3, 32 ], "wiki" : "6/64" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 15, "max" : 20, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 15, "max" : 20, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 566, "name" : "item.soul_rune", "min" : 10, "max" : 15, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 600, "max" : 800, "chance" : [ 1, 8 ], "wiki" : "8/64" },
+        { "item" : 1123, "name" : "item.adamant_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4369067 ], "wiki" : "1/43,690.67" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 25, 2912711 ], "wiki" : "1/116,508.44" },
+        { "item" : 1345, "name" : "item.adamant_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 1347, "name" : "item.rune_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 50, 45511 ], "wiki" : "1/910.22" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 136533 ], "wiki" : "1/1,365.33" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 34133 ], "wiki" : "1/341.33" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "wiki" : "1/170.67" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 8533 ], "wiki" : "1/85.33" },
+        { "item" : 1939, "name" : "item.swamp_tar", "min" : 40, "max" : 60, "chance" : [ 5, 64 ], "wiki" : "5/64" },
+        { "item" : 2185, "name" : "item.chocolate_bomb", "min" : 2, "max" : 3, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 7878, "name" : "item.terrorbird_wing", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
+        { "item" : 9192, "name" : "item.diamond_bolt_tips", "min" : 24, "max" : 32, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 82 ], "wiki" : "1/82" },
+        { "item" : 28583, "name" : "item.warped_sceptre_uncharged", "min" : 1, "max" : 1, "chance" : [ 1, 320 ], "wiki" : "1/320" }
+      ]
+    }
+  ]
+}

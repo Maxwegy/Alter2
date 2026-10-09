@@ -1,0 +1,31 @@
+{
+  "page" : "Choke devil",
+  "versions" : [
+    {
+      "source" : "Choke devil",
+      "ids" : [
+        7404
+      ],
+      "names" : [
+        "npc.choke_devil"
+      ],
+      "combatLevel" : 264,
+      "hitpoints" : 300,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 260, "strength" : 230, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Ranged melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 65, "xp" : 3000.0, "categories" : [ "Dust Devils" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

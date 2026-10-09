@@ -1,0 +1,33 @@
+{
+  "page" : "Reanimated dragon",
+  "versions" : [
+    {
+      "source" : "Reanimated dragon",
+      "ids" : [
+        7039
+      ],
+      "names" : [
+        "npc.reanimated_dragon"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 68, "strength" : 68, "defence" : 68, "ranged" : 1, "magic" : 68 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ]
+    }
+  ]
+}

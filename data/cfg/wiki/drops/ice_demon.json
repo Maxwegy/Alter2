@@ -1,0 +1,18 @@
+{
+  "page" : "Ice demon",
+  "tables" : [
+    {
+      "source" : "Ice demon",
+      "npcIds" : [
+        7584,
+        7585
+      ],
+      "always" : [
+        { "item" : 20910, "name" : "item.stinkhorn_mushroom", "min" : 7, "max" : 7 },
+        { "item" : 20911, "name" : "item.endarkened_juice", "min" : 7, "max" : 7 },
+        { "item" : 20912, "name" : "item.cicely", "min" : 5, "max" : 5 },
+        { "item" : 25766, "name" : "item.fiendish_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

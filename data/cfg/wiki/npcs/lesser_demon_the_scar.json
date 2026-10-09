@@ -1,0 +1,155 @@
+{
+  "page" : "Lesser demon (The Scar)",
+  "versions" : [
+    {
+      "source" : "Lesser demon (The Scar)#Level 39",
+      "version" : "Level 39",
+      "ids" : [
+        12376
+      ],
+      "names" : [
+        "npc.lesser_demon_12376"
+      ],
+      "combatLevel" : 39,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 0.0, "categories" : [ "None" ], "assignedBy" : [ "no" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon (The Scar)#Level 82",
+      "version" : "Level 82",
+      "ids" : [
+        12389
+      ],
+      "names" : [
+        "npc.lesser_demon_12389"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 79,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 68, "strength" : 70, "defence" : 71, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "0% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon (The Scar)#Level 94 (mage)",
+      "version" : "Level 94 (mage)",
+      "ids" : [
+        12361
+      ],
+      "names" : [
+        "npc.lesser_demon_12361"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "0% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon (The Scar)#Level 94 (melee)",
+      "version" : "Level 94 (melee)",
+      "ids" : [
+        12363
+      ],
+      "names" : [
+        "npc.lesser_demon_12363"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 2, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "0% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Lesser demon (The Scar)#Level 94 (ranged)",
+      "version" : "Level 94 (ranged)",
+      "ids" : [
+        12365
+      ],
+      "names" : [
+        "npc.lesser_demon_12365"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "0% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "krystilia", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

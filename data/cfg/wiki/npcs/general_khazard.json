@@ -1,0 +1,48 @@
+{
+  "page" : "General Khazard",
+  "versions" : [
+    {
+      "source" : "General Khazard",
+      "ids" : [
+        1213,
+        12025,
+        12026,
+        12027,
+        12054,
+        12055,
+        12056,
+        12057,
+        12058,
+        12059
+      ],
+      "names" : [
+        "npc.null_1213",
+        "npc.general_khazard_12025",
+        "npc.general_khazard_12026",
+        "npc.general_khazard_12027",
+        "npc.general_khazard_12054",
+        "npc.general_khazard_12055",
+        "npc.general_khazard_12056",
+        "npc.general_khazard_12057",
+        "npc.general_khazard_12058",
+        "npc.general_khazard_12059"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 78, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

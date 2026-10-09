@@ -1,0 +1,59 @@
+{
+  "page" : "Magic axe",
+  "versions" : [
+    {
+      "source" : "Magic axe#Catacombs of Kourend",
+      "version" : "Catacombs of Kourend",
+      "ids" : [
+        7269
+      ],
+      "names" : [
+        "npc.magic_axe_7269"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 44,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 15, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 44.0, "categories" : [ "Magic Axes" ], "assignedBy" : [ "krystilia" ] }
+    },
+    {
+      "source" : "Magic axe#Normal",
+      "version" : "Normal",
+      "ids" : [
+        2844
+      ],
+      "names" : [
+        "npc.magic_axe"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 44,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 38, "strength" : 38, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 15, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 44.0, "categories" : [ "Magic Axes" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Treus Dayth (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Treus Dayth (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6298
+      ],
+      "names" : [
+        "npc.treus_dayth_hard"
+      ],
+      "combatLevel" : 194,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 168, "strength" : 168, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    },
+    {
+      "source" : "Treus Dayth (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6359
+      ],
+      "names" : [
+        "npc.treus_dayth_6359"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

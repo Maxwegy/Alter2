@@ -1,0 +1,33 @@
+{
+  "page" : "Headless Beast",
+  "versions" : [
+    {
+      "source" : "Headless Beast",
+      "ids" : [
+        10506
+      ],
+      "names" : [
+        "npc.headless_beast_10506"
+      ],
+      "combatLevel" : 82,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 60, "strength" : 86, "defence" : 42, "ranged" : 1, "magic" : 42 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 18, "crushDefence" : 18, "magicDefence" : 6, "rangedDefence" : 52, "lightRangedDefence" : 52, "heavyRangedDefence" : 52, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Melee)",
+        "16 (Special attack)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" },
+      "attributes" : [
+        "undead"
+      ]
+    }
+  ]
+}

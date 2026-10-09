@@ -1,0 +1,125 @@
+{
+  "page" : "Skeleton (Lucien's camp)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Lucien's camp)#1",
+      "version" : "1",
+      "ids" : [
+        13476
+      ],
+      "names" : [
+        "npc.skeleton_13476"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 54,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 180, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 20, "crushDefence" : 25, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 54.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Lucien's camp)#2",
+      "version" : "2",
+      "ids" : [
+        13477
+      ],
+      "names" : [
+        "npc.skeleton_13477"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 54,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 180, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 20, "crushDefence" : 25, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 54.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Lucien's camp)#3",
+      "version" : "3",
+      "ids" : [
+        13478
+      ],
+      "names" : [
+        "npc.skeleton_13478"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 54,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 180, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 20, "crushDefence" : 25, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 54.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Lucien's camp)#4",
+      "version" : "4",
+      "ids" : [
+        13479
+      ],
+      "names" : [
+        "npc.skeleton_13479"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 54,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 180, "defence" : 62, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 20, "crushDefence" : 25, "magicDefence" : 10, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 54.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

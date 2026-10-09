@@ -1,0 +1,29 @@
+{
+  "page" : "Reanimated scorpion",
+  "versions" : [
+    {
+      "source" : "Reanimated scorpion",
+      "ids" : [
+        7022
+      ],
+      "names" : [
+        "npc.reanimated_scorpion"
+      ],
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 12, "defence" : 11, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 15.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

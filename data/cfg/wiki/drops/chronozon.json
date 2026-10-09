@@ -1,0 +1,17 @@
+{
+  "page" : "Chronozon",
+  "tables" : [
+    {
+      "source" : "Chronozon",
+      "npcIds" : [
+        4987
+      ],
+      "always" : [
+        { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" }
+      ]
+    }
+  ]
+}

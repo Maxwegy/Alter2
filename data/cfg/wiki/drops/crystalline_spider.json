@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Spider",
+  "tables" : [
+    {
+      "source" : "Crystalline Spider",
+      "npcIds" : [
+        9027
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 20, "max" : 30 }
+      ]
+    }
+  ]
+}

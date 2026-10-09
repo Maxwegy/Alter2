@@ -1,0 +1,85 @@
+{
+  "page" : "Nylocas Prinkipas",
+  "versions" : [
+    {
+      "source" : "Nylocas Prinkipas#Magic",
+      "version" : "Magic",
+      "ids" : [
+        10805
+      ],
+      "names" : [
+        "npc.nylocas_prinkipas_10805"
+      ],
+      "combatLevel" : 400,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 175, "defence" : 25, "ranged" : 175, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 30, "magicDamage" : 300 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Prinkipas#Melee",
+      "version" : "Melee",
+      "ids" : [
+        10803,
+        10804
+      ],
+      "names" : [
+        "npc.nylocas_prinkipas",
+        "npc.nylocas_prinkipas_10804"
+      ],
+      "combatLevel" : 400,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 175, "defence" : 25, "ranged" : 175, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 30, "magicDamage" : 300 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Prinkipas#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        10806
+      ],
+      "names" : [
+        "npc.nylocas_prinkipas_10806"
+      ],
+      "combatLevel" : 400,
+      "hitpoints" : 400,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 175, "defence" : 25, "ranged" : 175, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 30, "magicDamage" : 300 },
+      "maxHits" : [
+        "38"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

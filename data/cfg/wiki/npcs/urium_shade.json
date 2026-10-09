@@ -1,0 +1,70 @@
+{
+  "page" : "Urium Shade",
+  "versions" : [
+    {
+      "source" : "Urium Shade#Shade",
+      "version" : "Shade",
+      "ids" : [
+        10589
+      ],
+      "names" : [
+        "npc.urium_shade"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 138, "strength" : 116, "defence" : 100, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "shade",
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 130.0, "categories" : [ "Shades" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Urium Shade#Shadow",
+      "version" : "Shadow",
+      "ids" : [
+        6143
+      ],
+      "names" : [
+        "npc.urium_shadow"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 138, "strength" : 116, "defence" : 100, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 130.0, "categories" : [ "Shades" ], "assignedBy" : [ "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

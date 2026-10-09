@@ -1,0 +1,36 @@
+{
+  "page" : "Jungle spider",
+  "versions" : [
+    {
+      "source" : "Jungle spider",
+      "ids" : [
+        3020,
+        6267,
+        6271
+      ],
+      "names" : [
+        "npc.jungle_spider",
+        "npc.jungle_spider_6267",
+        "npc.jungle_spider_6271"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 37, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 17, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

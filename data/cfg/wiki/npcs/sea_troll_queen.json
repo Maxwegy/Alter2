@@ -1,0 +1,33 @@
+{
+  "page" : "Sea Troll Queen",
+  "versions" : [
+    {
+      "source" : "Sea Troll Queen",
+      "ids" : [
+        4315
+      ],
+      "names" : [
+        "npc.sea_troll_queen"
+      ],
+      "combatLevel" : 170,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 100, "strength" : 70, "defence" : 100, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 40, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Melee)",
+        "37 (Magic)",
+        "254 (on Wise Old Man)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "earth", "percent" : 15 }
+    }
+  ]
+}

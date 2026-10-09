@@ -1,0 +1,65 @@
+{
+  "page" : "Mounted terrorbird gnome",
+  "versions" : [
+    {
+      "source" : "Mounted terrorbird gnome#Level 31",
+      "version" : "Level 31",
+      "ids" : [
+        2067
+      ],
+      "names" : [
+        "npc.mounted_terrorbird_gnome"
+      ],
+      "combatLevel" : 31,
+      "hitpoints" : 36,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 16, "slashDefence" : 16, "crushDefence" : 18, "magicDefence" : 15, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 36.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Mounted terrorbird gnome#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        2068,
+        5971,
+        5972,
+        5973
+      ],
+      "names" : [
+        "npc.mounted_terrorbird_gnome_2068",
+        "npc.mounted_terrorbird_gnome_5971",
+        "npc.mounted_terrorbird_gnome_5972",
+        "npc.mounted_terrorbird_gnome_5973"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 16, "slashDefence" : 16, "crushDefence" : 18, "magicDefence" : 15, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 2, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 55.0, "categories" : [ "Birds" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

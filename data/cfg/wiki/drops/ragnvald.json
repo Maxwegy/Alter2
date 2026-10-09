@@ -1,0 +1,14 @@
+{
+  "page" : "Ragnvald",
+  "tables" : [
+    {
+      "source" : "Ragnvald",
+      "npcIds" : [
+        3687
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

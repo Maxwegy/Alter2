@@ -1,0 +1,33 @@
+{
+  "page" : "The Draugen",
+  "versions" : [
+    {
+      "source" : "The Draugen",
+      "ids" : [
+        3922
+      ],
+      "names" : [
+        "npc.the_draugen"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 500, "rangedDefence" : 500, "lightRangedDefence" : 500, "heavyRangedDefence" : 500, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    }
+  ]
+}

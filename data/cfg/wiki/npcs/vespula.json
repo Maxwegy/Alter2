@@ -1,0 +1,70 @@
+{
+  "page" : "Vespula",
+  "versions" : [
+    {
+      "source" : "Vespula#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7530,
+        7531,
+        7532
+      ],
+      "names" : [
+        "npc.vespula",
+        "npc.vespula_7531",
+        "npc.vespula_7532"
+      ],
+      "hitpoints" : 288,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 132, "ranged" : 225, "magic" : 132 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 70, "rangedDefence" : 60, "lightRangedDefence" : 20, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : -8, "rangedStrength" : -8, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Ranged <br/> Typeless"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Vespula#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7530,
+        7531,
+        7532
+      ],
+      "names" : [
+        "npc.vespula",
+        "npc.vespula_7531",
+        "npc.vespula_7532"
+      ],
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 88, "ranged" : 150, "magic" : 88 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 70, "rangedDefence" : 60, "lightRangedDefence" : 20, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : -8, "rangedStrength" : -8, "magicDamage" : 0 },
+      "maxHits" : [
+        "14 (Ranged)",
+        "8 (Stomp)",
+        "20 (Sting)"
+      ],
+      "attackStyles" : [
+        "Ranged <br/> Typeless"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying",
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

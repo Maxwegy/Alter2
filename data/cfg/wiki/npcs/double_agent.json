@@ -1,0 +1,80 @@
+{
+  "page" : "Double agent",
+  "versions" : [
+    {
+      "source" : "Double agent#Level 108",
+      "version" : "Level 108",
+      "ids" : [
+        1778
+      ],
+      "names" : [
+        "npc.double_agent_1778"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 80, "defence" : 80, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 40, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Double agent#Level 141",
+      "version" : "Level 141",
+      "ids" : [
+        7312
+      ],
+      "names" : [
+        "npc.double_agent_7312"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 105, "defence" : 100, "ranged" : 1, "magic" : 95 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 40, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Double agent#Level 65",
+      "version" : "Level 65",
+      "ids" : [
+        1777
+      ],
+      "names" : [
+        "npc.double_agent"
+      ],
+      "combatLevel" : 65,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 43, "defence" : 24, "ranged" : 1, "magic" : 24 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 3, "crushDefence" : 3, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

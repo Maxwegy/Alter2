@@ -1,0 +1,579 @@
+{
+  "page" : "Werewolf",
+  "versions" : [
+    {
+      "source" : "Werewolf#Alexis",
+      "version" : "Alexis",
+      "ids" : [
+        2603
+      ],
+      "names" : [
+        "npc.werewolf_2603"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Boris",
+      "version" : "Boris",
+      "ids" : [
+        2593
+      ],
+      "names" : [
+        "npc.werewolf"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Eduard",
+      "version" : "Eduard",
+      "ids" : [
+        2598
+      ],
+      "names" : [
+        "npc.werewolf_2598"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Galina",
+      "version" : "Galina",
+      "ids" : [
+        2605
+      ],
+      "names" : [
+        "npc.werewolf_2605"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Georgy",
+      "version" : "Georgy",
+      "ids" : [
+        2600
+      ],
+      "names" : [
+        "npc.werewolf_2600"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#God Wars Dungeon (1)",
+      "version" : "God Wars Dungeon (1)",
+      "ids" : [
+        3135
+      ],
+      "names" : [
+        "npc.werewolf_3135"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 92,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 77, "strength" : 76, "defence" : 85, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#God Wars Dungeon (2)",
+      "version" : "God Wars Dungeon (2)",
+      "ids" : [
+        3136
+      ],
+      "names" : [
+        "npc.werewolf_3136"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 92,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 77, "strength" : 76, "defence" : 85, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Imre",
+      "version" : "Imre",
+      "ids" : [
+        2594
+      ],
+      "names" : [
+        "npc.werewolf_2594"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Irina",
+      "version" : "Irina",
+      "ids" : [
+        2602
+      ],
+      "names" : [
+        "npc.werewolf_2602"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Joseph",
+      "version" : "Joseph",
+      "ids" : [
+        2596
+      ],
+      "names" : [
+        "npc.werewolf_2596"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Ksenia",
+      "version" : "Ksenia",
+      "ids" : [
+        2607
+      ],
+      "names" : [
+        "npc.werewolf_2607"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Lev",
+      "version" : "Lev",
+      "ids" : [
+        2599
+      ],
+      "names" : [
+        "npc.werewolf_2599"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Liliya",
+      "version" : "Liliya",
+      "ids" : [
+        2612
+      ],
+      "names" : [
+        "npc.werewolf_2612"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Milla",
+      "version" : "Milla",
+      "ids" : [
+        2604
+      ],
+      "names" : [
+        "npc.werewolf_2604"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Nikita",
+      "version" : "Nikita",
+      "ids" : [
+        2609
+      ],
+      "names" : [
+        "npc.werewolf_2609"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Nikolai",
+      "version" : "Nikolai",
+      "ids" : [
+        2597
+      ],
+      "names" : [
+        "npc.werewolf_2597"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Sofiya",
+      "version" : "Sofiya",
+      "ids" : [
+        2606
+      ],
+      "names" : [
+        "npc.werewolf_2606"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Svetlana",
+      "version" : "Svetlana",
+      "ids" : [
+        2601
+      ],
+      "names" : [
+        "npc.werewolf_2601"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Vera",
+      "version" : "Vera",
+      "ids" : [
+        2610
+      ],
+      "names" : [
+        "npc.werewolf_2610"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Yadviga",
+      "version" : "Yadviga",
+      "ids" : [
+        2608
+      ],
+      "names" : [
+        "npc.werewolf_2608"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Yuri",
+      "version" : "Yuri",
+      "ids" : [
+        2595
+      ],
+      "names" : [
+        "npc.werewolf_2595"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Werewolf#Zoja",
+      "version" : "Zoja",
+      "ids" : [
+        2611
+      ],
+      "names" : [
+        "npc.werewolf_2611"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 100.0, "categories" : [ "Werewolves" ], "assignedBy" : [ "vannaka" ] }
+    }
+  ]
+}

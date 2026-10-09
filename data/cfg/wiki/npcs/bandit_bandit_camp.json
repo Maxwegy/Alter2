@@ -1,0 +1,57 @@
+{
+  "page" : "Bandit (Bandit Camp)",
+  "versions" : [
+    {
+      "source" : "Bandit (Bandit Camp)#Level 57",
+      "version" : "Level 57",
+      "ids" : [
+        695
+      ],
+      "names" : [
+        "npc.bandit_695"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Bandit (Bandit Camp)#Level 74",
+      "version" : "Level 74",
+      "ids" : [
+        690
+      ],
+      "names" : [
+        "npc.bandit_690"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

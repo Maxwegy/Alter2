@@ -1,0 +1,14 @@
+{
+  "page" : "Crystalline Bat",
+  "tables" : [
+    {
+      "source" : "Crystalline Bat",
+      "npcIds" : [
+        9028
+      ],
+      "always" : [
+        { "item" : 23866, "name" : "item.crystal_shards", "min" : 20, "max" : 30 }
+      ]
+    }
+  ]
+}

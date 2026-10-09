@@ -1,0 +1,14 @@
+{
+  "page" : "Poltenip",
+  "tables" : [
+    {
+      "source" : "Poltenip",
+      "npcIds" : [
+        4758
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

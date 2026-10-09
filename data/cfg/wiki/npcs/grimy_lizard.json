@@ -1,0 +1,30 @@
+{
+  "page" : "Grimy Lizard",
+  "versions" : [
+    {
+      "source" : "Grimy Lizard",
+      "ids" : [
+        13029
+      ],
+      "names" : [
+        "npc.grimy_lizard"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 25, "defence" : 10, "ranged" : 1, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 15, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 35, "lightRangedDefence" : 35, "heavyRangedDefence" : 35, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 44, "xp" : 75.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

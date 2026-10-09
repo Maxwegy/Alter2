@@ -1,0 +1,19 @@
+{
+  "page" : "Scorpia's guardian",
+  "tables" : [
+    {
+      "source" : "Scorpia's guardian",
+      "npcIds" : [
+        6617
+      ],
+      "main" : [
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 264 ], "wiki" : "1/264" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 13460, "name" : "item.ensouled_scorpion_head_13460", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 426 ], "wiki" : "1/426" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "page" : "Ogre",
+  "versions" : [
+    {
+      "source" : "Ogre#GWD",
+      "version" : "GWD",
+      "ids" : [
+        2233
+      ],
+      "names" : [
+        "npc.ogre_2233"
+      ],
+      "combatLevel" : 58,
+      "hitpoints" : 70,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 46, "strength" : 48, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Ogre#Level 53",
+      "version" : "Level 53",
+      "ids" : [
+        136,
+        2095,
+        2096
+      ],
+      "names" : [
+        "npc.ogre",
+        "npc.ogre_2095",
+        "npc.ogre_2096"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 60,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 43, "strength" : 43, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Ogre#Level 63",
+      "version" : "Level 63",
+      "ids" : [
+        1153
+      ],
+      "names" : [
+        "npc.ogre_1153"
+      ],
+      "combatLevel" : 63,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 54, "strength" : 54, "defence" : 54, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 19, "slashDefence" : 23, "crushDefence" : 24, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 8, "strengthBonus" : 6, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 60.0, "categories" : [ "Ogres" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

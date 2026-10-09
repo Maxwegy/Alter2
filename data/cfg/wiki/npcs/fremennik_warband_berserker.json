@@ -1,0 +1,29 @@
+{
+  "page" : "Fremennik warband berserker",
+  "versions" : [
+    {
+      "source" : "Fremennik warband berserker",
+      "ids" : [
+        12816
+      ],
+      "names" : [
+        "npc.fremennik_warband_berserker"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 48,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 80, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 0, "rangedDefence" : 75, "lightRangedDefence" : 75, "heavyRangedDefence" : 75, "attackBonus" : 150, "strengthBonus" : 90, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "29"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

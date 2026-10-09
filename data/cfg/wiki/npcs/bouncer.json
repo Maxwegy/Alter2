@@ -1,0 +1,34 @@
+{
+  "page" : "Bouncer",
+  "versions" : [
+    {
+      "source" : "Bouncer",
+      "ids" : [
+        1224
+      ],
+      "names" : [
+        "npc.bouncer"
+      ],
+      "combatLevel" : 137,
+      "hitpoints" : 116,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 116.0, "categories" : [ "Hellhounds" ], "assignedBy" : [ "chaeldar", "duradel", "krystilia", "nieve", "vannaka" ] }
+    }
+  ]
+}

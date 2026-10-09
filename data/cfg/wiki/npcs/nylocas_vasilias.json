@@ -1,0 +1,107 @@
+{
+  "page" : "Nylocas Vasilias",
+  "versions" : [
+    {
+      "source" : "Nylocas Vasilias#Entry",
+      "version" : "Entry",
+      "ids" : [
+        10786,
+        10787,
+        10788,
+        10789
+      ],
+      "names" : [
+        "npc.nylocas_vasilias_10786",
+        "npc.nylocas_vasilias_10787",
+        "npc.nylocas_vasilias_10788",
+        "npc.nylocas_vasilias_10789"
+      ],
+      "combatLevel" : 301,
+      "hitpoints" : 1440,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 160, "strength" : 140, "defence" : 50, "ranged" : 140, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 380, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 40, "magicDamage" : 460 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Vasilias#Hard",
+      "version" : "Hard",
+      "ids" : [
+        10807,
+        10808,
+        10809,
+        10810
+      ],
+      "names" : [
+        "npc.nylocas_vasilias_10807",
+        "npc.nylocas_vasilias_10808",
+        "npc.nylocas_vasilias_10809",
+        "npc.nylocas_vasilias_10810"
+      ],
+      "combatLevel" : 800,
+      "hitpoints" : 2500,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 400, "strength" : 350, "defence" : 50, "ranged" : 350, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 600, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 60, "rangedStrength" : 60, "magicDamage" : 600 },
+      "maxHits" : [
+        "105"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    },
+    {
+      "source" : "Nylocas Vasilias#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8354,
+        8355,
+        8356,
+        8357
+      ],
+      "names" : [
+        "npc.nylocas_vasilias",
+        "npc.nylocas_vasilias_8355",
+        "npc.nylocas_vasilias_8356",
+        "npc.nylocas_vasilias_8357"
+      ],
+      "combatLevel" : 800,
+      "hitpoints" : 2500,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 400, "strength" : 350, "defence" : 50, "ranged" : 350, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 600, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 60, "rangedStrength" : 60, "magicDamage" : 600 },
+      "maxHits" : [
+        "70"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 15 }
+    }
+  ]
+}

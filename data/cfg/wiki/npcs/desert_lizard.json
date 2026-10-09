@@ -1,0 +1,88 @@
+{
+  "page" : "Desert Lizard",
+  "versions" : [
+    {
+      "source" : "Desert Lizard#Green",
+      "version" : "Green",
+      "ids" : [
+        459,
+        12003
+      ],
+      "names" : [
+        "npc.desert_lizard_459",
+        "npc.desert_lizard_12003"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 22, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 22, "xp" : 25.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Desert Lizard#Orange",
+      "version" : "Orange",
+      "ids" : [
+        461
+      ],
+      "names" : [
+        "npc.desert_lizard_461"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 22, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 22, "xp" : 25.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    },
+    {
+      "source" : "Desert Lizard#Yellow",
+      "version" : "Yellow",
+      "ids" : [
+        460
+      ],
+      "names" : [
+        "npc.desert_lizard_460"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 20, "strength" : 22, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 22, "xp" : 25.0, "categories" : [ "Lizards" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

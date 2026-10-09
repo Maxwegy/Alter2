@@ -1,0 +1,135 @@
+{
+  "page" : "Mummy (Pyramid Plunder)",
+  "versions" : [
+    {
+      "source" : "Mummy (Pyramid Plunder)#1",
+      "version" : "1",
+      "ids" : [
+        7658
+      ],
+      "names" : [
+        "npc.mummy_7658"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Pyramid Plunder)#2",
+      "version" : "2",
+      "ids" : [
+        7659
+      ],
+      "names" : [
+        "npc.mummy_7659"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Pyramid Plunder)#3",
+      "version" : "3",
+      "ids" : [
+        7660
+      ],
+      "names" : [
+        "npc.mummy_7660"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Pyramid Plunder)#4",
+      "version" : "4",
+      "ids" : [
+        7661
+      ],
+      "names" : [
+        "npc.mummy_7661"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Pyramid Plunder)#5",
+      "version" : "5",
+      "ids" : [
+        7662
+      ],
+      "names" : [
+        "npc.mummy_7662"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "page" : "Warrior of Murahs",
+  "versions" : [
+    {
+      "source" : "Warrior of Murahs#Mace",
+      "version" : "Mace",
+      "ids" : [
+        10395
+      ],
+      "names" : [
+        "npc.warrior_of_murahs_10395"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior of Murahs#Scimitar",
+      "version" : "Scimitar",
+      "ids" : [
+        10394
+      ],
+      "names" : [
+        "npc.warrior_of_murahs_10394"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Warrior of Murahs#Spear",
+      "version" : "Spear",
+      "ids" : [
+        10393
+      ],
+      "names" : [
+        "npc.warrior_of_murahs"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

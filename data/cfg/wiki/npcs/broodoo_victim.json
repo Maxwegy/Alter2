@@ -1,0 +1,86 @@
+{
+  "page" : "Broodoo victim",
+  "versions" : [
+    {
+      "source" : "Broodoo victim#Green",
+      "version" : "Green",
+      "ids" : [
+        6408,
+        6409
+      ],
+      "names" : [
+        "npc.broodoo_victim",
+        "npc.broodoo_victim_6409"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 100,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 26, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    },
+    {
+      "source" : "Broodoo victim#White",
+      "version" : "White",
+      "ids" : [
+        6412,
+        6413
+      ],
+      "names" : [
+        "npc.broodoo_victim_6412",
+        "npc.broodoo_victim_6413"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 100,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 26, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    },
+    {
+      "source" : "Broodoo victim#Yellow",
+      "version" : "Yellow",
+      "ids" : [
+        6410,
+        6411
+      ],
+      "names" : [
+        "npc.broodoo_victim_6410",
+        "npc.broodoo_victim_6411"
+      ],
+      "combatLevel" : 60,
+      "hitpoints" : 100,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 26, "ranged" : 1, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 25, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

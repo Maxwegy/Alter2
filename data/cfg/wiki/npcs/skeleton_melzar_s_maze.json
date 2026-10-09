@@ -1,0 +1,98 @@
+{
+  "page" : "Skeleton (Melzar's Maze)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Melzar's Maze)#1",
+      "version" : "1",
+      "ids" : [
+        3972
+      ],
+      "names" : [
+        "npc.skeleton_3972"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 18, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 29.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Melzar's Maze)#2",
+      "version" : "2",
+      "ids" : [
+        3973
+      ],
+      "names" : [
+        "npc.skeleton_3973"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 18, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 29.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Melzar's Maze)#3",
+      "version" : "3",
+      "ids" : [
+        3974
+      ],
+      "names" : [
+        "npc.skeleton_3974"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 18, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 9, "slashDefence" : 11, "crushDefence" : -2, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 15, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 29.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

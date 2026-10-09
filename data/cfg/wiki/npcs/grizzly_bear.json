@@ -1,0 +1,61 @@
+{
+  "page" : "Grizzly bear",
+  "versions" : [
+    {
+      "source" : "Grizzly bear#Level 21",
+      "version" : "Level 21",
+      "ids" : [
+        2838
+      ],
+      "names" : [
+        "npc.grizzly_bear"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 27,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 27.0, "categories" : [ "Bears" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    },
+    {
+      "source" : "Grizzly bear#Level 42",
+      "version" : "Level 42",
+      "ids" : [
+        3423
+      ],
+      "names" : [
+        "npc.grizzly_bear_3423"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 40, "strength" : 36, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.0, "categories" : [ "Bears" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

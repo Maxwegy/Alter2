@@ -1,0 +1,32 @@
+{
+  "page" : "Steel dragon (Construction)",
+  "versions" : [
+    {
+      "source" : "Steel dragon (Construction)",
+      "ids" : [
+        139
+      ],
+      "names" : [
+        "npc.steel_dragon_139"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 215, "strength" : 215, "defence" : 215, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 65, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Melee)",
+        "50+ (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

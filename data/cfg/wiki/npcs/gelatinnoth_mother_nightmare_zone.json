@@ -1,0 +1,81 @@
+{
+  "page" : "Gelatinnoth Mother (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Gelatinnoth Mother (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6312,
+        6313,
+        6314,
+        6315,
+        6316,
+        6317
+      ],
+      "names" : [
+        "npc.gelatinnoth_mother_hard",
+        "npc.gelatinnoth_mother_hard_6313",
+        "npc.gelatinnoth_mother_hard_6314",
+        "npc.gelatinnoth_mother_hard_6315",
+        "npc.gelatinnoth_mother_hard_6316",
+        "npc.gelatinnoth_mother_hard_6317"
+      ],
+      "combatLevel" : 201,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 186, "strength" : 186, "defence" : 81, "ranged" : 120, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (melee)",
+        "20x2 (ranged/magic)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Gelatinnoth Mother (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6373,
+        6374,
+        6375,
+        6376,
+        6377,
+        6378
+      ],
+      "names" : [
+        "npc.gelatinnoth_mother_6373",
+        "npc.gelatinnoth_mother_6374",
+        "npc.gelatinnoth_mother_6375",
+        "npc.gelatinnoth_mother_6376",
+        "npc.gelatinnoth_mother_6377",
+        "npc.gelatinnoth_mother_6378"
+      ],
+      "combatLevel" : 130,
+      "hitpoints" : 240,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 78, "strength" : 78, "defence" : 81, "ranged" : 50, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9 (melee)",
+        "20x2 (ranged/magic)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

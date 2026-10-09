@@ -1,0 +1,14 @@
+{
+  "page" : "Agrith-Na-Na",
+  "tables" : [
+    {
+      "source" : "Agrith-Na-Na",
+      "npcIds" : [
+        4880
+      ],
+      "always" : [
+        { "item" : 1963, "name" : "item.banana", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

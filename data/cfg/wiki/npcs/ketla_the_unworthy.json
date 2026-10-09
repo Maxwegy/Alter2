@@ -1,0 +1,61 @@
+{
+  "page" : "Ketla the Unworthy",
+  "versions" : [
+    {
+      "source" : "Ketla the Unworthy#Regular",
+      "version" : "Regular",
+      "ids" : [
+        12329
+      ],
+      "names" : [
+        "npc.ketla_the_unworthy"
+      ],
+      "combatLevel" : 236,
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 130, "ranged" : 160, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 60, "slashDefence" : 30, "crushDefence" : 80, "magicDefence" : 200, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "spectral"
+      ]
+    },
+    {
+      "source" : "Ketla the Unworthy#Shadow Clone",
+      "version" : "Shadow Clone",
+      "ids" : [
+        12330
+      ],
+      "names" : [
+        "npc.ketla_the_unworthy_12330"
+      ],
+      "combatLevel" : 236,
+      "hitpoints" : 1,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 130, "ranged" : 160, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 80, "stabDefence" : 60, "slashDefence" : 30, "crushDefence" : 80, "magicDefence" : 200, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 6, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "spectral"
+      ]
+    }
+  ]
+}

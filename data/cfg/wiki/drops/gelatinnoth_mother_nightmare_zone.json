@@ -1,0 +1,25 @@
+{
+  "page" : "Gelatinnoth Mother (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Gelatinnoth Mother (Nightmare Zone)",
+      "npcIds" : [
+        6312,
+        6313,
+        6314,
+        6315,
+        6316,
+        6317,
+        6373,
+        6374,
+        6375,
+        6376,
+        6377,
+        6378
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

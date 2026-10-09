@@ -1,0 +1,59 @@
+{
+  "page" : "Jogre",
+  "versions" : [
+    {
+      "source" : "Jogre#GWD",
+      "version" : "GWD",
+      "ids" : [
+        2234
+      ],
+      "names" : [
+        "npc.jogre_2234"
+      ],
+      "combatLevel" : 58,
+      "hitpoints" : 70,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 46, "strength" : 48, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Jogre#Normal",
+      "version" : "Normal",
+      "ids" : [
+        2094
+      ],
+      "names" : [
+        "npc.jogre"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 60,
+      "attackSpeed" : 6,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 43, "strength" : 43, "defence" : 43, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 22, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

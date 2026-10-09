@@ -1,0 +1,63 @@
+{
+  "page" : "Count Draynor (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Count Draynor (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6332
+      ],
+      "names" : [
+        "npc.count_draynor_hard"
+      ],
+      "combatLevel" : 177,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 198, "strength" : 165, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 1, "crushDefence" : 3, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre1"
+      ],
+      "slayer" : { "xp" : 210.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Count Draynor (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6393
+      ],
+      "names" : [
+        "npc.count_draynor_6393"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 25, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 1, "crushDefence" : 3, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre1"
+      ],
+      "slayer" : { "xp" : 35.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

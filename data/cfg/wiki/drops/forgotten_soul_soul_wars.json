@@ -1,0 +1,21 @@
+{
+  "page" : "Forgotten Soul (Soul Wars)",
+  "tables" : [
+    {
+      "source" : "Forgotten Soul (Soul Wars)",
+      "npcIds" : [
+        10523,
+        10524,
+        10525,
+        10526,
+        10534,
+        10535,
+        10536,
+        10537
+      ],
+      "always" : [
+        { "item" : 25201, "name" : "item.soul_fragment_25201", "min" : 2, "max" : 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Riyl Shade",
+  "tables" : [
+    {
+      "source" : "Riyl Shade",
+      "npcIds" : [
+        1281,
+        1282
+      ],
+      "always" : [
+        { "item" : 3400, "name" : "item.riyl_remains", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

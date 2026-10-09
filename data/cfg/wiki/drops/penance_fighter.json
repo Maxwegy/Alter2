@@ -1,0 +1,25 @@
+{
+  "page" : "Penance Fighter",
+  "tables" : [
+    {
+      "source" : "Penance Fighter",
+      "npcIds" : [
+        1667,
+        5739,
+        5740,
+        5741,
+        5742,
+        5743,
+        5744,
+        5745,
+        5746,
+        5747
+      ],
+      "always" : [
+        { "item" : 10531, "name" : "item.green_egg", "min" : 2, "max" : 2 },
+        { "item" : 10532, "name" : "item.red_egg", "min" : 2, "max" : 2 },
+        { "item" : 10533, "name" : "item.blue_egg", "min" : 2, "max" : 2 }
+      ]
+    }
+  ]
+}

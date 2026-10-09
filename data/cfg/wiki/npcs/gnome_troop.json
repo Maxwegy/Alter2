@@ -1,0 +1,61 @@
+{
+  "page" : "Gnome troop",
+  "versions" : [
+    {
+      "source" : "Gnome troop#Level 1",
+      "version" : "Level 1",
+      "ids" : [
+        4973,
+        4974
+      ],
+      "names" : [
+        "npc.gnome_troop",
+        "npc.gnome_troop_4974"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 5, "magicDefence" : 2, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 2, "strengthBonus" : 3, "rangedStrength" : 2, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Gnome troop#Level 3",
+      "version" : "Level 3",
+      "ids" : [
+        5966,
+        5967
+      ],
+      "names" : [
+        "npc.gnome_troop_5966",
+        "npc.gnome_troop_5967"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 5, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 4, "crushDefence" : 5, "magicDefence" : 2, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 2, "strengthBonus" : 3, "rangedStrength" : 2, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

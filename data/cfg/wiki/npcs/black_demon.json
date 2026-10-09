@@ -1,0 +1,151 @@
+{
+  "page" : "Black demon",
+  "versions" : [
+    {
+      "source" : "Black demon#Level 172",
+      "version" : "Level 172",
+      "ids" : [
+        240,
+        2048,
+        2049,
+        2050,
+        2051,
+        2052,
+        5874,
+        5875,
+        5876,
+        5877
+      ],
+      "names" : [
+        "npc.black_demon",
+        "npc.black_demon_2048",
+        "npc.black_demon_2049",
+        "npc.black_demon_2050",
+        "npc.black_demon_2051",
+        "npc.black_demon_2052",
+        "npc.black_demon_5874",
+        "npc.black_demon_5875",
+        "npc.black_demon_5876",
+        "npc.black_demon_5877"
+      ],
+      "combatLevel" : 172,
+      "hitpoints" : 157,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 145, "strength" : 148, "defence" : 152, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 157.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Black demon#Level 178",
+      "version" : "Level 178",
+      "ids" : [
+        7243
+      ],
+      "names" : [
+        "npc.black_demon_7243"
+      ],
+      "combatLevel" : 178,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 145, "strength" : 148, "defence" : 175, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 160.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Black demon#Level 184",
+      "version" : "Level 184",
+      "ids" : [
+        7242
+      ],
+      "names" : [
+        "npc.black_demon_7242"
+      ],
+      "combatLevel" : 184,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 155, "strength" : 158, "defence" : 162, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 170.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Black demon#Level 188",
+      "version" : "Level 188",
+      "ids" : [
+        7874,
+        7875,
+        7876
+      ],
+      "names" : [
+        "npc.black_demon_7874",
+        "npc.black_demon_7875",
+        "npc.black_demon_7876"
+      ],
+      "combatLevel" : 188,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 3,
+      "levels" : { "attack" : 145, "strength" : 165, "defence" : 152, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 200.0, "categories" : [ "Black Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

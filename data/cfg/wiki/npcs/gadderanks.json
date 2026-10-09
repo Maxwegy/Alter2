@@ -1,0 +1,35 @@
+{
+  "page" : "Gadderanks",
+  "versions" : [
+    {
+      "source" : "Gadderanks",
+      "ids" : [
+        4483,
+        4484,
+        4485,
+        9635
+      ],
+      "names" : [
+        "npc.gadderanks",
+        "npc.gadderanks_4484",
+        "npc.gadderanks_4485",
+        "npc.gadderanks_9635"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 10, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

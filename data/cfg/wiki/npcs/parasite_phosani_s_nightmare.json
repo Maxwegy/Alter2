@@ -1,0 +1,59 @@
+{
+  "page" : "Parasite (Phosani's Nightmare)",
+  "versions" : [
+    {
+      "source" : "Parasite (Phosani's Nightmare)#Regular",
+      "version" : "Regular",
+      "ids" : [
+        9468
+      ],
+      "names" : [
+        "npc.parasite_9468"
+      ],
+      "combatLevel" : 129,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 60, "ranged" : 60, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 84, "rangedAttack" : 84, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 20, "magicDefence" : 120, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 142, "magicDamage" : 142 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Parasite (Phosani's Nightmare)#Weakened",
+      "version" : "Weakened",
+      "ids" : [
+        9469
+      ],
+      "names" : [
+        "npc.parasite_9469"
+      ],
+      "combatLevel" : 91,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 40, "ranged" : 60, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 44, "rangedAttack" : 44, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 10, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 102, "magicDamage" : 102 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

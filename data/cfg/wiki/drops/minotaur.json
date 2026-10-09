@@ -1,0 +1,48 @@
+{
+  "page" : "Minotaur",
+  "tables" : [
+    {
+      "source" : "Minotaur",
+      "npcIds" : [
+        2481,
+        2482,
+        2483
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 437, "name" : "item.copper_ore_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 6, 101 ], "wiki" : "6/101" },
+        { "item" : 439, "name" : "item.tin_ore_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 6, 101 ], "wiki" : "6/101" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 1, "max" : 1, "chance" : [ 1, 101 ], "wiki" : "1/101" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 12928 ], "wiki" : "1/12,928" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 3, "max" : 3, "chance" : [ 3, 101 ], "wiki" : "3/101" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 5, "max" : 14, "chance" : [ 10, 101 ], "wiki" : "10/101" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 12928 ], "wiki" : "1/12,928" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 12928 ], "wiki" : "1/12,928" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2, "max" : 2, "chance" : [ 11, 101 ], "wiki" : "11/101" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 84, "chance" : [ 7, 101 ], "wiki" : "7/101" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 7, "max" : 7, "chance" : [ 20, 101 ], "wiki" : "20/101" },
+        { "item" : 1155, "name" : "item.bronze_full_helm", "min" : 1, "max" : 1, "chance" : [ 10, 101 ], "wiki" : "10/101" },
+        { "item" : 1205, "name" : "item.bronze_dagger", "min" : 1, "max" : 1, "chance" : [ 4, 101 ], "wiki" : "4/101" },
+        { "item" : 1237, "name" : "item.bronze_spear", "min" : 1, "max" : 1, "chance" : [ 10, 101 ], "wiki" : "10/101" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 206848 ], "wiki" : "1/206,848" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 55159467 ], "wiki" : "1/551,594.67" },
+        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 5, 101 ], "wiki" : "5/101" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 430933 ], "wiki" : "1/4,309.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 6464 ], "wiki" : "1/6,464" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1616 ], "wiki" : "1/1,616" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 808 ], "wiki" : "1/808" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 404 ], "wiki" : "1/404" },
+        { "item" : 2142, "name" : "item.cooked_meat", "min" : 1, "max" : 1, "chance" : [ 3, 101 ], "wiki" : "3/101" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 413696 ], "wiki" : "1/413,696" },
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 101 ], "wiki" : "1/101" },
+        { "item" : 7937, "name" : "item.pure_essence_noted", "min" : 15, "max" : 15, "noted" : true, "chance" : [ 5, 101 ], "wiki" : "5/101" },
+        { "item" : 9007, "name" : "item.right_skull_half", "min" : 1, "max" : 1, "chance" : [ 3, 101 ], "wiki" : "3/101" },
+        { "item" : 13457, "name" : "item.ensouled_minotaur_head_13457", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" }
+      ]
+    }
+  ]
+}

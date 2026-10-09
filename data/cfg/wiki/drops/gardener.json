@@ -1,0 +1,17 @@
+{
+  "page" : "Gardener",
+  "tables" : [
+    {
+      "source" : "Gardener",
+      "npcIds" : [
+        3275,
+        3276,
+        3651,
+        5512
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

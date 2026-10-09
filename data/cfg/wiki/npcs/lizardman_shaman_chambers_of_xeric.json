@@ -1,0 +1,67 @@
+{
+  "page" : "Lizardman shaman (Chambers of Xeric)",
+  "versions" : [
+    {
+      "source" : "Lizardman shaman (Chambers of Xeric)#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7573,
+        7574
+      ],
+      "names" : [
+        "npc.lizardman_shaman_7573",
+        "npc.lizardman_shaman_7574"
+      ],
+      "hitpoints" : 285,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 195, "strength" : 195, "defence" : 315, "ranged" : 195, "magic" : 195 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 56, "stabDefence" : 102, "slashDefence" : 160, "crushDefence" : 150, "magicDefence" : 160, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 58, "strengthBonus" : 52, "rangedStrength" : 49, "magicDamage" : 0 },
+      "maxHits" : [
+        "65 (unconfirmed)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "slayer" : { "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] }
+    },
+    {
+      "source" : "Lizardman shaman (Chambers of Xeric)#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7573,
+        7574
+      ],
+      "names" : [
+        "npc.lizardman_shaman_7573",
+        "npc.lizardman_shaman_7574"
+      ],
+      "hitpoints" : 190,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 210, "ranged" : 130, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 56, "stabDefence" : 102, "slashDefence" : 160, "crushDefence" : 150, "magicDefence" : 160, "rangedDefence" : 0, "lightRangedDefence" : -10, "heavyRangedDefence" : 0, "attackBonus" : 58, "strengthBonus" : 52, "rangedStrength" : 49, "magicDamage" : 0 },
+      "maxHits" : [
+        "65 (unconfirmed)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "slayer" : { "categories" : [ "Lizardmen" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] }
+    }
+  ]
+}

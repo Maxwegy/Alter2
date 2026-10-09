@@ -1,0 +1,129 @@
+{
+  "page" : "Tekton",
+  "versions" : [
+    {
+      "source" : "Tekton#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        7543
+      ],
+      "names" : [
+        "npc.tekton_enraged"
+      ],
+      "hitpoints" : 300,
+      "attackSpeed" : 3,
+      "size" : 4,
+      "levels" : { "attack" : 390, "strength" : 390, "defence" : 205, "ranged" : 1, "magic" : 205 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 280, "slashDefence" : 290, "crushDefence" : 180, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 64, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "59"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Slash",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 20 }
+    },
+    {
+      "source" : "Tekton#Enraged (Challenge Mode)",
+      "version" : "Enraged (Challenge Mode)",
+      "ids" : [
+        7544
+      ],
+      "names" : [
+        "npc.tekton_enraged_7544"
+      ],
+      "hitpoints" : 450,
+      "attackSpeed" : 3,
+      "size" : 4,
+      "levels" : { "attack" : 585, "strength" : 585, "defence" : 246, "ranged" : 1, "magic" : 246 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 280, "slashDefence" : 290, "crushDefence" : 180, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 64, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "87"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Slash",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 20 }
+    },
+    {
+      "source" : "Tekton#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7540,
+        7541,
+        7542
+      ],
+      "names" : [
+        "npc.tekton",
+        "npc.tekton_7541",
+        "npc.tekton_7542"
+      ],
+      "hitpoints" : 300,
+      "attackSpeed" : 3,
+      "size" : 4,
+      "levels" : { "attack" : 390, "strength" : 390, "defence" : 205, "ranged" : 1, "magic" : 205 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 155, "slashDefence" : 165, "crushDefence" : 105, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 64, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "52"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Slash",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 20 }
+    },
+    {
+      "source" : "Tekton#Normal (Challenge Mode)",
+      "version" : "Normal (Challenge Mode)",
+      "ids" : [
+        7545
+      ],
+      "names" : [
+        "npc.tekton_7545"
+      ],
+      "hitpoints" : 450,
+      "attackSpeed" : 3,
+      "size" : 4,
+      "levels" : { "attack" : 585, "strength" : 585, "defence" : 246, "ranged" : 1, "magic" : 246 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 155, "slashDefence" : 165, "crushDefence" : 105, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 64, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "78"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Slash",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 20 }
+    }
+  ]
+}

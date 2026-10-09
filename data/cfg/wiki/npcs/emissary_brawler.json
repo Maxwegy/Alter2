@@ -1,0 +1,59 @@
+{
+  "page" : "Emissary Brawler",
+  "versions" : [
+    {
+      "source" : "Emissary Brawler#Level 74",
+      "version" : "Level 74",
+      "ids" : [
+        13773,
+        13774
+      ],
+      "names" : [
+        "npc.emissary_brawler",
+        "npc.emissary_brawler_13774"
+      ],
+      "combatLevel" : 74,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 50, "defence" : 70, "ranged" : 1, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 20, "magicDefence" : 5, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 40, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Emissary Brawler#Level 86",
+      "version" : "Level 86",
+      "ids" : [
+        13775,
+        13776
+      ],
+      "names" : [
+        "npc.emissary_brawler_13775",
+        "npc.emissary_brawler_13776"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 55,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 15 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 20, "magicDefence" : 5, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 40, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

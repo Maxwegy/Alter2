@@ -1,0 +1,396 @@
+{
+  "page" : "Crystal impling",
+  "versions" : [
+    {
+      "source" : "Crystal impling#Andy",
+      "version" : "Andy",
+      "ids" : [
+        8743
+      ],
+      "names" : [
+        "npc.crystal_impling_8743"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Damo",
+      "version" : "Damo",
+      "ids" : [
+        8754
+      ],
+      "names" : [
+        "npc.crystal_impling_8754"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Hingy",
+      "version" : "Hingy",
+      "ids" : [
+        8746
+      ],
+      "names" : [
+        "npc.crystal_impling_8746"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Ian",
+      "version" : "Ian",
+      "ids" : [
+        8752
+      ],
+      "names" : [
+        "npc.crystal_impling_8752"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Jamie",
+      "version" : "Jamie",
+      "ids" : [
+        8753
+      ],
+      "names" : [
+        "npc.crystal_impling_8753"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Joey",
+      "version" : "Joey",
+      "ids" : [
+        8744
+      ],
+      "names" : [
+        "npc.crystal_impling_8744"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Johnny",
+      "version" : "Johnny",
+      "ids" : [
+        8741
+      ],
+      "names" : [
+        "npc.crystal_impling"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Junior",
+      "version" : "Junior",
+      "ids" : [
+        8742
+      ],
+      "names" : [
+        "npc.crystal_impling_8742"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Matty",
+      "version" : "Matty",
+      "ids" : [
+        8750
+      ],
+      "names" : [
+        "npc.crystal_impling_8750"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Neil",
+      "version" : "Neil",
+      "ids" : [
+        8748
+      ],
+      "names" : [
+        "npc.crystal_impling_8748"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Stace",
+      "version" : "Stace",
+      "ids" : [
+        8751
+      ],
+      "names" : [
+        "npc.crystal_impling_8751"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Steve-o",
+      "version" : "Steve-o",
+      "ids" : [
+        8756
+      ],
+      "names" : [
+        "npc.crystal_impling_8756"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Stewie",
+      "version" : "Stewie",
+      "ids" : [
+        8757
+      ],
+      "names" : [
+        "npc.crystal_impling_8757"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Trouble",
+      "version" : "Trouble",
+      "ids" : [
+        8745
+      ],
+      "names" : [
+        "npc.crystal_impling_8745"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Xander",
+      "version" : "Xander",
+      "ids" : [
+        8755
+      ],
+      "names" : [
+        "npc.crystal_impling_8755"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Yanny",
+      "version" : "Yanny",
+      "ids" : [
+        8749
+      ],
+      "names" : [
+        "npc.crystal_impling_8749"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Crystal impling#Zolty",
+      "version" : "Zolty",
+      "ids" : [
+        8747
+      ],
+      "names" : [
+        "npc.crystal_impling_8747"
+      ],
+      "hitpoints" : 10,
+      "attackSpeed" : 0,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 0, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : -10, "strengthBonus" : -10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "N/A"
+      ],
+      "attackStyles" : [
+        "N/A"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

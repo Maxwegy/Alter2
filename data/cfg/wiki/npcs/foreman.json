@@ -1,0 +1,30 @@
+{
+  "page" : "Foreman",
+  "versions" : [
+    {
+      "source" : "Foreman",
+      "ids" : [
+        1429
+      ],
+      "names" : [
+        "npc.foreman"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 1, "crushDefence" : 1, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

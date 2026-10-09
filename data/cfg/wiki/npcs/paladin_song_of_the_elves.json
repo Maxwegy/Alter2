@@ -1,0 +1,55 @@
+{
+  "page" : "Paladin (Song of the Elves)",
+  "versions" : [
+    {
+      "source" : "Paladin (Song of the Elves)#Level 121",
+      "version" : "Level 121",
+      "ids" : [
+        8850
+      ],
+      "names" : [
+        "npc.paladin_8850"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 82,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 126, "defence" : 64, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 87, "slashDefence" : 84, "crushDefence" : 76, "magicDefence" : -10, "rangedDefence" : 79, "lightRangedDefence" : 79, "heavyRangedDefence" : 79, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Paladin (Song of the Elves)#Level 49",
+      "version" : "Level 49",
+      "ids" : [
+        8849
+      ],
+      "names" : [
+        "npc.paladin_8849"
+      ],
+      "combatLevel" : 49,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 134, "strength" : 48, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "page" : "Pestilent Bloat",
+  "versions" : [
+    {
+      "source" : "Pestilent Bloat#Entry",
+      "version" : "Entry",
+      "ids" : [
+        10812
+      ],
+      "names" : [
+        "npc.pestilent_bloat_10812"
+      ],
+      "combatLevel" : 312,
+      "hitpoints" : 1280,
+      "attackSpeed" : 1,
+      "size" : 5,
+      "levels" : { "attack" : 100, "strength" : 180, "defence" : 80, "ranged" : 72, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 72, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 10, "magicDefence" : 600, "rangedDefence" : 800, "lightRangedDefence" : 800, "heavyRangedDefence" : 800, "attackBonus" : 60, "strengthBonus" : 46, "rangedStrength" : 2, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (Flies)",
+        "40 (Stomp)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ]
+    },
+    {
+      "source" : "Pestilent Bloat#Hard",
+      "version" : "Hard",
+      "ids" : [
+        10813
+      ],
+      "names" : [
+        "npc.pestilent_bloat_10813"
+      ],
+      "combatLevel" : 1044,
+      "hitpoints" : 2400,
+      "attackSpeed" : 1,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 340, "defence" : 100, "ranged" : 180, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 180, "stabDefence" : 40, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 800, "lightRangedDefence" : 800, "heavyRangedDefence" : 800, "attackBonus" : 150, "strengthBonus" : 82, "rangedStrength" : 4, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (Flies)",
+        "80 (Stomp)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ]
+    },
+    {
+      "source" : "Pestilent Bloat#Normal",
+      "version" : "Normal",
+      "ids" : [
+        8359
+      ],
+      "names" : [
+        "npc.pestilent_bloat"
+      ],
+      "combatLevel" : 870,
+      "hitpoints" : 2000,
+      "attackSpeed" : 1,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 340, "defence" : 100, "ranged" : 180, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 180, "stabDefence" : 40, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 800, "lightRangedDefence" : 800, "heavyRangedDefence" : 800, "attackBonus" : 150, "strengthBonus" : 82, "rangedStrength" : 4, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (Flies)",
+        "80 (Stomp)"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page" : "Dessous (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Dessous (Nightmare Zone)",
+      "npcIds" : [
+        1128,
+        6344
+      ],
+      "always" : [
+        { "item" : 3325, "name" : "item.vampyre_dust", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

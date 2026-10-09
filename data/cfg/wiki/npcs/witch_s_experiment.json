@@ -1,0 +1,105 @@
+{
+  "page" : "Witch's experiment",
+  "versions" : [
+    {
+      "source" : "Witch's experiment#Bear",
+      "version" : "Bear",
+      "ids" : [
+        3998
+      ],
+      "names" : [
+        "npc.witchs_experiment_third_form"
+      ],
+      "combatLevel" : 42,
+      "hitpoints" : 41,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 38, "strength" : 30, "defence" : 39, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment#Skavid",
+      "version" : "Skavid",
+      "ids" : [
+        3996
+      ],
+      "names" : [
+        "npc.witchs_experiment"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 21,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 10, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment#Spider",
+      "version" : "Spider",
+      "ids" : [
+        3997
+      ],
+      "names" : [
+        "npc.witchs_experiment_second_form"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 31,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 28, "strength" : 20, "defence" : 29, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Witch's experiment#Wolf",
+      "version" : "Wolf",
+      "ids" : [
+        3999
+      ],
+      "names" : [
+        "npc.witchs_experiment_fourth_form"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 48, "strength" : 40, "defence" : 49, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

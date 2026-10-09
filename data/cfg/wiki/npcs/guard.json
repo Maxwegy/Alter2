@@ -1,0 +1,681 @@
+{
+  "page" : "Guard",
+  "versions" : [
+    {
+      "source" : "Guard#Ardougne 1",
+      "version" : "Ardougne 1",
+      "ids" : [
+        5418
+      ],
+      "names" : [
+        "npc.guard_5418"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Ardougne 2",
+      "version" : "Ardougne 2",
+      "ids" : [
+        11937
+      ],
+      "names" : [
+        "npc.guard_11937"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Ardougne 3",
+      "version" : "Ardougne 3",
+      "ids" : [
+        11938
+      ],
+      "names" : [
+        "npc.guard_11938"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Ardougne 4",
+      "version" : "Ardougne 4",
+      "ids" : [
+        11939
+      ],
+      "names" : [
+        "npc.guard_11939"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Edgeville 1",
+      "version" : "Edgeville 1",
+      "ids" : [
+        3254
+      ],
+      "names" : [
+        "npc.guard_3254"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Edgeville 2",
+      "version" : "Edgeville 2",
+      "ids" : [
+        11922
+      ],
+      "names" : [
+        "npc.guard_11922"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Edgeville 3",
+      "version" : "Edgeville 3",
+      "ids" : [
+        11923
+      ],
+      "names" : [
+        "npc.guard_11923"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Edgeville 4",
+      "version" : "Edgeville 4",
+      "ids" : [
+        11924
+      ],
+      "names" : [
+        "npc.guard_11924"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (battleaxe)",
+      "version" : "Falador (battleaxe)",
+      "ids" : [
+        3271
+      ],
+      "names" : [
+        "npc.guard_3271"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -4, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (crossbow, 1)",
+      "version" : "Falador (crossbow, 1)",
+      "ids" : [
+        3270
+      ],
+      "names" : [
+        "npc.guard_3270"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 26, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 13, "slashDefence" : 17, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 10, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (crossbow, 2)",
+      "version" : "Falador (crossbow, 2)",
+      "ids" : [
+        11945
+      ],
+      "names" : [
+        "npc.guard_11945"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 26, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 13, "slashDefence" : 17, "crushDefence" : 14, "magicDefence" : -4, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 10, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (longbow, 1)",
+      "version" : "Falador (longbow, 1)",
+      "ids" : [
+        11947
+      ],
+      "names" : [
+        "npc.guard_11947"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 26, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -4, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (longbow, 2)",
+      "version" : "Falador (longbow, 2)",
+      "ids" : [
+        3273
+      ],
+      "names" : [
+        "npc.guard_3273"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 26, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -4, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (longbow, 3)",
+      "version" : "Falador (longbow, 3)",
+      "ids" : [
+        3274
+      ],
+      "names" : [
+        "npc.guard_3274"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 26, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -4, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (sword, 1)",
+      "version" : "Falador (sword, 1)",
+      "ids" : [
+        3269
+      ],
+      "names" : [
+        "npc.guard_3269"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (sword, 2)",
+      "version" : "Falador (sword, 2)",
+      "ids" : [
+        11942
+      ],
+      "names" : [
+        "npc.guard_11942"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (sword, 3)",
+      "version" : "Falador (sword, 3)",
+      "ids" : [
+        11943
+      ],
+      "names" : [
+        "npc.guard_11943"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (sword, 4)",
+      "version" : "Falador (sword, 4)",
+      "ids" : [
+        11944
+      ],
+      "names" : [
+        "npc.guard_11944"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Falador (unarmed)",
+      "version" : "Falador (unarmed)",
+      "ids" : [
+        11946
+      ],
+      "names" : [
+        "npc.guard_11946"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 22,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 15, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -4, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 6, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 1",
+      "version" : "Varrock 1",
+      "ids" : [
+        11911
+      ],
+      "names" : [
+        "npc.guard_11911"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 2",
+      "version" : "Varrock 2",
+      "ids" : [
+        11912
+      ],
+      "names" : [
+        "npc.guard_11912"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 3",
+      "version" : "Varrock 3",
+      "ids" : [
+        11913
+      ],
+      "names" : [
+        "npc.guard_11913"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 4",
+      "version" : "Varrock 4",
+      "ids" : [
+        11914
+      ],
+      "names" : [
+        "npc.guard_11914"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 5",
+      "version" : "Varrock 5",
+      "ids" : [
+        11915
+      ],
+      "names" : [
+        "npc.guard_11915"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 6",
+      "version" : "Varrock 6",
+      "ids" : [
+        11916
+      ],
+      "names" : [
+        "npc.guard_11916"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard#Varrock 7",
+      "version" : "Varrock 7",
+      "ids" : [
+        11917
+      ],
+      "names" : [
+        "npc.guard_11917"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 30, "crushDefence" : 25, "magicDefence" : -9, "rangedDefence" : 25, "lightRangedDefence" : 25, "heavyRangedDefence" : 25, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

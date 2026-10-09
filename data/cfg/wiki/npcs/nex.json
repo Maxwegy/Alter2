@@ -1,0 +1,46 @@
+{
+  "page" : "Nex",
+  "versions" : [
+    {
+      "source" : "Nex",
+      "ids" : [
+        11278,
+        11279,
+        11280,
+        11281,
+        11282
+      ],
+      "names" : [
+        "npc.nex",
+        "npc.nex_11279",
+        "npc.nex_11280",
+        "npc.nex_11281",
+        "npc.nex_11282"
+      ],
+      "combatLevel" : 1001,
+      "hitpoints" : 3400,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 315, "strength" : 200, "defence" : 260, "ranged" : 350, "magic" : 230 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 150, "stabDefence" : 40, "slashDefence" : 140, "crushDefence" : 60, "magicDefence" : 300, "rangedDefence" : 190, "lightRangedDefence" : 190, "heavyRangedDefence" : 150, "attackBonus" : 200, "strengthBonus" : 20, "rangedStrength" : 5, "magicDamage" : 22 },
+      "maxHits" : [
+        "33 (Magic)",
+        "60 (Ranged)",
+        "27 (Melee)",
+        "50 (Smoke Dash)",
+        "50 (Shadow Smash)",
+        "80 (Blood Sacrifice)",
+        "60 (Containment)",
+        "75 (Ice Prison)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

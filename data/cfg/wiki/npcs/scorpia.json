@@ -1,0 +1,32 @@
+{
+  "page" : "Scorpia",
+  "versions" : [
+    {
+      "source" : "Scorpia",
+      "ids" : [
+        6615
+      ],
+      "names" : [
+        "npc.scorpia"
+      ],
+      "combatLevel" : 225,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "respawnTicks" : 14,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 180, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 246, "slashDefence" : 284, "crushDefence" : 284, "magicDefence" : 44, "rangedDefence" : 284, "lightRangedDefence" : 284, "heavyRangedDefence" : 284, "attackBonus" : 60, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 260.0, "categories" : [ "Bosses", "Scorpions" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

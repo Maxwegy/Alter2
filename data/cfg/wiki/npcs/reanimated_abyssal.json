@@ -1,0 +1,32 @@
+{
+  "page" : "Reanimated abyssal",
+  "versions" : [
+    {
+      "source" : "Reanimated abyssal",
+      "ids" : [
+        7038
+      ],
+      "names" : [
+        "npc.reanimated_abyssal"
+      ],
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 97, "strength" : 67, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 85, "xp" : 35.0, "categories" : [ "Abyssal Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve", "vannaka" ] }
+    }
+  ]
+}

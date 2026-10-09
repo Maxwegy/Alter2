@@ -1,0 +1,15 @@
+{
+  "page" : "Skraeling (Etceteria)",
+  "tables" : [
+    {
+      "source" : "Skraeling (Etceteria)",
+      "npcIds" : [
+        773,
+        774
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

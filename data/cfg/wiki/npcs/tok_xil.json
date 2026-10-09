@@ -1,0 +1,67 @@
+{
+  "page" : "Tok-Xil",
+  "versions" : [
+    {
+      "source" : "Tok-Xil#Spawn point",
+      "version" : "Spawn point",
+      "ids" : [
+        2194,
+        3122
+      ],
+      "names" : [
+        "npc.tokxil_2194",
+        "npc.tokxil_3122"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 120, "defence" : 60, "ranged" : 120, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Melee)",
+        "14 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 40.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Tok-Xil#Standard",
+      "version" : "Standard",
+      "ids" : [
+        2193,
+        3121
+      ],
+      "names" : [
+        "npc.tokxil_2193",
+        "npc.tokxil_3121"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 120, "defence" : 60, "ranged" : 120, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Melee)",
+        "14 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 40.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

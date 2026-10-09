@@ -1,0 +1,33 @@
+{
+  "page" : "Bryophyta",
+  "versions" : [
+    {
+      "source" : "Bryophyta",
+      "ids" : [
+        8195
+      ],
+      "names" : [
+        "npc.bryophyta"
+      ],
+      "combatLevel" : 128,
+      "hitpoints" : 115,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 130, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 33, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Melee)",
+        "10 (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 115.0, "categories" : [ "Moss Giants" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

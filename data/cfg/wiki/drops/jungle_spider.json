@@ -1,0 +1,16 @@
+{
+  "page" : "Jungle spider",
+  "tables" : [
+    {
+      "source" : "Jungle spider",
+      "npcIds" : [
+        3020,
+        6267,
+        6271
+      ],
+      "always" : [
+        { "item" : 6291, "name" : "item.spider_carcass", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

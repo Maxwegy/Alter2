@@ -1,0 +1,22 @@
+{
+  "page" : "Ice spider",
+  "tables" : [
+    {
+      "source" : "Ice spider",
+      "npcIds" : [
+        3022,
+        10722,
+        13798
+      ],
+      "main" : [
+        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 268 ], "wiki" : "1/268" },
+        { "item" : 30105, "name" : "item.tooth_half_of_key_30105", "min" : 1, "max" : 1, "chance" : [ 1, 964 ], "wiki" : "1/964" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 208 ], "wiki" : "1/208" }
+      ]
+    }
+  ]
+}

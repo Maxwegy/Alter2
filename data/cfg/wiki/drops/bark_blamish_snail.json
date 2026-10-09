@@ -1,0 +1,15 @@
+{
+  "page" : "Bark Blamish Snail",
+  "tables" : [
+    {
+      "source" : "Bark Blamish Snail",
+      "npcIds" : [
+        2648
+      ],
+      "always" : [
+        { "item" : 3353, "name" : "item.blamish_bark_shell", "min" : 1, "max" : 1 },
+        { "item" : 3365, "name" : "item.lean_snail", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

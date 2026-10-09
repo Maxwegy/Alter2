@@ -1,0 +1,61 @@
+{
+  "page" : "Bandit (Pollnivneach)",
+  "versions" : [
+    {
+      "source" : "Bandit (Pollnivneach)#Bearded",
+      "version" : "Bearded",
+      "ids" : [
+        736,
+        737
+      ],
+      "names" : [
+        "npc.bandit_736",
+        "npc.bandit_737"
+      ],
+      "combatLevel" : 41,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 50, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 9, "crushDefence" : 8, "magicDefence" : 10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 9, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Bandit (Pollnivneach)#No beard",
+      "version" : "No beard",
+      "ids" : [
+        734,
+        735
+      ],
+      "names" : [
+        "npc.bandit_734",
+        "npc.bandit_735"
+      ],
+      "combatLevel" : 56,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 59, "strength" : 70, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 9, "crushDefence" : 8, "magicDefence" : 10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 9, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

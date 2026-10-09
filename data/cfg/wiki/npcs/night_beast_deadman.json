@@ -1,0 +1,117 @@
+{
+  "page" : "Night beast (Deadman)",
+  "versions" : [
+    {
+      "source" : "Night beast (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12459
+      ],
+      "names" : [
+        "npc.night_beast_12459"
+      ],
+      "combatLevel" : 457,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 270, "strength" : 290, "defence" : 100, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 80, "crushDefence" : 120, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Night beast (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12459
+      ],
+      "names" : [
+        "npc.night_beast_12459"
+      ],
+      "combatLevel" : 362,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 270, "strength" : 290, "defence" : 220, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 80, "crushDefence" : 200, "magicDefence" : 190, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Night beast (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12459
+      ],
+      "names" : [
+        "npc.night_beast_12459"
+      ],
+      "combatLevel" : 332,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 270, "strength" : 290, "defence" : 100, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 80, "crushDefence" : 120, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "Night beast (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12459
+      ],
+      "names" : [
+        "npc.night_beast_12459"
+      ],
+      "combatLevel" : 332,
+      "hitpoints" : 500,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 270, "strength" : 290, "defence" : 1, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 80, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30 (Melee)",
+        "? (Magic)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

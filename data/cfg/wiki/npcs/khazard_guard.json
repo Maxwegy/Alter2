@@ -1,0 +1,117 @@
+{
+  "page" : "Khazard Guard",
+  "versions" : [
+    {
+      "source" : "Khazard Guard#Khazard 1",
+      "version" : "Khazard 1",
+      "ids" : [
+        1211,
+        12021,
+        12022,
+        12024
+      ],
+      "names" : [
+        "npc.khazard_guard_1211",
+        "npc.khazard_guard_12021",
+        "npc.khazard_guard_12022",
+        "npc.khazard_guard_12024"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 18, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 29, "crushDefence" : 21, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Khazard Guard#Khazard 2",
+      "version" : "Khazard 2",
+      "ids" : [
+        1208
+      ],
+      "names" : [
+        "npc.khazard_guard"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 18, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 29, "crushDefence" : 21, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Khazard Guard#Khazard 3",
+      "version" : "Khazard 3",
+      "ids" : [
+        12019,
+        12023
+      ],
+      "names" : [
+        "npc.khazard_guard_12019",
+        "npc.khazard_guard_12023"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 18, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 29, "crushDefence" : 21, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Khazard Guard#Khazard 4",
+      "version" : "Khazard 4",
+      "ids" : [
+        12020
+      ],
+      "names" : [
+        "npc.khazard_guard_12020"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 18, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 29, "crushDefence" : 21, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

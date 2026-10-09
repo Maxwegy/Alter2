@@ -1,0 +1,32 @@
+{
+  "page" : "Grey golem",
+  "versions" : [
+    {
+      "source" : "Grey golem",
+      "ids" : [
+        4744
+      ],
+      "names" : [
+        "npc.grey_golem"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 30, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 300, "slashDefence" : 1, "crushDefence" : 300, "magicDefence" : 300, "rangedDefence" : 300, "lightRangedDefence" : 300, "heavyRangedDefence" : 300, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ]
+    }
+  ]
+}

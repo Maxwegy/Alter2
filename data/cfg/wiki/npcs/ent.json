@@ -1,0 +1,58 @@
+{
+  "page" : "Ent",
+  "versions" : [
+    {
+      "source" : "Ent#Wilderness",
+      "ids" : [
+        6594
+      ],
+      "names" : [
+        "npc.ent"
+      ],
+      "combatLevel" : 101,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 116,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 95, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Ents" ], "assignedBy" : [ "krystilia" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Ent#Woodcutting Guild",
+      "ids" : [
+        7234
+      ],
+      "names" : [
+        "npc.ent_7234"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 151,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 40, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 35, "strengthBonus" : 65, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "17"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "page" : "Suqah",
+  "versions" : [
+    {
+      "source" : "Suqah#1",
+      "version" : "1",
+      "ids" : [
+        787
+      ],
+      "names" : [
+        "npc.suqah"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#2",
+      "version" : "2",
+      "ids" : [
+        788
+      ],
+      "names" : [
+        "npc.suqah_788"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#3",
+      "version" : "3",
+      "ids" : [
+        789
+      ],
+      "names" : [
+        "npc.suqah_789"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#4",
+      "version" : "4",
+      "ids" : [
+        790
+      ],
+      "names" : [
+        "npc.suqah_790"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#5",
+      "version" : "5",
+      "ids" : [
+        791
+      ],
+      "names" : [
+        "npc.suqah_791"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#6",
+      "version" : "6",
+      "ids" : [
+        792
+      ],
+      "names" : [
+        "npc.suqah_792"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Suqah#7",
+      "version" : "7",
+      "ids" : [
+        793
+      ],
+      "names" : [
+        "npc.suqah_793"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 105,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 90, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.6, "categories" : [ "Suqahs" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

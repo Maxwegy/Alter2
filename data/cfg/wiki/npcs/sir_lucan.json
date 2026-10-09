@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Lucan",
+  "versions" : [
+    {
+      "source" : "Sir Lucan",
+      "ids" : [
+        4342,
+        4357
+      ],
+      "names" : [
+        "npc.sir_lucan_4342",
+        "npc.sir_lucan_4357"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 105,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 110, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 275, "slashDefence" : 65, "crushDefence" : 45, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 40, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

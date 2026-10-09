@@ -1,0 +1,95 @@
+{
+  "page" : "TzTok-Jad (Deadman)",
+  "versions" : [
+    {
+      "source" : "TzTok-Jad (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13661
+      ],
+      "names" : [
+        "npc.tztokjad_13661"
+      ],
+      "combatLevel" : 1758,
+      "hitpoints" : 5000,
+      "attackSpeed" : 8,
+      "size" : 5,
+      "levels" : { "attack" : 640, "strength" : 770, "defence" : 200, "ranged" : 750, "magic" : 750 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "78 (Melee)",
+        "108"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "TzHaar" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "TzTok-Jad (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13661
+      ],
+      "names" : [
+        "npc.tztokjad_13661"
+      ],
+      "combatLevel" : 1527,
+      "hitpoints" : 5000,
+      "attackSpeed" : 8,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 350, "defence" : 200, "ranged" : 450, "magic" : 450 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "78 (Melee)",
+        "108"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "TzHaar" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "TzTok-Jad (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13661
+      ],
+      "names" : [
+        "npc.tztokjad_13661"
+      ],
+      "combatLevel" : 1008,
+      "hitpoints" : 2000,
+      "attackSpeed" : 8,
+      "size" : 5,
+      "levels" : { "attack" : 640, "strength" : 770, "defence" : 200, "ranged" : 750, "magic" : 750 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "78 (Melee)",
+        "108"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "TzHaar" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

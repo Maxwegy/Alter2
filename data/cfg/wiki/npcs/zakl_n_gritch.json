@@ -1,0 +1,34 @@
+{
+  "page" : "Zakl'n Gritch",
+  "versions" : [
+    {
+      "source" : "Zakl'n Gritch",
+      "ids" : [
+        3131
+      ],
+      "names" : [
+        "npc.zakln_gritch"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 83, "strength" : 76, "defence" : 127, "ranged" : 150, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 20, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 150.0, "categories" : [ "Lesser Demons" ], "assignedBy" : [ "chaeldar", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

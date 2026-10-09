@@ -1,0 +1,65 @@
+{
+  "page" : "Kalphite Soldier",
+  "versions" : [
+    {
+      "source" : "Kalphite Soldier#Kalphite Cave (task only)",
+      "version" : "Kalphite Cave (task only)",
+      "ids" : [
+        958
+      ],
+      "names" : [
+        "npc.kalphite_soldier_958"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 5, "magicDefence" : 50, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 90.0, "categories" : [ "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    },
+    {
+      "source" : "Kalphite Soldier#Kalphite Lair",
+      "version" : "Kalphite Lair",
+      "ids" : [
+        957
+      ],
+      "names" : [
+        "npc.kalphite_soldier_957"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 5, "magicDefence" : 50, "rangedDefence" : 30, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "kalphite"
+      ],
+      "slayer" : { "xp" : 90.0, "categories" : [ "Kalphite" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

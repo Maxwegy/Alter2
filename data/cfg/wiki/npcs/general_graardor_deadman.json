@@ -1,0 +1,112 @@
+{
+  "page" : "General Graardor (Deadman)",
+  "versions" : [
+    {
+      "source" : "General Graardor (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        12444
+      ],
+      "names" : [
+        "npc.general_graardor_12444"
+      ],
+      "combatLevel" : 624,
+      "hitpoints" : 2000,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 280, "strength" : 350, "defence" : 250, "ranged" : 350, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 201, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (Melee)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "General Graardor (Deadman)#Apocalypse",
+      "version" : "Apocalypse",
+      "ids" : [
+        12444
+      ],
+      "names" : [
+        "npc.general_graardor_12444"
+      ],
+      "combatLevel" : 624,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 280, "strength" : 350, "defence" : 250, "ranged" : 350, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 201, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (Melee)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "General Graardor (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        12444
+      ],
+      "names" : [
+        "npc.general_graardor_12444"
+      ],
+      "combatLevel" : 624,
+      "hitpoints" : 1500,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 280, "strength" : 350, "defence" : 250, "ranged" : 350, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 201, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (Melee)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "General Graardor (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        12444
+      ],
+      "names" : [
+        "npc.general_graardor_12444"
+      ],
+      "combatLevel" : 624,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 280, "strength" : 350, "defence" : 250, "ranged" : 350, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 100, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 90, "magicDefence" : 201, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 90, "attackBonus" : 120, "strengthBonus" : 43, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "60 (Melee)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

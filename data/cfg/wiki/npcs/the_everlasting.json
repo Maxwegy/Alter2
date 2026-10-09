@@ -1,0 +1,29 @@
+{
+  "page" : "The Everlasting",
+  "versions" : [
+    {
+      "source" : "The Everlasting",
+      "ids" : [
+        3474
+      ],
+      "names" : [
+        "npc.the_everlasting"
+      ],
+      "combatLevel" : 223,
+      "hitpoints" : 230,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 187, "strength" : 231, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

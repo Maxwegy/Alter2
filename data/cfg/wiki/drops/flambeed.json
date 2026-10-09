@@ -1,0 +1,14 @@
+{
+  "page" : "Flambeed",
+  "tables" : [
+    {
+      "source" : "Flambeed",
+      "npcIds" : [
+        4881
+      ],
+      "always" : [
+        { "item" : 1891, "name" : "item.cake", "min" : 5, "max" : 5 }
+      ]
+    }
+  ]
+}

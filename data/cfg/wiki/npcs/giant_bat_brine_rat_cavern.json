@@ -1,0 +1,32 @@
+{
+  "page" : "Giant bat (Brine Rat Cavern)",
+  "versions" : [
+    {
+      "source" : "Giant bat (Brine Rat Cavern)",
+      "ids" : [
+        4504
+      ],
+      "names" : [
+        "npc.giant_bat_4504"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 32,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 12, "magicDefence" : 10, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 32.0, "categories" : [ "Bats" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 10 }
+    }
+  ]
+}

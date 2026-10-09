@@ -1,0 +1,147 @@
+{
+  "page" : "Elidinis' Warden",
+  "versions" : [
+    {
+      "source" : "Elidinis' Warden#Active",
+      "version" : "Active",
+      "ids" : [
+        11753,
+        11754
+      ],
+      "names" : [
+        "npc.elidinis_warden_11753",
+        "npc.elidinis_warden_11754"
+      ],
+      "combatLevel" : 489,
+      "hitpoints" : 140,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 190, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Elidinis' Warden#Core-ejected",
+      "version" : "Core-ejected",
+      "ids" : [
+        11755
+      ],
+      "names" : [
+        "npc.elidinis_warden_11755"
+      ],
+      "combatLevel" : 489,
+      "hitpoints" : 4500,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 190, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Elidinis' Warden#Damaged",
+      "version" : "Damaged",
+      "ids" : [
+        11761
+      ],
+      "names" : [
+        "npc.elidinis_warden_11761"
+      ],
+      "combatLevel" : 544,
+      "hitpoints" : 880,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 230, "rangedAttack" : 300, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 40, "magicDamage" : 40 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Elidinis' Warden#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        11761
+      ],
+      "names" : [
+        "npc.elidinis_warden_11761"
+      ],
+      "combatLevel" : 544,
+      "hitpoints" : 880,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 180, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 230, "rangedAttack" : 300, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 40, "magicDamage" : 40 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Elidinis' Warden#Invulnerable",
+      "version" : "Invulnerable",
+      "ids" : [
+        11763
+      ],
+      "names" : [
+        "npc.elidinis_warden_11763"
+      ],
+      "combatLevel" : 544,
+      "hitpoints" : 880,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 230, "rangedAttack" : 300, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 40, "rangedStrength" : 40, "magicDamage" : 40 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

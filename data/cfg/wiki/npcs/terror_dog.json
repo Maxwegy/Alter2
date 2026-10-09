@@ -1,0 +1,59 @@
+{
+  "page" : "Terror dog",
+  "versions" : [
+    {
+      "source" : "Terror dog#Level 100",
+      "version" : "Level 100",
+      "ids" : [
+        6474
+      ],
+      "names" : [
+        "npc.terror_dog_6474"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 82,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 74, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 40, "xp" : 82.0, "categories" : [ "Terror Dogs" ], "assignedBy" : [ "vannaka" ] }
+    },
+    {
+      "source" : "Terror dog#Level 110",
+      "version" : "Level 110",
+      "ids" : [
+        6473
+      ],
+      "names" : [
+        "npc.terror_dog_6473"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 87,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 104, "defence" : 78, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 40, "xp" : 87.0, "categories" : [ "Terror Dogs" ], "assignedBy" : [ "vannaka" ] }
+    }
+  ]
+}

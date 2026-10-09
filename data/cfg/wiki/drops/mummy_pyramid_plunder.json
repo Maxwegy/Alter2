@@ -1,0 +1,18 @@
+{
+  "page" : "Mummy (Pyramid Plunder)",
+  "tables" : [
+    {
+      "source" : "Mummy (Pyramid Plunder)",
+      "npcIds" : [
+        7658,
+        7659,
+        7660,
+        7661,
+        7662
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

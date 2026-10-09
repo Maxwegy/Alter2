@@ -1,0 +1,66 @@
+{
+  "page" : "Amoxliatl",
+  "versions" : [
+    {
+      "source" : "Amoxliatl#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        13685
+      ],
+      "names" : [
+        "npc.amoxliatl"
+      ],
+      "combatLevel" : 263,
+      "hitpoints" : 520,
+      "attackSpeed" : 8,
+      "respawnTicks" : 29,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 80, "ranged" : 0, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 40, "magicDefence" : 100, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 15 },
+      "maxHits" : [
+        "22 (standard)<br/>34 (Icicle Crash)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 546.0, "categories" : [ "Bosses", "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    },
+    {
+      "source" : "Amoxliatl#Quest",
+      "version" : "Quest",
+      "ids" : [
+        13686
+      ],
+      "names" : [
+        "npc.amoxliatl_13686"
+      ],
+      "combatLevel" : 226,
+      "hitpoints" : 400,
+      "attackSpeed" : 8,
+      "size" : 3,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 60, "ranged" : 0, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 140, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 40, "magicDefence" : 100, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 5 },
+      "maxHits" : [
+        "16 (standard)<br/>? (Icicle Crash)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 420.0, "categories" : [ "Bosses", "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

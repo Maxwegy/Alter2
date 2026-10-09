@@ -1,0 +1,31 @@
+{
+  "page" : "Bloodthirsty Basilisk Sentinel",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Basilisk Sentinel",
+      "ids" : [
+        12566
+      ],
+      "names" : [
+        "npc.bloodthirsty_basilisk_sentinel"
+      ],
+      "combatLevel" : 537,
+      "hitpoints" : 780,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 411, "strength" : 411, "defence" : 274, "ranged" : 1, "magic" : 411 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 12, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 12 },
+      "maxHits" : [
+        "42"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "slayer" : { "level" : 60, "xp" : 8580.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

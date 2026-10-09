@@ -1,0 +1,55 @@
+{
+  "page" : "Husk",
+  "versions" : [
+    {
+      "source" : "Husk#Magic",
+      "version" : "Magic",
+      "ids" : [
+        9454
+      ],
+      "names" : [
+        "npc.husk"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 20, "ranged" : 80, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 80, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Husk#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        9455
+      ],
+      "names" : [
+        "npc.husk_9455"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 20, "ranged" : 80, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 80, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

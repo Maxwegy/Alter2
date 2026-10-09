@@ -1,0 +1,57 @@
+{
+  "page" : "Mourner",
+  "versions" : [
+    {
+      "source" : "Mourner#level 108",
+      "version" : "level 108",
+      "ids" : [
+        9017
+      ],
+      "names" : [
+        "npc.mourner_9017"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Mourner#level 11",
+      "version" : "level 11",
+      "ids" : [
+        9013
+      ],
+      "names" : [
+        "npc.mourner_9013"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 6, "slashDefence" : 6, "crushDefence" : 9, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 6, "strengthBonus" : 2, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "None" ], "assignedBy" : [ "none" ] }
+    }
+  ]
+}

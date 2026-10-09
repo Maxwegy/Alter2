@@ -1,0 +1,19 @@
+{
+  "page" : "Guardian (Chambers of Xeric)",
+  "tables" : [
+    {
+      "source" : "Guardian (Chambers of Xeric)",
+      "npcIds" : [
+        7569,
+        7570,
+        7571,
+        7572
+      ],
+      "always" : [
+        { "item" : 20903, "name" : "item.noxifer_seed", "min" : 3, "max" : 5 },
+        { "item" : 20906, "name" : "item.golpar_seed", "min" : 3, "max" : 5 },
+        { "item" : 20909, "name" : "item.buchu_seed", "min" : 3, "max" : 5 }
+      ]
+    }
+  ]
+}

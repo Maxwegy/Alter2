@@ -1,0 +1,14 @@
+{
+  "page" : "Lost barbarian",
+  "tables" : [
+    {
+      "source" : "Lost barbarian",
+      "npcIds" : [
+        2921
+      ],
+      "always" : [
+        { "item" : 11337, "name" : "item.mangled_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

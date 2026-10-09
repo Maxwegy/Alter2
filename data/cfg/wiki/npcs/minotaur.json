@@ -1,0 +1,82 @@
+{
+  "page" : "Minotaur",
+  "versions" : [
+    {
+      "source" : "Minotaur#Level 12",
+      "version" : "Level 12",
+      "ids" : [
+        2481
+      ],
+      "names" : [
+        "npc.minotaur"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Minotaurs" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Minotaur#Level 27",
+      "version" : "Level 27",
+      "ids" : [
+        2483
+      ],
+      "names" : [
+        "npc.minotaur_2483"
+      ],
+      "combatLevel" : 27,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : -21, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 22.0, "categories" : [ "Minotaurs" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Minotaur#Unused",
+      "version" : "Unused",
+      "ids" : [
+        2482
+      ],
+      "names" : [
+        "npc.minotaur_2482"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 15, "defence" : 15, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 1, "slashDefence" : 1, "crushDefence" : 1, "magicDefence" : 1, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 13.0, "categories" : [ "Minotaurs" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

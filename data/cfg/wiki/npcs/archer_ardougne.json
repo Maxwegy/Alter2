@@ -1,0 +1,30 @@
+{
+  "page" : "Archer (Ardougne)",
+  "versions" : [
+    {
+      "source" : "Archer (Ardougne)",
+      "ids" : [
+        3301
+      ],
+      "names" : [
+        "npc.archer_3301"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 50,
+      "attackSpeed" : 6,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 40, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 19, "stabDefence" : 18, "slashDefence" : 23, "crushDefence" : 27, "magicDefence" : 10, "rangedDefence" : 19, "lightRangedDefence" : 19, "heavyRangedDefence" : 19, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 8, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

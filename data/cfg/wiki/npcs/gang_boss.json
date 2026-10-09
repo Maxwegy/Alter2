@@ -1,0 +1,59 @@
+{
+  "page" : "Gang boss",
+  "versions" : [
+    {
+      "source" : "Gang boss#Female",
+      "version" : "Female",
+      "ids" : [
+        6900,
+        6901
+      ],
+      "names" : [
+        "npc.gang_boss",
+        "npc.gang_boss_6901"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 80,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Gang boss#Male",
+      "version" : "Male",
+      "ids" : [
+        6902,
+        6903
+      ],
+      "names" : [
+        "npc.gang_boss_6902",
+        "npc.gang_boss_6903"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 80,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 80, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 50, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

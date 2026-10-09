@@ -1,0 +1,83 @@
+{
+  "page" : "Xarpus",
+  "versions" : [
+    {
+      "source" : "Xarpus#Entry mode",
+      "ids" : [
+        10768
+      ],
+      "names" : [
+        "npc.xarpus_10768"
+      ],
+      "combatLevel" : 331,
+      "hitpoints" : 3400,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 50, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6 (38+ recoil)"
+      ],
+      "attackStyles" : [
+        "Typeless Ranged",
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Xarpus#Hard mode",
+      "ids" : [
+        10772
+      ],
+      "names" : [
+        "npc.xarpus_10772"
+      ],
+      "combatLevel" : 1160,
+      "hitpoints" : 6000,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 200, "ranged" : 100, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11 (50+ recoil)"
+      ],
+      "attackStyles" : [
+        "Typeless Ranged",
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    },
+    {
+      "source" : "Xarpus#Normal mode",
+      "ids" : [
+        8340
+      ],
+      "names" : [
+        "npc.xarpus_8340"
+      ],
+      "combatLevel" : 960,
+      "hitpoints" : 5000,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 250, "ranged" : 100, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11 (50+ recoil)"
+      ],
+      "attackStyles" : [
+        "Typeless Ranged",
+        "Poison"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

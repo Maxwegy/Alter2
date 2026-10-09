@@ -1,0 +1,31 @@
+{
+  "page" : "Jal-MejRah",
+  "versions" : [
+    {
+      "source" : "Jal-MejRah",
+      "ids" : [
+        7692
+      ],
+      "names" : [
+        "npc.jalmejrah"
+      ],
+      "combatLevel" : 85,
+      "hitpoints" : 25,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 55, "ranged" : 120, "magic" : 120 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 30, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : -20, "rangedDefence" : 45, "lightRangedDefence" : 45, "heavyRangedDefence" : 45, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 25.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

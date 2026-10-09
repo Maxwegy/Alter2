@@ -1,0 +1,259 @@
+{
+  "page" : "Penance Ranger",
+  "versions" : [
+    {
+      "source" : "Penance Ranger#Wave 1",
+      "version" : "Wave 1",
+      "ids" : [
+        1668,
+        5757
+      ],
+      "names" : [
+        "npc.penance_ranger",
+        "npc.penance_ranger_5757"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 22, "strength" : 1, "defence" : 21, "ranged" : 23, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 2",
+      "version" : "Wave 2",
+      "ids" : [
+        5758
+      ],
+      "names" : [
+        "npc.penance_ranger_5758"
+      ],
+      "combatLevel" : 25,
+      "hitpoints" : 28,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 27, "strength" : 1, "defence" : 29, "ranged" : 24, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 3",
+      "version" : "Wave 3",
+      "ids" : [
+        5759
+      ],
+      "names" : [
+        "npc.penance_ranger_5759"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 29,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 1, "defence" : 33, "ranged" : 34, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 4",
+      "version" : "Wave 4",
+      "ids" : [
+        5760
+      ],
+      "names" : [
+        "npc.penance_ranger_5760"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 34,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 41, "strength" : 1, "defence" : 42, "ranged" : 40, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 5",
+      "version" : "Wave 5",
+      "ids" : [
+        5761
+      ],
+      "names" : [
+        "npc.penance_ranger_5761"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 41,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 44, "strength" : 1, "defence" : 46, "ranged" : 45, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 6",
+      "version" : "Wave 6",
+      "ids" : [
+        5762
+      ],
+      "names" : [
+        "npc.penance_ranger_5762"
+      ],
+      "combatLevel" : 51,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 51, "strength" : 1, "defence" : 54, "ranged" : 52, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 7/10",
+      "version" : "Wave 7/10",
+      "ids" : [
+        5763
+      ],
+      "names" : [
+        "npc.penance_ranger_5763"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 63, "strength" : 1, "defence" : 61, "ranged" : 62, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 8",
+      "version" : "Wave 8",
+      "ids" : [
+        5764
+      ],
+      "names" : [
+        "npc.penance_ranger_5764"
+      ],
+      "combatLevel" : 64,
+      "hitpoints" : 54,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 69, "strength" : 1, "defence" : 68, "ranged" : 70, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    },
+    {
+      "source" : "Penance Ranger#Wave 9",
+      "version" : "Wave 9",
+      "ids" : [
+        5765
+      ],
+      "names" : [
+        "npc.penance_ranger_5765"
+      ],
+      "combatLevel" : 72,
+      "hitpoints" : 58,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 79, "strength" : 1, "defence" : 80, "ranged" : 78, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "penance"
+      ]
+    }
+  ]
+}

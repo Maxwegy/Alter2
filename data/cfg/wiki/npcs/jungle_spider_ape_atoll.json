@@ -1,0 +1,32 @@
+{
+  "page" : "Jungle spider (Ape Atoll)",
+  "versions" : [
+    {
+      "source" : "Jungle spider (Ape Atoll)",
+      "ids" : [
+        5243
+      ],
+      "names" : [
+        "npc.jungle_spider_5243"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 30, "defence" : 10, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 35.8, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

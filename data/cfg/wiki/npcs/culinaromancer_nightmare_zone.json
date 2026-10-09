@@ -1,0 +1,55 @@
+{
+  "page" : "Culinaromancer (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Culinaromancer (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6307
+      ],
+      "names" : [
+        "npc.culinaromancer_hard"
+      ],
+      "combatLevel" : 209,
+      "hitpoints" : 255,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 400, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : -10, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Culinaromancer (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6368
+      ],
+      "names" : [
+        "npc.culinaromancer_6368"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 100, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -10, "slashDefence" : -10, "crushDefence" : -10, "magicDefence" : -10, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

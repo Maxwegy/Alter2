@@ -1,0 +1,71 @@
+{
+  "page" : "Bloodveld",
+  "versions" : [
+    {
+      "source" : "Bloodveld#GWD",
+      "version" : "GWD",
+      "ids" : [
+        3138
+      ],
+      "names" : [
+        "npc.bloodveld_3138"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 134,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 46, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 50, "xp" : 134.0, "categories" : [ "Bloodveld" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Bloodveld#Normal",
+      "version" : "Normal",
+      "ids" : [
+        484,
+        485,
+        486,
+        487
+      ],
+      "names" : [
+        "npc.bloodveld_484",
+        "npc.bloodveld_485",
+        "npc.bloodveld_486",
+        "npc.bloodveld_487"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "respawnTicks" : 21,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 45, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "level" : 50, "xp" : 120.0, "categories" : [ "Bloodveld" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

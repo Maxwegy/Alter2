@@ -1,0 +1,89 @@
+{
+  "page" : "Flesh Crawler",
+  "versions" : [
+    {
+      "source" : "Flesh Crawler#Level 28",
+      "version" : "Level 28",
+      "ids" : [
+        2498
+      ],
+      "names" : [
+        "npc.flesh_crawler"
+      ],
+      "combatLevel" : 28,
+      "hitpoints" : 25,
+      "attackSpeed" : 3,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 60, "strength" : 2, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 15, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 25.0, "categories" : [ "Flesh Crawlers" ], "assignedBy" : [ "mazchna" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    },
+    {
+      "source" : "Flesh Crawler#Level 35",
+      "version" : "Level 35",
+      "ids" : [
+        2499
+      ],
+      "names" : [
+        "npc.flesh_crawler_2499"
+      ],
+      "combatLevel" : 35,
+      "hitpoints" : 25,
+      "attackSpeed" : 3,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 2, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 15, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 25.0, "categories" : [ "Flesh Crawlers" ], "assignedBy" : [ "mazchna" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    },
+    {
+      "source" : "Flesh Crawler#Level 41",
+      "version" : "Level 41",
+      "ids" : [
+        2500
+      ],
+      "names" : [
+        "npc.flesh_crawler_2500"
+      ],
+      "combatLevel" : 41,
+      "hitpoints" : 25,
+      "attackSpeed" : 3,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 2, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 15, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 25.0, "categories" : [ "Flesh Crawlers" ], "assignedBy" : [ "mazchna" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page" : "Spawn (Dragon Slayer II)",
+  "versions" : [
+    {
+      "source" : "Spawn (Dragon Slayer II)",
+      "ids" : [
+        8056
+      ],
+      "names" : [
+        "npc.spawn_8056"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 1, "rangedAttack" : 1, "stabDefence" : 5, "slashDefence" : 15, "crushDefence" : 15, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true }
+    }
+  ]
+}

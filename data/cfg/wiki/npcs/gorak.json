@@ -1,0 +1,57 @@
+{
+  "page" : "Gorak",
+  "versions" : [
+    {
+      "source" : "Gorak#GWD",
+      "version" : "GWD",
+      "ids" : [
+        3141
+      ],
+      "names" : [
+        "npc.gorak_3141"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 128,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 133, "strength" : 126, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush (100% prayer penetration)"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Gorak#Level 145",
+      "version" : "Level 145",
+      "ids" : [
+        1834
+      ],
+      "names" : [
+        "npc.gorak"
+      ],
+      "combatLevel" : 145,
+      "hitpoints" : 112,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 131, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush (100% prayer penetration)"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "page" : "Woman",
+  "versions" : [
+    {
+      "source" : "Woman#1",
+      "version" : "1",
+      "ids" : [
+        3111,
+        6990,
+        10728
+      ],
+      "names" : [
+        "npc.woman_3111",
+        "npc.woman_6990",
+        "npc.woman_10728"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 24,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#2",
+      "version" : "2",
+      "ids" : [
+        3112,
+        6991
+      ],
+      "names" : [
+        "npc.woman_3112",
+        "npc.woman_6991"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 24,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#3",
+      "version" : "3",
+      "ids" : [
+        3113,
+        6992
+      ],
+      "names" : [
+        "npc.woman_3113",
+        "npc.woman_6992"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 24,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#Shayzien, 1",
+      "version" : "Shayzien, 1",
+      "ids" : [
+        11053
+      ],
+      "names" : [
+        "npc.woman_11053"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#Shayzien, 2",
+      "version" : "Shayzien, 2",
+      "ids" : [
+        11054
+      ],
+      "names" : [
+        "npc.woman_11054"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#Varrock",
+      "version" : "Varrock",
+      "ids" : [
+        3015
+      ],
+      "names" : [
+        "npc.woman_3015"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 24,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

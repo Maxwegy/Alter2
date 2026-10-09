@@ -1,0 +1,30 @@
+{
+  "page" : "The Shaikahan",
+  "versions" : [
+    {
+      "source" : "The Shaikahan",
+      "ids" : [
+        4708
+      ],
+      "names" : [
+        "npc.the_shaikahan"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 10000, "rangedDefence" : 10000, "lightRangedDefence" : 10000, "heavyRangedDefence" : 10000, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

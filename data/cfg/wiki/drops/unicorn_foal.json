@@ -1,0 +1,14 @@
+{
+  "page" : "Unicorn Foal",
+  "tables" : [
+    {
+      "source" : "Unicorn Foal",
+      "npcIds" : [
+        3910
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

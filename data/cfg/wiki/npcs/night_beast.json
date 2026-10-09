@@ -1,0 +1,31 @@
+{
+  "page" : "Night beast",
+  "versions" : [
+    {
+      "source" : "Night beast",
+      "ids" : [
+        7409
+      ],
+      "names" : [
+        "npc.night_beast"
+      ],
+      "combatLevel" : 374,
+      "hitpoints" : 550,
+      "attackSpeed" : 4,
+      "size" : 4,
+      "levels" : { "attack" : 270, "strength" : 290, "defence" : 220, "ranged" : 1, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 75, "slashDefence" : 80, "crushDefence" : 200, "magicDefence" : 190, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 90, "xp" : 6462.0, "categories" : [ "Dark Beasts" ], "assignedBy" : [ "duradel", "konar", "mortimer", "nieve" ] }
+    }
+  ]
+}

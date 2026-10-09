@@ -1,0 +1,84 @@
+{
+  "page" : "Ancient Zygomite",
+  "tables" : [
+    {
+      "source" : "Ancient Zygomite",
+      "npcIds" : [
+        7797
+      ],
+      "always" : [
+        { "item" : 2970, "name" : "item.mort_myre_fungus", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 219, "name" : "item.grimy_torstol", "min" : 1, "max" : 1, "chance" : [ 3, 59 ], "wiki" : "6/118" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 100, "max" : 100, "chance" : [ 9, 59 ], "wiki" : "18/118" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 15, "max" : 15, "chance" : [ 3, 59 ], "wiki" : "6/118" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 15, "max" : 15, "chance" : [ 3, 59 ], "wiki" : "6/118" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 15, "max" : 15, "chance" : [ 3, 59 ], "wiki" : "6/118" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 251733 ], "wiki" : "1/2,517.33" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 251733 ], "wiki" : "1/2,517.33" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 251733 ], "wiki" : "1/2,517.33" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4027733 ], "wiki" : "1/40,277.33" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 50, 5370311 ], "wiki" : "1/107,406.22" },
+        { "item" : 1359, "name" : "item.rune_axe", "min" : 1, "max" : 1, "chance" : [ 3, 118 ], "wiki" : "3/118" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 83911 ], "wiki" : "1/839.11" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 125867 ], "wiki" : "1/1,258.67" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 31467 ], "wiki" : "1/314.67" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 15733 ], "wiki" : "1/157.33" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 7867 ], "wiki" : "1/78.67" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8055467 ], "wiki" : "1/80,554.67" },
+        { "item" : 2971, "name" : "item.mort_myre_fungus_noted", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 5, 59 ], "wiki" : "10/118" },
+        { "item" : 5282, "name" : "item.mushroom_spore", "min" : 1, "max" : 1, "chance" : [ 5, 59 ], "wiki" : "10/118" },
+        { "item" : 5288, "name" : "item.papaya_tree_seed", "min" : 1, "max" : 1, "chance" : [ 10, 21071 ], "wiki" : "1/2,107.1" },
+        { "item" : 5289, "name" : "item.palm_tree_seed", "min" : 1, "max" : 1, "chance" : [ 1, 2950 ], "wiki" : "1/2,950" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 10, 9833 ], "wiki" : "1/983.3" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 5, 5268 ], "wiki" : "1/1,053.6" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 10, 13409 ], "wiki" : "1/1,340.9" },
+        { "item" : 5313, "name" : "item.willow_seed", "min" : 1, "max" : 1, "chance" : [ 1, 1475 ], "wiki" : "1/1,475" },
+        { "item" : 5314, "name" : "item.maple_seed", "min" : 1, "max" : 1, "chance" : [ 10, 16389 ], "wiki" : "1/1,638.9" },
+        { "item" : 5315, "name" : "item.yew_seed", "min" : 1, "max" : 1, "chance" : [ 10, 16389 ], "wiki" : "1/1,638.9" },
+        { "item" : 5316, "name" : "item.magic_seed", "min" : 1, "max" : 1, "chance" : [ 5, 13409 ], "wiki" : "1/2,681.8" },
+        { "item" : 5317, "name" : "item.spirit_seed", "min" : 1, "max" : 1, "chance" : [ 2, 7375 ], "wiki" : "1/3,687.5" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 15, "max" : 15, "chance" : [ 5, 7024 ], "wiki" : "1/1,404.8" },
+        { "item" : 6035, "name" : "item.supercompost_noted", "min" : 2, "max" : 2, "noted" : true, "chance" : [ 32, 295 ], "wiki" : "64/590" },
+        { "item" : 21486, "name" : "item.teak_seed", "min" : 1, "max" : 1, "chance" : [ 10, 16389 ], "wiki" : "1/1,638.9" },
+        { "item" : 21488, "name" : "item.mahogany_seed", "min" : 1, "max" : 1, "chance" : [ 10, 16389 ], "wiki" : "1/1,638.9" },
+        { "item" : 22869, "name" : "item.celastrus_seed", "min" : 1, "max" : 1, "chance" : [ 1, 7375 ], "wiki" : "1/7,375" },
+        { "item" : 22871, "name" : "item.redwood_tree_seed", "min" : 1, "max" : 1, "chance" : [ 1, 7375 ], "wiki" : "1/7,375" },
+        { "item" : 22877, "name" : "item.dragonfruit_tree_seed", "min" : 1, "max" : 1, "chance" : [ 10, 49167 ], "wiki" : "1/4,916.7" }
+      ],
+      "tertiary" : [
+        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 79 ], "wiki" : "1/79" }
+      ]
+    },
+    {
+      "source" : "Ancient Zygomite#Fossil Island",
+      "npcIds" : [
+        7797
+      ],
+      "main" : [
+        { "item" : 21543, "name" : "item.calcite", "min" : 1, "max" : 1, "chance" : [ 9, 59 ], "wiki" : "18/118" },
+        { "item" : 21545, "name" : "item.pyrophosphite", "min" : 1, "max" : 1, "chance" : [ 9, 59 ], "wiki" : "18/118" },
+        { "item" : 21555, "name" : "item.numulite", "min" : 5, "max" : 19, "chance" : [ 9, 25 ], "wiki" : "63/175" },
+        { "item" : 21562, "name" : "item.unidentified_small_fossil", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "7/350" },
+        { "item" : 21564, "name" : "item.unidentified_medium_fossil", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "7/700" },
+        { "item" : 21566, "name" : "item.unidentified_large_fossil", "min" : 1, "max" : 1, "chance" : [ 1, 125 ], "wiki" : "7/875" },
+        { "item" : 21568, "name" : "item.unidentified_rare_fossil", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "7/3,500" },
+        { "item" : 21622, "name" : "item.volcanic_ash", "min" : 2, "max" : 2, "chance" : [ 8, 295 ], "wiki" : "16/590" }
+      ]
+    },
+    {
+      "source" : "Ancient Zygomite#Varlamore",
+      "npcIds" : [
+        7797
+      ],
+      "main" : [
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 15, 472 ], "rolls" : 2, "wiki" : "15/472" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 3, 118 ], "rolls" : 2, "wiki" : "12/472" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 3, 118 ], "rolls" : 2, "wiki" : "12/472" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 9, 472 ], "rolls" : 2, "wiki" : "9/472" }
+      ]
+    }
+  ]
+}

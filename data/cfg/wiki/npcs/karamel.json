@@ -1,0 +1,32 @@
+{
+  "page" : "Karamel",
+  "versions" : [
+    {
+      "source" : "Karamel",
+      "ids" : [
+        4882
+      ],
+      "names" : [
+        "npc.karamel"
+      ],
+      "combatLevel" : 136,
+      "hitpoints" : 250,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 100, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 134, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 150, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 55, "magicDamage" : 0 },
+      "maxHits" : [
+        "7x2 (Magic)",
+        "20 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

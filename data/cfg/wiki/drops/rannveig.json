@@ -1,0 +1,14 @@
+{
+  "page" : "Rannveig",
+  "tables" : [
+    {
+      "source" : "Rannveig",
+      "npcIds" : [
+        3681
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

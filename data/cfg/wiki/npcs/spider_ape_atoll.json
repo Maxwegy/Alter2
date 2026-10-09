@@ -1,0 +1,34 @@
+{
+  "page" : "Spider (Ape Atoll)",
+  "versions" : [
+    {
+      "source" : "Spider (Ape Atoll)",
+      "ids" : [
+        5238,
+        5239
+      ],
+      "names" : [
+        "npc.spider_5238",
+        "npc.spider_5239"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 2,
+      "attackSpeed" : 6,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 1, "crushDefence" : 0, "magicDefence" : 1, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 1, "strengthBonus" : 1, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Spiders" ], "assignedBy" : [ "krystilia", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

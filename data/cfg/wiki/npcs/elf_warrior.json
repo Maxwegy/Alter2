@@ -1,0 +1,59 @@
+{
+  "page" : "Elf Warrior",
+  "versions" : [
+    {
+      "source" : "Elf Warrior#1",
+      "version" : "1",
+      "ids" : [
+        5293
+      ],
+      "names" : [
+        "npc.elf_warrior"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Elf Warrior#2",
+      "version" : "2",
+      "ids" : [
+        5294
+      ],
+      "names" : [
+        "npc.elf_warrior_5294"
+      ],
+      "combatLevel" : 108,
+      "hitpoints" : 105,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 95, "defence" : 80, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 107.5, "categories" : [ "Elves" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] }
+    }
+  ]
+}

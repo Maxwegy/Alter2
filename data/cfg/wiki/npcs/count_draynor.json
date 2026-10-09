@@ -1,0 +1,35 @@
+{
+  "page" : "Count Draynor",
+  "versions" : [
+    {
+      "source" : "Count Draynor",
+      "ids" : [
+        3481,
+        3482
+      ],
+      "names" : [
+        "npc.count_draynor",
+        "npc.count_draynor_3482"
+      ],
+      "combatLevel" : 34,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 25, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 2, "slashDefence" : 1, "crushDefence" : 3, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre1"
+      ],
+      "slayer" : { "xp" : 0.8, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

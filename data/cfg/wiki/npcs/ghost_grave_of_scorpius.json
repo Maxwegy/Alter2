@@ -1,0 +1,36 @@
+{
+  "page" : "Ghost (Grave of Scorpius)",
+  "versions" : [
+    {
+      "source" : "Ghost (Grave of Scorpius)",
+      "ids" : [
+        5370
+      ],
+      "names" : [
+        "npc.ghost_5370"
+      ],
+      "combatLevel" : 24,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 20, "defence" : 23, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 1, "xp" : 20.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

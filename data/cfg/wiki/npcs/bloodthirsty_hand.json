@@ -1,0 +1,29 @@
+{
+  "page" : "Bloodthirsty hand",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty hand",
+      "ids" : [
+        12538
+      ],
+      "names" : [
+        "npc.bloodthirsty_hand"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 55,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 45, "strength" : 42, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

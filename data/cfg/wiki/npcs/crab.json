@@ -1,0 +1,61 @@
+{
+  "page" : "Crab",
+  "versions" : [
+    {
+      "source" : "Crab#Level 21",
+      "version" : "Level 21",
+      "ids" : [
+        4822
+      ],
+      "names" : [
+        "npc.crab_4822"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 17, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 18.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Crab#Level 23",
+      "version" : "Level 23",
+      "ids" : [
+        4819
+      ],
+      "names" : [
+        "npc.crab_4819"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 2,
+      "levels" : { "attack" : 19, "strength" : 20, "defence" : 26, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 19.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

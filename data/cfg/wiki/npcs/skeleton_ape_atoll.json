@@ -1,0 +1,35 @@
+{
+  "page" : "Skeleton (Ape Atoll)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Ape Atoll)",
+      "ids" : [
+        5237
+      ],
+      "names" : [
+        "npc.skeleton_5237"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 180, "strength" : 90, "defence" : 110, "ranged" : 1, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 110.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 35 }
+    }
+  ]
+}

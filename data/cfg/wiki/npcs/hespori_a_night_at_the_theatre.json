@@ -1,0 +1,32 @@
+{
+  "page" : "Hespori (A Night at the Theatre)",
+  "versions" : [
+    {
+      "source" : "Hespori (A Night at the Theatre)",
+      "ids" : [
+        11192
+      ],
+      "names" : [
+        "npc.hespori_11192"
+      ],
+      "combatLevel" : 302,
+      "hitpoints" : 360,
+      "attackSpeed" : 6,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 120, "ranged" : 150, "magic" : 126 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 150, "stabDefence" : 60, "slashDefence" : 20, "crushDefence" : 60, "magicDefence" : 80, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8 (x2) (Ranged)",
+        "14 (Magic)",
+        "40+ (special)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

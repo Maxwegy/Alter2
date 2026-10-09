@@ -1,0 +1,34 @@
+{
+  "page" : "Skeleton (The Restless Ghost)",
+  "versions" : [
+    {
+      "source" : "Skeleton (The Restless Ghost)",
+      "ids" : [
+        924
+      ],
+      "names" : [
+        "npc.skeleton_924"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 11, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 0.5, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

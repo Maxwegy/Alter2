@@ -1,0 +1,137 @@
+{
+  "page" : "Ice troll",
+  "versions" : [
+    {
+      "source" : "Ice troll#Level 120",
+      "version" : "Level 120",
+      "ids" : [
+        650,
+        652,
+        653,
+        701,
+        703,
+        704
+      ],
+      "names" : [
+        "npc.ice_troll_650",
+        "npc.ice_troll_652",
+        "npc.ice_troll_653",
+        "npc.ice_troll_701",
+        "npc.ice_troll_703",
+        "npc.ice_troll_704"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 100, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 129.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice troll#Level 121",
+      "version" : "Level 121",
+      "ids" : [
+        651,
+        654,
+        702,
+        705
+      ],
+      "names" : [
+        "npc.ice_troll_651",
+        "npc.ice_troll_654",
+        "npc.ice_troll_702",
+        "npc.ice_troll_705"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 97.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice troll#Level 123",
+      "version" : "Level 123",
+      "ids" : [
+        649,
+        700
+      ],
+      "names" : [
+        "npc.ice_troll_649",
+        "npc.ice_troll_700"
+      ],
+      "combatLevel" : 123,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 86.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    },
+    {
+      "source" : "Ice troll#Level 124",
+      "version" : "Level 124",
+      "ids" : [
+        648,
+        699
+      ],
+      "names" : [
+        "npc.ice_troll",
+        "npc.ice_troll_699"
+      ],
+      "combatLevel" : 124,
+      "hitpoints" : 80,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 140, "strength" : 120, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 86.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

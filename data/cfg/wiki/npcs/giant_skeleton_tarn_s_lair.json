@@ -1,0 +1,35 @@
+{
+  "page" : "Giant skeleton (Tarn's Lair)",
+  "versions" : [
+    {
+      "source" : "Giant skeleton (Tarn's Lair)",
+      "ids" : [
+        6440
+      ],
+      "names" : [
+        "npc.giant_skeleton_6440"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 110,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 84, "strength" : 80, "defence" : 80, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 40, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 110.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

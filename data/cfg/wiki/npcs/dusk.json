@@ -1,0 +1,80 @@
+{
+  "page" : "Dusk",
+  "versions" : [
+    {
+      "source" : "Dusk#First form",
+      "version" : "First form",
+      "ids" : [
+        7851,
+        7854,
+        7855,
+        7882,
+        7883,
+        7886
+      ],
+      "names" : [
+        "npc.dusk_7851",
+        "npc.dusk_7854",
+        "npc.dusk_7855",
+        "npc.dusk_7882",
+        "npc.dusk_7883",
+        "npc.dusk_7886"
+      ],
+      "combatLevel" : 248,
+      "hitpoints" : 450,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 200, "strength" : 140, "defence" : 100, "ranged" : 140, "magic" : 140 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15 (melee) 33 (special attack)"
+      ],
+      "attackStyles" : [
+        "Slash '\"`UNIQ--ref-0000014D-QINU`\"'"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 1350.0, "categories" : [ "Bosses", "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    },
+    {
+      "source" : "Dusk#Second form",
+      "version" : "Second form",
+      "ids" : [
+        7887,
+        7888,
+        7889
+      ],
+      "names" : [
+        "npc.dusk_7887",
+        "npc.dusk_7888",
+        "npc.dusk_7889"
+      ],
+      "combatLevel" : 328,
+      "hitpoints" : 450,
+      "attackSpeed" : 6,
+      "size" : 6,
+      "levels" : { "attack" : 300, "strength" : 250, "defence" : 150, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26 (melee)<br/> 15x2 (ranged)<br/> 65 (special attack)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 1350.0, "categories" : [ "Bosses", "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

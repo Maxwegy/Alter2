@@ -1,0 +1,15 @@
+{
+  "page" : "Man (level 4)",
+  "tables" : [
+    {
+      "source" : "Man (level 4)",
+      "npcIds" : [
+        1118,
+        1138
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

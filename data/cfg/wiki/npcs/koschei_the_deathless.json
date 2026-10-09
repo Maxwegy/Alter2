@@ -1,0 +1,97 @@
+{
+  "page" : "Koschei the deathless",
+  "versions" : [
+    {
+      "source" : "Koschei the deathless#The Fremennik Trials (Form 1)",
+      "ids" : [
+        3897
+      ],
+      "names" : [
+        "npc.koschei_the_deathless"
+      ],
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 20, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 20, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Koschei the deathless#The Fremennik Trials (Form 2)",
+      "ids" : [
+        3898
+      ],
+      "names" : [
+        "npc.koschei_the_deathless_3898"
+      ],
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 40, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 40, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Koschei the deathless#The Fremennik Trials (Form 3)",
+      "ids" : [
+        3899
+      ],
+      "names" : [
+        "npc.koschei_the_deathless_3899"
+      ],
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 60, "defence" : 60, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Koschei the deathless#The Fremennik Trials (Form 4)",
+      "ids" : [
+        3900
+      ],
+      "names" : [
+        "npc.koschei_the_deathless_3900"
+      ],
+      "hitpoints" : 255,
+      "attackSpeed" : 1,
+      "size" : 1,
+      "levels" : { "attack" : 255, "strength" : 5, "defence" : 255, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

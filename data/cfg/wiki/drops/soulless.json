@@ -1,0 +1,14 @@
+{
+  "page" : "Soulless",
+  "tables" : [
+    {
+      "source" : "Soulless",
+      "npcIds" : [
+        508
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

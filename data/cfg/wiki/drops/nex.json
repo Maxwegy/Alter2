@@ -1,0 +1,34 @@
+{
+  "page" : "Nex",
+  "tables" : [
+    {
+      "source" : "Nex",
+      "npcIds" : [
+        11278,
+        11279,
+        11280,
+        11281,
+        11282
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 1289, "name" : "item.rune_sword", "min" : 1, "max" : 1, "chance" : [ 1, 209 ], "wiki" : "1/209" },
+        { "item" : 26231, "name" : "item.nihil_shard", "min" : 80, "max" : 85, "chance" : [ 5, 82 ], "wiki" : "5/82" },
+        { "item" : 26231, "name" : "item.nihil_shard", "min" : 85, "max" : 95, "chance" : [ 8, 209 ], "wiki" : "8/209" },
+        { "item" : 26235, "name" : "item.zaryte_vambraces", "min" : 1, "max" : 1, "chance" : [ 1, 172 ], "wiki" : "1/172" },
+        { "item" : 26370, "name" : "item.ancient_hilt", "min" : 1, "max" : 1, "chance" : [ 1, 516 ], "wiki" : "1/516" },
+        { "item" : 26372, "name" : "item.nihil_horn", "min" : 1, "max" : 1, "chance" : [ 1, 258 ], "wiki" : "1/258" },
+        { "item" : 26376, "name" : "item.torva_full_helm_damaged", "min" : 1, "max" : 1, "chance" : [ 1, 258 ], "wiki" : "1/258" },
+        { "item" : 26378, "name" : "item.torva_platebody_damaged", "min" : 1, "max" : 1, "chance" : [ 1, 258 ], "wiki" : "1/258" },
+        { "item" : 26380, "name" : "item.torva_platelegs_damaged", "min" : 1, "max" : 1, "chance" : [ 1, 258 ], "wiki" : "1/258" },
+        { "item" : 26390, "name" : "item.blood_essence", "min" : 1, "max" : 2, "chance" : [ 1, 82 ], "wiki" : "1/82" }
+      ],
+      "tertiary" : [
+        { "item" : 12073, "name" : "item.clue_scroll_elite", "min" : 1, "max" : 1, "chance" : [ 1, 48 ], "wiki" : "1/48" },
+        { "item" : 26348, "name" : "item.nexling", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "page" : "Yrsa (Miscellania)",
+  "versions" : [
+    {
+      "source" : "Yrsa (Miscellania)",
+      "ids" : [
+        3679
+      ],
+      "names" : [
+        "npc.yrsa"
+      ],
+      "combatLevel" : 1,
+      "size" : 1,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

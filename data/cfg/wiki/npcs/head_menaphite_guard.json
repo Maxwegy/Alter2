@@ -1,0 +1,29 @@
+{
+  "page" : "Head Menaphite Guard",
+  "versions" : [
+    {
+      "source" : "Head Menaphite Guard",
+      "ids" : [
+        11529
+      ],
+      "names" : [
+        "npc.head_menaphite_guard_11529"
+      ],
+      "combatLevel" : 174,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 180, "strength" : 150, "defence" : 150, "ranged" : 1, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

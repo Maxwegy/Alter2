@@ -1,0 +1,33 @@
+{
+  "page" : "Mosschin",
+  "versions" : [
+    {
+      "source" : "Mosschin",
+      "ids" : [
+        11271,
+        11298
+      ],
+      "names" : [
+        "npc.mosschin",
+        "npc.mosschin_11298"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 50, "defence" : 50, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 34, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 34, "strengthBonus" : 40, "rangedStrength" : 0, "magicDamage" : 40 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "slayer" : { "xp" : 120.0, "categories" : [ "Goblins", "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

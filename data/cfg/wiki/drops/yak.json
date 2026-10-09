@@ -1,0 +1,17 @@
+{
+  "page" : "Yak",
+  "tables" : [
+    {
+      "source" : "Yak",
+      "npcIds" : [
+        5816
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 10814, "name" : "item.hair", "min" : 1, "max" : 1 },
+        { "item" : 10816, "name" : "item.raw_yak_meat", "min" : 1, "max" : 1 },
+        { "item" : 10818, "name" : "item.yakhide", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

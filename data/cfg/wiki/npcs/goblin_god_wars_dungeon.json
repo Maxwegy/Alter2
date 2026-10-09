@@ -1,0 +1,140 @@
+{
+  "page" : "Goblin (God Wars Dungeon)",
+  "versions" : [
+    {
+      "source" : "Goblin (God Wars Dungeon)#Level 12",
+      "version" : "Level 12",
+      "ids" : [
+        2246
+      ],
+      "names" : [
+        "npc.goblin_2246"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 15,
+      "attackSpeed" : 5,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 6, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 15.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (God Wars Dungeon)#Level 12 (banner)",
+      "version" : "Level 12 (banner)",
+      "ids" : [
+        2247
+      ],
+      "names" : [
+        "npc.goblin_2247"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 3,
+      "attackSpeed" : 5,
+      "respawnTicks" : 80,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 6, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 3.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (God Wars Dungeon)#Level 13",
+      "version" : "Level 13",
+      "ids" : [
+        2249
+      ],
+      "names" : [
+        "npc.goblin_2249"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 13,
+      "attackSpeed" : 5,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 11, "strength" : 6, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 13.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (God Wars Dungeon)#Level 15",
+      "version" : "Level 15",
+      "ids" : [
+        2248
+      ],
+      "names" : [
+        "npc.goblin_2248"
+      ],
+      "combatLevel" : 15,
+      "hitpoints" : 16,
+      "attackSpeed" : 5,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 16, "strength" : 6, "defence" : 19, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 16.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Goblin (God Wars Dungeon)#Level 17",
+      "version" : "Level 17",
+      "ids" : [
+        2245
+      ],
+      "names" : [
+        "npc.goblin_2245"
+      ],
+      "combatLevel" : 17,
+      "hitpoints" : 18,
+      "attackSpeed" : 5,
+      "respawnTicks" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 16, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 1, "xp" : 18.0, "categories" : [ "Goblins" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

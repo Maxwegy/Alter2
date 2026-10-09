@@ -1,0 +1,15 @@
+{
+  "page" : "Me (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Me (Nightmare Zone)",
+      "npcIds" : [
+        6320,
+        6381
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

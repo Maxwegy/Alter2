@@ -1,0 +1,14 @@
+{
+  "page" : "Golem (Zalcano)",
+  "tables" : [
+    {
+      "source" : "Golem (Zalcano)",
+      "npcIds" : [
+        9051
+      ],
+      "always" : [
+        { "item" : 23907, "name" : "item.imbued_tephra", "min" : 16, "max" : 24 }
+      ]
+    }
+  ]
+}

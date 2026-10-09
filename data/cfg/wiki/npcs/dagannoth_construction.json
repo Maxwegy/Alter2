@@ -1,0 +1,30 @@
+{
+  "page" : "Dagannoth (Construction)",
+  "versions" : [
+    {
+      "source" : "Dagannoth (Construction)",
+      "ids" : [
+        140
+      ],
+      "names" : [
+        "npc.dagannoth_140"
+      ],
+      "combatLevel" : 135,
+      "hitpoints" : 142,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 114, "strength" : 117, "defence" : 98, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 50, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "page" : "Long-tailed Wyvern",
+  "versions" : [
+    {
+      "source" : "Long-tailed Wyvern",
+      "ids" : [
+        7792
+      ],
+      "names" : [
+        "npc.longtailed_wyvern"
+      ],
+      "combatLevel" : 152,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 125, "strength" : 120, "defence" : 90, "ranged" : 90, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 140, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 (Melee)",
+        "10 (Ranged)",
+        "10 (Icy breath with Elemental shield)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Typeless Ranged",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 66, "xp" : 205.0, "categories" : [ "Fossil Island Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

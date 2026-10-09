@@ -1,0 +1,43 @@
+{
+  "page" : "Dawn",
+  "versions" : [
+    {
+      "source" : "Dawn",
+      "ids" : [
+        7852,
+        7853,
+        7884,
+        7885
+      ],
+      "names" : [
+        "npc.dawn_7852",
+        "npc.dawn_7853",
+        "npc.dawn_7884",
+        "npc.dawn_7885"
+      ],
+      "combatLevel" : 228,
+      "hitpoints" : 450,
+      "attackSpeed" : 6,
+      "size" : 4,
+      "levels" : { "attack" : 140, "strength" : 140, "defence" : 100, "ranged" : 140, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 80, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic (special)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying",
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 0.0, "categories" : [ "Bosses", "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 70 }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Ket-Zek",
+  "versions" : [
+    {
+      "source" : "Ket-Zek#Spawn point",
+      "version" : "Spawn point",
+      "ids" : [
+        3126
+      ],
+      "names" : [
+        "npc.ketzek_3126"
+      ],
+      "combatLevel" : 360,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 320, "strength" : 480, "defence" : 240, "ranged" : 480, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "52 (Magic)",
+        "55 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 160.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Ket-Zek#Standard",
+      "version" : "Standard",
+      "ids" : [
+        3125
+      ],
+      "names" : [
+        "npc.ketzek"
+      ],
+      "combatLevel" : 360,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 320, "strength" : 480, "defence" : 240, "ranged" : 480, "magic" : 240 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 60, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "52 (Magic)",
+        "55 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "slayer" : { "xp" : 160.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

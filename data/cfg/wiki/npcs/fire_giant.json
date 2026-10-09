@@ -1,0 +1,116 @@
+{
+  "page" : "Fire giant",
+  "versions" : [
+    {
+      "source" : "Fire giant#Level 104",
+      "version" : "Level 104",
+      "ids" : [
+        7252
+      ],
+      "names" : [
+        "npc.fire_giant_7252"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 130,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 50, "rangedDefence" : -10, "lightRangedDefence" : -10, "heavyRangedDefence" : -10, "attackBonus" : 50, "strengthBonus" : 20, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "fiery"
+      ],
+      "slayer" : { "xp" : 133.5, "categories" : [ "Fire Giants" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    },
+    {
+      "source" : "Fire giant#Level 109",
+      "version" : "Level 109",
+      "ids" : [
+        7251
+      ],
+      "names" : [
+        "npc.fire_giant_7251"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 90, "strength" : 80, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "fiery"
+      ],
+      "slayer" : { "xp" : 153.5, "categories" : [ "Fire Giants" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    },
+    {
+      "source" : "Fire giant#Level 86",
+      "version" : "Level 86",
+      "ids" : [
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084
+      ],
+      "names" : [
+        "npc.fire_giant",
+        "npc.fire_giant_2076",
+        "npc.fire_giant_2077",
+        "npc.fire_giant_2078",
+        "npc.fire_giant_2079",
+        "npc.fire_giant_2080",
+        "npc.fire_giant_2081",
+        "npc.fire_giant_2082",
+        "npc.fire_giant_2083",
+        "npc.fire_giant_2084"
+      ],
+      "combatLevel" : 86,
+      "hitpoints" : 111,
+      "attackSpeed" : 5,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 65, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 3, "crushDefence" : 2, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 29, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "fiery"
+      ],
+      "slayer" : { "xp" : 111.0, "categories" : [ "Fire Giants" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

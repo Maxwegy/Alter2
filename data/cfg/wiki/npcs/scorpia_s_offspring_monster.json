@@ -1,0 +1,32 @@
+{
+  "page" : "Scorpia's offspring (monster)",
+  "versions" : [
+    {
+      "source" : "Scorpia's offspring (monster)",
+      "ids" : [
+        6616
+      ],
+      "names" : [
+        "npc.scorpias_offspring_6616"
+      ],
+      "combatLevel" : 15,
+      "hitpoints" : 2,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 30, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 900, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -40, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : -30, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 35 }
+    }
+  ]
+}

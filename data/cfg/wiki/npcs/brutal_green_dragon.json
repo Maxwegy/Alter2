@@ -1,0 +1,38 @@
+{
+  "page" : "Brutal green dragon",
+  "versions" : [
+    {
+      "source" : "Brutal green dragon",
+      "ids" : [
+        2918
+      ],
+      "names" : [
+        "npc.brutal_green_dragon"
+      ],
+      "combatLevel" : 227,
+      "hitpoints" : 175,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 268, "strength" : 168, "defence" : 168, "ranged" : 0, "magic" : 168 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18 (Melee; Magic)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

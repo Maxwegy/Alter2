@@ -1,0 +1,38 @@
+{
+  "page" : "Big frog",
+  "tables" : [
+    {
+      "source" : "Big frog#Level 10",
+      "npcIds" : [
+        8701
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7908, "name" : "item.big_frog_leg", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 70 ], "wiki" : "1/70" }
+      ]
+    },
+    {
+      "source" : "Big frog#Level 24",
+      "npcIds" : [
+        478
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 7908, "name" : "item.big_frog_leg", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 555, "name" : "item.water_rune", "min" : 12, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 12, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 4, "max" : 4, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 2, "max" : 2, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 1, 4 ], "wiki" : "32/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 19, 128 ], "wiki" : "19/128" },
+        { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1444, "name" : "item.water_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ]
+    }
+  ]
+}

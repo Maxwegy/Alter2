@@ -1,0 +1,227 @@
+{
+  "page" : "Strangled",
+  "versions" : [
+    {
+      "source" : "Strangled#Level 138, Strangled 1",
+      "version" : "Strangled 1",
+      "ids" : [
+        12268,
+        12275,
+        12281,
+        12429
+      ],
+      "names" : [
+        "npc.strangled",
+        "npc.strangled_12275",
+        "npc.strangled_12281",
+        "npc.strangled_12429"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 50, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 138, Strangled 2",
+      "version" : "Strangled 2",
+      "ids" : [
+        12269,
+        12276,
+        12282,
+        12430
+      ],
+      "names" : [
+        "npc.strangled_12269",
+        "npc.strangled_12276",
+        "npc.strangled_12282",
+        "npc.strangled_12430"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 50, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 138, Strangled 3",
+      "version" : "Strangled 3",
+      "ids" : [
+        12270,
+        12277,
+        12283,
+        12431
+      ],
+      "names" : [
+        "npc.strangled_12270",
+        "npc.strangled_12277",
+        "npc.strangled_12283",
+        "npc.strangled_12431"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 50, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 138, Strangled 4",
+      "version" : "Strangled 4",
+      "ids" : [
+        12271,
+        12279,
+        12284,
+        12432
+      ],
+      "names" : [
+        "npc.strangled_12271",
+        "npc.strangled_12279",
+        "npc.strangled_12284",
+        "npc.strangled_12432"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 50, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 149, Strangled 1",
+      "version" : "Strangled 1",
+      "ids" : [
+        12272,
+        12280,
+        12285,
+        12433
+      ],
+      "names" : [
+        "npc.strangled_12272",
+        "npc.strangled_12280",
+        "npc.strangled_12285",
+        "npc.strangled_12433"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 60, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 149, Strangled 2",
+      "version" : "Strangled 2",
+      "ids" : [
+        12273,
+        12278,
+        12286,
+        12434
+      ],
+      "names" : [
+        "npc.strangled_12273",
+        "npc.strangled_12278",
+        "npc.strangled_12286",
+        "npc.strangled_12434"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 60, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Strangled#Level 149, Strangled 3",
+      "version" : "Strangled 3",
+      "ids" : [
+        12274,
+        12287,
+        12435
+      ],
+      "names" : [
+        "npc.strangled_12274",
+        "npc.strangled_12287",
+        "npc.strangled_12435"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 60, "defence" : 30, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 20, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

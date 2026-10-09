@@ -1,0 +1,19 @@
+{
+  "page" : "Monkey Guard",
+  "tables" : [
+    {
+      "source" : "Monkey Guard",
+      "npcIds" : [
+        5275,
+        5276
+      ],
+      "always" : [
+        { "item" : 3181, "name" : "item.gorilla_bones", "min" : 1, "max" : 1 },
+        { "item" : 3182, "name" : "item.bearded_gorilla_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 13451, "name" : "item.ensouled_monkey_head_13451", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
+      ]
+    }
+  ]
+}

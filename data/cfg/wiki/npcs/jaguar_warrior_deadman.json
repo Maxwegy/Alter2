@@ -1,0 +1,80 @@
+{
+  "page" : "Jaguar warrior (Deadman)",
+  "versions" : [
+    {
+      "source" : "Jaguar warrior (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        13660
+      ],
+      "names" : [
+        "npc.jaguar_warrior_13660"
+      ],
+      "combatLevel" : 893,
+      "hitpoints" : 3000,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 165, "defence" : 100, "ranged" : 160, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 100, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21 (x4)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Jaguar warrior (Deadman)#Armageddon",
+      "version" : "Armageddon",
+      "ids" : [
+        13660
+      ],
+      "names" : [
+        "npc.jaguar_warrior_13660"
+      ],
+      "combatLevel" : 518,
+      "hitpoints" : 1500,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 165, "defence" : 100, "ranged" : 160, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 100, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21 (x4)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Jaguar warrior (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        13660
+      ],
+      "names" : [
+        "npc.jaguar_warrior_13660"
+      ],
+      "combatLevel" : 393,
+      "hitpoints" : 1000,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 165, "defence" : 100, "ranged" : 160, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 100, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21 (x4)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

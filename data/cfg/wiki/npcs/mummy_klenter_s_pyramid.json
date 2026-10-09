@@ -1,0 +1,135 @@
+{
+  "page" : "Mummy (Klenter's Pyramid)",
+  "versions" : [
+    {
+      "source" : "Mummy (Klenter's Pyramid)#1",
+      "version" : "1",
+      "ids" : [
+        949
+      ],
+      "names" : [
+        "npc.mummy_949"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Klenter's Pyramid)#2",
+      "version" : "2",
+      "ids" : [
+        950
+      ],
+      "names" : [
+        "npc.mummy_950"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Klenter's Pyramid)#3",
+      "version" : "3",
+      "ids" : [
+        951
+      ],
+      "names" : [
+        "npc.mummy_951"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Klenter's Pyramid)#4",
+      "version" : "4",
+      "ids" : [
+        952
+      ],
+      "names" : [
+        "npc.mummy_952"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mummy (Klenter's Pyramid)#5",
+      "version" : "5",
+      "ids" : [
+        953
+      ],
+      "names" : [
+        "npc.mummy_953"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 30, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 90, "crushDefence" : 30, "magicDefence" : 90, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

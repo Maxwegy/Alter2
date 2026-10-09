@@ -1,0 +1,302 @@
+{
+  "page" : "Crawling Hand",
+  "versions" : [
+    {
+      "source" : "Crawling Hand#Level 11 (unused)",
+      "version" : "Level 11 (unused)",
+      "ids" : [
+        455
+      ],
+      "names" : [
+        "npc.crawling_hand_455"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 6, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 12 (1)",
+      "version" : "Level 12 (1)",
+      "ids" : [
+        453
+      ],
+      "names" : [
+        "npc.crawling_hand_453"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 7, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 19.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 12 (2)",
+      "version" : "Level 12 (2)",
+      "ids" : [
+        454
+      ],
+      "names" : [
+        "npc.crawling_hand_454"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 7, "defence" : 7, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 19.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 12 (unused 1)",
+      "version" : "Level 12 (unused 1)",
+      "ids" : [
+        456
+      ],
+      "names" : [
+        "npc.crawling_hand_456"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 7, "defence" : 9, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 19.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 12 (unused 2)",
+      "version" : "Level 12 (unused 2)",
+      "ids" : [
+        457
+      ],
+      "names" : [
+        "npc.crawling_hand_457"
+      ],
+      "combatLevel" : 12,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 11, "strength" : 7, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 19.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 7",
+      "version" : "Level 7",
+      "ids" : [
+        450
+      ],
+      "names" : [
+        "npc.crawling_hand_450"
+      ],
+      "combatLevel" : 7,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 7, "strength" : 3, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 12.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 8 (1)",
+      "version" : "Level 8 (1)",
+      "ids" : [
+        448
+      ],
+      "names" : [
+        "npc.crawling_hand_448"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 4, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 16.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 8 (2)",
+      "version" : "Level 8 (2)",
+      "ids" : [
+        449
+      ],
+      "names" : [
+        "npc.crawling_hand_449"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 4, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 16.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 8 (3)",
+      "version" : "Level 8 (3)",
+      "ids" : [
+        451
+      ],
+      "names" : [
+        "npc.crawling_hand_451"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 4, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 16.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Crawling Hand#Level 8 (4)",
+      "version" : "Level 8 (4)",
+      "ids" : [
+        452
+      ],
+      "names" : [
+        "npc.crawling_hand_452"
+      ],
+      "combatLevel" : 8,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 4, "defence" : 4, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "level" : 5, "xp" : 16.0, "categories" : [ "Crawling Hands" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    }
+  ]
+}

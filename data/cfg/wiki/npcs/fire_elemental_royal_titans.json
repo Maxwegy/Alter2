@@ -1,0 +1,30 @@
+{
+  "page" : "Fire elemental (Royal Titans)",
+  "versions" : [
+    {
+      "source" : "Fire elemental (Royal Titans)",
+      "ids" : [
+        14150
+      ],
+      "names" : [
+        "npc.unidentified_dog"
+      ],
+      "combatLevel" : 37,
+      "hitpoints" : 40,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 35, "defence" : 20, "ranged" : 20, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4 (Melee)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Water", "percent" : 100 }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "page" : "Shadow warrior",
+  "versions" : [
+    {
+      "source" : "Shadow warrior",
+      "ids" : [
+        2853
+      ],
+      "names" : [
+        "npc.shadow_warrior"
+      ],
+      "combatLevel" : 48,
+      "hitpoints" : 67,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 36, "strength" : 33, "defence" : 36, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 43, "slashDefence" : 31, "crushDefence" : 19, "magicDefence" : 15, "rangedDefence" : 38, "lightRangedDefence" : 38, "heavyRangedDefence" : 38, "attackBonus" : 20, "strengthBonus" : 26, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 67.0, "categories" : [ "Shadow Warriors" ], "assignedBy" : [ "chaeldar", "vannaka" ] }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "page" : "Market Guard (Draynor)",
+  "versions" : [
+    {
+      "source" : "Market Guard (Draynor)#Draynor Bank Robbery",
+      "version" : "Draynor Bank Robbery",
+      "ids" : [
+        2120
+      ],
+      "names" : [
+        "npc.market_guard"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Market Guard (Draynor)#Normal",
+      "version" : "Normal",
+      "ids" : [
+        5732
+      ],
+      "names" : [
+        "npc.market_guard_5732"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 18, "defence" : 13, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 24, "slashDefence" : 14, "crushDefence" : 19, "magicDefence" : 4, "rangedDefence" : 16, "lightRangedDefence" : 16, "heavyRangedDefence" : 16, "attackBonus" : 9, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

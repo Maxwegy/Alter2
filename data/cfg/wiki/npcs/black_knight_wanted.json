@@ -1,0 +1,33 @@
+{
+  "page" : "Black Knight (Wanted!)",
+  "versions" : [
+    {
+      "source" : "Black Knight (Wanted!)",
+      "ids" : [
+        4934,
+        4959,
+        4960
+      ],
+      "names" : [
+        "npc.black_knight_4934",
+        "npc.black_knight_4959",
+        "npc.black_knight_4960"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 42,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 73, "slashDefence" : 76, "crushDefence" : 70, "magicDefence" : -11, "rangedDefence" : 72, "lightRangedDefence" : 72, "heavyRangedDefence" : 72, "attackBonus" : 18, "strengthBonus" : 16, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Armoured zombie (The Curse of Arrav)",
+  "versions" : [
+    {
+      "source" : "Armoured zombie (The Curse of Arrav)#1",
+      "version" : "1",
+      "ids" : [
+        14135
+      ],
+      "names" : [
+        "npc.armoured_zombie_14135"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 10,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 106, "strength" : 94, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -50, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Armoured zombie (The Curse of Arrav)#2",
+      "version" : "2",
+      "ids" : [
+        14136
+      ],
+      "names" : [
+        "npc.armoured_zombie_14136"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 10,
+      "attackSpeed" : -1,
+      "size" : 1,
+      "levels" : { "attack" : 106, "strength" : 94, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -50, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "None"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

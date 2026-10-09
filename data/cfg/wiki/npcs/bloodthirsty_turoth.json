@@ -1,0 +1,33 @@
+{
+  "page" : "Bloodthirsty Turoth",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Turoth",
+      "ids" : [
+        12583
+      ],
+      "names" : [
+        "npc.bloodthirsty_turoth"
+      ],
+      "combatLevel" : 366,
+      "hitpoints" : 292,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 306, "strength" : 420, "defence" : 154, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 40, "crushDefence" : 40, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "43"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 55, "xp" : 2993.0, "categories" : [ "Turoth" ], "assignedBy" : [ "chaeldar", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

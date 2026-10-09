@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty gargoyle",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty gargoyle",
+      "ids" : [
+        12578,
+        12579
+      ],
+      "names" : [
+        "npc.bloodthirsty_gargoyle",
+        "npc.bloodthirsty_gargoyle_12579"
+      ],
+      "combatLevel" : 349,
+      "hitpoints" : 270,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 230, "strength" : 250, "defence" : 190, "ranged" : 220, "magic" : 1 },
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic (special)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 75, "categories" : [ "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] }
+    }
+  ]
+}

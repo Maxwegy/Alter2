@@ -1,0 +1,105 @@
+{
+  "page" : "Elite Khazard Guard",
+  "versions" : [
+    {
+      "source" : "Elite Khazard Guard#1",
+      "version" : "1",
+      "ids" : [
+        13531
+      ],
+      "names" : [
+        "npc.elite_khazard_guard"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 88, "defence" : 80, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 44, "slashDefence" : 38, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Elite Khazard Guard#2",
+      "version" : "2",
+      "ids" : [
+        13532
+      ],
+      "names" : [
+        "npc.elite_khazard_guard_13532"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 88, "defence" : 80, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 44, "slashDefence" : 38, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Elite Khazard Guard#3",
+      "version" : "3",
+      "ids" : [
+        13533
+      ],
+      "names" : [
+        "npc.elite_khazard_guard_13533"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 88, "defence" : 80, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 44, "slashDefence" : 38, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Elite Khazard Guard#4",
+      "version" : "4",
+      "ids" : [
+        13534
+      ],
+      "names" : [
+        "npc.elite_khazard_guard_13534"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 88, "defence" : 80, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 44, "slashDefence" : 38, "crushDefence" : 30, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 10, "strengthBonus" : 14, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

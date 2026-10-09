@@ -1,0 +1,30 @@
+{
+  "page" : "Grizzly bear (Escape Caves)",
+  "versions" : [
+    {
+      "source" : "Grizzly bear (Escape Caves)",
+      "ids" : [
+        11989
+      ],
+      "names" : [
+        "npc.grizzly_bear_11989"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "levels" : { "attack" : 72, "strength" : 72, "defence" : 72, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Typeless Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 75.0, "categories" : [ "Bears" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 20 }
+    }
+  ]
+}

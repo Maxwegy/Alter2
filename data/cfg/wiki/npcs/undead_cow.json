@@ -1,0 +1,35 @@
+{
+  "page" : "Undead cow",
+  "versions" : [
+    {
+      "source" : "Undead cow",
+      "ids" : [
+        2992
+      ],
+      "names" : [
+        "npc.undead_cow"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : -15, "strengthBonus" : -15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 8.0, "categories" : [ "Cows", "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

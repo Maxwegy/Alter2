@@ -1,0 +1,32 @@
+{
+  "page" : "Basilisk",
+  "versions" : [
+    {
+      "source" : "Basilisk",
+      "ids" : [
+        417
+      ],
+      "names" : [
+        "npc.basilisk_417"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 30, "strength" : 45, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 40, "xp" : 75.0, "categories" : [ "Basilisks" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

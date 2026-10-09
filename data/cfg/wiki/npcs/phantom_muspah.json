@@ -1,0 +1,167 @@
+{
+  "page" : "Phantom Muspah",
+  "versions" : [
+    {
+      "source" : "Phantom Muspah#Melee",
+      "version" : "Melee",
+      "ids" : [
+        12078
+      ],
+      "names" : [
+        "npc.phantom_muspah_12078"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 850,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 200, "ranged" : 280, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 185, "slashDefence" : 134, "crushDefence" : 120, "magicDefence" : 34, "rangedDefence" : 261, "lightRangedDefence" : 261, "heavyRangedDefence" : 261, "attackBonus" : 393, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "34"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "33% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 1763.7, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 65 }
+    },
+    {
+      "source" : "Phantom Muspah#Post-shield",
+      "version" : "Post-shield",
+      "ids" : [
+        12080
+      ],
+      "names" : [
+        "npc.phantom_muspah_12080"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 850,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 200, "ranged" : 335, "magic" : 179 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 185, "slashDefence" : 134, "crushDefence" : 120, "magicDefence" : 437, "rangedDefence" : 56, "lightRangedDefence" : 56, "heavyRangedDefence" : 56, "attackBonus" : 393, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "72 (Ranged)",
+        "79 (Magic)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "33% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 1763.7, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 65 }
+    },
+    {
+      "source" : "Phantom Muspah#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        12077
+      ],
+      "names" : [
+        "npc.phantom_muspah"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 850,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 200, "ranged" : 280, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 185, "slashDefence" : 134, "crushDefence" : 120, "magicDefence" : 437, "rangedDefence" : 56, "lightRangedDefence" : 56, "heavyRangedDefence" : 56, "attackBonus" : 393, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "61 (Ranged)",
+        "72 (Magic)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "33% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 1763.7, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 65 }
+    },
+    {
+      "source" : "Phantom Muspah#Shielded",
+      "version" : "Shielded",
+      "ids" : [
+        12079
+      ],
+      "names" : [
+        "npc.phantom_muspah_12079"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 75,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 200, "ranged" : 336, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 185, "slashDefence" : 134, "crushDefence" : 120, "magicDefence" : 437, "rangedDefence" : 56, "lightRangedDefence" : 56, "heavyRangedDefence" : 56, "attackBonus" : 393, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "72 (Ranged)",
+        "79 (Magic)",
+        "80 (Shockwave)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "33% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 1763.7, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 65 }
+    },
+    {
+      "source" : "Phantom Muspah#Teleporting",
+      "version" : "Teleporting",
+      "ids" : [
+        12082
+      ],
+      "names" : [
+        "npc.phantom_muspah_12082"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 850,
+      "attackSpeed" : 5,
+      "respawnTicks" : 50,
+      "size" : 5,
+      "levels" : { "attack" : 280, "strength" : 280, "defence" : 200, "ranged" : 280, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 185, "slashDefence" : 134, "crushDefence" : 120, "magicDefence" : 437, "rangedDefence" : 56, "lightRangedDefence" : 56, "heavyRangedDefence" : 56, "attackBonus" : 393, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "20 (Lightning cloud)"
+      ],
+      "attackStyles" : [
+        "Typeless"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "33% resistance" },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "xp" : 1763.7, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 65 }
+    }
+  ]
+}

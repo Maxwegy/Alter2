@@ -1,0 +1,109 @@
+{
+  "page" : "Dark wizard",
+  "tables" : [
+    {
+      "source" : "Dark wizard#High level",
+      "npcIds" : [
+        510,
+        512,
+        2056,
+        2057,
+        2058,
+        2059,
+        5086,
+        5087,
+        5088,
+        5089
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 36, "max" : 36, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 4, "max" : 4, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 4, "max" : 4, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 581, "name" : "item.black_robe", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 17, 128 ], "wiki" : "17/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2, "max" : 2, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 29, "max" : 29, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1017, "name" : "item.wizard_hat", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1379, "name" : "item.staff", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1442, "name" : "item.fire_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1444, "name" : "item.water_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 7 ], "wiki" : "1/7" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
+      ]
+    },
+    {
+      "source" : "Dark wizard#Low level",
+      "npcIds" : [
+        510,
+        512,
+        2056,
+        2057,
+        2058,
+        2059,
+        5086,
+        5087,
+        5088,
+        5089
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 36, "max" : 36, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 10, "max" : 10, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 559, "name" : "item.body_rune", "min" : 18, "max" : 18, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 4, "max" : 4, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 5, "max" : 5, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 581, "name" : "item.black_robe", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 17, 128 ], "wiki" : "17/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 2, "max" : 2, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 29, "max" : 29, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 30, "max" : 30, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1017, "name" : "item.wizard_hat", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1379, "name" : "item.staff", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 1442, "name" : "item.fire_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1444, "name" : "item.water_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ],
+      "tertiary" : [
+        { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" }
+      ]
+    }
+  ]
+}

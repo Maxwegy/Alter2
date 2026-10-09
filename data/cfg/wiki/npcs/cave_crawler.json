@@ -1,0 +1,169 @@
+{
+  "page" : "Cave crawler",
+  "versions" : [
+    {
+      "source" : "Cave crawler#Icy (1)",
+      "version" : "Icy (1)",
+      "ids" : [
+        13800
+      ],
+      "names" : [
+        "npc.cave_crawler_13800"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Cave crawler#Icy (2)",
+      "version" : "Icy (2)",
+      "ids" : [
+        13801
+      ],
+      "names" : [
+        "npc.cave_crawler_13801"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Cave crawler#Standard (1)",
+      "version" : "Standard (1)",
+      "ids" : [
+        406
+      ],
+      "names" : [
+        "npc.cave_crawler_406"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Cave crawler#Standard (2)",
+      "version" : "Standard (2)",
+      "ids" : [
+        407
+      ],
+      "names" : [
+        "npc.cave_crawler_407"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Cave crawler#Standard (3)",
+      "version" : "Standard (3)",
+      "ids" : [
+        408
+      ],
+      "names" : [
+        "npc.cave_crawler_408"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    },
+    {
+      "source" : "Cave crawler#Standard (4)",
+      "version" : "Standard (4)",
+      "ids" : [
+        409
+      ],
+      "names" : [
+        "npc.cave_crawler_409"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 18, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 10, "xp" : 22.0, "categories" : [ "Cave Crawlers" ], "assignedBy" : [ "mazchna", "mortimer", "spria", "turael" ] }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "page" : "Sergeant (Shayzien)",
+  "versions" : [
+    {
+      "source" : "Sergeant (Shayzien)",
+      "ids" : [
+        11073,
+        11075,
+        11077,
+        11079,
+        11081,
+        11083,
+        11085,
+        11087,
+        11198
+      ],
+      "names" : [
+        "npc.sergeant_11073",
+        "npc.sergeant_11075",
+        "npc.sergeant_11077",
+        "npc.sergeant_11079",
+        "npc.sergeant_11081",
+        "npc.sergeant_11083",
+        "npc.sergeant_11085",
+        "npc.sergeant_11087",
+        "npc.sergeant_11198"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 86,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 73, "defence" : 61, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 16, "slashDefence" : 16, "crushDefence" : 18, "magicDefence" : -12, "rangedDefence" : 27, "lightRangedDefence" : 27, "heavyRangedDefence" : 27, "attackBonus" : 17, "strengthBonus" : 15, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "page" : "Scarred greater demon",
+  "versions" : [
+    {
+      "source" : "Scarred greater demon#Level 113",
+      "version" : "Level 113",
+      "ids" : [
+        12373
+      ],
+      "names" : [
+        "npc.scarred_greater_demon"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "60% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "Scarred greater demon#Level 95",
+      "version" : "Level 95",
+      "ids" : [
+        12388
+      ],
+      "names" : [
+        "npc.scarred_greater_demon_12388"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 87,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 76, "strength" : 88, "defence" : 81, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "0% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

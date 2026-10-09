@@ -1,0 +1,371 @@
+{
+  "page" : "Dwarf",
+  "versions" : [
+    {
+      "source" : "Dwarf#Mining Guild (1)",
+      "version" : "Mining Guild (1)",
+      "ids" : [
+        294
+      ],
+      "names" : [
+        "npc.dwarf_294"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 5, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Mining Guild (2)",
+      "version" : "Mining Guild (2)",
+      "ids" : [
+        295
+      ],
+      "names" : [
+        "npc.dwarf_295"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 5, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 10, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Mining Guild (3)",
+      "version" : "Mining Guild (3)",
+      "ids" : [
+        296
+      ],
+      "names" : [
+        "npc.dwarf_296"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 12,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 12.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Standard (Level 10)",
+      "version" : "Standard (Level 10)",
+      "ids" : [
+        290
+      ],
+      "names" : [
+        "npc.dwarf_290"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 16,
+      "attackSpeed" : 5,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Standard (Level 20)",
+      "version" : "Standard (Level 20)",
+      "ids" : [
+        292
+      ],
+      "names" : [
+        "npc.dwarf_292"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 26,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 15, "strength" : 16, "defence" : 16, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 11, "strengthBonus" : 9, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 26.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (1)",
+      "version" : "Worker (1)",
+      "ids" : [
+        1401
+      ],
+      "names" : [
+        "npc.dwarf_1401"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (2)",
+      "version" : "Worker (2)",
+      "ids" : [
+        1402
+      ],
+      "names" : [
+        "npc.dwarf_1402"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (3)",
+      "version" : "Worker (3)",
+      "ids" : [
+        1403
+      ],
+      "names" : [
+        "npc.dwarf_1403"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : 10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (4)",
+      "version" : "Worker (4)",
+      "ids" : [
+        1404
+      ],
+      "names" : [
+        "npc.dwarf_1404"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 16,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (5)",
+      "version" : "Worker (5)",
+      "ids" : [
+        1405
+      ],
+      "names" : [
+        "npc.dwarf_1405"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 12,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 12.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (6)",
+      "version" : "Worker (6)",
+      "ids" : [
+        1406
+      ],
+      "names" : [
+        "npc.dwarf_1406"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 6, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 16.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (7)",
+      "version" : "Worker (7)",
+      "ids" : [
+        1407
+      ],
+      "names" : [
+        "npc.dwarf_1407"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 8, "defence" : 8, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 13.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (8)",
+      "version" : "Worker (8)",
+      "ids" : [
+        1408
+      ],
+      "names" : [
+        "npc.dwarf_1408"
+      ],
+      "combatLevel" : 7,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 6, "strength" : 6, "defence" : 6, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 10.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Dwarf#Worker (9)",
+      "version" : "Worker (9)",
+      "ids" : [
+        8496
+      ],
+      "names" : [
+        "npc.dwarf_8496"
+      ],
+      "combatLevel" : 11,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 8, "strength" : 6, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 18.0, "categories" : [ "Dwarves" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

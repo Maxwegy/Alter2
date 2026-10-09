@@ -1,0 +1,14 @@
+{
+  "page" : "Baby Roc",
+  "tables" : [
+    {
+      "source" : "Baby Roc",
+      "npcIds" : [
+        762
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty smoke devil",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty smoke devil",
+      "ids" : [
+        12577
+      ],
+      "names" : [
+        "npc.bloodthirsty_smoke_devil"
+      ],
+      "combatLevel" : 420,
+      "hitpoints" : 360,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 360, "strength" : 345, "defence" : 390, "ranged" : 420, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 850, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "35"
+      ],
+      "attackStyles" : [
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 93, "xp" : 3600.0, "categories" : [ "Smoke Devils" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

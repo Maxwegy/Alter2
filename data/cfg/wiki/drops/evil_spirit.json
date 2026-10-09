@@ -1,0 +1,14 @@
+{
+  "page" : "Evil spirit",
+  "tables" : [
+    {
+      "source" : "Evil spirit",
+      "npcIds" : [
+        625
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

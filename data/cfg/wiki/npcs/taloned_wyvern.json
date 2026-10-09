@@ -1,0 +1,39 @@
+{
+  "page" : "Taloned Wyvern",
+  "versions" : [
+    {
+      "source" : "Taloned Wyvern",
+      "ids" : [
+        7793
+      ],
+      "names" : [
+        "npc.taloned_wyvern"
+      ],
+      "combatLevel" : 147,
+      "hitpoints" : 200,
+      "attackSpeed" : 6,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 110, "defence" : 90, "ranged" : 90, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 140, "rangedDefence" : 70, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Ranged)",
+        "12 (Melee)",
+        "55 (Icy breath)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Typeless Ranged",
+        "Icy breath"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 66, "xp" : 205.0, "categories" : [ "Fossil Island Wyverns" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    }
+  ]
+}

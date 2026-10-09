@@ -1,0 +1,20 @@
+{
+  "page" : "Armoured Foe",
+  "versions" : [
+    {
+      "source" : "Armoured Foe",
+      "ids" : [
+        7750
+      ],
+      "names" : [
+        "npc.armoured_foe"
+      ],
+      "combatLevel" : 820,
+      "hitpoints" : 1500,
+      "size" : 5,
+      "levels" : { "attack" : 500, "strength" : 420, "defence" : 500, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 275, "slashDefence" : 275, "crushDefence" : 275, "magicDefence" : 900, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

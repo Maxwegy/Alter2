@@ -1,0 +1,113 @@
+{
+  "page" : "Giant rat",
+  "versions" : [
+    {
+      "source" : "Giant rat#Level 26",
+      "version" : "Level 26",
+      "ids" : [
+        2510,
+        2511,
+        2512
+      ],
+      "names" : [
+        "npc.giant_rat",
+        "npc.giant_rat_2511",
+        "npc.giant_rat_2512"
+      ],
+      "combatLevel" : 26,
+      "hitpoints" : 25,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 23, "defence" : 22, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 25.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Giant rat#Level 3",
+      "version" : "Level 3",
+      "ids" : [
+        2856,
+        2857,
+        2858,
+        2859,
+        2860,
+        2861
+      ],
+      "names" : [
+        "npc.giant_rat_2856",
+        "npc.giant_rat_2857",
+        "npc.giant_rat_2858",
+        "npc.giant_rat_2859",
+        "npc.giant_rat_2860",
+        "npc.giant_rat_2861"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 5,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 2, "strength" : 3, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 5.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Giant rat#Level 6",
+      "version" : "Level 6",
+      "ids" : [
+        2862,
+        2863,
+        2864
+      ],
+      "names" : [
+        "npc.giant_rat_2862",
+        "npc.giant_rat_2863",
+        "npc.giant_rat_2864"
+      ],
+      "combatLevel" : 6,
+      "hitpoints" : 10,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 6, "strength" : 5, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 10.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

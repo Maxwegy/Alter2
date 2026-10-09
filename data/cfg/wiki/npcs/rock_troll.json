@@ -1,0 +1,32 @@
+{
+  "page" : "Rock (Troll)",
+  "versions" : [
+    {
+      "source" : "Rock (Troll)",
+      "ids" : [
+        925
+      ],
+      "names" : [
+        "npc.rock_925"
+      ],
+      "combatLevel" : 111,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 110, "defence" : 70, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 180, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "earth", "percent" : 20 }
+    }
+  ]
+}

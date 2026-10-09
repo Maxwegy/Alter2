@@ -1,0 +1,29 @@
+{
+  "page" : "Serpent shaman",
+  "versions" : [
+    {
+      "source" : "Serpent shaman",
+      "ids" : [
+        12811
+      ],
+      "names" : [
+        "npc.serpent_shaman"
+      ],
+      "combatLevel" : 161,
+      "hitpoints" : 125,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 90, "ranged" : 160, "magic" : 220 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 15, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 15 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

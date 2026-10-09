@@ -1,0 +1,59 @@
+{
+  "page" : "Myre Blamish Snail",
+  "versions" : [
+    {
+      "source" : "Myre Blamish Snail#Pointed",
+      "version" : "Pointed",
+      "ids" : [
+        2649
+      ],
+      "names" : [
+        "npc.myre_blamish_snail_2649"
+      ],
+      "combatLevel" : 10,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 12, "ranged" : 8, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 5, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 10, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Myre Blamish Snail#Round",
+      "version" : "Round",
+      "ids" : [
+        2634
+      ],
+      "names" : [
+        "npc.myre_blamish_snail"
+      ],
+      "combatLevel" : 9,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 0, "strength" : 0, "defence" : 22, "ranged" : 5, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 5, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 10, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

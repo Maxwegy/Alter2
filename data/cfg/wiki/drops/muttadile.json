@@ -1,0 +1,26 @@
+{
+  "page" : "Muttadile",
+  "tables" : [
+    {
+      "source" : "Muttadile",
+      "npcIds" : [
+        7561,
+        7562,
+        7563
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 },
+        { "item" : 20897, "name" : "item.houndmasters_diary", "min" : 1, "max" : 1 },
+        { "item" : 20910, "name" : "item.stinkhorn_mushroom", "min" : 1, "max" : 3 },
+        { "item" : 20960, "name" : "item.revitalisation_4_20960", "min" : 1, "max" : 1 },
+        { "item" : 20972, "name" : "item.prayer_enhance_4_20972", "min" : 1, "max" : 1 },
+        { "item" : 20984, "name" : "item.xerics_aid_4_20984", "min" : 1, "max" : 1 },
+        { "item" : 20996, "name" : "item.overload_4_20996", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

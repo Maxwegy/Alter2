@@ -1,0 +1,65 @@
+{
+  "page" : "Kurask",
+  "versions" : [
+    {
+      "source" : "Kurask#Big",
+      "version" : "Big",
+      "ids" : [
+        411
+      ],
+      "names" : [
+        "npc.kurask_411"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 97,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 67, "strength" : 105, "defence" : 105, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 70, "xp" : 97.0, "categories" : [ "Kurask" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Kurask#Normal",
+      "version" : "Normal",
+      "ids" : [
+        410
+      ],
+      "names" : [
+        "npc.kurask_410"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 97,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 3,
+      "levels" : { "attack" : 67, "strength" : 105, "defence" : 105, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "leafy"
+      ],
+      "slayer" : { "level" : 70, "xp" : 97.0, "categories" : [ "Kurask" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

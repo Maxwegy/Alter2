@@ -1,0 +1,34 @@
+{
+  "page" : "Ancient Zygomite",
+  "versions" : [
+    {
+      "source" : "Ancient Zygomite",
+      "ids" : [
+        7797
+      ],
+      "names" : [
+        "npc.ancient_zygomite"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 80, "ranged" : 80, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 30, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9 (melee)",
+        "10 (ranged)"
+      ],
+      "attackStyles" : [
+        "Magical melee",
+        "Magical ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 57, "xp" : 154.0, "categories" : [ "Mutated Zygomites" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 40 }
+    }
+  ]
+}

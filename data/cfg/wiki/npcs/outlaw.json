@@ -1,0 +1,265 @@
+{
+  "page" : "Outlaw",
+  "versions" : [
+    {
+      "source" : "Outlaw#1",
+      "version" : "1",
+      "ids" : [
+        4167
+      ],
+      "names" : [
+        "npc.outlaw"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#10",
+      "version" : "10",
+      "ids" : [
+        4176
+      ],
+      "names" : [
+        "npc.outlaw_4176"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#2",
+      "version" : "2",
+      "ids" : [
+        4168
+      ],
+      "names" : [
+        "npc.outlaw_4168"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#3",
+      "version" : "3",
+      "ids" : [
+        4169
+      ],
+      "names" : [
+        "npc.outlaw_4169"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#4",
+      "version" : "4",
+      "ids" : [
+        4170
+      ],
+      "names" : [
+        "npc.outlaw_4170"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#5",
+      "version" : "5",
+      "ids" : [
+        4171
+      ],
+      "names" : [
+        "npc.outlaw_4171"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#6",
+      "version" : "6",
+      "ids" : [
+        4172
+      ],
+      "names" : [
+        "npc.outlaw_4172"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#7",
+      "version" : "7",
+      "ids" : [
+        4173
+      ],
+      "names" : [
+        "npc.outlaw_4173"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#8",
+      "version" : "8",
+      "ids" : [
+        4174
+      ],
+      "names" : [
+        "npc.outlaw_4174"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Outlaw#9",
+      "version" : "9",
+      "ids" : [
+        4175
+      ],
+      "names" : [
+        "npc.outlaw_4175"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "respawnTicks" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 30, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

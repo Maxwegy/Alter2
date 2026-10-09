@@ -1,0 +1,30 @@
+{
+  "page" : "Abyssal leech",
+  "versions" : [
+    {
+      "source" : "Abyssal leech",
+      "ids" : [
+        2584
+      ],
+      "names" : [
+        "npc.abyssal_leech"
+      ],
+      "combatLevel" : 41,
+      "hitpoints" : 10,
+      "attackSpeed" : 2,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 5, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 100, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

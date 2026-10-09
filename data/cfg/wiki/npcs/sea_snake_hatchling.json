@@ -1,0 +1,32 @@
+{
+  "page" : "Sea Snake Hatchling",
+  "versions" : [
+    {
+      "source" : "Sea Snake Hatchling",
+      "ids" : [
+        1098
+      ],
+      "names" : [
+        "npc.sea_snake_hatchling"
+      ],
+      "combatLevel" : 62,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 55, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 50.0, "categories" : [ "Sea Snakes" ], "assignedBy" : [ "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

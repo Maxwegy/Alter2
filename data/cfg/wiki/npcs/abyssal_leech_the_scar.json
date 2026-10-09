@@ -1,0 +1,80 @@
+{
+  "page" : "Abyssal leech (The Scar)",
+  "versions" : [
+    {
+      "source" : "Abyssal leech (The Scar)#Level 32",
+      "version" : "Level 32",
+      "ids" : [
+        12393
+      ],
+      "names" : [
+        "npc.abyssal_leech_12393"
+      ],
+      "combatLevel" : 32,
+      "hitpoints" : 50,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 10, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 10, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 5, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Abyssal leech (The Scar)#Level 46",
+      "version" : "Level 46",
+      "ids" : [
+        12366
+      ],
+      "names" : [
+        "npc.abyssal_leech_12366"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 30,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Abyssal leech (The Scar)#Level 54",
+      "version" : "Level 54",
+      "ids" : [
+        12391
+      ],
+      "names" : [
+        "npc.abyssal_leech_12391"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 20,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 10, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 100, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 100, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

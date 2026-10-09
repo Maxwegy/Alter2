@@ -1,0 +1,55 @@
+{
+  "page" : "The Kendal (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "The Kendal (Nightmare Zone)#Hard Mode",
+      "version" : "Hard Mode",
+      "ids" : [
+        6322
+      ],
+      "names" : [
+        "npc.the_kendal_hard"
+      ],
+      "combatLevel" : 210,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 195, "strength" : 195, "defence" : 60, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : -10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 5, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "The Kendal (Nightmare Zone)#Normal Mode",
+      "version" : "Normal Mode",
+      "ids" : [
+        6383
+      ],
+      "names" : [
+        "npc.the_kendal_6383"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 65, "defence" : 60, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 10, "magicDefence" : -10, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 5, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

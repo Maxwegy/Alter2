@@ -1,0 +1,470 @@
+{
+  "page" : "Aviansie",
+  "versions" : [
+    {
+      "source" : "Aviansie#Level 131",
+      "version" : "Level 131",
+      "ids" : [
+        3183
+      ],
+      "names" : [
+        "npc.aviansie_3183"
+      ],
+      "combatLevel" : 131,
+      "hitpoints" : 115,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 175, "ranged" : 143, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 115.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 137",
+      "version" : "Level 137",
+      "ids" : [
+        3175
+      ],
+      "names" : [
+        "npc.aviansie_3175"
+      ],
+      "combatLevel" : 137,
+      "hitpoints" : 124,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 136, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 124.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 148",
+      "version" : "Level 148",
+      "ids" : [
+        3176
+      ],
+      "names" : [
+        "npc.aviansie_3176"
+      ],
+      "combatLevel" : 148,
+      "hitpoints" : 139,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 151, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 139.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 69",
+      "version" : "Level 69",
+      "ids" : [
+        3169
+      ],
+      "names" : [
+        "npc.aviansie"
+      ],
+      "combatLevel" : 69,
+      "hitpoints" : 70,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 71, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 70.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 71",
+      "version" : "Level 71",
+      "ids" : [
+        3177
+      ],
+      "names" : [
+        "npc.aviansie_3177"
+      ],
+      "combatLevel" : 71,
+      "hitpoints" : 63,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 55, "ranged" : 86, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 63.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 73",
+      "version" : "Level 73",
+      "ids" : [
+        3178
+      ],
+      "names" : [
+        "npc.aviansie_3178"
+      ],
+      "combatLevel" : 73,
+      "hitpoints" : 67,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 55, "ranged" : 89, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 67.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 79 (1)",
+      "version" : "Level 79 (1)",
+      "ids" : [
+        3170
+      ],
+      "names" : [
+        "npc.aviansie_3170"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 83,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 85, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 83.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 79 (2)",
+      "version" : "Level 79 (2)",
+      "ids" : [
+        3179
+      ],
+      "names" : [
+        "npc.aviansie_3179"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 77,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 55, "ranged" : 96, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 77.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 83",
+      "version" : "Level 83",
+      "ids" : [
+        3172
+      ],
+      "names" : [
+        "npc.aviansie_3172"
+      ],
+      "combatLevel" : 83,
+      "hitpoints" : 86,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 76, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 86.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 84",
+      "version" : "Level 84",
+      "ids" : [
+        3171
+      ],
+      "names" : [
+        "npc.aviansie_3171"
+      ],
+      "combatLevel" : 84,
+      "hitpoints" : 86,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 93, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 86.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 89",
+      "version" : "Level 89",
+      "ids" : [
+        3180
+      ],
+      "names" : [
+        "npc.aviansie_3180"
+      ],
+      "combatLevel" : 89,
+      "hitpoints" : 69,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 115, "ranged" : 89, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 69.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 92",
+      "version" : "Level 92",
+      "ids" : [
+        3173
+      ],
+      "names" : [
+        "npc.aviansie_3173"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 95,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 90, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 95.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 94",
+      "version" : "Level 94",
+      "ids" : [
+        3181
+      ],
+      "names" : [
+        "npc.aviansie_3181"
+      ],
+      "combatLevel" : 94,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 115, "ranged" : 96, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 75.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 97 (1)",
+      "version" : "Level 97 (1)",
+      "ids" : [
+        3174
+      ],
+      "names" : [
+        "npc.aviansie_3174"
+      ],
+      "combatLevel" : 97,
+      "hitpoints" : 98,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 99, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 98.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    },
+    {
+      "source" : "Aviansie#Level 97 (2)",
+      "version" : "Level 97 (2)",
+      "ids" : [
+        3182
+      ],
+      "names" : [
+        "npc.aviansie_3182"
+      ],
+      "combatLevel" : 97,
+      "hitpoints" : 79,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 115, "ranged" : 101, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : -20, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 79.0, "categories" : [ "Aviansie" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "krystilia", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 45 }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Animated Rune Armour",
+  "versions" : [
+    {
+      "source" : "Animated Rune Armour",
+      "ids" : [
+        2456
+      ],
+      "names" : [
+        "npc.animated_rune_armour"
+      ],
+      "combatLevel" : 138,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 120, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : 400, "rangedDefence" : 400, "lightRangedDefence" : 400, "heavyRangedDefence" : 400, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true, "burn" : "Immune (strong)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

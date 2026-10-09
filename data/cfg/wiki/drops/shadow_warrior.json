@@ -1,0 +1,47 @@
+{
+  "page" : "Shadow warrior",
+  "tables" : [
+    {
+      "source" : "Shadow warrior",
+      "npcIds" : [
+        2853
+      ],
+      "main" : [
+        { "item" : 187, "name" : "item.weapon_poison", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 142 ], "wiki" : "1/28.4" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 379 ], "wiki" : "1/37.9" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 253 ], "wiki" : "1/50.6" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 1, 65 ], "wiki" : "1/65" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 10, 827 ], "wiki" : "1/82.7" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 569 ], "wiki" : "1/113.8" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 1517 ], "wiki" : "1/151.7" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 1, 182 ], "wiki" : "1/182" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 1138 ], "wiki" : "1/227.6" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 5, 1517 ], "wiki" : "1/303.4" },
+        { "item" : 556, "name" : "item.air_rune", "min" : 45, "max" : 45, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 564, "name" : "item.cosmic_rune", "min" : 3, "max" : 3, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 565, "name" : "item.blood_rune", "min" : 2, "max" : 2, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 581, "name" : "item.black_robe", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 869, "name" : "item.black_knife", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 47, 128 ], "wiki" : "47/128" },
+        { "item" : 1233, "name" : "item.black_daggerp", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1245, "name" : "item.adamant_spear", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "wiki" : "1/32,768" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 1297, "name" : "item.black_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 2359, "name" : "item.mithril_bar", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 5, 1517 ], "wiki" : "1/303.4" }
+      ]
+    }
+  ]
+}

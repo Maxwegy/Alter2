@@ -1,0 +1,19 @@
+{
+  "page" : "Rowdy Guard",
+  "versions" : [
+    {
+      "source" : "Rowdy Guard",
+      "ids" : [
+        4654
+      ],
+      "names" : [
+        "npc.rowdy_guard"
+      ],
+      "combatLevel" : 43,
+      "hitpoints" : 60,
+      "size" : 1,
+      "levels" : { "attack" : 32, "strength" : 32, "defence" : 32, "ranged" : 0, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

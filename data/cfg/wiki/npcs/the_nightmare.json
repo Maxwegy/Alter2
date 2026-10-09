@@ -1,0 +1,51 @@
+{
+  "page" : "The Nightmare",
+  "versions" : [
+    {
+      "source" : "The Nightmare",
+      "ids" : [
+        9425,
+        9426,
+        9427,
+        9428,
+        9429,
+        9430,
+        9431,
+        9432,
+        9433,
+        9460
+      ],
+      "names" : [
+        "npc.the_nightmare_9425",
+        "npc.the_nightmare_9426",
+        "npc.the_nightmare_9427",
+        "npc.the_nightmare_9428",
+        "npc.the_nightmare_9429",
+        "npc.the_nightmare_9430",
+        "npc.the_nightmare_9431",
+        "npc.the_nightmare_9432",
+        "npc.the_nightmare_9433",
+        "npc.the_nightmare_9460"
+      ],
+      "combatLevel" : 814,
+      "hitpoints" : 2400,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 150, "ranged" : 150, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 140, "rangedAttack" : 140, "stabDefence" : 120, "slashDefence" : 180, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 600, "lightRangedDefence" : 600, "heavyRangedDefence" : 600, "attackBonus" : 140, "strengthBonus" : 128, "rangedStrength" : 64, "magicDamage" : 64 },
+      "maxHits" : [
+        "50/60 (Melee)",
+        "33/39 (Ranged and Magic)",
+        "Increased by 20% if using incorrect protection prayer"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

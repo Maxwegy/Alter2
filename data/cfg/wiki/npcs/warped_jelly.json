@@ -1,0 +1,32 @@
+{
+  "page" : "Warped Jelly",
+  "versions" : [
+    {
+      "source" : "Warped Jelly",
+      "ids" : [
+        7277
+      ],
+      "names" : [
+        "npc.warped_jelly"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 90, "defence" : 70, "ranged" : 1, "magic" : 95 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 52, "xp" : 140.0, "categories" : [ "Jellies" ], "assignedBy" : [ "chaeldar", "konar", "mortimer", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

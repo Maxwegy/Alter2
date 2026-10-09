@@ -1,0 +1,35 @@
+{
+  "page" : "Glough",
+  "versions" : [
+    {
+      "source" : "Glough",
+      "ids" : [
+        7101,
+        7102,
+        7103
+      ],
+      "names" : [
+        "npc.glough_7101",
+        "npc.glough_7102",
+        "npc.glough_7103"
+      ],
+      "combatLevel" : 431,
+      "hitpoints" : 575,
+      "attackSpeed" : 6,
+      "size" : 2,
+      "levels" : { "attack" : 260, "strength" : 270, "defence" : 248, "ranged" : 262, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 100, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 122, "strengthBonus" : 75, "rangedStrength" : 40, "magicDamage" : 40 },
+      "maxHits" : [
+        "61"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

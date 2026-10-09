@@ -1,0 +1,31 @@
+{
+  "page" : "Guard Bandit",
+  "versions" : [
+    {
+      "source" : "Guard Bandit",
+      "ids" : [
+        1027
+      ],
+      "names" : [
+        "npc.guard_bandit"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 27,
+      "attackSpeed" : 4,
+      "respawnTicks" : 100,
+      "size" : 1,
+      "levels" : { "attack" : 17, "strength" : 17, "defence" : 17, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 4, "slashDefence" : 8, "crushDefence" : 5, "magicDefence" : 1, "rangedDefence" : 4, "lightRangedDefence" : 4, "heavyRangedDefence" : 4, "attackBonus" : 11, "strengthBonus" : 12, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 29.0, "categories" : [ "Bandits" ], "assignedBy" : [ "krystilia" ] }
+    }
+  ]
+}

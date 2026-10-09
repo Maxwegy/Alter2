@@ -1,0 +1,34 @@
+{
+  "page" : "Bloodthirsty Drake",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Drake",
+      "ids" : [
+        12586
+      ],
+      "names" : [
+        "npc.bloodthirsty_drake"
+      ],
+      "combatLevel" : 576,
+      "hitpoints" : 945,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 405, "strength" : 420, "defence" : 200, "ranged" : 360, "magic" : 450 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 20, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 0, "strengthBonus" : 12, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "37"
+      ],
+      "attackStyles" : [
+        "Ranged melee",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 84, "categories" : [ "Drakes" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

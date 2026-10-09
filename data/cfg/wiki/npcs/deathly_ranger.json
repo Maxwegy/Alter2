@@ -1,0 +1,59 @@
+{
+  "page" : "Deathly ranger",
+  "versions" : [
+    {
+      "source" : "Deathly ranger#Challenge Mode",
+      "version" : "Challenge Mode",
+      "ids" : [
+        7559
+      ],
+      "names" : [
+        "npc.deathly_ranger"
+      ],
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 232, "ranged" : 315, "magic" : 232 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 70, "magicDamage" : 0 },
+      "maxHits" : [
+        "99"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    },
+    {
+      "source" : "Deathly ranger#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7559
+      ],
+      "names" : [
+        "npc.deathly_ranger"
+      ],
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 155, "ranged" : 210, "magic" : 155 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 70, "magicDamage" : 0 },
+      "maxHits" : [
+        "70"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ]
+    }
+  ]
+}

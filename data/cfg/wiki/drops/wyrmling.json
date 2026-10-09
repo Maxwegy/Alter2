@@ -1,0 +1,18 @@
+{
+  "page" : "Wyrmling",
+  "tables" : [
+    {
+      "source" : "Wyrmling",
+      "npcIds" : [
+        13031,
+        13032
+      ],
+      "always" : [
+        { "item" : 28899, "name" : "item.wyrmling_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 404 ], "wiki" : "1/404" }
+      ]
+    }
+  ]
+}

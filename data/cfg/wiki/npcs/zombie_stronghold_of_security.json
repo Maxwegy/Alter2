@@ -1,0 +1,284 @@
+{
+  "page" : "Zombie (Stronghold of Security)",
+  "versions" : [
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 30, 1",
+      "version" : "Level 30, 1",
+      "ids" : [
+        2501
+      ],
+      "names" : [
+        "npc.zombie_2501"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 29, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 30, 2",
+      "version" : "Level 30, 2",
+      "ids" : [
+        2502
+      ],
+      "names" : [
+        "npc.zombie_2502"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 29, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 30, 3",
+      "version" : "Level 30, 3",
+      "ids" : [
+        2503
+      ],
+      "names" : [
+        "npc.zombie_2503"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 30,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 29, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 44, 1",
+      "version" : "Level 44, 1",
+      "ids" : [
+        2504
+      ],
+      "names" : [
+        "npc.zombie_2504"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 22, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 40.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 44, 2",
+      "version" : "Level 44, 2",
+      "ids" : [
+        2505
+      ],
+      "names" : [
+        "npc.zombie_2505"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 22, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 40.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 44, 3",
+      "version" : "Level 44, 3",
+      "ids" : [
+        2506
+      ],
+      "names" : [
+        "npc.zombie_2506"
+      ],
+      "combatLevel" : 44,
+      "hitpoints" : 40,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 35, "strength" : 40, "defence" : 40, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 22, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 5, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 40.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 53, 1",
+      "version" : "Level 53, 1",
+      "ids" : [
+        2507
+      ],
+      "names" : [
+        "npc.zombie_2507"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 50,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 40, "defence" : 48, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 19, "slashDefence" : 18, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 21, "lightRangedDefence" : 21, "heavyRangedDefence" : 21, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 53, 2",
+      "version" : "Level 53, 2",
+      "ids" : [
+        2508
+      ],
+      "names" : [
+        "npc.zombie_2508"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 50,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 40, "defence" : 48, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 19, "slashDefence" : 18, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 21, "lightRangedDefence" : 21, "heavyRangedDefence" : 21, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zombie (Stronghold of Security)#Level 53, 3",
+      "version" : "Level 53, 3",
+      "ids" : [
+        2509
+      ],
+      "names" : [
+        "npc.zombie_2509"
+      ],
+      "combatLevel" : 53,
+      "hitpoints" : 50,
+      "attackSpeed" : 5,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 40, "defence" : 48, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 19, "slashDefence" : 18, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 21, "lightRangedDefence" : 21, "heavyRangedDefence" : 21, "attackBonus" : 5, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Zombies" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

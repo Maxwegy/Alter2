@@ -1,0 +1,14 @@
+{
+  "page" : "Thora (Miscellania)",
+  "tables" : [
+    {
+      "source" : "Thora (Miscellania)",
+      "npcIds" : [
+        3682
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

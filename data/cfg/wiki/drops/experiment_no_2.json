@@ -1,0 +1,51 @@
+{
+  "page" : "Experiment No.2",
+  "tables" : [
+    {
+      "source" : "Experiment No.2",
+      "npcIds" : [
+        5126
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 11205, "name" : "item.shrunk_ogleroot", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 61 ], "wiki" : "1/12.2" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 163 ], "wiki" : "1/16.3" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 217 ], "wiki" : "1/21.7" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 3, "chance" : [ 27, 128 ], "wiki" : "27/128" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 279 ], "wiki" : "1/27.9" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 2, 71 ], "wiki" : "1/35.5" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 244 ], "wiki" : "1/48.8" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 1, 65 ], "wiki" : "1/65" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 1, 78 ], "wiki" : "1/78" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 2, 195 ], "wiki" : "1/97.5" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 1, 130 ], "wiki" : "1/130" },
+        { "item" : 555, "name" : "item.water_rune", "min" : 1, "max" : 14, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 1, "max" : 20, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 561, "name" : "item.nature_rune", "min" : 1, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 1, "max" : 15, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 75, "chance" : [ 9, 64 ], "wiki" : "18/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 76, "max" : 100, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4369067 ], "wiki" : "1/43,690.67" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 25, 2912711 ], "wiki" : "1/116,508.44" },
+        { "item" : 1407, "name" : "item.mystic_earth_staff", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 50, 45511 ], "wiki" : "1/910.22" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 100, 136533 ], "wiki" : "1/1,365.33" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 34133 ], "wiki" : "1/341.33" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "wiki" : "1/170.67" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 8533 ], "wiki" : "1/85.33" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 1, 130 ], "wiki" : "1/130" },
+        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 7416, "name" : "item.mole_claw", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 7893, "name" : "item.experiment_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

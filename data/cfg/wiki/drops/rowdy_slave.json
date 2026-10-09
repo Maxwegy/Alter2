@@ -1,0 +1,17 @@
+{
+  "page" : "Rowdy slave",
+  "tables" : [
+    {
+      "source" : "Rowdy slave",
+      "npcIds" : [
+        4634
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 1844, "name" : "item.slave_shirt", "min" : 1, "max" : 1 },
+        { "item" : 1845, "name" : "item.slave_robe", "min" : 1, "max" : 1 },
+        { "item" : 1846, "name" : "item.slave_boots", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

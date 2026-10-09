@@ -1,0 +1,54 @@
+{
+  "page" : "Angry unicorn",
+  "versions" : [
+    {
+      "source" : "Angry unicorn#Level 45",
+      "version" : "Level 45",
+      "ids" : [
+        1061
+      ],
+      "names" : [
+        "npc.angry_unicorn"
+      ],
+      "combatLevel" : 45,
+      "hitpoints" : 200,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 37, "strength" : 38, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Angry unicorn#Level 47",
+      "version" : "Level 47",
+      "ids" : [
+        4688
+      ],
+      "names" : [
+        "npc.angry_unicorn_4688"
+      ],
+      "combatLevel" : 47,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 38, "strength" : 41, "defence" : 38, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

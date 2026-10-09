@@ -1,0 +1,15 @@
+{
+  "page" : "Spawn",
+  "tables" : [
+    {
+      "source" : "Spawn",
+      "npcIds" : [
+        5916,
+        5917
+      ],
+      "always" : [
+        { "item" : 25766, "name" : "item.fiendish_ashes", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

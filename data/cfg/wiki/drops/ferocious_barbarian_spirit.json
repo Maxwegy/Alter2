@@ -1,0 +1,67 @@
+{
+  "page" : "Ferocious barbarian spirit",
+  "tables" : [
+    {
+      "source" : "Ferocious barbarian spirit",
+      "npcIds" : [
+        5566
+      ],
+      "always" : [
+        { "item" : 20543, "name" : "item.reward_casket_elite", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 2, "chance" : [ 5, 256 ], "wiki" : "1/51.2" },
+        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 2, "chance" : [ 10, 683 ], "wiki" : "1/68.3" },
+        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 2, "chance" : [ 1, 91 ], "wiki" : "1/91" },
+        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 2, "chance" : [ 1, 117 ], "wiki" : "1/117" },
+        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 2, "chance" : [ 10, 1489 ], "wiki" : "1/148.9" },
+        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 2, "chance" : [ 5, 1024 ], "wiki" : "1/204.8" },
+        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 2, "chance" : [ 10, 2731 ], "wiki" : "1/273.1" },
+        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 2, "chance" : [ 10, 3277 ], "wiki" : "1/327.7" },
+        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 2, "chance" : [ 5, 2048 ], "wiki" : "1/409.6" },
+        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 2, "chance" : [ 10, 5461 ], "wiki" : "1/546.1" },
+        { "item" : 385, "name" : "item.shark", "min" : 3, "max" : 3, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 533, "name" : "item.big_bones_noted", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 560, "name" : "item.death_rune", "min" : 5, "max" : 9, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 816, "name" : "item.adamant_dartp", "min" : 20, "max" : 20, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 867, "name" : "item.adamant_knife", "min" : 20, "max" : 20, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 10, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "wiki" : "1/32,768" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 1428, "name" : "item.mithril_mace", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 1430, "name" : "item.adamant_mace", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1432, "name" : "item.rune_mace", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
+        { "item" : 1515, "name" : "item.yew_logs", "min" : 3, "max" : 3, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
+        { "item" : 2354, "name" : "item.steel_bar_noted", "min" : 2, "max" : 2, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2360, "name" : "item.mithril_bar_noted", "min" : 2, "max" : 2, "noted" : true, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2362, "name" : "item.adamantite_bar_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2364, "name" : "item.runite_bar_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 2, "chance" : [ 10, 5461 ], "wiki" : "1/546.1" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 9144, "name" : "item.runite_bolts", "min" : 10, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 11373, "name" : "item.mithril_hasta", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11465, "name" : "item.prayer_mix2", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 11467, "name" : "item.prayer_mix1", "min" : 1, "max" : 1, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 11469, "name" : "item.superattack_mix2", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 11471, "name" : "item.superattack_mix1", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11473, "name" : "item.antipoison_supermix2", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 11477, "name" : "item.fishing_mix2", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 11485, "name" : "item.super_str_mix2", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11487, "name" : "item.super_str_mix1", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11497, "name" : "item.super_def_mix2", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 11499, "name" : "item.super_def_mix1", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 11505, "name" : "item.antifire_mix2", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 11507, "name" : "item.antifire_mix1", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" }
+      ]
+    }
+  ]
+}

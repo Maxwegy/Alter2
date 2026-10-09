@@ -1,0 +1,18 @@
+{
+  "page" : "Elidinis' Warden",
+  "tables" : [
+    {
+      "source" : "Elidinis' Warden",
+      "npcIds" : [
+        11753,
+        11754,
+        11755,
+        11761,
+        11763
+      ],
+      "always" : [
+        { "item" : 27310, "name" : "item.the_wardens", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

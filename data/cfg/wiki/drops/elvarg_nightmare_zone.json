@@ -1,0 +1,15 @@
+{
+  "page" : "Elvarg (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Elvarg (Nightmare Zone)",
+      "npcIds" : [
+        6118,
+        6349
+      ],
+      "always" : [
+        { "item" : 536, "name" : "item.dragon_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

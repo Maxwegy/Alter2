@@ -1,0 +1,29 @@
+{
+  "page" : "Fremennik warband archer",
+  "versions" : [
+    {
+      "source" : "Fremennik warband archer",
+      "ids" : [
+        12814
+      ],
+      "names" : [
+        "npc.fremennik_warband_archer"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 50,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 80, "ranged" : 110, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 150, "rangedAttack" : 150, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 75, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 150, "strengthBonus" : 150, "rangedStrength" : 10, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

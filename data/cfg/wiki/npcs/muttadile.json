@@ -1,0 +1,135 @@
+{
+  "page" : "Muttadile",
+  "versions" : [
+    {
+      "source" : "Muttadile#Large",
+      "version" : "Large",
+      "ids" : [
+        7561,
+        7563
+      ],
+      "names" : [
+        "npc.muttadile",
+        "npc.muttadile_7563"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 220, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 82, "stabDefence" : -5, "slashDefence" : 82, "crushDefence" : 60, "magicDefence" : 75, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 88, "strengthBonus" : 55, "rangedStrength" : 47, "magicDamage" : -8 },
+      "maxHits" : [
+        "72 (Stomp)",
+        "48 (Melee)",
+        "45 (Ranged)",
+        "23 (Magic)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "earth", "percent" : 40 }
+    },
+    {
+      "source" : "Muttadile#Large (Challenge Mode)",
+      "version" : "Large (Challenge Mode)",
+      "ids" : [
+        7561,
+        7563
+      ],
+      "names" : [
+        "npc.muttadile",
+        "npc.muttadile_7563"
+      ],
+      "hitpoints" : 375,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 375, "strength" : 375, "defence" : 330, "ranged" : 375, "magic" : 375 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 82, "stabDefence" : -5, "slashDefence" : 82, "crushDefence" : 60, "magicDefence" : 75, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 88, "strengthBonus" : 55, "rangedStrength" : 47, "magicDamage" : -8 },
+      "maxHits" : [
+        "106 (Stomp)",
+        "71 (Melee)",
+        "67 (Ranged)",
+        "34 (Magic)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "earth", "percent" : 40 }
+    },
+    {
+      "source" : "Muttadile#Small",
+      "version" : "Small",
+      "ids" : [
+        7562
+      ],
+      "names" : [
+        "npc.muttadile_7562"
+      ],
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 150, "defence" : 138, "ranged" : 150, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 83, "stabDefence" : -5, "slashDefence" : 72, "crushDefence" : 50, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 71, "strengthBonus" : 48, "rangedStrength" : 56, "magicDamage" : -8 },
+      "maxHits" : [
+        "28 (Melee)",
+        "30 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "earth", "percent" : 40 }
+    },
+    {
+      "source" : "Muttadile#Small (Challenge Mode)",
+      "version" : "Small (Challenge Mode)",
+      "ids" : [
+        7562
+      ],
+      "names" : [
+        "npc.muttadile_7562"
+      ],
+      "hitpoints" : 375,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 225, "strength" : 225, "defence" : 207, "ranged" : 225, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 83, "stabDefence" : -5, "slashDefence" : 72, "crushDefence" : 50, "magicDefence" : 60, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 71, "strengthBonus" : 48, "rangedStrength" : 56, "magicDamage" : -8 },
+      "maxHits" : [
+        "41 (Melee)",
+        "44 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "xerician"
+      ],
+      "elementalWeakness" : { "element" : "earth", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Maniacal Monkey Archer",
+  "versions" : [
+    {
+      "source" : "Maniacal Monkey Archer",
+      "ids" : [
+        7119
+      ],
+      "names" : [
+        "npc.maniacal_monkey_archer"
+      ],
+      "combatLevel" : 132,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 80, "defence" : 80, "ranged" : 200, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "Monkeys" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

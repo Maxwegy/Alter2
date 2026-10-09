@@ -1,0 +1,30 @@
+{
+  "page" : "Colonel Radick",
+  "versions" : [
+    {
+      "source" : "Colonel Radick",
+      "ids" : [
+        4406
+      ],
+      "names" : [
+        "npc.colonel_radick"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 65,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 1,
+      "levels" : { "attack" : 25, "strength" : 25, "defence" : 25, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 39, "slashDefence" : 31, "crushDefence" : 34, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 9, "strengthBonus" : 13, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

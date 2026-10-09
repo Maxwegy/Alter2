@@ -1,0 +1,34 @@
+{
+  "page" : "Kroy",
+  "versions" : [
+    {
+      "source" : "Kroy",
+      "ids" : [
+        9560
+      ],
+      "names" : [
+        "npc.kroy_9560"
+      ],
+      "combatLevel" : 133,
+      "hitpoints" : 209,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 80, "ranged" : 0, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 36, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 36, "strengthBonus" : 42, "rangedStrength" : 0, "magicDamage" : 42 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre1"
+      ],
+      "slayer" : { "xp" : 252.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

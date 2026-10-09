@@ -1,0 +1,57 @@
+{
+  "page" : "Spawn of Sarachnis",
+  "versions" : [
+    {
+      "source" : "Spawn of Sarachnis#Level 107",
+      "version" : "Level 107",
+      "ids" : [
+        8714
+      ],
+      "names" : [
+        "npc.spawn_of_sarachnis"
+      ],
+      "combatLevel" : 107,
+      "hitpoints" : 30,
+      "attackSpeed" : 3,
+      "size" : 2,
+      "levels" : { "attack" : 150, "strength" : 120, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 20, "magicDefence" : -10, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 20, "attackBonus" : 50, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.7, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] }
+    },
+    {
+      "source" : "Spawn of Sarachnis#Level 68",
+      "version" : "Level 68",
+      "ids" : [
+        8715
+      ],
+      "names" : [
+        "npc.spawn_of_sarachnis_8715"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 50, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 150, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 30.0, "categories" : [ "Spiders" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

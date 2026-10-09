@@ -1,0 +1,37 @@
+{
+  "page" : "K'ril Tsutsaroth (PvM Arena)",
+  "versions" : [
+    {
+      "source" : "K'ril Tsutsaroth (PvM Arena)",
+      "ids" : [
+        6495
+      ],
+      "names" : [
+        "npc.kril_tsutsaroth_6495"
+      ],
+      "combatLevel" : 650,
+      "hitpoints" : 255,
+      "attackSpeed" : 6,
+      "respawnTicks" : 150,
+      "size" : 5,
+      "levels" : { "attack" : 340, "strength" : 300, "defence" : 270, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 130, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 160, "strengthBonus" : 31, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "30 (magic)",
+        "46 (melee)",
+        "49 (special attack)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 350.5, "categories" : [ "Bosses", "Greater Demons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

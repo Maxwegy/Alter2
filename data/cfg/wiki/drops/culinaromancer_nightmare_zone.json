@@ -1,0 +1,15 @@
+{
+  "page" : "Culinaromancer (Nightmare Zone)",
+  "tables" : [
+    {
+      "source" : "Culinaromancer (Nightmare Zone)",
+      "npcIds" : [
+        6307,
+        6368
+      ],
+      "always" : [
+        { "item" : 1891, "name" : "item.cake", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

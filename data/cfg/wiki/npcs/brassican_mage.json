@@ -1,0 +1,29 @@
+{
+  "page" : "Brassican Mage",
+  "versions" : [
+    {
+      "source" : "Brassican Mage",
+      "ids" : [
+        7310
+      ],
+      "names" : [
+        "npc.brassican_mage"
+      ],
+      "combatLevel" : 140,
+      "hitpoints" : 150,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 70, "defence" : 80, "ranged" : 140, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Typeless Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

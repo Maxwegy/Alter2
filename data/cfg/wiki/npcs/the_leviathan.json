@@ -1,0 +1,100 @@
+{
+  "page" : "The Leviathan",
+  "versions" : [
+    {
+      "source" : "The Leviathan#Awakened",
+      "version" : "Awakened",
+      "ids" : [
+        12214
+      ],
+      "names" : [
+        "npc.the_leviathan"
+      ],
+      "combatLevel" : 1157,
+      "hitpoints" : 2700,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 525, "strength" : 630, "defence" : 287, "ranged" : 280, "magic" : 280 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 300, "stabDefence" : 260, "slashDefence" : 190, "crushDefence" : 230, "magicDefence" : 280, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 25, "attackBonus" : 200, "strengthBonus" : 22, "rangedStrength" : 26, "magicDamage" : 58 },
+      "maxHits" : [
+        "86 (Melee orb & Bite)",
+        "41 (Ranged orb)",
+        "55 (Magic orb)",
+        "75 (Smoke Blast)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 2700.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "The Leviathan#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        12214
+      ],
+      "names" : [
+        "npc.the_leviathan"
+      ],
+      "combatLevel" : 798,
+      "hitpoints" : 900,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 300, "strength" : 360, "defence" : 250, "ranged" : 160, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 160, "rangedAttack" : 300, "stabDefence" : 260, "slashDefence" : 190, "crushDefence" : 230, "magicDefence" : 280, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 25, "attackBonus" : 200, "strengthBonus" : 22, "rangedStrength" : 26, "magicDamage" : 58 },
+      "maxHits" : [
+        "50 (Melee orb & Bite)",
+        "24 (Ranged orb)",
+        "32 (Magic orb)",
+        "60 (Smoke Blast)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 1777.4, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    },
+    {
+      "source" : "The Leviathan#Quest",
+      "version" : "Quest",
+      "ids" : [
+        12215,
+        12219
+      ],
+      "names" : [
+        "npc.the_leviathan_12215",
+        "npc.the_leviathan_12219"
+      ],
+      "combatLevel" : 593,
+      "hitpoints" : 720,
+      "attackSpeed" : 0,
+      "size" : 7,
+      "levels" : { "attack" : 250, "strength" : 270, "defence" : 200, "ranged" : 130, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 130, "rangedAttack" : 230, "stabDefence" : 200, "slashDefence" : 150, "crushDefence" : 180, "magicDefence" : 220, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 25, "attackBonus" : 170, "strengthBonus" : 14, "rangedStrength" : 10, "magicDamage" : 36 },
+      "maxHits" : [
+        "34 (Melee orb & Bite)",
+        "16 (Ranged orb)",
+        "22 (Magic orb)",
+        "41+ (Smoke Blast)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "xp" : 720.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] }
+    }
+  ]
+}

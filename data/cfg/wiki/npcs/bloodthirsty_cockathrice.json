@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty Cockathrice",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Cockathrice",
+      "ids" : [
+        12562
+      ],
+      "names" : [
+        "npc.bloodthirsty_cockathrice"
+      ],
+      "combatLevel" : 133,
+      "hitpoints" : 142,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 94, "strength" : 117, "defence" : 78, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 20, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 25, "xp" : 1420.0, "categories" : [ "Cockatrice" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] }
+    }
+  ]
+}

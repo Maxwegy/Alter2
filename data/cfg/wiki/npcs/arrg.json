@@ -1,0 +1,35 @@
+{
+  "page" : "Arrg",
+  "versions" : [
+    {
+      "source" : "Arrg",
+      "ids" : [
+        642,
+        643
+      ],
+      "names" : [
+        "npc.arrg",
+        "npc.arrg_643"
+      ],
+      "combatLevel" : 113,
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 70, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "38 (melee)",
+        "30 (ranged)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 150.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

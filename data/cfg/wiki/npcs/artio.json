@@ -1,0 +1,35 @@
+{
+  "page" : "Artio",
+  "versions" : [
+    {
+      "source" : "Artio",
+      "ids" : [
+        11992
+      ],
+      "names" : [
+        "npc.artio"
+      ],
+      "combatLevel" : 320,
+      "hitpoints" : 450,
+      "attackSpeed" : 5,
+      "respawnTicks" : 11,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 270, "defence" : 150, "ranged" : 120, "magic" : 90 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 60, "stabDefence" : 125, "slashDefence" : 110, "crushDefence" : 110, "magicDefence" : 0, "rangedDefence" : 40, "lightRangedDefence" : 40, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 18, "magicDamage" : 0 },
+      "maxHits" : [
+        "35 (Crush)",
+        "50 (Magic)",
+        "17 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 518.0, "categories" : [ "Bears", "Bosses" ], "assignedBy" : [ "duradel", "konar", "krystilia", "mazchna", "nieve", "spria", "turael" ] }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "page" : "Steel dragon",
+  "versions" : [
+    {
+      "source" : "Steel dragon#Level 246",
+      "version" : "Level 246",
+      "ids" : [
+        274
+      ],
+      "names" : [
+        "npc.steel_dragon_274"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 215, "strength" : 215, "defence" : 215, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 215.2, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Steel dragon#Level 246 (Task only)",
+      "version" : "Level 246 (Task only)",
+      "ids" : [
+        275
+      ],
+      "names" : [
+        "npc.steel_dragon_275"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "respawnTicks" : 15,
+      "size" : 4,
+      "levels" : { "attack" : 215, "strength" : 215, "defence" : 215, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 215.2, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Steel dragon#Level 274",
+      "version" : "Level 274",
+      "ids" : [
+        7255
+      ],
+      "names" : [
+        "npc.steel_dragon_7255"
+      ],
+      "combatLevel" : 274,
+      "hitpoints" : 250,
+      "attackSpeed" : 4,
+      "respawnTicks" : 30,
+      "size" : 4,
+      "levels" : { "attack" : 235, "strength" : 235, "defence" : 235, "ranged" : 1, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 30, "rangedDefence" : 90, "lightRangedDefence" : 90, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "24 (Melee)",
+        "50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 256.2, "categories" : [ "Metal Dragons" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

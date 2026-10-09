@@ -1,0 +1,105 @@
+{
+  "page" : "Giant rat (Tutorial Island)",
+  "versions" : [
+    {
+      "source" : "Giant rat (Tutorial Island)#2020",
+      "version" : "2020",
+      "ids" : [
+        9483
+      ],
+      "names" : [
+        "npc.giant_rat_9483"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : 0, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant rat (Tutorial Island)#Unused, 1",
+      "version" : "Unused, 1",
+      "ids" : [
+        3314
+      ],
+      "names" : [
+        "npc.giant_rat_3314"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : 0, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant rat (Tutorial Island)#Unused, 2",
+      "version" : "Unused, 2",
+      "ids" : [
+        3315
+      ],
+      "names" : [
+        "npc.giant_rat_3315"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : 0, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant rat (Tutorial Island)#Used",
+      "version" : "Used",
+      "ids" : [
+        3313
+      ],
+      "names" : [
+        "npc.giant_rat_3313"
+      ],
+      "combatLevel" : 3,
+      "hitpoints" : 3,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : 0, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

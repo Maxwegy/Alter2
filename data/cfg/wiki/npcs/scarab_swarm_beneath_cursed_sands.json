@@ -1,0 +1,29 @@
+{
+  "page" : "Scarab Swarm (Beneath Cursed Sands)",
+  "versions" : [
+    {
+      "source" : "Scarab Swarm (Beneath Cursed Sands)",
+      "ids" : [
+        11484
+      ],
+      "names" : [
+        "npc.scarab_swarm_11484"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 5,
+      "attackSpeed" : 1,
+      "size" : 1,
+      "levels" : { "attack" : 255, "strength" : 5, "defence" : 2, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -100, "slashDefence" : -100, "crushDefence" : -100, "magicDefence" : -100, "rangedDefence" : -100, "lightRangedDefence" : -100, "heavyRangedDefence" : -100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

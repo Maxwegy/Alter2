@@ -1,0 +1,304 @@
+{
+  "page" : "Vampyre Juvinate",
+  "versions" : [
+    {
+      "source" : "Vampyre Juvinate#Level 119 (Sins of the Father)",
+      "version" : "Level 119 (Sins of the Father)",
+      "ids" : [
+        9614,
+        9615,
+        9616,
+        9617
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_9614",
+        "npc.vampyre_juvinate_9615",
+        "npc.vampyre_juvinate_9616",
+        "npc.vampyre_juvinate_9617"
+      ],
+      "combatLevel" : 119,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 127, "strength" : 76, "defence" : 65, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 150.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 119 (Temple Trekking)",
+      "version" : "Level 119 (Temple Trekking)",
+      "ids" : [
+        5636,
+        5639
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_5636",
+        "npc.vampyre_juvinate_5639"
+      ],
+      "combatLevel" : 119,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 127, "strength" : 76, "defence" : 65, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 150.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 50 (In Aid of the Myreque)",
+      "version" : "Level 50 (In Aid of the Myreque)",
+      "ids" : [
+        4443,
+        4486
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_4443",
+        "npc.vampyre_juvinate_4486"
+      ],
+      "combatLevel" : 50,
+      "hitpoints" : 60,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 37, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 60.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 54 (Burgh de Rott)",
+      "version" : "Level 54 (Burgh de Rott)",
+      "ids" : [
+        4427,
+        4428,
+        4429,
+        4430,
+        4432,
+        4487
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_4427",
+        "npc.vampyre_juvinate_4428",
+        "npc.vampyre_juvinate_4429",
+        "npc.vampyre_juvinate_4430",
+        "npc.vampyre_juvinate_4432",
+        "npc.vampyre_juvinate_4487"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 65.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 54 (Darkmeyer)",
+      "version" : "Level 54 (Darkmeyer)",
+      "ids" : [
+        9727,
+        9728,
+        9729,
+        9730
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_9727",
+        "npc.vampyre_juvinate_9728",
+        "npc.vampyre_juvinate_9729",
+        "npc.vampyre_juvinate_9730"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "respawnTicks" : 51,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 54 (Meiyerditch)",
+      "version" : "Level 54 (Meiyerditch)",
+      "ids" : [
+        3694,
+        3695,
+        3698,
+        3699
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_3694",
+        "npc.vampyre_juvinate_3695",
+        "npc.vampyre_juvinate_3698",
+        "npc.vampyre_juvinate_3699"
+      ],
+      "combatLevel" : 54,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "respawnTicks" : 26,
+      "size" : 1,
+      "levels" : { "attack" : 40, "strength" : 40, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 85.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 59 (Temple Trekking)",
+      "version" : "Level 59 (Temple Trekking)",
+      "ids" : [
+        5634,
+        5637
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_5634",
+        "npc.vampyre_juvinate_5637"
+      ],
+      "combatLevel" : 59,
+      "hitpoints" : 50,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 16, "defence" : 45, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 50.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 75 (In Aid of the Myreque)",
+      "version" : "Level 75 (In Aid of the Myreque)",
+      "ids" : [
+        4442
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_4442"
+      ],
+      "combatLevel" : 75,
+      "hitpoints" : 110,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 110.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Vampyre Juvinate#Level 90 (Temple Trekking)",
+      "version" : "Level 90 (Temple Trekking)",
+      "ids" : [
+        5635,
+        5638
+      ],
+      "names" : [
+        "npc.vampyre_juvinate_5635",
+        "npc.vampyre_juvinate_5638"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 113, "strength" : 46, "defence" : 55, "ranged" : 50, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : true },
+      "attributes" : [
+        "vampyre2"
+      ],
+      "slayer" : { "xp" : 100.0, "categories" : [ "Vampyres" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "nieve", "vannaka" ] }
+    }
+  ]
+}

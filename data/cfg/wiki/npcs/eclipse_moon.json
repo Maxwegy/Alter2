@@ -1,0 +1,57 @@
+{
+  "page" : "Eclipse Moon",
+  "versions" : [
+    {
+      "source" : "Eclipse Moon#Clone",
+      "version" : "Clone",
+      "ids" : [
+        13012
+      ],
+      "names" : [
+        "npc.eclipse_moon"
+      ],
+      "combatLevel" : 329,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 258, "strength" : 100, "defence" : 60, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 500, "rangedDefence" : 500, "lightRangedDefence" : 500, "heavyRangedDefence" : 500, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32 total 4+8+20"
+      ],
+      "attackStyles" : [
+        "Typeless slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Immune (strong)", "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    },
+    {
+      "source" : "Eclipse Moon#Regular",
+      "version" : "Regular",
+      "ids" : [
+        13012
+      ],
+      "names" : [
+        "npc.eclipse_moon"
+      ],
+      "combatLevel" : 329,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 258, "strength" : 100, "defence" : 60, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 500, "rangedDefence" : 500, "lightRangedDefence" : 500, "heavyRangedDefence" : 500, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "32 total 4+8+20"
+      ],
+      "attackStyles" : [
+        "Typeless slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Immune (strong)", "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    }
+  ]
+}

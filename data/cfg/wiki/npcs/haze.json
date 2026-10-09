@@ -1,0 +1,36 @@
+{
+  "page" : "Haze",
+  "versions" : [
+    {
+      "source" : "Haze#Ghost",
+      "version" : "Ghost",
+      "ids" : [
+        3625
+      ],
+      "names" : [
+        "npc.ghost_3625"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 23, "strength" : 23, "defence" : 28, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : 5, "magicDefence" : -5, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 30.0, "categories" : [ "Ghosts" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "page" : "Air wizard",
+  "tables" : [
+    {
+      "source" : "Air wizard",
+      "npcIds" : [
+        1559
+      ],
+      "always" : [
+        { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 556, "name" : "item.air_rune", "min" : 5, "max" : 10, "chance" : [ 19, 20 ], "wiki" : "19/20" },
+        { "item" : 1438, "name" : "item.air_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ]
+    }
+  ]
+}

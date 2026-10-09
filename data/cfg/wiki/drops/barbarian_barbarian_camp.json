@@ -1,0 +1,117 @@
+{
+  "page" : "Barbarian (Barbarian Camp)",
+  "tables" : [
+    {
+      "source" : "Barbarian (Barbarian Camp)",
+      "npcIds" : [
+        10984,
+        10985,
+        10986,
+        10987,
+        10988
+      ],
+      "main" : [
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" }
+      ]
+    },
+    {
+      "source" : "Barbarian (Barbarian Camp)#High level",
+      "npcIds" : [
+        10984,
+        10985,
+        10986,
+        10987,
+        10988
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2832, "name" : "item.key_medium", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 554, "name" : "item.fire_rune", "min" : 8, "max" : 8, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 3, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 10, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 8, "max" : 8, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 948, "name" : "item.bear_fur", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 956, "name" : "item.flyer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 21, 64 ], "wiki" : "42/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 32, "max" : 32, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1349, "name" : "item.iron_axe", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1375, "name" : "item.bronze_battleaxe", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1420, "name" : "item.iron_mace", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1595, "name" : "item.amulet_mould", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2142, "name" : "item.cooked_meat", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "1/55" }
+      ]
+    },
+    {
+      "source" : "Barbarian (Barbarian Camp)#Low level",
+      "npcIds" : [
+        10984,
+        10985,
+        10986,
+        10987,
+        10988
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 2832, "name" : "item.key_medium", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 438, "name" : "item.tin_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.fire_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earth_rune", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 558, "name" : "item.mind_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 563, "name" : "item.law_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 882, "name" : "item.bronze_arrow", "min" : 15, "max" : 15, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 948, "name" : "item.bear_fur", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 956, "name" : "item.flyer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 21, 64 ], "wiki" : "42/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 17, "max" : 17, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 995, "name" : "item.coins_995", "min" : 27, "max" : 27, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 1351, "name" : "item.bronze_axe", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1379, "name" : "item.staff", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1420, "name" : "item.iron_mace", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1592, "name" : "item.ring_mould", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2142, "name" : "item.cooked_meat", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+      ],
+      "tertiary" : [
+        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 75 ], "wiki" : "1/75" }
+      ]
+    }
+  ]
+}

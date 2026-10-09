@@ -1,0 +1,105 @@
+{
+  "page" : "Damis (Nightmare Zone)",
+  "versions" : [
+    {
+      "source" : "Damis (Nightmare Zone)#First form (Hard Mode)",
+      "version" : "First form (Hard Mode)",
+      "ids" : [
+        1134
+      ],
+      "names" : [
+        "npc.damis_hard"
+      ],
+      "combatLevel" : 200,
+      "hitpoints" : 198,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 198, "strength" : 198, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "47"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Damis (Nightmare Zone)#First form (Normal Mode)",
+      "version" : "First form (Normal Mode)",
+      "ids" : [
+        6346
+      ],
+      "names" : [
+        "npc.damis_6346"
+      ],
+      "combatLevel" : 103,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 60, "crushDefence" : 60, "magicDefence" : 60, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Damis (Nightmare Zone)#Second form (Hard Mode)",
+      "version" : "Second form (Hard Mode)",
+      "ids" : [
+        1135
+      ],
+      "names" : [
+        "npc.damis_hard_1135"
+      ],
+      "combatLevel" : 272,
+      "hitpoints" : 255,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 320, "strength" : 200, "defence" : 160, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "54"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Damis (Nightmare Zone)#Second form (Normal Mode)",
+      "version" : "Second form (Normal Mode)",
+      "ids" : [
+        6347
+      ],
+      "names" : [
+        "npc.damis_6347"
+      ],
+      "combatLevel" : 174,
+      "hitpoints" : 200,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 160, "strength" : 100, "defence" : 160, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 100, "slashDefence" : 100, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

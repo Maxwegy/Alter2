@@ -1,0 +1,29 @@
+{
+  "page" : "Mourner (boss)",
+  "versions" : [
+    {
+      "source" : "Mourner (boss)",
+      "ids" : [
+        9008
+      ],
+      "names" : [
+        "npc.mourner_9008"
+      ],
+      "combatLevel" : 13,
+      "hitpoints" : 19,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 10, "strength" : 10, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 3, "slashDefence" : 2, "crushDefence" : 4, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "page" : "Demonic gorilla",
+  "versions" : [
+    {
+      "source" : "Demonic gorilla#1",
+      "version" : "1",
+      "ids" : [
+        7144,
+        7145,
+        7146
+      ],
+      "names" : [
+        "npc.demonic_gorilla",
+        "npc.demonic_gorilla_7145",
+        "npc.demonic_gorilla_7146"
+      ],
+      "combatLevel" : 275,
+      "hitpoints" : 380,
+      "attackSpeed" : 5,
+      "respawnTicks" : 100,
+      "size" : 2,
+      "levels" : { "attack" : 205, "strength" : 195, "defence" : 200, "ranged" : 195, "magic" : 195 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 43, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 43, "strengthBonus" : 29, "rangedStrength" : 29, "magicDamage" : 29 },
+      "maxHits" : [
+        "31 (normal)",
+        "40 (special attack)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 408.5, "categories" : [ "Black Demons", "Monkeys" ], "assignedBy" : [ "chaeldar", "duradel", "spria", "steve", "turael" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 35 }
+    },
+    {
+      "source" : "Demonic gorilla#2",
+      "version" : "2",
+      "ids" : [
+        7147,
+        7148,
+        7149,
+        7152
+      ],
+      "names" : [
+        "npc.demonic_gorilla_7147",
+        "npc.demonic_gorilla_7148",
+        "npc.demonic_gorilla_7149",
+        "npc.demonic_gorilla_7152"
+      ],
+      "combatLevel" : 275,
+      "hitpoints" : 380,
+      "attackSpeed" : 5,
+      "respawnTicks" : 100,
+      "size" : 2,
+      "levels" : { "attack" : 205, "strength" : 195, "defence" : 200, "ranged" : 195, "magic" : 195 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 40, "rangedAttack" : 43, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 20, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 43, "strengthBonus" : 29, "rangedStrength" : 29, "magicDamage" : 29 },
+      "maxHits" : [
+        "31 (normal)",
+        "40 (special attack)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "xp" : 408.5, "categories" : [ "Black Demons", "Monkeys" ], "assignedBy" : [ "chaeldar", "duradel", "spria", "steve", "turael" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 35 }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "page" : "Dessourt",
+  "versions" : [
+    {
+      "source" : "Dessourt",
+      "ids" : [
+        4883
+      ],
+      "names" : [
+        "npc.dessourt"
+      ],
+      "combatLevel" : 121,
+      "hitpoints" : 130,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 99, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 50, "strengthBonus" : 50, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

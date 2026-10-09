@@ -1,0 +1,34 @@
+{
+  "page" : "Zombie (Sepulchre of Death)",
+  "versions" : [
+    {
+      "source" : "Zombie (Sepulchre of Death)",
+      "ids" : [
+        6741
+      ],
+      "names" : [
+        "npc.zombie_6741"
+      ],
+      "combatLevel" : 159,
+      "hitpoints" : 170,
+      "attackSpeed" : 4,
+      "respawnTicks" : 75,
+      "size" : 1,
+      "levels" : { "attack" : 130, "strength" : 130, "defence" : 130, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "14"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 4.2, "categories" : [ "Zombies" ], "assignedBy" : [ "mazchna", "spria", "turael" ] }
+    }
+  ]
+}

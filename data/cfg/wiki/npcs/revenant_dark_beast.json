@@ -1,0 +1,38 @@
+{
+  "page" : "Revenant dark beast",
+  "versions" : [
+    {
+      "source" : "Revenant dark beast",
+      "ids" : [
+        7938
+      ],
+      "names" : [
+        "npc.revenant_dark_beast"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 140,
+      "attackSpeed" : 5,
+      "respawnTicks" : 27,
+      "size" : 3,
+      "levels" : { "attack" : 93, "strength" : 110, "defence" : 80, "ranged" : 135, "magic" : 130 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 45, "stabDefence" : 113, "slashDefence" : 152, "crushDefence" : 155, "magicDefence" : 70, "rangedDefence" : 158, "lightRangedDefence" : 158, "heavyRangedDefence" : 118, "attackBonus" : 65, "strengthBonus" : 60, "rangedStrength" : 45, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "xp" : 157.0, "categories" : [ "Ghosts", "Revenants" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

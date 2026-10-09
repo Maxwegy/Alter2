@@ -1,0 +1,37 @@
+{
+  "page" : "JalTok-Jad",
+  "versions" : [
+    {
+      "source" : "JalTok-Jad",
+      "ids" : [
+        7700,
+        7704,
+        10623
+      ],
+      "names" : [
+        "npc.jaltokjad",
+        "npc.jaltokjad_7704",
+        "npc.jaltokjad_10623"
+      ],
+      "combatLevel" : 900,
+      "hitpoints" : 350,
+      "attackSpeed" : 8,
+      "size" : 5,
+      "levels" : { "attack" : 750, "strength" : 1020, "defence" : 480, "ranged" : 1020, "magic" : 510 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 80, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 75 },
+      "maxHits" : [
+        "113"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (normal)" },
+      "slayer" : { "xp" : 350.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

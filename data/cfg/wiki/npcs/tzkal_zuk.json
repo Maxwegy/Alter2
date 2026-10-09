@@ -1,0 +1,61 @@
+{
+  "page" : "TzKal-Zuk",
+  "versions" : [
+    {
+      "source" : "TzKal-Zuk#Enraged",
+      "version" : "Enraged",
+      "ids" : [
+        7706
+      ],
+      "names" : [
+        "npc.tzkalzuk"
+      ],
+      "combatLevel" : 1400,
+      "hitpoints" : 1200,
+      "attackSpeed" : 7,
+      "size" : 7,
+      "levels" : { "attack" : 350, "strength" : 600, "defence" : 260, "ranged" : 400, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 550, "rangedAttack" : 550, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 350, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 200, "rangedStrength" : 200, "magicDamage" : 450 },
+      "maxHits" : [
+        "148&thinsp;'\"`UNIQ--ref-00000208-QINU`\"'"
+      ],
+      "attackStyles" : [
+        "Typeless Magic",
+        "Typeless Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" },
+      "slayer" : { "xp" : 101890.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    },
+    {
+      "source" : "TzKal-Zuk#Normal",
+      "version" : "Normal",
+      "ids" : [
+        7706
+      ],
+      "names" : [
+        "npc.tzkalzuk"
+      ],
+      "combatLevel" : 1400,
+      "hitpoints" : 1200,
+      "attackSpeed" : 10,
+      "size" : 7,
+      "levels" : { "attack" : 350, "strength" : 600, "defence" : 260, "ranged" : 400, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 550, "rangedAttack" : 550, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 350, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 200, "rangedStrength" : 200, "magicDamage" : 450 },
+      "maxHits" : [
+        "148&thinsp;'\"`UNIQ--ref-00000208-QINU`\"'"
+      ],
+      "attackStyles" : [
+        "Typeless Magic",
+        "Typeless Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" },
+      "slayer" : { "xp" : 101890.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

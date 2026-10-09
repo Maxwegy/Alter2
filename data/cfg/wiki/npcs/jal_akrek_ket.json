@@ -1,0 +1,31 @@
+{
+  "page" : "Jal-AkRek-Ket",
+  "versions" : [
+    {
+      "source" : "Jal-AkRek-Ket",
+      "ids" : [
+        7696
+      ],
+      "names" : [
+        "npc.jalakrekket"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 95, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 25, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 15.0, "categories" : [ "TzHaar" ], "assignedBy" : [ "chaeldar", "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

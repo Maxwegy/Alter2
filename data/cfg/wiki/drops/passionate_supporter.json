@@ -1,0 +1,14 @@
+{
+  "page" : "Passionate Supporter",
+  "tables" : [
+    {
+      "source" : "Passionate Supporter",
+      "npcIds" : [
+        12833
+      ],
+      "always" : [
+        { "item" : 28958, "name" : "item.scrawled_poem", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

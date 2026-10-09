@@ -1,0 +1,125 @@
+{
+  "page" : "Skeleton (Barrows)",
+  "versions" : [
+    {
+      "source" : "Skeleton (Barrows)#Armed round shield",
+      "version" : "Armed round shield",
+      "ids" : [
+        1688
+      ],
+      "names" : [
+        "npc.skeleton_1688"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 72, "strength" : 72, "defence" : 72, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 51.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Barrows)#Square shield",
+      "version" : "Square shield",
+      "ids" : [
+        1687
+      ],
+      "names" : [
+        "npc.skeleton_1687"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 72, "strength" : 72, "defence" : 72, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 51.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Barrows)#Unarmed",
+      "version" : "Unarmed",
+      "ids" : [
+        1685
+      ],
+      "names" : [
+        "npc.skeleton_1685"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 72, "strength" : 72, "defence" : 72, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 51.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton (Barrows)#Unarmed round shield",
+      "version" : "Unarmed round shield",
+      "ids" : [
+        1686
+      ],
+      "names" : [
+        "npc.skeleton_1686"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 51,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 72, "strength" : 72, "defence" : 72, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "xp" : 51.0, "categories" : [ "Skeletons" ], "assignedBy" : [ "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

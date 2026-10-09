@@ -1,0 +1,31 @@
+{
+  "page" : "Sir Lancelot",
+  "versions" : [
+    {
+      "source" : "Sir Lancelot",
+      "ids" : [
+        4344,
+        4354
+      ],
+      "names" : [
+        "npc.sir_lancelot_4344",
+        "npc.sir_lancelot_4354"
+      ],
+      "combatLevel" : 127,
+      "hitpoints" : 115,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 110, "defence" : 110, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 300, "slashDefence" : 85, "crushDefence" : 300, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 60, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

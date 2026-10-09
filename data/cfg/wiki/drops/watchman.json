@@ -1,0 +1,14 @@
+{
+  "page" : "Watchman",
+  "tables" : [
+    {
+      "source" : "Watchman",
+      "npcIds" : [
+        5420
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

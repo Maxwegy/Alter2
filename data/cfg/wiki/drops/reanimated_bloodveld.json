@@ -1,0 +1,14 @@
+{
+  "page" : "Reanimated bloodveld",
+  "tables" : [
+    {
+      "source" : "Reanimated bloodveld",
+      "npcIds" : [
+        7034
+      ],
+      "tertiary" : [
+        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 1648 ], "wiki" : "1/1,648" }
+      ]
+    }
+  ]
+}

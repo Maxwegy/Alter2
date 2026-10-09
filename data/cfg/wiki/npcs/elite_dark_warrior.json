@@ -1,0 +1,55 @@
+{
+  "page" : "Elite Dark Warrior",
+  "versions" : [
+    {
+      "source" : "Elite Dark Warrior#Female",
+      "version" : "Female",
+      "ids" : [
+        13466
+      ],
+      "names" : [
+        "npc.elite_dark_warrior_13466"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 80, "ranged" : 25, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : -10, "rangedDefence" : 30, "lightRangedDefence" : 40, "heavyRangedDefence" : 15, "attackBonus" : 80, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Elite Dark Warrior#Male",
+      "version" : "Male",
+      "ids" : [
+        13465
+      ],
+      "names" : [
+        "npc.elite_dark_warrior"
+      ],
+      "combatLevel" : 96,
+      "hitpoints" : 80,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 80, "strength" : 80, "defence" : 80, "ranged" : 25, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : -10, "rangedDefence" : 30, "lightRangedDefence" : 40, "heavyRangedDefence" : 15, "attackBonus" : 80, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

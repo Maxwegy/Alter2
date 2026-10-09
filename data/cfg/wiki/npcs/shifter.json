@@ -1,0 +1,140 @@
+{
+  "page" : "Shifter",
+  "versions" : [
+    {
+      "source" : "Shifter#Level 104",
+      "version" : "Level 104",
+      "ids" : [
+        1702,
+        1703
+      ],
+      "names" : [
+        "npc.shifter_1702",
+        "npc.shifter_1703"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 83,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 110, "strength" : 83, "defence" : 83, "ranged" : 0, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Shifter#Level 38",
+      "version" : "Level 38",
+      "ids" : [
+        1694,
+        1695
+      ],
+      "names" : [
+        "npc.shifter",
+        "npc.shifter_1695"
+      ],
+      "combatLevel" : 38,
+      "hitpoints" : 23,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 47, "strength" : 37, "defence" : 23, "ranged" : 0, "magic" : 27 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Shifter#Level 57",
+      "version" : "Level 57",
+      "ids" : [
+        1696,
+        1697
+      ],
+      "names" : [
+        "npc.shifter_1696",
+        "npc.shifter_1697"
+      ],
+      "combatLevel" : 57,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 67, "strength" : 52, "defence" : 38, "ranged" : 0, "magic" : 37 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Shifter#Level 76",
+      "version" : "Level 76",
+      "ids" : [
+        1698,
+        1699
+      ],
+      "names" : [
+        "npc.shifter_1698",
+        "npc.shifter_1699"
+      ],
+      "combatLevel" : 76,
+      "hitpoints" : 53,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 87, "strength" : 67, "defence" : 53, "ranged" : 0, "magic" : 47 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Shifter#Level 90",
+      "version" : "Level 90",
+      "ids" : [
+        1700,
+        1701
+      ],
+      "names" : [
+        "npc.shifter_1700",
+        "npc.shifter_1701"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 68,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 100, "strength" : 75, "defence" : 68, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

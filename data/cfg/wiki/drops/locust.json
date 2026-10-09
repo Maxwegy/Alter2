@@ -1,0 +1,15 @@
+{
+  "page" : "Locust",
+  "tables" : [
+    {
+      "source" : "Locust",
+      "npcIds" : [
+        11584,
+        11585
+      ],
+      "always" : [
+        { "item" : 9052, "name" : "item.locust_meat", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

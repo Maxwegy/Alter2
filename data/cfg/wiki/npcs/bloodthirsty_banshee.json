@@ -1,0 +1,30 @@
+{
+  "page" : "Bloodthirsty banshee",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty banshee",
+      "ids" : [
+        12540
+      ],
+      "names" : [
+        "npc.bloodthirsty_banshee"
+      ],
+      "combatLevel" : 70,
+      "hitpoints" : 61,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 65, "strength" : 61, "defence" : 56, "ranged" : 1, "magic" : 1 },
+      "attackStyles" : [
+        "Magical melee"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral",
+        "undead"
+      ],
+      "slayer" : { "level" : 15, "categories" : [ "Banshees" ], "assignedBy" : [ "chaeldar", "mazchna", "spria", "turael", "vannaka" ] }
+    }
+  ]
+}

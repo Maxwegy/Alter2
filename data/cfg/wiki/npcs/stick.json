@@ -1,0 +1,32 @@
+{
+  "page" : "Stick",
+  "versions" : [
+    {
+      "source" : "Stick",
+      "ids" : [
+        926
+      ],
+      "names" : [
+        "npc.stick_926"
+      ],
+      "combatLevel" : 104,
+      "hitpoints" : 135,
+      "attackSpeed" : 6,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 60, "strength" : 110, "defence" : 60, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 50, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 50, "strengthBonus" : 80, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 141.5, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

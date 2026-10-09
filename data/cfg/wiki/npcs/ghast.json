@@ -1,0 +1,122 @@
+{
+  "page" : "Ghast",
+  "versions" : [
+    {
+      "source" : "Ghast#Level 109",
+      "version" : "Level 109",
+      "ids" : [
+        5626
+      ],
+      "names" : [
+        "npc.ghast_5626"
+      ],
+      "combatLevel" : 109,
+      "hitpoints" : 135,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 110, "strength" : 70, "defence" : 70, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    },
+    {
+      "source" : "Ghast#Level 139",
+      "version" : "Level 139",
+      "ids" : [
+        5627
+      ],
+      "names" : [
+        "npc.ghast_5627"
+      ],
+      "combatLevel" : 139,
+      "hitpoints" : 160,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 135, "strength" : 110, "defence" : 80, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "12"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    },
+    {
+      "source" : "Ghast#Level 30",
+      "version" : "Level 30",
+      "ids" : [
+        946
+      ],
+      "names" : [
+        "npc.ghast_946"
+      ],
+      "combatLevel" : 30,
+      "hitpoints" : 45,
+      "attackSpeed" : 4,
+      "respawnTicks" : 40,
+      "size" : 2,
+      "levels" : { "attack" : 22, "strength" : 22, "defence" : 18, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    },
+    {
+      "source" : "Ghast#Level 79",
+      "version" : "Level 79",
+      "ids" : [
+        5625
+      ],
+      "names" : [
+        "npc.ghast_5625"
+      ],
+      "combatLevel" : 79,
+      "hitpoints" : 115,
+      "attackSpeed" : 8,
+      "size" : 2,
+      "levels" : { "attack" : 80, "strength" : 30, "defence" : 60, "ranged" : 30, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 25 }
+    }
+  ]
+}

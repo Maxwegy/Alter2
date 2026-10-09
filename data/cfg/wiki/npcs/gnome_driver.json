@@ -1,0 +1,29 @@
+{
+  "page" : "Gnome Driver",
+  "versions" : [
+    {
+      "source" : "Gnome Driver",
+      "ids" : [
+        6098
+      ],
+      "names" : [
+        "npc.gnome_driver"
+      ],
+      "combatLevel" : 5,
+      "hitpoints" : 10,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 3, "strength" : 5, "defence" : 3, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -30, "slashDefence" : -30, "crushDefence" : -30, "magicDefence" : -30, "rangedDefence" : -30, "lightRangedDefence" : -30, "heavyRangedDefence" : -30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

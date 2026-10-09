@@ -1,0 +1,38 @@
+{
+  "page" : "Marble gargoyle",
+  "versions" : [
+    {
+      "source" : "Marble gargoyle",
+      "ids" : [
+        7407,
+        7408
+      ],
+      "names" : [
+        "npc.marble_gargoyle",
+        "npc.marble_gargoyle_7408"
+      ],
+      "combatLevel" : 349,
+      "hitpoints" : 270,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 230, "strength" : 250, "defence" : 190, "ranged" : 220, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 20, "magicDamage" : 0 },
+      "maxHits" : [
+        "26 (melee)\n30 (ranged)\n38 (special)"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Ranged",
+        "Magic (special)"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "golem"
+      ],
+      "slayer" : { "level" : 75, "xp" : 2768.0, "categories" : [ "Gargoyles" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

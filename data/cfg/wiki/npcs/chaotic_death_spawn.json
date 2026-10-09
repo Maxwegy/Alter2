@@ -1,0 +1,80 @@
+{
+  "page" : "Chaotic death spawn",
+  "versions" : [
+    {
+      "source" : "Chaotic death spawn#Magic",
+      "version" : "Magic",
+      "ids" : [
+        7649
+      ],
+      "names" : [
+        "npc.chaotic_death_spawn_7649"
+      ],
+      "combatLevel" : 215,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 380, "strength" : 1, "defence" : 70, "ranged" : 380, "magic" : 380 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Chaotic death spawn#Melee",
+      "version" : "Melee",
+      "ids" : [
+        6716
+      ],
+      "names" : [
+        "npc.chaotic_death_spawn"
+      ],
+      "combatLevel" : 215,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 380, "strength" : 1, "defence" : 70, "ranged" : 380, "magic" : 380 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Chaotic death spawn#Ranged",
+      "version" : "Ranged",
+      "ids" : [
+        6723
+      ],
+      "names" : [
+        "npc.chaotic_death_spawn_6723"
+      ],
+      "combatLevel" : 215,
+      "hitpoints" : 50,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 380, "strength" : 1, "defence" : 70, "ranged" : 380, "magic" : 380 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

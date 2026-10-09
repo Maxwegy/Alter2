@@ -1,0 +1,26 @@
+{
+  "page" : "Bloodthirsty Mage",
+  "versions" : [
+    {
+      "source" : "Bloodthirsty Mage",
+      "ids" : [
+        12567
+      ],
+      "names" : [
+        "npc.bloodthirsty_mage"
+      ],
+      "combatLevel" : 162,
+      "hitpoints" : 175,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 175, "ranged" : 1, "magic" : 175 },
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 45, "categories" : [ "Infernal Mages" ], "assignedBy" : [ "chaeldar", "vannaka" ] }
+    }
+  ]
+}

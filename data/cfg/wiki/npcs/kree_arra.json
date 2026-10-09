@@ -1,0 +1,40 @@
+{
+  "page" : "Kree'arra",
+  "versions" : [
+    {
+      "source" : "Kree'arra",
+      "version" : "Normal",
+      "ids" : [
+        3162
+      ],
+      "names" : [
+        "npc.kreearra_3162"
+      ],
+      "combatLevel" : 580,
+      "hitpoints" : 255,
+      "attackSpeed" : 3,
+      "respawnTicks" : 150,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 200, "defence" : 260, "ranged" : 380, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 180, "slashDefence" : 180, "crushDefence" : 180, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 136, "strengthBonus" : 12, "rangedStrength" : 50, "magicDamage" : 0 },
+      "maxHits" : [
+        "69 (Ranged)",
+        "21 (Magic)",
+        "25 (Melee)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Ranged magic",
+        "Magical melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "flying"
+      ],
+      "slayer" : { "xp" : 357.0, "categories" : [ "Aviansie", "Bosses" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 30 }
+    }
+  ]
+}

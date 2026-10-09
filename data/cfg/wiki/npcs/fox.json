@@ -1,0 +1,31 @@
+{
+  "page" : "Fox",
+  "versions" : [
+    {
+      "source" : "Fox",
+      "ids" : [
+        3901
+      ],
+      "names" : [
+        "npc.fox_3901"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 20, "defence" : 20, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 30, "attackBonus" : 30, "strengthBonus" : 30, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    }
+  ]
+}

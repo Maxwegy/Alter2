@@ -1,0 +1,25 @@
+{
+  "page" : "Penance Ranger",
+  "tables" : [
+    {
+      "source" : "Penance Ranger",
+      "npcIds" : [
+        1668,
+        5757,
+        5758,
+        5759,
+        5760,
+        5761,
+        5762,
+        5763,
+        5764,
+        5765
+      ],
+      "always" : [
+        { "item" : 10531, "name" : "item.green_egg", "min" : 2, "max" : 2 },
+        { "item" : 10532, "name" : "item.red_egg", "min" : 2, "max" : 2 },
+        { "item" : 10533, "name" : "item.blue_egg", "min" : 2, "max" : 2 }
+      ]
+    }
+  ]
+}

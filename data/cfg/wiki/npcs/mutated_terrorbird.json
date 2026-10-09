@@ -1,0 +1,31 @@
+{
+  "page" : "Mutated Terrorbird",
+  "versions" : [
+    {
+      "source" : "Mutated Terrorbird",
+      "ids" : [
+        12464
+      ],
+      "names" : [
+        "npc.mutated_terrorbird"
+      ],
+      "combatLevel" : 178,
+      "hitpoints" : 320,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 90, "strength" : 150, "defence" : 40, "ranged" : 75, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 400, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 62, "lightRangedDefence" : 62, "heavyRangedDefence" : 62, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 56, "xp" : 3200.0, "categories" : [ "Warped Creatures" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] }
+    }
+  ]
+}

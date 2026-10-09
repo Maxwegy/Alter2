@@ -1,0 +1,14 @@
+{
+  "page" : "Cave lizard",
+  "tables" : [
+    {
+      "source" : "Cave lizard",
+      "npcIds" : [
+        7424
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

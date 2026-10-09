@@ -1,0 +1,59 @@
+{
+  "page" : "Mugger",
+  "versions" : [
+    {
+      "source" : "Mugger#Regular",
+      "version" : "Regular",
+      "ids" : [
+        513,
+        1461,
+        6996
+      ],
+      "names" : [
+        "npc.mugger",
+        "npc.mugger_1461",
+        "npc.mugger_6996"
+      ],
+      "combatLevel" : 6,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Mugger#Varlamore",
+      "version" : "Varlamore",
+      "ids" : [
+        13282
+      ],
+      "names" : [
+        "npc.mugger_13282"
+      ],
+      "combatLevel" : 6,
+      "hitpoints" : 8,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 5, "strength" : 5, "defence" : 5, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : -21, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

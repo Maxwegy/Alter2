@@ -1,0 +1,33 @@
+{
+  "page" : "Giant rat (Scurrius)",
+  "versions" : [
+    {
+      "source" : "Giant rat (Scurrius)",
+      "ids" : [
+        7223
+      ],
+      "names" : [
+        "npc.giant_rat_7223"
+      ],
+      "combatLevel" : 46,
+      "hitpoints" : 15,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 25, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 68, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "rat"
+      ],
+      "slayer" : { "xp" : 15.0, "categories" : [ "Rats" ], "assignedBy" : [ "spria", "turael" ] }
+    }
+  ]
+}

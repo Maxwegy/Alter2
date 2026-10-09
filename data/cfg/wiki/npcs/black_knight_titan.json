@@ -1,0 +1,30 @@
+{
+  "page" : "Black Knight Titan",
+  "versions" : [
+    {
+      "source" : "Black Knight Titan",
+      "ids" : [
+        4067
+      ],
+      "names" : [
+        "npc.black_knight_titan"
+      ],
+      "combatLevel" : 120,
+      "hitpoints" : 142,
+      "attackSpeed" : 7,
+      "respawnTicks" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 91, "strength" : 100, "defence" : 91, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 27, "crushDefence" : 18, "magicDefence" : 1000, "rangedDefence" : 1000, "lightRangedDefence" : 1000, "heavyRangedDefence" : 1000, "attackBonus" : 27, "strengthBonus" : 22, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "15"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

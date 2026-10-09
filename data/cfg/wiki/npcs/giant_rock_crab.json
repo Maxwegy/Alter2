@@ -1,0 +1,61 @@
+{
+  "page" : "Giant Rock Crab",
+  "versions" : [
+    {
+      "source" : "Giant Rock Crab#1",
+      "version" : "1",
+      "ids" : [
+        2261
+      ],
+      "names" : [
+        "npc.giant_rock_crab"
+      ],
+      "combatLevel" : 137,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 80, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 225, "slashDefence" : 200, "crushDefence" : 175, "magicDefence" : -10, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 198.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    },
+    {
+      "source" : "Giant Rock Crab#2",
+      "version" : "2",
+      "ids" : [
+        5940
+      ],
+      "names" : [
+        "npc.giant_rock_crab_5940"
+      ],
+      "combatLevel" : 137,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 50, "strength" : 80, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 225, "slashDefence" : 200, "crushDefence" : 175, "magicDefence" : 10, "rangedDefence" : 250, "lightRangedDefence" : 250, "heavyRangedDefence" : 80, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 198.0, "categories" : [ "Crabs" ], "assignedBy" : [ "chaeldar", "mazchna", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

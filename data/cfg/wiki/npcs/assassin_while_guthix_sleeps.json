@@ -1,0 +1,59 @@
+{
+  "page" : "Assassin (While Guthix Sleeps)",
+  "versions" : [
+    {
+      "source" : "Assassin (While Guthix Sleeps)#1",
+      "version" : "1",
+      "ids" : [
+        13514
+      ],
+      "names" : [
+        "npc.assassin_13514"
+      ],
+      "combatLevel" : 167,
+      "hitpoints" : 275,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 70, "defence" : 70, "ranged" : 110, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 90, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 15, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 60, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (normal)",
+        "105+ (special attack)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Assassin (While Guthix Sleeps)#2",
+      "version" : "2",
+      "ids" : [
+        13515
+      ],
+      "names" : [
+        "npc.assassin_13515"
+      ],
+      "combatLevel" : 167,
+      "hitpoints" : 275,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 50, "strength" : 70, "defence" : 70, "ranged" : 110, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 90, "stabDefence" : 10, "slashDefence" : 10, "crushDefence" : 15, "magicDefence" : 30, "rangedDefence" : 20, "lightRangedDefence" : 60, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20 (normal)",
+        "105+ (special attack)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

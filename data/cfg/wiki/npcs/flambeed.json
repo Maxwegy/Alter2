@@ -1,0 +1,31 @@
+{
+  "page" : "Flambeed",
+  "versions" : [
+    {
+      "source" : "Flambeed",
+      "ids" : [
+        4881
+      ],
+      "names" : [
+        "npc.flambeed"
+      ],
+      "combatLevel" : 149,
+      "hitpoints" : 210,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 50, "crushDefence" : 5, "magicDefence" : 5, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}
