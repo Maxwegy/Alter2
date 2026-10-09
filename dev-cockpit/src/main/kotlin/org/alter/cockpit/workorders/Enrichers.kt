@@ -333,8 +333,9 @@ class RecipeEnricher : Enricher {
                 ticks = production["ticks"]?.toString()?.toIntOrNull(),
             )
         }.filter { recipe ->
-            (facility == null || recipe.facilities.any { it.equals(facility, true) }) &&
-                (other == null || recipe.materials.any { (name, _) -> name.equals(other, true) })
+            // Page titles carry a place ("Cooking range (Lumbridge Castle)"); recipes name the plain facility.
+            (facility == null || recipe.facilities.any { sameThing(it, facility) }) &&
+                (other == null || recipe.materials.any { (name, _) -> sameThing(name, other) })
         }
         return Enrichment(
             kind = kind,
@@ -346,6 +347,8 @@ class RecipeEnricher : Enricher {
             sources = listOfNotNull(used?.let { Source(it.title, it.url) }, ctx.page?.let { Source(it.title, it.url) }),
         )
     }
+
+    private fun sameThing(a: String, b: String) = a.substringBefore(" (").equals(b.substringBefore(" ("), ignoreCase = true)
 
     private fun query(material: String) = BucketQuery("recipe").select("page_name", "uses_material", "uses_tool", "uses_facility", "uses_skill", "production_json").where("uses_material", material)
 }

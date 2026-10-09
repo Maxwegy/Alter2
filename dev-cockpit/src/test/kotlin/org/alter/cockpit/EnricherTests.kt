@@ -35,7 +35,7 @@ class EnricherTests {
     private val server = MockWebServer()
     private val lookups = mapOf(
         "npc:3105" to "/w/Hans", "npc:2813" to "/w/Shop_keeper_(Lumbridge)", "npc:3108" to "/w/Man#3",
-        "item:2307" to "/w/Bread_dough", "object:114" to "/w/Cooking_range",
+        "item:2307" to "/w/Bread_dough", "object:114" to "/w/Cooking_range_(Lumbridge_Castle)",
     )
     private val pages = mapOf(
         "Hans" to "Hans.wikitext", "Man" to "Man.wikitext", "Transcript:Hans" to "Transcript_Hans.wikitext", "Transcript:Man" to "Transcript_Man.wikitext",
@@ -174,7 +174,7 @@ class EnricherTests {
         assertEquals(1, recipe.level)
         assertEquals(40.0, recipe.experience!!, 0.0)
         assertEquals(1, recipe.ticks)
-        assertEquals(listOf("Bread dough", "Cooking range"), e.sources.map { it.title })
+        assertEquals(listOf("Bread dough", "Cooking range (Lumbridge Castle)"), e.sources.map { it.title })
     }
 
     @Test
