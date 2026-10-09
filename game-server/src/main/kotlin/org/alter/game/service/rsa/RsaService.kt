@@ -50,12 +50,17 @@ class RsaService : Service {
             println("Private RSA key was not found in path: $keyPath")
             println("Would you like to create one? (y/n)")
 
-            val create = if (scanner.hasNext()) scanner.nextLine() in arrayOf("yes", "y", "true") else true
+            val interactive = System.console() != null
+            val create = if (interactive && scanner.hasNext()) scanner.nextLine() in arrayOf("yes", "y", "true") else true
             if (create) {
                 logger.info { "Generating RSA key pair..." }
                 createPair(bitCount = serviceProperties.getOrDefault("bit-count", 2048))
-                println("Please follow the instructions on console and continue once you've done so.")
-                scanner.next()
+                if (interactive) {
+                    println("Please follow the instructions on console and continue once you've done so.")
+                    scanner.next()
+                } else {
+                    logger.warn { "No console attached: generated a new RSA key pair at $keyPath. Update your client with the modulus written to ./modulus." }
+                }
                 init(server, world, serviceProperties)
             } else {
                 throw RuntimeException("Private RSA key was not found! Please follow the instructions on console.")
