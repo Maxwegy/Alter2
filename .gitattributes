@@ -1,0 +1,7 @@
+# Keep the build scripts runnable on every platform.
+gradlew text eol=lf
+*.bat text eol=crlf
+
+# Generated, committed reference data must be byte-identical on every OS so that a
+# no-op wikiSync produces zero diff.
+data/cfg/wiki/** text eol=lf
