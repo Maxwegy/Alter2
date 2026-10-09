@@ -10,20 +10,26 @@ import java.util.zip.CRC32
  * cache that passes can be served without handing clients corrupt data.
  */
 object Js5Verifier {
-    data class IndexResult(val index: Int, val groups: Int, val missing: List<Int>, val crcMismatches: List<Int>)
+    data class IndexResult(val index: Int, val groups: Int, val missing: List<Int>, val crcMismatches: List<Int>, val error: String? = null)
 
-    data class Result(val indices: List<IndexResult>) {
+    data class Result(val indices: List<IndexResult>, val error: String? = null) {
         val groups: Int get() = indices.sumOf { it.groups }
         val missing: Int get() = indices.sumOf { it.missing.size }
         val crcMismatches: Int get() = indices.sumOf { it.crcMismatches.size }
-        val ok: Boolean get() = missing == 0 && crcMismatches == 0
+        val unreadable: List<String> get() = listOfNotNull(error) + indices.mapNotNull { r -> r.error?.let { "index ${r.index}: $it" } }
+        val ok: Boolean get() = missing == 0 && crcMismatches == 0 && unreadable.isEmpty()
     }
 
+    /** Never throws: a cache our library can't parse is reported as unreadable, not a crash. */
     fun verify(cacheDir: Path): Result {
-        val library = CacheLibrary(cacheDir.toAbsolutePath().toString(), false, null)
+        val library = try {
+            CacheLibrary(cacheDir.toAbsolutePath().toString(), false, null)
+        } catch (e: Exception) {
+            return Result(emptyList(), "cannot open cache: ${e::class.simpleName}: ${e.message}")
+        }
         try {
             return Result(
-                library.indices().filter { it.id != 255 }.map { index ->
+                library.indices().filter { it.id != 255 }.map { index -> try {
                     val missing = mutableListOf<Int>()
                     val mismatches = mutableListOf<Int>()
                     val ids = index.archiveIds()
@@ -37,7 +43,9 @@ object Js5Verifier {
                         }
                     }
                     IndexResult(index.id, ids.size, missing, mismatches)
-                },
+                } catch (e: Exception) {
+                    IndexResult(index.id, 0, emptyList(), emptyList(), "${e::class.simpleName}: ${e.message}")
+                } },
             )
         } finally {
             library.close()

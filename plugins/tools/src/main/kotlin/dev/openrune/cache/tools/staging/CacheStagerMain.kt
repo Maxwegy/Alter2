@@ -98,11 +98,13 @@ private fun writeManifest(dir: Path, openrs2Id: Int, build: Int, timestamp: Stri
     val report = Report(
         tool = "cache-stage",
         summary = mapOf("dir" to dir.toString(), "openrs2Id" to openrs2Id, "build" to build, "groups" to result.groups, "missing" to result.missing, "crcMismatches" to result.crcMismatches),
-        sections = result.indices.filter { it.missing.isNotEmpty() || it.crcMismatches.isNotEmpty() }.map { index ->
-            Report.Section("Index ${index.index}", index.missing.map { "group $it missing" } + index.crcMismatches.map { "group $it CRC mismatch" }, Report.Severity.ERROR)
-        },
+        sections = listOf(Report.Section("Unreadable", result.unreadable, Report.Severity.ERROR)) +
+            result.indices.filter { it.missing.isNotEmpty() || it.crcMismatches.isNotEmpty() }.map { index ->
+                Report.Section("Index ${index.index}", index.missing.map { "group $it missing" } + index.crcMismatches.map { "group $it CRC mismatch" }, Report.Severity.ERROR)
+            },
     )
     println("Report: ${report.write(dataDir.resolve("reports"))}")
+    result.unreadable.forEach { println("Unreadable: $it") }
     println("${result.groups} groups: ${result.missing} missing, ${result.crcMismatches} CRC mismatches -> ${if (result.ok) "OK" else "FAILED"}")
     return if (result.ok) 0 else 2
 }

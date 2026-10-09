@@ -77,7 +77,8 @@ private fun dryRun(dir: Path, build: Int, dataDir: Path): Int {
     sections += Report.Section("Unknown opcodes (decoded but misread)", warnings.messages.distinct().sorted(), Report.Severity.ERROR)
     var removed = 0
     var moved = 0
-    committed.forEach { (table, names) ->
+    // If the cache didn't decode at all, a name diff would only say "everything is gone".
+    if (failures.isEmpty()) committed.forEach { (table, names) ->
         val entities = staged[table].orEmpty()
         // Compare by id: does each committed name's id still exist, and does it still hold the same thing?
         val gone = names.filter { (_, id) -> id !in entities }.keys.sorted()
