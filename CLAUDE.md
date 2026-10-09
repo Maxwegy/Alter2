@@ -10,6 +10,7 @@ Alter2 is a public fork of the Alter OSRS private server: Kotlin 2.0.20, JDK 17,
 | `game-api` | DSLs and extensions content uses (`setCombatDef`, `player.message`, ...) |
 | `game-plugins` | Content plugins (`content/`), services (`service/`), and the data-layer adapters (`content/infrastructure/`) |
 | `alter-data` | Pure data layer: wiki sync, snapshot, drop math, missing-content model. **No engine imports** |
+| `dev-cockpit` | Dev Cockpit: Ktor API + Vue UI on 127.0.0.1:43600; inbox, server control, audit log (SQLite in `data/cockpit/`) |
 | `util` | Shared helpers, generated `BuildInfo`, `RevisionGuard` |
 | `plugins/filestore`, `plugins/rscm`, `plugins/tools` | Vendored OpenRune cache, RSCM name→id maps, offline cache tools |
 
@@ -28,6 +29,13 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - `./gradlew :plugins:tools:cacheDryRun -PcacheArgs="<staged dir> <build>"`: what our decoders and RSCM names would do with that cache.
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
+
+## Running the server
+
+- `scripts/alter.sh up|down [ticks]|restart [ticks]|status|logs` (`scripts/alter.ps1` on Windows); details in `docs/server-control.md`.
+- The server writes `data/run/server.json` (pid, admin port, token). Its admin API (`127.0.0.1:43595`, Bearer token) serves `GET /health`, `POST /shutdown`, `POST /wiki/reload` and `GET /events`.
+- Exit code 75 means "restart me"; the scripts, Docker and systemd all start the server again on it.
+- Dev Cockpit: `./gradlew :dev-cockpit:run` (add `-PskipWeb` to skip the UI build), token in `data/cockpit/owner.token`; see `docs/dev-cockpit.md`. It imports `alter-data` only, never the engine.
 
 ## Rules that are not optional
 

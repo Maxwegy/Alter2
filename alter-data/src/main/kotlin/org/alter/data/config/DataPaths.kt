@@ -16,6 +16,13 @@ data class DataPaths(val dataDir: Path) {
     val reports: Path get() = dataDir.resolve("reports")
     val missingContent: Path get() = dataDir.resolve("missing_content.json")
     val cache: Path get() = dataDir.resolve("cache")
+    val runFile: Path get() = dataDir.resolve("run/server.json")
+    val logFile: Path get() = dataDir.resolve("logs/alter.log")
+    val cockpitConfig: Path get() = dataDir.resolve("cfg/cockpit.yml")
+    val cockpitDir: Path get() = dataDir.resolve("cockpit")
+
+    /** The repository checkout that owns this data directory. */
+    val root: Path get() = dataDir.toAbsolutePath().normalize().parent
 
     companion object {
         /** `-Dalter.dataDir=...` wins; otherwise `../data`, as everywhere else in the server. */

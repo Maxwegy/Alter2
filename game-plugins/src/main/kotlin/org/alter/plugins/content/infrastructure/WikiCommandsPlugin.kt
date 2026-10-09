@@ -20,9 +20,6 @@ import org.alter.game.model.priv.Privilege
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.game.service.GameService
-import org.alter.plugins.content.infrastructure.drops.DropDataService
-import org.alter.plugins.content.infrastructure.items.ItemStatsService
-import org.alter.plugins.content.infrastructure.npcs.NpcDataService
 import java.util.concurrent.atomic.AtomicBoolean
 
 /**
@@ -78,11 +75,8 @@ class WikiCommandsPlugin(
                 running.set(false)
                 val (message, repository) = outcome
                 if (repository != null) {
-                    world.getService(GameDataService::class.java)?.swap(repository)
-                    val npcs = world.getService(NpcDataService::class.java)?.reload(world)
-                    world.getService(DropDataService::class.java)?.reload()
-                    world.getService(ItemStatsService::class.java)?.apply()
-                    player.message("$message Reloaded ${npcs?.registered ?: 0} NPC defs; drops and item stats are live, NPC stats apply on respawn.")
+                    val reloaded = DataReload.apply(world, repository)
+                    player.message("$message Reloaded ${reloaded.npcDefs} NPC defs; drops and item stats are live, NPC stats apply on respawn.")
                 } else {
                     player.message(message)
                 }
