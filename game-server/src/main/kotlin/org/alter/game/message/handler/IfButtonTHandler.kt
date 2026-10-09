@@ -1,5 +1,7 @@
 package org.alter.game.message.handler
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import net.rsprot.protocol.game.incoming.buttons.IfButtonT
 import org.alter.game.message.MessageHandler
 import org.alter.game.model.attr.*
@@ -86,6 +88,12 @@ class IfButtonTHandler : MessageHandler<IfButtonT> {
             client.writeMessage(
                 "Unhandled item on item: [from_item=${fromItem.id}, to_item=${toItem.id}, from_slot=$fromSlot, to_slot=$toSlot, " +
                     "from_component=[$fromInterfaceId:$fromComponent], to_component=[$toInterfaceId:$toComponent]]",
+            )
+        }
+        if (!handled) {
+            client.world.plugins.executeUnhandledInteraction(
+                client,
+                UnhandledInteraction(InteractionType.ITEM_ON_ITEM, id = toItem.id, usedId = fromItem.id, slot = toSlot),
             )
         }
     }

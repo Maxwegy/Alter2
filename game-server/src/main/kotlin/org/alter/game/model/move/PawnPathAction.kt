@@ -1,5 +1,7 @@
 package org.alter.game.model.move
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.game.model.attr.*
 import org.alter.game.model.entity.*
 import org.alter.game.model.queue.QueueTask
@@ -119,15 +121,26 @@ object PawnPathAction {
                 }
 
                 val npcId = other.getTransform(pawn)
-                val handled = if (opt != ITEM_USE_OPCODE) {
+                val item = if (opt == ITEM_USE_OPCODE) pawn.attr[INTERACTING_ITEM]?.get() ?: return else null
+                val handled = if (item == null) {
                     world.plugins.executeNpc(pawn, npcId, opt)
                 } else {
-                    val item = pawn.attr[INTERACTING_ITEM]?.get() ?: return
                     world.plugins.executeItemOnNpc(pawn, npcId, item.id)
                 }
 
                 if (!handled) {
                     pawn.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
+                    world.plugins.executeUnhandledInteraction(
+                        pawn,
+                        UnhandledInteraction(
+                            type = if (item == null) InteractionType.NPC_OP else InteractionType.ITEM_ON_NPC,
+                            id = npcId,
+                            rawId = other.id,
+                            op = opt,
+                            usedId = item?.id ?: -1,
+                            tile = other.tile,
+                        ),
+                    )
                 }
             }
 
@@ -137,6 +150,10 @@ object PawnPathAction {
                     val handled = world.plugins.executePlayerOption(pawn, option)
                     if (!handled) {
                         pawn.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
+                        world.plugins.executeUnhandledInteraction(
+                            pawn,
+                            UnhandledInteraction(InteractionType.PLAYER_OP, id = other.index, op = opt, tile = other.tile),
+                        )
                     }
                 }
             }

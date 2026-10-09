@@ -1,5 +1,7 @@
 package org.alter.plugins.content.mechanics.equipment
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.api.*
 import org.alter.api.EquipmentType.Companion.EQUIPMENT_INTERFACE_ID
 import org.alter.api.cfg.*
@@ -68,9 +70,12 @@ class EquipmentPlugin(
                 else -> {
                     val item = player.equipment[equipment.id] ?: return@onButton
                     val menuOpt = opt
-                    if (!world.plugins.executeEquipmentOption(player, item.id, menuOpt) && world.devContext.debugItemActions) {
-                        val action = ObjectExamineHolder.EQUIPMENT_MENU.get(item.id).equipmentMenu[menuOpt]
-                        player.message("Unhandled equipment action: [item=${item.id}, option=$menuOpt, action=$action]")
+                    if (!world.plugins.executeEquipmentOption(player, item.id, menuOpt)) {
+                        if (world.devContext.debugItemActions) {
+                            val action = ObjectExamineHolder.EQUIPMENT_MENU.get(item.id).equipmentMenu[menuOpt]
+                            player.message("Unhandled equipment action: [item=${item.id}, option=$menuOpt, action=$action]")
+                        }
+                        world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.WORN_OP, id = item.id, op = menuOpt, slot = equipment.id))
                     }
                 }
             }

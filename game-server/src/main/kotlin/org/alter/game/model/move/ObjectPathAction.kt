@@ -1,5 +1,7 @@
 package org.alter.game.model.move
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import dev.openrune.cache.CacheManager.getObject
 import gg.rsmod.util.AabbUtil
 import gg.rsmod.util.DataConstants
@@ -68,13 +70,18 @@ object ObjectPathAction {
         val lineOfSightRange = player.world.plugins.getObjInteractionDistance(obj.id)
 
         walk(player, obj, lineOfSightRange) {
-            if (!player.world.plugins.executeItemOnObject(player, obj.getTransform(player), item.id)) {
+            val objId = obj.getTransform(player)
+            if (!player.world.plugins.executeItemOnObject(player, objId, item.id)) {
                 player.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
                 if (player.world.devContext.debugObjects) {
                     player.writeMessage(
                         "Unhandled item on object: [item=$item, id=${obj.id}, type=${obj.type}, rot=${obj.rot}, x=${obj.tile.x}, y=${obj.tile.z}]",
                     )
                 }
+                player.world.plugins.executeUnhandledInteraction(
+                    player,
+                    UnhandledInteraction(InteractionType.ITEM_ON_LOC, id = objId, rawId = obj.id, usedId = item.id, tile = obj.tile),
+                )
             }
         }
     }
@@ -87,13 +94,18 @@ object ObjectPathAction {
         val lineOfSightRange = player.world.plugins.getObjInteractionDistance(obj.id)
 
         walk(player, obj, lineOfSightRange) {
-            if (!player.world.plugins.executeObject(player, obj.getTransform(player), opt!!)) {
+            val objId = obj.getTransform(player)
+            if (!player.world.plugins.executeObject(player, objId, opt!!)) {
                 player.writeMessage(Entity.NOTHING_INTERESTING_HAPPENS)
                 if (player.world.devContext.debugObjects) {
                     player.writeMessage(
                         "Unhandled object action: [opt=$opt, id=${obj.id}, type=${obj.type}, rot=${obj.rot}, x=${obj.tile.x}, y=${obj.tile.z}]",
                     )
                 }
+                player.world.plugins.executeUnhandledInteraction(
+                    player,
+                    UnhandledInteraction(InteractionType.LOC_OP, id = objId, rawId = obj.id, op = opt, tile = obj.tile),
+                )
             }
         }
     }

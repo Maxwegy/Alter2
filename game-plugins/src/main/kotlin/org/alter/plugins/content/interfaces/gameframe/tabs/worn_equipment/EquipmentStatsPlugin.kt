@@ -1,5 +1,7 @@
 package org.alter.plugins.content.interfaces.gameframe.tabs.worn_equipment
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.api.*
 import org.alter.api.CommonClientScripts
 import org.alter.api.EquipmentType.Companion.EQUIPMENT_INTERFACE_ID
@@ -120,6 +122,7 @@ class EquipmentStatsPlugin(
                             "Unhandled button action: [component=[${EQUIPMENTSTATS_INTERFACE_ID}:$component], option=$opt, slot=$slot, item=${item.id}]",
                         )
                     }
+                    world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.WORN_OP, id = item.id, op = opt, slot = equipment.id))
                 }
             }
         }

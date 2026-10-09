@@ -593,6 +593,12 @@ abstract class KotlinPlugin(
     fun onAnyNpcDeath(plugin: Plugin.() -> Unit) = r.bindAnyNpcDeath(plugin)
 
     /**
+     * Invoked with every interaction no plugin handled (after the player sees the usual fallback message).
+     * Only one plugin may bind this.
+     */
+    fun onUnhandledInteraction(hook: (Player, UnhandledInteraction) -> Unit) = r.bindUnhandledInteraction(hook)
+
+    /**
      * Completely overrides the npc death mechanic.
      */
     fun fullNpcDeath(

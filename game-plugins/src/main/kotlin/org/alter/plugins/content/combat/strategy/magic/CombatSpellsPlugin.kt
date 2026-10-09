@@ -1,5 +1,7 @@
 package org.alter.plugins.content.combat.strategy.magic
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.api.Spellbook
 import org.alter.api.ext.getInteractingNpc
 import org.alter.api.ext.getInteractingPlayer
@@ -60,6 +62,7 @@ class CombatSpellsPlugin(
             if (world.devContext.debugMagicSpells) {
                 player.message("Undefined combat spell: [spellId=${spellMetadata.paramItem}, name=${spellMetadata.name}]")
             }
+            world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.COMBAT_SPELL, id = spellMetadata.paramItem, tile = pawn.tile))
         }
     }
 }

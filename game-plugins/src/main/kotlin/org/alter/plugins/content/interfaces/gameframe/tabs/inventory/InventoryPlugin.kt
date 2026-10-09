@@ -1,5 +1,7 @@
 package org.alter.plugins.content.interfaces.gameframe.tabs.inventory
 
+import org.alter.game.plugin.UnhandledInteraction
+import org.alter.game.plugin.InteractionType
 import org.alter.api.*
 import org.alter.api.cfg.*
 import org.alter.api.dsl.*
@@ -65,14 +67,20 @@ class InventoryPlugin(
                         if (result == EquipAction.Result.UNHANDLED && world.devContext.debugItemActions) {
                             player.message("Unhandled item action: [item=${item.id}, slot=$slot, option=$option]")
                         }
+                        if (result == EquipAction.Result.UNHANDLED) {
+                            world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.INV_OP, id = item.id, op = option, slot = slot))
+                        }
                     }
                     10 -> {
                         world.sendExamine(player, item.id, ExamineEntityType.ITEM)
                     }
                     else -> {
                         if (option != null) {
-                            if (!world.plugins.executeItem(player, item.id, option) && world.devContext.debugItemActions) {
-                                player.message("Unhandled item action: [item=${item.id}, slot=$slot, option=$option]")
+                            if (!world.plugins.executeItem(player, item.id, option)) {
+                                if (world.devContext.debugItemActions) {
+                                    player.message("Unhandled item action: [item=${item.id}, slot=$slot, option=$option]")
+                                }
+                                world.plugins.executeUnhandledInteraction(player, UnhandledInteraction(InteractionType.INV_OP, id = item.id, op = option, slot = slot))
                             }
                         }
                     }

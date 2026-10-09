@@ -1579,6 +1579,27 @@ class PluginRepository(
         npcPlugins[npc] = optMap
     }
 
+    /**
+     * The single listener told about interactions no plugin handled. Null means nobody listens and the
+     * fallback sites behave exactly as before.
+     */
+    private var unhandledInteractionHook: ((Player, UnhandledInteraction) -> Unit)? = null
+
+    fun bindUnhandledInteraction(hook: (Player, UnhandledInteraction) -> Unit) {
+        check(unhandledInteractionHook == null) { "An unhandled-interaction hook is already bound." }
+        unhandledInteractionHook = hook
+    }
+
+    /** Called by every fallback site after its own message. Never throws: a failing hook is logged. */
+    fun executeUnhandledInteraction(player: Player, interaction: UnhandledInteraction) {
+        val hook = unhandledInteractionHook ?: return
+        try {
+            hook(player, interaction)
+        } catch (e: Exception) {
+            logger.error(e) { "Unhandled-interaction hook failed for $interaction" }
+        }
+    }
+
     fun executeNpc(
         p: Player,
         id: Int,
