@@ -14,3 +14,6 @@ supervisor:
 inbox:
   missingContentPollSeconds: 30
   minCountForCard: 1
+
+workorders:
+  baseRef: origin/main

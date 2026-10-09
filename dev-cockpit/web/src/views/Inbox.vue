@@ -101,6 +101,33 @@ onMounted(load)
     <div v-if="card.error" class="error">{{ card.error }}</div>
     <Enrichment v-if="card.result?.kind" :result="card.result" />
     <div v-else-if="card.result" class="result">{{ JSON.stringify(card.result) }}</div>
+
+    <div v-if="card.result?.scaffold" class="scaffold">
+      <div class="row">
+        <strong>{{ card.result.scaffold.summary }}</strong>
+        <span class="muted">branch <code>{{ card.result.scaffold.branch }}</code></span>
+        <span v-if="card.result.applied" class="pill DONE">committed {{ card.result.applied.commit }}</span>
+      </div>
+      <ul v-if="card.result.scaffold.manual?.length" class="manual">
+        <li v-for="(m, i) in card.result.scaffold.manual" :key="i">{{ m }}</li>
+      </ul>
+      <ul class="files">
+        <li v-for="f in card.result.preview?.files ?? []" :key="f.path"><code>{{ f.path }}</code> <span class="muted">{{ f.mode }}{{ f.applied ? '' : ' · ' + f.note }}</span></li>
+      </ul>
+      <details open>
+        <summary>Diff</summary>
+        <pre>{{ card.result.preview?.diff || '(no changes)' }}</pre>
+      </details>
+      <div v-if="canDecide" class="row" style="margin-top: .5rem">
+        <button v-if="!card.result.applied" class="primary" :disabled="busy === card.id" @click="act(card, () => api.apply(card.id))">Apply to branch</button>
+        <span v-else class="muted">Worktree: <code>{{ card.result.applied.worktree }}</code></span>
+        <button :disabled="busy === card.id" @click="act(card, () => api.discard(card.id))">Discard</button>
+      </div>
+    </div>
+    <div v-else-if="canDecide && card.status === 'DONE' && card.result?.kind" class="actions row">
+      <button :disabled="busy === card.id" @click="act(card, () => api.scaffold(card.id))">Scaffold</button>
+      <span class="muted">generate the files on a branch and preview the diff</span>
+    </div>
     <div v-if="card.decisionReason" class="muted">Reason: {{ card.decisionReason }}</div>
 
     <details>

@@ -14,7 +14,13 @@ data class CockpitConfig(
     val port: Int = 43600,
     val supervisor: Supervisor = Supervisor(),
     val inbox: Inbox = Inbox(),
+    val workorders: WorkOrders = WorkOrders(),
 ) {
+    data class WorkOrders(
+        /** Scaffold branches are cut from this ref; `main` is used when it doesn't exist (no remote). */
+        val baseRef: String = "origin/main",
+    )
+
     data class Supervisor(
         /** JVM options for a game server started by the cockpit. */
         val javaOpts: String = "-Xmx3g",

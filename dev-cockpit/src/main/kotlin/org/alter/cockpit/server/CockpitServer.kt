@@ -43,6 +43,7 @@ import org.alter.cockpit.store.Migrations
 import org.alter.cockpit.store.TokenStore
 import org.alter.cockpit.supervisor.GameServerSupervisor
 import org.alter.cockpit.supervisor.LogTail
+import org.alter.cockpit.workorders.WorkOrders
 import org.alter.data.missing.MissingContentFile
 import java.nio.file.Files
 import java.nio.file.Path
@@ -58,6 +59,7 @@ class CockpitServer(
     private val supervisor: GameServerSupervisor,
     private val logTail: LogTail,
     private val missingContentFile: Path,
+    private val workOrders: WorkOrders? = null,
 ) {
     private val logger = KotlinLogging.logger {}
 
@@ -150,6 +152,21 @@ class CockpitServer(
                         call.require(Role.DEV)
                         val reason = call.jsonBody()["reason"] as? String ?: throw ApiException(400, "Body needs a reason")
                         call.respond(inbox.delete(call.id(), call.principal, reason))
+                    }
+                    post("/{id}/scaffold") {
+                        call.require(Role.DEV)
+                        val orders = workOrders ?: throw ApiException(503, "Work orders are not configured")
+                        call.respond(withContext(Dispatchers.IO) { orders.scaffold(call.id(), call.principal) })
+                    }
+                    post("/{id}/apply") {
+                        call.require(Role.DEV)
+                        val orders = workOrders ?: throw ApiException(503, "Work orders are not configured")
+                        call.respond(withContext(Dispatchers.IO) { orders.apply(call.id(), call.principal) })
+                    }
+                    post("/{id}/discard") {
+                        call.require(Role.DEV)
+                        val orders = workOrders ?: throw ApiException(503, "Work orders are not configured")
+                        call.respond(withContext(Dispatchers.IO) { orders.discard(call.id(), call.principal) })
                     }
                     post("/{id}/snooze") {
                         call.require(Role.DEV)
