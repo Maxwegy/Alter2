@@ -145,6 +145,22 @@ class GameService : Service {
         gameThreadJobs.offer(job)
     }
 
+    /**
+     * Runs the jobs that were queued before this drain started. Jobs submitted while draining
+     * (including by a running job) run on the next cycle, so none are lost and a job that
+     * re-submits itself cannot stall the tick.
+     */
+    internal fun drainGameThreadJobs() {
+        repeat(gameThreadJobs.size) {
+            val job = gameThreadJobs.poll() ?: return
+            try {
+                job()
+            } catch (e: Exception) {
+                logger.error(e) { "Error executing game-thread job." }
+            }
+        }
+    }
+
     private fun cycle() {
         if (pause) {
             return
@@ -160,17 +176,7 @@ class GameService : Service {
         /*
          * Execute any logic jobs that were submitted.
          */
-        gameThreadJobs.forEach { job ->
-            try {
-                job()
-            } catch (e: Exception) {
-                logger.error(e) { "Error executing game-thread job." }
-            }
-        }
-        /*
-         * Reset the logic jobs as they have been completed.
-         */
-        gameThreadJobs.clear()
+        drainGameThreadJobs()
 
         /*
          * Go over the [tasks] and execute their logic. Log the time it took
