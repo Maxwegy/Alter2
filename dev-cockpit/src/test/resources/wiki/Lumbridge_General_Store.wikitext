@@ -1,0 +1,46 @@
+{{External|rs|rsc}}
+{{Infobox Shop
+|name = Lumbridge General Store
+|image = [[File:Lumbridge General Store.png|300px]]
+|release = [[4 January]] [[2001]]
+|update = Runescape beta is now online!
+|members = No
+|icon = [[File:General store icon.png]]
+|location = [[Lumbridge]]
+|owner = [[Shop keeper (Lumbridge)|Shop keeper]], [[Shop assistant (Lumbridge)|Shop assistant]]
+|special = General store
+|map = {{Map|name=Lumbridge General Store|mtype=polygon|3210,3252|3208,3250|3208,3244|3210,3242|3213,3242|3215,3244|3215,3250|3213,3252|bucket=yes}}
+|leagueRegion = Misthalin
+}}
+The '''Lumbridge General Store''' is the [[general store]] located north of the [[Lumbridge Castle]] in [[Lumbridge]]. When new players arrive in ''[[Old School RuneScape]]'', they start in Lumbridge and tend to have a look around, and thus the store is a popular place for new players.
+
+Players can spectate teams attempting the [[Theatre of Blood]] raid by speaking to [[Abigaila]] upstairs.
+
+A [[fireplace]] can be found downstairs and a [[cooking pot (scenery)|cooking pot]] can be found upstairs, which players can both [[Cooking|cook]] at.
+
+==Stock==
+{{StoreTableHead|sellmultiplier=1300|buymultiplier=400|delta=30}}
+{{StoreLine|name=Pot|stock=5|restock=10}}
+{{StoreLine|name=Jug|stock=2|restock=100}}
+{{StoreLine|name=Empty jug pack|stock=5|gemw=No|restock=20}}
+{{StoreLine|name=Shears|stock=2|restock=100}}
+{{StoreLine|name=Knife|stock=5|restock=100}}
+{{StoreLine|name=Bucket|stock=3|restock=10}}
+{{StoreLine|name=Empty bucket pack|stock=15|gemw=no|restock=10}}
+{{StoreLine|name=Bowl|stock=2|restock=50}}
+{{StoreLine|name=Cake tin|stock=2|restock=50}}
+{{StoreLine|name=Tinderbox|stock=2|restock=100}}
+{{StoreLine|name=Chisel|stock=2|restock=100}}
+{{StoreLine|name=Spade|stock=5|restock=100}}
+{{StoreLine|name=Hammer|stock=5|restock=100}}
+{{StoreLine|name=Newcomer map|stock=5|gemw=no|restock=100}}
+{{StoreLine|name=Security book|stock=5|restock=100}}
+{{StoreTableBottom}}
+
+==Trivia==
+* During [[Trailblazer Reloaded League]], a [[pestle and mortar]] and [[box trap]] could be purchased from the Lumbridge General Store.
+** The store stocked the two above items as well as [[fishing bait]] during the [[Raging Echoes League]].
+
+{{General stores}}
+{{Shops}}
+{{Lumbridge}}

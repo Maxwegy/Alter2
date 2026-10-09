@@ -1,0 +1,21 @@
+{
+ "bucketQuery": "bucket('recipe').select('page_name','uses_material','uses_tool','uses_facility','uses_skill','production_json').where('page_name','Bread').run()",
+ "bucket": [
+  {
+   "page_name": "Bread",
+   "uses_material": [
+    "Bread dough"
+   ],
+   "uses_skill": [
+    "Cooking"
+   ],
+   "uses_facility": [
+    "Cooking range"
+   ],
+   "uses_tool": [
+    ""
+   ],
+   "production_json": "{\"ticks\":\"1\",\"materials\":[{\"quantity\":\"1\",\"name\":\"Bread dough\",\"image\":\"Bread dough.png\"}],\"facilities\":\"Cooking range\",\"skills\":[{\"experience\":\"40\",\"level\":\"1\",\"name\":\"Cooking\",\"boostable\":\"\"}],\"members\":false,\"output\":{\"cost\":91,\"quantity\":\"1\",\"name\":\"Bread\",\"image\":\"Bread.png\"}}"
+  }
+ ]
+}

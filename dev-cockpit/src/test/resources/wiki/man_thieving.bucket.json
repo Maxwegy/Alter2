@@ -1,0 +1,40 @@
+{
+ "bucketQuery": "bucket('dropsline').select('page_name','page_name_sub','item_name','drop_json','rare_drop_table').where('page_name','Man').limit(5).run()",
+ "bucket": [
+  {
+   "page_name": "Man",
+   "rare_drop_table": false,
+   "item_name": "Bones",
+   "page_name_sub": "Man",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"Always\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":0,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Bones\"}"
+  },
+  {
+   "page_name": "Man",
+   "rare_drop_table": false,
+   "item_name": "Bronze med helm",
+   "page_name_sub": "Man",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"2/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":14,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Bronze med helm\"}"
+  },
+  {
+   "page_name": "Man",
+   "rare_drop_table": false,
+   "item_name": "Iron dagger",
+   "page_name_sub": "Man",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"1/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"1\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":1,\"Drop Value\":21,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":1,\"Dropped item\":\"Iron dagger\"}"
+  },
+  {
+   "page_name": "Man",
+   "rare_drop_table": false,
+   "item_name": "Bronze bolts",
+   "page_name_sub": "Man",
+   "drop_json": "{\"Name Notes\":\"<sub title=\\\"Members-only\\\" style=\\\"cursor:help; margin-left:3px;\\\">(m)</sub>\",\"Rarity Notes\":\"\",\"Rarity\":\"22/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"2\u201312\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":12,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":2,\"Dropped item\":\"Bronze bolts\"}"
+  },
+  {
+   "page_name": "Man",
+   "rare_drop_table": false,
+   "item_name": "Bronze arrow",
+   "page_name_sub": "Man",
+   "drop_json": "{\"Name Notes\":\"\",\"Rarity Notes\":\"\",\"Rarity\":\"3/128\",\"Approx\":false,\"Alt Rarity Dash\":\"\",\"Drop level\":\"2\",\"Drop type\":\"combat\",\"Drop Quantity\":\"7\",\"League region\":\"asgarnia,desert,kandarin,karamja,kourend,misthalin,no,wilderness\",\"Dropped from\":\"Man\",\"Quantity High\":7,\"Drop Value\":1,\"Rolls\":1,\"Alt Rarity\":\"\",\"Quantity Low\":7,\"Dropped item\":\"Bronze arrow\"}"
+  }
+ ]
+}

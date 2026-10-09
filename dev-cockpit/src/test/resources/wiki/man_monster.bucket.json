@@ -1,0 +1,18 @@
+{
+ "bucketQuery": "bucket('infobox_monster').select('page_name','page_name_sub','name','examine','version_anchor','combat_level','default_version','id').where('id','3108').limit(5).run()",
+ "bucket": [
+  {
+   "page_name": "Man",
+   "default_version": false,
+   "name": "Man",
+   "examine": "One of Gielinor's many citizens.",
+   "page_name_sub": "Man#3",
+   "id": [
+    "3108",
+    "6989"
+   ],
+   "combat_level": 2,
+   "version_anchor": "3"
+  }
+ ]
+}

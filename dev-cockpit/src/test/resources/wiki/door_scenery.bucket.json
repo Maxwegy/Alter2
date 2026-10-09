@@ -1,0 +1,4 @@
+{
+ "bucketQuery": "bucket('infobox_scenery').select('page_name','page_name_sub','object_id','default_version').where('object_id',1530).run()",
+ "bucket": []
+}

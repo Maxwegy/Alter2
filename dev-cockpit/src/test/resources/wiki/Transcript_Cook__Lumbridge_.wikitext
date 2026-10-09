@@ -1,0 +1,65 @@
+{{External|rs|rsc=Cook/Dialogue}}
+{{Transcript|npc}}
+
+==Standard dialogue==
+===After [[Cook's Assistant]]===
+* '''Cook:''' How is the adventuring going, my friend?
+* {{topt|Do you have any other quests for me?}}
+** {{tcond|If the player is on a free-to-play world:}}
+*** '''Cook:''' I don't have anything for you to do right now, sorry.
+*** {{tact|end}}
+** {{tcond|If the player is on a members' world:}}
+*** {{tact|Continues in [[Transcript:Recipe for Disaster/Another Cook's Quest]]}}
+* {{topt|I am getting strong and mighty.}}
+** '''Player:''' I am getting strong and mighty. Grrr{{sic}}
+** '''Cook:''' Glad to hear it.
+** {{tact|end}}
+* {{topt|I keep on dying.}}
+** '''Player:''' I keep on dying.
+** '''Cook:''' Ah well, at least you keep coming back to life!
+** {{tact|end}}
+* {{topt|Can I use your range?}}
+** '''Player:''' Can I use your range?
+** '''Cook:''' Go ahead - it's a very good range. It's easier to use than most other ranges.
+** '''Cook:''' Its called the Cook-o-matic 100. It uses a combination of state of the art temperature regulation and magic.
+** '''Player:''' Will it mean my food will burn less often?
+** '''Cook:''' Well, that's what the salesman told us anyway...
+** '''Player:''' Thanks?
+** {{tact|end}}
+
+===After [[Recipe for Disaster]]===
+* '''Cook:''' You were seriously great when you defeated the Culinaromancer! I can't believe I nearly caused all of those people to be killed! So how is the adventuring going now?
+* {{topt|Do you have any other quests for me?}}
+** {{tact|above}}
+* {{topt|I am getting strong and mighty.}}
+** {{tact|above}}
+* {{topt|I keep on dying.}}
+** {{tact|above}}
+* {{topt|Can I use your range?}}
+** {{tact|above}}
+
+===Interacting with the [[Cooking range (Lumbridge Castle)|cooking range]] in Lumbridge Castle before finishing [[Cook's Assistant]]===
+* '''Cook:''' Hey, who said you could use that?
+* {{tact|end}}
+
+==Treasure Trails==
+===Beginner===
+* '''Cook:''' Well done.
+* You've [found a new clue scroll/obtained a casket]!
+* {{tact|receives= a [new clue scroll/casket]}}
+* {{tact|end}}
+
+===Medium===
+* '''Cook:''' I've always wondered how many cannons the castle has. Could you find out for me?
+* {{tact|receives=a challenge scroll}}
+* {{tbox|The cook has given you a challenge scroll!}}
+====When talked to again====
+* '''Cook:''' Please tell me how many cannons there are.
+* {{tcond|When given the wrong answer:}}
+** '''Cook:''' Hmm, I don't think that's right.
+** {{tact|end}}
+* {{tcond|When given the correct answer:}}
+** '''Cook:''' Cheers!
+** {{tact|receives=[another clue scroll/a casket]}}
+** {{tbox|The cook has given you [another clue scroll/a casket]!}}
+** {{tact|end}}

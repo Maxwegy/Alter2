@@ -19,6 +19,9 @@ data class BucketQuery(
 
     fun where(field: String, value: String) = copy(conditions = conditions + "${quote(field)},${quote(value)}")
 
+    /** For INTEGER fields such as `infobox_scenery.object_id`, which must not be quoted. */
+    fun where(field: String, value: Int) = copy(conditions = conditions + "${quote(field)},$value")
+
     /** Rows whose page is in [category] (e.g. "Pets"). */
     fun whereCategory(category: String) = copy(conditions = conditions + quote("Category:$category"))
 

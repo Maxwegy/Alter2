@@ -1,0 +1,17 @@
+{
+ "bucketQuery": "bucket('infobox_npc').select('page_name','page_name_sub','npc_name','npc_id','examine','location','quest','default_version').where('npc_id','3105').run()",
+ "bucket": [
+  {
+   "page_name": "Hans",
+   "npc_id": [
+    "3105"
+   ],
+   "default_version": true,
+   "examine": "Servant of the Duke of Lumbridge.",
+   "page_name_sub": "Hans",
+   "npc_name": "Hans",
+   "quest": "\u007f'\"`UNIQ--nowiki-00000024-QINU`\"'\u007f\n* [[The Lost Tribe]]\n* [[Death to the Dorgeshuun]]",
+   "location": "[[Lumbridge]]"
+  }
+ ]
+}

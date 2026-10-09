@@ -7,8 +7,12 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.alter.data.config.InfraConfig
 import org.alter.data.http.WikiHttpClient
+import java.net.URLDecoder
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.TimeUnit
+
+/** A wiki page found for a game id. [anchor] is the version section when the id is one of several on the page. */
+data class WikiPage(val title: String, val url: String, val anchor: String? = null)
 
 /**
  * Finds the wiki page for a game id through `Special:Lookup?type=npc&id=N`, which answers with a redirect
@@ -31,6 +35,13 @@ class PageResolver(
 
     /** The page URL, or null when the wiki has no page for this id. Blocking: call it off the request thread. */
     fun resolve(type: String, id: Int): String? = cache.computeIfAbsent("$type:$id") { fetch(type, id) }
+
+    /** Like [resolve], but split into the page title (spaces, no namespace prefix dropped) and the version anchor. */
+    fun resolvePage(type: String, id: Int): WikiPage? {
+        val url = resolve(type, id)?.toHttpUrl() ?: return null
+        val title = URLDecoder.decode(url.encodedPath.removePrefix("/w/"), Charsets.UTF_8).replace('_', ' ')
+        return WikiPage(title, url.newBuilder().fragment(null).build().toString(), url.fragment)
+    }
 
     private fun fetch(type: String, id: Int): String? {
         synchronized(this) {

@@ -4,6 +4,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import org.alter.cockpit.events.EventBus
 import org.alter.cockpit.inbox.InboxService
+import org.alter.cockpit.inbox.PlanStep
 import org.alter.cockpit.inbox.sources.MissingContentSource
 import org.alter.cockpit.store.AuditStore
 import org.alter.cockpit.store.Database
@@ -24,7 +25,11 @@ class MissingContentSourceTests {
     private val db = Database.inMemory()
     private val inbox = InboxService(InboxStore(db), AuditStore(db), EventBus(), emptyList(), CoroutineScope(Dispatchers.Unconfined))
     private val file = Files.createTempDirectory("missing").resolve("missing_content.json")
-    private val source = MissingContentSource(file, inbox, PageResolver(InfraConfig.Wiki()), minCount = 2)
+    private val resolver = PageResolver(InfraConfig.Wiki())
+    private val planner = { params: Map<String, Any?> ->
+        PageResolver.lookupType(params["type"] as String)?.let { listOf(PlanStep(PlanStep.REQUEST, "lookup", resolver.lookupUrl(it, params["id"] as Int))) }.orEmpty()
+    }
+    private val source = MissingContentSource(file, inbox, planner, minCount = 2)
 
     private fun entry(type: String, id: Int, count: Long, name: String? = "Man", option: String? = "Talk-to") = MissingContentEntry(
         key = "$type:$id:-1:1:-1", type = type, id = id, rawId = id, op = 1, usedId = -1, component = -1, name = name, optionName = option,
@@ -64,7 +69,7 @@ class MissingContentSourceTests {
 
     @Test
     fun `a live event creates the card immediately when the threshold allows`() {
-        val lenient = MissingContentSource(file, inbox, PageResolver(InfraConfig.Wiki()), minCount = 1)
+        val lenient = MissingContentSource(file, inbox, planner, minCount = 1)
         lenient.onLiveEvent(MissingContentEvent("LOC_OP", 1530, op = 1, name = "Door", optionName = "Open", location = Location(1, 2, 0)))
         val card = inbox.list().single()
         assertEquals("Open on Door (1530) is unscripted", card.title)
@@ -76,7 +81,7 @@ class MissingContentSourceTests {
 
     @Test
     fun `interface interactions get a card without a wiki step`() {
-        val lenient = MissingContentSource(file, inbox, PageResolver(InfraConfig.Wiki()), minCount = 1)
+        val lenient = MissingContentSource(file, inbox, planner, minCount = 1)
         lenient.onLiveEvent(MissingContentEvent("IF_BUTTON", 99, component = 5))
         val card = inbox.list().single()
         assertEquals("Option -1 on IF_BUTTON 99 is unscripted", card.title)
