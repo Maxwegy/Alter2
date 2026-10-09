@@ -44,6 +44,10 @@ Two other 241 facts from the probe, not causes of the failure:
 - Index revisions are now Unix timestamps (e.g. `1791285254`), not small counters. They still fit an int.
 - Index 24 holds the **gameval name tables** as plain text (group 0 starts `mcannonremains mcannontoolkit
   mcannonball ...`, group 1 `farming_tools_leprechaun molanisk slayer_abberant_spectre_1 ...`). Index 22 is binary.
+  `./gradlew :plugins:tools:gamevalDump -PcacheArgs="<cache dir>"` reads them (one group per kind, one file per
+  id) into `data/reports/gameval/<kind>.txt` and compares the item/npc/loc tables with `data/cfg/rscm`: on
+  241 every committed RSCM id has a gameval name, and the names differ in style (`dwarf_remains` vs
+  `mcannonremains`), so generating RSCM from them is a naming decision, not a data gap.
 
 ## What displee does differently
 
@@ -69,9 +73,21 @@ use config opcodes added between 229 and 241 that our decoders don't know, and a
 stream (21,620 "Unable to decode" warnings, then `BufferUnderflowException` in `NPCDecoder.read`). That is the
 next layer, not this blocker, and it is Phase 1.5 work.
 
-## Remaining gap: decoder opcodes 229–241
+## Decoder opcodes 229–241 (done in the follow-up PR)
 
-Compared with upstream OpenRune's current OSRS codecs (`definition/osrs/.../codec/*.kt`, which read 241):
+The opcode catch-up landed right after the spike: every definition kind of the 241 cache now decodes with
+0 failures and 0 unknown opcodes (`cacheDryRun`: 34,646 items, 16,631 NPCs, 62,534 locs, matching the gameval
+tables one for one), verified by `Revision241DecodeTests` against the staged cache. What was added, with
+RuneLite's loaders as the second reference where upstream OpenRune was behind:
+
+- NPC: 42, 61, 62, 126, 129, 130, 145–152, 251, 252, 253; 111 means render priority from revision 233 on.
+- Item: 9, 15, 44–54, 99, 160, 161, 200–202, 251.
+- Loc: 6, 7, 42, 91, 93, 94, 95, 96, 100–102.
+- Sequence: 16 is a vertical-offset byte from 226 on, plus 18 and 19. Enum: 7 and 8 (long values).
+- `ScriptVarType.DBTABLE` (118), which DB table 154 references.
+
+The list below is the delta as measured during the spike, kept for the record. Compared with upstream OpenRune's
+current OSRS codecs (`definition/osrs/.../codec/*.kt`, which read 241):
 
 | decoder | opcodes we lack |
 |---|---|

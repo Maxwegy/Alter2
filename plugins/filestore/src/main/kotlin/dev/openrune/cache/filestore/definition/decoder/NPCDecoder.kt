@@ -3,6 +3,7 @@ package dev.openrune.cache.filestore.definition.decoder
 import dev.openrune.cache.*
 import dev.openrune.cache.filestore.buffer.Reader
 import dev.openrune.cache.filestore.definition.DefinitionDecoder
+import dev.openrune.cache.filestore.definition.data.ConditionalOp
 import dev.openrune.cache.filestore.definition.data.ItemType
 import dev.openrune.cache.filestore.definition.data.NpcType
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
@@ -96,7 +97,7 @@ class NPCDecoder : DefinitionDecoder<NpcType>(CONFIGS) {
                     }
                 }
             }
-            111 -> isFollower = true
+            111 -> if (CacheManager.revisionIsOrAfter(233)) renderPriority = 2 else isFollower = true
             103 -> rotation = buffer.readUnsignedShort()
             106, 118 -> readTransforms(buffer, opcode == 118)
             107 -> isInteractable = false
@@ -118,6 +119,39 @@ class NPCDecoder : DefinitionDecoder<NpcType>(CONFIGS) {
             122 -> lowPriorityFollowerOps = true
             123 -> isFollower = true
             124 -> height = buffer.readUnsignedShort()
+            // Revision 229-241 opcodes (see docs/phase-1.5-cache-241.md)
+            42 -> recolAll = buffer.readUnsignedShort()
+            61 -> models = MutableList(buffer.readUnsignedByte()) { buffer.readInt() }
+            62 -> chatheadModels = MutableList(buffer.readUnsignedByte()) { buffer.readInt() }
+            126 -> footprintSize = buffer.readUnsignedShort()
+            130 -> readyAnimDuringAnim = true
+            145 -> canHideForOverlap = true
+            146 -> overlapTintHsl = buffer.readUnsignedShort()
+            147 -> zbuf = false
+            148 -> {
+                bgSoundId = buffer.readUnsignedShort()
+                bgSoundRange = buffer.readUnsignedByte()
+                bgSoundVolume = buffer.readUnsignedByte()
+            }
+            149 -> bgSoundDropoffEasing = buffer.readUnsignedByte()
+            150 -> {
+                bgSoundEaseInType = buffer.readUnsignedByte()
+                bgSoundEaseInDuration = buffer.readUnsignedShort()
+                bgSoundEaseOutType = buffer.readUnsignedByte()
+                bgSoundEaseOutDuration = buffer.readUnsignedShort()
+            }
+            151 -> crossWorldSound = buffer.readUnsignedByte()
+            152 -> {
+                randomSoundMinDelay = buffer.readUnsignedShort()
+                randomSoundMaxDelay = buffer.readUnsignedShort()
+                randomSoundMinVolume = buffer.readUnsignedByte()
+                randomSoundMaxVolume = buffer.readUnsignedByte()
+                randomSoundIds = MutableList(buffer.readUnsignedByte()) { buffer.readUnsignedShort() }
+            }
+            129 -> flag129 = true
+            251 -> EntityOps.readSubOps(buffer, subops ?: mutableMapOf<Int, MutableMap<Int, String>>().also { subops = it })
+            252 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalOp(buffer)
+            253 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalSubOp(buffer)
             249 -> readParameters(buffer)
             else -> logger.info { "Unable to decode Npcs [${opcode}]" }
         }

@@ -1,6 +1,7 @@
 package dev.openrune.cache.filestore.definition.data
 
 import dev.openrune.serialization.RscmString
+import dev.openrune.cache.filestore.definition.data.ConditionalOp
 import dev.openrune.cache.filestore.definition.Definition
 import dev.openrune.cache.filestore.definition.Parameterized
 import dev.openrune.cache.filestore.definition.Recolourable
@@ -66,6 +67,19 @@ data class ObjectType(
     override var varp: Int = -1,
     override var transforms: MutableList<Int>? = null,
     override var params: Map<Int, @Contextual Any>? = null,
+    // Revision 229-241 opcodes
+    var soundDistanceFadeCurve: Int = -1,
+    var soundFadeInCurve: Int = -1,
+    var soundFadeInDuration: Int = 0,
+    var soundFadeOutCurve: Int = -1,
+    var soundFadeOutDuration: Int = 0,
+    var soundVisibility: Int = -1,
+    var raise: Int = -1,
+    var subops: MutableMap<Int, MutableMap<Int, String>>? = null,
+    var conditionalOps: MutableList<ConditionalOp>? = null,
+    var recolAll: Int = -1,
+    /** Opcode 94: meaning not yet known (RuneLite: `unknown1`). */
+    var flag94: Boolean = false,
 
     //Custom
     var option1: String? = null,

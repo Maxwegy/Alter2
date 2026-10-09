@@ -7,6 +7,7 @@ import dev.openrune.cache.filestore.definition.DefinitionDecoder
 import dev.openrune.cache.filestore.buffer.Reader
 import dev.openrune.cache.filestore.definition.data.HitSplatType
 import dev.openrune.cache.filestore.definition.data.ItemType
+import dev.openrune.cache.filestore.definition.data.ConditionalOp
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
 
 class ItemDecoder : DefinitionDecoder<ItemType>(CONFIGS) {
@@ -60,7 +61,7 @@ class ItemDecoder : DefinitionDecoder<ItemType>(CONFIGS) {
             40 -> readColours(buffer)
             41 -> readTextures(buffer)
             42 -> dropOptionIndex = buffer.readByte()
-            43 -> {
+            43, 200 -> {
                 val opId = buffer.readUnsignedByte()
                 if (subops == null) {
                     subops = arrayOfNulls(5)
@@ -113,9 +114,39 @@ class ItemDecoder : DefinitionDecoder<ItemType>(CONFIGS) {
             140 -> notedId = buffer.readUnsignedShort()
             148 -> placeholderLink = buffer.readUnsignedShort()
             149 -> placeholderTemplate = buffer.readUnsignedShort()
+            // Revision 229-241 opcodes (see docs/phase-1.5-cache-241.md)
+            9 -> string9 = buffer.readString()
+            15 -> isTradeable = false
+            44 -> inventoryModel = buffer.readInt()
+            45 -> {
+                maleModel0 = buffer.readInt()
+                maleOffset = buffer.readUnsignedByte()
+            }
+            46 -> maleModel1 = buffer.readInt()
+            47 -> maleModel2 = buffer.readInt()
+            48 -> {
+                femaleModel0 = buffer.readInt()
+                femaleOffset = buffer.readUnsignedByte()
+            }
+            49 -> femaleModel1 = buffer.readInt()
+            50 -> femaleModel2 = buffer.readInt()
+            51 -> maleHeadModel0 = buffer.readInt()
+            52 -> maleHeadModel1 = buffer.readInt()
+            53 -> femaleHeadModel0 = buffer.readInt()
+            54 -> femaleHeadModel1 = buffer.readInt()
+            99 -> recolAll = buffer.readUnsignedShort()
+            160 -> stacks = STACKS_NEVER
+            161 -> keepOnlyDuringSeqs = MutableList(buffer.readUnsignedShort()) { buffer.readUnsignedShort() }
+            251 -> unlockable = true
+            201 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalOp(buffer)
+            202 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalSubOp(buffer)
             249 -> readParameters(buffer)
             else -> logger.info { "Unable to decode Npcs [${opcode}]" }
         }
     }
 
+    companion object {
+        /** Opcode 160: the item never stacks (opcode 11 sets 1 = always; 0 = default). */
+        const val STACKS_NEVER = 2
+    }
 }

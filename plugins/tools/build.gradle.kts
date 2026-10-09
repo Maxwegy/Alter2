@@ -50,3 +50,8 @@ tasks.register<JavaExec>("cacheDryRun") {
     description = "Decode a staged cache and report decoder failures and RSCM name changes (<dir> <build>)"
     cacheTool("dev.openrune.cache.tools.staging.DecoderDryRunMainKt")
 }
+
+tasks.register<JavaExec>("gamevalDump") {
+    description = "Dump the gameval name tables (index 24, revision 241+) of a cache and compare them with data/cfg/rscm (<dir> [<out dir>])"
+    cacheTool("dev.openrune.cache.tools.staging.GamevalDumpMainKt")
+}

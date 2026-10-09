@@ -9,6 +9,7 @@ data class EnumType(
     var valueType : Int = 0,
     var defaultInt : Int = 0,
     var defaultString : String = "",
+    var defaultLong : Long = 0L,
     val values : Int2ObjectOpenHashMap<Any> = Int2ObjectOpenHashMap<Any>(),
     //Custom
     override var inherit: Int = -1

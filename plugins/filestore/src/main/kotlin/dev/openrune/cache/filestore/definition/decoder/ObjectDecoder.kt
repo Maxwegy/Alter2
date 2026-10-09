@@ -6,6 +6,7 @@ import dev.openrune.cache.OBJECT
 import dev.openrune.cache.filestore.definition.DefinitionDecoder
 import dev.openrune.cache.filestore.buffer.Reader
 import dev.openrune.cache.filestore.definition.data.ObjectType
+import dev.openrune.cache.filestore.definition.data.ConditionalOp
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
 import java.util.stream.IntStream
 import kotlin.streams.toList
@@ -110,6 +111,39 @@ class ObjectDecoder : DefinitionDecoder<ObjectType>(CONFIGS) {
             60,82 -> mapAreaId = buffer.readUnsignedShort()
             89 -> randomizeAnimStart = true
             90 -> delayAnimationUpdate = true
+            // Revision 229-241 opcodes (see docs/phase-1.5-cache-241.md)
+            6 -> {
+                val length = buffer.readUnsignedByte()
+                if (length > 0) {
+                    objectTypes = MutableList(length) { 0 }
+                    objectModels = MutableList(length) { 0 }
+                    (0 until length).forEach {
+                        objectModels!![it] = buffer.readInt()
+                        objectTypes!![it] = buffer.readUnsignedByte()
+                    }
+                }
+            }
+            7 -> {
+                val length = buffer.readUnsignedByte()
+                if (length > 0) {
+                    objectTypes = null
+                    objectModels = MutableList(length) { buffer.readInt() }
+                }
+            }
+            42 -> recolAll = buffer.readUnsignedShort()
+            91 -> soundDistanceFadeCurve = buffer.readUnsignedByte()
+            94 -> flag94 = true
+            93 -> {
+                soundFadeInCurve = buffer.readUnsignedByte()
+                soundFadeInDuration = buffer.readUnsignedShort()
+                soundFadeOutCurve = buffer.readUnsignedByte()
+                soundFadeOutDuration = buffer.readUnsignedShort()
+            }
+            95 -> soundVisibility = buffer.readUnsignedByte()
+            96 -> raise = buffer.readUnsignedByte()
+            100 -> EntityOps.readSubOps(buffer, subops ?: mutableMapOf<Int, MutableMap<Int, String>>().also { subops = it })
+            101 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalOp(buffer)
+            102 -> (conditionalOps ?: mutableListOf<ConditionalOp>().also { conditionalOps = it }) += EntityOps.readConditionalSubOp(buffer)
             249 -> readParameters(buffer)
             else -> logger.info { "Unable to decode Npcs [${opcode}]" }
         }

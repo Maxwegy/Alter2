@@ -27,6 +27,10 @@ data class SequenceType(
     var rangeEnd : Int = 0,
     var sounds: MutableMap<Int, SoundData> = emptyMap<Int, SoundData>().toMutableMap(),
     var mask: MutableList<Boolean>? = null,
+    // Revision 226-241 opcodes
+    var verticalOffset: Int = 0,
+    var debugName: String? = null,
+    var soundsCrossWorldView: Boolean = false,
     //Custom
     override var inherit: Int = -1
 ) : Definition, Sound {

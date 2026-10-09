@@ -29,4 +29,4 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `PackConfig` writes ITEMS into archive 6.
 - `WeaponCategory` ids disagree with `WeaponType`.
 - `ItemMarketValueService` has an O(n²) boot copy and is never registered.
-- Phase 1.5 (241 cache): the reference-table `0x4` lengths flag that broke the vendored filestore and displee 7.1.0 is fixed (spike, see `docs/phase-1.5-cache-241.md`); still open is the decoder opcode catch-up for revisions 229-241 (NPC/item/object opcodes listed there), which is the first task of the Phase 1.5 PR.
+- Phase 1.5 (241 cache): the reference-table `0x4` lengths flag and the 229–241 decoder opcodes are fixed; the 241 cache decodes clean (see `docs/phase-1.5-cache-241.md`). Still open for the Phase 1.5 PR: the RSCM regeneration (843 committed names change id on 241; the gameval tables in index 24 are a candidate source, see `gamevalDump`), dropping XTEA, and the revision bump.
