@@ -12,6 +12,7 @@ dependencies {
     implementation(projects.alterData)
     implementation(lib.kotlinx.coroutines)
     implementation(lib.jackson.module.kotlin)
+    implementation(lib.okhttp)
     implementation(kotlin("reflect"))
 }
 
