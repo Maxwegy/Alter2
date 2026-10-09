@@ -18,7 +18,7 @@ data class InfraConfig(
         /** Contact shown in the User-Agent (email, Discord or URL). The OSRS Wiki asks API users for one. */
         val contact: String = "",
         /** Public repository URL shown in the User-Agent. */
-        val repositoryUrl: String = "",
+        val repositoryUrl: String = "https://github.com/Maxwegy/Alter2",
         val minRequestIntervalMs: Long = 1_000,
         val rawCacheTtlHours: Long = 24,
         /** A sync is rejected if any bucket returns this many percent fewer rows than the previous manifest. */

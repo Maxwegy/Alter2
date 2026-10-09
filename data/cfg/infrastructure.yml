@@ -6,7 +6,7 @@ wiki:
   # Use a project email, Discord handle or URL. Leave empty to send only the project name.
   contact: ""
   # Public repository URL shown in the User-Agent.
-  repositoryUrl: ""
+  repositoryUrl: "https://github.com/Maxwegy/Alter2"
   # Minimum gap between two wiki requests. Requests are always sequential.
   minRequestIntervalMs: 1000
   # Raw API responses in data/wiki-cache are reused for this long unless wikiSync runs with --refresh.
