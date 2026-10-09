@@ -38,11 +38,11 @@ class EnricherTests {
         "item:2307" to "/w/Bread_dough", "object:114" to "/w/Cooking_range",
     )
     private val pages = mapOf(
-        "Hans" to "Hans.wikitext", "Transcript:Hans" to "Transcript_Hans.wikitext", "Transcript:Man" to "Transcript_Man.wikitext",
+        "Hans" to "Hans.wikitext", "Man" to "Man.wikitext", "Transcript:Hans" to "Transcript_Hans.wikitext", "Transcript:Man" to "Transcript_Man.wikitext",
         "Transcript:Shop keeper (Lumbridge)" to "Transcript_Shop_keeper__Lumbridge_.wikitext", "Lumbridge General Store" to "Lumbridge_General_Store.wikitext",
     )
     private val bucketFixtures = mapOf(
-        "infobox_npc" to "hans_npc", "storeline" to "store_lumbridge", "infobox_shop" to "shop_lumbridge",
+        "infobox_npc" to "hans_npc", "infobox_monster" to "man_monster", "storeline" to "store_lumbridge", "infobox_shop" to "shop_lumbridge",
         "dropsline" to "man_all_drops", "infobox_scenery" to "door_scenery", "recipe" to "recipe_bread",
     )
 
@@ -58,7 +58,9 @@ class EnricherTests {
                     "bucket" -> {
                         val lua = url.queryParameter("query")!!
                         val fixture = bucketFixtures.entries.first { lua.startsWith("bucket('${it.key}')") }.value
-                        MockResponse().setBody(Fixtures.text("$fixture.bucket.json"))
+                        // The Hans row only answers the Hans id; Man is not in infobox_npc at all.
+                        if (fixture == "hans_npc" && "'3105'" !in lua) MockResponse().setBody("""{"bucket":[]}""")
+                        else MockResponse().setBody(Fixtures.text("$fixture.bucket.json"))
                     }
                     "query" -> {
                         val title = url.queryParameter("titles")!!
@@ -101,6 +103,20 @@ class EnricherTests {
         assertTrue(e.notes.any { it.startsWith("Quest NPC") })
         assertEquals(listOf("Hans", "Transcript:Hans"), e.sources.map { it.title })
         assertEquals("dialogue plugin", e.target)
+    }
+
+    @Test
+    fun `talk-to Man - an attackable NPC comes from infobox_monster and its version 3 infobox`() = runBlocking {
+        val e = service.enrich(params("NPC_OP", 3108, "Man", "Talk-to"))
+        assertEquals("Man", e.page?.title)
+        assertEquals("3", e.page?.anchor)
+        assertEquals("Man", e.facts["name"])
+        assertEquals(2, e.facts["combatLevel"])
+        assertEquals("One of Gielinor's many citizens.", e.facts["examine"])
+        assertEquals(emptyList<String>(), e.facts["options"])
+        assertNull(e.facts["quests"])
+        val random = e.transcript!!.sections.first().body.first() as Node.Random
+        assertEquals(Node.Action(Node.Action.RECEIVES, "a flyer", "The player receives a flyer."), random.options.first { it.label == "Dialogue 22" }.body[2])
     }
 
     @Test

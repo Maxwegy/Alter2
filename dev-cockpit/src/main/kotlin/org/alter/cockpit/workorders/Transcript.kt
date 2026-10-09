@@ -30,6 +30,7 @@ sealed class Node {
             const val OPENS = "opens"
             const val ABOVE = "above"
             const val CONTINUE = "continue"
+            const val RECEIVES = "receives"
             const val OTHER = "other"
         }
     }
@@ -164,6 +165,7 @@ object TranscriptParser {
         arg == "end" -> Node.Action(Node.Action.END, null, "The conversation ends.")
         arg.startsWith("opens=") -> clean(arg.removePrefix("opens=")).trimEnd('.').let { Node.Action(Node.Action.OPENS, it, "Opens $it.") }
         arg == "above" -> Node.Action(Node.Action.ABOVE, null, "Same as above.")
+        arg.startsWith("receives=") -> clean(arg.removePrefix("receives=")).let { Node.Action(Node.Action.RECEIVES, it, "The player receives $it.") }
         arg.startsWith("Continues in", ignoreCase = true) -> Node.Action(Node.Action.CONTINUE, link.find(arg)?.groupValues?.get(1), clean(arg))
         else -> Node.Action(Node.Action.OTHER, null, clean(arg))
     }

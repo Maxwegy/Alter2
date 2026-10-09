@@ -116,11 +116,13 @@ class TalkToEnricher : Enricher {
     )
 
     override suspend fun enrich(ctx: EnrichContext): Enrichment {
+        // Non-attackable NPCs are in infobox_npc; attackable ones (most citizens too) in infobox_monster.
         val row = ctx.buckets.fetchAll(npcQuery(ctx.id.toString())).preferDefault()
+            ?: ctx.buckets.fetchAll(monsterQuery(ctx.id.toString())).let { rows -> rows.firstOrNull { it.str("version_anchor") == ctx.page?.anchor } ?: rows.preferDefault() }
         val title = ctx.page?.title ?: row?.str("page_name")
             ?: return Enrichment(kind, null, notes = listOf("The wiki has no page or infobox row for npc id ${ctx.id}."), target = target)
         val page = ctx.page ?: WikiPage(title, ctx.urls.page(title))
-        val infobox = ctx.infobox("Infobox NPC")
+        val infobox = (ctx.infobox("Infobox NPC") ?: ctx.infobox("Infobox Monster"))?.forVersion(page.anchor)
         // The bucket keeps the raw value: a list of "* [[Quest]]" lines, sometimes behind a MediaWiki strip marker.
         val quests = row?.str("quest")?.replace(stripMarker, "")?.lines()
             ?.map { TranscriptParser.clean(it.trim().trimStart('*')) }?.filter { it.isNotEmpty() }.orEmpty()
@@ -135,7 +137,8 @@ class TalkToEnricher : Enricher {
             kind = kind,
             page = page,
             facts = mapOf(
-                "name" to (row?.str("npc_name") ?: infobox?.get("name") ?: ctx.name),
+                "name" to (row?.str("npc_name") ?: row?.str("name") ?: infobox?.get("name") ?: ctx.name),
+                "combatLevel" to row?.get("combat_level"),
                 "examine" to (row?.str("examine") ?: infobox?.get("examine")),
                 "location" to (row?.str("location")?.let(TranscriptParser::clean) ?: infobox?.get("location")),
                 "options" to infobox?.options,
@@ -149,6 +152,8 @@ class TalkToEnricher : Enricher {
     }
 
     private val stripMarker = Regex("""'"`UNIQ--\w+-[0-9A-Fa-f]+-QINU`"'""")
+
+    private fun monsterQuery(id: String) = BucketQuery("infobox_monster").select("page_name", "page_name_sub", "name", "examine", "version_anchor", "combat_level", "default_version").where("id", id)
 
     private fun npcQuery(id: String) = BucketQuery("infobox_npc").select("page_name", "page_name_sub", "npc_name", "examine", "location", "quest", "default_version").where("npc_id", id)
 }

@@ -6,6 +6,34 @@ data class Infobox(val name: String, val params: Map<String, String>) {
 
     /** `|options = Talk-to, Age` as a list. */
     val options: List<String> get() = get("options")?.split(',')?.map(String::trim)?.filter(String::isNotEmpty).orEmpty()
+
+    /** Version labels of a multi-version infobox (`|version1 = 1`, `|version5 = 4, Musa Point`), by index. */
+    val versions: Map<Int, String> get() = params.mapNotNull { (k, v) -> versionKey.matchEntire(k)?.groupValues?.get(1)?.toInt()?.let { it to v } }.toMap()
+
+    /**
+     * The view of one version: `examine3` wins over `examine` for version 3, and the numbered keys of other
+     * versions are dropped. [anchor] is the page anchor the id lookup returned (the version label); null or an
+     * unknown label gives version 1 when there are versions, else the box itself.
+     */
+    fun forVersion(anchor: String?): Infobox {
+        val versions = versions
+        if (versions.isEmpty()) return this
+        val index = versions.entries.firstOrNull { it.value.equals(anchor, ignoreCase = true) }?.key ?: 1
+        val merged = mutableMapOf<String, String>()
+        params.forEach { (k, v) ->
+            val m = numbered.matchEntire(k)
+            when {
+                m == null -> merged.putIfAbsent(k, v)
+                m.groupValues[2].toInt() == index -> merged[m.groupValues[1]] = v
+            }
+        }
+        return Infobox(name, merged)
+    }
+
+    private companion object {
+        val versionKey = Regex("""version(\d+)""")
+        val numbered = Regex("""([a-zA-Z_]+?)(\d+)""")
+    }
 }
 
 /**

@@ -30,6 +30,22 @@ class InfoboxParserTests {
     }
 
     @Test
+    fun `Man - a multi-version Infobox Monster narrowed to one version by its anchor`() {
+        val box = InfoboxParser.first(Fixtures.text("Man.wikitext"), "Infobox Monster")!!
+        assertEquals(13, box.versions.size)
+        assertEquals("4, Musa Point", box.versions[5])
+        val third = box.forVersion("3")
+        assertEquals("Man", third["name"])
+        assertEquals("3108,6989", third["id"])
+        assertEquals("One of Gielinor's many citizens.", third["examine"])
+        assertTrue(third.params.keys.none { it.matches(Regex(".*[0-9]+")) })
+        assertEquals("One of the citizens of Al Kharid.", box.forVersion("Al Kharid")["examine"])
+        // No anchor, or an unknown one, means version 1.
+        assertEquals("3106,6818,6987", box.forVersion(null)["id"])
+        assertEquals("3106,6818,6987", box.forVersion("nope")["id"])
+    }
+
+    @Test
     fun `a page without an infobox parses to nothing`() {
         assertTrue(InfoboxParser.parse(Fixtures.text("Door.wikitext")).isEmpty())
         assertNull(InfoboxParser.first("plain text", "Infobox NPC"))
