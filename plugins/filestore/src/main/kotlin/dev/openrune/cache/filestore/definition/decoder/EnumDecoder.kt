@@ -32,6 +32,15 @@ class EnumDecoder : DefinitionDecoder<EnumType>(CONFIGS) {
                     }
                 }
             }
+            // Revision 229-241 opcodes (see docs/phase-1.5-cache-241.md)
+            7 -> {
+                val count = buffer.readUnsignedShort()
+                for (i in 0 until count) {
+                    val key = buffer.readInt()
+                    values[key] = buffer.readLong()
+                }
+            }
+            8 -> defaultLong = buffer.readLong()
             else -> throw IllegalStateException("Unknown opcode: $opcode in EnumDef")
         }
     }

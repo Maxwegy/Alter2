@@ -60,6 +60,13 @@ data class ItemType(
     var placeholderLink: Int = -1,
     var placeholderTemplate: Int = -1,
     var subops: Array<Array<String?>?>? = null,
+    // Revision 229-241 opcodes
+    var recolAll: Int = -1,
+    var keepOnlyDuringSeqs: MutableList<Int>? = null,
+    var unlockable: Boolean = false,
+    var conditionalOps: MutableList<ConditionalOp>? = null,
+    /** Opcode 9: a string whose meaning is not yet known (RuneLite: `unknown1`). */
+    var string9: String? = null,
     //Custom
     override var inherit: Int = -1,
     var option1: String? = null,

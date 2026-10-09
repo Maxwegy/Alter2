@@ -115,6 +115,8 @@ class SequenceDecoder : DefinitionDecoder<SequenceType>(CONFIGS) {
                 if (CacheManager.cacheRevision < 226) {
                     rangeBegin = buffer.readUnsignedShort()
                     rangeEnd = buffer.readUnsignedShort()
+                } else {
+                    verticalOffset = buffer.readByte()
                 }
             }
 
@@ -125,6 +127,9 @@ class SequenceDecoder : DefinitionDecoder<SequenceType>(CONFIGS) {
                     mask!![buffer.readUnsignedByte()] = true
                 }
             }
+            // Revision 229-241 opcodes (see docs/phase-1.5-cache-241.md)
+            18 -> debugName = buffer.readString()
+            19 -> soundsCrossWorldView = true
         }
     }
 }

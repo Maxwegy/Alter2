@@ -266,6 +266,8 @@ enum class ScriptVarType(
     UNKNOWN_INT_NOTINT(-1, 0.toChar(), "unknown_int_notint"),
     UNKNOWN_INT_NOTINT_NOTBOOLEAN(-1, 0.toChar(), "unknown_int_notint_notboolean"),
     CONDITION(-1, 0.toChar(), "condition"),
+    // Revision 241 DB tables reference other tables (table 154 in cache 2735); RuneLite ScriptVarType.DBTABLE
+    DBTABLE(118, 'Ø', "dbtable"),
     VARP(209, 7.toChar(), "integer")
     ;
 
