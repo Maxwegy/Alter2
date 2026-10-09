@@ -17,8 +17,8 @@ data class CockpitConfig(
     val workorders: WorkOrders = WorkOrders(),
 ) {
     data class WorkOrders(
-        /** Scaffold branches are cut from this ref. */
-        val baseRef: String = "main",
+        /** Scaffold branches are cut from this ref; `main` is used when it doesn't exist (no remote). */
+        val baseRef: String = "origin/main",
     )
 
     data class Supervisor(

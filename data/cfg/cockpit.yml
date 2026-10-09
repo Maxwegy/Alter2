@@ -16,4 +16,4 @@ inbox:
   minCountForCard: 1
 
 workorders:
-  baseRef: main
+  baseRef: origin/main

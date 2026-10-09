@@ -19,8 +19,12 @@ data class Applied(val branch: String, val commit: String, val worktree: String)
  * cut from [baseRef]. Preview writes the files and shows the staged diff; apply commits them; discard throws
  * the worktree and branch away. `main` is never touched, and nothing is pushed.
  */
-class ScaffoldWorkspace(private val repoRoot: Path, private val worktreesDir: Path, private val baseRef: String = "main") {
+class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef: String = "origin/main") {
     private val logger = KotlinLogging.logger {}
+
+    // Absolute: git resolves relative paths against its own working directory, not ours.
+    private val repoRoot: Path = repoRoot.toAbsolutePath().normalize()
+    private val worktreesDir: Path = worktreesDir.toAbsolutePath().normalize()
 
     fun preview(cardId: String, scaffold: Scaffold): Preview {
         val dir = worktree(cardId, scaffold.branch)
@@ -48,14 +52,23 @@ class ScaffoldWorkspace(private val repoRoot: Path, private val worktreesDir: Pa
 
     private fun worktree(cardId: String, branch: String): Path {
         val dir = worktreesDir.resolve(cardId)
-        if (Files.exists(dir.resolve(".git"))) return dir
-        Files.createDirectories(worktreesDir)
-        if (branchExists(branch)) git(repoRoot, "worktree", "add", dir.toString(), branch)
-        else git(repoRoot, "worktree", "add", "-b", branch, dir.toString(), baseRef)
+        if (!Files.exists(dir.resolve(".git"))) {
+            Files.createDirectories(worktreesDir)
+            if (branchExists(branch)) git(repoRoot, "worktree", "add", dir.toString(), branch)
+            else git(repoRoot, "worktree", "add", "-b", branch, dir.toString(), base())
+        }
+        // Never stage or commit anywhere but in the card's own worktree.
+        val top = Path.of(git(dir, "rev-parse", "--show-toplevel").trim()).toAbsolutePath().normalize()
+        check(top == dir) { "Worktree for card $cardId is $top, expected $dir" }
         return dir
     }
 
-    private fun branchExists(branch: String) = runCatching { git(repoRoot, "rev-parse", "--verify", "--quiet", "refs/heads/$branch") }.isSuccess
+    /** [baseRef] when it exists (e.g. `origin/main`), else `main`: a checkout without a remote still works. */
+    private fun base(): String = if (refExists(baseRef)) baseRef else "main"
+
+    private fun branchExists(branch: String) = refExists("refs/heads/$branch")
+
+    private fun refExists(ref: String) = runCatching { git(repoRoot, "rev-parse", "--verify", "--quiet", ref) }.isSuccess
 
     private fun write(dir: Path, file: ScaffoldFile): PreviewFile {
         if (!file.applyable) return PreviewFile(file.path, file.mode, applied = false, note = "needs values; not written")

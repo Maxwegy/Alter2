@@ -76,6 +76,20 @@ class ScaffoldWorkspaceTests {
     }
 
     @Test
+    fun `a relative repo root and a missing origin still land in the right worktree`() {
+        // The cockpit runs from game-server/ with repoRoot ".."; git must not resolve that against its own cwd.
+        val cwd = Path.of("").toAbsolutePath()
+        val relative = cwd.relativize(repo)
+        val ws = ScaffoldWorkspace(relative, relative.resolve("data/cockpit/worktrees"), "origin/main")
+        val preview = ws.preview("card-3", scaffold)
+        assertEquals(repo.resolve("data/cockpit/worktrees/card-3").toAbsolutePath().normalize().toString(), preview.worktree)
+        assertTrue(preview.diff.contains("+class HansPlugin"))
+        // No origin/main here, so the branch is cut from main; the main checkout itself stays clean.
+        assertEquals(git("rev-parse", "main").trim(), git("merge-base", "main", "cockpit/dialogue-hans-3105").trim())
+        assertTrue(git("status", "--porcelain").isBlank())
+    }
+
+    @Test
     fun `nothing applyable is refused`() {
         val onlyManual = scaffold.copy(files = scaffold.files.filter { !it.applyable })
         assertThrows(IllegalStateException::class.java) { workspace.apply("card-2", onlyManual, "x") }
