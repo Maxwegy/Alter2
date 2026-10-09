@@ -5,6 +5,17 @@
             <pattern>[%d{HH:mm:ss.SSS}] %highlight(%-5level) %cyan(%logger{0}) - %msg %n</pattern>
         </encoder>
     </appender>
+    <!-- Persistent log for post-mortems and the Dev Cockpit. Path is relative to the game-server working dir. -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>../data/logs/alter.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>../data/logs/alter.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5level [%thread] %logger{0} - %msg%n</pattern>
+        </encoder>
+    </appender>
     <logger name="org.alter" level="DEBUG"/>
     <logger name="org.gradle" level="INFO"/>
     <logger name="net.rsprot" level="DEBUG"/>
@@ -15,5 +26,6 @@
 
     <root level="INFO">
         <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
     </root>
 </configuration>
