@@ -1,0 +1,30 @@
+# systemd unit for the Alter2 game server (Linux).
+#
+# Install: build the distribution (./gradlew :game-server:installDist), adjust User and the /opt/alter2 paths,
+# copy this file to /etc/systemd/system/, then:
+#   sudo systemctl daemon-reload && sudo systemctl enable --now alter2
+#
+# `systemctl stop alter2` sends SIGTERM; the shutdown hook logs everyone out and saves. The server exits with
+# code 75 when a restart is requested (::update, scripts/alter.sh restart), and systemd starts it again.
+# scripts/alter.sh status|down|restart work alongside this unit; do not use `alter.sh up` with it.
+
+[Unit]
+Description=Alter2 game server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=alter
+WorkingDirectory=/opt/alter2/game-server
+Environment=ALTER_JAVA_OPTS=-Xmx3g
+ExecStart=/bin/sh -c 'exec java $ALTER_JAVA_OPTS -cp "/opt/alter2/game-server/build/install/game-server/lib/*" org.alter.game.Launcher'
+KillSignal=SIGTERM
+TimeoutStopSec=90
+# The JVM exits with 143 after SIGTERM; that is a clean stop.
+SuccessExitStatus=143
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

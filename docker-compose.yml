@@ -1,9 +1,19 @@
-version: '3.3'
-
+# Alter2 game server. Before the first start:
+#   - data/cache and data/xteas.json must exist (they are not committed)
+#   - copy game.example.yml to game.yml
+# The RSA key is generated into data/rsa on first boot if it is missing.
 services:
-  rsmod-server:
+  alter:
     build: .
+    image: alter2:latest
     ports:
       - "43594:43594"
     volumes:
-      - ./data/saves:/app/bin/data/saves
+      - ./data:/app/data
+      - ./game.yml:/app/game.yml:ro
+    environment:
+      ALTER_JAVA_OPTS: "-Xmx3g"
+    # Restart on a crash and on exit code 75 (::update); a graceful stop exits 0 and stays down.
+    restart: on-failure
+    # Time for the shutdown hook to log everyone out and save before Docker kills the process.
+    stop_grace_period: 60s

@@ -1,0 +1,12 @@
+# Only sources go into the build stage; runtime data is mounted from the host.
+.git
+.gradle
+.kotlin
+.idea
+.claude
+**/build
+**/out
+data
+game.yml
+dev-settings.yml
+http-api
