@@ -14,7 +14,11 @@ import org.alter.game.model.entity.GroundItem
 import org.alter.game.model.entity.Npc
 import org.alter.game.model.skill.SkillSet
 import org.alter.game.saving.PlayerDetails
+import org.alter.game.model.entity.Client
+import org.alter.game.saving.PlayerAutosave
 import org.alter.game.saving.PlayerSaving
+import org.alter.game.saving.ShutdownSaver
+import org.alter.game.service.GameService
 import org.alter.game.saving.formats.SaveFormatType
 import org.alter.rscm.RSCM
 import org.alter.game.rsprot.CacheJs5GroupProvider
@@ -220,6 +224,29 @@ class Server {
          * Bind all service networks, if applicable.
          */
         world.bindServices(this)
+
+        /*
+         * Player safety: save everyone on JVM shutdown, and autosave periodically.
+         */
+        world.getService(GameService::class.java)?.let { gameService ->
+            val runOnGameThread: (() -> Unit) -> Unit = { job -> gameService.submitGameThreadJob(job) }
+            val onlineClients = { buildList<Client> { world.players.forEach { if (it is Client) add(it) } } }
+            Runtime.getRuntime().addShutdownHook(
+                Thread({
+                    val saved = ShutdownSaver(onlineClients, PlayerSaving::savePlayer, runOnGameThread).saveAll()
+                    logger.info { "Saved $saved players on shutdown." }
+                }, "alter-shutdown-save"),
+            )
+            val autosaveMinutes = gameProperties.getOrDefault("autosave-minutes", 5)
+            if (autosaveMinutes > 0) {
+                PlayerAutosave(
+                    intervalMillis = TimeUnit.MINUTES.toMillis(autosaveMinutes.toLong()),
+                    runOnGameThread = runOnGameThread,
+                    snapshot = { onlineClients().map { it to PlayerSaving.buildDocument(it) } },
+                    write = PlayerSaving::writeDocument,
+                ).start()
+            }
+        }
 
         /*
          * Bind the game port.

@@ -40,7 +40,15 @@ object PlayerSaving {
     }
 
     fun savePlayer(player: Client) {
-        val doc = Document().apply {
+        writeDocument(player, buildDocument(player))
+    }
+
+    /**
+     * Captures [player]'s state. Must run on the game thread; the result is a detached copy that
+     * [writeDocument] can persist from any thread.
+     */
+    fun buildDocument(player: Client): Document {
+        return Document().apply {
             append("loginUsername", player.loginUsername)
             append("passwordHash", player.passwordHash)
             append("previousXteas", player.currentXteaKeys.asList())
@@ -51,7 +59,11 @@ object PlayerSaving {
                 }
             })
         }
-        serialization.saveDocument(player, doc)
+    }
+
+    /** Persists a document produced by [buildDocument]. Safe to call off the game thread. */
+    fun writeDocument(player: Client, document: Document) {
+        serialization.saveDocument(player, document)
     }
 
     fun loadPlayer(client: Client, block: LoginBlock<*>): PlayerLoadResult {

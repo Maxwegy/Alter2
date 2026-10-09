@@ -13,7 +13,6 @@ import java.nio.file.Path
 data class InfraConfig(
     val wiki: Wiki = Wiki(),
     val missingContent: MissingContent = MissingContent(),
-    val autosave: Autosave = Autosave(),
 ) {
     data class Wiki(
         /** Contact shown in the User-Agent (email, Discord or URL). The OSRS Wiki asks API users for one. */
@@ -34,11 +33,6 @@ data class InfraConfig(
         val maxLocationsPerEntry: Int = 5,
         /** Minimum seconds between two dev chat messages for the same key and player. */
         val devMessageCooldownSeconds: Long = 60,
-    )
-
-    data class Autosave(
-        val enabled: Boolean = true,
-        val intervalMinutes: Long = 5,
     )
 
     companion object {

@@ -35,7 +35,3 @@ missingContent:
   flushIntervalSeconds: 30
   maxLocationsPerEntry: 5
   devMessageCooldownSeconds: 60
-
-autosave:
-  enabled: true
-  intervalMinutes: 5
