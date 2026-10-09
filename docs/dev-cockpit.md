@@ -23,7 +23,7 @@ Everything updates live through server-sent events (`/api/events`).
 
 ## Where cards come from
 
-- **Missing content.** `data/missing_content.json` (written by the game server; see `::missing`) and the server's live `missing` events become one card per key, kind `enrich.<type>`, e.g. `enrich.npc_op` for "Talk-to on Man (3108) is unscripted". GO resolves the OSRS Wiki page for the id through `Special:Lookup` and stores the page URL on the card. The work-order engine (C3) will build on that: fetch the transcript, generate a scaffold, open a branch.
+- **Missing content.** `data/missing_content.json` (written by the game server; see `::missing`) and the server's live `missing` events become one card per key, kind `enrich.<type>`, e.g. `enrich.npc_op` for "Talk-to on Man (3108) is unscripted". GO resolves the OSRS Wiki page for the id through `Special:Lookup` and runs the enricher for the card's kind (see below). The scaffold generators build on the result.
 - **Server exits.** When a server the cockpit started exits with a code other than 0 or 75, a `server.start` card appears with the last log lines as evidence; GO starts it again.
 
 A card's `sourceKey` identifies what it is about, so a source refreshes the evidence of an open card instead of creating duplicates, and a deleted card stays deleted.
