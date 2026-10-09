@@ -1,5 +1,7 @@
 # Keep the build scripts runnable on every platform.
 gradlew text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
 *.bat text eol=crlf
 
 # Generated, committed reference data must be byte-identical on every OS so that a
