@@ -116,6 +116,18 @@ abstract class ReadOnlyCache(indexCount: Int) : dev.openrune.cache.filestore.Cac
         }
         versionTable?.sector(indexId, archiveSector)
         val decompressed = context.decompress(archiveSector) ?: return -1
+        return readReferenceTable(indexId, decompressed, versionTable)
+    }
+
+    /**
+     * Parses one index's decompressed reference table (the idx255 group for [indexId]) into [archives],
+     * [fileCounts], [files] and the name hashes. Returns the highest archive id.
+     *
+     * Block order after the archive ids follows the client: name hashes (flag 0x1), CRCs, uncompressed CRCs
+     * (flag 0x8), whirlpool digests (flag 0x2), compressed + uncompressed lengths (flag 0x4), versions, file
+     * counts, file ids. Caches from build 241 on set flag 0x4 on every index.
+     */
+    internal fun readReferenceTable(indexId: Int, decompressed: ByteArray, versionTable: VersionTableBuilder? = null): Int {
         val reader = dev.openrune.cache.filestore.buffer.BufferReader(decompressed)
         val version = reader.readUnsignedByte()
         if (version < 5 || version > 7) {
@@ -144,10 +156,17 @@ abstract class ReadOnlyCache(indexCount: Int) : dev.openrune.cache.filestore.Cac
                 hashes[reader.readInt()] = archiveId
             }
         }
+        reader.skip(archiveCount * 4) // CRCs
+        if (flags and UNCOMPRESSED_CRC_FLAG != 0) {
+            reader.skip(archiveCount * 4)
+        }
         if (flags and WHIRLPOOL_FLAG != 0) {
             reader.skip(archiveCount * WHIRLPOOL_SIZE)
         }
-        reader.skip(archiveCount * 8) // Crc & revisions
+        if (flags and LENGTHS_FLAG != 0) {
+            reader.skip(archiveCount * 8) // compressed + uncompressed length
+        }
+        reader.skip(archiveCount * 4) // versions
         val archiveSizes = IntArray(highest + 1)
         for (i in 0 until archiveCount) {
             val id = archiveIds[i]
@@ -206,6 +225,8 @@ abstract class ReadOnlyCache(indexCount: Int) : dev.openrune.cache.filestore.Cac
         private val logger = KotlinLogging.logger {}
         private const val NAME_FLAG = 0x1
         private const val WHIRLPOOL_FLAG = 0x2
+        private const val LENGTHS_FLAG = 0x4
+        private const val UNCOMPRESSED_CRC_FLAG = 0x8
 
         const val INDEX_SIZE = 6
         const val WHIRLPOOL_SIZE = 64
