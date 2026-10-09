@@ -1,5 +1,7 @@
 package org.alter.plugins.content.infrastructure
 
+import org.alter.plugins.content.infrastructure.admin.AdminControlService
+import org.alter.data.admin.EventBroadcaster
 import org.alter.plugins.content.infrastructure.items.ItemStatsService
 import org.alter.data.config.DataPaths
 import org.alter.data.config.InfraConfig
@@ -28,6 +30,7 @@ class InfrastructurePlugin(
         val paths = DataPaths.default()
         val config = InfraConfig.load(paths.config)
         val io = IoScope()
+        val events = EventBroadcaster()
 
         loadService(InfrastructureService(io))
 
@@ -43,8 +46,12 @@ class InfrastructurePlugin(
                     store = MissingContentStore(paths.missingContent, config.missingContent.maxLocationsPerEntry),
                     io = io,
                     config = config.missingContent,
+                    onFirstSeen = { event -> events.publish("missing", event) },
                 ),
             )
+        }
+        if (config.admin.enabled) {
+            loadService(AdminControlService(config.admin, paths.runFile, paths.wikiSnapshot, events))
         }
     }
 }

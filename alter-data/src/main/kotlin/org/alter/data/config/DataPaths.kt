@@ -16,6 +16,7 @@ data class DataPaths(val dataDir: Path) {
     val reports: Path get() = dataDir.resolve("reports")
     val missingContent: Path get() = dataDir.resolve("missing_content.json")
     val cache: Path get() = dataDir.resolve("cache")
+    val runFile: Path get() = dataDir.resolve("run/server.json")
 
     companion object {
         /** `-Dalter.dataDir=...` wins; otherwise `../data`, as everywhere else in the server. */

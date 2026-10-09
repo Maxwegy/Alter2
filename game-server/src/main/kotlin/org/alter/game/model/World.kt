@@ -341,6 +341,15 @@ class World(val gameContext: GameContext, val devContext: DevContext) {
          */
         instanceAllocator.cycle(this)
 
+        cycleRebootTimer()
+    }
+
+    /**
+     * Counts the reboot timer down; at zero every player is logged out (and saved). The timer then goes back
+     * to -1: it used to stay at 0, and login verification refuses everyone while the timer is between 0 and
+     * 50, so a ::reboot locked the server until it was restarted by hand.
+     */
+    internal fun cycleRebootTimer() {
         if (rebootTimer > 0) {
             rebootTimer--
 
@@ -352,6 +361,7 @@ class World(val gameContext: GameContext, val devContext: DevContext) {
                         player.channelFlush()
                     }
                 }
+                rebootTimer = -1
             }
         }
     }

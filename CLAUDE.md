@@ -29,6 +29,12 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
 
+## Running the server
+
+- `scripts/alter.sh up|down [ticks]|restart [ticks]|status|logs` (`scripts/alter.ps1` on Windows); details in `docs/server-control.md`.
+- The server writes `data/run/server.json` (pid, admin port, token). Its admin API (`127.0.0.1:43595`, Bearer token) serves `GET /health`, `POST /shutdown`, `POST /wiki/reload` and `GET /events`.
+- Exit code 75 means "restart me"; the scripts, Docker and systemd all start the server again on it.
+
 ## Rules that are not optional
 
 1. **Never work on `main`.** Use a branch or worktree; humans merge.

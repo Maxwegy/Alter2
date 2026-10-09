@@ -20,6 +20,8 @@ class MissingContentService(
     private val store: MissingContentStore,
     private val io: IoScope,
     val config: InfraConfig.MissingContent,
+    /** Told about every key seen for the first time (e.g. to stream it to the Dev Cockpit). */
+    private val onFirstSeen: (MissingContentEvent) -> Unit = {},
 ) : Service {
     private val logger = KotlinLogging.logger {}
 
@@ -34,6 +36,7 @@ class MissingContentService(
     fun record(event: MissingContentEvent): Boolean {
         val first = store.record(event)
         if (first) {
+            onFirstSeen(event)
             logger.info { "Missing content: ${event.key} ${event.name ?: ""} ${event.optionName ?: ""}".trimEnd() }
         }
         return first
