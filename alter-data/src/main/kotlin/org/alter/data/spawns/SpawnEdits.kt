@@ -37,7 +37,8 @@ data class SpawnEdit(
             to = to,
             regionId = entry.regionId,
             source = when (val s = entry.source) {
-                NpcSpawnSource.Manual -> NpcSpawnFiles.MANUAL
+                NpcSpawnSource.Manual -> NpcSpawnFiles.KIND_MANUAL
+                is NpcSpawnSource.Edit -> NpcSpawnFiles.KIND_EDIT
                 is NpcSpawnSource.Wiki -> s.page
             },
         )

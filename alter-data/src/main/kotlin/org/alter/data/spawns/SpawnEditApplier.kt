@@ -67,8 +67,7 @@ object SpawnEditApplier {
                 height = to.height,
                 walkRadius = to.walkRadius,
                 direction = to.direction,
-                source = NpcSpawnSource.Manual,
-                origin = (entry.source as? NpcSpawnSource.Wiki)?.page ?: entry.origin,
+                source = editedSource(entry.source, edit.at),
             )
             if (edited.key != key && byKey.containsKey(edited.key)) {
                 unmatched += Unmatched(line, edit, "${edit.npc} already spawns at (${to.x}, ${to.z}, ${to.height})")
@@ -80,6 +79,13 @@ object SpawnEditApplier {
             if (edited.regionId != entry.regionId) moved++
         }
         return Applied(byKey.values.sortedWith(NpcSpawnFiles.canonicalOrder), applied, moved, deleted, unmatched)
+    }
+
+    /** An edited entry is an edit entry that keeps the wiki page and map it was first generated from. */
+    fun editedSource(source: NpcSpawnSource, at: String): NpcSpawnSource.Edit = when (source) {
+        NpcSpawnSource.Manual -> NpcSpawnSource.Edit(at)
+        is NpcSpawnSource.Edit -> NpcSpawnSource.Edit(at, source.page, source.map)
+        is NpcSpawnSource.Wiki -> NpcSpawnSource.Edit(at, source.page, source.map)
     }
 
     private fun invalid(to: SpawnPlacement): String? = when {

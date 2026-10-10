@@ -37,7 +37,7 @@ class SpawnGeneratorTests {
         assertEquals(10, r.versionPairs)
 
         val hans = r.entries.single { it.npc == "npc.npc_3105" }
-        assertEquals(NpcSpawnEntry("npc.npc_3105", 3212, 3219, 0, 11, source = NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}")), hans)
+        assertEquals(NpcSpawnEntry("w7f6f9a4f87ff", "npc.npc_3105", 3212, 3219, 0, 11, source = NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}")), hans)
         val shop = r.entries.single { it.npc == "npc.npc_2813" }
         assertEquals(Triple(3211, 3247, 0), Triple(shop.x, shop.z, shop.walkRadius))
         assertEquals("https://oldschool.runescape.wiki/w/Shop_keeper_(Lumbridge)", (shop.source as NpcSpawnSource.Wiki).page)
@@ -49,21 +49,21 @@ class SpawnGeneratorTests {
 
     @Test
     fun `a manual entry within the walk radius drops the wiki entry for the same npc`() {
-        val manual = NpcSpawnEntry("npc.npc_3105", 3210, 3221, 0, 3, source = NpcSpawnSource.Manual)
+        val manual = Entries.manual("npc.npc_3105", 3210, 3221, 0, 3)
         val r = generate(listOf(manual))
         assertEquals(1, r.manualKept)
         assertEquals(1, r.droppedOverlappedByManual)
         assertEquals(8, r.wikiEntries)
         assertEquals(listOf(manual), r.entries.filter { it.npc == "npc.npc_3105" })
         // Same tile, other height: not an overlap.
-        val upstairs = generate(listOf(manual.copy(height = 1)))
+        val upstairs = generate(listOf(Entries.manual("npc.npc_3105", 3210, 3221, 1, 3)))
         assertEquals(0, upstairs.droppedOverlappedByManual)
         assertEquals(9, upstairs.wikiEntries)
     }
 
     @Test
     fun `the same npc in the region but out of reach is kept and reported`() {
-        val manual = NpcSpawnEntry("npc.npc_2813", 3230, 3210, 0, 2, source = NpcSpawnSource.Manual)
+        val manual = Entries.manual("npc.npc_2813", 3230, 3210, 0, 2)
         val r = generate(listOf(manual))
         assertEquals(0, r.droppedOverlappedByManual)
         assertEquals(1, r.possibleDuplicates)
@@ -95,8 +95,8 @@ class SpawnGeneratorTests {
     @Test
     fun `stale wiki entries are removed, manual ones kept, and a second run writes the same bytes`() {
         val dir = Files.createTempDirectory("spawn-gen")
-        val manual = NpcSpawnEntry("npc.npc_1", 3221, 3219, 0, 0, "EAST", NpcSpawnSource.Manual, note = "migrated")
-        val stale = NpcSpawnEntry("npc.npc_9", 2600, 3100, 0, 0, source = NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Old", "{{Map|2600,3100|mtype=pin}}"))
+        val manual = Entries.manual("npc.npc_1", 3221, 3219, 0, 0, "EAST", note = "migrated")
+        val stale = Entries.wiki("npc.npc_9", 2600, 3100, 0, 0, "https://oldschool.runescape.wiki/w/Old", "{{Map|2600,3100|mtype=pin}}")
         NpcSpawnFiles.write(dir, NpcSpawnFiles.group(listOf(manual, stale)))
         assertTrue(Files.exists(dir.resolve("${stale.regionId}.json")))
 

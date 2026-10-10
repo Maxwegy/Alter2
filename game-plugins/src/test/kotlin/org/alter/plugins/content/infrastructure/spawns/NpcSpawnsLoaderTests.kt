@@ -4,6 +4,7 @@ import org.alter.data.spawns.NpcSpawnEntry
 import org.alter.data.spawns.NpcSpawnFile
 import org.alter.data.spawns.NpcSpawnFiles
 import org.alter.data.spawns.NpcSpawnSource
+import org.alter.data.spawns.SpawnIds
 import org.alter.game.model.Direction
 import org.alter.game.model.Tile
 import java.nio.file.Files
@@ -19,10 +20,16 @@ class NpcSpawnsLoaderTests {
     private val names = mapOf("npc.hans" to 3105, "npc.duke_of_lumbridge" to 815, "npc.duke_horacio" to 815)
     private val loader = NpcSpawnsLoader { names[it] }
 
-    private val hans = NpcSpawnEntry("npc.hans", 3221, 3219, 0, 0, "EAST", NpcSpawnSource.Manual)
-    private val duke = NpcSpawnEntry("npc.duke_of_lumbridge", 3212, 3220, 1, 4, null, NpcSpawnSource.Manual)
+    /** A manual entry with its migration id; copies that change the tile or npc get a fresh one. */
+    private fun manual(npc: String, x: Int, z: Int, height: Int, walkRadius: Int, direction: String? = null) =
+        NpcSpawnEntry(SpawnIds.minted(npc, x, z, height, SpawnIds.MIGRATION_SALT), npc, x, z, height, walkRadius, direction, NpcSpawnSource.Manual)
+
+    private fun NpcSpawnEntry.reId() = copy(id = SpawnIds.minted(npc, x, z, height, "test-" + direction))
+
+    private val hans = manual("npc.hans", 3221, 3219, 0, 0, "EAST")
+    private val duke = manual("npc.duke_of_lumbridge", 3212, 3220, 1, 4)
     private val wikiHans = NpcSpawnEntry(
-        "npc.hans", 3212, 3219, 0, 11, null,
+        "w06bd7d9b22e4", "npc.hans", 3212, 3219, 0, 11, null,
         NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}"),
     )
 
@@ -30,7 +37,7 @@ class NpcSpawnsLoaderTests {
 
     @Test
     fun `valid files load with ids, directions and counts`() {
-        write(hans, duke, wikiHans, NpcSpawnEntry("npc.hans", 3264, 3232, 0, 0, null, NpcSpawnSource.Manual))
+        write(hans, duke, wikiHans, manual("npc.hans", 3264, 3232, 0, 0))
         val loaded = assertIs<NpcSpawnsLoader.Result.Loaded>(loader.load(dir))
         assertEquals(4, loaded.spawns.size)
         assertEquals(2, loaded.fileCount)
@@ -50,7 +57,7 @@ class NpcSpawnsLoaderTests {
 
     @Test
     fun `unknown names, bad directions and file errors are all collected`() {
-        write(hans.copy(direction = "UP"), duke.copy(npc = "npc.man"), duke.copy(direction = "NONE", z = 3221))
+        write(hans.copy(direction = "UP"), duke.copy(npc = "npc.man").reId(), duke.copy(direction = "NONE", z = 3221).reId())
         Files.writeString(dir.resolve("13106.json"), "{ not json")
         val failed = assertIs<NpcSpawnsLoader.Result.Failed>(loader.load(dir))
         assertEquals(4, failed.errors.size, failed.errors.toString())
@@ -62,7 +69,7 @@ class NpcSpawnsLoaderTests {
 
     @Test
     fun `an alias and its canonical name on the same tile are a duplicate`() {
-        write(duke, duke.copy(npc = "npc.duke_horacio"))
+        write(duke, duke.copy(npc = "npc.duke_horacio").reId())
         val failed = assertIs<NpcSpawnsLoader.Result.Failed>(loader.load(dir))
         assertEquals(listOf("npc id 815 spawns twice at (3212, 3220, 1): npc.duke_horacio, npc.duke_of_lumbridge"), failed.errors)
     }

@@ -5,11 +5,8 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 class SpawnEditsTests {
-    private val hansWiki = NpcSpawnEntry(
-        npc = "npc.hans", x = 3212, z = 3219, height = 0, walkRadius = 11,
-        source = NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}"),
-    )
-    private val duke = NpcSpawnEntry("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH", NpcSpawnSource.Manual)
+    private val hansWiki = Entries.hansWiki
+    private val duke = Entries.manual("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH")
 
     @Test
     fun `an outbox line has a fixed field order and omits an absent direction`() {

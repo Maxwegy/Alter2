@@ -101,7 +101,8 @@ class NpcSpawnCommandsPlugin(
         p.message("${e.npc} (id ${spawn.npcId}) at ${e.x}, ${e.z}, ${e.height}: walk radius ${e.walkRadius}, facing ${e.direction ?: "${spawn.direction.name} (default)"}.")
         p.message("File: data/cfg/spawns/npcs/${e.regionId}.json")
         when (val s = e.source) {
-            NpcSpawnSource.Manual -> p.message("Source: manual${e.origin?.let { ", edited from $it" } ?: ""}.")
+            NpcSpawnSource.Manual -> p.message("Source: manual.")
+            is NpcSpawnSource.Edit -> p.message("Source: edited ${s.at}${s.page?.let { ", from $it" } ?: ""}.")
             is NpcSpawnSource.Wiki -> p.message("Source: wiki, ${s.page}")
         }
         e.note?.let { p.message("Note: $it") }

@@ -16,14 +16,13 @@ class SpawnEditApplierTests {
     private val now = Instant.parse("2026-10-10T12:34:56Z")
 
     private val hansPage = "https://oldschool.runescape.wiki/w/Hans"
-    private val hansWiki = NpcSpawnEntry(
-        npc = "npc.hans", x = 3212, z = 3219, height = 0, walkRadius = 11,
-        source = NpcSpawnSource.Wiki(hansPage, "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}"),
-    )
-    private val duke = NpcSpawnEntry("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH", NpcSpawnSource.Manual, note = "migrated")
-    private val man = NpcSpawnEntry("npc.man", 3263, 3232, 0, 5, null, NpcSpawnSource.Manual)
+    private val hansWiki = Entries.hansWiki
+    private val duke = Entries.manual("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH", note = "migrated")
+    private val man = Entries.manual("npc.man", 3263, 3232, 0, 5)
 
     private fun edit(entry: NpcSpawnEntry, to: SpawnPlacement?) = SpawnEdit.of("2026-10-10T12:00:00Z", entry, to)
+
+    private fun edited(e: NpcSpawnEntry) = e.copy(source = SpawnEditApplier.editedSource(e.source, "2026-10-10T12:00:00Z"))
 
     private fun numbered(vararg edits: SpawnEdit) = edits.mapIndexed { i, e -> IndexedValue(i + 1, e) }
 
@@ -40,15 +39,15 @@ class SpawnEditApplierTests {
         val result = SpawnEditApplier.apply(listOf(duke, hansWiki), numbered(edit(duke, SpawnPlacement(3215, 3220, 1, 4, "SOUTH"))))
         assertEquals(1, result.applied)
         assertEquals(emptyList(), result.unmatched)
-        assertEquals(listOf(hansWiki, duke.copy(x = 3215)), result.entries)
+        assertEquals(listOf(hansWiki, edited(duke.copy(x = 3215))), result.entries)
     }
 
     @Test
-    fun `an edited wiki entry becomes manual with its page as origin`() {
+    fun `an edited wiki entry becomes an edit entry that keeps its page and map`() {
         val result = SpawnEditApplier.apply(listOf(hansWiki), numbered(edit(hansWiki, SpawnPlacement(3212, 3219, 0, 3, "EAST"))))
         val edited = result.entries.single()
-        assertEquals(NpcSpawnSource.Manual, edited.source)
-        assertEquals(hansPage, edited.origin)
+        assertEquals(NpcSpawnSource.Edit("2026-10-10T12:00:00Z", hansPage, Entries.HANS_MAP), edited.source)
+        assertEquals(hansWiki.id, edited.id)
         assertEquals(3, edited.walkRadius)
         assertEquals("EAST", edited.direction)
     }
@@ -67,7 +66,7 @@ class SpawnEditApplierTests {
             listOf(duke),
             numbered(edit(duke, SpawnPlacement.of(moved)), edit(moved, SpawnPlacement.of(moved).copy(walkRadius = 0))),
         )
-        assertEquals(listOf(moved.copy(walkRadius = 0)), result.entries)
+        assertEquals(listOf(edited(moved.copy(walkRadius = 0))), result.entries)
         assertEquals(2, result.applied)
     }
 
@@ -75,7 +74,7 @@ class SpawnEditApplierTests {
     fun `an edit with no matching entry, or onto an occupied tile, is reported and skipped`() {
         val ghost = duke.copy(x = 3000)
         val onHans = SpawnPlacement(3212, 3219, 0, 0)
-        val hansTwin = hansWiki.copy(x = 3213, source = NpcSpawnSource.Manual)
+        val hansTwin = Entries.manual("npc.hans", 3213, 3219, 0, 11)
         val result = SpawnEditApplier.apply(
             listOf(duke, hansWiki, hansTwin),
             numbered(edit(ghost, null), edit(hansTwin, onHans)),
@@ -95,7 +94,7 @@ class SpawnEditApplierTests {
         assertEquals(listOf("12850.json", "13106.json"), result.write.written)
         assertTrue("npc.man" !in Files.readString(spawnDir.resolve("12850.json")))
         assertTrue("\"x\": 3264" in Files.readString(spawnDir.resolve("13106.json")))
-        assertEquals(listOf(duke, man.copy(x = 3264)), entries())
+        assertEquals(listOf(duke, edited(man.copy(x = 3264))), entries())
     }
 
     @Test

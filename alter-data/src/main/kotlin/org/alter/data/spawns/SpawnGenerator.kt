@@ -74,13 +74,15 @@ class SpawnGenerator(private val cache: CacheView) {
                             is MapTemplateParser.Result.Skipped -> skip(r.skip.key, where, "${r.skip.detail}: ${template.raw}")
                             is MapTemplateParser.Result.Features -> if (name != null) {
                                 r.features.forEach { f ->
+                                    val url = pageUrl(page.title)
                                     generated += NpcSpawnEntry(
+                                        id = SpawnIds.wiki(url, name, f.point.x, f.point.z, f.height),
                                         npc = name,
                                         x = f.point.x,
                                         z = f.point.z,
                                         height = f.height,
                                         walkRadius = SpawnRules.walkRadius(f.shape),
-                                        source = NpcSpawnSource.Wiki(pageUrl(page.title), canonicalMap(template.raw)),
+                                        source = NpcSpawnSource.Wiki(url, canonicalMap(template.raw)),
                                     )
                                 }
                             }
@@ -90,7 +92,7 @@ class SpawnGenerator(private val cache: CacheView) {
             }
         }
 
-        val manual = existing.filter { it.source is NpcSpawnSource.Manual }
+        val manual = existing.filter { it.source !is NpcSpawnSource.Wiki }
 
         // Exact wiki duplicates: keep the first in canonical order (page, then map).
         val byKey = generated.sortedWith(NpcSpawnFiles.canonicalOrder).groupBy { it.key }
