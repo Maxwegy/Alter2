@@ -204,6 +204,12 @@ every numeric field has a `source` or a `todo`.
 
 ## 3. Consumables (Phase 3 prerequisite)
 
+> **Built (Phase 3, 2026-10-10).** `data/cfg/consumables/consumables.json`, `ConsumptionRules` (pure state machine),
+> `ConsumablesService`/`ConsumablesPlugin`, `StatNormalisationPlugin`; 17 tests. Deviations from the sketch below: the
+> file has typed `heal` variants (`fixed`, `percentOfBase`, `brackets`, `range`) and typed `effects` (`boost`, `drain`,
+> `restore`); the potion delay is 3 ticks (wiki Potion page); the wiki has no structured heal data, so entries are
+> hand-cited and the cockpit enricher is the future fetcher. Stamina, antifire and antipoison are Phase 3b.
+
 **Data source.** `data/cfg/consumables/consumables.json`, hand-maintained, replacing the `Food` enum and
 `EatingPlugin` (`game-plugins/.../content/items/consumables/food/{EatingPlugin,Food,Foods}.kt`).
 
