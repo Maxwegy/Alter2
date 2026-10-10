@@ -32,7 +32,7 @@ Card states: `PENDING` → (`SNOOZED`) → `RUNNING` → `DONE` or `FAILED` (ret
 
 ## Scaffolds (work orders, part 2)
 
-After GO, a **Scaffold** button turns the enrichment into files on a branch and shows the diff; **Apply to branch** commits them; **Discard** removes the branch and worktree. Nothing touches `main` and nothing is pushed: each card gets a git worktree under `data/cockpit/worktrees/<card>` on a `cockpit/<kind>-<name>-<id>` branch cut from `workorders.baseRef` (`main`).
+After GO, a **Scaffold** button turns the enrichment into files on a branch and shows the diff; **Compile and apply to branch** compiles the card's worktree (`:game-plugins:compileKotlin`, run by the worktree's own Gradle wrapper on the cockpit's IO dispatcher, never on the request thread) and commits only when it passes, otherwise the card shows the compiler's `e:` lines and the files stay staged for a retry; **Discard** removes the branch and worktree. JSON-only scaffolds skip the compile (the server validates them at boot). `workorders.compileGate: false`, `compileTask` and `compileTimeoutSeconds` (900) in `data/cfg/cockpit.yml` tune the gate. Nothing touches `main` and nothing is pushed: each card gets a git worktree under `data/cockpit/worktrees/<card>` on a `cockpit/<kind>-<name>-<id>` branch cut from `workorders.baseRef` (`main`).
 
 | Enrichment | Scaffold | Notes a human must act on |
 |---|---|---|
@@ -72,7 +72,7 @@ All under `/api`; JSON in and out; every route except `/api/health` needs a toke
 | `POST /server/start`, `/server/stop?ticks=`, `/server/restart?ticks=`, `/server/wiki-reload` | dev | control |
 | `GET /inbox?status=`, `GET /inbox/counts`, `GET /inbox/{id}` | viewer | cards |
 | `POST /inbox/{id}/go` `{params?}`, `/edit` `{params}`, `/delete` `{reason}`, `/snooze` `{hours|until}` | dev | decisions |
-| `POST /inbox/{id}/scaffold`, `/apply`, `/discard` | dev | generate and preview files on a branch, commit them, throw them away |
+| `POST /inbox/{id}/scaffold`, `/apply`, `/discard` | dev | generate and preview files on a branch; compile then commit them (returns at once with `result.compile.state = compiling`, the verdict arrives as `inbox.updated`); throw them away |
 | `GET /audit?limit=&before=` | viewer | audit entries, newest first |
 | `GET /missing?limit=` | viewer | the raw missing-content file |
 | `GET /tokens`, `POST /tokens` `{role,label}`, `DELETE /tokens/{id}` | owner | token management |
@@ -82,7 +82,7 @@ All under `/api`; JSON in and out; every route except `/api/health` needs a toke
 
 | Path | What |
 |---|---|
-| `data/cfg/cockpit.yml` | bind address, port, supervisor and inbox settings (all optional) |
+| `data/cfg/cockpit.yml` | bind address, port, supervisor, inbox and work-order (compile gate) settings (all optional) |
 | `data/cockpit/cockpit.db` | SQLite: tokens, inbox cards, audit log (schema migrations run on start) |
 | `data/cockpit/owner.token` | the bootstrap owner token, plaintext |
 | `dev-cockpit/web/` | the Vue 3 + Vite UI; Gradle builds it into the jar (`static/`) with a Node it downloads |
