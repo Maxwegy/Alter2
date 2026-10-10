@@ -14,11 +14,12 @@ class ConsumptionRulesTests {
     private fun state(
         food: Int = 0, combo: Int = 0, potion: Int = 0, attackDelay: Int = 0,
         base: Map<Int, Int> = emptyMap(), current: Map<Int, Int> = emptyMap(), prayerGear: Boolean = false, roll: Double = 0.0,
+        inPvpCombat: Boolean = false, runEnergy: Int = 0,
     ): ConsumerState {
         val b = IntArray(23) { 99 }; val cur = IntArray(23) { 99 }
         base.forEach { (k, v) -> b[k] = v; cur[k] = v }
         current.forEach { (k, v) -> cur[k] = v }
-        return ConsumerState(mapOf(Kind.FOOD to food, Kind.COMBO to combo, Kind.POTION to potion, Kind.MIX to food), attackDelay, b, cur, prayerGear, roll)
+        return ConsumerState(mapOf(Kind.FOOD to food, Kind.COMBO to combo, Kind.POTION to potion, Kind.MIX to food), attackDelay, b, cur, prayerGear, roll, inPvpCombat, runEnergy)
     }
 
     private fun apply(name: String, state: ConsumerState): ConsumptionPlan {
@@ -124,6 +125,56 @@ class ConsumptionRulesTests {
     fun `a ranged heal uses the roll`() {
         assertEquals(8, apply("item.cave_eel", state(current = mapOf(Skills.HITPOINTS to 1), roll = 0.0)).healAmount)
         assertEquals(12, apply("item.cave_eel", state(current = mapOf(Skills.HITPOINTS to 1), roll = 0.999)).healAmount)
+    }
+
+    @Test
+    fun `overhealing is suppressed in PvP combat for every overhealing consumable`() {
+        assertEquals(121, apply("item.anglerfish", state()).levels[Skills.HITPOINTS])
+        assertEquals(99, apply("item.anglerfish", state(current = mapOf(Skills.HITPOINTS to 90), inPvpCombat = true)).levels[Skills.HITPOINTS])
+        assertNull(apply("item.anglerfish", state(inPvpCombat = true)).levels[Skills.HITPOINTS])
+        assertEquals(99, apply("item.saradomin_brew4", state(current = mapOf(Skills.HITPOINTS to 95), inPvpCombat = true)).levels[Skills.HITPOINTS])
+        // A normal food is unchanged by the flag.
+        assertEquals(99, apply("item.shark", state(current = mapOf(Skills.HITPOINTS to 90), inPvpCombat = true)).levels[Skills.HITPOINTS])
+    }
+
+    @Test
+    fun `stamina restores a fifth of the run energy and resets the stamina timer, energy potions leave the timer alone`() {
+        val stamina = apply("item.stamina_potion4", state(runEnergy = 5_000))
+        assertEquals(7_000, stamina.runEnergy)
+        assertEquals(200, stamina.staminaTicks)
+        val energy = apply("item.energy_potion4", state(runEnergy = 9_000))
+        assertEquals(10_000, energy.runEnergy)
+        assertNull(energy.staminaTicks)
+        assertEquals(10_000, apply("item.super_energy4", state(runEnergy = 0)).runEnergy?.let { it + 8_000 })
+        // Full energy: nothing to restore, but the stamina effect still starts.
+        val full = apply("item.stamina_potion1", state(runEnergy = 10_000))
+        assertNull(full.runEnergy)
+        assertEquals(200, full.staminaTicks)
+        assertNull(apply("item.shark", state(runEnergy = 5_000)).runEnergy)
+    }
+
+    @Test
+    fun `antipoison cures and grants immunity for the wiki durations`() {
+        val plain = apply("item.antipoison4", state())
+        assertTrue(plain.curePoison)
+        assertEquals(150, plain.poisonImmunityTicks)
+        assertEquals(600, apply("item.superantipoison1", state()).poisonImmunityTicks)
+        assertEquals(900, apply("item.antidote+4", state()).poisonImmunityTicks)
+        assertEquals(1200, apply("item.antidote++4", state()).poisonImmunityTicks)
+        assertTrue(!apply("item.shark", state()).curePoison)
+        assertNull(apply("item.shark", state()).poisonImmunityTicks)
+    }
+
+    @Test
+    fun `antifire tiers map to partial or full protection with their durations`() {
+        assertEquals(AntifireTier.PARTIAL to 600, apply("item.antifire_potion4", state()).antifire)
+        assertEquals(AntifireTier.PARTIAL to 1200, apply("item.extended_antifire4", state()).antifire)
+        assertEquals(AntifireTier.FULL to 300, apply("item.super_antifire_potion4", state()).antifire)
+        assertEquals(AntifireTier.FULL to 600, apply("item.extended_super_antifire1", state()).antifire)
+        assertNull(apply("item.saradomin_brew4", state()).antifire)
+        // Status potions are potions: they share the potion gate and add no attack delay.
+        assertEquals(Decision.Blocked(Kind.POTION), ConsumptionRules.decide(c("item.antifire_potion4"), state(potion = 2)))
+        assertEquals(0, apply("item.stamina_potion4", state(attackDelay = 3)).attackDelayAdd)
     }
 
     @Test
