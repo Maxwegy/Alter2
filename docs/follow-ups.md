@@ -46,6 +46,16 @@ Known problems that were out of scope for the change that found them. Each is a 
   - opening 201 in the combat tab slot and reopening 593 after a choice;
   - the if_setevents range 0..58 on 201:1.
 
+## NPC spawns (Phase 2)
+- Decision pending (user), D1: whether to reduce `{{Map}}` polygons to a spawn tile and radius; until then the generator skips them and reports them.
+- Decision pending (user), D2: an allowlist of non-surface `mapID`s; until then non-zero `mapID`s are skipped and reported.
+- The cockpit `enrich.spawn` enricher and `spawn` scaffold (the planner's optional PR 4) are not scheduled.
+- Spawn tiles are used as written: no nearest-walkable-tile adjustment, and no `Assume`-guarded walkability test over the region files yet.
+- No spawn hot reload; a change to `data/cfg/spawns/npcs` needs a restart.
+- Facing direction and respawn timing are not taken from the wiki; per-type spawn defaults do not exist.
+- `data/cfg/spawns/item_spawns.yml` is tracked but listed in `data/cfg/spawns/.gitignore`, and nothing reads it.
+- The 115 migrated `manual` spawns keep the old plugins' values, including odd ones worth a review against the wiki: `npc.giant_spider` resolved to id 2477 (canonical `npc.sos_pest_giantspider1`), three Lumbridge men/women on height 1, the goblins with godwars/war-themed ids near Lumbridge, and the Barrows brothers spawned five times each above ground.
+
 ## Commands and privileges
 - `::qutest`, `::gc`, `::heap` and `::randbank` have no privilege check.
 

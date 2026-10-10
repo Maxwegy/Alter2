@@ -66,13 +66,15 @@ external dataset to fall back on (osrsbox is dead, 2004scape is 2004-era data wi
 
 **Files.**
 
-- `data/cfg/spawns/npc_spawns.json` (new; hand-maintained and cockpit-written, next to the existing
-  `item_spawns.yml`). One entry per spawn: `npc` (RSCM), `x`, `z`, `height`, `walkRadius`, `direction`,
-  `source` (wiki URL or `manual`). Entries written by the cockpit carry the page URL.
-- A spawn plugin in `game-plugins` that reads the file at `onWorldInit` and calls `spawnNpc`. Existing per-area
-  `SpawnPlugin.kt` files move into the JSON over time; both can coexist (ids are not unique keys, tiles are).
+- `data/cfg/spawns/npcs/<regionId>.json` (Phase 2, done): one file per 64x64 region, `regionId` as
+  `Tile.regionId`. One entry per spawn: `npc` (canonical RSCM name), `x`, `z`, `height`, `walkRadius`, optional
+  `direction`, `source` (`"manual"` or `{ page, map }` with the verbatim `{{Map}}`), optional `origin` and
+  `note`. Format and rules in the directory's `README.md`.
+- `NpcSpawnsPlugin` / `NpcSpawnsLoader` in `game-plugins/.../infrastructure/spawns` read every file once in
+  plugin `init {}` and queue each entry with `spawnNpc`; any invalid entry stops the boot. All 115 hand-written
+  `spawnNpc` calls were migrated as `manual` entries and removed from the plugins; `spawnItem`/`spawnObj` stay.
 - Cockpit: a `MapTemplate` parser in `Infobox.kt`, an `enrich.spawn` enricher (page → map templates → candidate
-  tiles) and a `spawn` scaffold kind that appends to `npc_spawns.json` (the existing `JSON_APPEND` mode).
+  tiles) and a `spawn` scaffold kind that writes a region file. Deferred; on `docs/follow-ups.md`.
 
 **Engine seams.** None. `World.spawn(Npc)`, `KotlinPlugin.spawnNpc`, `World.canTraverse(tile, direction,
 pawn)` and the collision map are public today.

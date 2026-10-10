@@ -32,6 +32,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - `./gradlew :plugins:tools:interfaceDump -PcacheArgs="<cache dir> <interface ids...>"`: dump interface components (gameval names, ops, text) to `data/reports/interfaces/<id>.md`; use it before binding a button on a new revision.
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`, `::reloadconsumables`, `::reloadspecials`.
 - `data/cfg/consumables/consumables.json`: food and potions (heal, boosts, drains, restores, run energy/stamina, antipoison, antivenom, antifire, delays, expiry messages), hand-maintained with a wiki URL on every entry (the cockpit's consumable enricher appends entries from `enrich.inv_op` cards); `ConsumablesDataTests` keeps it resolvable. Plugins carry no numbers or strings.
+- `data/cfg/spawns/npcs/<regionId>.json`: every NPC spawn, one file per region (`regionId = ((x >> 6) << 8) | (z >> 6)`), format in its `README.md`. Read once at boot by `NpcSpawnsPlugin`, never written by the server; a bad entry stops the boot. Each entry's `source` is `"manual"` or the wiki page plus its verbatim `{{Map}}`. Add spawns here, never with `spawnNpc` in plugins; `NpcSpawnDataTests` checks the files.
 - `data/cfg/combat/special_attacks.json`: special attacks (cost, hits, effects, animation/graphic, wiki URL per entry); entries with a `todo` are skipped at boot; `SpecialAttacksDataTests` keeps it resolvable.
 - `data/cfg/combat/autocast.json`: autocast spell groups, the weapons (by type and item) that may cast each, the PvP swap lock and the 241 autocast UI ids (sourced in `data/reports/autocast-241-spike.md`); `AutocastDataTests` keeps it resolvable.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
@@ -61,6 +62,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 
 - Interaction routing and fallbacks: `game-server/.../model/move/*PathAction.kt`, `.../message/handler/*Handler.kt`, `PluginRepository.execute*`
 - NPC combat defs: `NpcCombatDef`, `game-api/.../dsl/NpcCombatDsl.kt`, `World.setNpcDefaults`
+- NPC spawns: `data/cfg/spawns/npcs/`, `game-plugins/.../infrastructure/spawns/NpcSpawnsPlugin.kt` + `NpcSpawnsLoader.kt`, model and `SpawnRules` in `alter-data/.../spawns/`
 - Drops: `game-server/.../model/weightedTableBuilder/LootTableBuilder.kt`
 - Item stats: `game-server/.../service/game/ItemMetadataService.kt` (cache params + YAML overrides)
 - Saving: `PlayerSaving`, `ShutdownSaver`, `PlayerAutosave`
