@@ -55,7 +55,10 @@ class DefinitionSet {
         val x = id shr 8
         val y = id and 0xFF
 
-        val mapData = CacheManager.cache.data(MAPS, "m${x}_$y") ?: return false
+        // Up to revision 236 the maps index names its groups m<x>_<y> / l<x>_<y>. From 241 it has no names: one
+        // group per region id, terrain in file 0 and locs in file 1, unencrypted.
+        val byRegion = CacheManager.cache.archiveId(MAPS, "m50_50") == -1
+        val mapData = (if (byRegion) CacheManager.cache.data(MAPS, id, 0) else CacheManager.cache.data(MAPS, "m${x}_$y")) ?: return false
 
         val baseX: Int = id shr 8 and 255 shl 6
         val baseZ: Int = id and 255 shl 6
@@ -127,7 +130,7 @@ class DefinitionSet {
 
         val keys = xteaService?.get(id) ?: XteaKeyService.EMPTY_KEYS
         try {
-            val landData = CacheManager.cache.data(MAPS, "l${x}_$y", keys) ?: return false
+            val landData = (if (byRegion) CacheManager.cache.data(MAPS, id, 1) else CacheManager.cache.data(MAPS, "l${x}_$y", keys)) ?: return false
             loadLocations(landData) { loc ->
                 val tile =
                     Tile(
