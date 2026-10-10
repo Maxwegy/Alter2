@@ -64,6 +64,18 @@ class RscmMigrationTests {
     }
 
     @Test
+    fun `an override pinned to an old id is ignored once the name belongs to another id`() {
+        // After a migration the committed table holds the canonical `coins:995`; the decision made for `coins:617` must not touch it.
+        val migrated = linkedMapOf("coins" to 995, "coins__228" to 617)
+        val m = RscmMigration.migrate(RscmTable.ITEM, migrated, gameval, newDisplay, oldDisplay + (995 to "coins"), setOf("coins__228"),
+            mapOf("item.coins" to RscmOverride("rename-alias", name = "coins__228", oldId = 617)))
+        assertEquals(Outcome.IDENTICAL, m.outcome("coins"))
+        assertEquals(Outcome.SAME_ID, m.outcome("coins__228"))
+        assertEquals(listOf("coins__228" to 617), m.aliases)
+        assertTrue(m.blocking.isEmpty())
+    }
+
+    @Test
     fun `an alias can never shadow a canonical name or another alias`() {
         val m = run(overrides = mapOf("item.gone" to RscmOverride("rename-alias", name = "coins"), "item.tree_1277" to RscmOverride("rename-alias", name = "old_thing")))
         assertEquals(Outcome.UNRESOLVED, m.outcome("gone")) // `coins` is canonical

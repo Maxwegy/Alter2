@@ -19,7 +19,7 @@ object Poison {
 
     fun isImmune(pawn: Pawn): Boolean =
         when (pawn) {
-            is Player -> pawn.hasEquipped(EquipmentType.HEAD, "item.serpentine_helm", "item.tanzanite_helm", "item.magma_helm")
+            is Player -> pawn.hasEquipped(EquipmentType.HEAD, "item.serpentine_helm__228", "item.tanzanite_helm", "item.magma_helm")
             is Npc -> pawn.combatDef.immunePoison
             else -> false
         }

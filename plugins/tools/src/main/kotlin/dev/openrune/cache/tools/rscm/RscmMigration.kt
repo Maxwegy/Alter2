@@ -10,6 +10,8 @@ data class RscmOverride(
     val id: Int? = null,
     val name: String? = null,
     val reason: String? = null,
+    /** The id the name had when the decision was made; the override is ignored for the same name on another id. */
+    val oldId: Int? = null,
 )
 
 enum class Outcome {
@@ -107,7 +109,7 @@ object RscmMigration {
             fun entry(outcome: Outcome, alias: Pair<String, Int>?, note: String = "") =
                 MigrationEntry(table.rscm, oldName, oldId, outcome, alias, oldDisp, newDisp, isReferenced, note)
 
-            val override = overrides["${table.rscm}.$oldName"]
+            val override = overrides["${table.rscm}.$oldName"]?.takeIf { it.oldId == null || it.oldId == oldId }
             if (override != null) {
                 val reason = override.reason?.let { " ($it)" } ?: ""
                 when (override.action) {

@@ -45,7 +45,7 @@
     "level": 5,
     "experience": 16.0,
     "loot": [
-      { "item": "item.cup_of_tea" }
+      { "item": "item.cup_of_tea__228" }
     ]
   },
   {
@@ -80,7 +80,7 @@
   },
   {
     "objects": [
-      "object.seed_stall",
+      "object.seed_stall__228",
       "object.seed_stall_7053",
       "object.seed_stall_33639"
     ],
@@ -120,7 +120,7 @@
     "level": 35,
     "experience": 36.0,
     "loot": [
-      { "item": "item.fur", "weight": 40.0 },
+      { "item": "item.fur__228", "weight": 40.0 },
       { "item": "item.bear_fur", "weight": 35.0 },
       { "item": "item.grey_wolf_fur", "weight": 25.0 }
     ]
