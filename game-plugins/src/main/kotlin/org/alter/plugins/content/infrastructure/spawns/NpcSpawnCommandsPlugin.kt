@@ -3,9 +3,9 @@ package org.alter.plugins.content.infrastructure.spawns
 import org.alter.api.ext.getCommandArgs
 import org.alter.api.ext.message
 import org.alter.api.ext.player
-import org.alter.data.spawns.NpcSpawnEntry
 import org.alter.data.spawns.NpcSpawnSource
 import org.alter.data.spawns.SpawnEdit
+import org.alter.data.spawns.SpawnEditApplier
 import org.alter.data.spawns.SpawnPlacement
 import org.alter.game.Server
 import org.alter.game.model.Direction
@@ -25,7 +25,7 @@ import java.time.Instant
  * `data/run/spawn-edits.jsonl`, which `./gradlew :alter-data:spawnSync -PspawnArgs="--apply-edits"` applies to
  * `data/cfg/spawns/npcs`. The server never writes the region files.
  *
- * - `::spawninfo`: the NPC's spawn entry, its region file and its source, or "not from a spawn file".
+ * - `::spawninfo`: the NPC's spawn entry, its id and kind, its region file and its source, or "not from a spawn file".
  * - `::setwander <n>`: set the walk radius.
  * - `::setdirection <DIR>`: set the facing direction.
  */
@@ -54,7 +54,7 @@ class NpcSpawnCommandsPlugin(
             }
             val (npc, spawn) = spawnOnTile(p) ?: return@onCommand
             npc.walkRadius = radius
-            edit(spawn, spawn.entry.copy(walkRadius = radius), spawn.direction)
+            edit(spawn, SpawnPlacement.of(spawn.entry).copy(walkRadius = radius), spawn.direction)
             p.message("${spawn.entry.npc}: walk radius ${spawn.entry.walkRadius} -> $radius (recorded).")
         }
 
@@ -67,7 +67,7 @@ class NpcSpawnCommandsPlugin(
             val (npc, spawn) = spawnOnTile(p) ?: return@onCommand
             npc.lastFacingDirection = direction
             npc.faceTile(Tile(npc.tile.x + direction.getDeltaX(), npc.tile.z + direction.getDeltaZ(), npc.tile.height))
-            edit(spawn, spawn.entry.copy(direction = direction.name), direction)
+            edit(spawn, SpawnPlacement.of(spawn.entry).copy(direction = direction.name), direction)
             p.message("${spawn.entry.npc}: direction ${spawn.direction.name} -> ${direction.name} (recorded).")
         }
     }
@@ -90,15 +90,20 @@ class NpcSpawnCommandsPlugin(
         return npc to spawn
     }
 
-    /** Keeps the index current and queues the outbox line (written on the IO scope, never here). */
-    private fun edit(spawn: NpcSpawnsLoader.Spawn, entry: NpcSpawnEntry, direction: Direction) {
-        index!!.replace(spawn, NpcSpawnsLoader.Spawn(entry, spawn.npcId, direction))
-        outbox!!.record(SpawnEdit.of(Instant.now().toString(), spawn.entry, SpawnPlacement.of(entry)))
+    /**
+     * Keeps the index current and queues the outbox line (written on the IO scope, never here). The indexed entry
+     * becomes an edit entry with the same id, as `spawnSync --apply-edits` will write it.
+     */
+    private fun edit(spawn: NpcSpawnsLoader.Spawn, to: SpawnPlacement, direction: Direction) {
+        val at = Instant.now().toString()
+        index!!.replace(spawn, NpcSpawnsLoader.Spawn(SpawnEditApplier.edited(spawn.entry, to, at), spawn.npcId, direction))
+        outbox!!.record(SpawnEdit.of(at, spawn.entry, to))
     }
 
     private fun describe(p: Player, spawn: NpcSpawnsLoader.Spawn, npc: Npc) {
         val e = spawn.entry
         p.message("${e.npc} (id ${spawn.npcId}) at ${e.x}, ${e.z}, ${e.height}: walk radius ${e.walkRadius}, facing ${e.direction ?: "${spawn.direction.name} (default)"}.")
+        p.message("Id: ${e.id} (${e.source.kind})")
         p.message("File: data/cfg/spawns/npcs/${e.regionId}.json")
         when (val s = e.source) {
             NpcSpawnSource.Manual -> p.message("Source: manual.")

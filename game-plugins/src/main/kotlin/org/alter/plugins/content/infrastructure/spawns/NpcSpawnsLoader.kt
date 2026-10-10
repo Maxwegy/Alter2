@@ -31,7 +31,8 @@ class NpcSpawnsLoader(private val resolveNpc: (String) -> Int?) {
 
         data class Loaded(val spawns: List<Spawn>, val fileCount: Int) : Result {
             val manual: Int get() = spawns.count { it.entry.source is NpcSpawnSource.Manual }
-            val wiki: Int get() = spawns.size - manual
+            val edits: Int get() = spawns.count { it.entry.source is NpcSpawnSource.Edit }
+            val wiki: Int get() = spawns.count { it.entry.source is NpcSpawnSource.Wiki }
             val index: Map<Key, Spawn> get() = spawns.associateBy { Key(it.npcId, it.tile) }
         }
     }

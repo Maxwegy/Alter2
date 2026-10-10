@@ -38,7 +38,7 @@ class NpcSpawnsPlugin(
             }
             is NpcSpawnsLoader.Result.Loaded -> {
                 result.spawns.forEach { spawnNpc(it.entry.npc, it.tile, it.entry.walkRadius, it.direction) }
-                logger.info { "NPC spawns: ${result.spawns.size} entries from ${result.fileCount} region files (${result.manual} manual, ${result.wiki} wiki)." }
+                logger.info { "NPC spawns: ${result.spawns.size} entries from ${result.fileCount} region files (${result.manual} manual, ${result.edits} edited, ${result.wiki} wiki)." }
                 result.index
             }
         }

@@ -2,6 +2,7 @@ package org.alter.plugins.content.infrastructure.spawns
 
 import org.alter.data.spawns.NpcSpawnFiles
 import org.alter.data.spawns.NpcSpawnSource
+import org.alter.data.spawns.SpawnIds
 import java.nio.file.Files
 import java.nio.file.Paths
 import kotlin.test.Test
@@ -53,6 +54,24 @@ class NpcSpawnDataTests {
     @Test
     fun `wiki sources point at the OSRS wiki`() {
         read.entries.mapNotNull { it.source as? NpcSpawnSource.Wiki }.forEach { assertTrue(it.page.startsWith(NpcSpawnFiles.WIKI_PAGE_PREFIX), it.page) }
+    }
+
+    @Test
+    fun `every entry carries the id its kind derives`() {
+        // Wiki: SpawnIds.wiki(page, npc, x, z, height). Manual: minted once by spawnSync --migrate with the
+        // "schema1" salt. Edit entries keep the id of the entry they came from; none are committed yet.
+        val wrong = read.entries.filter { e ->
+            val expected = when (val s = e.source) {
+                is NpcSpawnSource.Wiki -> SpawnIds.wiki(s.page, e.npc, e.x, e.z, e.height)
+                NpcSpawnSource.Manual -> SpawnIds.minted(e.npc, e.x, e.z, e.height, SpawnIds.MIGRATION_SALT)
+                is NpcSpawnSource.Edit -> e.id
+            }
+            e.id != expected
+        }.map { "${it.id} ${it.npc} at (${it.x}, ${it.z}, ${it.height})" }
+        assertEquals(emptyList(), wrong)
+        assertTrue(read.entries.all { SpawnIds.isValid(it.id) })
+        assertEquals(read.entries.size, read.entries.map { it.id }.toSet().size)
+        assertEquals(0, read.entries.count { it.source is NpcSpawnSource.Edit })
     }
 
     @Test

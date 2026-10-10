@@ -33,21 +33,42 @@ class NpcSpawnsLoaderTests {
         NpcSpawnSource.Wiki("https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}"),
     )
 
+    private val editedDuke = NpcSpawnEntry(
+        SpawnIds.minted("npc.duke_of_lumbridge", 3209, 3222, 1, "2026-10-10T12:00:00Z"), "npc.duke_of_lumbridge", 3209, 3222, 1, 2, null,
+        NpcSpawnSource.Edit("2026-10-10T12:00:00Z"),
+    )
+
     private fun write(vararg entries: NpcSpawnEntry) = NpcSpawnFiles.write(dir, NpcSpawnFiles.group(entries.toList()))
 
     @Test
     fun `valid files load with ids, directions and counts`() {
-        write(hans, duke, wikiHans, manual("npc.hans", 3264, 3232, 0, 0))
+        write(hans, duke, wikiHans, manual("npc.hans", 3264, 3232, 0, 0), editedDuke)
         val loaded = assertIs<NpcSpawnsLoader.Result.Loaded>(loader.load(dir))
-        assertEquals(4, loaded.spawns.size)
+        assertEquals(5, loaded.spawns.size)
         assertEquals(2, loaded.fileCount)
         assertEquals(3, loaded.manual)
+        assertEquals(1, loaded.edits)
         assertEquals(1, loaded.wiki)
         val byTile = loaded.index
         assertEquals(Direction.EAST, byTile.getValue(NpcSpawnsLoader.Key(3105, Tile(3221, 3219, 0))).direction)
         val dukeSpawn = byTile.getValue(NpcSpawnsLoader.Key(815, Tile(3212, 3220, 1)))
         assertEquals(Direction.SOUTH, dukeSpawn.direction) // absent direction: the spawnNpc default
         assertEquals(4, dukeSpawn.entry.walkRadius)
+    }
+
+    @Test
+    fun `the index adds, replaces and removes spawns by npc id and tile`() {
+        write(hans, duke)
+        val loaded = assertIs<NpcSpawnsLoader.Result.Loaded>(loader.load(dir))
+        val index = NpcSpawnIndexService(loaded.index)
+        assertEquals(2, index.size)
+        val added = NpcSpawnsLoader.Spawn(editedDuke, 815, Direction.SOUTH)
+        index.add(added)
+        assertEquals(3, index.size)
+        index.replace(added, added.copy(entry = editedDuke.copy(x = 3210)))
+        assertEquals(3, index.size)
+        index.remove(added.copy(entry = editedDuke.copy(x = 3210)))
+        assertEquals(2, index.size)
     }
 
     @Test
