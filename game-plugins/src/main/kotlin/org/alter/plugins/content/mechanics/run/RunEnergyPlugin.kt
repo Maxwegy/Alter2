@@ -33,9 +33,9 @@ class RunEnergyPlugin(
         }
 
         /**
-         * Button by minimap.
+         * Button by minimap: 160:28 `runbutton` in the 241 cache (op1 "Toggle Run"); 160:27 is now `runenergy_backing`.
          */
-        onButton(interfaceId = 160, component = 27) {
+        onButton(interfaceId = 160, component = 28) {
             RunEnergy.toggle(player)
         }
 

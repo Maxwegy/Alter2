@@ -13,6 +13,17 @@ import org.alter.plugins.content.combat.specialattack.SpecialRules
  */
 object AttackTab {
     const val ATTACK_TAB_INTERFACE_ID = 593
+
+    /*
+     * Components of 593 (gameval `combat_interface`) in the revision 241 cache; the gameval names and ops are in
+     * data/reports/combat-orbs-241-components.md. The 228-era ids were one lower.
+     */
+    /** The style buttons `0`..`3`; the index is the value of [ATTACK_STYLE_VARP]. */
+    val ATTACK_STYLE_COMPONENTS = listOf(6, 10, 14, 18)
+    /** `retaliate`, op1 "Auto retaliate". */
+    const val AUTO_RETALIATE_COMPONENT = 32
+    /** `special_attack`, op1 "Use Special Attack". */
+    const val SPECIAL_ATTACK_COMPONENT = 39
     const val ATTACK_STYLE_VARP = 43
     const val DISABLE_AUTO_RETALIATE_VARP = 172
     private const val SPECIAL_ATTACK_ENERGY_VARP = 300

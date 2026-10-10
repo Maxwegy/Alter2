@@ -301,7 +301,7 @@ three timers and heals 20 + brew + 18.
 > **Specials built (Phase 3, 2026-10-10); autocast built in the next PR (see the note after this one).** `data/cfg/combat/special_attacks.json`
 > (schemaVersion 1, a wiki `source` per entry), parsed by `SpecialAttackDefs`, decided by the pure `SpecialRules`,
 > loaded by `SpecialAttacksService` and fired by `SpecialAttacks.execute`; `SpecialAttacksPlugin` owns the bar
-> (593:36), the orb (160:35), energy regen and `::reloadspecials`. 18 specials are loaded: dragon and abyssal
+> (593:39), the orb (160:36), energy regen and `::reloadspecials`. 18 specials are loaded: dragon and abyssal
 > daggers, bludgeon, the four godswords, dragon warhammer, mace, longsword and halberd, whip, arclight, Saradomin
 > sword, granite maul, the dragon axes, dragon pickaxe and Excalibur. 8 more (claws, scimitar, battleaxe, dragon
 > sword, 2h, spear, magic shortbow, dark bow) are in the file with a `todo` and skipped at boot, so they behave as
@@ -332,7 +332,9 @@ three timers and heals 20 + brew + 18.
 > - varp 664 picks the listed spells.
 >
 > The spike also found that the 241 combat tab and orb put the special bar at 593:39 and 160:36, one off from the
-> bindings above (see `docs/follow-ups.md`).
+> 228-era bindings. Those and the other 593/160 bindings (attack styles, auto retaliate, weapon texts, run, quick
+> prayers, XP drops, world map orb) were corrected from the cache afterwards
+> (`data/reports/combat-orbs-241-components.md`).
 
 **What exists.** `content/combat/specialattack/` with `SpecialAttacks.register(item, energy) { ... }` and four
 weapons (abyssal bludgeon, abyssal dagger, armadyl godsword, dragon dagger). Each plugin hard-codes its
