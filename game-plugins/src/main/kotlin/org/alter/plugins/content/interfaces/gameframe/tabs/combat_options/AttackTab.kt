@@ -1,10 +1,11 @@
 package org.alter.plugins.content.interfaces.attack
 
 import org.alter.api.ext.getVarp
-import org.alter.api.ext.secondsToTicks
 import org.alter.api.ext.setVarp
 import org.alter.game.model.entity.Player
 import org.alter.game.model.timer.TimerKey
+import org.alter.plugins.content.combat.specialattack.EnergySettings
+import org.alter.plugins.content.combat.specialattack.SpecialRules
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -27,10 +28,9 @@ object AttackTab {
         p.setVarp(SPECIAL_ATTACK_ENERGY_VARP, amount * 10)
     }
 
-    fun restoreEnergy(p: Player) {
-        var newEnergy = p.getVarp(SPECIAL_ATTACK_ENERGY_VARP) + 100
-        if (newEnergy > 1000) newEnergy = 1000
-        p.setVarp(SPECIAL_ATTACK_ENERGY_VARP, newEnergy)
+    /** One regen step; the amounts come from `data/cfg/combat/special_attacks.json`. */
+    fun restoreEnergy(p: Player, energy: EnergySettings) {
+        p.setVarp(SPECIAL_ATTACK_ENERGY_VARP, SpecialRules.regen(p.getVarp(SPECIAL_ATTACK_ENERGY_VARP), energy))
     }
 
     fun getEnergy(p: Player): Int = p.getVarp(SPECIAL_ATTACK_ENERGY_VARP) / 10
@@ -41,5 +41,5 @@ object AttackTab {
 
     fun isSpecialEnabled(p: Player): Boolean = p.getVarp(SPECIAL_ATTACK_VARP) == 1
 
-    fun resetRestorationTimer(player: Player) = player.timers.set(SPEC_RESTORE, 30.secondsToTicks())
+    fun resetRestorationTimer(player: Player, ticks: Int) = player.timers.set(SPEC_RESTORE, ticks)
 }
