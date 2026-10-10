@@ -36,7 +36,7 @@ class StatusEffectsPlugin(
             if (player.timers.has(ANTIFIRE_TIMER)) service?.let { player.message(it.messages.antifireWarning) }
         }
         onTimer(RunEnergy.STAMINA_BOOST) {
-            service?.let { player.message(it.messages.staminaExpired) }
+            service?.messages?.staminaExpired?.let { player.message(it) }
         }
         // Immunity simply lapses; the handler registers the key so the timer is ticked and removed.
         onTimer(Poison.IMMUNITY_TIMER) {}

@@ -20,14 +20,14 @@
   "todo": [
     "sound ids 2393 (eat) and 2401 (drink) are the values the old EatingPlugin used; verify against the 241 cache's sound effects",
     "cooked cave eel heals 8 to 12 at random per the wiki; modelled as a uniform range",
-    "messages.staminaExpired is the in-game text as remembered, not quoted on the wiki Stamina potion page; verify with a client",
+    "TODO messages.staminaExpired: no wiki or cache source for the stamina expiry chat line yet, so it is null and nothing is sent; fill it only from a cited source",
     "venom is not modelled by the engine (only an orb state), so anti-venom potions are not listed; see docs/follow-ups.md",
     "the stamina effect orb colour (Varbit.STAMINA_EFFECT_ENABLED) is not driven yet; see docs/follow-ups.md"
   ],
   "messages": {
     "antifireWarning": "Your antifire potion is about to expire.",
     "antifireExpired": "Your antifire potion has expired.",
-    "staminaExpired": "Your stamina potion has expired.",
+    "staminaExpired": null,
     "source": "https://oldschool.runescape.wiki/w/Antifire_potion"
   },
   "consumables": [

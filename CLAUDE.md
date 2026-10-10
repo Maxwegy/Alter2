@@ -52,6 +52,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 8. **Content refers to things by RSCM name** (`"npc.man_3108"`, `"item.abyssal_whip"`), not raw ids. From revision 241 the canonical names are the cache's gameval names; the 228-era names stay as generated aliases (`docs/rscm-241-migration.md`). Never hand-edit `data/cfg/rscm`; regenerate with `rscmGenerate`.
 9. **Hand-written `setCombatDef` calls go in a plugin's `init {}`**, never `onWorldInit`: wiki defs fill in remaining NPCs before spawns.
 10. **Fatal boot checks log and call `exitProcess(1)`.** A plain throw leaves the JVM alive (non-daemon login threads) with no port bound.
+11. **NPC tools work on existing NPCs, at three levels.** Any tool or command that changes NPCs must work on NPCs that already exist, not only ones it spawns. (a) Type level: changing a definition makes every existing and future instance follow, through `data/cfg/npcs/overrides` and the other override files. (b) Instance level: one live NPC's position, wander radius, direction, effects or stats change without touching its type. (c) Persistence: changes are written back to data files, never into plugin code. Known gap: a hand-written `setCombatDef` (rule 9) currently wins over overrides for its NPCs; the Phase 5 plan closes it.
 
 ## Where to look
 

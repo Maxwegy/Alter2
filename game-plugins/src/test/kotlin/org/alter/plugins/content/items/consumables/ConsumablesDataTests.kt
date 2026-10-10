@@ -76,7 +76,9 @@ class ConsumablesDataTests {
                 }
             }
         }
-        listOf(table.messages.antifireWarning, table.messages.antifireExpired, table.messages.staminaExpired).forEach { assertTrue(it.isNotBlank()) }
+        listOf(table.messages.antifireWarning, table.messages.antifireExpired).forEach { assertTrue(it.isNotBlank()) }
+        // No sourced stamina expiry text yet: it stays null (TODO in the file) rather than remembered text.
+        assertEquals(null, table.messages.staminaExpired)
     }
 
     @Test
