@@ -1,0 +1,155 @@
+{{Infobox Item
+|defver = 4
+|version1 = 1 dose
+|version2 = 2 dose
+|version3 = 3 dose
+|version4 = 4 dose
+|bucketname1 = (1)
+|bucketname2 = (2)
+|bucketname3 = (3)
+|bucketname4 = (4)
+|name1 = Anti-venom(1)
+|name2 = Anti-venom(2)
+|name3 = Anti-venom(3)
+|name4 = Anti-venom(4)
+|image1 = [[File:Anti-venom(1).png]]
+|image2 = [[File:Anti-venom(2).png]]
+|image3 = [[File:Anti-venom(3).png]]
+|image4 = [[File:Anti-venom(4).png]]
+|release = [[8 January]] [[2015]]
+|update = Zulrah - The Solo Snake Boss
+|members = Yes
+|quest = No
+|tradeable = Yes
+|equipable = No
+|stackable = No
+|noteable = Yes
+|options = Drink, Empty, Drop
+|examine1 = 1 dose of antivenom potion.
+|examine2 = 2 doses of antivenom potion.
+|examine3 = 3 doses of antivenom potion.
+|examine4 = 4 doses of antivenom potion.
+|value1 = 110
+|value2 = 220
+|value3 = 330
+|value4 = 440
+|weight = 0.035
+|exchange = Yes
+|id1 = 12911
+|id2 = 12909
+|id3 = 12907
+|id4 = 12905
+|leagueRegion = Tirannwn
+}}
+{{Synced switch
+|version1 = [[File:Anti-venom(1) detail.png|left|130px]]
+|version2 = [[File:Anti-venom(2) detail.png|left|130px]]
+|version3 = [[File:Anti-venom(3) detail.png|left|130px]]
+|version4 = [[File:Anti-venom(4) detail.png|left|130px|class=pageimage]]
+}}
+'''Anti-venom''' is a potion that instantly cures [[venom]] and [[poison]]. It provides immunity to poison for 12 minutes and immunity to venom for 36-54 seconds.
+
+Players can make this potion at 87 [[Herblore]] by using [[Zulrah's scales]] on an [[Antidote++]]. Five scales are needed per dose of antidote++, so 20 scales will be needed to create a four-dose Anti-venom. This grants 30 Herblore [[experience]] per dose.
+
+Anti-venom is used to create [[anti-venom+]], which cures poison and venom and provides immunity to venom for three minutes. This can be done by adding a clean [[torstol]] into it, requiring 94 Herblore and granting 125 Herblore experience.
+
+Ten anti-venom(4) potions are among the required materials for building an [[ornate rejuvenation pool]].
+
+Creating an anti-venom potion whilst standing in the [[Horseshoe Mine]] is required to complete the [[Elite Karamja Diary]]. {{SherlockChallenge|Creating an anti-venom potion|master}}
+
+==Creation==
+{{Switch infobox
+|text1 = 1 dose
+|item1 = {{Recipe
+|skill1 = Herblore
+|skill1lvl = 87
+|skill1boostable = Yes
+|skill1exp = 30
+|members = Yes
+|ticks = 2
+|mat1 = Antidote++(1)
+|mat2 = Zulrah's scales
+|mat2quantity = 5
+|output1 = Anti-venom(1)
+}}
+|text2 = 2 dose
+|item2 = {{Recipe
+|skill1 = Herblore
+|skill1lvl = 87
+|skill1boostable = Yes
+|skill1exp = 60
+|members = Yes
+|ticks = 2
+|mat1 = Antidote++(2)
+|mat2 = Zulrah's scales
+|mat2quantity = 10
+|output1 = Anti-venom(2)
+}}
+|text3 = 3 dose
+|item3 = {{Recipe
+|skill1 = Herblore
+|skill1lvl = 87
+|skill1boostable = Yes
+|skill1exp = 90
+|members = Yes
+|ticks = 2
+|mat1 = Antidote++(3)
+|mat2 = Zulrah's scales
+|mat2quantity = 15
+|output1 = Anti-venom(3)
+}}
+|text4 = 4 dose
+|item4 = {{Recipe
+|skill1 = Herblore
+|skill1lvl = 87
+|skill1boostable = Yes
+|skill1exp = 120
+|members = Yes
+|ticks = 2
+|mat1 = Antidote++(4)
+|mat2 = Zulrah's scales
+|mat2quantity = 20
+|output1 = Anti-venom(4)
+}}
+}}
+
+==Products==
+{{Uses material list|Anti-venom(1)|Anti-venom(2)|Anti-venom(3)|Anti-venom(4)}}
+
+==Price per dose==
+{{Price per dose|Anti-venom}}
+
+==Treasure Trails==
+*{{SherlockChallenge|Mixing an anti-venom potion|master}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 8 January 2025
+|update = Run Energy Changes
+|change = You can now start the Make-X processes for creating anti-venom potions without cancelling your character's existing movement. 
+}}
+{{Subject changes
+|date = 18 October 2018
+|update = Mobile Changes, Various Bugfixes and new Merch!
+|change = Making Anti-venom potions with a level boost will now be stopped as soon as you drop below the level required to make them.
+}}
+{{Subject changes
+|date = 15 April 2016
+|update = Bank Placeholder Feedback Changes
+|change = Half full potions could now be turned into bank placeholders.
+}}
+{{Subject changes
+|date = 7 April 2016
+|update = Hell-Rats, Fairy Rings & Perks
+|poll = 
+|change = Drinking any kind of antipoison will no longer decrease your poison immunity.
+}}
+{{Subject changes footer}}
+
+==References==
+{{reflist}}
+
+{{Potions}}
+{{Zulrah}}
+[[Category:Items storable in the potion storage]]

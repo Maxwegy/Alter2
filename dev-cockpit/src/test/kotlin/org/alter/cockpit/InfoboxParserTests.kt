@@ -46,6 +46,21 @@ class InfoboxParserTests {
     }
 
     @Test
+    fun `Anti-venom - an item version is found by its bucket name or a normalised label`() {
+        val box = InfoboxParser.first(Fixtures.text("Anti-venom.wikitext"), "Infobox Item")!!
+        assertEquals(4, box.versions.size)
+        // Special:Lookup for item 12905 answers with the bucket name "(4)", not the version label "4 dose".
+        val four = box.forVersion("(4)")
+        assertEquals("Anti-venom(4)", four["name"])
+        assertEquals("12905", four["id"])
+        assertEquals("(4)", four["bucketname"])
+        assertEquals(listOf("Drink", "Empty", "Drop"), four.options)
+        // A URL anchor spells spaces as underscores.
+        assertEquals("12905", box.forVersion("4_dose")["id"])
+        assertEquals("12911", box.forVersion("(1)")["id"])
+    }
+
+    @Test
     fun `a page without an infobox parses to nothing`() {
         assertTrue(InfoboxParser.parse(Fixtures.text("Door.wikitext")).isEmpty())
         assertNull(InfoboxParser.first("plain text", "Infobox NPC"))
