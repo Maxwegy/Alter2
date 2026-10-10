@@ -113,6 +113,17 @@
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "npc": "npc.aide_tutor_banker",
+      "x": 3209,
+      "z": 3221,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_tutor",
+        "map": "{{Map|name=Banker tutor|x=3209|y=3221|r=3|plane=2|mtype=square}}"
+      }
+    },
+    {
       "npc": "npc.banker1_new",
       "x": 3209,
       "z": 3222,
@@ -121,6 +132,17 @@
       "direction": "SOUTH",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.tob_spectator_misthalin",
+      "x": 3210,
+      "z": 3249,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Abigaila",
+        "map": "{{Map|name=Abigaila|x=3210|y=3249|plane=1|r=2|mtype=square}}"
+      }
     },
     {
       "npc": "npc.aide_tutor_crafting",
@@ -171,6 +193,17 @@
       "direction": "SOUTH",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.peng_larry_zoo",
+      "x": 3212,
+      "z": 3263,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Larry",
+        "map": "{{Map|name=Larry|x=3212|y=3263|plane=0|mtype=pin}}"
+      }
     },
     {
       "npc": "npc.man",
@@ -250,6 +283,17 @@
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "npc": "npc.event_sage",
+      "x": 3223,
+      "z": 3214,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/The_Sage_(Grid_Master)",
+        "map": "{{Map|x=3223|y=3214|mtype=pin}}"
+      }
+    },
+    {
       "npc": "npc.lumbridge_guide2_man",
       "x": 3223,
       "z": 3229,
@@ -258,6 +302,28 @@
       "direction": "SOUTH",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/npcs/GeePlugin.kt"
+    },
+    {
+      "npc": "npc.league_3_assistant",
+      "x": 3225,
+      "z": 3212,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Leagues_Assistant_(Shattered_Relics_League)",
+        "map": "{{Map|name=League Assistant|x=3225|y=3212|r=2|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.league_tutor_normal",
+      "x": 3226,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Leagues_Tutor",
+        "map": "{{Map|name=League Tutor|x=3226|y=3215|r=2|mtype=pin}}"
+      }
     },
     {
       "npc": "npc.lumbridge_guide2_woman",
@@ -337,6 +403,17 @@
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "npc": "npc.aide_tutor_clues",
+      "x": 3230,
+      "z": 3238,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arthur_the_Clue_Hunter",
+        "map": "{{Map|name=Arthur the Clue Hunter|x=3230|y=3238|r=3|mtype=square}}"
+      }
+    },
+    {
       "npc": "npc.falador_man1",
       "x": 3230,
       "z": 3241,
@@ -345,6 +422,17 @@
       "direction": "EAST",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.garden_trolley_king",
+      "x": 3231,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Trolley_(king)",
+        "map": "{{Map|name=Trolley (king)|3231,3218|mtype=pin}}"
+      }
     },
     {
       "npc": "npc.varrock_man1",
@@ -357,6 +445,28 @@
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "npc": "npc.doomsayer_deadman",
+      "x": 3232,
+      "z": 3222,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Doomsayer",
+        "map": "{{Map|name=Doomsayer|x=3232|y=3222|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.doomsayer_normal",
+      "x": 3232,
+      "z": 3222,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Doomsayer",
+        "map": "{{Map|name=Doomsayer|x=3232|y=3222|mtype=pin}}"
+      }
+    },
+    {
       "npc": "npc.doomsayer_normal",
       "x": 3232,
       "z": 3223,
@@ -365,6 +475,17 @@
       "direction": "EAST",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/npcs/DoomsayerPlugin.kt"
+    },
+    {
+      "npc": "npc.ap_guide_active",
+      "x": 3232,
+      "z": 3234,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Adventurer_Jon",
+        "map": "{{Map|name=Adventurer Jon|x=3232|y=3234|r=3|mtype=square}}"
+      }
     },
     {
       "npc": "npc.ram_bartender",
@@ -461,6 +582,28 @@
       "direction": "NORTH",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.deadman_gelin",
+      "x": 3245,
+      "z": 3200,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gelin",
+        "map": "{{Map|name=Gelin|x=3245|y=3200|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.deadman_nigel_dmm",
+      "x": 3245,
+      "z": 3200,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nigel",
+        "map": "{{Map|name=Nigel|x=3245|y=3200|r=3|mtype=square|bucket=yes}}"
+      }
     },
     {
       "npc": "npc.giantspider1",

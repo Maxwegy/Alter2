@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9772,
+  "spawns": [
+    {
+      "npc": "npc.myths_guild_hero",
+      "x": 2444,
+      "z": 2860,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mysterious_Adventurer",
+        "map": "{{Map|name=Mysterious Adventurer|x=2444|y=2860|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_librarian",
+      "x": 2448,
+      "z": 2859,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lutwidge",
+        "map": "{{Map|name=Lutwidge|x=2448|y=2859|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_cape_seller",
+      "x": 2451,
+      "z": 2847,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jack",
+        "map": "{{Map|name=Jack|x=2451|y=2847|plane=2|squareX=8|squareY=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_frem",
+      "x": 2454,
+      "z": 2851,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Freja",
+        "map": "{{Map|name=Freja|x=2454|y=2851|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_herbalist",
+      "x": 2454,
+      "z": 2853,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Primula",
+        "map": "{{Map|name=Primula|x=2454|y=2853|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_dog",
+      "x": 2456,
+      "z": 2849,
+      "height": 0,
+      "walkRadius": 15,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dog_(Myths'_Guild)",
+        "map": "{{Map|name=Dog (Myths' Guild)|x=2456|y=2849|r=15|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.alec_kincade",
+      "x": 2457,
+      "z": 2868,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alec_Kincade",
+        "map": "{{Map|name=Alec Kincade|x=2457|y=2868|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_smith",
+      "x": 2464,
+      "z": 2847,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Erdan",
+        "map": "{{Map|name=Erdan|x=2464|y=2847|plane=2|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_weapon_seller",
+      "x": 2464,
+      "z": 2847,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Diana",
+        "map": "{{Map|name=Diana|x=2464|y=2847|plane=2|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myths_guild_trainer",
+      "x": 2465,
+      "z": 2851,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ellen",
+        "map": "{{Map|name=Ellen|x=2465|y=2851|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.corscurs_resource_guard",
+      "x": 2481,
+      "z": 2875,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Haris",
+        "map": "{{Map|name=Haris|x=2481|y=2875|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.corscurs_lord_marshal",
+      "x": 2490,
+      "z": 2850,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lord_Marshal_Brogan",
+        "map": "{{Map|name=Lord Marshal Brogan|x=2490|y=2850|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.corscurs_resource_meditate",
+      "x": 2492,
+      "z": 2848,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Altarkiz",
+        "map": "{{Map|name=Altarkiz|x=2492|y=2848|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

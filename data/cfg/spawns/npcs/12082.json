@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12082,
+  "spawns": [
+    {
+      "npc": "npc.wydin",
+      "x": 3013,
+      "z": 3207,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wydin",
+        "map": "{{Map|name=Wydin|x=3013|y=3207|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gerrant",
+      "x": 3013,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gerrant",
+        "map": "{{Map|name=Gerrant|x=3013|y=3226|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.betty",
+      "x": 3013,
+      "z": 3259,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Betty",
+        "map": "{{Map|3013,3259|mtype=pin|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.grum",
+      "x": 3014,
+      "z": 3247,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grum",
+        "map": "{{Map|name=Grum|x=3014|y=3247|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lake_beggar",
+      "x": 3014,
+      "z": 3247,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Beggar",
+        "map": "{{Map|name=Beggar|x=3014|y=3247|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vc_bellemorde",
+      "x": 3018,
+      "z": 3233,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bellemorde",
+        "map": "{{Map|name=Bellemorde|x=3018|y=3233|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vc_face",
+      "x": 3018,
+      "z": 3233,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/The_Face",
+        "map": "{{Map|name=The Face|x=3018|y=3233|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.brian",
+      "x": 3027,
+      "z": 3249,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brian",
+        "map": "{{Map|name=Brian|x=3027|y=3249|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.captain_tobias_1op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Tobias",
+        "map": "{{Map|name=Captain Tobias|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.captain_tobias_2op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Tobias",
+        "map": "{{Map|name=Captain Tobias|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.seaman_lorris_1op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seaman_Lorris",
+        "map": "{{Map|name=Seaman Lorris|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.seaman_lorris_2op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seaman_Lorris",
+        "map": "{{Map|name=Seaman Lorris|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.seaman_thresnor_1op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seaman_Thresnor",
+        "map": "{{Map|name=Seaman Thresnor|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.seaman_thresnor_2op",
+      "x": 3028,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seaman_Thresnor",
+        "map": "{{Map|name=Seaman Thresnor|x=3028|y=3218|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.secret_ghost_spy",
+      "x": 3044,
+      "z": 3204,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lennissa",
+        "map": "{{Map|name=Lennissa|x=3044|y=3204|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.klarense",
+      "x": 3047,
+      "z": 3204,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Klarense",
+        "map": "{{Map|name=Klarense|x=3047|y=3204|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dragonslayer_jenkins_there",
+      "x": 3047,
+      "z": 3208,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cabin_Boy_Jenkins",
+        "map": "{{Map|x=3047|y=3208|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.rustyanchor_bartender",
+      "x": 3047,
+      "z": 3257,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Rusty_Anchor_Inn)",
+        "map": "{{Map|name=Bartender (Rusty Anchor Inn)|3047,3257|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.sarim_pub_drinker_2",
+      "x": 3047,
+      "z": 3258,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Longbow_Ben",
+        "map": "{{Map|name=Longbow Ben|x=3047|y=3258|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ned_1op",
+      "x": 3048,
+      "z": 3207,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ned",
+        "map": "{{Map|name=Captain Ned|3048,3207|plane=1|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.sarim_pub_drinker_1",
+      "x": 3050,
+      "z": 3257,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jack_Seagull",
+        "map": "{{Map|name=Jack Seagull|x=3050|y=3257|squareX=14|squareY=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sarim_pub_sitting_patron",
+      "x": 3050,
+      "z": 3257,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ahab",
+        "map": "{{Map|name=Ahab|x=3050|y=3257|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_crew_generic_1_world",
+      "x": 3051,
+      "z": 3257,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jobless_Jim",
+        "map": "{{Map|name=Jobless Jim|x=3051|y=3257|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.redbeard_frank",
+      "x": 3052,
+      "z": 3250,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Redbeard_Frank",
+        "map": "{{Map|name=Redbeard Frank|x=3052|y=3250|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_spirit_tree_1",
+      "x": 3057,
+      "z": 3259,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Frizzy_Skernip",
+        "map": "{{Map|name=Frizzy Skernip|x=3057|y=3259|r=1|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

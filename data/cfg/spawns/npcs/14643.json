@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14643,
+  "spawns": [
+    {
+      "npc": "npc.slepe_sister3",
+      "x": 3709,
+      "z": 3312,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sister_Yram",
+        "map": "{{Map|name=Sister Yram|x=3709|y=3312|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

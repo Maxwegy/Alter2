@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9773,
+  "spawns": [
+    {
+      "npc": "npc.wgs_hunting_broav",
+      "x": 2489,
+      "z": 2905,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wild_broav",
+        "map": "{{Map|name=Wild broav|2489,2905|plane=0|mapID=0|mtype=pin}}"
+      }
+    }
+  ]
+}

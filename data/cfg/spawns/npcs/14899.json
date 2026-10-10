@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14899,
+  "spawns": [
+    {
+      "npc": "npc.myq5_slepe_thief_child",
+      "x": 3736,
+      "z": 3314,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hanchen_the_Hound",
+        "map": "{{Map|x=3736|y=3314|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_lector",
+      "x": 3739,
+      "z": 3305,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lector_Gura",
+        "map": "{{Map|name=Lector Gura|x=3739|y=3305|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_posh_man4",
+      "x": 3739,
+      "z": 3311,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nemishka",
+        "map": "{{Map|name=Nemishka|x=3739|y=3311|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_sister1",
+      "x": 3739,
+      "z": 3311,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sister_Sevi",
+        "map": "{{Map|name=Sister Sevi|x=3739|y=3311|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_sister2",
+      "x": 3739,
+      "z": 3320,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sister_Toen",
+        "map": "{{Map|name=Sister Toen|x=3739|y=3320|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_posh_woman1",
+      "x": 3741,
+      "z": 3315,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lady_Crombwick",
+        "map": "{{Map|name=Lady Crombwick|x=3741|y=3315|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_bartender_roy",
+      "x": 3749,
+      "z": 3298,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Roy",
+        "map": "{{Map|name=Roy|x=3749|y=3298|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_posh_man2",
+      "x": 3749,
+      "z": 3299,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lahsram",
+        "map": "{{Map|name=Lahsram|x=3749|y=3299|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_posh_man3",
+      "x": 3749,
+      "z": 3299,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Erodoeht",
+        "map": "{{Map|name=Erodoeht|x=3749|y=3299|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slepe_posh_man1",
+      "x": 3750,
+      "z": 3298,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Yenrab",
+        "map": "{{Map|name=Yenrab|x=3750|y=3298|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

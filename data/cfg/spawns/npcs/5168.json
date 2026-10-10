@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5168,
+  "spawns": [
+    {
+      "npc": "npc.tlati_lost_lover_xilo_vis",
+      "x": 1285,
+      "z": 3106,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Xilo",
+        "map": "{{Map|x=1285|y=3106|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kiyahtla",
+      "x": 1302,
+      "z": 3130,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kiyahtla",
+        "map": "{{Map|name=Kiyahtla|1302,3130|mtype=square|r=3}}"
+      }
+    }
+  ]
+}

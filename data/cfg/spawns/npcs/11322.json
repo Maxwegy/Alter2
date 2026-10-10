@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11322,
+  "spawns": [
+    {
+      "npc": "npc.fd_troll_dad",
+      "x": 2836,
+      "z": 3741,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Troll_father",
+        "map": "{{Map|name=Troll father|x=2836|y=3741|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fd_troll_mum",
+      "x": 2836,
+      "z": 3741,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Troll_mother",
+        "map": "{{Map|name=Troll mother|x=2836|y=3741|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fourdiamonds_troll_child_crying",
+      "x": 2836,
+      "z": 3741,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Troll_child",
+        "map": "{{Map|name=Troll child|x=2836|y=3741|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fourdiamonds_troll_child_okay",
+      "x": 2836,
+      "z": 3741,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Troll_child",
+        "map": "{{Map|name=Troll child|x=2836|y=3741|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.i_troll_guard",
+      "x": 2840,
+      "z": 3739,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ice_troll_(Desert_Treasure_I)",
+        "map": "{{Map|name=Ice troll (Desert Treasure I)|x=2840|y=3739|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

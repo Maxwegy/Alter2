@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11836,
+  "spawns": [
+    {
+      "npc": "npc.mini_chaos_ele",
+      "x": 2992,
+      "z": 3843,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Miniature_chaotic_clouds",
+        "map": "{{Map|name=Miniature chaotic clouds|x=2992|y=3843|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11566,
+  "spawns": [
+    {
+      "npc": "npc.mosol_rei",
+      "x": 2883,
+      "z": 2951,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mosol_Rei",
+        "map": "{{Map|x=2883|y=2951|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mosol_rei_complete",
+      "x": 2883,
+      "z": 2951,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mosol_Rei",
+        "map": "{{Map|x=2883|y=2951|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnome_explorer_jungle",
+      "x": 2934,
+      "z": 2978,
+      "height": 0,
+      "walkRadius": 21,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Penwie",
+        "map": "{{Map|name=Penwie|r=21|mtype=square|2934,2978}}"
+      }
+    }
+  ]
+}

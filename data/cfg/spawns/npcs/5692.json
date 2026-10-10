@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5692,
+  "spawns": [
+    {
+      "npc": "npc.lovakengj_sulphur_gas",
+      "x": 1440,
+      "z": 3869,
+      "height": 0,
+      "walkRadius": 20,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poison_gas_cloud",
+        "map": "{{Map|name=Poison gas cloud|x=1440|y=3869|r=20|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_sulphur_keeper",
+      "x": 1454,
+      "z": 3857,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Toothy",
+        "map": "{{Map|name=Toothy|x=1454|y=3857|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

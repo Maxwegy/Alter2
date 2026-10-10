@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9275,
+  "spawns": [
+    {
+      "npc": "npc.fris_r_ferry_iznot",
+      "x": 2311,
+      "z": 3781,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Maria_Gunnars",
+        "map": "{{Map|name=Maria Gunnars|x=2311|y=3781|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_n_pesant_f",
+      "x": 2323,
+      "z": 3793,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anne_Isaakson",
+        "map": "{{Map|name=Anne Isaakson|x=2323|y=3793|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_n_pesant_m",
+      "x": 2324,
+      "z": 3795,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gunnar_Holdstrom",
+        "map": "{{Map|name=Gunnar Holdstrom|x=2324|y=3795|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_n_pesant_m2",
+      "x": 2332,
+      "z": 3804,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Morten_Holdstrom",
+        "map": "{{Map|name=Morten Holdstrom|x=2332|y=3804|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fris_r_engineer",
+      "x": 2334,
+      "z": 3798,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thakkrad_Sigmundson",
+        "map": "{{Map|x=2334|y=3798|mtype=pin|group=pinex}}"
+      }
+    },
+    {
+      "npc": "npc.frisd_eng",
+      "x": 2334,
+      "z": 3798,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thakkrad_Sigmundson",
+        "map": "{{Map|x=2334|y=3798|mtype=pin|group=pinex}}"
+      }
+    },
+    {
+      "npc": "npc.fris_r_burgher_crown",
+      "x": 2335,
+      "z": 3799,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mawnis_Burowgar",
+        "map": "{{Map|x=2335|y=3799|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.fris_r_burgher_nocrown",
+      "x": 2335,
+      "z": 3799,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mawnis_Burowgar",
+        "map": "{{Map|x=2335|y=3799|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.frisd_iznotking",
+      "x": 2335,
+      "z": 3799,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mawnis_Burowgar",
+        "map": "{{Map|x=2335|y=3799|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_n_sto",
+      "x": 2336,
+      "z": 3807,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jofridr_Mordstatter",
+        "map": "{{Map|name=Jofridr Mordstatter|x=2336|y=3807|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fris_spymaster",
+      "x": 2336,
+      "z": 3811,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Slug_Hemligssen",
+        "map": "{{Map|name=Slug Hemligssen|x=2336|y=3811|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.deadman_banker_neitiznot_model",
+      "x": 2337,
+      "z": 3807,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Financial_Seer",
+        "map": "{{Map|name=Financial Seer|x=2337|y=3807|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_bouncer_1",
+      "x": 2339,
+      "z": 3800,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kjedelig_Uppsen",
+        "map": "{{Map|name=Kjedelig Uppsen|x=2339|y=3800|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_bouncer_2",
+      "x": 2339,
+      "z": 3800,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Trogen_Konungarde",
+        "map": "{{Map|name=Trogen Konungarde|x=2339|y=3800|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_charting_weather_troll",
+      "x": 2341,
+      "z": 3790,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meaty_Aura_Logist",
+        "map": "{{Map|2903,2698|2140,2806|2979,2905|2335,2921|1779,2940|2638,3009|2149,3068|1714,3193|2656,3195|2912,3213|2130,3395|1867,3458|1651,3461|2280,3518|2498,3546|2594,3644|2341,3790|2600,3910|2951,3962|2447,3995|zoom=-3|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.frisb_n_pesant_f2",
+      "x": 2349,
+      "z": 3803,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lisse_Isaakson",
+        "map": "{{Map|name=Lisse Isaakson|x=2349|y=3803|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frisd_iznot_viking_shouter",
+      "x": 2364,
+      "z": 3800,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(Neitiznot_watchtower)",
+        "map": "{{Map|2364,3800|plane=2|mtype=pin}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5167,
+  "spawns": [
+    {
+      "npc": "npc.tlati_lost_lover_fabia_vis",
+      "x": 1329,
+      "z": 3024,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fabia",
+        "map": "{{Map|name=Fabia|x=1329|y=3024|r=6|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5427,
+  "spawns": [
+    {
+      "npc": "npc.quetzacalli_mountain_guide_auburnvale",
+      "x": 1360,
+      "z": 3309,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mountain_Guide_(Auburn_Valley)",
+        "map": "{{Map|name=Mountain Guide|1360,3309|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ent_enjoyer_1",
+      "x": 1366,
+      "z": 3293,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Taz",
+        "map": "{{Map|name=Taz|1366,3293|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.nemus_retreat_bartender",
+      "x": 1366,
+      "z": 3302,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Nemus_Retreat)",
+        "map": "{{Map|name=Bartender|1366,3302|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_tree_7",
+      "x": 1366,
+      "z": 3321,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aub",
+        "map": "{{Map|name=Aub|x=1366|y=3321|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

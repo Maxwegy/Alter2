@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6450,
+  "spawns": [
+    {
+      "npc": "npc.twilight_cultist_fisher",
+      "x": 1612,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Fisher",
+        "map": "{{Map|name=Emissary Fisher|1612,3218|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_cultist_1_cutscene",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_cultist_2_cutscene",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_ruin_guard_1",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_ruin_guard_2",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_1",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_2",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_1",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_2",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_3",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_4",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_guard_1",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_guard_2",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_1",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_2",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_3",
+      "x": 1648,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_cultist_1_cutscene",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_cultist_2_cutscene",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_ruin_guard_1",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_ruin_guard_2",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_1",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_2",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_1",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_2",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_3",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_temple_guard_inner_4",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_guard_1",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_guard_2",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_1",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_2",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq3_tower_twilight_pickpocket_variant_3",
+      "x": 1648,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emissary_Ascended",
+        "map": "{{Map|name=Emissary Ascended|1695,3233|1692,3233|1648,3220|1648,3223|1691,3244|1681,3244|1681,3251|1691,3250|1677,3245|1692,3246|1692,3249|plane=0|mapID=0|mtype=pin}}"
+      }
+    }
+  ]
+}

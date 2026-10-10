@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8752,
+  "spawns": [
+    {
+      "npc": "npc.badger1",
+      "x": 2210,
+      "z": 3097,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.badger2",
+      "x": 2210,
+      "z": 3097,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.badger1",
+      "x": 2214,
+      "z": 3097,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.badger2",
+      "x": 2214,
+      "z": 3097,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.badger1",
+      "x": 2215,
+      "z": 3096,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.badger2",
+      "x": 2215,
+      "z": 3096,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Badger",
+        "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.snakeboss_spectator",
+      "x": 2220,
+      "z": 3092,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Broken_Handz",
+        "map": "{{Map|name=Broken Handz|x=2220|y=3092|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

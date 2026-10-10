@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13368,
+  "spawns": [
+    {
+      "npc": "npc.wildy_zombie_pirate_friendly_1op",
+      "x": 3366,
+      "z": 3616,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zombie_pirate_(NPC)",
+        "map": "{{Map|name=Zombie pirate|x=3366|y=3616|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wildy_zombie_pirate_friendly_2ops",
+      "x": 3366,
+      "z": 3616,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zombie_pirate_(NPC)",
+        "map": "{{Map|name=Zombie pirate|x=3366|y=3616|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

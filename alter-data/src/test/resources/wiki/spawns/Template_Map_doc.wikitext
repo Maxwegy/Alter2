@@ -1,0 +1,843 @@
+{{documentation}}
+
+The Map template is used to easily create interactive maps or inline links to interactive maps. To find coordinates of a specific map square, use a tool such as https://mejrs.github.io/osrs. For a guide on how to manually define maps, see [[RuneScape:Create Map]].
+
+=Map options=
+===Location===
+
+The map's centre is defined by [[#arg-map-x|<code>x</code>]] and [[#arg-map-y|<code>y</code>]] coordinates or custom features. A map with no coordinates or features will default to Lumbridge.
+
+{| class="center"
+! style="width: 50svh" | Default !! style="width: 50svh" | Placed
+|-
+| <code><nowiki>{{Map}}</nowiki></code>
+| <code><nowiki>{{Map|x=3165|y=3494}}</nowiki></code>
+|-
+| {{Map}}
+| {{Map|x=3165|y=3494}}
+|}
+
+===Zoom, plane and mapID===
+
+[[#arg-map-zoom|<code>zoom</code>]] —  Overrides the automatic calculated zoom. Higher numbers result in a greater zoom.
+
+[[#arg-feat-plane|<code>plane</code>]] — Sets the plane (or floor) for a specific feature (by [[RuneScape:Style_guide#Floor_numbering|British floor numbering]]). Features can be defined on different planes on the same map.
+
+[[#arg-map-mapid|<code>mapID</code>]] — Sets the predefined area of the [[World map]], such as a dungeon, for an entire Map instance. A list of all possible mapIDs can be found at [[RuneScape:Map/mapIDs]], with centre points for each ID. Defaults to <code>0</code>, rendering only Gielinor's surface.
+
+Features on a single Map cannot span multiple <code>mapID</code>s. If this is needed, use [[#Grouping|grouping]] across multiple Maps on the same page each with a different <code>mapID</code>.
+
+{| class="center"
+! style="width: 33svh" | Zoom 0 !! style="width: 33svh" | {{Floor|uk=2}} of Lumbridge Castle !! style="width: 33svh" | [[Tolna's Rift]]
+|-
+| <code><nowiki>{{Map|zoom=0}}</nowiki></code>
+| <code><nowiki>{{Map|plane=2}}</nowiki></code>
+| <code><nowiki>{{Map|mapID=21|3104,5280}}</nowiki></code>
+|-
+| {{Map|zoom=0}}
+| {{Map|plane=2}}
+| {{Map|mapID=21|3104,5280}}
+|}
+
+===Width and height===
+
+[[#arg-map-width|<code>width</code>]] and [[#arg-map-height|<code>height</code>]] control the pixel size of a map frame.
+
+{| class="center"
+! Short and Wide
+|-
+| <code><nowiki>{{Map|width=600|height=200}}</nowiki></code>
+|-
+|{{Map|width=600|height=200}}
+|}
+
+===Alignment===
+
+[[#arg-map-align|<code>align</code>]] changes the alignment of a map frame on a page.
+
+{| class="center"
+! style="width: 33svh" | Left !! style="width: 33svh" | Center !! style="width: 33svh" | Right
+|-
+| <code><nowiki>{{Map|align=left}}</nowiki></code>
+| <code><nowiki>{{Map|align=center}}</nowiki></code>
+| <code><nowiki>{{Map|align=right}}</nowiki></code>
+|-
+| class="left" |{{Map|align=left}}
+| class="center" |{{Map|align=center}}
+| style="text-align:right" |{{Map|align=right}}
+|}
+
+===Captions and legends===
+
+A [[#arg-map-caption|<code>caption</code>]] can be used to describe features or show additional information relevant to a location. These can include templates made for formatting map legends/keys.
+
+{|class="center"
+! style="width: 33svh" | Caption !! style="width: 33svh" | Legend !! style="width: 33svh" | Mapkey
+|-
+| <code><nowiki>|caption=Location of the entrance.}}</nowiki></code>
+| <code><nowiki>|caption=
+{{Legend|#4EF3F3|caption=Lily of the Elid}}</nowiki></code>
+| <pre>|caption={{mapkey
+|title = The Summer Shore
+|line1 = alt...[[File:Herbalist_icon.png]],text={{chatl|Mag}} the herbalist
+|line2=dot...yellow,text=[[Bank Deposit Box]]
+|line3=polygon...,text=Statue}}</pre>
+|-
+|{{Map|name=Chasm of Fire|x=1435|y=3668|zoom=2|caption=Location of the entrance for the [[Chasm of Fire]].}}
+|{{Map|x=3353|y=2927|mtype=pin|icon=cyanPin|caption=
+{{Legend|#4EF3F3|caption=Lily of the Elid}}}}
+|{{Map|zoom=3|mtype=square|r=1|3168,2411|group=maniwashere|mtype:dot,fill:#FFFF00,3177,2420
+|caption=
+{{mapkey
+|title = The Summer Shore
+|line1 = alt...[[File:Herbalist icon.png]],text={{chatl|Mag}} the herbalist
+|line2 = dot...yellow,text=[[Bank Deposit Box]]
+|line3 = polygon...,text=Statue
+}}
+}}
+|}
+
+===Maplinks===
+
+Any map can be rendered as a link instead of inline by setting [[#arg-map-type|<code>type</code>]] to <code>maplink</code>. With this, [[#arg-map-text|<code>text</code>]] is used to change the text of the link.
+
+{| class="center"
+|-
+| <code><nowiki>{{Map|type=maplink}}</nowiki></code><br>
+{{Map|type=maplink}}
+| <code><nowiki>{{Map|type=maplink|text=Maplink Text}}</nowiki></code><br>
+{{Map|type=maplink|text=Maplink Text}}
+|-
+| <code><nowiki>{{Map|type=maplink|text=}}</nowiki></code><br>
+{{Map|type=maplink|text=}}
+| <code><nowiki>{{Map|type=maplink|mtype=pin|2613,3294}}</nowiki></code><br>
+{{Map|type=maplink|mtype=pin|2613,3294|group=maplinks}}
+|}
+
+=Features=
+
+Map features are defined with an [[#arg-feat-mtype|<code>mtype</code>]] and require one or more coordinates to be valid.
+
+==Single-point==
+
+With [[#def-single-point-feature|single-point features]], multiple coordinates will produce multiple of one type of feature.
+
+===Pins===
+
+Pins are commonly used to mark things that take up a 1x1 space or otherwise have an exact X/Y location.
+
+Pins have a strict set of colour values, changed by setting [[#arg-pin-icon|<code>icon</code>]] to either <code>greenPin</code>, <code>redPin</code>, <code>bluePin</code>, <code>cyanPin</code>, <code>magentaPin</code>, <code>yellowPin</code> or <code>greyPin</code>.
+
+{| class="center"
+! style="width: 50svh" | Pin !! style="width: 50svh" | Magenta Pins
+|-
+| <code><nowiki>{{Map|mtype=pin|2965,3381}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=pin|icon=magentaPin|2638,3300|2661,3308}}</nowiki></code>
+|-
+| {{Map|mtype=pin|2965,3381|group=pins}}
+| {{Map|mtype=pin|icon=magentaPin|2638,3300|2661,3308|group=pins2}}
+|}
+
+===Dots===
+
+Like pins, dots are also used to mark precise locations. However, dots are better suited for marking many tightly packed coordinates.
+
+{| class="center"
+! Dots
+|-
+| <code><nowiki>{{Map|mtype=dot|1843,3728|1847,3728</nowiki></code><br><code><nowiki>|1851,3728 ... }}</nowiki></code>
+|-
+| {{Map|mtype=dot|1843,3728|1847,3728|1851,3728|1851,3724|1851,3720|1847,3720|1843,3720|group=dots}}
+|}
+
+===Circles, squares and rectangles===
+
+Circles and squares are defined by a centre point and a radius [[#arg-feat-r|<code>r</code>]].
+
+For squares, <code>r</code> defines half the length of the square's edges—i.e., the shortest distance from its centre to one of its edges.
+
+Rectangles are also defined by a single point, though its side lengths are defined with [[#arg-rect-x|<code>rectX</code>]] and [[#arg-rect-y|<code>rectY</code>]].
+
+{| class="center"
+! style="width: 33svh" | Circle !! style="width: 33svh" | Square !! style="width: 33svh" | Rectangle
+|-
+| <code><nowiki>{{Map|mtype=circle|r=18|3165,3490}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=square|r=5.5|2253,2925}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=rectangle|rectX=21|rectY=30|3363,3310}}</nowiki></code>
+|-
+| {{Map|mtype=circle|r=18|3165,3490|group=circle}}
+| {{Map|mtype=square|r=5.5|2253,2925|group=square}}
+| {{Map|mtype=rectangle|rectX=21|rectY=30|3363,3310|group=rectangle}}
+|}
+
+===Text===
+
+A text feature is another way to mark a precise location but with a [[#arg-text-label|<code>label</code>]] describing the subject. Though there are [[#Popups|configurable popups]], a text feature provides a more immediate and obvious label for something.
+
+[[#arg-text-position|<code>position</code>]] — Controls the placement of the text relative to the provided point.
+
+{| class="center"
+! style="width: 50svh" | '''Default''' !! style="width: 50svh" | '''Right aligned'''
+|-
+| <code><nowiki>{{Map|mtype=text|2512,3466|label=Dead tree}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=text|2802,3005|label={{fairycode|ckr}}</nowiki></code><br><code><nowiki>|position=right}}</nowiki></code>
+|-
+| {{Map|mtype=text|2512,3466|label=Dead tree|group=text}}
+| {{Map|mtype=text|2802,3005|label={{fairycode|ckr}}|position=right|group=text2}}
+|}
+
+===RuneScape map text===
+
+Replicates the text style seen on the in-game [[World map]].
+
+The text's [[#arg-rstext-colour|<code>colour</code>]], [[#arg-rstext-weight|<code>weight</code>]] and [[#arg-rstext-fontSize|<code>fontsize</code>]] are all configurable. In cases where text is hard to read due to placement, a [[#arg-rstext-bg|<code>background</code>]] colour can be supplied.
+
+{| class="center"
+! style="width: 33svh" | '''Default''' !! style="width: 33svh" | '''Configured''' !! style="width: 33svh" | '''Background'''
+|-
+| <code><nowiki>{{Map|mtype=rstext|label=House<br>on the<br>hill</nowiki></code><br><code><nowiki>|3779,3870}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=rstext|label=Morytania|colour=Orange</nowiki></code><br><code><nowiki>|weight=Bold|fontsize=15pt|3500,3395}</nowiki></code>
+| <code><nowiki>{{Map|mtype=rstext|label=Skeletal Wyvern</nowiki></code><br><code><nowiki>|fontsize=9pt|3056,9552|background=#000000aa}}</nowiki></code>
+|-
+| {{Map|zoom=2|mtype=rstext|label=House<br>on the<br>hill|3779,3870|group=rstext}}
+| {{Map|zoom=0|mtype=rstext|label=Morytania|colour=Orange|weight=Bold|fontsize=15pt|3500,3395|group=rstext2}}
+| {{Map|mapID=-1|zoom=2|mtype=rstext|label=Skeletal Wyvern|fontsize=9pt|3056,9552|background=#000000aa|group=textground}}
+|-
+|}
+
+===Media===
+
+Inserts a wiki image into the map at a specific point by supplying the filename with [[#arg-media-img|<code>img</code>]]. Images are rendered at native size by default, which can be overriden with a custom [[#arg-media-size|<code>size</code>]] in pixels.
+
+For cases where images lack visiblity, an outline can be supplied with [[#arg-media-outlineColour|<code>outlineColour</code>]], [[#arg-media-outlineSize|<code>outlineSize</code>]] and [[#arg-media-outlineBlur|<code>outlineBlur</code>]].
+
+{| class="center"
+! style="width: 33svh" | '''Default''' !! style="width: 33svh" | '''Size''' !! style="width: 33svh" | '''Outline'''
+|-
+| <code><nowiki>{{Map|mtype=media|img=you are here.gif|2230,3178}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=media|img=Rock_(2025_Easter_event).png</nowiki></code><br><code><nowiki>|size=60px|3325,3305}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=media|img=Hornless_unicorn_prancing.gif</nowiki></code><br><code><nowiki>|outlineColour=red|size=50px|1630,4006}}</nowiki></code>
+|-
+| {{Map|mtype=media|img=you are here.gif|2230,3178|group=media}}
+| {{Map|zoom=3|mtype=media|img=Rock_(2025_Easter_event).png|size=60px|3325,3305|group=media2}}
+| {{Map|mtype=media|img=Hornless_unicorn_prancing.gif|size=50px|outlineColour=red|1630,4006|group=popup2}}
+|-
+|}
+
+==Multi-point==
+===Lines and polygons===
+
+Lines and polygons are defined with a series of coordinates. Unlike lines, polygons are automatically closed — i.e., the start and end points are attached.
+
+Each point of a line is '''centered''' on its respective tile because lines should represent points that a player can stand on. 
+
+Polygons, however, have points aligned to the '''south-west corner''' of their respective tile, allowing map locations to be outlined exactly.
+
+{| class="center"
+! style="width: 50svh" | Line !! style="width: 50svh" | Polygon 
+|-
+| <code><nowiki>{{Map|mtype=line|2728,3349|2726,3347|2722,3347 ... }}</nowiki></code>
+| <code><nowiki>{{Map|mtype=polygon|2721,3387|2719,3385|2719,3364 ... }}</nowiki></code>
+|-
+|{{Map|mtype=line|2728,3349|2726,3347|2722,3347|2721,3346|2712,3346|2710,3344|2710,3342|2709,3341|2707,3341|2704,3338|2704,3337|2703,3336|2703,3334|2699,3330|2699,3328|group=line}}
+|{{Map|mtype=polygon|2721,3387|2719,3385|2719,3364|2721,3362|2726,3362|2726,3350|2732,3350|2732,3362|2737,3362|2739,3364|2739,3385|2737,3387|group=polygon}}
+|-
+|}
+
+===Highlighted and focused areas===
+
+Highlighted areas are useful for emphasizing a location, de-emphasizing the surrounding area, and keep the location's contents visible.
+
+Focused areas extend this by completely blacking out the surrounding area; this can be especially useful for hiding unrelated map locations when <code>mapID</code> is <code>-1</code>.
+
+These feature types otherwise have the same functionality as polygons.
+
+{| class="center"
+! style="width: 50svh" | Highlighted area !! style="width: 50svh" | Focused area
+|-
+| <code><nowiki>{{Map|mtype=highlightedarea|2557,3334|2557,3265</nowiki></code><br><code><nowiki>|2511,3265| ... }}</nowiki></code>
+| <code><nowiki>{{Map|mapID=-1|mtype=focusarea|3039,4850|3055.5,4842</nowiki></code><br><code><nowiki>|3055.5,4822| ... }}</nowiki></code>
+|-
+|{{Map|mtype=highlightedarea|2557,3334|2557,3265|2511,3265|2511,3280|2461,3280|2461,3306|2434,3306|2434,3322|2464,3322|2464,3334|group=highlight}}
+|{{Map|mapID=-1|mtype=focusarea|3039,4850|3055.5,4842|3055.5,4822|3040,4814|3022,4822|3022,4839|group=focus}}
+|}
+
+==Combos==
+
+Combo features are a combination of a [[#def-single-point-feature|single-point feature]] and a [[#def-multi-point-feature|multi-point feature]]. One example is <code>pin-line</code>, where <code>pin</code> is the single-point feature and <code>line</code> is the multi-point feature. Combos will generate a single-point feature per coordinate and a multi-point feature using all coordinates together.
+
+{| class="center"
+! style="width: 50svh" | Pins and polygon !! style="width: 50svh" | Dots and line
+|-
+| <pre><nowiki>{{Map|mtype=rstext-highlightedarea
+|2774,3469,label:text1
+|2784,3459,label:text2
+|2794,3469,label:text3
+|2784,3479,label:text4}}</pre>
+| <pre>{{Map|mtype=pin-line 
+|2764,3468,icon:redPin
+|2764,3461,icon:yellowPin
+|2771,3458,icon:greenPin
+|2773,3452,icon:bluePin}}</pre>
+|-
+| {{Map|zoom=3|mtype=rstext-highlightedarea|group=combo1
+|2774,3469,label:text1
+|2784,3459,label:text2
+|2794,3469,label:text3
+|2784,3479,label:text4}}
+| {{Map|zoom=3|mtype=pin-line|group=combo2 
+|2764,3468,icon:redPin
+|2764,3461,icon:yellowPin
+|2771,3458,icon:greenPin
+|2773,3452,icon:bluePin}}
+|}
+
+Combos should be used sparingly and only when multiple coordinates have some kind of relationship. A good example is the map of tasks throughout [[One Small Favour#Walkthrough|One Small Favour]], where the tasks must be completed in a specific order. Another example is the map of [[Canoe Station|canoe stations]], where each station represents a point along the River Lum.
+
+Note that using a highlighted or focused area as the multi-point feature will inherently make all other features appear highlighted or focused as well.
+
+==Properties==
+===Colour, opacity and stroke width===
+
+The stroke and fill of any features that have them can be changed with [[#arg-feat-stroke|<code>stroke</code>]] and [[#arg-feat-fill|<code>fill</code>]] using hex colour code values.
+
+The opacity of these are controlled with [[#arg-feat-strokeOpacity|<code>stroke-opacity</code>]] and [[#arg-feat-fillOpacity|<code>fill-opacity</code>]], where <code>0</code> is transparent and <code>1</code> is opaque.
+
+Stroke widths are controlled with [[#arg-feat-strokeWidth|<code>stroke-width</code>]] in pixels.
+
+{| class="center"
+! style="width: 50svh" | Yellow rectangle !! style="width: 50svh" | Thin red line
+|-
+| <code><nowiki>{{Map|zoom=3|mtype=rectangle|rectX=6|rectY=8|fill=#f0ff00</nowiki></code><br><code><nowiki>|stroke-opacity=0.6|stroke=#F6B845|stroke-width=5|1883,33161}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=line|stroke=#FF0000|stroke-width=1.5</nowiki></code><br><code><nowiki>|2912,3213|2888,3213|2888,3321|2843,3321}}</nowiki></code>
+|-
+|{{Map|zoom=3|mtype=rectangle|rectX=6|rectY=8|fill=#f0ff00|stroke-opacity=0.6|stroke=#F6B845|stroke-width=5|1883,3316|group=circle23}}
+|{{Map|mtype=line|stroke=#FF0000|stroke-width=1.5|2912,3213|2888,3213|2888,3321|2843,3321|group=ehbfuksdbf}}
+|-
+|}
+
+===Offset and rotation===
+
+[[#arg-feat-offsetX|<code>offsetX</code>]], [[#arg-feat-offsetY|<code>offsetY</code>]] — Shifts rstext and media away from the placed centre point. Positive values correspond to rightward/downward shift.
+
+[[#arg-feat-rotate|<code>rotate</code>]] — Rotates rstext and media. Positive values correspond to clockwise rotation. Units can be <code>deg</code>, <code>rad</code> or <code>turn</code>.
+
+{| class="center"
+! style="width: 50svh" | '''Offset''' !! style="width: 50svh" | '''Rotate'''
+|-
+| <code><nowiki>{{Map|mtype=rstext|label=72 Agility|color=#ffff00</nowiki></code><br><code><nowiki>|offsetX=58px|fontsize=9pt|3545.8,3282}}</nowiki></code>
+| <code><nowiki>{{Map|zoom=3|2249.5,3458|mtype=media</nowiki></code><br><code><nowiki>|img=Map icon - Skiff.png|rotate=90deg}}</nowiki></code>
+|-
+| {{Map|mtype=rstext|zoom=2|label=72 Agility|color=#ffff00|offsetX=58px|fontsize=9pt|3545.8,3282|group=rstext44}}
+| {{Map|mtype=media|zoom=3|img=Map icon - Skiff.png|rotate=90deg|2249.5,3458|group=media42333}}
+|-
+|}
+
+===Custom CSS===
+
+Supply custom CSS with [[#arg-feat-css|<code>css</code>]] for either <code>rstext</code> or <code>media</code>.
+
+{| class="center"
+! '''Custom css''' 
+|-
+| <code><nowiki>|css=padding:1px 2px;background:#5C5041;border-radius:2.5px;border-style: outset;</nowiki></code><br><code><nowiki>border-width: 2.5px;border-color:#5C5041; outline: 1px solid black;</nowiki></code>
+|-
+| {{Map|mtype=rstext|x=1503|y=10085|mapID=-1|zoom=2|group=rstext44|label=Yama's Domain
+|css=padding:1px 2px;background:#5C5041;border-radius:2.5px;border-style: outset;border-width: 2.5px;border-color:#5C5041; outline: 1px solid black;|1503,10115}}
+|-
+|}
+
+===Popups===
+
+By default, all features are clickable to show their X/Y coordinates. For [[#def-multi-point-feature|multi-point features]], this coordinate is the first coordinate provided. However, more details can be added.
+* Add a title with [[#arg-popup-title|<code>title</code>]]. 
+* Add a description with [[#arg-popup-desc|<code>desc</code>]]. 
+
+{| class="center"
+! style="width: 50svh" | Title !! style="width: 50svh" | Description
+|-
+| <code><nowiki>{{Map|mtype=pin|2638,3300|2661,3308|title=[[Mos Le'Water]]}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=media|2571,3909|img=Macaroni Penguin.png</nowiki></code><br><code><nowiki>|size=28px|desc=[[Macaroni Penguin]]}}</nowiki></code>
+|-
+| {{Map|zoom=1|mtype=rstext|3901,2974|label=Mos<br>Le'Water|title=[[Mos Le'Water]]|group=popup1}}
+| {{Map|mtype=media|2571,3912|img=Macaroni Penguin.png|size=28px|desc=[[Macaroni Penguin]]|group=media2333}}
+|}
+
+* Add '''detailed info''' with [[#arg-popup-ptype|<code>ptype</code>]] if the feature represents an <code>item</code>, <code>monster</code>, <code>object</code> or <code>npc</code>.
+** For any <code>ptype</code>, the subject's name will default to the current page's title. Set [[#arg-popup-name|<code>name</code>]] to change this. Specify the subject's internal ID with [[#arg-popup-id|<code>id</code>]] if needed.
+** For monsters and NPCs, set [[#arg-popup-levels|<code>levels</code>]] and [[#arg-popup-respawn|<code>respawn</code>]] time if needed.
+** For items, set [[#arg-popup-qty|<code>qty</code>]] and <code>respawn</code> time if needed.
+
+{| class="center"
+! style="width: 50svh" | '''Item''' !! style="width: 50svh" | '''Monster'''
+|-
+| <code><nowiki>{{Map|mtype=pin|1275,3745|title=[[Twisted bow]]</nowiki></code><br><code><nowiki>|ptype=item|respawn=100|qty=1|name=Twisted bow|id=20997}}</nowiki></code>
+| <code><nowiki>{{Map|mtype=polygon|plane=1|ptype=monster</nowiki></code><br><code><nowiki>|title=[[Grid_Master#Trivia|Swarm the tower, my brethren]]|name=Lessor Demon</nowiki></code><br><code><nowiki>|id=2005|level=82|respawn=0|3110,3160|3116,3160|3116,3158 ... }}</nowiki></code>
+|-
+| {{Map|mtype=pin|1275,3745|ptype=item|title=[[Twisted bow]]|name=Twisted bow|respawn=100|qty=1|id=20997|group=item}}
+| {{Map|mtype=polygon|plane=1|ptype=monster|title=[[Grid_Master#Trivia|Swarm the tower, my brethren]]|name=Lessor Demon|id=2005|level=82|respawn=0|3110,3160|3116,3160|3116,3158|3112,3154|3107,3154|3103,3158|3103,3159|3110,3159|group=npc}}
+|}
+
+===Grouping===
+
+[[#arg-feat-group|<code>group</code>]] is used to set custom feature grouping. By default, all features belong to the same group and will therefore appear on every map on a page.
+
+{| class="center"
+! style="width: 33svh" | Lone group !! style="width: 33svh" | Grouped with [[#Circles,_squares_and_rectangles|circles]]
+|-
+| <code><nowiki>{{Map|x=3165|y=3494|group=alone}}</nowiki></code>
+| <code><nowiki>{{Map|x=3165|y=3494|group=circle}</nowiki></code>
+|-
+| {{Map|x=3165|y=3494|group=alone}}
+| {{Map|x=3165|y=3494|group=circle}}
+|}
+
+=Advanced usage=
+===Anonymous features===
+
+Multiple map features can be defined through [[#def-anonymous-feature|anonymous features]], which have the general form:
+
+<code>|option1:value1,optionN:valueN,x1:y1,xN:yN</code>
+
+You can provide as many options and coordinates as you want for a single anonymous feature. Each option/value and x/y must be separated by a colon (<code>:</code>), and each of these pairings must be separated by a comma (<code>,</code>).
+
+The options available to use in anonymous features are exactly the same as regular [[#Feature options|named arguments]], meaning the two are entirely interchangeable. If a named argument is also provided as an anonymous argument, the anonymous value will override the named value.
+
+One small difference with anonymous features—because they are comma- and colon-separated—is the need to escape ''extra'' commas and colons with <code>\</code> backslashes in certain options. These are mentioned in the table of [[#Feature options|feature options]] below.
+
+{| class="center"
+|-
+| <code><nowiki>|mtype:rstext,3211:3247,label:A comma \,<br>and a colon \:</nowiki></code><br><code><nowiki>|mtype:pin,3246:3248,desc:A comma \,<br>and a colon \:</nowiki></code>
+|-
+|{{Map|mtype:rstext,3211:3247,label:A comma \,<br>and a colon \:
+|mtype:pin,3246:3248,desc:A comma \,<br>and a colon \:|group=anonfeats}}
+|}
+
+Because the anonymous feature syntax is used solely to create features, [[#Map options|map-only options]] cannot be used as feature options.
+
+===Transclusion===
+
+Many maps that contain a large number of features (or are otherwise complex and lengthy) are sometimes defined on their own under the [https://oldschool.runescape.wiki/w/Special:PrefixIndex?namespace=118 Map] namespace and then [https://www.mediawiki.org/wiki/Transclusion transcluded] in another page.
+
+{|
+|-
+| <code><nowiki>{{Map:Multicombat AGT}}</nowiki></code>
+|-
+| {{Map:Multicombat AGT}}
+|}
+
+===Bucket===
+
+By default the Map module provides functionality that allows other pages, templates, and modules to interact with its data. More specifically, the final map options and GeoJSON for each feature will be stored in bucket for other resources to consume. See [[Bucket:Map]] for example data.
+
+In some cases, a page will have multiple maps that relate to specific instances of the page's subject. For example, [[Forestry Shop]] has three maps that each relate to one of its locations. To handle this, you can set  <code>bucketName</code> to tell the Map module to store each map in a separate Bucket entry under the page; Otherwise, each of the maps would overwrite each other. The value of <code>bucketName</code> should match the subject's instance name if possible ("Draynor Village", "Seers' Village", or "Prifddinas" in the Forestry Shop example).
+
+=Arguments=
+==Map options==
+
+Map options are [[#def-named-argument|named arguments]] that define how the map itself behaves and how it is rendered on the page. These options cannot be used as feature options.
+
+{{ArgDocHeader}}
+{{ArgDocLine
+|name = type
+|description = Sets the map type on the page.
+|values = <code>mapframe</code> <code>maplink</code>
+|default = <code>mapframe</code>
+|id = map-type
+}}
+{{ArgDocLine
+|name = width
+|description = Sets the map width on the page.
+|values = Any number >=<code>1</code>
+|default = <code>300</code>
+|id = map-width
+}}
+{{ArgDocLine
+|name = height
+|description = Sets the map height on the page.
+|values = Any number >=<code>1</code>
+|default = <code>300</code>
+|id = map-height
+}}
+{{ArgDocLine
+|name = align
+|description = Sets the map's alignment on the page.
+|values = <code>left</code> <code>center</code> <code>right</code>
+|default = <code>center</code>
+|id = align
+}}
+{{ArgDocLine
+|name = x
+|description = Sets the X coordinate of the map view if at least one feature is defined.
+|values = Any number >=<code>0</code>
+|default = <code>3233</code>
+|id = map-x
+}}
+{{ArgDocLine
+|name = y
+|description = Sets the Y coordinate of the map view if at least one feature is defined.
+|values = Any number >=<code>0</code>
+|default = <code>3222</code>
+|id = map-y
+}}
+{{ArgDocLine
+|name = zoom
+|description = Sets the zoom amount. A higher number means a closer zoom.
+|values = Any integer <code>-3</code>–<code>5</code>
+|default = <code>2</code>
+|id = map-zoom
+}}
+{{ArgDocLine
+|name = mapID
+|description = Sets the map ID.
+|values = Any [[RuneScape:Map/mapIDs|map ID]]
+|default = <code>0</code>
+|id = map-mapid
+}}
+{{ArgDocLine
+|name = caption
+|description = Adds a caption to the map if <code>type</code> is unset or set to <code>mapframe</code>.
+|values = Any text
+|id = map-caption
+}}
+{{ArgDocLine
+|name = text
+|description = If <code>type</code> is set to <code>maplink</code>, changes the text of the link.
+|values = Any text
+|id = map-text
+}}
+{{ArgDocLine
+|name = nopreprocess
+|description = Outputs the final map element with GeoJSON as raw text instead of a rendered map.
+|values = <code>True</code>
+}}
+{{ArgDocFooter}}
+
+==Feature options==
+
+Feature options are [[#def-named-argument|named]] or [[#def-anonymous-argument|anonymous]] arguments that define features on the map.
+
+{{ArgDocHeader}}
+{{ArgDocLine
+|name = mtype
+|description = Sets the type of a feature.
+|values = <code>pin</code> <code>rectangle</code> <code>square</code> <code>circle</code> <code>dot</code> <code>text</code> <code>rstext</code> <code>media</code> <code>line</code> <code>polygon</code> <code>highlightedarea</code> <code>focusarea</code> or a [[#def-combo-feature|combo type]]
+|default = <code>pin</code>
+|id = feat-mtype
+}}
+{{ArgDocLine
+|name = x
+|description = Sets the X coordinate of a feature. Can also be set with [[#def-coordinate-shorthand|coordinate shorthand]].
+|values = Any number >=<code>0</code>
+|default = <code>3233</code>
+}}
+{{ArgDocLine
+|name = y
+|description = Sets the Y coordinate of a feature. Can also be set with [[#def-coordinate-shorthand|coordinate shorthand]].
+|values = Any number >=<code>0</code>
+|default = <code>3222</code>
+}}
+{{ArgDocLine
+|name = plane
+|description = Sets the plane (Z value) a feature is on.
+|values = Any integer <code>0</code>–<code>3</code>
+|default = <code>0</code>
+|id = feat-plane
+}}
+{{ArgDocLine
+|name = stroke
+|description = Sets the stroke color of a feature with a stroke.
+|values = Any hexadecimal color code
+|default = <code>#3388ff</code>
+|id = feat-stroke
+}}
+{{ArgDocLine
+|name = stroke-opacity
+|description = Sets the stroke opacity of a feature with a stroke.
+|values = Any number <code>0</code>–<code>1</code>
+|default = <code>1</code>
+|id = feat-strokeOpacity
+}}
+{{ArgDocLine
+|name = stroke-width
+|description = Sets the stroke width of a feature with a stroke.
+|values = Any number >=<code>0</code>
+|default = <code>3</code>
+|id = feat-strokeWidth
+}}
+{{ArgDocLine
+|name = fill
+|description = Sets the fill color of a feature with a fill.
+|values = Any hexadecimal color code
+|default = <code>#3388ff</code>
+|id = feat-fill
+}}
+{{ArgDocLine
+|name = fill-opacity
+|description = Sets the fill opacity of a feature with a fill.
+|values = Any number <code>0</code>–<code>1</code>
+|default = <code>0.2</code>
+|id = feat-fillOpacity
+}}
+{{ArgDocLine
+|name = group
+|description = Sets the group for a feature. Features on separate map instances will appear on all instances on the same page if the group name is the same. Consider adding a unique group name if a page has a lot of pins.
+|values = Any text
+|default = <code>pins</code>
+|id = feat-group
+}}
+{{ArgDocLine
+|description = Any number of anonymous features.
+|values = See [[#Anonymous features|Anonymous features]]
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Popups}}
+{{ArgDocLine
+|name = title
+|description = Sets the popup title of a feature. In an [[#Anonymous features|anonymous feature]], all commas and colons within must be escaped with <code>\</code> backslashes.
+|values = Any text
+|id = popup-title
+}}
+{{ArgDocLine
+|name = desc
+|description = Sets the popup description of a feature. In an [[#Anonymous features|anonymous feature]], all commas and colons within must be escaped with <code>\</code> backslashes.
+|values = Any text
+|id = popup-desc
+}}
+{{ArgDocLine
+|name = ptype
+|description = Sets the feature's subject's type for providing extra popup details.
+|values = <code>item</code> <code>monster</code> <code>npc</code> <code>object</code>
+|id = popup-ptype
+}}
+{{ArgDocLine
+|name = name
+|description = Sets the feature's subject's name if <code>ptype</code> is set.
+|values = Any text
+|default = The page's title
+|id = popup-name
+}}
+{{ArgDocLine
+|name = id
+|description = Adds the feature's subject's internal ID to the popup if <code>ptype</code> is set.
+|values = Any integer
+|id = popup-id
+}}
+{{ArgDocLine
+|name = qty
+|description = Adds the feature's subject's quantity to the popup if <code>ptype</code> is set to <code>item</code>.
+|values = Any integer
+|id = popup-qty
+}}
+{{ArgDocLine
+|name = respawn
+|description = Adds the feature's subject's respawn time to the popup if <code>ptype</code> is set to <code>item</code>, <code>npc</code>, or <code>monster</code>.
+|values = Any text
+|id = popup-respawn
+}}
+{{ArgDocLine
+|name = levels
+|description = Adds the feature's subject's list of levels to the popup if <code>ptype</code> is set to <code>monster</code> or <code>npc</code>.
+|values = Any text
+|id = popup-levels
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Circles and squares}}
+{{ArgDocLine
+|name = r
+|description = Sets the radius of a circle or square.
+|values = Any number >=<code>1</code>
+|default = <code>10</code>
+|id = feat-r
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Rectangles}}
+{{ArgDocLine
+|name = rectX
+|description = Sets the X length for a rectangle.
+|values = Any number >=<code>1</code>
+|default = <code>20</code>
+|id = rect-x
+}}
+{{ArgDocLine
+|name = rectY
+|description = Sets the Y length for a rectangle.
+|values = Any number >=<code>1</code>
+|default = <code>20</code>
+|id = rect-y
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Pins}}
+{{ArgDocLine
+|name = icon
+|description = Sets the icon for a pin feature using a built-in value.
+|values = <code>greenPin</code> <code>redPin</code> <code>bluePin</code> <code>cyanPin</code> <code>magentaPin</code> <code>yellowPin</code> <code>greyPin</code>
+|default = <code>greenPin</code>
+|id = pin-icon
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Text}}
+{{ArgDocLine
+|name = label
+|description = Sets the label text of a text feature. In an [[#Anonymous features|anonymous feature]], all commas and colons within must be escaped with <code>\</code> backslashes.
+|values = Any text
+|required = Yes
+|id = text-label
+}}
+{{ArgDocLine
+|name = position
+|description = Sets the position of a text feature's label.
+|values = <code>left</code> <code>right</code> <code>top</code> <code>bottom</code> <code>center</code>
+|default = <code>top</code>
+|id = text-position
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=rstext}}
+{{ArgDocLine
+|name = color<br>colour
+|description = Sets the color of an rstext feature's label.
+|values = Any CSS color value
+|default = <code>white</code>
+|id = rstext-colour
+}}
+{{ArgDocLine
+|name = font
+|description = Sets the font of an rstext feature's label.
+|values = Any font available on the wiki
+|default = <code>Verdana</code>
+}}
+{{ArgDocLine
+|name = weight
+|description = Sets the font weight of an rstext feature's label.
+|values = Any CSS font-weight value
+|default = <code>normal</code>
+|id = rstext-weight
+}}
+{{ArgDocLine
+|name = fontSize
+|description = Sets the font size of an rstext feature's label.
+|values = Any CSS font-size value
+|default = <code>11pt</code>
+|id = rstext-fontSize
+}}
+{{ArgDocLine
+|name = background
+|description = Sets the background of an rstext feature's label.
+|values = Any CSS background value
+|id = rstext-bg
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=Media}}
+{{ArgDocLine
+|name = img
+|description = Sets the image file of a media feature.
+|values = Any wiki image file name with extension
+|id = media-img
+}}
+{{ArgDocLine
+|name = size
+|description = Sets the size of a media feature.
+|values = Any pixel value with unit
+|default = Native size of the file
+|id = media-size
+}}
+{{ArgDocLine
+|name = outlineColour
+|description = Sets the colour of the outline a media feature.
+|values = Any CSS color value
+|id = media-outlineColour
+}}
+{{ArgDocLine
+|name = outlineSize
+|description = Sets the size of the outline a media feature.
+|values = Any CSS length value
+|id = media-outlineSize
+}}
+{{ArgDocLine
+|name = outlineBlur
+|description = Sets the blue of the outline a media feature.
+|values = Any CSS length value
+|id = media-outlineBlur
+}}
+{{ArgDocFooter}}
+
+{{ArgDocHeader|caption=rstext and media}}
+{{ArgDocLine
+|name = offsetX
+|description = Offsets a feature horizontally. Positive values correspond to rightward shift.
+|values = Any CSS length value
+|id = feat-offsetX
+}}
+{{ArgDocLine
+|name = offsetY
+|description = Offsets a feature vertically. Positive values correspond to downward shift.
+|values = Any CSS length value
+|id = feat-offsetY
+}}
+{{ArgDocLine
+|name = rotate
+|description = Rotates a feature. Positive values correspond to clockwise rotation.
+|values = Any CSS angle value (with units)
+|id = feat-rotate
+}}
+{{ArgDocLine
+|name = css
+|description = Adds custom CSS properties to the style of a feature.
+|values = Any CSS properties
+|id = feat-css
+}}
+{{ArgDocFooter}}
+
+==Bucket options==
+
+{{ArgDocHeader}}
+{{ArgDocLine
+|name = bucket
+|description = Enables [[Bucket:Map|Bucket data]] for the current page. This should only be used if the map directly relates to the page subject. See [[#Bucket|Bucket]] for more info.
+|values = <code>yes</code> <code>hist</code> <code>both</code>
+|default = yes
+}}
+{{ArgDocLine
+|name = bucketName
+|description = A subpage name used to store a specific instance of a page in Bucket. This should only be used if the map does ''not'' directly describe the page subject. See [[#Bucket|Bucket]] for more info.
+|values = Any subpage name
+}}
+{{ArgDocLine
+|name = fromBucket
+|description = A page or subpage name to pull from [[Bucket:Map|Bucket]] and build a fully rendered map. No provided feature options will be processed. Any provided map options will combine with or override the page's map options.
+|values = Any page or subpage name
+}}
+{{ArgDocFooter}}
+
+=Definitions=
+
+* <div id="def-named-argument" /> '''Named argument''' - An argument with the form <code>|arg=value</code>.
+** <div id="def-named-feature" /> '''Named feature''' - A feature defined entirely with named arguments.
+* <div id="def-anonymous-argument" /> '''Anonymous argument''' - An argument with the form <code>|value</code>.
+** <div id="def-anonymous-feature" /> '''Anonymous feature''' - A feature defined entirely or partially with anonymous arguments. Uses the format <code>|option1:value1,optionN:valueN,x1:y1,xN:yN</code>.
+* <div id="def-single-point-feature" /> '''Single-point feature''' - A feature defined by a single point.
+** pin, rectangle, square, circle, dot, text, rstext, media
+* <div id="def-multi-point-feature" /> '''Multi-point feature''' - A feature defined by multiple points.
+** line, polygon, highlightedarea, focusarea
+* <div id="def-combo-feature" /> '''Combo feature''' - A feature that combines a ''single-point'' feature with a ''multi-point'' feature. Examples: <code>pin-line</code>, <code>dot-line</code>, and <code>pin-polygon</code>.
+* <div id="def-coordinate-shorthand" /> '''Coordinate shorthand''' - A more compact way to provide X/Y coordinates for a feature. Allows multiple coordinates to be provided.
+** For ''named features'', this could look like <code>|1000,1000|2000,2000</code>.
+** For ''anonymous features'', this could look like <code>|1000:1000,2000:2000</code>.
+
+=Cleanup tasks=
+
+* Many uses of this template still use <code>squareX</code> and <code>squareY</code> to define both squares and rectangles. These options are still supported in the code only as a backwards compatibility measure. Any uses of these should be changed to <code>rectX</code> and <code>rectY</code> respectively.
+** If these numbers '''do''' match, switch these options out with <code>r</code> and ensure the <code>mtype</code> is <code>square</code>.
+** If these numbers '''don't''' match, the <code>mtype</code> should be changed to <code>rectangle</code>.
+
+=See also=
+
+* [[Module:Map/doc|Map module API]]
+* [[User:Als Toy Barn/Map|Map template test suite]]

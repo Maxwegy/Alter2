@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12089,
+  "spawns": [
+    {
+      "npc": "npc.secret_ghost_thief",
+      "x": 3024,
+      "z": 3691,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rennard",
+        "map": "{{Map|name=Rennard|x=3024|y=3691|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.noterazzo",
+      "x": 3026,
+      "z": 3702,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Noterazzo",
+        "map": "{{Map|name=Noterazzo|x=3026|y=3702|squareX=4|squareY=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wilderness_capeseller_7",
+      "x": 3026,
+      "z": 3707,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Neil",
+        "map": "{{Map|name=Neil|x=3026|y=3707|squareX=7|squareY=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fat_tony",
+      "x": 3038,
+      "z": 3707,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fat_Tony",
+        "map": "{{Map|name=Fat Tony|x=3038|y=3707|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11056,
+  "spawns": [
+    {
+      "npc": "npc.100_jubbly_ogre_boat_full",
+      "x": 2758,
+      "z": 3085,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ogre_boat",
+        "map": "{{Map|2758,3085|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.bugs",
+      "x": 2758,
+      "z": 3085,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bugs",
+        "map": "{{Map|name=Bugs|x=2758|y=3085|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fycie",
+      "x": 2758,
+      "z": 3085,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fycie",
+        "map": "{{Map|name=Fycie|x=2758|y=3085|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_fanellaman",
+      "x": 2761,
+      "z": 3095,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fanellaman",
+        "map": "{{Map|name=Fanellaman|x=2761|y=3095|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_fanellaman_nosticks",
+      "x": 2761,
+      "z": 3095,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fanellaman",
+        "map": "{{Map|name=Fanellaman|x=2761|y=3095|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.jiminua",
+      "x": 2767,
+      "z": 3122,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jiminua",
+        "map": "{{Map|name=Jiminua|x=2767|y=3122|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.uncerter_jiminua",
+      "x": 2767,
+      "z": 3122,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aisles",
+        "map": "{{Map|name=Aisles|x=2767|y=3122|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwt_timfraku",
+      "x": 2783,
+      "z": 3088,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Timfraku",
+        "map": "{{Map|name=Timfraku|x=2783|y=3088|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_rionasta",
+      "x": 2783,
+      "z": 3092,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rionasta",
+        "map": "{{Map|name=Rionasta|x=2783|y=3092|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_rionasta_nosticks",
+      "x": 2783,
+      "z": 3092,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rionasta",
+        "map": "{{Map|name=Rionasta|x=2783|y=3092|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_layleen",
+      "x": 2787,
+      "z": 3076,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Layleen",
+        "map": "{{Map|name=Layleen|x=2787|y=3076|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_layleen_nosticks",
+      "x": 2787,
+      "z": 3076,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Layleen",
+        "map": "{{Map|name=Layleen|x=2787|y=3076|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_safta_doc",
+      "x": 2791,
+      "z": 3102,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Safta_Doc",
+        "map": "{{Map|name=Safta Doc|x=2791|y=3102|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_safta_doc_nosticks",
+      "x": 2791,
+      "z": 3102,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Safta_Doc",
+        "map": "{{Map|name=Safta Doc|x=2791|y=3102|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_mamma_bufetta",
+      "x": 2795,
+      "z": 3077,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mamma_Bufetta",
+        "map": "{{Map|name=Mamma Bufetta|x=2795|y=3077|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_mamma_bufetta_nosticks",
+      "x": 2795,
+      "z": 3077,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mamma_Bufetta",
+        "map": "{{Map|name=Mamma Bufetta|x=2795|y=3077|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_sharimika",
+      "x": 2795,
+      "z": 3077,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sharimika",
+        "map": "{{Map|name=Sharimika|x=2795|y=3077|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_sharimika_nosticks",
+      "x": 2795,
+      "z": 3077,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sharimika",
+        "map": "{{Map|name=Sharimika|x=2795|y=3077|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.samoyed_wander",
+      "x": 2795,
+      "z": 3095,
+      "height": 0,
+      "walkRadius": 30,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Samoyed_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=60|rectY=60|2795,3095|}}"
+      }
+    },
+    {
+      "npc": "npc.zadimus_ghost",
+      "x": 2796,
+      "z": 3089,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Spirit_of_Zadimus",
+        "map": "{{Map|name=Spirit of Zadimus|x=2796|y=3089|plane=0|squareX=7|squareY=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_karaday",
+      "x": 2797,
+      "z": 3089,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Karaday",
+        "map": "{{Map|name=Karaday|x=2797|y=3089|plane=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tbwcu_karaday_nosticks",
+      "x": 2797,
+      "z": 3089,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Karaday",
+        "map": "{{Map|name=Karaday|x=2797|y=3089|plane=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_calquat",
+      "x": 2797,
+      "z": 3102,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Imiago",
+        "map": "{{Map|name=Imiago|x=2797|y=3102|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.trufitus",
+      "x": 2809,
+      "z": 3086,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Trufitus",
+        "map": "{{Map|mtype=pin|2809,3086|bucket=yes}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11318,
+  "spawns": [
+    {
+      "npc": "npc.farming_shopkeeper_2",
+      "x": 2819,
+      "z": 3462,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vanessa",
+        "map": "{{Map|name=Vanessa|2819,3462|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tunnel_dwarf1",
+      "x": 2821,
+      "z": 3487,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vestri",
+        "map": "{{Map|name=Vestri|x=2821|y=3487|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.grim_grimgnash_awake",
+      "x": 2865,
+      "z": 3510,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grimgnash",
+        "map": "{{Map|name=Grimgnash|x=2865|y=3510|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tunnel_dwarf",
+      "x": 2876,
+      "z": 3483,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Austri",
+        "map": "{{Map|name=Austri|x=2876|y=3483|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

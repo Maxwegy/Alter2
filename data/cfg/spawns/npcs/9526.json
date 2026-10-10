@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9526,
+  "spawns": [
+    {
+      "npc": "npc.swan_boatwoman_1",
+      "x": 2369,
+      "z": 3486,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kathy_Corkat",
+        "map": "{{Map|name=Kathy Corkat|x=2369|y=3486|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gnomereferee",
+      "x": 2382,
+      "z": 3489,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gnome_ball_referee",
+        "map": "{{Map|name=Gnome ball referee|x=2382|y=3489|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gt_anita",
+      "x": 2390,
+      "z": 3514,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anita",
+        "map": "{{Map|x=2390|y=3514|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm2_anita_postquest",
+      "x": 2390,
+      "z": 3514,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anita",
+        "map": "{{Map|x=2390|y=3514|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnomeball_fan",
+      "x": 2396,
+      "z": 3477,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wurbel",
+        "map": "{{Map|name=Wurbel|x=2396|y=3477|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.secret_ghost_spy",
+      "x": 2396,
+      "z": 3481,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lennissa",
+        "map": "{{Map|name=Lennissa|x=2396|y=3481|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gnomeballer_green",
+      "x": 2396,
+      "z": 3488,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gnome_winger",
+        "map": "{{Map|name=Gnome winger|x=2396|y=3488|squareX=25|squareY=16|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gnomeballer_green_withball",
+      "x": 2396,
+      "z": 3488,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gnome_winger",
+        "map": "{{Map|name=Gnome winger|x=2396|y=3488|squareX=25|squareY=16|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gnomecheerleader",
+      "x": 2397,
+      "z": 3495,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cheerleader",
+        "map": "{{Map|name=Cheerleader|x=2397|y=3495|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gnome_ball_coach",
+      "x": 2406,
+      "z": 3498,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gnome_Coach",
+        "map": "{{Map|mtype=pin|2406,3498}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_toad_handler",
+      "x": 2417,
+      "z": 3516,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sarble",
+        "map": "{{Map|name=Sarble|x=2417|y=3516|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnome_cheerleader",
+      "x": 2418,
+      "z": 3497,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Damwin",
+        "map": "{{Map|name=Damwin|x=2418|y=3497|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnomeknight",
+      "x": 2421,
+      "z": 3471,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Burkor",
+        "map": "{{Map|name=Burkor|x=2421|y=3471|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

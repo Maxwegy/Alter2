@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8755,
+  "spawns": [
+    {
+      "npc": "npc.prif_city_guard",
+      "x": 2238,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(Prifddinas_gatekeeper)",
+        "map": "{{Map|2299,3329|2238,3268|group=1|mtype=pin|zoom=1}}"
+      }
+    },
+    {
+      "npc": "npc.prif_city_guard_evil",
+      "x": 2238,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(Prifddinas_gatekeeper)",
+        "map": "{{Map|2299,3329|2238,3268|group=1|mtype=pin|zoom=1}}"
+      }
+    }
+  ]
+}

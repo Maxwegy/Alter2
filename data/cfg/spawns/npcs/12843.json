@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12843,
+  "spawns": [
+    {
+      "npc": "npc.magic_carpet_seller8",
+      "x": 3243,
+      "z": 2813,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
+        "map": "{{Map|name=Rug Merchant|3401,2918|3287,2813|3243,2813|plane=0|mapID=0|mtype=pin|group=22}}"
+      }
+    }
+  ]
+}

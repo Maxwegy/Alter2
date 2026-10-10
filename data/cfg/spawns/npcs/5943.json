@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5943,
+  "spawns": [
+    {
+      "npc": "npc.shayzien_church_father",
+      "x": 1497,
+      "z": 3563,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Father_Eysseric",
+        "map": "{{Map|name=Father Eysseric|x=1497|y=3563|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_church_woman",
+      "x": 1498,
+      "z": 3567,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mia",
+        "map": "{{Map|name=Mia|x=1498|y=3567|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_outofplace_soldier",
+      "x": 1502,
+      "z": 3554,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/New_Recruit_Tony",
+        "map": "{{Map|name=New Recruit Tony|1502,3554|squareX=19|squareY=13|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_oldman",
+      "x": 1510,
+      "z": 3551,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Old_man_(Shayzien)",
+        "map": "{{Map|name=Old man|1510,3551|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_eager_sergeant",
+      "x": 1529,
+      "z": 3567,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sergeant_Ricardo",
+        "map": "{{Map|name=Sergeant Ricardo|plane=2|x=1529|y=3567|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_commissioner",
+      "x": 1530,
+      "z": 3567,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Commissioner_Anwar",
+        "map": "{{Map|name=Commissioner Anwar|x=1530|y=3567|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shayzien_recruitment_captain",
+      "x": 1530,
+      "z": 3567,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Bruce",
+        "map": "{{Map|name=Captain Bruce|x=1530|y=3567|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_guard_sergeant_roof",
+      "x": 1532,
+      "z": 3545,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shayda",
+        "map": "{{Map|name=Shayda|x=1532|y=3545|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

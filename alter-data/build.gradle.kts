@@ -35,3 +35,19 @@ tasks.register<JavaExec>("wikiSync") {
     args(providers.gradleProperty("wikiArgs").map { it.split(' ').filter(String::isNotBlank) }.getOrElse(emptyList()))
     outputs.upToDateWhen { false }
 }
+
+/**
+ * Regenerates the wiki entries in data/cfg/spawns/npcs from the wiki's {{Map}} templates, keeping every manual
+ * entry. Never touches data/cfg/wiki. Runs from game-server/ like wikiSync. Pass flags with
+ * -PspawnArgs="--offline" or -PspawnArgs="--refresh".
+ */
+tasks.register<JavaExec>("spawnSync") {
+    group = "alter data"
+    description = "Generate NPC spawns from the OSRS Wiki {{Map}} templates into data/cfg/spawns/npcs"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass.set("org.alter.data.cli.SpawnSyncMainKt")
+    workingDir = rootProject.file("game-server")
+    maxHeapSize = "3g"
+    args(providers.gradleProperty("spawnArgs").map { it.split(' ').filter(String::isNotBlank) }.getOrElse(emptyList()))
+    outputs.upToDateWhen { false }
+}

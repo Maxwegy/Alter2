@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11829,
+  "spawns": [
+    {
+      "npc": "npc.doric",
+      "x": 2952,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Doric",
+        "map": "{{Map|name=Doric|x=2952|y=3452|plane=0|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12085,
+  "spawns": [
+    {
+      "npc": "npc.fai_dwarf_worker_hammer",
+      "x": 3010,
+      "z": 3442,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Engineer",
+        "map": "{{Map|name=Engineer|x=3010|y=3442|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.nulodion",
+      "x": 3012,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nulodion",
+        "map": "{{Map|name=Nulodion|x=3012|y=3452|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.fai_dwarf_worker_patrol_01",
+      "x": 3016,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Engineering_assistant",
+        "map": "{{Map|name=Engineering assistant|x=3016|y=3447|plane=0|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fai_dwarf_worker_patrol_02",
+      "x": 3016,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Engineering_assistant",
+        "map": "{{Map|name=Engineering assistant|x=3016|y=3447|plane=0|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dwarfrock_rolad",
+      "x": 3021,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rolad",
+        "map": "{{Map|name=Rolad|x=3021|y=3452|plane=0|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

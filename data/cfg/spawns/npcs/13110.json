@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13110,
+  "spawns": [
+    {
+      "npc": "npc.jollyboar_bartender",
+      "x": 3277,
+      "z": 3489,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Jolly_Boar_Inn)",
+        "map": "{{Map|name=Bartender (Jolly Boar Inn)|3277,3489|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.johnathon_fitzharmon_1op",
+      "x": 3278,
+      "z": 3505,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Johnathon",
+        "map": "{{Map|name=Johnathon|x=3278|y=3505|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.johnathon_fitzharmon_2ops",
+      "x": 3278,
+      "z": 3505,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Johnathon",
+        "map": "{{Map|name=Johnathon|x=3278|y=3505|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.fai_varrock_bench",
+      "x": 3285,
+      "z": 3469,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bench_(What_Lies_Below)",
+        "map": "{{Map|name=Bench (What Lies Below)|x:3285,y:3469|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.fai_varrock_jollyboar_chef",
+      "x": 3285,
+      "z": 3489,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cook_(Jolly_Boar_Inn)",
+        "map": "{{Map|name=Cook (Jolly Boar Inn)|x=3285|y=3489|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.surok_annajones",
+      "x": 3286,
+      "z": 3469,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anna_Jones",
+        "map": "{{Map|name=Anna Jones|x=3286|y=3469|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zep_assist_varr",
+      "x": 3299,
+      "z": 3480,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Assistant_Serf",
+        "map": "{{Map|name=Assistant Serf|x=3299|y=3480|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.poh_sawmill_opp",
+      "x": 3302,
+      "z": 3492,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sawmill_operator",
+        "map": "{{Map|name=Sawmill operator|x=3302|y=3492|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gertrudescat",
+      "x": 3310,
+      "z": 3506,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gertrude's_cat_(NPC)",
+        "map": "{{Map|name=Fluffs|x=3310|y=3506|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

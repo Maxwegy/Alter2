@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10806,
+  "spawns": [
+    {
+      "npc": "npc.foresters_bartender",
+      "x": 2692,
+      "z": 3496,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Forester's_Arms)",
+        "map": "{{Map|name=Bartender (Forester's Arms)|x=2692|y=3496|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.poison_salesman",
+      "x": 2694,
+      "z": 3494,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poison_Salesman",
+        "map": "{{Map|name=Poison Salesman|x=2694|y=3494|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.favour_phantuwti_farsight",
+      "x": 2702,
+      "z": 3473,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Phantuwti_Fanstuwi_Farsight",
+        "map": "{{Map|name=Phantuwti Fanstuwi Farsight|x=2702|y=3473|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shadow_maj_seer",
+      "x": 2702,
+      "z": 3473,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sin_Seer",
+        "map": "{{Map|name=Sin Seer|x=2702|y=3473|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.seer",
+      "x": 2705,
+      "z": 3483,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seer",
+        "map": "{{Map|name=Seer|x=2705|y=3483|squareX=22|squareY=16|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_court_prosecutor",
+      "x": 2736,
+      "z": 3469,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Prosecutor",
+        "map": "{{Map|name=Prosecutor|x=2736|y=3469|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_judge_dummy",
+      "x": 2736,
+      "z": 3469,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Court_judge",
+        "map": "{{Map|name=Judge|x=2736|y=3469|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_court_house_guard_01",
+      "x": 2736,
+      "z": 3470,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(courthouse)",
+        "map": "{{Map|name=Guard (Courthouse)|x=2736|y=3470|plane=0|r=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_court_house_guard_02",
+      "x": 2736,
+      "z": 3470,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(courthouse)",
+        "map": "{{Map|name=Guard (Courthouse)|x=2736|y=3470|plane=0|r=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_anna_sinclair",
+      "x": 2737,
+      "z": 3466,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anna",
+        "map": "{{Map|name=Anna|x=2737|y=3466|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_anna_sinclair_cutscene",
+      "x": 2737,
+      "z": 3466,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anna",
+        "map": "{{Map|name=Anna|x=2737|y=3466|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pmod_town_crier_seers",
+      "x": 2738,
+      "z": 3482,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Town_Crier",
+        "map": "{{Map|name=Town Crier|x=2738|y=3482|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kr_squire",
+      "x": 2750,
+      "z": 3508,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Squire_(Camelot)",
+        "map": "{{Map|name=Squire (Camelot)|x=2750|y=3508|plane=2|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

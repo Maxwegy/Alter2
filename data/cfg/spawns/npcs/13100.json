@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13100,
+  "spawns": [
+    {
+      "npc": "npc.ics_little_redheadlady_normeyes",
+      "x": 3315,
+      "z": 2849,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wanderer",
+        "map": "{{Map|name=Wanderer|x:3315,y:2849|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    }
+  ]
+}

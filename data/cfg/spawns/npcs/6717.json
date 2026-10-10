@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6717,
+  "spawns": [
+    {
+      "npc": "npc.husky_wander",
+      "x": 1699,
+      "z": 3945,
+      "height": 0,
+      "walkRadius": 25,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Husky_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=50|rectY=50|1699,3945|}}"
+      }
+    },
+    {
+      "npc": "npc.fh_rakkar",
+      "x": 1704,
+      "z": 3940,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rakkar",
+        "map": "{{Map|name=Rakkar|x=1704|y=3940|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

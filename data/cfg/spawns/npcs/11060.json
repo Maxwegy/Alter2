@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11060,
+  "spawns": [
+    {
+      "npc": "npc.frincos",
+      "x": 2810,
+      "z": 3343,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Frincos",
+        "map": "{{Map|name=Frincos|x=2810|y=3343|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.francis",
+      "x": 2815,
+      "z": 3336,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Francis",
+        "map": "{{Map|name=Francis|x=2815|y=3336|r=4|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

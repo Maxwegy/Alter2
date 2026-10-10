@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5178,
+  "spawns": [
+    {
+      "npc": "npc.kebos_farmer_1",
+      "x": 1296,
+      "z": 3723,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Keith",
+        "map": "{{Map|name=Keith|x=1296|y=3723|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

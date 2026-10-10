@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4661,
+  "spawns": [
+    {
+      "npc": "npc.league_navigator",
+      "x": 1198,
+      "z": 3450,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/League_Navigator",
+        "map": "{{Map|name=League Navigator|1198,3450|mtype=pin}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4656,
+  "spawns": [
+    {
+      "npc": "npc.rainforest_troupe_singer_1",
+      "x": 1190,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bard",
+        "map": "{{Map|x=1190|y=3112|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.rainforest_troupe_singer_2",
+      "x": 1190,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bard",
+        "map": "{{Map|x=1190|y=3112|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.rainforest_troupe_singer_3",
+      "x": 1190,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bard",
+        "map": "{{Map|x=1190|y=3112|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_blacksmith",
+      "x": 1209,
+      "z": 3109,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Blacksmith_(Tal_Teklan)",
+        "map": "{{Map|name=Blacksmith (Tal Telkan)|1209,3109|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tal_teklan_archery_trader",
+      "x": 1210,
+      "z": 3096,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arcuani",
+        "map": "{{Map|name=Arcuani|x=1210|y=3096|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    }
+  ]
+}

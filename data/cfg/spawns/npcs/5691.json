@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5691,
+  "spawns": [
+    {
+      "npc": "npc.lova_tinker",
+      "x": 1412,
+      "z": 3809,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Old_dwarf",
+        "map": "{{Map|name=Old dwarf|x=1412|y=3809|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_citizen_3",
+      "x": 1429,
+      "z": 3797,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
+        "map": "{{Map|name=Dwarf|x=1429|y=3797|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_guard_6",
+      "x": 1429,
+      "z": 3797,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_3)",
+        "map": "{{Map|name=Armourer (tier 3)|x=1429|y=3797|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_mine_supervisor_1",
+      "x": 1437,
+      "z": 3829,
+      "height": 0,
+      "walkRadius": 20,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mine_supervisor",
+        "map": "{{Map|name=Mine supervisor|x=1437|y=3829|r=20|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_mine_supervisor_2",
+      "x": 1437,
+      "z": 3829,
+      "height": 0,
+      "walkRadius": 20,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mine_supervisor",
+        "map": "{{Map|name=Mine supervisor|x=1437|y=3829|r=20|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_citizen_2",
+      "x": 1442,
+      "z": 3785,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
+        "map": "{{Map|name=Dwarf|x=1442|y=3785|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_guard_5",
+      "x": 1442,
+      "z": 3785,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_2)",
+        "map": "{{Map|name=Armourer (tier 2)|x=1442|y=3785|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dt2_lovakengj_historian",
+      "x": 1460,
+      "z": 3780,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Barus",
+        "map": "{{Map|name=Jonathan|x=1460|y=3780|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

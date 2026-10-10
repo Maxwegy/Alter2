@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14647,
+  "spawns": [
+    {
+      "npc": "npc.ahoy_disciple",
+      "x": 3660,
+      "z": 3520,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_disciple",
+        "map": "{{Map|name=Ghost disciple|x=3660|y=3520|r=8|mtype=square}}"
+      }
+    }
+  ]
+}

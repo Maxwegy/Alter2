@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6201,
+  "spawns": [
+    {
+      "npc": "npc.akd_rachelle_cutscene",
+      "x": 1543,
+      "z": 3686,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Rachelle",
+        "map": "{{Map|name=Captain Rachelle|x=1543|y=3686|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_general_central",
+      "x": 1543,
+      "z": 3686,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Rachelle",
+        "map": "{{Map|name=Captain Rachelle|x=1543|y=3686|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_ranger",
+      "x": 1595,
+      "z": 3668,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
+        "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_ranger",
+      "x": 1595,
+      "z": 3672,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
+        "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_ranger",
+      "x": 1595,
+      "z": 3674,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
+        "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_ranger",
+      "x": 1595,
+      "z": 3678,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
+        "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
+      }
+    }
+  ]
+}

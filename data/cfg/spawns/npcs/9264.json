@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9264,
+  "spawns": [
+    {
+      "npc": "npc.pog_gnome_longramble_vis",
+      "x": 2340,
+      "z": 3091,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Longramble",
+        "map": "{{Map|name=Longramble|x=2340|y=3091|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

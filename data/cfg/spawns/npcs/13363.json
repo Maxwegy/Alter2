@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13363,
+  "spawns": [
+    {
+      "npc": "npc.pvpa_guard_3_model",
+      "x": 3341,
+      "z": 3270,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Beni",
+        "map": "{{Map|name=Arena Guard Beni|x=3341|y=3270|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_nurse1",
+      "x": 3359,
+      "z": 3276,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/A'abla",
+        "map": "{{Map|name=A'abla|x=3359|y=3276|plane=0|r=4|mtype=square|ptype=npc}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_guard_entrance",
+      "x": 3363,
+      "z": 3305,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Entrance_Guardian",
+        "map": "{{Map|name=Entrance Guardian|x=3363|y=3305|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_guard_alchem",
+      "x": 3363,
+      "z": 3308,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alchemy_Guardian",
+        "map": "{{Map|name=Alchemy Guardian|x=3363|y=3308|plane=0|r=9|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_guard_rewards",
+      "x": 3363,
+      "z": 3318,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rewards_Guardian_(Mage_Training_Arena)",
+        "map": "{{Map|name=Rewards Guardian|x=3363|y=3318|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_flying_book2",
+      "x": 3364,
+      "z": 3308,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Flying_Book",
+        "map": "{{Map|name=Flying Book|x=3364|y=3308|plane=0|r=2|mapID=0|mtype=square|group=5976}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_guard_grave",
+      "x": 3364,
+      "z": 3310,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Graveyard_Guardian",
+        "map": "{{Map|name=Graveyard Guardian|x=3364|y=3310|squareX=20|squareY=30|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_jaraah",
+      "x": 3365,
+      "z": 3276,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jaraah",
+        "map": "{{Map|name=Jaraah|x=3365|y=3276|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_nurse2",
+      "x": 3365,
+      "z": 3276,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sabreen",
+        "map": "{{Map|name=Sabreen|x=3365|y=3276|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_flying_book2",
+      "x": 3365,
+      "z": 3318,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Flying_Book",
+        "map": "{{Map|name=Flying Book|x=3365|y=3318|plane=1|r=2|zoom=3|mapID=0|mtype=square|group=5976}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_1v1_guide",
+      "x": 3367,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/1v1_Tournament_Guide",
+        "map": "{{Map|name=1v1 Tournament Guide|x=3367|y=3268|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_duel_guide",
+      "x": 3367,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Duel_Guide",
+        "map": "{{Map|name=Duel Guide|x=3367|y=3268|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magictraining_flying_book",
+      "x": 3367,
+      "z": 3304,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Flying_Book",
+        "map": "{{Map|name=Flying Book|x=3367|y=3304|plane=0|r=2|mapID=0|mtype=square|group=5975}}"
+      }
+    },
+    {
+      "npc": "npc.duel_nurse3",
+      "x": 3372,
+      "z": 3276,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Surgeon_General_Tafani",
+        "map": "{{Map|name=Surgeon General Tafani|x=3372|y=3276|plane=0|r=5|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.duel_injured1",
+      "x": 3373,
+      "z": 3276,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zahwa",
+        "map": "{{Map|name=Zahwa|x=3373|y=3276|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_monk",
+      "x": 3377,
+      "z": 3284,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hamid",
+        "map": "{{Map|name=Hamid|x=3377|y=3284|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_fadli",
+      "x": 3382,
+      "z": 3270,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fadli",
+        "map": "{{Map|name=Fadli|x=3382|y=3270|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_repairman",
+      "x": 3382,
+      "z": 3270,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chris",
+        "map": "{{Map|name=Chris|x=3382|y=3270|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_guard_7",
+      "x": 3387,
+      "z": 3265,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Drakno",
+        "map": "{{Map|name=Arena Guard Drakno|x=3387|y=3265|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

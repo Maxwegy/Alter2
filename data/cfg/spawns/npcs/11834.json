@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11834,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_capeseller_2",
+      "x": 2976,
+      "z": 3771,
+      "height": 0,
+      "walkRadius": 18,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ian",
+        "map": "{{Map|name=Ian|x=2976|y=3771|plane=0|r=18|mtype=square}}"
+      }
+    }
+  ]
+}

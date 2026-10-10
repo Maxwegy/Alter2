@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12860,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_capeseller_1",
+      "x": 3248,
+      "z": 3856,
+      "height": 0,
+      "walkRadius": 30,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/William",
+        "map": "{{Map|name=William|x=3248|y=3856|plane=0|r=30|mtype=square}}"
+      }
+    }
+  ]
+}

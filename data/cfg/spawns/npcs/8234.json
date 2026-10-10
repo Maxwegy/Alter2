@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8234,
+  "spawns": [
+    {
+      "npc": "npc.shipyard_sailing_cat",
+      "x": 2067,
+      "z": 2718,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cat_(Shipyard,_captain)",
+        "map": "{{Map|x=2067|y=2718|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_shipyard_worker_13",
+      "x": 2068,
+      "z": 2721,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shipyard_Engineer",
+        "map": "{{Map|name=Shipyard Engineer|x=2068|y=2721|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.shipyard_chief_mouser01",
+      "x": 2070,
+      "z": 2715,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Joint-Chief_Mouser_to_the_Shipyard_Office",
+        "map": "{{Map|mtype=pin|x=2070|y=2715|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.shipyard_chief_mouser02",
+      "x": 2071,
+      "z": 2715,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Joint-Chief_Mouser_to_the_Shipyard_Office",
+        "map": "{{Map|mtype=pin|x=2071|y=2715|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_shipyard_worker_10",
+      "x": 2074,
+      "z": 2711,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Luke",
+        "map": "{{Map|x=2074|y=2711|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_shipyard_manager_vis",
+      "x": 2082,
+      "z": 2722,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shipwright_Seb",
+        "map": "{{Map|x=2082|y=2722|mtype=pin}}"
+      }
+    }
+  ]
+}

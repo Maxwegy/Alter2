@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5942,
+  "spawns": [
+    {
+      "npc": "npc.kw_dog_floki",
+      "x": 1474,
+      "z": 3473,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floki",
+        "map": "{{Map|name=Floki|x=1474|y=3473|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kw_duck_guy",
+      "x": 1504,
+      "z": 3467,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Duck_(Kourend_Woodland)",
+        "map": "{{Map|1504,3467|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kw_red_guy",
+      "x": 1507,
+      "z": 3471,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Reginald",
+        "map": "{{Map|name=Reginald|x=1507|y=3471|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kw_yellow_guy",
+      "x": 1507,
+      "z": 3471,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Roy_jr.",
+        "map": "{{Map|name=Roy jr.|x=1507|y=3471|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11325,
+  "spawns": [
+    {
+      "npc": "npc.my2arm_sentry_boulder",
+      "x": 2844,
+      "z": 3935,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Boulder",
+        "map": "{{Map|name=Boulder|x=2844|y=3935|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arctic_squirrel",
+      "x": 2858,
+      "z": 3953,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Squirrel_(Weiss)",
+        "map": "{{Map|name=Squirrel|x=2858|y=3953|squareX=20|squareY=10|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.my2arm_snowflake",
+      "x": 2872,
+      "z": 3935,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snowflake",
+        "map": "{{Map|name=Snowflake|x=2872|y=3935|plane=0|r=1|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5421,
+  "spawns": [
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1353,
+      "z": 2930,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1353,
+      "z": 2930,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1353,
+      "z": 2930,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1353,
+      "z": 2930,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1361,
+      "z": 2934,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1361,
+      "z": 2934,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1361,
+      "z": 2934,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1361,
+      "z": 2934,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1362,
+      "z": 2908,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1362,
+      "z": 2908,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1362,
+      "z": 2908,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1362,
+      "z": 2908,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1362,
+      "z": 2912,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1362,
+      "z": 2912,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1362,
+      "z": 2912,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1362,
+      "z": 2912,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1364,
+      "z": 2929,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1364,
+      "z": 2929,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1364,
+      "z": 2929,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1364,
+      "z": 2929,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1366,
+      "z": 2895,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1366,
+      "z": 2895,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1366,
+      "z": 2895,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1366,
+      "z": 2895,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_hops_5",
+      "x": 1367,
+      "z": 2936,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ercos",
+        "map": "{{Map|name=Ecros|x=1367|y=2936|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1369,
+      "z": 2914,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1369,
+      "z": 2914,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1369,
+      "z": 2914,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1369,
+      "z": 2914,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vineyard_foreman",
+      "x": 1370,
+      "z": 2915,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_foreman",
+        "map": "{{Map|name=Vineyard foreman|1370,2915|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1375,
+      "z": 2894,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1375,
+      "z": 2894,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1375,
+      "z": 2894,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1375,
+      "z": 2894,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_bartender",
+      "x": 1376,
+      "z": 2927,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Sunlight's_Sanctum)",
+        "map": "{{Map|name=Bartender|1376,2927|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1377,
+      "z": 2900,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1377,
+      "z": 2900,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1377,
+      "z": 2900,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1377,
+      "z": 2900,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mm_lab_tech_05",
+      "x": 1385,
+      "z": 2916,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alaxxi",
+        "map": "{{Map|name=Alaxxi|1385,2916|mtype=square|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.doti_cleaner_vis",
+      "x": 1387,
+      "z": 2928,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
+        "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_cleaner_outside",
+      "x": 1387,
+      "z": 2928,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
+        "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_cleaner_outside_2",
+      "x": 1387,
+      "z": 2928,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
+        "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_1",
+      "x": 1388,
+      "z": 2903,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_2",
+      "x": 1388,
+      "z": 2903,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_3",
+      "x": 1388,
+      "z": 2903,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_vine_worker_4",
+      "x": 1388,
+      "z": 2903,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vineyard_worker",
+        "map": "{{Map|name=Vineyard worker|1388,2903|1362,2912|1364,2929|1366,2895|1361,2934|1362,2908|1377,2900|1353,2930|1369,2914|1375,2894|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mm_lab_tech_01",
+      "x": 1388,
+      "z": 2918,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meztlan",
+        "map": "{{Map|name=Meztlan|1388,2918|plane=2|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.mm_lab_tech_02",
+      "x": 1391,
+      "z": 2917,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Clanila",
+        "map": "{{Map|name=Clanila|x=1391|y=2917|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aldarin_not_hitman",
+      "x": 1406,
+      "z": 2939,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Well-dressed_man",
+        "map": "{{Map|1406,2939|plane=1|mtype=pin}}"
+      }
+    }
+  ]
+}

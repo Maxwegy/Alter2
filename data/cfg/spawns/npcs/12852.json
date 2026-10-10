@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12852,
+  "spawns": [
+    {
+      "npc": "npc.canoeing_tarquin",
+      "x": 3203,
+      "z": 3344,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tarquin",
+        "map": "{{Map|name=Tarquin|3203,3344|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tramppg",
+      "x": 3206,
+      "z": 3390,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Charlie_the_Tramp",
+        "map": "{{Map|name=Charlie the Tramp|x=3206|y=3390|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.25th_cat",
+      "x": 3234,
+      "z": 3384,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sookie",
+        "map": "{{Map|3234,3384|mtype=square|r=3|plane=1}}"
+      }
+    },
+    {
+      "npc": "npc.25th_host",
+      "x": 3234,
+      "z": 3384,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_Gary",
+        "map": "{{Map|3234,3384|mtype=square|r=3|plane=1}}"
+      }
+    },
+    {
+      "npc": "npc.con_contract_client_3",
+      "x": 3235,
+      "z": 3383,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sarah_(Mahogany_Homes)",
+        "map": "{{Map|mtype=pin|3235,3383|bucket=yes}}"
+      }
+    }
+  ]
+}

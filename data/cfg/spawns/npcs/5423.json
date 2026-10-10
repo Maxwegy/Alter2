@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5423,
+  "spawns": [
+    {
+      "npc": "npc.farming_gardener_fruit_7",
+      "x": 1350,
+      "z": 3057,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ehecatl",
+        "map": "{{Map|name=Ehecatl|x=1350|y=3057|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.kastori_farming_trader",
+      "x": 1357,
+      "z": 3061,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ameyalli",
+        "map": "{{Map|name=Ameyalli|1357,3061|mtype=rectangle|rectX=4|rectY=4}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_calquat_2",
+      "x": 1367,
+      "z": 3032,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tziuhtla",
+        "map": "{{Map|name=Tziuhtla|x=1367|y=3032|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_dog_ziggy_broccoli",
+      "x": 1372,
+      "z": 3063,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ziggy",
+        "map": "{{Map|1372,3063|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.kastori_general_store",
+      "x": 1373,
+      "z": 3045,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Kastori)",
+        "map": "{{Map|1373,3045|mtype=rectangle|rectX=5|rectY=3}}"
+      }
+    },
+    {
+      "npc": "npc.kastori_fishing_trader",
+      "x": 1375,
+      "z": 3037,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sulisal",
+        "map": "{{Map|name=Sulisal|1375,3037|mtype=rectangle|rectX=5|rectY=7}}"
+      }
+    },
+    {
+      "npc": "npc.ic_citlalli",
+      "x": 1380,
+      "z": 3052,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Citlalli",
+        "map": "{{Map|name=Citlalli|1380,3052|mtype=rectangle|rectX=4|rectY=5}}"
+      }
+    },
+    {
+      "npc": "npc.ic_ecatl",
+      "x": 1390,
+      "z": 3043,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ecatl",
+        "map": "{{Map|name=Ecatl|1390,3043|mtype=square|r=2}}"
+      }
+    }
+  ]
+}

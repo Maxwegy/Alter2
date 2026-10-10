@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9008,
+  "spawns": [
+    {
+      "npc": "npc.sote_lady_hefin_vis_unknown",
+      "x": 2276,
+      "z": 3093,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lady_Carys_Hefin",
+        "map": "{{Map|name=Elf Hermit|x:2276,y:3093|plane=0|mapID=0|mtype=pin|ptype=npc}}"
+      }
+    }
+  ]
+}

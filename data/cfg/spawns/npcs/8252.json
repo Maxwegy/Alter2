@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8252,
+  "spawns": [
+    {
+      "npc": "npc.lunar_moonclan_monk2",
+      "x": 2081,
+      "z": 3896,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meteora",
+        "map": "{{Map|name=Meteora|x=2081|y=3896|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

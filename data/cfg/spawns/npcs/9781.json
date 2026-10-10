@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9781,
+  "spawns": [
+    {
+      "npc": "npc.slayer_master_steve",
+      "x": 2432,
+      "z": 3423,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Steve",
+        "map": "{{Map|name=Steve|x=2432|y=3423|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnome_child",
+      "x": 2434,
+      "z": 3401,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Froono",
+        "map": "{{Map|name=Froono|x=2434|y=3401|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_tree_gnome",
+      "x": 2436,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Prissy_Scilla",
+        "map": "{{Map|name=Prissy Scilla|x=2436|y=3415|plane=0|r=5|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.gnome_bank_guard",
+      "x": 2446,
+      "z": 3417,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_Vemmeldo",
+        "map": "{{Map|name=Guard Vemmeldo|x=2446|y=3417|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_fruit_1",
+      "x": 2477,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bolongo",
+        "map": "{{Map|name=Bolongo|x=2477|y=3447|plane=0|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.gnometrainer",
+      "x": 2480,
+      "z": 3427,
+      "height": 0,
+      "walkRadius": 13,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gnome_trainer",
+        "map": "{{Map|name=Gnome trainer|x=2480|y=3427|plane=0|r=13|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_customer_spinner",
+      "x": 2489,
+      "z": 3410,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ermin",
+        "map": "{{Map|name=Ermin|x=2489|y=3410|plane=1|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

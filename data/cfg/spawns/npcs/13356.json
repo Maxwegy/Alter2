@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13356,
+  "spawns": [
+    {
+      "npc": "npc.agility_pyramid_simon",
+      "x": 3344,
+      "z": 2828,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Simon_Templeton",
+        "map": "{{Map|name=Simon Templeton|x=3344|y=2828|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

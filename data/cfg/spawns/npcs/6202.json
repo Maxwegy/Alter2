@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6202,
+  "spawns": [
+    {
+      "npc": "npc.lovakengj_bartender",
+      "x": 1567,
+      "z": 3759,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fuggy",
+        "map": "{{Map|name=Fuggy|1567,3759|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_charcoal_mother",
+      "x": 1570,
+      "z": 3719,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Moggy",
+        "map": "{{Map|name=Moggy|x=1570|y=3719|squareX=10|squareY=6|mtype=square}}"
+      }
+    }
+  ]
+}

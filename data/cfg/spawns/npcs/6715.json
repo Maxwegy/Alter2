@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6715,
+  "spawns": [
+    {
+      "npc": "npc.arceuus_cleric",
+      "x": 1698,
+      "z": 3794,
+      "height": 2,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mofina",
+        "map": "{{Map|name=Mofina|x=1698|y=3794|plane=2|squareX=23|squareY=14|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_novice",
+      "x": 1700,
+      "z": 3794,
+      "height": 1,
+      "walkRadius": 12,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Novice",
+        "map": "{{Map|1700,3794|plane=1|rectX=28|rectY=24|mtype=rectangle}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_mori_postquest_visible",
+      "x": 1706,
+      "z": 3799,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mori",
+        "map": "{{Map|name=Mori|1706,3799|mtype=pin|plane=2|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_bloodguardian",
+      "x": 1717,
+      "z": 3830,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Okina",
+        "map": "{{Map|name=Okina|x=1717|y=3830|r=8|mtype=square}}"
+      }
+    }
+  ]
+}

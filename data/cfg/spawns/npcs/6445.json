@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6445,
+  "spawns": [
+    {
+      "npc": "npc.varlamore_wyrm_agility_guide_3op",
+      "x": 1639,
+      "z": 2922,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worm_Tongue",
+        "map": "{{Map|name=Worm Tongue|x=1639|y=2922|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_wyrm_agility_worker",
+      "x": 1639,
+      "z": 2923,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Construction_Worker",
+        "map": "{{Map|name=Construction Worker|x=1639|y=2923|plane=0|mtype=pin}}"
+      }
+    }
+  ]
+}

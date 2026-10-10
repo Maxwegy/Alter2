@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5687,
+  "spawns": [
+    {
+      "npc": "npc.lovakengj_minecart_shayzien_wall",
+      "x": 1415,
+      "z": 3578,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hatna",
+        "map": "{{Map|name=Hatna|x=1415|y=3578|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_raids_captain",
+      "x": 1420,
+      "z": 3540,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Sdiar",
+        "map": "{{Map|name=Captain Sdiar|x=1420|y=3540|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

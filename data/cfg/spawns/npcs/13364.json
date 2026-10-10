@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13364,
+  "spawns": [
+    {
+      "npc": "npc.archaeological_expert",
+      "x": 3353,
+      "z": 3335,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Terry_Balando",
+        "map": "{{Map|name=Terry Balando|x=3353|y=3335|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.qip_digsite_researcher",
+      "x": 3362,
+      "z": 3337,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Researcher",
+        "map": "{{Map|name=Researcher|x=3362|y=3337|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.panning_guide",
+      "x": 3376,
+      "z": 3379,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Panning_guide",
+        "map": "{{Map|name=Panning guide|x=3376|y=3379|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.qip_digsite_panning_man_01",
+      "x": 3380,
+      "z": 3380,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nick",
+        "map": "{{Map|name=Nick|x=3380|y=3380|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.qip_digsite_panning_woman_01",
+      "x": 3380,
+      "z": 3380,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nisha",
+        "map": "{{Map|name=Nisha|x=3380|y=3380|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

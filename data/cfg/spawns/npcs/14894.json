@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14894,
+  "spawns": [
+    {
+      "npc": "npc.harmless_island_cave_pirate",
+      "x": 3750,
+      "z": 2973,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cavey_Davey",
+        "map": "{{Map|name=Cavey Davey|x=3750|y=2973|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

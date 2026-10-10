@@ -41,6 +41,10 @@ class RscmGenerateStagedTests {
                 if (name in overrides) continue // renamed aliases: content changes in the bump PR
                 val id = g.resolve(table, name)
                 assertNotNull("${table.rscm}.$name does not resolve", id)
+                // A canonical 241 gameval name is defined by this cache itself (e.g. the spawn files spawnSync writes),
+                // so it only has to resolve: comparing it with the 228 display of the same id would flag every NPC whose
+                // id was reused since 228. Only 228-era names (aliases) can change meaning.
+                if (g.migrations.getValue(table).canonical[id] == name) { checked++; continue }
                 // A name that was never in the 228 table (e.g. halibut, added in 229) only has to resolve.
                 val entry = g.migrations.getValue(table).entries.firstOrNull { it.oldName == name }
                 val before = entry?.let { g.oldDisplay.getValue(table)[it.oldId] }

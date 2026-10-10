@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8509,
+  "spawns": [
+    {
+      "npc": "npc.lunar_pirate_generic_pirate_6",
+      "x": 2138,
+      "z": 3907,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Betty'_B.Boppin",
+        "map": "{{Map|name='Betty' B.Boppin|x:2138,y:3907|plane=0|r=4|mtype=square|height=150}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_pirate_generic_pirate_5",
+      "x": 2138,
+      "z": 3912,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jack_Sails",
+        "map": "{{Map|name=Jack Sails|x:2138,y:3912|plane=2|r=4|mtype=square|height=150}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_pirate_generic_pirate_8",
+      "x": 2142,
+      "z": 3911,
+      "height": 3,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jenny_Blade",
+        "map": "{{Map|name=Jenny Blade|x:2142,y:3911|plane=3|r=4|mtype=square|height=150}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_pirate_generic_pirate_8",
+      "x": 2143,
+      "z": 3905,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jenny_Blade",
+        "map": "{{Map|name=Jenny Blade|x:2143,y:3905|plane=2|r=4|mtype=square|height=150}}"
+      }
+    }
+  ]
+}

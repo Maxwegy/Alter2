@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6462,
+  "spawns": [
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1614,
+      "z": 4001,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1614,
+      "z": 4008,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1614,
+      "z": 4015,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1617,
+      "z": 3994,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1618,
+      "z": 4020,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard",
+      "x": 1619,
+      "z": 3996,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard_down",
+      "x": 1619,
+      "z": 3996,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard",
+      "x": 1619,
+      "z": 4018,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard_down",
+      "x": 1619,
+      "z": 4018,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1623,
+      "z": 4023,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1625,
+      "z": 3991,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_brewma",
+      "x": 1635,
+      "z": 3986,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brew'ma",
+        "map": "{{Map|name=Brew'ma|x=1635|y=3986|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1635,
+      "z": 3991,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1637,
+      "z": 4023,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard",
+      "x": 1641,
+      "z": 3996,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard_down",
+      "x": 1641,
+      "z": 3996,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard",
+      "x": 1641,
+      "z": 4018,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wizard_down",
+      "x": 1641,
+      "z": 4018,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pyromancer",
+        "map": "{{Map|x:1619,y:4018|x:1641,y:4018|x:1641,y:3996|x:1619,y:3996|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1642,
+      "z": 4020,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1643,
+      "z": 3994,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1646,
+      "z": 4001,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1646,
+      "z": 4008,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wint_area_npc",
+      "x": 1646,
+      "z": 4015,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Snow_(Wintertodt)",
+        "map": "{{Map|1614,4001|1614,4008|1614,4015|1617,3994|1618,4020|1623,4023|1625,3991|1635,3991|1637,4023|1642,4020|1643,3994|1646,4001|1646,4008|1646,4015|mtype=pin}}"
+      }
+    }
+  ]
+}

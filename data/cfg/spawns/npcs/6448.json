@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6448,
+  "spawns": [
+    {
+      "npc": "npc.varlamore_thieving_house_urchin_b",
+      "x": 1631,
+      "z": 3128,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ava_(Civitas_illa_Fortis)",
+        "map": "{{Map|x=1631|y=3128|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_thieving_house_urchin_a",
+      "x": 1632,
+      "z": 3096,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rufus_(Civitas_illa_Fortis)",
+        "map": "{{Map|x=1632|y=3096|r=6|plane=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_thieving_house_owner_2",
+      "x": 1636,
+      "z": 3099,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Victor_(Civitas_illa_Fortis)",
+        "map": "{{Map|x=1636|y=3099|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_thieving_house_owner_3",
+      "x": 1636,
+      "z": 3122,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Caius",
+        "map": "{{Map|x=1636|y=3122|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_1",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_2",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_3",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_4",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_1",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_2",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_3",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_4",
+      "x": 1646,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq4_janus_basement_cs",
+      "x": 1647,
+      "z": 3093,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Forebearer_Janus",
+        "map": "{{Map|name=Forebearer Janus|1647,3093|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq4_janus_house_janus",
+      "x": 1647,
+      "z": 3093,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Forebearer_Janus",
+        "map": "{{Map|name=Forebearer Janus|1647,3093|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_1",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_2",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_3",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_4",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_1",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_2",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_3",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_4",
+      "x": 1647,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_1",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_2",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_3",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_4",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_1",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_2",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_3",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_4",
+      "x": 1648,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_1",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_2",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_3",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_n_4",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_1",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_2",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_3",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_banker_s_4",
+      "x": 1649,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Civitas_illa_Fortis)",
+        "map": "{{Map|1646,3120|1647,3120|1648,3120|1649,3120|1781,3092|1780,3092|1779,3092|1778,3092|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_thieving_house_urchin_d",
+      "x": 1653,
+      "z": 3103,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oli",
+        "map": "{{Map|x=1653|y=3103|r=4|plane=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_dodgy_character",
+      "x": 1654,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oriana",
+        "map": "{{Map|x=1654|y=3112|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_dodgy_character_met",
+      "x": 1654,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oriana",
+        "map": "{{Map|x=1654|y=3112|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

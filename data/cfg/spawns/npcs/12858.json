@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12858,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_capeseller_3",
+      "x": 3205,
+      "z": 3718,
+      "height": 0,
+      "walkRadius": 52,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Larry_(merchant)",
+        "map": "{{Map|name=Larry|x=3205|y=3718|squareX=105|squareY=205|zoom=0|mapID=0|mtype=square}}"
+      }
+    }
+  ]
+}

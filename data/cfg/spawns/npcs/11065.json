@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11065,
+  "spawns": [
+    {
+      "npc": "npc.mdaughter_eagle",
+      "x": 2757,
+      "z": 3674,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bald_Headed_Eagle",
+        "map": "{{Map|name=Bald Headed Eagle|x:2757,y:3674|x:2762,y:3671|x:2785,y:3658|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_ancientrock_guard",
+      "x": 2760,
+      "z": 3656,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(Mountain_Camp)",
+        "map": "{{Map|name=Guard (Mountain Camp)|x=2760|y=3656|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_rockslide_guard",
+      "x": 2760,
+      "z": 3656,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(Mountain_Camp)",
+        "map": "{{Map|name=Guard (Mountain Camp)|x=2760|y=3656|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_eagle",
+      "x": 2762,
+      "z": 3671,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bald_Headed_Eagle",
+        "map": "{{Map|name=Bald Headed Eagle|x:2757,y:3674|x:2762,y:3671|x:2785,y:3658|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_ragnar",
+      "x": 2765,
+      "z": 3676,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ragnar",
+        "map": "{{Map|name=Ragnar|x=2765|y=3676|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_eagle",
+      "x": 2785,
+      "z": 3658,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bald_Headed_Eagle",
+        "map": "{{Map|name=Bald Headed Eagle|x:2757,y:3674|x:2762,y:3671|x:2785,y:3658|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_hamal",
+      "x": 2809,
+      "z": 3673,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hamal_the_Chieftain",
+        "map": "{{Map|name=Hamal the Chieftain|x=2809|y=3673|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mdaughter_jokul",
+      "x": 2811,
+      "z": 3681,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jokul",
+        "map": "{{Map|name=Jokul|x=2811|y=3681|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

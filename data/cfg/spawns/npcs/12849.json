@@ -3,6 +3,17 @@
   "regionId": 12849,
   "spawns": [
     {
+      "npc": "npc.aide_tutor_mining",
+      "x": 3227,
+      "z": 3146,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mining_tutor",
+        "map": "{{Map|name=Mining tutor|x=3227|y=3146|r=4|mtype=square}}"
+      }
+    },
+    {
       "npc": "npc.aide_tutor_cooking",
       "x": 3233,
       "z": 3195,
@@ -10,6 +21,28 @@
       "walkRadius": 3,
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/npcs/CookingTutorPlugin.kt"
+    },
+    {
+      "npc": "npc.mistmyst_abigale_lum_vis",
+      "x": 3236,
+      "z": 3155,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Abigale",
+        "map": "{{Map|name=Abigale|x=3236|y=3155|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mistmyst_hewey_lum_vis",
+      "x": 3236,
+      "z": 3155,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hewey",
+        "map": "{{Map|name=Hewey|x=3236|y=3155|r=3|mtype=square}}"
+      }
     },
     {
       "npc": "npc.count_check",
@@ -32,6 +65,17 @@
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "npc": "npc.aide_tutor_fishing",
+      "x": 3244,
+      "z": 3157,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_tutor",
+        "map": "{{Map|name=Fishing tutor|x=3244|y=3157|r=3|mtype=square}}"
+      }
+    },
+    {
       "npc": "npc.dragonslayer_giantrat_2",
       "x": 3246,
       "z": 3198,
@@ -40,6 +84,17 @@
       "direction": "WEST",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.ghostx",
+      "x": 3250,
+      "z": 3193,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Restless_ghost",
+        "map": "{{Map|name=Restless ghost|x=3250|y=3193|plane=0|r=3|mtype=square}}"
+      }
     }
   ]
 }

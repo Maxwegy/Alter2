@@ -73,6 +73,12 @@ external dataset to fall back on (osrsbox is dead, 2004scape is 2004-era data wi
 - `NpcSpawnsPlugin` / `NpcSpawnsLoader` in `game-plugins/.../infrastructure/spawns` read every file once in
   plugin `init {}` and queue each entry with `spawnNpc`; any invalid entry stops the boot. All 115 hand-written
   `spawnNpc` calls were migrated as `manual` entries and removed from the plugins; `spawnItem`/`spawnObj` stay.
+- `./gradlew :alter-data:spawnSync` (Phase 2, done) regenerates the `{ page, map }` entries from the infobox
+  `{{Map}}` of every page that embeds Template:Map and has an NPC or monster infobox. Pins, rectangles, squares
+  and circles on the surface become spawns at the shape's centre; polygons, other mtypes, non-zero `mapID`s and
+  templates without an `mtype` (Module:Map draws nothing for them) are skipped and counted in the report.
+  `manual` entries are never changed, and a manual entry for the same npc and height within the larger walk
+  radius replaces the wiki one.
 - Cockpit: a `MapTemplate` parser in `Infobox.kt`, an `enrich.spawn` enricher (page → map templates → candidate
   tiles) and a `spawn` scaffold kind that writes a region file. Deferred; on `docs/follow-ups.md`.
 

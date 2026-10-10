@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11064,
+  "spawns": [
+    {
+      "npc": "npc.viking_lalli_troll",
+      "x": 2772,
+      "z": 3622,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lalli",
+        "map": "{{Map|name=Lalli|x=2772|y=3622|r=3|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

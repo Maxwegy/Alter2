@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10032,
+  "spawns": [
+    {
+      "npc": "npc.og",
+      "x": 2506,
+      "z": 3115,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Og",
+        "map": "{{Map|name=Og|x=2506|y=3115|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.grew",
+      "x": 2511,
+      "z": 3086,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grew",
+        "map": "{{Map|name=Grew|x=2511|y=3086|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.watchtower_wizard",
+      "x": 2547,
+      "z": 3115,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Watchtower_Wizard",
+        "map": "{{Map|name=Watchtower Wizard|x=2547|y=3115|plane=2|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.handsand_bert_1op",
+      "x": 2551,
+      "z": 3100,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bert",
+        "map": "{{Map|name=Bert|x=2551|y=3100|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.handsand_bert_2ops",
+      "x": 2551,
+      "z": 3100,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bert",
+        "map": "{{Map|name=Bert|x=2551|y=3100|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.handsand_guard_captain",
+      "x": 2552,
+      "z": 3080,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_Captain",
+        "map": "{{Map|name=Guard Captain|x=2552|y=3080|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dragon_bartender",
+      "x": 2555,
+      "z": 3079,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Dragon_Inn)",
+        "map": "{{Map|name=Bartender (Dragon Inn)|2555,3079|mtype=pin}}"
+      }
+    }
+  ]
+}

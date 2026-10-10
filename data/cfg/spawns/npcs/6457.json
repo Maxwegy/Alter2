@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6457,
+  "spawns": [
+    {
+      "npc": "npc.arcquest_maid",
+      "x": 1619,
+      "z": 3660,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alyssa",
+        "map": "{{Map|name=Alyssa|x=1619|y=3660|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.akd_sophia_hughes_cutscene",
+      "x": 1619,
+      "z": 3679,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sophia_Hughes",
+        "map": "{{Map|name=Sophia Hughes|x=1619|y=3679|plane=2|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.piscquest_councillor_jailed",
+      "x": 1619,
+      "z": 3679,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sophia_Hughes",
+        "map": "{{Map|name=Sophia Hughes|x=1619|y=3679|plane=2|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.akd_elena_hosidius_vis",
+      "x": 1621,
+      "z": 3673,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elena_Hosidius",
+        "map": "{{Map|name=Elena Hosidius|1621,3673|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.akd_king_vis",
+      "x": 1621,
+      "z": 3673,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Artur_Hosidius",
+        "map": "{{Map|name=King Artur Hosidius|1621,3673|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.cob_the_bat",
+      "x": 1632,
+      "z": 3707,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cob",
+        "map": "{{Map|x=1632|y=3707|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gem_merchant",
+      "x": 1634,
+      "z": 3684,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gem_merchant_(Kourend_Castle)",
+        "map": "{{Map|name=Gem merchant (Kourend Castle)|x=1634|y=3684|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.baker_merchant",
+      "x": 1640,
+      "z": 3684,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Baker",
+        "map": "{{Map|name=Baker|x=1640|y=3684|plane=0|r=3|mtype=square|group=3}}"
+      }
+    },
+    {
+      "npc": "npc.elise_kourend_kebos_diary",
+      "x": 1648,
+      "z": 3665,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elise",
+        "map": "{{Map|name=Elise|x=1648|y=3665|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

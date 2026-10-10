@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10550,
+  "spawns": [
+    {
+      "npc": "npc.mcgruborforester",
+      "x": 2650,
+      "z": 3468,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Forester_(McGrubor's_Wood)",
+        "map": "{{Map|name=Forester|x=2650|y=3468|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pillory_tramp_thrower_seers",
+      "x": 2683,
+      "z": 3486,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tramp_(pillory)",
+        "map": "{{Map|name=Tramp|x=2683|y=3486|plane=0|r=3|mtype=square|height=150|group=1}}"
+      }
+    }
+  ]
+}

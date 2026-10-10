@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10551,
+  "spawns": [
+    {
+      "npc": "npc.farming_gardener_hops_4",
+      "x": 2666,
+      "z": 3525,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rhonen",
+        "map": "{{Map|name=Rhonen|x=2666|y=3525|plane=0|r=6|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

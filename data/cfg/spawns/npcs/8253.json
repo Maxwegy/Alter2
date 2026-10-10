@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8253,
+  "spawns": [
+    {
+      "npc": "npc.lunar_moonclan_monk1",
+      "x": 2073,
+      "z": 3921,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pauline_Polaris",
+        "map": "{{Map|name=Pauline Polaris|x=2073|y=3921|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dream_cyrisus",
+      "x": 2074,
+      "z": 3911,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cyrisus",
+        "map": "{{Map|name=Cyrisus|2074,3911|2149,3867|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.dream_cyrisus_barely_conscious",
+      "x": 2074,
+      "z": 3911,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cyrisus",
+        "map": "{{Map|name=Cyrisus|2074,3911|2149,3867|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.dream_cyrisus_sitting",
+      "x": 2074,
+      "z": 3911,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cyrisus",
+        "map": "{{Map|name=Cyrisus|2074,3911|2149,3867|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.dream_cyrisus_unconscious",
+      "x": 2074,
+      "z": 3911,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cyrisus",
+        "map": "{{Map|name=Cyrisus|2074,3911|2149,3867|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_baba_yaga_house",
+      "x": 2082,
+      "z": 3929,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/House_(Berty)",
+        "map": "{{Map|mtype=pin|2082,3929}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_monk4",
+      "x": 2085,
+      "z": 3915,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Selene",
+        "map": "{{Map|name=Selene|x=2085|y=3915|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_pirate_cabin_boy_base_config",
+      "x": 2087,
+      "z": 3924,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cabin_boy",
+        "map": "{{Map|name=Cabin boy|x=2087|y=3924|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_baba_yaga",
+      "x": 2088,
+      "z": 3931,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Baba_Yaga",
+        "map": "{{Map|name=Baba Yaga|x=2088|y=3931|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_monk3",
+      "x": 2096,
+      "z": 3907,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Melana_Moonlander",
+        "map": "{{Map|name=Melana Moonlander|x=2096|y=3907|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_monk_man",
+      "x": 2100,
+      "z": 3919,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sirsal_Banker",
+        "map": "{{Map|name=Sirsal Banker|x=2100|y=3919|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dream_birds_eye_jack",
+      "x": 2100,
+      "z": 3921,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Birds-Eye'_Jack",
+        "map": "{{Map|name='Bird's-Eye' Jack|x=2100|y=3921|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_monk_watering",
+      "x": 2102,
+      "z": 3920,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bouquet_Mac_Hyacinth",
+        "map": "{{Map|name=Bouquet Mac Hyacinth|x=2102|y=3920|r=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lunar_moonclan_monk5",
+      "x": 2105,
+      "z": 3908,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rimae_Sirsalis",
+        "map": "{{Map|name=Rimae Sirsalis|x=2105|y=3908|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

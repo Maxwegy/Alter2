@@ -1,0 +1,64 @@
+{{External|rs|rsc=Duke of Lumbridge}}
+{{Infobox NPC
+|name = Duke Horacio
+|image = [[File:Duke Horacio.png|120px]]
+|release = [[23 September]] [[2001]]
+|update = Dragon quest online!
+|aka = Duke of Lumbridge
+|members = No
+|race = [[Human]]
+|quest = {{*}} [[Rune Mysteries]]<br/>{{*}} [[Dragon Slayer I]]<br/>{{*}} [[Recipe for Disaster]]<br/>{{*}} [[The Lost Tribe]]<br/>{{*}} [[Death to the Dorgeshuun]]<br/>{{*}} [[The Ides of Milk]]
+|location = [[Lumbridge Castle]]
+|gender = Male
+|options = Talk-to
+|examine = Duke Horacio of Lumbridge.
+|map = {{Map|name=Duke Horacio|3208,3226|3213,3226|3214,3225|3214,3218|3208,3218|mtype=polygon|plane=1}}
+|id = 815,5327,8051,11024
+|leagueRegion = Misthalin
+}}
+[[File:Duke Horacio chathead.png|left]]
+'''Duke Horacio''' is the duke of [[Lumbridge]] and the surrounding area. He lives on the {{FloorNumber|uk=1}} of the [[Lumbridge Castle]] in the northern bedroom. He is involved in multiple [[quests]], and is the starting point of [[Rune Mysteries]].
+
+He also hands out [[anti-dragon shield]]s to players during the [[Dragon Slayer I]] [[quest]]. More shields can be obtained via the [[drop trick]].
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 7 February 2019
+|update = X Marks The Spot
+|change = Duke Horacio will no longer repeat himself when greeting players.
+}}
+{{Subject changes
+|date = 18 June 2007
+|update = The Dragonfire Shield
+|change = The NPC was graphically updated with the rework of Dragon Slayer I.
+}}
+{{Subject changes footer}}
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Duke Horacio (historical).png|center|300x150px]]
+|[[File:Duke Horacio.png|center|300x150px]]
+|-
+|29 March 2004 –<br/>18 June 2007
+|18 June 2007 –<br/>present
+|}
+
+==Trivia==
+*Since [[Lumbridge]] is based on the real life city of {{Wp|Cambridge}}, England, the real life analog of Duke Horacio would be the {{Wp|Duke of Cambridge}}. This title was extinct when ''RuneScape'' was released, but has since been given to {{Wp|Prince William}}.
+*After completing the [[2020 Birthday event]], a [[Horacio (2020 Birthday event)|variant]] form of Duke Horacio could be found attending the party.
+*A [[Duke Horacio (2021 Birthday event)|variant]] form of Duke Horacio was involved in the [[2021 Birthday event]], during which the player had to help the duke capture a number of monkeys distributed around Lumbridge.
+
+{{Rune Mysteries}}
+{{Dragon Slayer I}}
+{{Another Cook's Quest}}
+{{The Lost Tribe}}
+{{Death to the Dorgeshuun}}
+{{The Ides of Milk}}
+{{Lumbridge}}
+{{Rulers}}
+{{2017 Birthday event}}
+{{2018 Christmas event}}
+[[Category:Saradominists]]

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5179,
+  "spawns": [
+    {
+      "npc": "npc.kahlith_artisan_1",
+      "x": 1280,
+      "z": 3807,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Haldor_quo_Keran",
+        "map": "{{Map|name=Haldor quo Keran|x=1280|y=3807|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_guardian_3",
+      "x": 1291,
+      "z": 3808,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marmor_quo_Narga",
+        "map": "{{Map|name=Marmor quo Narga|x=1291|y=3808|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_mystic_3",
+      "x": 1292,
+      "z": 3788,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wengra_quo_Sihar",
+        "map": "{{Map|name=Wengra quo Sihar|x=1292|y=3788|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kebos_spear_salesmen",
+      "x": 1298,
+      "z": 3797,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Leke_quo_Keran",
+        "map": "{{Map|name=Leke quo Keran|x=1298|y=3797|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_guardian_1",
+      "x": 1299,
+      "z": 3828,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Darcor_quo_Narga",
+        "map": "{{Map|name=Darcor quo Narga|x=1299|y=3828|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_mystic_1",
+      "x": 1302,
+      "z": 3806,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Corkat_quo_Sihar",
+        "map": "{{Map|name=Corkat quo Sihar|x=1302|y=3806|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_hunter_1",
+      "x": 1303,
+      "z": 3820,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fornek_quo_Maten",
+        "map": "{{Map|name=Fornek quo Maten|x=1303|y=3820|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slayer_master_8",
+      "x": 1309,
+      "z": 3785,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Konar_quo_Maten",
+        "map": "{{Map|name=Konar quo Maten|x=1309|y=3785|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_mystic_main",
+      "x": 1310,
+      "z": 3818,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Xorrah_quo_Sihar",
+        "map": "{{Map|name=Xorrah quo Sihar|x=1310|y=3818|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_hunter_2",
+      "x": 1311,
+      "z": 3834,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vornas_quo_Maten",
+        "map": "{{Map|name=Vornas quo Maten|x=1311|y=3834|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_guardian_2",
+      "x": 1312,
+      "z": 3828,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Uurrak_quo_Narga",
+        "map": "{{Map|name=Uurrak quo Narga|x=1312|y=3828|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_guardian_bank",
+      "x": 1323,
+      "z": 3820,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gorhak_quo_Narga",
+        "map": "{{Map|name=Gorhak quo Narga|x=1323|y=3820|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_mystic_2",
+      "x": 1324,
+      "z": 3797,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lokraa_quo_Sihar",
+        "map": "{{Map|name=Lokraa quo Sihar|x=1324|y=3797|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_artisan_2",
+      "x": 1326,
+      "z": 3813,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vortas_quo_Keran",
+        "map": "{{Map|name=Vortas quo Keran|x=1326|y=3813|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_guardian_4",
+      "x": 1333,
+      "z": 3823,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lornor_quo_Narga",
+        "map": "{{Map|name=Lornor quo Narga|x=1333|y=3823|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kahlith_artisan_3",
+      "x": 1340,
+      "z": 3801,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mallak_quo_Keran",
+        "map": "{{Map|name=Mallak quo Keran|x=1340|y=3801|plane=0|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

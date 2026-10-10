@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11321,
+  "spawns": [
+    {
+      "npc": "npc.myarm_leprechaun",
+      "x": 2825,
+      "z": 3685,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tool_Leprechaun_(Larry)",
+        "map": "{{Map|name=Tool Leprechaun (Larry)|x=2825|y=3685|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myarm_trollbucket",
+      "x": 2830,
+      "z": 3697,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/My_Arm",
+        "map": "{{Map|name=My Arm|x=2830|y=3697|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myarm_trolldibber",
+      "x": 2830,
+      "z": 3697,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/My_Arm",
+        "map": "{{Map|name=My Arm|x=2830|y=3697|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.myarm_trollrake",
+      "x": 2830,
+      "z": 3697,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/My_Arm",
+        "map": "{{Map|name=My Arm|x=2830|y=3697|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.troll_stronghold_camp_guard",
+      "x": 2854,
+      "z": 3690,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mushroom_(mountain_troll)",
+        "map": "{{Map|name=Mushroom|x=2854|y=3690|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

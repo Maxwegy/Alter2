@@ -35,5 +35,10 @@ writes them. Any invalid entry stops the boot with every problem logged; a missi
 The same NPC may not appear twice on one tile. Entries are kept in canonical order (x, z, height, npc,
 manual before wiki) with `\n` line endings; `NpcSpawnDataTests` checks all of this.
 
+Wiki entries are generated: `./gradlew :alter-data:spawnSync` rewrites every entry with a wiki `source` from
+the infobox `{{Map}}` templates and never changes a `manual` one. To change a generated spawn, edit it into a
+`manual` entry (with `origin` set to the page); a manual entry for the same npc and height within the larger
+walk radius makes the generator drop the wiki one.
+
 Add spawns here, not with `spawnNpc` in plugin code. Edit on a branch; `spawnItem`/`spawnObj` still live in
 plugins.

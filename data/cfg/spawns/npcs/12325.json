@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12325,
+  "spawns": [
+    {
+      "npc": "npc.farming_gardener_calquat_3",
+      "x": 3124,
+      "z": 2404,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guppa",
+        "map": "{{Map|mtype=rectangle|rectX=5|rectY=5|x=3124|y=2404|zoom=2}}"
+      }
+    },
+    {
+      "npc": "npc.yorkie_wander",
+      "x": 3124,
+      "z": 2412,
+      "height": 0,
+      "walkRadius": 25,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Yorkie_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=60|rectY=50|3124,2412|}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12596,
+  "spawns": [
+    {
+      "npc": "npc.nasty_tree_choppable",
+      "x": 3138,
+      "z": 3352,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_unchoppable",
+      "x": 3138,
+      "z": 3352,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_choppable",
+      "x": 3140,
+      "z": 3360,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_unchoppable",
+      "x": 3140,
+      "z": 3360,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_choppable",
+      "x": 3143,
+      "z": 3357,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_unchoppable",
+      "x": 3143,
+      "z": 3357,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_choppable",
+      "x": 3143,
+      "z": 3365,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_unchoppable",
+      "x": 3143,
+      "z": 3365,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_bush_1",
+      "x": 3183,
+      "z": 3356,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dreven",
+        "map": "{{Map|name=Dreven|x=3183|y=3356|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.katrine",
+      "x": 3186,
+      "z": 3385,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Katrine",
+        "map": "{{Map|name=Katrine|x=3186|y=3385|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.guildmaster",
+      "x": 3191,
+      "z": 3360,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guildmaster",
+        "map": "{{Map|name=Guildmaster|x=3191|y=3360|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scavvo",
+      "x": 3192,
+      "z": 3354,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Scavvo",
+        "map": "{{Map|name=Scavvo|x=3192|y=3354|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.valaine",
+      "x": 3192,
+      "z": 3359,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Valaine",
+        "map": "{{Map|name=Valaine|x=3192|y=3359|plane=1|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12853,
+  "spawns": [
+    {
+      "npc": "npc.zaff",
+      "x": 3203,
+      "z": 3434,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zaff",
+        "map": "{{Map|name=Zaff|3203,3434|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.aris",
+      "x": 3204,
+      "z": 3425,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aris",
+        "map": "{{Map|name=Aris|3204,3425|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.swordshop1",
+      "x": 3206,
+      "z": 3400,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Varrock_Swordshop)",
+        "map": "{{Map|name=Shop keeper (Varrock Swordshop)|3206,3400|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.swordshop2",
+      "x": 3206,
+      "z": 3400,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Varrock_Swordshop)",
+        "map": "{{Map|name=Shop assistant (Varrock Swordshop)|x=3206|y=3400|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.thessalia_league",
+      "x": 3206,
+      "z": 3416,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thessalia",
+        "map": "{{Map|name=Thessalia|3206,3416|mtype=square|r=3|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.thessalia_normal",
+      "x": 3206,
+      "z": 3416,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thessalia",
+        "map": "{{Map|name=Thessalia|3206,3416|mtype=square|r=3|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.varrock_granny_1",
+      "x": 3206,
+      "z": 3416,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Iffie",
+        "map": "{{Map|name=Iffie|x=3206|y=3416|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.events_shop_1op",
+      "x": 3209,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nevet",
+        "map": "{{Map|mtype=pin|x=3209|y=3435}}"
+      }
+    },
+    {
+      "npc": "npc.events_shop_3op",
+      "x": 3209,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nevet",
+        "map": "{{Map|mtype=pin|x=3209|y=3435}}"
+      }
+    },
+    {
+      "npc": "npc.romeo",
+      "x": 3211,
+      "z": 3425,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Romeo",
+        "map": "{{Map|x=3211|y=3425|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_noah_cutscene",
+      "x": 3211,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Noah",
+        "map": "{{Map|name=Noah|x=3211|y=3437|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_noah_vis",
+      "x": 3211,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Noah",
+        "map": "{{Map|name=Noah|x=3211|y=3437|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.generalassistant2",
+      "x": 3217,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Varrock)",
+        "map": "{{Map|name=Shop assistant (Varrock)|x=3217|y=3415|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalshopkeeper2",
+      "x": 3217,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Varrock)",
+        "map": "{{Map|name=Shop keeper (Varrock)|3217,3415|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.baraek",
+      "x": 3217,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Baraek",
+        "map": "{{Map|3217,3435|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.bim_baraek",
+      "x": 3217,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Baraek",
+        "map": "{{Map|3217,3435|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.qip_soa_newspaperseller",
+      "x": 3220,
+      "z": 3431,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Benny",
+        "map": "{{Map|name=Benny|x=3220|y=3431|r=5|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.shilop",
+      "x": 3220,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shilop",
+        "map": "{{Map|name=Shilop|x=3220|y=3435|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wilough",
+      "x": 3220,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wilough",
+        "map": "{{Map|name=Wilough|x=3220|y=3435|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dr_harlow",
+      "x": 3222,
+      "z": 3397,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dr_Harlow",
+        "map": "{{Map|name=Dr Harlow|x=3222|y=3397|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.toby_varrock_diary",
+      "x": 3225,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Toby",
+        "map": "{{Map|name=Toby|x=3225|y=3415|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_alina_cutscene",
+      "x": 3225,
+      "z": 3426,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alina",
+        "map": "{{Map|name=Alina|x=3225|y=3426|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq1_alina_vis",
+      "x": 3225,
+      "z": 3426,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alina",
+        "map": "{{Map|name=Alina|x=3225|y=3426|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.bluemoon_bartender",
+      "x": 3226,
+      "z": 3398,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bartender_(Blue_Moon_Inn)",
+        "map": "{{Map|name=Bartender (Blue Moon Inn)|3226,3398|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.pillory_tramp_thrower_varrock",
+      "x": 3228,
+      "z": 3411,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tramp_(pillory)",
+        "map": "{{Map|name=Tramp|x=3228|y=3411|plane=0|r=3|mtype=square|height=150|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.fai_varrock_bluemoon_chef",
+      "x": 3230,
+      "z": 3400,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cook_(Blue_Moon_Inn)",
+        "map": "{{Map|name=Cook (Varrock)|x=3230|y=3400|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.horvik_the_armourer",
+      "x": 3230,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Horvik",
+        "map": "{{Map|name=Horvik|3230,3437|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lowe",
+      "x": 3233,
+      "z": 3423,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lowe",
+        "map": "{{Map|name=Lowe|3233,3423|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.daddyshome_cutscene_builder_hammer",
+      "x": 3239,
+      "z": 3395,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Old_Man_Yarlo",
+        "map": "{{Map|name=Old Man Yarlo|x=3239|y=3395|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.daddyshome_cutscene_builder_plain",
+      "x": 3239,
+      "z": 3395,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Old_Man_Yarlo",
+        "map": "{{Map|name=Old Man Yarlo|x=3239|y=3395|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.daddyshome_daddy",
+      "x": 3239,
+      "z": 3395,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Old_Man_Yarlo",
+        "map": "{{Map|name=Old Man Yarlo|x=3239|y=3395|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tramp",
+      "x": 3241,
+      "z": 3398,
+      "height": 0,
+      "walkRadius": 15,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tramp",
+        "map": "{{Map|name=Tramp|x=3241|y=3398|plane=0|r=15|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.con_contract_client_2",
+      "x": 3242,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jeff_(Mahogany_Homes)",
+        "map": "{{Map|mtype=pin|3242,3452|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.banker1_new",
+      "x": 3251,
+      "z": 3418,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Varrock)",
+        "map": "{{Map|3147,3448|3187,3444|3187,3440|3187,3436|3251,3418|3252,3418|3253,3418|plane=0|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.banker1_new",
+      "x": 3252,
+      "z": 3418,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Varrock)",
+        "map": "{{Map|3147,3448|3187,3444|3187,3440|3187,3436|3251,3418|3252,3418|3253,3418|plane=0|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.fai_varrock_cleaner",
+      "x": 3252,
+      "z": 3428,
+      "height": 0,
+      "walkRadius": 12,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cleaner",
+        "map": "{{Map|name=Cleaner|x=3252|y=3428|plane=0|r=12|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.banker1_new",
+      "x": 3253,
+      "z": 3418,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Varrock)",
+        "map": "{{Map|3147,3448|3187,3444|3187,3440|3187,3436|3251,3418|3252,3418|3253,3418|plane=0|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.pmod_town_crier_varrock",
+      "x": 3254,
+      "z": 3428,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Town_Crier",
+        "map": "{{Map|name=Town Crier|x=3254|y=3428|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist1_npc_dummy",
+      "x": 3254,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Barnabus_Hurma",
+        "map": "{{Map|name=Barnabus Hurma|x=3254|y=3445|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_info_booth_lady",
+      "x": 3254,
+      "z": 3454,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Information_clerk",
+        "map": "{{Map|name=Information clerk|x=3254|y=3454|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist2_npc_dummy",
+      "x": 3255,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marius_Giste",
+        "map": "{{Map|name=Marius Giste|x=3255|y=3445|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_advent_01",
+      "x": 3255,
+      "z": 3454,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Torrcs",
+        "map": "{{Map|name=Torrcs|x=3255|y=3454|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist3_npc_dummy",
+      "x": 3256,
+      "z": 3444,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Caden_Azro",
+        "map": "{{Map|name=Caden Azro|x=3256|y=3444|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist4_npc_dummy",
+      "x": 3256,
+      "z": 3444,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thias_Leacke",
+        "map": "{{Map|name=Thias Leacke|x=3256|y=3444|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_art_critic",
+      "x": 3257,
+      "z": 3454,
+      "height": 2,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Art_Critic_Jacques",
+        "map": "{{Map|name=Art Critic Jacques|x=3257|y=3454|plane=2|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard",
+      "x": 3260,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard2",
+      "x": 3260,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard3",
+      "x": 3260,
+      "z": 3447,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.curator",
+      "x": 3260,
+      "z": 3451,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Curator_Haig_Halen",
+        "map": "{{Map|name=Curator Haig Halen|3260,3451|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_teacher_girl_multi",
+      "x": 3260,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Teacher_and_pupil",
+        "map": "{{Map|name=Teacher and pupil|x=3260|y=3452|plane=0|r=4|mapID=0|mtype=square|group=1922}}"
+      }
+    },
+    {
+      "npc": "npc.vm_teacher_girl_multi",
+      "x": 3261,
+      "z": 3451,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Teacher_and_pupil",
+        "map": "{{Map|name=Teacher and pupil|x=3261|y=3451|plane=2|r=4|mapID=0|mtype=square|group=1922}}"
+      }
+    },
+    {
+      "npc": "npc.vm_school_boy_blonde",
+      "x": 3261,
+      "z": 3455,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Schoolboy",
+        "map": "{{Map|name=Schoolboy|x=3261|y=3455|pla3455ne=0|r=4|mapID=0|mtype=square|group=1920}}"
+      }
+    },
+    {
+      "npc": "npc.bioguard1",
+      "x": 3263,
+      "z": 3408,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(East_Varrock)",
+        "map": "{{Map|name=Guard (East Varrock)|x=3263|y=3408|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard",
+      "x": 3263,
+      "z": 3441,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard2",
+      "x": 3263,
+      "z": 3441,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard3",
+      "x": 3263,
+      "z": 3441,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    }
+  ]
+}

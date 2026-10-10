@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 7228,
+  "spawns": [
+    {
+      "npc": "npc.arceuus_soulguardian",
+      "x": 1814,
+      "z": 3854,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aretha",
+        "map": "{{Map|name=Aretha|x=1814|y=3854|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sister_soul_jar",
+      "x": 1814,
+      "z": 3854,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sister_Soul_Jar",
+        "map": "{{Map|name=Sister Soul Jar|x=1814|y=3854|r=6|mtype=square}}"
+      }
+    }
+  ]
+}

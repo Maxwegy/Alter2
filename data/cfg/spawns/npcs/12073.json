@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12073,
+  "spawns": [
+    {
+      "npc": "npc.chameleon_green",
+      "x": 3039,
+      "z": 2638,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chameleon",
+        "map": "{{Map|3053,2651|3039,2638|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_1",
+      "x": 3048,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_2",
+      "x": 3048,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_1",
+      "x": 3051,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_2",
+      "x": 3051,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_1",
+      "x": 3053,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_2",
+      "x": 3053,
+      "z": 2632,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.chameleon_green",
+      "x": 3053,
+      "z": 2651,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chameleon",
+        "map": "{{Map|3053,2651|3039,2638|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_1",
+      "x": 3057,
+      "z": 2633,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.crab_floatsam_2",
+      "x": 3057,
+      "z": 2633,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Floatsam",
+        "map": "{{Map|mtype=pin|3048,2632|3057,2633|3053,2632|3051,2632|x=3049|y=2647|zoom=3}}"
+      }
+    }
+  ]
+}

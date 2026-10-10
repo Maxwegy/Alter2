@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12076,
+  "spawns": [
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3012,
+      "z": 2857,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3013,
+      "z": 2854,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3014,
+      "z": 2856,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3024,
+      "z": 2852,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3036,
+      "z": 2835,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3037,
+      "z": 2868,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3038,
+      "z": 2877,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3041,
+      "z": 2876,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3046,
+      "z": 2826,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_island_crab",
+      "x": 3047,
+      "z": 2831,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crab_(Tempoross_Cove)",
+        "map": "{{Map|3038,2877|3041,2876|3012,2857|3014,2856|3013,2854|3024,2852|3047,2831|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3048,
+      "z": 2829,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3048,
+      "z": 2874,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_harpoonfish_fishingspot_special",
+      "x": 3051,
+      "z": 2867,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(Tempoross_Cove)",
+        "map": "{{Map|name=Fishing spot|x:3048,y:2874|x:3051,y:2867|x:3037,y:2868|x:3036,y:2835|x:3048,y:2829|x:3046,y:2826|plane=0|mapID=0|mtype=pin}}"
+      }
+    }
+  ]
+}

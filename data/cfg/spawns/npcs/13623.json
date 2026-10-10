@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13623,
+  "spawns": [
+    {
+      "npc": "npc.secret_ghost_swordsman",
+      "x": 3448,
+      "z": 3550,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Viggora",
+        "map": "{{Map|name=Viggora|x=3448|y=3550|plane=1|r=4|mapID=0|mtype=square}}"
+      }
+    }
+  ]
+}

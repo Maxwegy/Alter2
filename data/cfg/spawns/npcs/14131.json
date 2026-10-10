@@ -147,6 +147,17 @@
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "npc": "npc.barrows_oldman",
+      "x": 3565,
+      "z": 3292,
+      "height": 0,
+      "walkRadius": 16,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Strange_Old_Man",
+        "map": "{{Map|name=Strange Old Man|x=3565|y=3292|r=16|mtype=square}}"
+      }
+    },
+    {
       "npc": "npc.barrows_karil",
       "x": 3567,
       "z": 3272,

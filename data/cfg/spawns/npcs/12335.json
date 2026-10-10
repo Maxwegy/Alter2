@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12335,
+  "spawns": [
+    {
+      "npc": "npc.gim_tutor_shared_storage",
+      "x": 3096,
+      "z": 3027,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Group_Storage_tutor",
+        "map": "{{Map|name=Group Storage tutor|x=3096|y=3027|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gim_boar_killer",
+      "x": 3099,
+      "z": 3011,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Boar31337Killer",
+        "map": "{{Map|name=Boar31337Killer|x=3099|y=3011|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gim_regent",
+      "x": 3104,
+      "z": 3024,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Regent",
+        "map": "{{Map|name=Regent|x=3104|y=3024|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gim_miner",
+      "x": 3106,
+      "z": 3012,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/R0ck_5masher",
+        "map": "{{Map|name=R0ck 5masher|x=3106|y=3012|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ironman_tutor_node",
+      "x": 3107,
+      "z": 3028,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Group_Ironman_tutor",
+        "map": "{{Map|name=Group Ironman tutor|x=3107|y=3028|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gim_fisher",
+      "x": 3114,
+      "z": 3045,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/D3ad1i_F15her",
+        "map": "{{Map|name=D3ad1i F15her|x=3114|y=3045|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

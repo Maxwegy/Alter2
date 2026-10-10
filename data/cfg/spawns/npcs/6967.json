@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6967,
+  "spawns": [
+    {
+      "npc": "npc.hosidius_cleric",
+      "x": 1734,
+      "z": 3576,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Father_Jean",
+        "map": "{{Map|mtype=pin|1734,3576}}"
+      }
+    },
+    {
+      "npc": "npc.hosidius_allotment_gardener",
+      "x": 1735,
+      "z": 3555,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marisi",
+        "map": "{{Map|name=Marisi|x=1735|y=3555|plane=0|r=6|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.con_contract_client_11",
+      "x": 1747,
+      "z": 3538,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Barbara",
+        "map": "{{Map|mtype=pin|1747,3538|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.hosidius_chief_farmer",
+      "x": 1751,
+      "z": 3536,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dale",
+        "map": "{{Map|name=Dale|x=1751|y=3536|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hosidiusquest_chef",
+      "x": 1776,
+      "z": 3567,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chef_Olivia",
+        "map": "{{Map|name=Chef Olivia|x=1776|y=3567|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hosidiusquest_butler",
+      "x": 1780,
+      "z": 3567,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Butler_Jarvis",
+        "map": "{{Map|name=Butler Jarvis|x=1780|y=3567|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.akd_pandur_hosidius_vis",
+      "x": 1782,
+      "z": 3572,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pandur_Hosidius",
+        "map": "{{Map|name=Lord Pandur Hosidius|1782,3572|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

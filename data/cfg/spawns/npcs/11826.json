@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11826,
+  "spawns": [
+    {
+      "npc": "npc.rommik",
+      "x": 2949,
+      "z": 3205,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rommik",
+        "map": "{{Map|name=Rommik|x=2949|y=3205|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalassistant6",
+      "x": 2949,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Rimmington)",
+        "map": "{{Map|name=Shop assistant (Rimmington)|x=2949|y=3215|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalshopkeeper6",
+      "x": 2949,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Rimmington)",
+        "map": "{{Map|name=Shop keeper (Rimmington)|x=2949|y=3215|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.uncerter_rimmington",
+      "x": 2950,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Phials",
+        "map": "{{Map|name=Phials|x=2950|y=3215|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.salesman_ranging",
+      "x": 2957,
+      "z": 3204,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brian_(Rimmington)",
+        "map": "{{Map|name=Brian (Rimmington)|x=2957|y=3204|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hw18_boy",
+      "x": 2967,
+      "z": 3213,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Henja",
+        "map": "{{Map|name=Henja|x=2967|y=3213|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hw18_girl",
+      "x": 2967,
+      "z": 3213,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Angel",
+        "map": "{{Map|name=Angel|x=2967|y=3213|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hetty",
+      "x": 2968,
+      "z": 3206,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hetty",
+        "map": "{{Map|name=Hetty|x=2968|y=3206|plane=0|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

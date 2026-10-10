@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12591,
+  "spawns": [
+    {
+      "npc": "npc.al_shabim",
+      "x": 3171,
+      "z": 3029,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Al_Shabim",
+        "map": "{{Map|name=Al Shabim|x=3171|y=3029|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bedabin",
+      "x": 3172,
+      "z": 3028,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bedabin_Nomad",
+        "map": "{{Map|name=Bedabin Nomad|x=3172|y=3028|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bedabin_guard",
+      "x": 3172,
+      "z": 3028,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bedabin_Nomad_Guard",
+        "map": "{{Map|name=Bedabin Nomad Guard|x=3172|y=3028|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magic_carpet_seller2",
+      "x": 3182,
+      "z": 3043,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
+        "map": "{{Map|name=Rug Merchant|x=3182|y=3043|plane=0|r=4|mapID=0|mtype=square|group=18}}"
+      }
+    }
+  ]
+}

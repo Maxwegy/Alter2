@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10549,
+  "spawns": [
+    {
+      "npc": "npc.joshua",
+      "x": 2630,
+      "z": 3417,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Joshua",
+        "map": "{{Map|name=Joshua|x=2630|y=3417|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bigdave",
+      "x": 2633,
+      "z": 3425,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Big_Dave",
+        "map": "{{Map|name=Big Dave|x=2633|y=3425|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sinister_stranger0",
+      "x": 2637,
+      "z": 3441,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sinister_Stranger",
+        "map": "{{Map|name=Sinister Stranger|x=2637|y=3441|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sinister_stranger1",
+      "x": 2637,
+      "z": 3441,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sinister_Stranger",
+        "map": "{{Map|name=Sinister Stranger|x=2637|y=3441|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bonzo",
+      "x": 2640,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bonzo",
+        "map": "{{Map|name=Bonzo|x=2640|y=3437|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.morris",
+      "x": 2644,
+      "z": 3442,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Morris",
+        "map": "{{Map|name=Morris|x=2644|y=3442|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.grandpa_jack",
+      "x": 2649,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grandpa_Jack",
+        "map": "{{Map|name=Grandpa Jack|x=2649|y=3452|plane=0|rectX=7|rectY=6|mtype=rectangle|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_shield_master",
+      "x": 2656,
+      "z": 3428,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shield_master",
+        "map": "{{Map|name=Shield master|x=2656|y=3428|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_doorman",
+      "x": 2658,
+      "z": 3440,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranging_Guild_Doorman",
+        "map": "{{Map|name=Ranging Guild Doorman|x=2658|y=3440|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_ticket_exchange",
+      "x": 2660,
+      "z": 3429,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ticket_Merchant",
+        "map": "{{Map|name=Ticket Merchant|x=2660|y=3429|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_tribal_salesman",
+      "x": 2664,
+      "z": 3421,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tribal_Weapon_Salesman",
+        "map": "{{Map|name=Tribal Weapon Salesman|x=2664|y=3421|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_armour_salesman",
+      "x": 2667,
+      "z": 3436,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Armour_salesman",
+        "map": "{{Map|name=Armour salesman|2667,3436|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_competition_judge",
+      "x": 2672,
+      "z": 3418,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Competition_Judge",
+        "map": "{{Map|name=Competition Judge|x=2672|y=3418|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_bow_salesman",
+      "x": 2672,
+      "z": 3434,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bow_and_Arrow_salesman",
+        "map": "{{Map|name=Bow and Arrow salesman|x=2672|y=3434|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ranging_guild_leatherworker",
+      "x": 2677,
+      "z": 3433,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Leatherworker",
+        "map": "{{Map|name=Leatherworker|x=2677|y=3433|plane=0|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

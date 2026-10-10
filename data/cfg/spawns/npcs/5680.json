@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5680,
+  "spawns": [
+    {
+      "npc": "npc.pmoon_attala_vis",
+      "x": 1435,
+      "z": 3124,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Attala",
+        "map": "{{Map|name=Attala|x=1435|y=3124|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.pmoon_digsite_workers_plank_vis",
+      "x": 1436,
+      "z": 3122,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Builder_(Perilous_Moons)",
+        "map": "{{Map|name=Builder|x=1436|y=3122|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_mountain_toucan",
+      "x": 1469,
+      "z": 3073,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mountain_toucan",
+        "map": "{{Map|x=1469|y=3073|mtype=pin}}"
+      }
+    }
+  ]
+}

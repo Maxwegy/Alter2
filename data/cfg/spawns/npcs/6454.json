@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6454,
+  "spawns": [
+    {
+      "npc": "npc.wcguild_cave_guard",
+      "x": 1608,
+      "z": 3509,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Murfet",
+        "map": "{{Map|name=Murfet|x=1608|y=3509|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wcguild_nesty",
+      "x": 1614,
+      "z": 3514,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nesty",
+        "map": "{{Map|name=Nesty|x=1614|y=3514|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.poh_sawmill_opp",
+      "x": 1623,
+      "z": 3500,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sawmill_operator",
+        "map": "{{Map|name=Sawmill operator|x=1623|y=3500|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.greyhound_wander",
+      "x": 1627,
+      "z": 3465,
+      "height": 0,
+      "walkRadius": 25,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Greyhound_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=50|rectY=50|1627,3465|}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_charting_weather_troll",
+      "x": 1651,
+      "z": 3461,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meaty_Aura_Logist",
+        "map": "{{Map|2903,2698|2140,2806|2979,2905|2335,2921|1779,2940|2638,3009|2149,3068|1714,3193|2656,3195|2912,3213|2130,3395|1867,3458|1651,3461|2280,3518|2498,3546|2594,3644|2341,3790|2600,3910|2951,3962|2447,3995|zoom=-3|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wcguild_lars",
+      "x": 1652,
+      "z": 3499,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guildmaster_Lars",
+        "map": "{{Map|name=Guildmaster Lars|x=1652|y=3499|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wcguild_axeseller",
+      "x": 1653,
+      "z": 3500,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Perry",
+        "map": "{{Map|name=Perry|x=1653|y=3500|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wcguild_guard",
+      "x": 1657,
+      "z": 3506,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Berry_(Woodcutting_Guild)",
+        "map": "{{Map|name=Berry (Woodcutting Guild)|x=1657|y=3506|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

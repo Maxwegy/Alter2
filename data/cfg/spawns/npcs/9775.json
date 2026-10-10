@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9775,
+  "spawns": [
+    {
+      "npc": "npc.zogre_dying1",
+      "x": 2444,
+      "z": 3049,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pilg",
+        "map": "{{Map|name=Pilg|x=2444|y=3049|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_dying2",
+      "x": 2444,
+      "z": 3050,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grug",
+        "map": "{{Map|name=Grug|x=2444|y=3050|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_ogre_shaman",
+      "x": 2444,
+      "z": 3050,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grish",
+        "map": "{{Map|name=Grish|x=2444|y=3050|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_uglug_nar",
+      "x": 2444,
+      "z": 3050,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Uglug_Nar",
+        "map": "{{Map|name=Uglug Nar|x=2444|y=3050|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hairy_grub",
+      "x": 2456,
+      "z": 3028,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grub",
+        "map": "{{Map|x=2456|y=3028|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

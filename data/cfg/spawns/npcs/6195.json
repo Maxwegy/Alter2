@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6195,
+  "spawns": [
+    {
+      "npc": "npc.proudspire_teoki_ralos",
+      "x": 1581,
+      "z": 3277,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Yolotli,_Teoki_of_Ralos",
+        "map": "{{Map|mtype=rectangle|rectX=4|rectY=4|1581,3277}}"
+      }
+    },
+    {
+      "npc": "npc.proudspire_teoki_ranul",
+      "x": 1583,
+      "z": 3274,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ezco,_Teoki_of_Ranul",
+        "map": "{{Map|mtype=rectangle|rectX=4|rectY=5|1583,3274}}"
+      }
+    }
+  ]
+}

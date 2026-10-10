@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6459,
+  "spawns": [
+    {
+      "npc": "npc.arceuus_library_assistant",
+      "x": 1616,
+      "z": 3829,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Biblia",
+        "map": "{{Map|plane=2|mtype=pin|1616,3829}}"
+      }
+    },
+    {
+      "npc": "npc.raidquest_library_archive_guardian",
+      "x": 1624,
+      "z": 3808,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Archeio",
+        "map": "{{Map|name=Archeio|x=1624|y=3808|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_library_customer_3",
+      "x": 1627,
+      "z": 3801,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Professor_Gracklebone",
+        "map": "{{Map|name=Professor Gracklebone|x=1627|y=3801|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_library_customer_2",
+      "x": 1627,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Villia",
+        "map": "{{Map|name=Villia|x=1627|y=3815|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_library_librarian",
+      "x": 1633,
+      "z": 3808,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Logosia",
+        "map": "{{Map|name=Logosia|x=1633|y=3808|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_library_customer_1",
+      "x": 1639,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Horphis",
+        "map": "{{Map|name=Horphis|x=1639|y=3815|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arceuus_library_customer_4",
+      "x": 1640,
+      "z": 3802,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sam",
+        "map": "{{Map|name=Sam|x=1640|y=3802|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hosidiusquest_librarian",
+      "x": 1649,
+      "z": 3824,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Galana",
+        "map": "{{Map|name=Galana|x=1649|y=3824|r=3|mtype=square}}"
+      }
+    }
+  ]
+}
