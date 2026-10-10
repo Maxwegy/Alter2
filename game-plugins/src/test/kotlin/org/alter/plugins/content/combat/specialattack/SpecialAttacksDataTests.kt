@@ -72,11 +72,11 @@ class SpecialAttacksDataTests {
     @Test
     fun `the parser rejects a bad entry`() {
         fun file(entry: String) = """{"schemaVersion":1,"energy":{"max":100,"regenPercent":10,"regenIntervalTicks":50},"messages":{},"specials":[$entry]}"""
-        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.x"],"energy":101,"animation":1,"combat":"melee","hits":[{}]}""")) }
-        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.x"],"energy":50,"animation":1}""")) }
-        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.x"],"energy":50,"combat":"melee","hits":[{}]}""")) }
-        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.x"],"energy":50,"trigger":"bar-click","animation":1,"effects":[{"boostSelf":{"skill":"sailing","plus":1}}]}""")) }
+        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.dragon_dagger"],"energy":101,"animation":1,"combat":"melee","hits":[{}]}""")) }
+        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.dragon_dagger"],"energy":50,"animation":1}""")) }
+        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.dragon_dagger"],"energy":50,"combat":"melee","hits":[{}]}""")) }
+        assertFailsWith<IllegalArgumentException> { SpecialAttackDefs.parse(file("""{"items":["item.dragon_dagger"],"energy":50,"trigger":"bar-click","animation":1,"effects":[{"boostSelf":{"skill":"sailing","plus":1}}]}""")) }
         // A TODO entry needs neither hits nor an animation.
-        assertEquals(1, SpecialAttackDefs.parse(file("""{"items":["item.x"],"energy":50,"todo":"later"}""")).skipped.size)
+        assertEquals(1, SpecialAttackDefs.parse(file("""{"items":["item.dragon_dagger"],"energy":50,"todo":"later"}""")).skipped.size)
     }
 }
