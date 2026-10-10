@@ -1,698 +1,892 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12850,
   "spawns": [
     {
+      "id": "m6bb7467a9dda",
       "npc": "npc.ramunsheeredshaggy",
       "x": 3201,
       "z": 3263,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mc7419f1b53cc",
       "npc": "npc.rat",
       "x": 3205,
       "z": 3204,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m22690888ffbc",
       "npc": "npc.rat",
       "x": 3205,
       "z": 3209,
       "height": 0,
       "walkRadius": 10,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m6388a09b9713",
       "npc": "npc.rat",
       "x": 3206,
       "z": 3202,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mc45e8c4db0f6",
       "npc": "npc.man",
       "x": 3206,
       "z": 3219,
       "height": 1,
       "walkRadius": 20,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "me9789c6f4b34",
       "npc": "npc.rat",
       "x": 3207,
       "z": 3202,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m5bc138916279",
       "npc": "npc.rat",
       "x": 3207,
       "z": 3203,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m97514b3d0543",
       "npc": "npc.rat",
       "x": 3207,
       "z": 3209,
       "height": 0,
       "walkRadius": 10,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m17db33bd2683",
       "npc": "npc.man",
       "x": 3207,
       "z": 3227,
       "height": 0,
       "walkRadius": 20,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mb15cdccdd15f",
       "npc": "npc.cook",
       "x": 3209,
       "z": 3215,
       "height": 0,
       "walkRadius": 0,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/CookPlugin.kt"
     },
     {
+      "id": "m51c2db809d7e",
       "npc": "npc.man3",
       "x": 3209,
       "z": 3215,
       "height": 1,
       "walkRadius": 20,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w4f5f1c000804",
       "npc": "npc.aide_tutor_banker",
       "x": 3209,
       "z": 3221,
       "height": 2,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_tutor",
         "map": "{{Map|name=Banker tutor|x=3209|y=3221|r=3|plane=2|mtype=square}}"
       }
     },
     {
+      "id": "m5ab07d0a1d7a",
       "npc": "npc.banker1_new",
       "x": 3209,
       "z": 3222,
       "height": 2,
       "walkRadius": 0,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "w0aa39cc88e4e",
       "npc": "npc.tob_spectator_misthalin",
       "x": 3210,
       "z": 3249,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Abigaila",
         "map": "{{Map|name=Abigaila|x=3210|y=3249|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "m809f71af33e0",
       "npc": "npc.aide_tutor_crafting",
       "x": 3211,
       "z": 3212,
       "height": 1,
       "walkRadius": 1,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/CraftingTutorPlugin.kt"
     },
     {
+      "id": "m804336a6da09",
       "npc": "npc.woman",
       "x": 3211,
       "z": 3213,
       "height": 1,
       "walkRadius": 20,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m782b092a473b",
       "npc": "npc.generalshopkeeper1",
       "x": 3211,
       "z": 3246,
       "height": 0,
       "walkRadius": 3,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/stores/ShopKeeperPlugin.kt"
     },
     {
+      "id": "mf393bf65ece4",
       "npc": "npc.generalassistant1",
       "x": 3211,
       "z": 3247,
       "height": 0,
       "walkRadius": 3,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/stores/ShopKeeperPlugin.kt"
     },
     {
+      "id": "me746b351e3a8",
       "npc": "npc.duke_of_lumbridge",
       "x": 3212,
       "z": 3220,
       "height": 1,
       "walkRadius": 4,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "wdaf6e87f4a14",
       "npc": "npc.peng_larry_zoo",
       "x": 3212,
       "z": 3263,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Larry",
         "map": "{{Map|name=Larry|x=3212|y=3263|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "medce92773859",
       "npc": "npc.man",
       "x": 3216,
       "z": 3219,
       "height": 0,
       "walkRadius": 20,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "me479d026bf93",
       "npc": "npc.aide_tutor_magic",
       "x": 3216,
       "z": 3238,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m61ba28958de3",
       "npc": "npc.woman",
       "x": 3217,
       "z": 3205,
       "height": 0,
       "walkRadius": 20,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mbdf9f5d0fccd",
       "npc": "npc.imp",
       "x": 3217,
       "z": 3226,
       "height": 0,
       "walkRadius": 20,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mf14bcab74a20",
       "npc": "npc.aide_tutor_ranging",
       "x": 3218,
       "z": 3238,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m96eb1e3d330d",
       "npc": "npc.aide_tutor_melee",
       "x": 3220,
       "z": 3238,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m56d8a069f0b8",
       "npc": "npc.hans",
       "x": 3221,
       "z": 3219,
       "height": 0,
       "walkRadius": 0,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/HansPlugin.kt"
     },
     {
+      "id": "m746b13f172d3",
       "npc": "npc.man3",
       "x": 3221,
       "z": 3219,
       "height": 0,
       "walkRadius": 20,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w265156f33e52",
       "npc": "npc.event_sage",
       "x": 3223,
       "z": 3214,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/The_Sage_(Grid_Master)",
         "map": "{{Map|x=3223|y=3214|mtype=pin}}"
       }
     },
     {
+      "id": "m0ecbf710f580",
       "npc": "npc.lumbridge_guide2_man",
       "x": 3223,
       "z": 3229,
       "height": 0,
       "walkRadius": 19,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/GeePlugin.kt"
     },
     {
+      "id": "wbb61c3af1b16",
       "npc": "npc.league_3_assistant",
       "x": 3225,
       "z": 3212,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Leagues_Assistant_(Shattered_Relics_League)",
         "map": "{{Map|name=League Assistant|x=3225|y=3212|r=2|mtype=pin}}"
       }
     },
     {
+      "id": "w3230112531e7",
       "npc": "npc.league_tutor_normal",
       "x": 3226,
       "z": 3215,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Leagues_Tutor",
         "map": "{{Map|name=League Tutor|x=3226|y=3215|r=2|mtype=pin}}"
       }
     },
     {
+      "id": "m6bcf59cbea69",
       "npc": "npc.lumbridge_guide2_woman",
       "x": 3228,
       "z": 3222,
       "height": 0,
       "walkRadius": 10,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m75cfbe97b6da",
       "npc": "npc.man4",
       "x": 3228,
       "z": 3239,
       "height": 0,
       "walkRadius": 3,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m45af3d213f32",
       "npc": "npc.aide_tutor_woodsman",
       "x": 3228,
       "z": 3246,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "mb03df306e642",
       "npc": "npc.aide_tutor_smithing_apprentice",
       "x": 3228,
       "z": 3254,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m3116573d9330",
       "npc": "npc.ironman_tutor_1",
       "x": 3229,
       "z": 3228,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m62ca4476c6be",
       "npc": "npc.woman2",
       "x": 3229,
       "z": 3238,
       "height": 0,
       "walkRadius": 3,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m103d0da4312e",
       "npc": "npc.bob",
       "x": 3230,
       "z": 3203,
       "height": 0,
       "walkRadius": 2,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/stores/BobPlugin.kt"
     },
     {
+      "id": "m382cf5fc066f",
       "npc": "npc.lost_property_merchant_model",
       "x": 3230,
       "z": 3215,
       "height": 0,
       "walkRadius": 10,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "w71b5e54ed44c",
       "npc": "npc.aide_tutor_clues",
       "x": 3230,
       "z": 3238,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arthur_the_Clue_Hunter",
         "map": "{{Map|name=Arthur the Clue Hunter|x=3230|y=3238|r=3|mtype=square}}"
       }
     },
     {
+      "id": "mce6250ee84fd",
       "npc": "npc.falador_man1",
       "x": 3230,
       "z": 3241,
       "height": 0,
       "walkRadius": 3,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "wa3879d84cf25",
       "npc": "npc.garden_trolley_king",
       "x": 3231,
       "z": 3218,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trolley_(king)",
         "map": "{{Map|name=Trolley (king)|3231,3218|mtype=pin}}"
       }
     },
     {
+      "id": "m55172ffe6711",
       "npc": "npc.varrock_man1",
       "x": 3231,
       "z": 3236,
       "height": 0,
       "walkRadius": 3,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "wf3d9166ac24a",
       "npc": "npc.doomsayer_deadman",
       "x": 3232,
       "z": 3222,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doomsayer",
         "map": "{{Map|name=Doomsayer|x=3232|y=3222|mtype=pin}}"
       }
     },
     {
+      "id": "w6f2fb1e0233c",
       "npc": "npc.doomsayer_normal",
       "x": 3232,
       "z": 3222,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doomsayer",
         "map": "{{Map|name=Doomsayer|x=3232|y=3222|mtype=pin}}"
       }
     },
     {
+      "id": "mf24f08ec9337",
       "npc": "npc.doomsayer_normal",
       "x": 3232,
       "z": 3223,
       "height": 0,
       "walkRadius": 0,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/DoomsayerPlugin.kt"
     },
     {
+      "id": "wb5a8194792bb",
       "npc": "npc.ap_guide_active",
       "x": 3232,
       "z": 3234,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Adventurer_Jon",
         "map": "{{Map|name=Adventurer Jon|x=3232|y=3234|r=3|mtype=square}}"
       }
     },
     {
+      "id": "mbda7bf1bd3a1",
       "npc": "npc.ram_bartender",
       "x": 3232,
       "z": 3241,
       "height": 0,
       "walkRadius": 0,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/BartenderPlugin.kt"
     },
     {
+      "id": "m8c5210e6b2b7",
       "npc": "npc.hatius_lumbridge_diary",
       "x": 3233,
       "z": 3215,
       "height": 0,
       "walkRadius": 1,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m8ef8f6d74e2b",
       "npc": "npc.lumbridge_guide",
       "x": 3238,
       "z": 3220,
       "height": 0,
       "walkRadius": 0,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m309c8eb4f8ab",
       "npc": "npc.sos_war_goblin_armed",
       "x": 3241,
       "z": 3242,
       "height": 0,
       "walkRadius": 8,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "ma37e33bad043",
       "npc": "npc.giantspider1",
       "x": 3241,
       "z": 3245,
       "height": 0,
       "walkRadius": 7,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m9d6e529c68b0",
       "npc": "npc.aide_tutor_prayer",
       "x": 3242,
       "z": 3214,
       "height": 0,
       "walkRadius": 3,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/PrayerTutorPlugin.kt"
     },
     {
+      "id": "m12ac0639e941",
       "npc": "npc.deadman_nigel_regular",
       "x": 3243,
       "z": 3201,
       "height": 0,
       "walkRadius": 3,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m2eb5ec608e08",
       "npc": "npc.father_aereck",
       "x": 3243,
       "z": 3206,
       "height": 0,
       "walkRadius": 3,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "ma2b2f104d54e",
       "npc": "npc.canoeing_bill",
       "x": 3243,
       "z": 3237,
       "height": 0,
       "walkRadius": 3,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/BarfyBillPlugin.kt"
     },
     {
+      "id": "mf575f05ce152",
       "npc": "npc.godwars_goblin4",
       "x": 3244,
       "z": 3244,
       "height": 0,
       "walkRadius": 8,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w950c8c5e399c",
       "npc": "npc.deadman_gelin",
       "x": 3245,
       "z": 3200,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gelin",
         "map": "{{Map|name=Gelin|x=3245|y=3200|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w2dfdb41ac0db",
       "npc": "npc.deadman_nigel_dmm",
       "x": 3245,
       "z": 3200,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nigel",
         "map": "{{Map|name=Nigel|x=3245|y=3200|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "md29afa547237",
       "npc": "npc.giantspider1",
       "x": 3245,
       "z": 3235,
       "height": 0,
       "walkRadius": 7,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m1fcbaa4b3843",
       "npc": "npc.goblin_cook_charred",
       "x": 3246,
       "z": 3246,
       "height": 0,
       "walkRadius": 2,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/GoblinCookPlugin.kt"
     },
     {
+      "id": "m05a4cf3b326a",
       "npc": "npc.giantspider2",
       "x": 3246,
       "z": 3248,
       "height": 0,
       "walkRadius": 7,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m43af226810bd",
       "npc": "npc.godwars_goblin2",
       "x": 3247,
       "z": 3244,
       "height": 0,
       "walkRadius": 8,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m63edf4820cb9",
       "npc": "npc.giantspider1",
       "x": 3253,
       "z": 3234,
       "height": 0,
       "walkRadius": 7,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mec95c98a8f83",
       "npc": "npc.giantspider1",
       "x": 3253,
       "z": 3243,
       "height": 0,
       "walkRadius": 7,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m2dba9a2bc82b",
       "npc": "npc.goblin",
       "x": 3253,
       "z": 3245,
       "height": 0,
       "walkRadius": 8,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mc6da35bccb72",
       "npc": "npc.goblin_unarmed_melee_in_3",
       "x": 3255,
       "z": 3236,
       "height": 0,
       "walkRadius": 8,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m3136661d9d8b",
       "npc": "npc.goblin_armed_melee_4",
       "x": 3256,
       "z": 3230,
       "height": 0,
       "walkRadius": 8,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     }
   ]

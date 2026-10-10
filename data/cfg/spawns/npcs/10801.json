@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10801,
   "spawns": [
     {
+      "id": "w76b41a47f0e4",
       "npc": "npc.tribesman_doorman",
       "x": 2744,
       "z": 3152,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Saniboch",
         "map": "{{Map|name=Saniboch|x=2744|y=3152|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we144e5fd4627",
       "npc": "npc.macro_swarm",
       "x": 2745,
       "z": 3174,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Swarm",
         "map": "{{Map|name=Swarm|x=2745|y=3174|zoom=2|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w9c5c26d8ff00",
       "npc": "npc.macro_swarm_nohunt",
       "x": 2745,
       "z": 3174,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Swarm",
         "map": "{{Map|name=Swarm|x=2745|y=3174|zoom=2|r=7|mtype=square}}"
       }

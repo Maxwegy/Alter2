@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5938,
   "spawns": [
     {
+      "id": "w8d10c9d367ed",
       "npc": "npc.league_navigator",
       "x": 1486,
       "z": 3234,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/League_Navigator",
         "map": "{{Map|name=League Navigator|1486,3234|mtype=pin}}"
       }
     },
     {
+      "id": "wd35a3235b259",
       "npc": "npc.quetzacalli_mountain_guide_auburnvale",
       "x": 1488,
       "z": 3232,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mountain_Guide_(Auburn_Valley)",
         "map": "{{Map|name=Mountain Guide|1488,3232|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w45325df129f2",
       "npc": "npc.quetzacalli_bartender",
       "x": 1499,
       "z": 3224,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(The_Windbreaker)",
         "map": "{{Map|name=Bartender|1499,3224|mtype=pin}}"
       }
     },
     {
+      "id": "w8fd07ad392cb",
       "npc": "npc.quetzacalli_dwarf_worker",
       "x": 1503,
       "z": 3227,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(The_Windbreaker)",
         "map": "{{Map|name=Worker (The Windbreaker)|x=1503|y=3227|plane=0|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wa16ec99042ac",
       "npc": "npc.quetzacalli_general_store",
       "x": 1518,
       "z": 3222,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Quetzacalli_Gorge)",
         "map": "{{Map|name=Shopkeeper|1518,3222|mtype=pin}}"
       }

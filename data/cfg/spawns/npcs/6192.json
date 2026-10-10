@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6192,
   "spawns": [
     {
+      "id": "w81fd85924e36",
       "npc": "npc.mag_alba",
       "x": 1586,
       "z": 3126,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alba",
         "map": "{{Map|1586,3126|mtype=pin}}"
       }
     },
     {
+      "id": "w3558ec006463",
       "npc": "npc.fortis_shop_farming",
       "x": 1594,
       "z": 3103,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Agelus",
         "map": "{{Map|x=1594|y=3103|r=4|plane=0|mtype=square}}"
       }

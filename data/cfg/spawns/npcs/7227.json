@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 7227,
   "spawns": [
     {
+      "id": "w3e6b5902cf2e",
       "npc": "npc.piscarilius_banker_1",
       "x": 1803,
       "z": 3788,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Port_Piscarilius)",
         "map": "{{Map|name=Banker (Port Piscarilius)|x=1803|y=3788|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd53975f08125",
       "npc": "npc.piscarilius_banker_2",
       "x": 1803,
       "z": 3788,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Port_Piscarilius)",
         "map": "{{Map|name=Banker (Port Piscarilius)|x=1803|y=3788|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w65a1eac1ce84",
       "npc": "npc.piscarilius_fishing_supplies_trader",
       "x": 1837,
       "z": 3785,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tynan",
         "map": "{{Map|name=Tynan|1837,3785|mtype=pin}}"
       }
     },
     {
+      "id": "w09eb042032f0",
       "npc": "npc.piscarilius_grub_hunter",
       "x": 1842,
       "z": 3803,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nicholas",
         "map": "{{Map|zoom=1|mtype=pin|1842,3803}}"
       }

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5681,
   "spawns": [
     {
+      "id": "w57a6c0e3b9cc",
       "npc": "npc.zuma_teomat_vis",
       "x": 1458,
       "z": 3193,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zuma",
         "map": "{{Map|1458,3193|plane=1|mtype=pin}}"
       }

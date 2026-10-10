@@ -1,146 +1,172 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13878,
   "spawns": [
     {
+      "id": "wc99c6451fd49",
       "npc": "npc.lesabre_mort_diary",
       "x": 3465,
       "z": 3478,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Le-sabrè",
         "map": "{{Map|name=Le-sabrè|x=3465|y=3478|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w98def184dcdd",
       "npc": "npc.werewolfshopkeeper3",
       "x": 3478,
       "z": 3495,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fidelio",
         "map": "{{Map|name=Fidelio|x=3478|y=3495|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5cafa212d376",
       "npc": "npc.poh_taxidermist",
       "x": 3479,
       "z": 3484,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Taxidermist",
         "map": "{{Map|name=Taxidermist|x=3479|y=3484|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w7d98a2e49f06",
       "npc": "npc.werewolftanner",
       "x": 3488,
       "z": 3500,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sbott",
         "map": "{{Map|name=Sbott|x=3488|y=3500|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w9db0e23a01b0",
       "npc": "npc.werewolfinnkeeper",
       "x": 3494,
       "z": 3470,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Roavar",
         "map": "{{Map|name=Roavar|x=3494|y=3470|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w954eb5943150",
       "npc": "npc.fourdiamonds_vampire_lord",
       "x": 3496,
       "z": 3475,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Malak",
         "map": "{{Map|name=Malak|x=3496|y=3475|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd2a86513daa8",
       "npc": "npc.werewolfshopkeeper2",
       "x": 3500,
       "z": 3505,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barker",
         "map": "{{Map|name=Barker|x=3500|y=3505|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w000002897b2a",
       "npc": "npc.canafis_stranger",
       "x": 3503,
       "z": 3477,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Stranger_(In_Search_of_the_Myreque)",
         "map": "{{Map|name=Stranger|x=3503|y=3477|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wd09a47bd7efc",
       "npc": "npc.route_vanstrom_klause_sitting",
       "x": 3503,
       "z": 3477,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vanstrom_Klause",
         "map": "{{Map|3503,3477|mtype=pin}}"
       }
     },
     {
+      "id": "w4639f8bdfc10",
       "npc": "npc.werewolfshopkeeper1",
       "x": 3508,
       "z": 3495,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rufus",
         "map": "{{Map|name=Rufus|x=3508|y=3495|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0c6574559aac",
       "npc": "npc.slayer_master_2_achtryn_vis",
       "x": 3511,
       "z": 3509,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Achtryn",
         "map": "{{Map|name=Achtryn|x=3511|y=3509|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wed1284c6bd3b",
       "npc": "npc.slayer_master_2_mazchna",
       "x": 3511,
       "z": 3509,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mazchna",
         "map": "{{Map|name=Mazchna|x=3511|y=3509|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w97cf8e6df469",
       "npc": "npc.werewolfbanker",
       "x": 3515,
       "z": 3481,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Canifis)",
         "map": "{{Map|name=Banker (Canifis)|x=3515|y=3481|r=3|mtype=square}}"
       }

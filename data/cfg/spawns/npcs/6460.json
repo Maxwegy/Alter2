@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6460,
   "spawns": [
     {
+      "id": "w3096db81068a",
       "npc": "npc.shayzien_northern_guardian",
       "x": 1624,
       "z": 3880,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Look-out",
         "map": "{{Map|name=Look-out|x=1624|y=3880|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5440bd344782",
       "npc": "npc.arceuus_fairyring_curator",
       "x": 1635,
       "z": 3869,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trossa",
         "map": "{{Map|name=Trossa|x=1635|y=3869|plane=0|r=4|mtype=square}}"
       }

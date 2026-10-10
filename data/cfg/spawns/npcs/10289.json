@@ -1,146 +1,172 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10289,
   "spawns": [
     {
+      "id": "w5acf8e6b67b0",
       "npc": "npc.wgs_washerman",
       "x": 2567,
       "z": 3172,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Khazard_Launderer",
         "map": "{{Map|name=Khazard Launderer|x=2567|y=3172|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we6a1013250f4",
       "npc": "npc.khazard_barman",
       "x": 2568,
       "z": 3144,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Khazard_Barman",
         "map": "{{Map|name=Khazard Barman|x=2568|y=3144|plane=0|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w84b81750b572",
       "npc": "npc.arena_spectator",
       "x": 2582,
       "z": 3171,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spectator_(Fight_Arena)",
         "map": "{{Map|name=Spectator|x=2582|y=3171|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w303c007edbb7",
       "npc": "npc.arena_guard_door_1",
       "x": 2584,
       "z": 3142,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Door_Guard",
         "map": "{{Map|x=2584|y=3142|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w4ac80c2f50c2",
       "npc": "npc.fightslave_joe",
       "x": 2589,
       "z": 3144,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Joe_(Fight_Arena)",
         "map": "{{Map|name=Joe (Fight Arena)|x=2589|y=3144|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w551f02150b20",
       "npc": "npc.fightslave_kelvin",
       "x": 2589,
       "z": 3144,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kelvin",
         "map": "{{Map|name=Kelvin|x=2589|y=3144|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd451e967f9b5",
       "npc": "npc.hengrad",
       "x": 2600,
       "z": 3144,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hengrad",
         "map": "{{Map|name=Hengrad|x=2600|y=3144|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7832939f6335",
       "npc": "npc.fightslave",
       "x": 2600,
       "z": 3157,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Slave_(Fight_Arena)",
         "map": "{{Map|name=Slave|x=2600|y=3157|plane=0|r=20|mtype=square}}"
       }
     },
     {
+      "id": "w42593896242a",
       "npc": "npc.fightslave_2",
       "x": 2600,
       "z": 3157,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Slave_(Fight_Arena)",
         "map": "{{Map|name=Slave|x=2600|y=3157|plane=0|r=20|mtype=square}}"
       }
     },
     {
+      "id": "w9e172266f585",
       "npc": "npc.arena_guard3",
       "x": 2611,
       "z": 3193,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Khazard_Guard_(Off_duty)",
         "map": "{{Map|name=Khazard Guard|x=2611|y=3193|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w36041546382f",
       "npc": "npc.arena_guard2",
       "x": 2616,
       "z": 3144,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Head_Guard_(Fight_Arena)",
         "map": "{{Map|name=Khazard Guard|x=2616|y=3144|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we02053f63d3b",
       "npc": "npc.sotn_hazeel_cultist_entry",
       "x": 2616,
       "z": 3168,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sammy_Servil",
         "map": "{{Map|name=Sammy Servil|x=2616|y=3168|plane=0|r=3|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "w124ad23dcb58",
       "npc": "npc.arena_guard_door_2",
       "x": 2618,
       "z": 3172,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Door_Guard",
         "map": "{{Map|x=2618|y=3172|r=1|mtype=square}}"
       }

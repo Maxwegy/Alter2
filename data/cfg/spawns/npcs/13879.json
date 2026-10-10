@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13879,
   "spawns": [
     {
+      "id": "wc041197bdf71",
       "npc": "npc.ahoy_crone",
       "x": 3463,
       "z": 3558,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Old_crone",
         "map": "{{Map|name=Old crone|x=3463|y=3558|rectX=7|rectY=5|plane=0|mtype=rectangle}}"
       }

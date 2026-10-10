@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 7223,
   "spawns": [
     {
+      "id": "w3c9db868feb2",
       "npc": "npc.hosidius_vintner",
       "x": 1806,
       "z": 3563,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gallow",
         "map": "{{Map|name=Gallow|x=1806|y=3563|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9d46054769d9",
       "npc": "npc.hosidius_man_on_toilet",
       "x": 1817,
       "z": 3537,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Man_(Hosidius)",
         "map": "{{Map|name=Man (Hosidius)|zoom=3|x=1817|y=3537|mtype=pin}}"
       }

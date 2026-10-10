@@ -1,59 +1,70 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12595,
   "spawns": [
     {
+      "id": "wdd93ee5c6251",
       "npc": "npc.millie_the_miller",
       "x": 3167,
       "z": 3307,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Millie_Miller",
         "map": "{{Map|name=Millie Miller|x=3167|y=3307|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wb06b7556ea3c",
       "npc": "npc.cowboss_farmer",
       "x": 3170,
       "z": 3279,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cassius",
         "map": "{{Map|name=Cassius|x=3170|y=3279|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4d07b45f3b40",
       "npc": "npc.xmas22_goose",
       "x": 3178,
       "z": 3298,
       "height": 0,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Goose",
         "map": "{{Map|3178,3298|squareX=18|squareY=20|mtype=rectangle}}"
       }
     },
     {
+      "id": "w176c194b3f16",
       "npc": "npc.fred_the_farmer",
       "x": 3189,
       "z": 3273,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fred_the_Farmer",
         "map": "{{Map|x=3189|y=3273|r=3|mtype=square}}"
       }
     },
     {
+      "id": "md64153a04b8d",
       "npc": "npc.ramunsheeredshaggy",
       "x": 3195,
       "z": 3271,
       "height": 0,
       "walkRadius": 10,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     }
   ]

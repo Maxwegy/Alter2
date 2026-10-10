@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6191,
   "spawns": [
     {
+      "id": "wd09365c35ad0",
       "npc": "npc.hg_bank_buffalo",
       "x": 1546,
       "z": 3038,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bank_buffalo",
         "map": "{{Map|x=1546|y=3038|mtype=pin}}"
       }
     },
     {
+      "id": "w871b2006db3f",
       "npc": "npc.afl_hunter_fox_normal_vis",
       "x": 1548,
       "z": 3048,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guild_Hunter_Fox",
         "map": "{{Map|x=1548|y=3048|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we16820c38280",
       "npc": "npc.hg_quetzal",
       "x": 1556,
       "z": 3042,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Quetzal_(NPC)",
         "map": "{{Map|x=1556|y=3042|plane=2|mtype=pin}}"
       }
     },
     {
+      "id": "wb4d9a58c6879",
       "npc": "npc.hunter_guild_pitri",
       "x": 1558,
       "z": 3047,
       "height": 2,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soar_Leader_Pitri",
         "map": "{{Map|x=1558|y=3047|r=5|plane=2|mtype=square}}"
       }

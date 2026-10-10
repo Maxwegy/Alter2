@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10290,
   "spawns": [
     {
+      "id": "wb24d1f639e17",
       "npc": "npc.brother_kojo",
       "x": 2569,
       "z": 3249,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Kojo",
         "map": "{{Map|x=2569|y=3249|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfec0a2470983",
       "npc": "npc.canoeing_pete",
       "x": 2577,
       "z": 3261,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pete",
         "map": "{{Map|2577,3261|mtype=square|r=2}}"
       }
     },
     {
+      "id": "w8de612efe295",
       "npc": "npc.brother_omad",
       "x": 2604,
       "z": 3209,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Omad",
         "map": "{{Map|x=2604|y=3209|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfd3db96f33ea",
       "npc": "npc.brother_cedric",
       "x": 2614,
       "z": 3259,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Cedric",
         "map": "{{Map|name=Brother Cedric|x=2614|y=3259|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wba0ea360c086",
       "npc": "npc.farming_gardener_bush_4",
       "x": 2617,
       "z": 3225,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Torrell",
         "map": "{{Map|name=Torrell|x=2617|y=3225|plane=0|r=3|mtype=square|bucket=yes}}"
       }

@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10804,
   "spawns": [
     {
+      "id": "w06246b583784",
       "npc": "npc.legends_guild_guard1",
       "x": 2726,
       "z": 3349,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Legends'_Guard",
         "map": "{{Map|name=Legends' Guard|x:2726,y:3349|mapID=0|plane=0|r=2|mtype=pin|group=1|ptype=npc}}"
       }
     },
     {
+      "id": "w77e547732461",
       "npc": "npc.radimus_erkle",
       "x": 2726,
       "z": 3368,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Radimus_Erkle",
         "map": "{{Map|name=Radimus Erkle|x=2726|y=3368|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w835d9a43f0e4",
       "npc": "npc.siegfried_erkle",
       "x": 2726,
       "z": 3378,
       "height": 3,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Siegfried_Erkle",
         "map": "{{Map|name=Siegfried Erkle|x=2726|y=3378|plane=3|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we178283fef4f",
       "npc": "npc.fionella",
       "x": 2730,
       "z": 3378,
       "height": 1,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fionella",
         "map": "{{Map|name=Fionella|x=2730|y=3378|plane=1|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w79a45ce1ee6e",
       "npc": "npc.legends_guild_guard2",
       "x": 2731,
       "z": 3348,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Legends'_Guard",
         "map": "{{Map|name=Legends' Guard|x:2731,y:3348|mapID=0|plane=0|r=2|mtype=pin|group=2|ptype=npc}}"
       }

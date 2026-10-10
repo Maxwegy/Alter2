@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9270,
   "spawns": [
     {
+      "id": "wcdd1c69bca22",
       "npc": "npc.eaglepeak_nickolaus_disguise",
       "x": 2318,
       "z": 3503,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nickolaus",
         "map": "{{Map|name=Nickolaus|2318,3503|r=3|mtype=square}}"
       }

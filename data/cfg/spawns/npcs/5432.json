@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5432,
   "spawns": [
     {
+      "id": "wc3100ba6b829",
       "npc": "npc.fishing_npc_angler",
       "x": 1368,
       "z": 3633,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alry_the_Angler",
         "map": "{{Map|name=Alry the Angler|x=1368|y=3633|r=4|mtype=square}}"
       }

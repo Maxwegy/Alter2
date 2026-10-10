@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5683,
   "spawns": [
     {
+      "id": "wc93e62716e31",
       "npc": "npc.hunter_diana",
       "x": 1410,
       "z": 3305,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Diana_(Auburn_Valley)",
         "map": "{{Map|name=Diana|1410,3305|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w95bf758b47f1",
       "npc": "npc.auburn_teoki_ranul",
       "x": 1436,
       "z": 3323,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dominicus,_Teoki_of_Ranul",
         "map": "{{Map|1436,3323|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w886224494b4e",
       "npc": "npc.auburn_teoki_ralos",
       "x": 1440,
       "z": 3323,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Litlihui,_Teoki_of_Ralos",
         "map": "{{Map|1440,3323|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wabdd9a0e1524",
       "npc": "npc.ent_enjoyer_2",
       "x": 1443,
       "z": 3319,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ocuil",
         "map": "{{Map|name=Ocuil|1443,3319|mtype=pin}}"
       }
     },
     {
+      "id": "wf1f5403d8670",
       "npc": "npc.ent_enjoyer_3",
       "x": 1444,
       "z": 3319,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Toch",
         "map": "{{Map|name=Toch|1444,3319|mtype=pin}}"
       }
     },
     {
+      "id": "w384822c4b9d5",
       "npc": "npc.quetzacalli_pilgrim",
       "x": 1460,
       "z": 3266,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pilgrim",
         "map": "{{Map|name=Pilgrim|1460,3266|mtype=pin}}"
       }

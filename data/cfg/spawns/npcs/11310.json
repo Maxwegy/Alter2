@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11310,
   "spawns": [
     {
+      "id": "w18a4a694b3d1",
       "npc": "npc.shilogeneralstore",
       "x": 2825,
       "z": 2959,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Obli",
         "map": "{{Map|name=Obli|2825,2959|mtype=pin}}"
       }
     },
     {
+      "id": "wdc38089a972e",
       "npc": "npc.shilocartdriver",
       "x": 2834,
       "z": 2954,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vigroy",
         "map": "{{Map|name=Vigroy|x=2834|y=2954|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w101e9c41719c",
       "npc": "npc.shiloantiques",
       "x": 2836,
       "z": 2984,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Yanni_Salika",
         "map": "{{Map|name=Yanni Salika|x=2836|y=2984|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wcc2e6913e0ed",
       "npc": "npc.shilobanker",
       "x": 2852,
       "z": 2954,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Shilo_Village)",
         "map": "{{Map|name=Banker (Shilo Village)|x=2852|y=2954|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wdcecff130e5c",
       "npc": "npc.shilofurnaceowner",
       "x": 2857,
       "z": 2965,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Yohnus",
         "map": "{{Map|name=Yohnus|x=2857|y=2965|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf0e6efbe04f8",
       "npc": "npc.shiloinnowner",
       "x": 2862,
       "z": 2997,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kaleb_Paramaya",
         "map": "{{Map|name=Kaleb Paramaya|x=2862|y=2997|r=5|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "wf9809d7ef7bb",
       "npc": "npc.slayer_master_5_duradel",
       "x": 2869,
       "z": 2982,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Duradel",
         "map": "{{Map|x=2869|y=2982|plane=1|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w4dc58b12867c",
       "npc": "npc.slayer_master_5_kuradal",
       "x": 2869,
       "z": 2982,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kuradal",
         "map": "{{Map|x=2869|y=2982|plane=1|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w9090de28ad85",
       "npc": "npc.shiloshiptickets",
       "x": 2870,
       "z": 2973,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Seravel",
         "map": "{{Map|name=Seravel|2870,2973|plane=1|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w9bcaf7ec06f3",
       "npc": "npc.shilofishowner",
       "x": 2871,
       "z": 2969,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fernahei",
         "map": "{{Map|name=Fernahei|2871,2969|mtype=pin}}"
       }

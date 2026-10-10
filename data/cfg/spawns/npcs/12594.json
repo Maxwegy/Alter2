@@ -1,111 +1,135 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12594,
   "spawns": [
     {
+      "id": "wca30a625d2d4",
       "npc": "npc.zanarisleprechaun",
       "x": 3138,
       "z": 3211,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shamus",
         "map": "{{Map|name=Shamus|x=3138|y=3211|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w3ce17d807673",
       "npc": "npc.archeradventurerpg",
       "x": 3150,
       "z": 3205,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Archer_(Lost_City)",
         "map": "{{Map|name=Archer (Lost City)|x=3150|y=3205|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0861e71bf43f",
       "npc": "npc.monkadventurerpg",
       "x": 3150,
       "z": 3205,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Monk_(Lost_City)",
         "map": "{{Map|name=Monk (Lost City)|x=3150|y=3205|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w85bfe9a3606f",
       "npc": "npc.warrioradventurerpg",
       "x": 3150,
       "z": 3205,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Warrior_(Lost_City)",
         "map": "{{Map|name=Warrior (Lost City)|x=3150|y=3205|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wca9405225d1a",
       "npc": "npc.wizardadventuterpg",
       "x": 3150,
       "z": 3205,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_(Lost_City)",
         "map": "{{Map|name=Wizard (Lost City)|x=3150|y=3205|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "m4816dcb6f38b",
       "npc": "npc.sos_pest_giantspider1",
       "x": 3165,
       "z": 3251,
       "height": 0,
       "walkRadius": 7,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m896b732ab423",
       "npc": "npc.poh_giantspider",
       "x": 3168,
       "z": 3243,
       "height": 0,
       "walkRadius": 7,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w46ecc24b491f",
       "npc": "npc.farming_gardener_tree_4",
       "x": 3190,
       "z": 3233,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fayeth",
         "map": "{{Map|name=Fayeth|x=3190|y=3233|r=1|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "me0ce5cfc5c58",
       "npc": "npc.sheepunsheeredshaggy2",
       "x": 3196,
       "z": 3263,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mc897a43ccb58",
       "npc": "npc.sheepunsheeredshaggy2",
       "x": 3199,
       "z": 3261,
       "height": 0,
       "walkRadius": 10,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     }
   ]

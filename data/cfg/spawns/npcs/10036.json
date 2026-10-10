@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10036,
   "spawns": [
     {
+      "id": "w03ebee9ea55e",
       "npc": "npc.billy_rehnison",
       "x": 2530,
       "z": 3331,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Billy_Rehnison",
         "map": "{{Map|name=Billy Rehnison|x=2530|y=3331|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w6b72e6d1b0b7",
       "npc": "npc.ted_rehnison",
       "x": 2531,
       "z": 3331,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ted_Rehnison",
         "map": "{{Map|name=Ted Rehnison|x=2531|y=3331|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w6132d8b64abb",
       "npc": "npc.milli",
       "x": 2531,
       "z": 3331,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Milli_Rehnison",
         "map": "{{Map|name=Milli Rehnison|x=2531|y=3331|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf211516ff057",
       "npc": "npc.martha_rehnison",
       "x": 2531,
       "z": 3332,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Martha_Rehnison",
         "map": "{{Map|name=Martha Rehnison|x=2531|y=3332|r=4|mtype=square}}"
       }

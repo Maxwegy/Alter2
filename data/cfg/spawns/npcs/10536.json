@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10536,
   "spawns": [
     {
+      "id": "w938e54096230",
       "npc": "npc.pest_squire_instance",
       "x": 2655,
       "z": 2608,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squire_(Void_Knights)",
         "map": "{{Map|x=2655|y=2608|mtype=pin|group=pinex}}"
       }

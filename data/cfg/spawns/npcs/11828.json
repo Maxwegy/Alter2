@@ -1,267 +1,315 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11828,
   "spawns": [
     {
+      "id": "wba0a05f21bcb",
       "npc": "npc.herquin",
       "x": 2945,
       "z": 3334,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Herquin",
         "map": "{{Map|name=Herquin|x=2945|y=3334|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wb94088c22f9e",
       "npc": "npc.hairdresser",
       "x": 2945,
       "z": 3380,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hairdresser",
         "map": "{{Map|name=Hairdresser|x=2945|y=3380|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0c1b31727780",
       "npc": "npc.flynn",
       "x": 2950,
       "z": 3387,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Flynn",
         "map": "{{Map|name=Flynn|x=2950|y=3387|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wac86299a291b",
       "npc": "npc.risingsun_barmaid",
       "x": 2956,
       "z": 3372,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Emily",
         "map": "{{Map|name=Emily|x=2956|y=3372|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7f3ab0fefdf6",
       "npc": "npc.pmod_town_crier_falador",
       "x": 2956,
       "z": 3381,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Town_Crier",
         "map": "{{Map|name=Town Crier|x=2956|y=3381|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w6c021b8b7488",
       "npc": "npc.bim_cutscene_tina",
       "x": 2957,
       "z": 3370,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tina",
         "map": "{{Map|name=Tina|x=2957|y=3370|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "wd5c0f330e559",
       "npc": "npc.risingsun_barmaid3",
       "x": 2957,
       "z": 3370,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tina",
         "map": "{{Map|name=Tina|x=2957|y=3370|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w4e4cf2901599",
       "npc": "npc.risingsun_barmaid2",
       "x": 2958,
       "z": 3371,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kaylee",
         "map": "{{Map|name=Kaylee|x=2958|y=3371|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w41a866ca0025",
       "npc": "npc.generalshopkeeper4",
       "x": 2958,
       "z": 3387,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Falador)",
         "map": "{{Map|name=Shop keeper (Falador)|x=2958|y=3387|mtype=pin}}"
       }
     },
     {
+      "id": "w9d788000e7b7",
       "npc": "npc.generalassistant4",
       "x": 2958,
       "z": 3388,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Falador)",
         "map": "{{Map|name=Shop assistant (Falador)|x=2958|y=3388|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wac7a859df139",
       "npc": "npc.wgs_farmer_druid_vis",
       "x": 2961,
       "z": 3341,
       "height": 3,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Druid_(enriched_snapdragon_patch)",
         "map": "{{Map|name=Druid|2961,3341|plane=3|mtype=pin}}"
       }
     },
     {
+      "id": "w4c3b66c491fb",
       "npc": "npc.garden_trolley_saradomin",
       "x": 2965,
       "z": 3382,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trolley_(Saradomin)",
         "map": "{{Map|name=Trolley (Saradomin)|2965,3382|mtype=pin}}"
       }
     },
     {
+      "id": "wd20deae7e63c",
       "npc": "npc.falador_workman_fat",
       "x": 2974,
       "z": 3372,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Workman",
         "map": "{{Map|name=Workman|x=2974|y=3372|r=5|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w7357c4077a37",
       "npc": "npc.falador_workman_young",
       "x": 2974,
       "z": 3372,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Apprentice_workman",
         "map": "{{Map|name=Apprentice workman|x=2974|y=3372|r=5|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w24c68b9d3ff2",
       "npc": "npc.cassie",
       "x": 2976,
       "z": 3384,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cassie",
         "map": "{{Map|name=Cassie|x=2976|y=3384|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd213d4b59bcc",
       "npc": "npc.squire",
       "x": 2977,
       "z": 3342,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squire",
         "map": "{{Map|name=Squire|x=2977|y=3342|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa4339369e65f",
       "npc": "npc.white_knight_diary",
       "x": 2978,
       "z": 3347,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Rebral",
         "map": "{{Map|name=Sir Rebral|x=2978|y=3347|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w72cbe578f082",
       "npc": "npc.poh_herald_of_falador",
       "x": 2982,
       "z": 3341,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Renitee",
         "map": "{{Map|name=Sir Renitee|x=2982|y=3341|r=3|plane=1|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wb7d25444a0d6",
       "npc": "npc.aluft_gnome_diplomat_falador",
       "x": 2983,
       "z": 3337,
       "height": 1,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ambassador_Spanfipple",
         "map": "{{Map|name=Ambassador Spanfipple|x=2983|y=3337|r=9|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w82cd664f4a9b",
       "npc": "npc.sir_vyvin",
       "x": 2984,
       "z": 3339,
       "height": 2,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Vyvin",
         "map": "{{Map|name=Sir Vyvin|x=2984|y=3339|plane=2|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w71d78fe7011c",
       "npc": "npc.falador_woman",
       "x": 2991,
       "z": 3384,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cecilia",
         "map": "{{Map|name=Cecilia|x=2991|y=3384|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wde481a5c7e55",
       "npc": "npc.wgs_cyrisus_melee",
       "x": 2995,
       "z": 3342,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cyrisus",
         "map": "{{Map|name=Cyrisus|x=2995|y=3342|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we9ccdeb27421",
       "npc": "npc.rd_teleporter_guy",
       "x": 2997,
       "z": 3373,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Tiffy_Cashien",
         "map": "{{Map|name=Sir Tiffy Cashien|x=2997|y=3373|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w89f5e0f0d558",
       "npc": "npc.farming_gardener_tree_2",
       "x": 3004,
       "z": 3374,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Heskel",
         "map": "{{Map|name=Heskel|x=3004|y=3374|r=4|mtype=square|bucket=yes}}"
       }

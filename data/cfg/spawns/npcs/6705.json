@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6705,
   "spawns": [
     {
+      "id": "w2b9b496835cd",
       "npc": "npc.vmq4_ikniu_vis",
       "x": 1675,
       "z": 3175,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ikniu",
         "map": "{{Map|mtype=pin|1675,3175}}"
       }
     },
     {
+      "id": "w6ee294fbc8d7",
       "npc": "npc.vmq4_queen_palace_throne_vis",
       "x": 1680,
       "z": 3174,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Queen_Zyanyi_Arkan",
         "map": "{{Map|name=Queen Zyanyi Arkan|x=1680|y=3174|mtype=pin}}"
       }
     },
     {
+      "id": "wc1b5d0639f32",
       "npc": "npc.vmq2_quetzal_keeper_fortis",
       "x": 1700,
       "z": 3143,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Regulus_Cento",
         "map": "{{Map|x=1700|y=3143|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wa430e521884b",
       "npc": "npc.vmq2_quetzal_fortis",
       "x": 1703,
       "z": 3142,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Primio",
         "map": "{{Map|name=Primio|1703,3142|mtype=pin}}"
       }
     },
     {
+      "id": "wfa06d85f9b82",
       "npc": "npc.fortis_museum_curator",
       "x": 1712,
       "z": 3163,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Curator_Herminius",
         "map": "{{Map|name=Curator|x=1712|y=3163|mtype=pin}}"
       }
     },
     {
+      "id": "w4487e1c12de1",
       "npc": "npc.sailing_charting_weather_troll",
       "x": 1714,
       "z": 3193,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Meaty_Aura_Logist",
         "map": "{{Map|2903,2698|2140,2806|2979,2905|2335,2921|1779,2940|2638,3009|2149,3068|1714,3193|2656,3195|2912,3213|2130,3395|1867,3458|1651,3461|2280,3518|2498,3546|2594,3644|2341,3790|2600,3910|2951,3962|2447,3995|zoom=-3|mapID=0|mtype=pin}}"
       }

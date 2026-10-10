@@ -1,542 +1,640 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6451,
   "spawns": [
     {
+      "id": "we73a5c1ca780",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w29141e5492be",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w9e5b9f972663",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w37ea3ed8c514",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w259091e46b26",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "web3c1a3c9858",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1615,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w43a84e171538",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w59bf8baeeb7e",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wd607dd4df948",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wfeacabc70209",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wf7d33ab668bf",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wf0fdf2565954",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1619,
       "z": 3298,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w458b7130a08c",
       "npc": "npc.salvager_overlook_platebody_store",
       "x": 1620,
       "z": 3290,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salius",
         "map": "{{Map|name=Salius|1620,3290|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w0f8586bad78a",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w55cecf84f627",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wd3ec1207eaeb",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w26c95d0b8fc9",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w08fe7415814c",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w055f30b2e2e7",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1620,
       "z": 3300,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wc59535bc6470",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w4a7828d40609",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w6d910557dd6e",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wc91dd6892add",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w7416ed5f83cf",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wbd58683a74f3",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1623,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w11b6da9b7055",
       "npc": "npc.fisherman_hugh_noop",
       "x": 1626,
       "z": 3297,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hugh",
         "map": "{{Map|1626,3297|mtype=pin}}"
       }
     },
     {
+      "id": "wf522a5890885",
       "npc": "npc.fisherman_hugh_op",
       "x": 1626,
       "z": 3297,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hugh",
         "map": "{{Map|1626,3297|mtype=pin}}"
       }
     },
     {
+      "id": "w521c91bd72e8",
       "npc": "npc.fisherman_hugh_up_vis",
       "x": 1626,
       "z": 3297,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hugh",
         "map": "{{Map|1626,3297|mtype=pin}}"
       }
     },
     {
+      "id": "wbab802789ec7",
       "npc": "npc.salvager_izel",
       "x": 1627,
       "z": 3296,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Izel",
         "map": "{{Map|1627,3296|mtype=pin}}"
       }
     },
     {
+      "id": "w6985553500c2",
       "npc": "npc.salvager_overlook_general_store",
       "x": 1628,
       "z": 3288,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Salvager_Overlook)",
         "map": "{{Map|name=Shopkeeper|1628,3288|mtype=rectangle|rectX=6|rectY=5}}"
       }
     },
     {
+      "id": "w013fdde05f47",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w00bf35dad87a",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w67e71d5a04fd",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w7dff01570cf6",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w0201e9735270",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w1125f2c32869",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1629,
       "z": 3299,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wa9567ababfe8",
       "npc": "npc.spiritofadventure_jasper",
       "x": 1629,
       "z": 3301,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jasper",
         "map": "{{Map|name=Jasper|1629,3301|mtype=pin}}"
       }
     },
     {
+      "id": "w260bd8bfc521",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wd891f8208262",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w4b2ec937eda4",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w3548cbd1d2f6",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w83ac14efb684",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w7277b8f04979",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1633,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wb24324a4054e",
       "npc": "npc.varlamore_salvager_f_1",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "wc5a314d389d3",
       "npc": "npc.varlamore_salvager_f_2",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w15ffd281c1ae",
       "npc": "npc.varlamore_salvager_f_3",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w863f76f329f8",
       "npc": "npc.varlamore_salvager_m_1",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "we38ef143c187",
       "npc": "npc.varlamore_salvager_m_2",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }
     },
     {
+      "id": "w8838bce681c6",
       "npc": "npc.varlamore_salvager_m_3",
       "x": 1646,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Salvager",
         "map": "{{Map|1646,3286|1629,3299|1619,3298|1623,3294|1620,3300|1615,3293|1633,3291|mtype=pin}}"
       }

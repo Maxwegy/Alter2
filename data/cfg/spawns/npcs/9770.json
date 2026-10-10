@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9770,
   "spawns": [
     {
+      "id": "w41e8b19be194",
       "npc": "npc.farming_gardener_hardwood_tree_5",
       "x": 2471,
       "z": 2706,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Argo",
         "map": "{{Map|name=Argo|x=2471|y=2706|r=2|mtype=square|bucket=yes}}"
       }

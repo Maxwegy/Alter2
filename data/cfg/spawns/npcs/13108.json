@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13108,
   "spawns": [
     {
+      "id": "w5e33c693a848",
       "npc": "npc.drunk2",
       "x": 3268,
       "z": 3389,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hops_(Biohazard)",
         "map": "{{Map|name=Hops (Biohazard)|x=3268|y=3389|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w0071eb44fcc3",
       "npc": "npc.donkey_bartender",
       "x": 3268,
       "z": 3391,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Dancing_Donkey_Inn)",
         "map": "{{Map|name=Bartender (Dancing Donkey Inn)|3268,3391|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w461a29405fe8",
       "npc": "npc.gambler2",
       "x": 3271,
       "z": 3388,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Chancy",
         "map": "{{Map|name=Chancy|x=3271|y=3388|r=4|mtype=pin}}"
       }
     },
     {
+      "id": "w8b977c69bc4e",
       "npc": "npc.artist2",
       "x": 3272,
       "z": 3389,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Da_Vinci",
         "map": "{{Map|name=Da Vinci|x=3272|y=3389|r=4|mtype=pin}}"
       }
     },
     {
+      "id": "we32b497c3be9",
       "npc": "npc.guidors_wife",
       "x": 3281,
       "z": 3382,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Julie",
         "map": "{{Map|name=Julie|x=3281|y=3382|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we31c993aaa8b",
       "npc": "npc.guidor",
       "x": 3284,
       "z": 3383,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guidor",
         "map": "{{Map|name=Guidor|x=3284|y=3383|plane=0|r=2|mtype=square}}"
       }

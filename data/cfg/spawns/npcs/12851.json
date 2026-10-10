@@ -1,150 +1,184 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12851,
   "spawns": [
     {
+      "id": "mb2cb741d8e42",
       "npc": "npc.sheepunsheeredshaggy2",
       "x": 3201,
       "z": 3272,
       "height": 0,
       "walkRadius": 10,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m0774588b03d5",
       "npc": "npc.sheepunsheeredshaggy2",
       "x": 3202,
       "z": 3268,
       "height": 0,
       "walkRadius": 10,
       "direction": "NORTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "wcb2f286fbb6f",
       "npc": "npc.lamb2",
       "x": 3203,
       "z": 3267,
       "height": 0,
       "walkRadius": 12,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lamb",
         "map": "{{Map|name=Lamb|x=3203|y=3267|r=12|mtype=square}}"
       }
     },
     {
+      "id": "w8482ee191e06",
       "npc": "npc.sheep_shearer_the_thing",
       "x": 3203,
       "z": 3267,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sheep_(penguins)",
         "map": "{{Map|name=Sheep (penguins)|x=3203|y=3267|r=10|mtype=square}}"
       }
     },
     {
+      "id": "m94b5fb1fa0ea",
       "npc": "npc.sheepunsheeredshaggy2",
       "x": 3206,
       "z": 3266,
       "height": 0,
       "walkRadius": 10,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "mb00e98a94fa8",
       "npc": "npc.ramunsheeredshaggy",
       "x": 3207,
       "z": 3271,
       "height": 0,
       "walkRadius": 10,
       "direction": "SOUTH",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "m60cdc79a7311",
       "npc": "npc.goblin",
       "x": 3221,
       "z": 3271,
       "height": 0,
       "walkRadius": 8,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w4d8d9d23ccca",
       "npc": "npc.dttd_delivery_dwarf_there",
       "x": 3224,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Death_to_the_Dorgeshuun)",
         "map": "{{Map|name=Dwarf|x:3224,y:3286|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w88193e6d00da",
       "npc": "npc.dttd_mill_man_crate_there",
       "x": 3227,
       "z": 3285,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/H.A.M._Member_(Death_to_the_Dorgeshuun)",
         "map": "{{Map|name=H.A.M. Member|3227,3285|mtype=square|r=5|mapID=0}}"
       }
     },
     {
+      "id": "wad1a1cc93949",
       "npc": "npc.dttd_mill_man_nocrate_there",
       "x": 3227,
       "z": 3285,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/H.A.M._Member_(Death_to_the_Dorgeshuun)",
         "map": "{{Map|name=H.A.M. Member|3227,3285|mtype=square|r=5|mapID=0}}"
       }
     },
     {
+      "id": "w6fadb6ecc965",
       "npc": "npc.farming_gardener_hops_3",
       "x": 3227,
       "z": 3314,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vasquen",
         "map": "{{Map|name=Vasquen|x=3227|y=3314|plane=0|r=5|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w009271c3d799",
       "npc": "npc.favour_seth_groats",
       "x": 3228,
       "z": 3291,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Seth_Groats",
         "map": "{{Map|name=Seth Groats|x=3228|y=3291|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "m6ee4a827d179",
       "npc": "npc.lumbridge_guide2_man",
       "x": 3243,
       "z": 3265,
       "height": 0,
       "walkRadius": 22,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/GeePlugin.kt"
     },
     {
+      "id": "we43c009aae65",
       "npc": "npc.gillie_the_milkmaid",
       "x": 3253,
       "z": 3275,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gillie_Groats",
         "map": "{{Map|name=Gillie Groats|x=3253|y=3275|plane=0|r=3|mtype=square}}"
       }

@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11830,
   "spawns": [
     {
+      "id": "w83926c17617c",
       "npc": "npc.catwalk_goblin_blue",
       "x": 2959,
       "z": 3513,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grubfoot",
         "map": "{{Map|name=Grubfoot|x=2959|y=3513|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w675d95a46b85",
       "npc": "npc.catwalk_goblin_brown",
       "x": 2959,
       "z": 3513,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grubfoot",
         "map": "{{Map|name=Grubfoot|x=2959|y=3513|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfb15397f98d8",
       "npc": "npc.catwalk_goblin_orange",
       "x": 2959,
       "z": 3513,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grubfoot",
         "map": "{{Map|name=Grubfoot|x=2959|y=3513|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w58d0d14399c1",
       "npc": "npc.grim_miazrqa",
       "x": 2968,
       "z": 3476,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Miazrqa",
         "map": "{{Map|name=Miazrqa|x=2968|y=3476|plane=0|r=4|mtype=square}}"
       }

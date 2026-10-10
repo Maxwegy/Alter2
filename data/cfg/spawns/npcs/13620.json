@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13620,
   "spawns": [
     {
+      "id": "w039bc84feab4",
       "npc": "npc.filliman_tarlock_ns",
       "x": 3441,
       "z": 3337,
       "height": 0,
       "walkRadius": 8,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Filliman_Tarlock",
         "map": "{{Map|name=Nature Grotto|x=3441|y=3337|r=8|mtype=square}}"
       }
     },
     {
+      "id": "w6e5a3732fa5d",
       "npc": "npc.filliman_tarlock_spirit",
       "x": 3441,
       "z": 3337,
       "height": 0,
       "walkRadius": 8,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Filliman_Tarlock",
         "map": "{{Map|name=Nature Grotto|x=3441|y=3337|r=8|mtype=square}}"
       }

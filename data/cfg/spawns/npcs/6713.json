@@ -1,465 +1,549 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6713,
   "spawns": [
     {
+      "id": "w1c78ad7875da",
       "npc": "npc.pmod_town_crier_kingstown_vis",
       "x": 1664,
       "z": 3669,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Town_Crier",
         "map": "{{Map|name=Town Crier|x=1664|y=3669|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5be132b7c1f0",
       "npc": "npc.akd_martin_holt_jailed_vis",
       "x": 1664,
       "z": 3670,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Martin_Holt",
         "map": "{{Map|name=Martin Holt|x=1664|y=3670|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wd0a4357dceb2",
       "npc": "npc.kourend_protester_leader",
       "x": 1664,
       "z": 3670,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protest_Leader",
         "map": "{{Map|name=Protest Leader|x=1664|y=3670|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w80b0a7c80ea6",
       "npc": "npc.akd_castle_protester_1",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w9878ba6a5263",
       "npc": "npc.akd_castle_protester_10",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w66d1f1f2ceee",
       "npc": "npc.akd_castle_protester_11",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w3798d80153f2",
       "npc": "npc.akd_castle_protester_12",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w0ee3a833b58d",
       "npc": "npc.akd_castle_protester_13",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w60bb0b1bae4f",
       "npc": "npc.akd_castle_protester_14",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w4940ab6edbb4",
       "npc": "npc.akd_castle_protester_15",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wc2b2086edb49",
       "npc": "npc.akd_castle_protester_16",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wa8dcaf54952a",
       "npc": "npc.akd_castle_protester_17",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w35209bd0efa8",
       "npc": "npc.akd_castle_protester_18",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w837ad935afd6",
       "npc": "npc.akd_castle_protester_19",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w98735dc8a29e",
       "npc": "npc.akd_castle_protester_2",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wc47987b81353",
       "npc": "npc.akd_castle_protester_3",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w431da14089db",
       "npc": "npc.akd_castle_protester_4",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w5a214f87dd76",
       "npc": "npc.akd_castle_protester_5",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w1a0b2fc6ef88",
       "npc": "npc.akd_castle_protester_6",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w4cf1e206f50a",
       "npc": "npc.akd_castle_protester_7",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w2f50b823bfef",
       "npc": "npc.akd_castle_protester_8",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wd71ba0c3e3e8",
       "npc": "npc.akd_castle_protester_9",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wf96398c4e7a3",
       "npc": "npc.kourend_protester",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wad535eae6b6c",
       "npc": "npc.kourend_protester_10_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wfe8a40e59e49",
       "npc": "npc.kourend_protester_11_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w877d60b8d3a4",
       "npc": "npc.kourend_protester_12_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w40b745944a8b",
       "npc": "npc.kourend_protester_2",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w1decc470757a",
       "npc": "npc.kourend_protester_2_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w0d87f157b1c3",
       "npc": "npc.kourend_protester_3",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w11e226f30543",
       "npc": "npc.kourend_protester_3_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w7aac183cc450",
       "npc": "npc.kourend_protester_4",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w64cf845a8816",
       "npc": "npc.kourend_protester_4_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w94cad5c0a23f",
       "npc": "npc.kourend_protester_5_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wc343047ff34f",
       "npc": "npc.kourend_protester_6_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w453489f6449e",
       "npc": "npc.kourend_protester_7_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w11fd4f0a364d",
       "npc": "npc.kourend_protester_8_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wc17e9b0885c5",
       "npc": "npc.kourend_protester_9_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wa1a663996a2d",
       "npc": "npc.kourend_protester_vis",
       "x": 1667,
       "z": 3673,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Protester",
         "map": "{{Map|name=Protester|1667,3673|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wa2d23690d741",
       "npc": "npc.lovakengj_minecart_kingstown",
       "x": 1699,
       "z": 3659,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hordal",
         "map": "{{Map|name=Hordal|x=1699|y=3659|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5463d2f7e66c",
       "npc": "npc.kourend_wayfarer1",
       "x": 1700,
       "z": 3686,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Reshi",
         "map": "{{Map|name=Reshi|x=1700|y=3686|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb0dc26aa2aaf",
       "npc": "npc.kourend_wayfarer2",
       "x": 1700,
       "z": 3686,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Thomdril",
         "map": "{{Map|name=Thomdril|x=1700|y=3686|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w3fdccffe66dc",
       "npc": "npc.kourend_wayfarer3",
       "x": 1700,
       "z": 3686,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kendall",
         "map": "{{Map|name=Kendall|x=1700|y=3686|r=4|mtype=square}}"
       }

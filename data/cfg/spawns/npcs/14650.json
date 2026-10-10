@@ -1,102 +1,120 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14650,
   "spawns": [
     {
+      "id": "w33ba4b771c3a",
       "npc": "npc.fossil_swamp_corrupted_archaeologist",
       "x": 3655,
       "z": 3745,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Charles_Charlington",
         "map": "{{Map|name=Charles Charlington|x=3655|y=3745|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc3bf3a1b7713",
       "npc": "npc.fossil_tarmonster_bubbles",
       "x": 3669,
       "z": 3742,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wed855412a2d4",
       "npc": "npc.fossil_tarmonster_passive",
       "x": 3669,
       "z": 3742,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "w5959fc506633",
       "npc": "npc.fossil_tarmonster_bubbles",
       "x": 3676,
       "z": 3744,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wf2c97b512380",
       "npc": "npc.fossil_tarmonster_passive",
       "x": 3676,
       "z": 3744,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wd8cbd7bfa286",
       "npc": "npc.fossil_tarmonster_bubbles",
       "x": 3677,
       "z": 3767,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wb6a9cc78c1d2",
       "npc": "npc.fossil_tarmonster_passive",
       "x": 3677,
       "z": 3767,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "w450ec4bc2e02",
       "npc": "npc.fossil_tarmonster_bubbles",
       "x": 3683,
       "z": 3746,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wae5683ef230e",
       "npc": "npc.fossil_tarmonster_passive",
       "x": 3683,
       "z": 3746,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }

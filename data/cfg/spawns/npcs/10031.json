@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10031,
   "spawns": [
     {
+      "id": "w5a1ec01fd046",
       "npc": "npc.ogre_trader2",
       "x": 2513,
       "z": 3034,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ogre_trader",
         "map": "{{Map|name=Ogre trader|2513,3034|zoom=2|r=10|mtype=pin}}"
       }
     },
     {
+      "id": "w27760b4464c1",
       "npc": "npc.ogre_trader1",
       "x": 2521,
       "z": 3036,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ogre_trader_(Dal)",
         "map": "{{Map|name=Ogre trader (Dal)|x=2521|y=3036|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w6bd4da78a61d",
       "npc": "npc.falseogretrader",
       "x": 2525,
       "z": 3043,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ogre_trader",
         "map": "{{Map|name=Ogre trader|2525,3043|zoom=2|r=10|mtype=pin}}"
       }
     },
     {
+      "id": "wc5ae6f620da0",
       "npc": "npc.ogre_merchant",
       "x": 2527,
       "z": 3048,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ogre_merchant",
         "map": "{{Map|name=Ogre merchant|x=2527|y=3048|r=2|mtype=square}}"
       }

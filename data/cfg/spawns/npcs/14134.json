@@ -1,80 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14134,
   "spawns": [
     {
+      "id": "w0e023918affa",
       "npc": "npc.waa_werewolf_guard",
       "x": 3544,
       "z": 3462,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Werewolf_(Werewolf_Agility_Course)",
         "map": "{{Map|name=Werewolf (Werewolf Agility Course)|x=3544|y=3462|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w2355ebf7077e",
       "npc": "npc.nasty_tree_swamp",
       "x": 3556,
       "z": 3470,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
       }
     },
     {
+      "id": "w252d961177cd",
       "npc": "npc.spider_that_spawns_vampyres",
       "x": 3566,
       "z": 3457,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wcd938102eb9d",
       "npc": "npc.spider_that_spawns_vampyres",
       "x": 3567,
       "z": 3503,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w7c6d11241354",
       "npc": "npc.nasty_tree_swamp",
       "x": 3570,
       "z": 3507,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
       }
     },
     {
+      "id": "w414984555017",
       "npc": "npc.nasty_tree_swamp",
       "x": 3577,
       "z": 3493,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
       }
     },
     {
+      "id": "wf38dc7d2dea5",
       "npc": "npc.nasty_tree_swamp",
       "x": 3579,
       "z": 3477,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
       }

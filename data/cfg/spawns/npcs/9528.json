@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9528,
   "spawns": [
     {
+      "id": "w183a25607aa1",
       "npc": "npc.hunting_falcon_on_perch",
       "x": 2374,
       "z": 3604,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gyr_Falcon",
         "map": "{{Map|name=Gyr Falcon|x=2374|y=3604|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w30f461b699ff",
       "npc": "npc.hunting_npc_falconer",
       "x": 2374,
       "z": 3604,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Matthias",
         "map": "{{Map|name=Matthias|x=2374|y=3604|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w7900d3293f94",
       "npc": "npc.hunting_npc_falconer_nobird",
       "x": 2374,
       "z": 3604,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Matthias",
         "map": "{{Map|name=Matthias|x=2374|y=3604|r=6|mtype=square}}"
       }

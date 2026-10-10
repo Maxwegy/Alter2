@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5420,
   "spawns": [
     {
+      "id": "w19e400e094ba",
       "npc": "npc.nasty_nick",
       "x": 1356,
       "z": 2862,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nasty_Nick",
         "map": "{{Map|name=Nasty Nick|1356,2862|mtype=pin}}"
       }
     },
     {
+      "id": "wea2dad30a387",
       "npc": "npc.mistrock_shield_store",
       "x": 1387,
       "z": 2869,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ichta",
         "map": "{{Map|x=1387|y=2869|zoom=3|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7236106f41aa",
       "npc": "npc.pub_mistrock",
       "x": 1390,
       "z": 2858,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Stick_Your_Ore_Inn)",
         "map": "{{Map|name=Bartender|1390,2858|mtype=pin}}"
       }
     },
     {
+      "id": "w4d61e0b66031",
       "npc": "npc.mistrock_mining_store",
       "x": 1399,
       "z": 2867,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Necto",
         "map": "{{Map|name=Necto|1399,2867|mtype=pin}}"
       }

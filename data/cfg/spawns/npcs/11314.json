@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11314,
   "spawns": [
     {
+      "id": "wc1952bd51147",
       "npc": "npc.ned_1op",
       "x": 2849,
       "z": 3235,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ned",
         "map": "{{Map|name=Captain Ned|2849,3235|plane=1|height=150|mtype=pin}}"
       }
     },
     {
+      "id": "wb2ee27b4c9f7",
       "npc": "npc.sailing_crew_ghost_jenkins_world",
       "x": 2853,
       "z": 3236,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cabin_Boy_Jenkins_(ghost)",
         "map": "{{Map|name=Cabin Boy Jenkins (ghost)|x=2853|y=3236|r=1|mtype=square}}"
       }

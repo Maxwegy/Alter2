@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11823,
   "spawns": [
     {
+      "id": "wf82d668cf55e",
       "npc": "npc.mm_caranock",
       "x": 2955,
       "z": 3024,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/G.L.O._Caranock",
         "map": "{{Map|name=G.L.O. Caranock|x=2955|y=3024|plane=0|r=3|mtype=square}}"
       }

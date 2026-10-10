@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11835,
   "spawns": [
     {
+      "id": "w1843b62c4cb9",
       "npc": "npc.secret_ghost_messenger",
       "x": 2950,
       "z": 3820,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kharrim",
         "map": "{{Map|name=Kharrim|x=2950|y=3820|plane=0|r=4|mapID=0|mtype=square}}"
       }
     },
     {
+      "id": "w4adaa11f69db",
       "npc": "npc.wild_chaos_uncerter",
       "x": 2955,
       "z": 3817,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elder_Chaos_druid_(NPC)",
         "map": "{{Map|name=Elder Chaos druid (NPC)|x=2955|y=3817|r=4|mtype=square}}"
       }

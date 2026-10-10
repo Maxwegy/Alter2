@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4917,
   "spawns": [
     {
+      "id": "w208ca8d3b17a",
       "npc": "npc.varlamore_border_guard_f_1",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wa488aecea000",
       "npc": "npc.varlamore_border_guard_f_2",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wd099b1168db2",
       "npc": "npc.varlamore_border_guard_f_3",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w9f20253a9112",
       "npc": "npc.varlamore_border_guard_f_4",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w5e56b87f8fd6",
       "npc": "npc.varlamore_border_guard_f_5",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wf7e13ebe4b50",
       "npc": "npc.varlamore_border_guard_m_1",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "w18e846ce586c",
       "npc": "npc.varlamore_border_guard_m_2",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wb0d5261009e1",
       "npc": "npc.varlamore_border_guard_m_3",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wfee35632d8f2",
       "npc": "npc.varlamore_border_guard_m_4",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wc6c608e9f5da",
       "npc": "npc.varlamore_border_guard_m_5",
       "x": 1270,
       "z": 3442,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Border_Guard_(Varlamore)",
         "map": "{{Map|name=Border Guard|1270,3442|mtype=square|r=3}}"
       }

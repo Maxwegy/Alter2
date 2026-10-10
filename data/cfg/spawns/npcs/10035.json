@@ -1,410 +1,484 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10035,
   "spawns": [
     {
+      "id": "wfd4e60845b89",
       "npc": "npc.carla_vis",
       "x": 2497,
       "z": 3314,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Carla",
         "map": "{{Map|name=Carla|x=2497|y=3314|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w442fb9dedbeb",
       "npc": "npc.mourner3_vis",
       "x": 2501,
       "z": 3315,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w4a9beaeb0b67",
       "npc": "npc.dskin_w_ardoungechild1",
       "x": 2510,
       "z": 3300,
       "height": 0,
       "walkRadius": 35,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Child",
         "map": "{{Map|name=Child|x=2510|y=3300|squareX=95|squareY=70|zoom=1|mtype=square}}"
       }
     },
     {
+      "id": "w95c03d6b33e4",
       "npc": "npc.w_ardoungechild1",
       "x": 2510,
       "z": 3300,
       "height": 0,
       "walkRadius": 35,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Child",
         "map": "{{Map|name=Child|x=2510|y=3300|squareX=95|squareY=70|zoom=1|mtype=square}}"
       }
     },
     {
+      "id": "wb32f839d31ad",
       "npc": "npc.mourner1_vis",
       "x": 2513,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2518,3320|2513,3294|2535,3296|2530,3274|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "wc5eaac7213f4",
       "npc": "npc.mourner3_vis",
       "x": 2513,
       "z": 3325,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w99d824a42455",
       "npc": "npc.bionurse",
       "x": 2517,
       "z": 3274,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nurse_Sarah",
         "map": "{{Map|2517,3274|rectX=6|rectY=9|mtype=rectangle}}"
       }
     },
     {
+      "id": "w0d261e3c1fc6",
       "npc": "npc.mourner_armed_vis",
       "x": 2518,
       "z": 3309,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2518,3309|2526,3303|2543,3309|group=3|mtype=pin}}"
       }
     },
     {
+      "id": "wf6eddfd188ad",
       "npc": "npc.mourner1_vis",
       "x": 2518,
       "z": 3320,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2518,3320|2513,3294|2535,3296|2530,3274|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "we560d1d651c4",
       "npc": "npc.clerk2",
       "x": 2520,
       "z": 3313,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clerk",
         "map": "{{Map|name=Clerk|x=2520|y=3313|r=4|mtype=square}}"
       }
     },
     {
+      "id": "waaab211921b6",
       "npc": "npc.mourner2_vis",
       "x": 2524,
       "z": 3292,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2538,3321|2536,3294|2524,3292|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "wae23f55f51e2",
       "npc": "npc.mourner3_vis",
       "x": 2526,
       "z": 3279,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w6ed5d8a68070",
       "npc": "npc.mourner_armed_vis",
       "x": 2526,
       "z": 3303,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2518,3309|2526,3303|2543,3309|group=3|mtype=pin}}"
       }
     },
     {
+      "id": "w7f96082ea399",
       "npc": "npc.clerk",
       "x": 2526,
       "z": 3316,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clerk",
         "map": "{{Map|name=Clerk|x=2526|y=3316|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wdee161f8afed",
       "npc": "npc.mourner3_vis",
       "x": 2528,
       "z": 3297,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w15dd2a80abd1",
       "npc": "npc.mourner1_vis",
       "x": 2530,
       "z": 3274,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2518,3320|2513,3294|2535,3296|2530,3274|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "w893d153813f3",
       "npc": "npc.w_ardoungepriest",
       "x": 2530,
       "z": 3288,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Priest_(West_Ardougne)",
         "map": "{{Map|name=Priest (West Ardougne)|x=2530|y=3288|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa6a69e121bb8",
       "npc": "npc.mourner_elena_guard_vis",
       "x": 2534,
       "z": 3273,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2534,3273|2539,3273|group=4|mtype=pin}}"
       }
     },
     {
+      "id": "w860a186c66e6",
       "npc": "npc.mourner3_vis",
       "x": 2535,
       "z": 3288,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w4971ace2e9af",
       "npc": "npc.mourner1_vis",
       "x": 2535,
       "z": 3296,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2518,3320|2513,3294|2535,3296|2530,3274|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "w58449b6e3a00",
       "npc": "npc.mourner2_vis",
       "x": 2536,
       "z": 3294,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2538,3321|2536,3294|2524,3292|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "w2a97750f327a",
       "npc": "npc.bravek",
       "x": 2536,
       "z": 3315,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bravek",
         "map": "{{Map|name=Bravek|x=2536|y=3315|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w92694142dbd5",
       "npc": "npc.bravek_hangover_cure_anim",
       "x": 2536,
       "z": 3315,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bravek",
         "map": "{{Map|name=Bravek|x=2536|y=3315|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w254d088eb55c",
       "npc": "npc.mourner2_vis",
       "x": 2538,
       "z": 3321,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2538,3321|2536,3294|2524,3292|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "wf0d18add80d4",
       "npc": "npc.mourner_elena_guard_vis",
       "x": 2539,
       "z": 3273,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2534,3273|2539,3273|group=4|mtype=pin}}"
       }
     },
     {
+      "id": "w1c55b1ec4da7",
       "npc": "npc.recruiter_vis",
       "x": 2541,
       "z": 3306,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Recruiter",
         "map": "{{Map|name=Recruiter|x=2541|y=3306|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w9621908f7790",
       "npc": "npc.headmourner_vis",
       "x": 2542,
       "z": 3286,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Head_Mourner",
         "map": "{{Map|name=Head Mourner|x=2542|y=3286|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "wc2f24b3543a3",
       "npc": "npc.mourner_armed_vis",
       "x": 2543,
       "z": 3309,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2518,3309|2526,3303|2543,3309|group=3|mtype=pin}}"
       }
     },
     {
+      "id": "w958f2fcc6551",
       "npc": "npc.mournerstew1_vis",
       "x": 2545,
       "z": 3326,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2545,3326|2551,3322|2555,3324|group=5|mtype=pin}}"
       }
     },
     {
+      "id": "wce2438724526",
       "npc": "npc.mourner3_vis",
       "x": 2548,
       "z": 3287,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2501,3315|2513,3325|2528,3297|2526,3279|2535,3288|2548,3287|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w44fb27e92b38",
       "npc": "npc.mournerstew3_vis",
       "x": 2548,
       "z": 3324,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2548,3324|2550,3326|2553,3325|group=4|mtype=pin}}"
       }
     },
     {
+      "id": "w9bdf55276219",
       "npc": "npc.mournerstew3_vis",
       "x": 2550,
       "z": 3326,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2548,3324|2550,3326|2553,3325|group=4|mtype=pin}}"
       }
     },
     {
+      "id": "w1cd38cb8b352",
       "npc": "npc.mournerstew1_vis",
       "x": 2551,
       "z": 3322,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2545,3326|2551,3322|2555,3324|group=5|mtype=pin}}"
       }
     },
     {
+      "id": "wccb0623f1334",
       "npc": "npc.mourner_armed_guard_vis",
       "x": 2552,
       "z": 3320,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2552,3320|group=7|mtype=pin}}"
       }
     },
     {
+      "id": "w6a991fd29337",
       "npc": "npc.mournerstew3_vis",
       "x": 2553,
       "z": 3325,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2548,3324|2550,3326|2553,3325|group=4|mtype=pin}}"
       }
     },
     {
+      "id": "wcbf3f378bbbd",
       "npc": "npc.mournerstew1_vis",
       "x": 2555,
       "z": 3324,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2545,3326|2551,3322|2555,3324|group=5|mtype=pin}}"
       }
     },
     {
+      "id": "w14a68fee7ce6",
       "npc": "npc.mournerwatchtower_vis",
       "x": 2559,
       "z": 3304,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2559,3304|2561,3305|2561,3303|group=6|mtype=pin}}"
       }

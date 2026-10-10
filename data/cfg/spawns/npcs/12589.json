@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12589,
   "spawns": [
     {
+      "id": "wdfa7bc8a9a01",
       "npc": "npc.grinder_drew",
       "x": 3152,
       "z": 2909,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Drew",
         "map": "{{Map|name=Drew|x=3152|y=2909|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w75d5aba08013",
       "npc": "npc.enakh_lazim",
       "x": 3191,
       "z": 2926,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lazim",
         "map": "{{Map|name=Lazim|x=3191|y=2926|plane=0|r=2|mtype=square}}"
       }

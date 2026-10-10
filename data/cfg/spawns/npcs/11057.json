@@ -1,168 +1,198 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11057,
   "spawns": [
     {
+      "id": "wc4014f0b9a83",
       "npc": "npc.tbwt_lubufu",
       "x": 2765,
       "z": 3169,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lubufu",
         "map": "{{Map|name=Lubufu|x=2765|y=3169|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8dd10f8b7cbc",
       "npc": "npc.garv",
       "x": 2774,
       "z": 3186,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Garv",
         "map": "{{Map|name=Garv|x=2774|y=3186|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w31f3545c75a5",
       "npc": "npc.charlie_the_cook",
       "x": 2789,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Charlie_the_cook",
         "map": "{{Map|name=Charlie the cook|x=2789|y=3192|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd1b645240641",
       "npc": "npc.handsand_sandy0",
       "x": 2790,
       "z": 3176,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sandy",
         "map": "{{Map|name=Sandy|x=2790|y=3176|squareX=8|squareY=7|mtype=square}}"
       }
     },
     {
+      "id": "w87b8a2e2050d",
       "npc": "npc.handsand_sandy1",
       "x": 2790,
       "z": 3176,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sandy",
         "map": "{{Map|name=Sandy|x=2790|y=3176|squareX=8|squareY=7|mtype=square}}"
       }
     },
     {
+      "id": "we42e80007695",
       "npc": "npc.kangai_mau",
       "x": 2791,
       "z": 3183,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kangai_Mau",
         "map": "{{Map|name=Kangai Mau|x=2791|y=3183|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1143377f6d70",
       "npc": "npc.alfonse_the_waiter",
       "x": 2793,
       "z": 3188,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alfonse_the_waiter",
         "map": "{{Map|mtype=pin|2793,3188}}"
       }
     },
     {
+      "id": "w6a769853053e",
       "npc": "npc.deadmans_bartender",
       "x": 2794,
       "z": 3156,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Dead_Man's_Chest)",
         "map": "{{Map|name=Bartender (Dead Man's Chest)|2794,3156|mtype=pin}}"
       }
     },
     {
+      "id": "w289d8a3b26ed",
       "npc": "npc.sailing_crew_generic_4_world",
       "x": 2796,
       "z": 3162,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jolly_Jim",
         "map": "{{Map|name=Jolly Jim|x=2796|y=3162|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w35f137cbdc8a",
       "npc": "npc.davon",
       "x": 2803,
       "z": 3152,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Davon",
         "map": "{{Map|name=Davon|x=2803|y=3152|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w1a313c73152e",
       "npc": "npc.agilityarena_clerk",
       "x": 2809,
       "z": 3193,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cap'n_Izzy_No-Beard",
         "map": "{{Map|name=Cap'n Izzy No-Beard|x=2809|y=3193|plane=0|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wbe147b794119",
       "npc": "npc.agilityarena_tickettrader_2ops",
       "x": 2809,
       "z": 3193,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pirate_Jackie_the_Fruit",
         "map": "{{Map|name=Pirate Jackie the Fruit|x=2809|y=3193|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w483ddd56ce29",
       "npc": "npc.agilityarena_tickettrader_3ops",
       "x": 2809,
       "z": 3193,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pirate_Jackie_the_Fruit",
         "map": "{{Map|name=Pirate Jackie the Fruit|x=2809|y=3193|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfbdfbc72eade",
       "npc": "npc.grubor",
       "x": 2810,
       "z": 3173,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grubor",
         "map": "{{Map|name=Grubor|x=2810|y=3173|plane=0|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wc527f83421a9",
       "npc": "npc.trobert",
       "x": 2810,
       "z": 3173,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trobert",
         "map": "{{Map|name=Trobert|x=2810|y=3173|plane=0|r=7|mtype=square}}"
       }

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9259,
   "spawns": [
     {
+      "id": "w30d2c7052398",
       "npc": "npc.biles",
       "x": 2342,
       "z": 2762,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Biles",
         "map": "{{Map|x=2342|y=2762|r=3|mtype=square}}"
       }

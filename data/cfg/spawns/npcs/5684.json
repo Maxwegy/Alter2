@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5684,
   "spawns": [
     {
+      "id": "w6398653a049f",
       "npc": "npc.soc_sillyman",
       "x": 1408,
       "z": 3379,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ictus",
         "map": "{{Map|x=1408|y=3379|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc7c8255afe2b",
       "npc": "npc.auburn_staff_store",
       "x": 1412,
       "z": 3343,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sebamo",
         "map": "{{Map|1412,3343|mtype=rectangle|rectX=6|rectY=5}}"
       }

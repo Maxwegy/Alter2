@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9777,
   "spawns": [
     {
+      "id": "w30b8a8d5190b",
       "npc": "npc.canoeing_lara",
       "x": 2439,
       "z": 3136,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lara",
         "map": "{{Map|2439,3136|mtype=square|r=2}}"
       }
     },
     {
+      "id": "w5231e33bdbbd",
       "npc": "npc.observatory_professor",
       "x": 2441,
       "z": 3187,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Observatory_professor",
         "map": "{{Map|name=Observatory professor|x=2441|y=3187|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4bfab89d74a6",
       "npc": "npc.observatory_professor_cutscene",
       "x": 2441,
       "z": 3187,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Observatory_professor",
         "map": "{{Map|name=Observatory professor|x=2441|y=3187|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w8b7ecfc6854d",
       "npc": "npc.qip_obs_proffesors_assistant",
       "x": 2443,
       "z": 3189,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Observatory_assistant",
         "map": "{{Map|name=Observatory assistant|x=2443|y=3189|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1c7306cd3439",
       "npc": "npc.qip_obs_drunken_goblin",
       "x": 2466,
       "z": 3184,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Smellytoes",
         "map": "{{Map|name=Smellytoes|x=2466|y=3184|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w7b50660eabfe",
       "npc": "npc.qip_obs_goblin_kid",
       "x": 2468,
       "z": 3159,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clothears",
         "map": "{{Map|name=Clothears|x=2468|y=3159|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wdb140c8b138e",
       "npc": "npc.qip_obs_cooking_goblin",
       "x": 2468,
       "z": 3184,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Greasycheeks",
         "map": "{{Map|name=Greasycheeks|x=2468|y=3184|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf87873cd3bd0",
       "npc": "npc.qip_obs_goblin_setting_a_fire",
       "x": 2470,
       "z": 3186,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Creakyknees",
         "map": "{{Map|name=Creakyknees|x=2470|y=3186|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wa8b679563737",
       "npc": "npc.canoeing_porkai",
       "x": 2485,
       "z": 3192,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Porkai",
         "map": "{{Map|2485,3192|mtype=square|r=2}}"
       }
     },
     {
+      "id": "w0678576ca64d",
       "npc": "npc.farming_gardener_fruit_2",
       "x": 2489,
       "z": 3179,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gileth",
         "map": "{{Map|name=Gileth|x=2489|y=3179|plane=0|r=4|mtype=square|bucket=yes}}"
       }

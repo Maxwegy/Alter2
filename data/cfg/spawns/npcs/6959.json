@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6959,
   "spawns": [
     {
+      "id": "w04ffde06f9f4",
       "npc": "npc.varlamore_dog_lola",
       "x": 1747,
       "z": 3049,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lola",
         "map": "{{Map|x=1747|y=3049|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w948048f9717b",
       "npc": "npc.mag_lucas_vis",
       "x": 1750,
       "z": 3070,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lucas",
         "map": "{{Map|1750,3070|mtype=pin}}"
       }
     },
     {
+      "id": "wfbb07807d029",
       "npc": "npc.fortis_shop_maces",
       "x": 1774,
       "z": 3059,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spike",
         "map": "{{Map|1774,3059|mtype=pin}}"
       }

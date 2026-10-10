@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11568,
   "spawns": [
     {
+      "id": "wff1b8970590b",
       "npc": "npc.fishing_boat_karambwanfish",
       "x": 2892,
       "z": 3134,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boat_fishing_spot_(karambwan)",
         "map": "{{Map|mtype=pin|x=2892|y=3134|zoom=1}}"
       }
     },
     {
+      "id": "w362bee6386b3",
       "npc": "npc.tbwt_tiadeche",
       "x": 2912,
       "z": 3118,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tiadeche",
         "map": "{{Map|name=Tiadeche|x=2912|y=3118|plane=0|r=4|mtype=square}}"
       }

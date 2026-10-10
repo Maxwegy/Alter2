@@ -1,212 +1,250 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12598,
   "spawns": [
     {
+      "id": "w6eca54ef1156",
       "npc": "npc.boardgames_barmaid3",
       "x": 3142,
       "z": 3473,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Meredith",
         "map": "{{Map|3142,3473|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w46a944cd712f",
       "npc": "npc.game_zone_recruiter_saradomin",
       "x": 3142,
       "z": 3473,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Saradominist_recruiter",
         "map": "{{Map|3142,3473|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w5326aee37d75",
       "npc": "npc.game_zone_recruiter_zamorak",
       "x": 3144,
       "z": 3471,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zamorakian_recruiter",
         "map": "{{Map|3144,3471|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w659cfa0e75ab",
       "npc": "npc.ge_expert_logs",
       "x": 3152,
       "z": 3489,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Relobo_Blinyo_(logs)",
         "map": "{{Map|name=Relobo Blinyo (logs)|x=3152|y=3489|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w0f4618ccf2ef",
       "npc": "npc.ge_expert_herbs",
       "x": 3155,
       "z": 3480,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bob_Barter_(herbs)",
         "map": "{{Map|name=Bob Barter (herbs)|x=3155|y=3480|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w97c358b67a43",
       "npc": "npc.ge_expert_combat",
       "x": 3156,
       "z": 3498,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hofuthand_(weapons_and_armour)",
         "map": "{{Map|name=Hofuthand (weapons and armour)|x=3156|y=3498|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w354f2cb84144",
       "npc": "npc.dmm_all_star_weasels_npc",
       "x": 3162,
       "z": 3494,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Weasel_(Deadman:_All_Stars)",
         "map": "{{Map|x=3162|y=3494|mtype=pin}}"
       }
     },
     {
+      "id": "wfbb834aff340",
       "npc": "npc.dmm_all_star_friends_npc",
       "x": 3162,
       "z": 3497,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Friend_(Deadman:_All_Stars)",
         "map": "{{Map|x=3162|y=3497|mtype=pin}}"
       }
     },
     {
+      "id": "w2e175ed1d404",
       "npc": "npc.emblem_trader",
       "x": 3163,
       "z": 3504,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Emblem_Trader",
         "map": "{{Map|x=3163|y=3504|mtype=pin|group=Varrock}}"
       }
     },
     {
+      "id": "wc19bccd8f1c9",
       "npc": "npc.ge_boss",
       "x": 3165,
       "z": 3478,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brugsen_Bursen",
         "map": "{{Map|name=Brugsen Bursen|x=3165|y=3478|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w167311fb2528",
       "npc": "npc.dmm_all_star_rebels_npc",
       "x": 3165,
       "z": 3494,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rebel_(Deadman:_All_Stars)",
         "map": "{{Map|x=3165|y=3494|mtype=pin}}"
       }
     },
     {
+      "id": "w5024396df9cf",
       "npc": "npc.dmm_all_star_nuggets_npc",
       "x": 3165,
       "z": 3497,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nugget_(Deadman:_All_Stars)",
         "map": "{{Map|x=3165|y=3497|mtype=pin}}"
       }
     },
     {
+      "id": "w2b661aca3003",
       "npc": "npc.dmm_all_star_warriors_npc",
       "x": 3168,
       "z": 3494,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Warrior_(Deadman:_All_Stars)",
         "map": "{{Map|x=3168|y=3494|mtype=pin}}"
       }
     },
     {
+      "id": "wc6cfe5a3277e",
       "npc": "npc.dmm_all_star_rhinos_npc",
       "x": 3168,
       "z": 3497,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rhino_(Deadman:_All_Stars)",
         "map": "{{Map|x=3168|y=3497|mtype=pin}}"
       }
     },
     {
+      "id": "w2c041a4bafc0",
       "npc": "npc.bond_james_visible",
       "x": 3170,
       "z": 3461,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/James",
         "map": "{{Map|name=James|x=3170|y=3461|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w84e9d3e4c237",
       "npc": "npc.ge_expert_runes",
       "x": 3173,
       "z": 3481,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Murky_Matt_(runes)",
         "map": "{{Map|name=Murky Matt (runes)|x=3173|y=3481|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w1913523d7d1b",
       "npc": "npc.ge_expert_ores",
       "x": 3173,
       "z": 3498,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Farid_Morrisane_(ores_and_bars)",
         "map": "{{Map|name=Farid Morrisane (ores and bars)|x=3173|y=3498|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w77497f85d149",
       "npc": "npc.clan_clerk",
       "x": 3182,
       "z": 3471,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clerk_(Clan_Hub)",
         "map": "{{Map|name=Clerk|3182,3471|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wbbf038ff35ac",
       "npc": "npc.tob_spectator_misthalin",
       "x": 3185,
       "z": 3516,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Abigaila",
         "map": "{{Map|name=Abigaila|x=3185|y=3516|plane=0|r=2|mtype=square}}"
       }

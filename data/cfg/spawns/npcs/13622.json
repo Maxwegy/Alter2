@@ -1,91 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13622,
   "spawns": [
     {
+      "id": "w99fd68b1de21",
       "npc": "npc.devious_monk_hooded_visable",
       "x": 3406,
       "z": 3492,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Monk_(Devious_Minds)",
         "map": "{{Map|name=Monk (Devious Minds)|x=3406|y=3492|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w3e1c313b7e8e",
       "npc": "npc.ramble_priest",
       "x": 3433,
       "z": 3485,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hiylik_Myna",
         "map": "{{Map|name=Hiylik Myna|x=3433|y=3485|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5ddbb39eea67",
       "npc": "npc.ramble_easy_fighter",
       "x": 3435,
       "z": 3487,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Adventurer_(easy)",
         "map": "{{Map|name=Adventurer (easy)|x=3435|y=3487|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w984db3c343a3",
       "npc": "npc.ramble_easy_mage",
       "x": 3435,
       "z": 3487,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mage_(easy)",
         "map": "{{Map|name=Mage (easy)|x=3435|y=3487|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd8037b82cf10",
       "npc": "npc.ramble_med_ranger",
       "x": 3435,
       "z": 3487,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(medium)",
         "map": "{{Map|name=Ranger (medium)|x=3435|y=3487|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w37539ee43823",
       "npc": "npc.ramble_hard_ranger",
       "x": 3436,
       "z": 3486,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Forester_(hard)",
         "map": "{{Map|name=Forester (hard)|x=3436|y=3486|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w18fa5b415e32",
       "npc": "npc.ramble_med_mage",
       "x": 3437,
       "z": 3487,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Apprentice_(medium)",
         "map": "{{Map|name=Apprentice (medium)|x=3437|y=3487|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wb38d5cccce76",
       "npc": "npc.mort_myre_gate_guard",
       "x": 3443,
       "z": 3460,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ulizius",
         "map": "{{Map|name=Ulizius|x=3443|y=3460|r=2|mtype=square}}"
       }

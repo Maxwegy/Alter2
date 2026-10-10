@@ -1,179 +1,211 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8763,
   "spawns": [
     {
+      "id": "wb87cf188ba85",
       "npc": "npc.lunar_pirate_captain_1op",
       "x": 2222,
       "z": 3796,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Bentley",
         "map": "{{Map|name=Captain Bentley|x:2222,y:3796|plane=2|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "wf83cc59e3443",
       "npc": "npc.lunar_pirate_captain_2ops",
       "x": 2222,
       "z": 3796,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Bentley",
         "map": "{{Map|name=Captain Bentley|x:2222,y:3796|plane=2|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "w6361d1dadc66",
       "npc": "npc.lunar_pirate_generic_pirate_6",
       "x": 2222,
       "z": 3804,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Betty'_B.Boppin",
         "map": "{{Map|name='Betty' B.Boppin|x:2222,y:3804|plane=0|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "w5cc6688a2c98",
       "npc": "npc.lunar_pirate_generic_pirate_5",
       "x": 2222,
       "z": 3809,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jack_Sails",
         "map": "{{Map|name=Jack Sails|x:2222,y:3809|plane=2|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "w11744b7ed05e",
       "npc": "npc.lunar_pirate_generic_pirate_3",
       "x": 2223,
       "z": 3794,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tommy_2-times",
         "map": "{{Map|name=Tommy 2-times|x:2223,y:3794|plane=1|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "wfdbc2840e413",
       "npc": "npc.lunar_pirate_generic_pirate_1",
       "x": 2223,
       "z": 3799,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Picarron'_Pete",
         "map": "{{Map|name='Picarron' Pete|x:2223,y:3799|plane=1|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "w4bcba79e3c57",
       "npc": "npc.lunar_pirate_cook",
       "x": 2224,
       "z": 3789,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Beefy'_Burns",
         "map": "{{Map|name='Beefy' Burns|x=2224|y=3789|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w72e5d102eee0",
       "npc": "npc.lunar_pirate_navigator",
       "x": 2224,
       "z": 3796,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Birds-Eye'_Jack",
         "map": "{{Map|name='Birds-Eye' Jack|x=2224|y=3796|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w79029d109e81",
       "npc": "npc.lunar_pirate_generic_pirate_7",
       "x": 2224,
       "z": 3803,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Beedy-eye'_Jones",
         "map": "{{Map|name='Beedy-eye' Jones|x=2224|y=3803|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w2d2a61c7854a",
       "npc": "npc.lunar_pirate_first_mate",
       "x": 2225,
       "z": 3790,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/First_mate_'Davey-boy'",
         "map": "{{Map|name=First mate 'Davey-boy'|x=2225|y=3790|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc88c487f803f",
       "npc": "npc.lunar_pirate_generic_pirate_9",
       "x": 2225,
       "z": 3790,
       "height": 3,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Lecherous'_Lee",
         "map": "{{Map|name='Lecherous' Lee|x=2225|y=3790|plane=3|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w61c62c24d74c",
       "npc": "npc.lunar_pirate_generic_pirate_2",
       "x": 2225,
       "z": 3798,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bedread_the_bold",
         "map": "{{Map|name=Bedread the bold|x=2225|y=3798|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w1d2886832fd4",
       "npc": "npc.lunar_pirate_lookout",
       "x": 2225,
       "z": 3813,
       "height": 2,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Eagle-eye'_Shultz",
         "map": "{{Map|name='Eagle-eye' Shultz|x=2225|y=3813|plane=2|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w8007470073a0",
       "npc": "npc.lunar_pirate_generic_pirate_10",
       "x": 2226,
       "z": 3808,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/'Sticky'_Sanders",
         "map": "{{Map|name='Sticky' Sanders|x:2226,y:3808|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w861ce196e2de",
       "npc": "npc.lunar_pirate_generic_pirate_8",
       "x": 2227,
       "z": 3797,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jenny_Blade",
         "map": "{{Map|name=Jenny Blade|x:2227,y:3797|plane=2|r=4|mtype=square|height=150}}"
       }
     },
     {
+      "id": "w94be7b44c0d0",
       "npc": "npc.lunar_pirate_generic_pirate_4",
       "x": 2227,
       "z": 3802,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Murky_Pat",
         "map": "{{Map|name=Murky Pat|x:2227,y:3802|plane=2|r=4|mtype=square|height=150}}"
       }

@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6446,
   "spawns": [
     {
+      "id": "w78ace8f4f3bb",
       "npc": "npc.afl_injured_hunter",
       "x": 1623,
       "z": 2982,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guild_Hunter_Fox",
         "map": "{{Map|x=1623|y=2982|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wb0bc5ab07358",
       "npc": "npc.shiba_wander",
       "x": 1626,
       "z": 2980,
       "height": 0,
       "walkRadius": 25,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shiba_(wandering)",
         "map": "{{Map|mtype=rectangle|rectX=80|rectY=50|1626,2980|}}"
       }
     },
     {
+      "id": "we851998969bb",
       "npc": "npc.wandering_doomscorpion",
       "x": 1644,
       "z": 2981,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Scorpion_(Varlamore)",
         "map": "{{Map|1644,2981|mtype=pin}}"
       }

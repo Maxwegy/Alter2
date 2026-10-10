@@ -1,377 +1,445 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5433,
   "spawns": [
     {
+      "id": "w3814b07af527",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1365,
       "z": 3695,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "wcf955fc23957",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1365,
       "z": 3697,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "w20b795c6140a",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1365,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wb5c96afdb4d2",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1368,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "wc972cb6009e5",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1368,
       "z": 3701,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "w508f915c3f38",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1369,
       "z": 3701,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w7aa372764f4c",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1370,
       "z": 3690,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w06ef2544b4ea",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1370,
       "z": 3692,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wa775b9e7c371",
       "npc": "npc.molch_shay_swordsmen_2",
       "x": 1371,
       "z": 3693,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doyen",
         "map": "{{Map|name=Doyen (female)|1359,3713|1371,3693|1393,3682|mtype=pin}}"
       }
     },
     {
+      "id": "w844707f0cde3",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1371,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "w785f8ccb6dc7",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1372,
       "z": 3692,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w4dd54c5f5372",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1373,
       "z": 3689,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w842b0f148053",
       "npc": "npc.molch_lova_engineer",
       "x": 1378,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lovakengj_Engineer",
         "map": "{{Map|title=Lovakengj Engineer|1377,3755|1381,3744|1402,3757|1378,3700|mtype=pin}}"
       }
     },
     {
+      "id": "w7a090805a439",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1378,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "weff9898a0c50",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1379,
       "z": 3692,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w77338e2cafbc",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1379,
       "z": 3706,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "we85b2b4f2f67",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1381,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w5adf764e5501",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1383,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w66f0b53245d0",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1384,
       "z": 3676,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w981536d1511d",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1384,
       "z": 3697,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w3d91c060fdcb",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1384,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "wbd0c2620218f",
       "npc": "npc.molch_shay_bowmen_1",
       "x": 1385,
       "z": 3701,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1368,3735|1371,3731|1387,3731|1394,3734|1365,3697|1368,3701|1371,3700|1379,3706|1384,3707|1385,3701|mtype=pin}}"
       }
     },
     {
+      "id": "w39d56b103093",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1385,
       "z": 3703,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w5c4ca1e6b473",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1385,
       "z": 3705,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w7caa156ab720",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1386,
       "z": 3687,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w9aab12c9399f",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1386,
       "z": 3694,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w2dd2f2142ee9",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1388,
       "z": 3692,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wc50ea90ad748",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1389,
       "z": 3684,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w5a7c578b3034",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1389,
       "z": 3689,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w22897ffafe48",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1391,
       "z": 3678,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wcc27cdb2c839",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1392,
       "z": 3689,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w3ea83b2e6500",
       "npc": "npc.molch_shay_swordsmen_2",
       "x": 1393,
       "z": 3682,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doyen",
         "map": "{{Map|name=Doyen (female)|1359,3713|1371,3693|1393,3682|mtype=pin}}"
       }
     },
     {
+      "id": "w463fd8ee8b47",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1397,
       "z": 3673,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w009a403e068c",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1397,
       "z": 3678,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }

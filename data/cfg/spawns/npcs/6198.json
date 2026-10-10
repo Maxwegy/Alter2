@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6198,
   "spawns": [
     {
+      "id": "w1d3b4fa13d1b",
       "npc": "npc.lovakengj_minecart_kourend_woodland",
       "x": 1572,
       "z": 3465,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Buneir",
         "map": "{{Map|name=Buneir|x=1572|y=3465|plane=0|r=3|mtype=square}}"
       }

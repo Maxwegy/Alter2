@@ -1,168 +1,198 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10044,
   "spawns": [
     {
+      "id": "wa12b61b886be",
       "npc": "npc.misc_advisor_ghrim_1op",
       "x": 2500,
       "z": 3857,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Advisor_Ghrim",
         "map": "{{Map|name=Advisor Ghrim|x=2500|y=3857|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w26119bf3e487",
       "npc": "npc.misc_advisor_ghrim_2ops",
       "x": 2500,
       "z": 3857,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Advisor_Ghrim",
         "map": "{{Map|name=Advisor Ghrim|x=2500|y=3857|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w5e67b657db1e",
       "npc": "npc.misc_prince_brand",
       "x": 2501,
       "z": 3852,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Prince_Brand",
         "map": "{{Map|name=Prince Brand|x=2501|y=3852|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "wc25f48402c81",
       "npc": "npc.royal_cutscene_prince_brand",
       "x": 2501,
       "z": 3852,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Prince_Brand",
         "map": "{{Map|name=Prince Brand|x=2501|y=3852|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w35e3605a8430",
       "npc": "npc.misc_king_vargas",
       "x": 2501,
       "z": 3861,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/King_Vargas",
         "map": "{{Map|name=King Vargas|x=2501|y=3861|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7b978063d307",
       "npc": "npc.misc_princess_astrid",
       "x": 2501,
       "z": 3869,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Princess_Astrid",
         "map": "{{Map|name=Princess Astrid|x=2501|y=3869|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "wec85b9da09bc",
       "npc": "npc.royal_cutscene_princess_astrid",
       "x": 2501,
       "z": 3869,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Princess_Astrid",
         "map": "{{Map|name=Princess Astrid|x=2501|y=3869|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w0bde30973cb9",
       "npc": "npc.misc_ulby_doorguard",
       "x": 2506,
       "z": 3861,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Miscellania_Castle)",
         "map": "{{Map|name=Guard (Miscellania Castle)|x=2506|y=3861|plane=1|squareX=4|squareY=10|mtype=square}}"
       }
     },
     {
+      "id": "w3d60c52f6449",
       "npc": "npc.royal_misc_guard",
       "x": 2510,
       "z": 3848,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Miscellania)",
         "map": "{{Map|name=Guard (Miscellania)|x=2510|y=3848|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w519995fe6e35",
       "npc": "npc.misc_flowergirl",
       "x": 2515,
       "z": 3867,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Flower_Girl",
         "map": "{{Map|name=Flower Girl|x=2515|y=3867|r=6|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w63ad41fe0621",
       "npc": "npc.misc_veg_monger",
       "x": 2516,
       "z": 3865,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Greengrocer",
         "map": "{{Map|name=Greengrocer|x=2516|y=3865|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w51e290ac5835",
       "npc": "npc.misc_miner",
       "x": 2526,
       "z": 3893,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Miner_Magnus",
         "map": "{{Map|name=Miner Magnus|x=2526|y=3893|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w41746ab848de",
       "npc": "npc.misc_gardener",
       "x": 2527,
       "z": 3856,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gardener_Gunnhild",
         "map": "{{Map|name=Gardener Gunnhild|x=2527|y=3856|r=2|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wa477ce27f167",
       "npc": "npc.misc_smithy",
       "x": 2550,
       "z": 3896,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Derrik",
         "map": "{{Map|name=Derrik|x=2550|y=3896|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wcd2539d78df3",
       "npc": "npc.misc_lumberjack",
       "x": 2551,
       "z": 3869,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lumberjack_Leif",
         "map": "{{Map|name=Lumberjack Leif|x=2551|y=3869|r=2|mtype=square}}"
       }

@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11050,
   "spawns": [
     {
+      "id": "w09b1f19f1b81",
       "npc": "npc.hundred_agility_monkey",
       "x": 2757,
       "z": 2747,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bobawu",
         "map": "{{Map|name=Bobawu|x=2757|y=2747|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wf75030ca5fbf",
       "npc": "npc.mm_dugopul",
       "x": 2801,
       "z": 2745,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dugopul",
         "map": "{{Map|name=Dugopul|x=2801|y=2745|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w2f28175b7f58",
       "npc": "npc.mm_lumdo_final_battle",
       "x": 2803,
       "z": 2707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lumdo",
         "map": "{{Map|name=Lumdo|2891,2724|2803,2707|mtype=pin|mapID=0}}"
       }

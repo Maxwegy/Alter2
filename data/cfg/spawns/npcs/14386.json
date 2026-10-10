@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14386,
   "spawns": [
     {
+      "id": "w8bbd9d4a7ae0",
       "npc": "npc.myq3_black_market_trader",
       "x": 3604,
       "z": 3201,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Sven",
         "map": "{{Map|name=Trader Sven|x=3604|y=3201|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w15d82aa0201d",
       "npc": "npc.sanguinesti_old_man_ral",
       "x": 3607,
       "z": 3208,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Old_Man_Ral",
         "map": "{{Map|name=Old Man Ral|x=3607|y=3208|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9b0db539899a",
       "npc": "npc.myq4_harpert",
       "x": 3645,
       "z": 3209,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Harpert",
         "map": "{{Map|name=Harpert|x=3645|y=3209|r=4|mtype=square}}"
       }

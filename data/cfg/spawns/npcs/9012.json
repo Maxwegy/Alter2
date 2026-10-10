@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9012,
   "spawns": [
     {
+      "id": "wbf9ecd0d06cd",
       "npc": "npc.prif_city_guard",
       "x": 2299,
       "z": 3329,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Prifddinas_gatekeeper)",
         "map": "{{Map|2299,3329|2238,3268|group=1|mtype=pin|zoom=1}}"
       }
     },
     {
+      "id": "w9970f5a09571",
       "npc": "npc.prif_city_guard_evil",
       "x": 2299,
       "z": 3329,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Prifddinas_gatekeeper)",
         "map": "{{Map|2299,3329|2238,3268|group=1|mtype=pin|zoom=1}}"
       }
     },
     {
+      "id": "we4607f967499",
       "npc": "npc.prif_lenny",
       "x": 2301,
       "z": 3381,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lenny",
         "map": "{{Map|name=Lenny|x=2301|y=3381|r=2|mtype=square}}"
       }

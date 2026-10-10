@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11574,
   "spawns": [
     {
+      "id": "wfbd911db533f",
       "npc": "npc.helemos",
       "x": 2894,
       "z": 3510,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Helemos",
         "map": "{{Map|name=Helemos|x=2894|y=3510|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8e1df5aa5360",
       "npc": "npc.witchrat",
       "x": 2902,
       "z": 3467,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mouse_(Witch's_House)",
         "map": "{{Map|name=Mouse (Witch's House)|x=2902|y=3467|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w138fedccc964",
       "npc": "npc.achietties",
       "x": 2902,
       "z": 3511,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Achietties",
         "map": "{{Map|name=Achietties|x=2902|y=3511|mtype=square}}"
       }
     },
     {
+      "id": "w4c9f8a4e4daf",
       "npc": "npc.nora_t_hagg",
       "x": 2918,
       "z": 3463,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nora_T._Hagg",
         "map": "{{Map|name=Nora T. Hagg|x=2918|y=3463|plane=0|squareX=32|squareY=6|mtype=square}}"
       }
     },
     {
+      "id": "w9bbed577fb91",
       "npc": "npc.kaqemeex",
       "x": 2926,
       "z": 3484,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kaqemeex",
         "map": "{{Map|name=Kaqemeex|x=2926|y=3484|plane=0|r=5|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w09d417d40fd4",
       "npc": "npc.ballboy",
       "x": 2928,
       "z": 3456,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boy",
         "map": "{{Map|name=Boy|x=2928|y=3456|r=3|mtype=square}}"
       }

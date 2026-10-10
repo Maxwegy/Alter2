@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4664,
   "spawns": [
     {
+      "id": "w2169f1a6fa11",
       "npc": "npc.molch_altar_shaman",
       "x": 1179,
       "z": 3628,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ket'sal_K'uk",
         "map": "{{Map|name=Ket'sal K'uk|x=1179|y=3628|plane=0|r=2|mtype=square}}"
       }

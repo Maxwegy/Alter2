@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13117,
   "spawns": [
     {
+      "id": "wca47d9d1f550",
       "npc": "npc.wilderness_capeseller_5",
       "x": 3283,
       "z": 3934,
       "height": 0,
       "walkRadius": 25,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Edward",
         "map": "{{Map|name=Edward|x=3283|y=3934|r=25|mtype=square}}"
       }
     },
     {
+      "id": "w0f2dfeb8583f",
       "npc": "npc.secret_ghost_swordsman",
       "x": 3294,
       "z": 3934,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Viggora",
         "map": "{{Map|name=Viggora|x=3294|y=3934|plane=1|r=4|mapID=0|mtype=square}}"
       }

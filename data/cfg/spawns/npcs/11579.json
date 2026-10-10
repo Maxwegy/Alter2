@@ -1,135 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11579,
   "spawns": [
     {
+      "id": "we5625800c6ec",
       "npc": "npc.wgs_undead_mage",
       "x": 2907,
       "z": 3804,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w2bfc5db4830b",
       "npc": "npc.wgs_undead_mage",
       "x": 2908,
       "z": 3811,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w0c8f174e603a",
       "npc": "npc.wgs_undead_mage",
       "x": 2912,
       "z": 3809,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "we398a01ce985",
       "npc": "npc.wgs_undead_mage",
       "x": 2918,
       "z": 3822,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w4f764d2ae66b",
       "npc": "npc.wgs_undead_mage",
       "x": 2919,
       "z": 3803,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wa43c3f82f422",
       "npc": "npc.wgs_undead_mage",
       "x": 2923,
       "z": 3820,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wc40cdf68ee72",
       "npc": "npc.wgs_undead_mage",
       "x": 2925,
       "z": 3827,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wb316243e75c1",
       "npc": "npc.wgs_undead_mage",
       "x": 2927,
       "z": 3813,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w1bfdb7bc8cd9",
       "npc": "npc.wgs_undead_mage",
       "x": 2934,
       "z": 3797,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w9a74bba76546",
       "npc": "npc.wgs_undead_mage",
       "x": 2936,
       "z": 3787,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "waa5c68e6c1cc",
       "npc": "npc.wgs_undead_mage",
       "x": 2939,
       "z": 3831,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wdd2c223bce57",
       "npc": "npc.wgs_undead_mage",
       "x": 2940,
       "z": 3814,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_Mage",
         "map": "{{Map|name=Undead Mage|2907,3804|2908,3811|2912,3809|2918,3822|2919,3803|2923,3820|2925,3827|2927,3813|2934,3797|2936,3787|2939,3831|2940,3814|mapID=0|mtype=pin}}"
       }

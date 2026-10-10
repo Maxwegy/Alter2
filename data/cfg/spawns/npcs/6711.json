@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6711,
   "spawns": [
     {
+      "id": "wfc79ec174e58",
       "npc": "npc.farming_gardener_spirit_tree_4",
       "x": 1693,
       "z": 3542,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lammy_Langle",
         "map": "{{Map|name=Lammy Langle|x=1693|y=3542|r=5|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w70cc6360b9c9",
       "npc": "npc.vmq1_guard_1",
       "x": 1702,
       "z": 3528,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clerk_(Hosidius)",
         "map": "{{Map|name=Clerk (Hosidius)|x=1702|y=3528|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd73cbcdf883d",
       "npc": "npc.hosidius_saltpetre_miner",
       "x": 1703,
       "z": 3528,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Konoo",
         "map": "{{Map|name=Konoo|x=1703|y=3528|plane=0|r=20|mtype=square}}"
       }

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 7482,
   "spawns": [
     {
+      "id": "wb40f3ec2c614",
       "npc": "npc.fishing_boat_piscariliusfish",
       "x": 1885,
       "z": 3762,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boat_fishing_spot_(anglerfish)",
         "map": "{{Map|mtype=pin|x=1885|y=3762|zoom=1}}"
       }

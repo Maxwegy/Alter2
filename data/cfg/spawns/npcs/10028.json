@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10028,
   "spawns": [
     {
+      "id": "w07c1a7ff3622",
       "npc": "npc.corscurs_spa_owner",
       "x": 2553,
       "z": 2868,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Madame_Caldarium",
         "map": "{{Map|name=Madame Caldarium|x=2553|y=2868|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wb8a56f52f31b",
       "npc": "npc.corscurs_thief",
       "x": 2557,
       "z": 2857,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arsen_the_Thief",
         "map": "{{Map|name=Arsen the Thief|x=2557|y=2857|r=3|mtype=square}}"
       }

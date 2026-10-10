@@ -1,146 +1,172 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5428,
   "spawns": [
     {
+      "id": "w9d5ed0b914c7",
       "npc": "npc.ent_totems_intro_child_cutscene",
       "x": 1366,
       "z": 3367,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Isadora",
         "map": "{{Map|1366,3367|title=[[Isadora]]|mtype=pin|bucket=yes|bucketname=Auburnvale}}"
       }
     },
     {
+      "id": "w3b91a5fe183a",
       "npc": "npc.ent_totems_intro_child_vis",
       "x": 1366,
       "z": 3367,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Isadora",
         "map": "{{Map|1366,3367|title=[[Isadora]]|mtype=pin|bucket=yes|bucketname=Auburnvale}}"
       }
     },
     {
+      "id": "wb9c5c1bab874",
       "npc": "npc.ent_totems_intro_ranulph_1op",
       "x": 1366,
       "z": 3367,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranulph",
         "map": "{{Map|1366,3367|title=[[Ranulph]]|description=[[Vale Research Exchange]]|mtype=pin|bucket=yes|bucketname=Auburnvale}}"
       }
     },
     {
+      "id": "w6d26eda2dea9",
       "npc": "npc.ent_totems_intro_ranulph_2op",
       "x": 1366,
       "z": 3367,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranulph",
         "map": "{{Map|1366,3367|title=[[Ranulph]]|description=[[Vale Research Exchange]]|mtype=pin|bucket=yes|bucketname=Auburnvale}}"
       }
     },
     {
+      "id": "w75007dfbadbc",
       "npc": "npc.ent_totems_intro_ranulph_cs",
       "x": 1366,
       "z": 3367,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranulph",
         "map": "{{Map|1366,3367|title=[[Ranulph]]|description=[[Vale Research Exchange]]|mtype=pin|bucket=yes|bucketname=Auburnvale}}"
       }
     },
     {
+      "id": "w84443e2161ca",
       "npc": "npc.auburnvale_guard_captain",
       "x": 1368,
       "z": 3342,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Ariadna",
         "map": "{{Map|name=Captain Ariadna|1368,3342|mtype=rectangle|rectX=4|rectY=9}}"
       }
     },
     {
+      "id": "we85684246547",
       "npc": "npc.soc_parent",
       "x": 1381,
       "z": 3359,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aemilia",
         "map": "{{Map|name=Aemilia|1381,3359|mtype=rectangle|rectX=6|rectY=4}}"
       }
     },
     {
+      "id": "wf8c3915a75d6",
       "npc": "npc.soc_parent_2",
       "x": 1381,
       "z": 3359,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Francis_(Auburnvale)",
         "map": "{{Map|name=Francis (Auburnvale)|1381,3359|mtype=rectangle|rectX=6|rectY=4}}"
       }
     },
     {
+      "id": "w94ba8d4bb36e",
       "npc": "npc.soc_etz",
       "x": 1381,
       "z": 3360,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Etz",
         "map": "{{Map|name=Etz|1381,3360|mtype=pin|plane=1}}"
       }
     },
     {
+      "id": "w3301d9e2cc00",
       "npc": "npc.soc_injured_person_upright",
       "x": 1383,
       "z": 3359,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shas",
         "map": "{{Map|name=Shas|1383,3359|mtype=pin|plane=1}}"
       }
     },
     {
+      "id": "wbb602dc6b821",
       "npc": "npc.auburn_bartender",
       "x": 1391,
       "z": 3354,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Auburn_Pub)",
         "map": "{{Map|name=Bartender (Auburn Pub)|1391,3354|mtype=rectangle|rectX=4|rectY=9}}"
       }
     },
     {
+      "id": "w651b5088fcda",
       "npc": "npc.soc_citizen",
       "x": 1394,
       "z": 3354,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marcus",
         "map": "{{Map|1394,3354|mtype=pin}}"
       }
     },
     {
+      "id": "w89d528df6ecf",
       "npc": "npc.auburn_sawmill_operator",
       "x": 1395,
       "z": 3369,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sawmill_Operator_(Auburnvale)",
         "map": "{{Map|name=Sawmill Operator (Auburnvale)|x=1395|y=3369|r=4|mtype=square}}"
       }

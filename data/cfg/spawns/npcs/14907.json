@@ -1,157 +1,185 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14907,
   "spawns": [
     {
+      "id": "wf7d53f642a6e",
       "npc": "npc.fossil_panner",
       "x": 3715,
       "z": 3805,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Peter",
         "map": "{{Map|name=Peter|x=3715|y=3805|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w981bfda18fdc",
       "npc": "npc.fossil_squirrel_gardener1",
       "x": 3715,
       "z": 3832,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w59e2f77ae761",
       "npc": "npc.fossil_squirrel_gardener2",
       "x": 3715,
       "z": 3832,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w67fa2e799212",
       "npc": "npc.fossil_squirrel_gardener3",
       "x": 3715,
       "z": 3832,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w46554ea65b15",
       "npc": "npc.fossil_general_store",
       "x": 3726,
       "z": 3817,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Fossil_Island)",
         "map": "{{Map|name=Shop keeper (Fossil Island)|x=3726|y=3817|mtype=pin}}"
       }
     },
     {
+      "id": "wf23b5b3fcdfd",
       "npc": "npc.fossil_john_camp",
       "x": 3731,
       "z": 3812,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/John",
         "map": "{{Map|name=John|x=3731|y=3812|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf2d056592488",
       "npc": "npc.fossilquest_john_vis",
       "x": 3731,
       "z": 3812,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/John",
         "map": "{{Map|name=John|x=3731|y=3812|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w55ab67163b8b",
       "npc": "npc.fossil_david_camp",
       "x": 3735,
       "z": 3815,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/David_(Fossil_Island)",
         "map": "{{Map|name=David (Fossil Island)|x=3735|y=3815|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w04594a54ab21",
       "npc": "npc.fossilquest_david_vis",
       "x": 3735,
       "z": 3815,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/David_(Fossil_Island)",
         "map": "{{Map|name=David (Fossil Island)|x=3735|y=3815|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf5c06d4f4177",
       "npc": "npc.fossil_charles",
       "x": 3737,
       "z": 3821,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Charles_(Fossil_Island)",
         "map": "{{Map|name=Charles (Fossil Island)|x=3737|y=3821|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w77833ae9221a",
       "npc": "npc.fossil_dog_tray",
       "x": 3739,
       "z": 3805,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dog_(Museum_Camp)",
         "map": "{{Map|name=Dog (Museum Camp)|x=3739|y=3805|mtype=pin|zoom=4}}"
       }
     },
     {
+      "id": "w905af397ab72",
       "npc": "npc.fossil_shopkeeper",
       "x": 3739,
       "z": 3805,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fossil_Collector",
         "map": "{{Map|name=Fossil Collector|x=3739|y=3805|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we1a04f5a3852",
       "npc": "npc.fossil_john",
       "x": 3753,
       "z": 3803,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/John_(Fossil_Island)",
         "map": "{{Map|name=John (Fossil Island)|x=3753|y=3803|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wadbfecfaa8fa",
       "npc": "npc.fossil_twitcher",
       "x": 3761,
       "z": 3826,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mattimeo",
         "map": "{{Map|name=Mattimeo|x=3761|y=3826|r=5|mtype=square}}"
       }

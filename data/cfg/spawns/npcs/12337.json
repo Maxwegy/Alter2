@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12337,
   "spawns": [
     {
+      "id": "w148c59f61500",
       "npc": "npc.fishing_boat_saltfish",
       "x": 3097,
       "z": 3192,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boat_fishing_spot_(small_net,_bait)",
         "map": "{{Map|mtype=pin|x=3097|y=3192|zoom=1}}"
       }
     },
     {
+      "id": "w6130594e249d",
       "npc": "npc.wizard_mizgog_post",
       "x": 3104,
       "z": 3164,
       "height": 2,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_Mizgog",
         "map": "{{Map|name=Wizard Mizgog|x=3104|y=3164|plane=2|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w8f701f96687c",
       "npc": "npc.wizard_mizgog_quest",
       "x": 3104,
       "z": 3164,
       "height": 2,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_Mizgog",
         "map": "{{Map|name=Wizard Mizgog|x=3104|y=3164|plane=2|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w563b1e04de4e",
       "npc": "npc.armourmaking_wizard",
       "x": 3106,
       "z": 3163,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_Jalarast",
         "map": "{{Map|name=Wizard Jalarast|x=3106|y=3163|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wa6c3c227449b",
       "npc": "npc.telecrystal_wizard_no_shop",
       "x": 3108,
       "z": 3163,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rick_(Wizards'_Tower)",
         "map": "{{Map|name=Rick|3108,3163|plane=1|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w4f2f5e66a435",
       "npc": "npc.telecrystal_wizard_shop",
       "x": 3108,
       "z": 3163,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rick_(Wizards'_Tower)",
         "map": "{{Map|name=Rick|3108,3163|plane=1|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w938f5a807db1",
       "npc": "npc.secret_ghost_mage",
       "x": 3109,
       "z": 3160,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dhalak",
         "map": "{{Map|name=Dhalak|x=3109|y=3160|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wd8716baffd63",
       "npc": "npc.aluft_gnome_mage",
       "x": 3109,
       "z": 3161,
       "height": 0,
       "walkRadius": 8,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Professor_Onglewip",
         "map": "{{Map|name=Professor Onglewip|x=3109|y=3161|plane=0|r=8|mtype=square}}"
       }
     },
     {
+      "id": "we4ec59a596c3",
       "npc": "npc.wizard_grayzag",
       "x": 3110,
       "z": 3161,
       "height": 2,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_Grayzag",
         "map": "{{Map|name=Wizard Grayzag|x=3110|y=3161|plane=2|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w431483bc3ed3",
       "npc": "npc.traiborn",
       "x": 3112,
       "z": 3157,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_Traiborn",
         "map": "{{Map|name=Wizard Traiborn|x=3112|y=3157|plane=1|r=3|mtype=square}}"
       }

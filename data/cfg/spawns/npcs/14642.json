@@ -1,80 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14642,
   "spawns": [
     {
+      "id": "wb716a29b972d",
       "npc": "npc.vampyre_banker_male",
       "x": 3649,
       "z": 3206,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Ver_Sinhaza)",
         "map": "{{Map|3649,3206|3652,3206|plane=0|mtype=pin|group=2}}"
       }
     },
     {
+      "id": "wfa5a9f3516e9",
       "npc": "npc.vampyre_banker_female",
       "x": 3651,
       "z": 3206,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Ver_Sinhaza)",
         "map": "{{Map|3651,3206|plane=0|mtype=pin|group=1}}"
       }
     },
     {
+      "id": "w3dc3c7566cd6",
       "npc": "npc.vampyre_banker_male",
       "x": 3652,
       "z": 3206,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Ver_Sinhaza)",
         "map": "{{Map|3649,3206|3652,3206|plane=0|mtype=pin|group=2}}"
       }
     },
     {
+      "id": "wdbe461e0864e",
       "npc": "npc.tob_dog_stranger",
       "x": 3655,
       "z": 3228,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mysterious_Stranger_(dog)",
         "map": "{{Map|name=Mysterious Stranger|x=3655|y=3228|mtype=pin}}"
       }
     },
     {
+      "id": "w6360a081f641",
       "npc": "npc.myq4_magic_mercenary_visible",
       "x": 3674,
       "z": 3208,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mercenary_(Theatre_of_Blood)",
         "map": "{{Map|name=Mercenary|3674,3208|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd1809d7e4e92",
       "npc": "npc.myq4_melee_mercenary_visible",
       "x": 3674,
       "z": 3208,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mercenary_(Theatre_of_Blood)",
         "map": "{{Map|name=Mercenary|3674,3208|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w57d64e62b3e8",
       "npc": "npc.myq4_ranged_mercenary_visible",
       "x": 3674,
       "z": 3208,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mercenary_(Theatre_of_Blood)",
         "map": "{{Map|name=Mercenary|3674,3208|r=4|mtype=square}}"
       }

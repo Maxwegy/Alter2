@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11317,
   "spawns": [
     {
+      "id": "wf0481e5b9141",
       "npc": "npc.hickton",
       "x": 2824,
       "z": 3443,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hickton",
         "map": "{{Map|name=Hickton|2824,3443|mtype=pin}}"
       }
     },
     {
+      "id": "w8e8885c9f1d2",
       "npc": "npc.current_affairs_councillor",
       "x": 2825,
       "z": 3454,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Councillor_Catherine",
         "map": "{{Map|name=Councillor Catherine|mtype=pin|2825,3454}}"
       }
     },
     {
+      "id": "wef622d32879e",
       "npc": "npc.fishing_boat_rarefish",
       "x": 2827,
       "z": 3413,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boat_fishing_spot_(cage,_harpoon)",
         "map": "{{Map|mtype=pin|x=2827|y=3413|zoom=1}}"
       }
     },
     {
+      "id": "wb67c5ae177ae",
       "npc": "npc.harry",
       "x": 2833,
       "z": 3444,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Harry",
         "map": "{{Map|name=Harry|2833,3444|mtype=pin}}"
       }
     },
     {
+      "id": "w2fabe255e811",
       "npc": "npc.farming_gardener_fruit_4",
       "x": 2861,
       "z": 3432,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ellena",
         "map": "{{Map|name=Ellena|x=2861|y=3432|plane=0|r=4|mtype=square|bucket=yes}}"
       }

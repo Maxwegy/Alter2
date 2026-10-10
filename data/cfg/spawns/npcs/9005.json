@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9005,
   "spawns": [
     {
+      "id": "w4b91b1a98be6",
       "npc": "npc.sw_adventurer",
       "x": 2264,
       "z": 2887,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Garl",
         "map": "{{Map|name=Garl|x=2264|y=2887|r=1|mtype=square}}"
       }

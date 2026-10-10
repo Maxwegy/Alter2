@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12092,
   "spawns": [
     {
+      "id": "w162b4ab86ea8",
       "npc": "npc.secret_ghost_messenger",
       "x": 3068,
       "z": 3858,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kharrim",
         "map": "{{Map|name=Kharrim|x=3068|y=3858|plane=0|r=4|mapID=0|mtype=square}}"
       }

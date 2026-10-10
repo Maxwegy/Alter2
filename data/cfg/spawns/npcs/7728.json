@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 7728,
   "spawns": [
     {
+      "id": "w175bd73b6072",
       "npc": "npc.minotaurs_rest_beastmaster",
       "x": 1964,
       "z": 3109,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Petrus",
         "map": "{{Map|1964,3109|mtype=rectangle|rectX=5|rectY=3|zoom=3}}"
       }

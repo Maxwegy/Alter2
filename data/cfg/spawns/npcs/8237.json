@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8237,
   "spawns": [
     {
+      "id": "w8ec5e4fc622f",
       "npc": "npc.sw_armadyl_ghost_vis",
       "x": 2105,
       "z": 2895,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ancient_Ghost",
         "map": "{{Map|x=2105|y=2895|plane=0|mtype=pin}}"
       }

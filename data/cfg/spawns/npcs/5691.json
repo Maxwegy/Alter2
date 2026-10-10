@@ -1,91 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5691,
   "spawns": [
     {
+      "id": "wdce689572ea1",
       "npc": "npc.lova_tinker",
       "x": 1412,
       "z": 3809,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Old_dwarf",
         "map": "{{Map|name=Old dwarf|x=1412|y=3809|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wdb5f57f9ba36",
       "npc": "npc.lovakengj_citizen_3",
       "x": 1429,
       "z": 3797,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
         "map": "{{Map|name=Dwarf|x=1429|y=3797|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w2876c01b870e",
       "npc": "npc.vmq1_guard_6",
       "x": 1429,
       "z": 3797,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_3)",
         "map": "{{Map|name=Armourer (tier 3)|x=1429|y=3797|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w9d28f28f9a9f",
       "npc": "npc.lovakengj_mine_supervisor_1",
       "x": 1437,
       "z": 3829,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mine_supervisor",
         "map": "{{Map|name=Mine supervisor|x=1437|y=3829|r=20|mtype=square}}"
       }
     },
     {
+      "id": "waa349653e6dc",
       "npc": "npc.lovakengj_mine_supervisor_2",
       "x": 1437,
       "z": 3829,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mine_supervisor",
         "map": "{{Map|name=Mine supervisor|x=1437|y=3829|r=20|mtype=square}}"
       }
     },
     {
+      "id": "w915e8c1ac28e",
       "npc": "npc.lovakengj_citizen_2",
       "x": 1442,
       "z": 3785,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
         "map": "{{Map|name=Dwarf|x=1442|y=3785|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wc57309e194fc",
       "npc": "npc.vmq1_guard_5",
       "x": 1442,
       "z": 3785,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_2)",
         "map": "{{Map|name=Armourer (tier 2)|x=1442|y=3785|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w134ec30edfaa",
       "npc": "npc.dt2_lovakengj_historian",
       "x": 1460,
       "z": 3780,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barus",
         "map": "{{Map|name=Jonathan|x=1460|y=3780|r=4|mtype=square}}"
       }

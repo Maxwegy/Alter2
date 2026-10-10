@@ -1,80 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8752,
   "spawns": [
     {
+      "id": "wa8a64ad6f389",
       "npc": "npc.badger1",
       "x": 2210,
       "z": 3097,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "w58be603b84a6",
       "npc": "npc.badger2",
       "x": 2210,
       "z": 3097,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "w0daf470fc578",
       "npc": "npc.badger1",
       "x": 2214,
       "z": 3097,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "wd03f1ffee236",
       "npc": "npc.badger2",
       "x": 2214,
       "z": 3097,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "w8cedf7c7ac72",
       "npc": "npc.badger1",
       "x": 2215,
       "z": 3096,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "w3244861be7fd",
       "npc": "npc.badger2",
       "x": 2215,
       "z": 3096,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Badger",
         "map": "{{Map|name=Badger|2210,3097|2214,3097|2215,3096|mtype=pin}}"
       }
     },
     {
+      "id": "w81247405285e",
       "npc": "npc.snakeboss_spectator",
       "x": 2220,
       "z": 3092,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Broken_Handz",
         "map": "{{Map|name=Broken Handz|x=2220|y=3092|r=4|mtype=square}}"
       }

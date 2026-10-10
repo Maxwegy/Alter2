@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9265,
   "spawns": [
     {
+      "id": "waa29ed7e9be9",
       "npc": "npc.mourning_bow_seller",
       "x": 2326,
       "z": 3166,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dalldav",
         "map": "{{Map|name=Dalldav|x=2326|y=3166|r=5|mtype=square}}"
       }
     },
     {
+      "id": "we2046ab3c25c",
       "npc": "npc.mourning_seamstress",
       "x": 2326,
       "z": 3178,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Oronwen",
         "map": "{{Map|name=Oronwen|x=2326|y=3178|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w323bda7b01e8",
       "npc": "npc.mourning_town_elf_3",
       "x": 2334,
       "z": 3175,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arvel",
         "map": "{{Map|name=Arvel|x=2334|y=3175|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wb4c24b1e0644",
       "npc": "npc.mourning_stores_man",
       "x": 2335,
       "z": 3184,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Eudav",
         "map": "{{Map|name=Eudav|x=2335|y=3184|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we88ad17cfd6b",
       "npc": "npc.mourning_town_elf_1",
       "x": 2336,
       "z": 3161,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Goreu",
         "map": "{{Map|name=Goreu|x=2336|y=3161|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8fcc5577bed1",
       "npc": "npc.mourning_elf_kid_2",
       "x": 2336,
       "z": 3170,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Iona",
         "map": "{{Map|name=Iona|x=2336|y=3170|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w0a18f2d7c2a7",
       "npc": "npc.mourning_elven_cook",
       "x": 2341,
       "z": 3158,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gethin",
         "map": "{{Map|name=Gethin|x=2341|y=3158|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd657845037f8",
       "npc": "npc.farming_gardener_fruit_tree_5",
       "x": 2347,
       "z": 3162,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Liliwen",
         "map": "{{Map|name=Liliwen|x=2347|y=3162|plane=0|r=2|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w48f8617744e7",
       "npc": "npc.mourning_elf_bankerf",
       "x": 2353,
       "z": 3164,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Lletya)",
         "map": "{{Map|name=Banker (Lletya)|x=2353|y=3164|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w7f0553e9539a",
       "npc": "npc.mourning_elf_bankerm",
       "x": 2353,
       "z": 3164,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Lletya)",
         "map": "{{Map|name=Banker (Lletya)|x=2353|y=3164|r=2|mtype=square}}"
       }

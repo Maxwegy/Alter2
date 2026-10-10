@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6702,
   "spawns": [
     {
+      "id": "w9bbbbcf8cc8e",
       "npc": "npc.frog_quest_marcellus_normal",
       "x": 1684,
       "z": 2974,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marcellus",
         "map": "{{Map|x=1684|y=2974|r=5|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w2ce4e500ecd2",
       "npc": "npc.frog_quest_cuthbert_named",
       "x": 1685,
       "z": 3003,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cuthbert",
         "map": "{{Map|x=1685|y=3003|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wbd7e08f9feeb",
       "npc": "npc.frog_quest_sue_named",
       "x": 1695,
       "z": 2995,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sue",
         "map": "{{Map|x=1695|y=2995|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w76261329cec0",
       "npc": "npc.frog_quest_gary_named",
       "x": 1695,
       "z": 2996,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gary",
         "map": "{{Map|x=1695|y=2996|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5e867d09dfff",
       "npc": "npc.frog_quest_jane_named",
       "x": 1696,
       "z": 2983,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jane",
         "map": "{{Map|x=1696|y=2983|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w116b9efd6986",
       "npc": "npc.frog_quest_dave_named",
       "x": 1697,
       "z": 2984,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dave",
         "map": "{{Map|x=1697|y=2984|r=3|mtype=square}}"
       }

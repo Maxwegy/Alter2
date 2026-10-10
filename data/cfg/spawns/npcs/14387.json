@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14387,
   "spawns": [
     {
+      "id": "w600925740ded",
       "npc": "npc.lord_myrmel",
       "x": 3600,
       "z": 3319,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lord_Mischa_Myrmel",
         "map": "{{Map|name=Lord Mischa Myrmel|x=3600|y=3319|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w669512839245",
       "npc": "npc.von_van_von",
       "x": 3600,
       "z": 3327,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Von_van_Von",
         "map": "{{Map|name=Von van Von|x=3600|y=3327|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wfd172b6e403f",
       "npc": "npc.nakasa_jovkai",
       "x": 3610,
       "z": 3325,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nakasa_Jovkai",
         "map": "{{Map|name=Nakasa Jovkai|x=3610|y=3325|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb6aa2936f4a7",
       "npc": "npc.lord_jovkai",
       "x": 3611,
       "z": 3319,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lord_Alexei_Jovkai",
         "map": "{{Map|name=Lord Alexei Jovkai|x=3611|y=3319|r=4|mtype=square}}"
       }

@@ -1,278 +1,328 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10291,
   "spawns": [
     {
+      "id": "w2d7df719f4cc",
       "npc": "npc.mournertwb_vis",
       "x": 2560,
       "z": 3288,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2560,3288|group=3|mtype=pin}}"
       }
     },
     {
+      "id": "w9ce89caf6840",
       "npc": "npc.mournerwatchtower_vis",
       "x": 2561,
       "z": 3303,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2559,3304|2561,3305|2561,3303|group=6|mtype=pin}}"
       }
     },
     {
+      "id": "we477e3785ed2",
       "npc": "npc.mournerwatchtower_vis",
       "x": 2561,
       "z": 3305,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Biohazard)",
         "map": "{{Map|2559,3304|2561,3305|2561,3303|group=6|mtype=pin}}"
       }
     },
     {
+      "id": "wfe4fa91c4688",
       "npc": "npc.vc_jimmy_dazzler",
       "x": 2562,
       "z": 3320,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jimmy_Dazzler",
         "map": "{{Map|name=Jimmy Dazzler|2562,3320|mtype=pin}}"
       }
     },
     {
+      "id": "w752862a3123e",
       "npc": "npc.vc_bones",
       "x": 2565,
       "z": 3317,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bones_(kitten)",
         "map": "{{Map|name=Bones (kitten)|x=2565|y=3317|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w6b9af1223691",
       "npc": "npc.philipe_carnillean",
       "x": 2566,
       "z": 3274,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Philipe_Carnillean",
         "map": "{{Map|name=Philipe Carnillean|x=2566|y=3274|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf8de898ca4a7",
       "npc": "npc.carnillean_wife",
       "x": 2573,
       "z": 3270,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Henryeta_Carnillean",
         "map": "{{Map|name=Henryeta Carnillean|x=2573|y=3270|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa67752bbee99",
       "npc": "npc.aluft_gnome_diplomat_ardougne",
       "x": 2573,
       "z": 3297,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ambassador_Gimblewap",
         "map": "{{Map|name=Ambassador Gimblewap|x=2573|y=3297|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wf722e27d7746",
       "npc": "npc.ardy_twopints_diary",
       "x": 2574,
       "z": 3323,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Two-pints",
         "map": "{{Map|name=Two-pints|x=2574|y=3323|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w35c790aa409b",
       "npc": "npc.flyinghorse_bartender",
       "x": 2574,
       "z": 3323,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Flying_Horse_Inn)",
         "map": "{{Map|name=Bartender (Flying Horse Inn)|2574,3323|mtype=pin}}"
       }
     },
     {
+      "id": "w95928ed5a55c",
       "npc": "npc.peng_larry_zoo",
       "x": 2597,
       "z": 3266,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Larry",
         "map": "{{Map|name=Larry|x=2597|y=3266|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wbe3891fd8646",
       "npc": "npc.mm_monkey_minder",
       "x": 2603,
       "z": 3279,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Monkey_minder",
         "map": "{{Map|name=Monkey minder|x=2603|y=3279|plane=0|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wf3fd6d744419",
       "npc": "npc.eaglepeak_zookeeper_charlie",
       "x": 2606,
       "z": 3264,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Charlie",
         "map": "{{Map|name=Charlie|x=2606|y=3264|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w276c14ed2831",
       "npc": "npc.eadgar_zoo_keeper_aviary",
       "x": 2609,
       "z": 3287,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Parroty_Pete",
         "map": "{{Map|name=Parroty Pete|x=2609|y=3287|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w7d2a4d95f62b",
       "npc": "npc.zoo_keeper",
       "x": 2612,
       "z": 3276,
       "height": 0,
       "walkRadius": 16,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zoo_keeper",
         "map": "{{Map|name=Zoo keeper|x=2612|y=3276|plane=0|r=16|mtype=square}}"
       }
     },
     {
+      "id": "w68cb077bf4c6",
       "npc": "npc.eadgar_parrotts",
       "x": 2613,
       "z": 3287,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Parrots",
         "map": "{{Map|name=Parrots|x=2613|y=3287|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w6693921a6319",
       "npc": "npc.corgi_wander",
       "x": 2613,
       "z": 3316,
       "height": 0,
       "walkRadius": 11,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Corgi_(wandering)",
         "map": "{{Map|mtype=rectangle|rectX=22|rectY=54|2613,3316|}}"
       }
     },
     {
+      "id": "wc724d26f6bca",
       "npc": "npc.aemad",
       "x": 2614,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aemad",
         "map": "{{Map|name=Aemad|2614,3293|mtype=pin}}"
       }
     },
     {
+      "id": "w79b70efad9bf",
       "npc": "npc.kortan",
       "x": 2614,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kortan",
         "map": "{{Map|name=Kortan|2614,3293|mtype=pin}}"
       }
     },
     {
+      "id": "wab4cacd6438d",
       "npc": "npc.con_contract_client_7",
       "x": 2614,
       "z": 3318,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ross",
         "map": "{{Map|2614,3318|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "we1560e06f769",
       "npc": "npc.jerico",
       "x": 2615,
       "z": 3325,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jerico",
         "map": "{{Map|name=Jerico|x=2615|y=3325|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb65acd8f60ea",
       "npc": "npc.doctor_orbon",
       "x": 2617,
       "z": 3307,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doctor_Orbon",
         "map": "{{Map|name=Doctor Orbon|x=2617|y=3307|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w674135445a7c",
       "npc": "npc.orbon_priest",
       "x": 2617,
       "z": 3307,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Priest_(East_Ardougne)",
         "map": "{{Map|name=Priest (East Ardougne)|x=2617|y=3307|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w91ad49bd5344",
       "npc": "npc.con_contract_client_8",
       "x": 2620,
       "z": 3292,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jess",
         "map": "{{Map|x=2620|y=3292|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w61234ea8d92a",
       "npc": "npc.pet_insurance_broker",
       "x": 2622,
       "z": 3293,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Probita",
         "map": "{{Map|name=Probita|2622,3293|mtype=pin}}"
       }

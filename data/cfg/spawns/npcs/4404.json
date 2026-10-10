@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4404,
   "spawns": [
     {
+      "id": "w60e135e24b38",
       "npc": "npc.stranglewood_fishingspot_hmm",
       "x": 1093,
       "z": 3368,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fishing_spot_(The_Stranglewood)",
         "map": "{{Map|1093,3368|x=1108|y=3356|mtype=pin}}"
       }

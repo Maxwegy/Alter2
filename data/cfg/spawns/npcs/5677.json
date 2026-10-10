@@ -1,1048 +1,1238 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5677,
   "spawns": [
     {
+      "id": "w549d34238d76",
       "npc": "npc.mistrock_worker_f_1",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "we665f1cb9685",
       "npc": "npc.mistrock_worker_f_1_pickaxe",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w91e0a4b99808",
       "npc": "npc.mistrock_worker_f_2",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w79421943df06",
       "npc": "npc.mistrock_worker_f_2_pickaxe",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w023dc9a2f1f2",
       "npc": "npc.mistrock_worker_m_1",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w56e61718a81a",
       "npc": "npc.mistrock_worker_m_1_pickaxe",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w004ed502beab",
       "npc": "npc.mistrock_worker_m_2",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w02c4ab618b2d",
       "npc": "npc.mistrock_worker_m_2_pickaxe",
       "x": 1424,
       "z": 2880,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "waefb48c76e50",
       "npc": "npc.doti_villa_guard_blocking",
       "x": 1426,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Villa_Guard",
         "map": "{{Map|name=Villa Guard|1426,2934|1454,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w2b54a83bb294",
       "npc": "npc.mistrock_worker_f_1",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w92ca03f4cfcf",
       "npc": "npc.mistrock_worker_f_1_pickaxe",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w1fcd2b9a5cf1",
       "npc": "npc.mistrock_worker_f_2",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w1e2e052e7dac",
       "npc": "npc.mistrock_worker_f_2_pickaxe",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w296d953df2a5",
       "npc": "npc.mistrock_worker_m_1",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w4f40eb38c55f",
       "npc": "npc.mistrock_worker_m_1_pickaxe",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "we3e67873c4c1",
       "npc": "npc.mistrock_worker_m_2",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "wa600a9b99ad8",
       "npc": "npc.mistrock_worker_m_2_pickaxe",
       "x": 1428,
       "z": 2882,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "we1b619b41e70",
       "npc": "npc.mystery_butler01_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w69c3f570395e",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w9d2945133a3e",
       "npc": "npc.mystery_butler02_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w8258fc652989",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wd71845d06a83",
       "npc": "npc.mystery_butler03_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wcd69f376c24c",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa84605bb53ee",
       "npc": "npc.mystery_butler04_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w887f7fb9e4e0",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wbaac528b9df6",
       "npc": "npc.mystery_butler05_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w2bb2d981e04e",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1438,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "weda5310c887c",
       "npc": "npc.mystery_butler01_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w71143d732127",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w055d3a5c28cc",
       "npc": "npc.mystery_butler02_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w150db16179bf",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w3cb442265cb1",
       "npc": "npc.mystery_butler03_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w5aa544bc3b19",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w6b86b6f90bff",
       "npc": "npc.mystery_butler04_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wd031b5e2adbd",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w2a222cbd6a52",
       "npc": "npc.mystery_butler05_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa27c1eb6fbc3",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1438,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa740a65e5b07",
       "npc": "npc.mistrock_worker_f_1",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w1852672cc27e",
       "npc": "npc.mistrock_worker_f_1_pickaxe",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w6aada8d3fbdc",
       "npc": "npc.mistrock_worker_f_2",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "wa774ef7de8a7",
       "npc": "npc.mistrock_worker_f_2_pickaxe",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w711bd38ef948",
       "npc": "npc.mistrock_worker_m_1",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "wcf1e9ab97876",
       "npc": "npc.mistrock_worker_m_1_pickaxe",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "wfc6fc145c1ab",
       "npc": "npc.mistrock_worker_m_2",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w1b55f7f2083e",
       "npc": "npc.mistrock_worker_m_2_pickaxe",
       "x": 1441,
       "z": 2885,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Mistrock)",
         "map": "{{Map|name=Worker|1441,2885|1428,2882|1424,2880|mtype=pin}}"
       }
     },
     {
+      "id": "w48a725e1b739",
       "npc": "npc.doti_mysterious_dog_noop",
       "x": 1441,
       "z": 2938,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Smart-looking_dog",
         "map": "{{Map|name=Smart-looking dog|1441,2938|mtype=pin}}"
       }
     },
     {
+      "id": "wdc478febc8d6",
       "npc": "npc.doti_mysterious_dog_op",
       "x": 1441,
       "z": 2938,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Smart-looking_dog",
         "map": "{{Map|name=Smart-looking dog|1441,2938|mtype=pin}}"
       }
     },
     {
+      "id": "w29ef7b2807b1",
       "npc": "npc.doti_hutza",
       "x": 1443,
       "z": 2932,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hutza",
         "map": "{{Map|name=Stradius|1443,2932|mtype=pin}}"
       }
     },
     {
+      "id": "w93cec2ad9964",
       "npc": "npc.doti_hutza_escape",
       "x": 1443,
       "z": 2932,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hutza",
         "map": "{{Map|name=Stradius|1443,2932|mtype=pin}}"
       }
     },
     {
+      "id": "w140e7e04251f",
       "npc": "npc.doti_hutza_spectator",
       "x": 1443,
       "z": 2932,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hutza",
         "map": "{{Map|name=Stradius|1443,2932|mtype=pin}}"
       }
     },
     {
+      "id": "wc8d93497bb9c",
       "npc": "npc.mystery_butler01_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w04b1e00dcee6",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w90aabd31d45a",
       "npc": "npc.mystery_butler02_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w84d147262f3b",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wf6c49872dfd4",
       "npc": "npc.mystery_butler03_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w8242a6d9bcc3",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "weed58f05bc0a",
       "npc": "npc.mystery_butler04_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w8100dd28234f",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w46384316ff9d",
       "npc": "npc.mystery_butler05_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "weae228651b6c",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1443,
       "z": 2939,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "we919811b0121",
       "npc": "npc.mystery_butler01_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w44062fc61c90",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w069b97847ce5",
       "npc": "npc.mystery_butler02_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wb3461f12ef4b",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wfdad78f39af6",
       "npc": "npc.mystery_butler03_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wfbb2cb665d96",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wc67085f0f0ea",
       "npc": "npc.mystery_butler04_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa68c1921a169",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w3087e749807b",
       "npc": "npc.mystery_butler05_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w98f9b6530c46",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1445,
       "z": 2934,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w95708ea1c37b",
       "npc": "npc.doti_headbutler_core",
       "x": 1445,
       "z": 2940,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Head_Butler",
         "map": "{{Map|name=Head Butler|1445,2940|mtype=pin}}"
       }
     },
     {
+      "id": "w199c0c1a9487",
       "npc": "npc.doti_cleaner_vis",
       "x": 1446,
       "z": 2934,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
         "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
       }
     },
     {
+      "id": "w78361cb05be0",
       "npc": "npc.varlamore_cleaner_outside",
       "x": 1446,
       "z": 2934,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
         "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
       }
     },
     {
+      "id": "w744d9dae3be8",
       "npc": "npc.varlamore_cleaner_outside_2",
       "x": 1446,
       "z": 2934,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cleaner_(Aldarin)",
         "map": "{{Map|name=Cleaner|1446,2934|1387,2928|1422,2972|mtype=square|r=4}}"
       }
     },
     {
+      "id": "wa7b305bec885",
       "npc": "npc.mystery_butler01_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w271251de0a9d",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wce024c10e123",
       "npc": "npc.mystery_butler02_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w9e118aa61a69",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w6d363ac4b40c",
       "npc": "npc.mystery_butler03_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w01def232ef2e",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wdf241de532a6",
       "npc": "npc.mystery_butler04_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wc626e6301d7d",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wd81c6d90142f",
       "npc": "npc.mystery_butler05_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa5b56f84534f",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1447,
       "z": 2929,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa1d1e3d58c60",
       "npc": "npc.mystery_butler01_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w6445f268aea4",
       "npc": "npc.mystery_butler01f_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "waade36ec448f",
       "npc": "npc.mystery_butler02_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w9170f5bbfb84",
       "npc": "npc.mystery_butler02f_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w066de0c2f7a7",
       "npc": "npc.mystery_butler03_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wb10c105ebe2e",
       "npc": "npc.mystery_butler03f_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w07d819ef4fb9",
       "npc": "npc.mystery_butler04_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w23cbb9becb38",
       "npc": "npc.mystery_butler04f_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "wa7d679506bac",
       "npc": "npc.mystery_butler05_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w0fc4971cdf3f",
       "npc": "npc.mystery_butler05f_vis",
       "x": 1447,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Butler_(Death_on_the_Isle)",
         "map": "{{Map|1443,2939|1438,2929|1445,2934|1438,2940|1447,2929|1447,2933|mtype=pin}}"
       }
     },
     {
+      "id": "w86b9ffca8da3",
       "npc": "npc.doti_villa_guard_blocking",
       "x": 1454,
       "z": 2933,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Villa_Guard",
         "map": "{{Map|name=Villa Guard|1426,2934|1454,2933|mtype=pin}}"
       }

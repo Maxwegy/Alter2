@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8753,
   "spawns": [
     {
+      "id": "wb08ef58bce27",
       "npc": "npc.regicide_tyras_lazy_guard_vis",
       "x": 2182,
       "z": 3186,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tyras_guard_(Catapult)",
         "map": "{{Map|name=Tyras guard|x=2182|y=3186|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc02368189fb8",
       "npc": "npc.regicide_general_hining",
       "x": 2187,
       "z": 3148,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/General_Hining",
         "map": "{{Map|name=General Hining|x=2187|y=3148|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0ce07488ca08",
       "npc": "npc.regicidegeneralshopkeeper",
       "x": 2195,
       "z": 3140,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Quartermaster",
         "map": "{{Map|name=Quartermaster|x=2195|y=3140|r=2|mtype=square}}"
       }

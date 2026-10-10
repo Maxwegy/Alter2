@@ -1,223 +1,263 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5945,
   "spawns": [
     {
+      "id": "w3cc69f9584fb",
       "npc": "npc.lynx02_noop",
       "x": 1477,
       "z": 3665,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lynx_(Cage)",
         "map": "{{Map|mtype=pin|1494,3653|1515,3662|1477,3665}}"
       }
     },
     {
+      "id": "w207dbf2178e0",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1477,
       "z": 3699,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "wca924543b220",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1480,
       "z": 3710,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "wbee3cb645031",
       "npc": "npc.shayzien_ranger",
       "x": 1483,
       "z": 3677,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1483,3677|1477,3630|1478,3643|1492,3629|1492,3643|1532,3614|mtype=pin}}"
       }
     },
     {
+      "id": "w5a4f36f5f446",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1483,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "w911207b81e81",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1486,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w9add35b907d1",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1491,
       "z": 3703,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w876329e50c3b",
       "npc": "npc.lynx02_noop",
       "x": 1494,
       "z": 3653,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lynx_(Cage)",
         "map": "{{Map|mtype=pin|1494,3653|1515,3662|1477,3665}}"
       }
     },
     {
+      "id": "w8a9737080dce",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1494,
       "z": 3696,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "w4be9b1af9d0c",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1494,
       "z": 3708,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "w44cdb08ab68e",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1499,
       "z": 3700,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "wedbb1e128df4",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1506,
       "z": 3693,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w4a16d8ebae64",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1507,
       "z": 3689,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "wbff811508486",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1507,
       "z": 3696,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "w134da9475bff",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1509,
       "z": 3690,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "w081189f01fa6",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1510,
       "z": 3687,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w1f12bee4ec3d",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1510,
       "z": 3697,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "w73ff3fe5c9e9",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1511,
       "z": 3692,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "w47af92f027a7",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1512,
       "z": 3689,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "w26e35b5c8ab3",
       "npc": "npc.lynx02_noop",
       "x": 1515,
       "z": 3662,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lynx_(Cage)",
         "map": "{{Map|mtype=pin|1494,3653|1515,3662|1477,3665}}"
       }

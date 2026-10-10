@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12088,
   "spawns": [
     {
+      "id": "w0db2cb371000",
       "npc": "npc.wilderness_capeseller_10",
       "x": 3049,
       "z": 3630,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sam_(merchant)",
         "map": "{{Map|name=Sam (merchant)|x=3049|y=3630|plane=0|r=5|mtype=square}}"
       }

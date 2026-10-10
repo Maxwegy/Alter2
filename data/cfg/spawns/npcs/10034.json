@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10034,
   "spawns": [
     {
+      "id": "w13ecf2832b0a",
       "npc": "npc.tracker1",
       "x": 2504,
       "z": 3263,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tracker_gnome_1",
         "map": "{{Map|name=Tracker gnome 1|x=2504|y=3263|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wb0bb38412d82",
       "npc": "npc.gnome_tortoise_commander",
       "x": 2520,
       "z": 3212,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lieutenant_Schepbur",
         "map": "{{Map|name=Lieutenant Schepbur|x=2520|y=3212|plane=0|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w3e01f5a89d1c",
       "npc": "npc.commander_montai",
       "x": 2520,
       "z": 3213,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Commander_Montai",
         "map": "{{Map|name=Commander Montai|x=2520|y=3213|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w2284815a1f48",
       "npc": "npc.tracker2",
       "x": 2524,
       "z": 3257,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tracker_gnome_2",
         "map": "{{Map|name=Tracker gnome 2|x=2524|y=3257|plane=0|r=3|mtype=square}}"
       }

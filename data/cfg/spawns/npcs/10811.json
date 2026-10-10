@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10811,
   "spawns": [
     {
+      "id": "wdb0567d04025",
       "npc": "npc.hunting_polar_information",
       "x": 2710,
       "z": 3829,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hunting_expert_(Rellekka_Hunter_area)",
         "map": "{{Map|name=Hunting expert (Rellekka Hunter area)|x=2710|y=3829|r=2|mtype=square}}"
       }

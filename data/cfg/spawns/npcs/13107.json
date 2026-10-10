@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13107,
   "spawns": [
     {
+      "id": "wf316ea55069b",
       "npc": "npc.avan_fitzharmon_avan_1op",
       "x": 3297,
       "z": 3280,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Avan",
         "map": "{{Map|name=Avan|x=3297|y=3280|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w87e3e8b8ec6d",
       "npc": "npc.avan_fitzharmon_avan_2ops",
       "x": 3297,
       "z": 3280,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Avan",
         "map": "{{Map|name=Avan|x=3297|y=3280|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w0c80f3e75761",
       "npc": "npc.avan_fitzharmon_man",
       "x": 3297,
       "z": 3280,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Avan",
         "map": "{{Map|name=Avan|x=3297|y=3280|plane=0|r=3|mtype=square}}"
       }

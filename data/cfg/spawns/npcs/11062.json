@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11062,
   "spawns": [
     {
+      "id": "w59fc6b0c2232",
       "npc": "npc.seers_diary_wedge",
       "x": 2759,
       "z": 3476,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/The_'Wedge'",
         "map": "{{Map|name=The 'Wedge'|x=2759|y=3476|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w7dbb9be343c0",
       "npc": "npc.merlin",
       "x": 2767,
       "z": 3501,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Merlin",
         "map": "{{Map|name=Merlin|x=2767|y=3501|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w594f8e5be616",
       "npc": "npc.merlin2",
       "x": 2767,
       "z": 3501,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Merlin",
         "map": "{{Map|name=Merlin|x=2767|y=3501|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wcd4d4a97ce76",
       "npc": "npc.dantaera",
       "x": 2810,
       "z": 3464,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dantaera",
         "map": "{{Map|name=Dantaera|x=2810|y=3464|plane=0|r=4|mtype=square|bucket=yes}}"
       }

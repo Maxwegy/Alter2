@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13872,
   "spawns": [
     {
+      "id": "w56b93bf0adae",
       "npc": "npc.magic_carpet_seller4",
       "x": 3467,
       "z": 3110,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
         "map": "{{Map|name=Rug Merchant|3467,3110|3350,3001|plane=0|mapID=0|mtype=pin|group=20}}"
       }
     },
     {
+      "id": "w307f7f7ca969",
       "npc": "npc.agrith_sandy",
       "x": 3471,
       "z": 3098,
       "height": 0,
       "walkRadius": 25,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sand_storm",
         "map": "{{Map|zoom=1|x=3471|y=3098|r=25|mtype=square}}"
       }
     },
     {
+      "id": "wf29b8c7967c9",
       "npc": "npc.golem_broken_golem",
       "x": 3488,
       "z": 3090,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clay_golem",
         "map": "{{Map|name=Clay golem|x=3488|y=3090|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w69f278ce3244",
       "npc": "npc.golem_partially_broken_golem",
       "x": 3488,
       "z": 3090,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Clay_golem",
         "map": "{{Map|name=Clay golem|x=3488|y=3090|r=3|mtype=square}}"
       }

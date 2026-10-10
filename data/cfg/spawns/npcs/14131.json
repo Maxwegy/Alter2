@@ -1,286 +1,378 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14131,
   "spawns": [
     {
+      "id": "ma8b2f07c1edb",
       "npc": "npc.barrows_torag",
       "x": 3551,
       "z": 3280,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
     },
     {
+      "id": "mbe33238360bd",
       "npc": "npc.barrows_torag",
       "x": 3551,
       "z": 3285,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
     },
     {
+      "id": "m1e2973c12b6f",
       "npc": "npc.barrows_torag",
       "x": 3552,
       "z": 3283,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
     },
     {
+      "id": "m57112c76a675",
       "npc": "npc.barrows_torag",
       "x": 3554,
       "z": 3280,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
     },
     {
+      "id": "mb6ecd99a06ac",
       "npc": "npc.barrows_verac",
       "x": 3555,
       "z": 3294,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
     },
     {
+      "id": "mfdaeb2cf51be",
       "npc": "npc.barrows_verac",
       "x": 3555,
       "z": 3297,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
     },
     {
+      "id": "m0b7c9000c4c9",
       "npc": "npc.barrows_torag",
       "x": 3556,
       "z": 3284,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
     },
     {
+      "id": "m9a246229458f",
       "npc": "npc.barrows_verac",
       "x": 3557,
       "z": 3297,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
     },
     {
+      "id": "m63e4f6beff3a",
       "npc": "npc.barrows_verac",
       "x": 3559,
       "z": 3294,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
     },
     {
+      "id": "m8ce7d689e079",
       "npc": "npc.barrows_verac",
       "x": 3559,
       "z": 3300,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
     },
     {
+      "id": "m3bcf7c0139c1",
       "npc": "npc.barrows_karil",
       "x": 3563,
       "z": 3272,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
     },
     {
+      "id": "m9cf0757c4738",
       "npc": "npc.barrows_karil",
       "x": 3563,
       "z": 3278,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
     },
     {
+      "id": "m3aab49f3558f",
       "npc": "npc.barrows_ahrim",
       "x": 3563,
       "z": 3286,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "id": "m62ec657fa752",
       "npc": "npc.barrows_ahrim",
       "x": 3563,
       "z": 3291,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "id": "mde544c4e5471",
       "npc": "npc.barrows_karil",
       "x": 3565,
       "z": 3275,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
     },
     {
+      "id": "m8674a69b4306",
       "npc": "npc.barrows_ahrim",
       "x": 3565,
       "z": 3289,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "id": "w9099397068e6",
       "npc": "npc.barrows_oldman",
       "x": 3565,
       "z": 3292,
       "height": 0,
       "walkRadius": 16,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Strange_Old_Man",
         "map": "{{Map|name=Strange Old Man|x=3565|y=3292|r=16|mtype=square}}"
       }
     },
     {
+      "id": "m8dc6858330ad",
       "npc": "npc.barrows_karil",
       "x": 3567,
       "z": 3272,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
     },
     {
+      "id": "m67df4af405ae",
       "npc": "npc.barrows_karil",
       "x": 3567,
       "z": 3278,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
     },
     {
+      "id": "mc069d0961f84",
       "npc": "npc.barrows_ahrim",
       "x": 3567,
       "z": 3291,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "id": "m66bec79ec24a",
       "npc": "npc.barrows_ahrim",
       "x": 3568,
       "z": 3288,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
     },
     {
+      "id": "mac45085a48f9",
       "npc": "npc.barrows_dharok",
       "x": 3573,
       "z": 3299,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
     },
     {
+      "id": "m0fa091a9401a",
       "npc": "npc.barrows_dharok",
       "x": 3574,
       "z": 3295,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
     },
     {
+      "id": "m11039147c93c",
       "npc": "npc.barrows_guthan",
       "x": 3575,
       "z": 3279,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
     },
     {
+      "id": "m4d4859510f89",
       "npc": "npc.barrows_guthan",
       "x": 3575,
       "z": 3285,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
     },
     {
+      "id": "m7d5affe8320d",
       "npc": "npc.barrows_dharok",
       "x": 3576,
       "z": 3298,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
     },
     {
+      "id": "m64dba084fffb",
       "npc": "npc.barrows_dharok",
       "x": 3576,
       "z": 3300,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
     },
     {
+      "id": "me0fc244751e1",
       "npc": "npc.barrows_guthan",
       "x": 3577,
       "z": 3282,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
     },
     {
+      "id": "m0a79775539fd",
       "npc": "npc.barrows_dharok",
       "x": 3578,
       "z": 3296,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
     },
     {
+      "id": "m3a9d89304bd1",
       "npc": "npc.barrows_guthan",
       "x": 3579,
       "z": 3279,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
     },
     {
+      "id": "mc91e59f292fc",
       "npc": "npc.barrows_guthan",
       "x": 3579,
       "z": 3285,
       "height": 0,
       "walkRadius": 2,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
     }
   ]

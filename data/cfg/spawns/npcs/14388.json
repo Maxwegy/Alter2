@@ -1,355 +1,419 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14388,
   "spawns": [
     {
+      "id": "w674447d45cdd",
       "npc": "npc.alek_constantine",
       "x": 3598,
       "z": 3356,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alek_Constantine",
         "map": "{{Map|name=Alek Constantine|x=3598|y=3356|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wffbb883904db",
       "npc": "npc.valentina_diaemus",
       "x": 3598,
       "z": 3358,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Valentina_Diaemus",
         "map": "{{Map|name=Valentina Diaemus|x=3598|y=3358|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w02f45a7be315",
       "npc": "npc.haemas_lamescus",
       "x": 3598,
       "z": 3362,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Haemas_Lamescus",
         "map": "{{Map|name=Haemas Lamescus|x=3598|y=3362|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w9f702f8b844f",
       "npc": "npc.mortina_daubenton",
       "x": 3598,
       "z": 3382,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mortina_Daubenton",
         "map": "{{Map|name=Mortina Daubenton|x=3598|y=3382|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0e7fd171f7a3",
       "npc": "npc.episcula_helsing",
       "x": 3599,
       "z": 3337,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Episcula_Helsing",
         "map": "{{Map|name=Episcula Helsing|x=3599|y=3337|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4767f32e8ffb",
       "npc": "npc.darkm_trader_clothes",
       "x": 3602,
       "z": 3380,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Varrian_Sobak",
         "map": "{{Map|name=Varrian Sobak|3602,3380|mtype=pin}}"
       }
     },
     {
+      "id": "wefcefbef11ae",
       "npc": "npc.darkm_banker_female",
       "x": 3605,
       "z": 3367,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Darkmeyer)",
         "map": "{{Map|name=Banker (Darkmeyer)|x=3605|y=3367|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w718636c6b99a",
       "npc": "npc.darkm_banker_male",
       "x": 3605,
       "z": 3367,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Darkmeyer)",
         "map": "{{Map|name=Banker (Darkmeyer)|x=3605|y=3367|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc718b5f8f73e",
       "npc": "npc.noctillion_lugosi",
       "x": 3607,
       "z": 3362,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Noctillion_Lugosi",
         "map": "{{Map|name=Noctillion Lugosi|x=3607|y=3362|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8a82267ac2fd",
       "npc": "npc.caninelle_draynar",
       "x": 3609,
       "z": 3384,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Caninelle_Draynar",
         "map": "{{Map|name=Caninelle Draynar|x=3609|y=3384|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w7a7a667589a7",
       "npc": "npc.pipistrelle_draynar",
       "x": 3609,
       "z": 3384,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pipistrelle_Draynar",
         "map": "{{Map|name=Pipistrelle Draynar|x=3609|y=3384|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w7387d14e441f",
       "npc": "npc.natalidae_shadum",
       "x": 3610,
       "z": 3340,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Natalidae_Shadum",
         "map": "{{Map|name=Natalidae Shadum|x=3610|y=3340|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd34a455ad4bc",
       "npc": "npc.misdrievus_shadum",
       "x": 3610,
       "z": 3345,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Misdrievus_Shadum",
         "map": "{{Map|name=Misdrievus Shadum|x=3610|y=3345|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wab5bcebb00c9",
       "npc": "npc.lady_shadum",
       "x": 3612,
       "z": 3340,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lady_Nadezhda_Shadum",
         "map": "{{Map|name=Lady Nadezhda Shadum|x=3612|y=3340|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w9d229d9dfa14",
       "npc": "npc.desmodus_lasiurus",
       "x": 3613,
       "z": 3362,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Desmodus_Lasiurus",
         "map": "{{Map|name=Desmodus Lasiurus|x=3613|y=3362|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w267ec3e5da66",
       "npc": "npc.carnivus_belamorta",
       "x": 3613,
       "z": 3390,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Carnivus_Belamorta",
         "map": "{{Map|name=Carnivus Belamorta|x=3613|y=3390|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w834665a293e5",
       "npc": "npc.mort_nightshade",
       "x": 3620,
       "z": 3383,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mort_Nightshade",
         "map": "{{Map|name=Mort Nightshade|x=3620|y=3383|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wcea5166d42fb",
       "npc": "npc.darkm_trader_food",
       "x": 3620,
       "z": 3387,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lenyig_Karna",
         "map": "{{Map|name=Lenyig Karna|3620,3387|mtype=pin}}"
       }
     },
     {
+      "id": "wae8fa4b4c64d",
       "npc": "npc.spider_noncombat",
       "x": 3626,
       "z": 3368,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3626,3368|3632,3366|3629,3364|3632,3360|3627,3357|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w7454a401f4f7",
       "npc": "npc.spider_noncombat",
       "x": 3627,
       "z": 3357,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3626,3368|3632,3366|3629,3364|3632,3360|3627,3357|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wc78d95e7e0ed",
       "npc": "npc.spider_noncombat",
       "x": 3629,
       "z": 3364,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3626,3368|3632,3366|3629,3364|3632,3360|3627,3357|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w078adf01c206",
       "npc": "npc.draconis_sanguine",
       "x": 3630,
       "z": 3382,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Draconis_Sanguine",
         "map": "{{Map|name=Draconis Sanguine|x=3630|y=3382|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8f6f4ee26a79",
       "npc": "npc.violetta_sanguine",
       "x": 3630,
       "z": 3382,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Violetta_Sanguine",
         "map": "{{Map|name=Violetta Sanguine|x=3630|y=3382|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w7075cc1d1ad2",
       "npc": "npc.vallessia_dracyula",
       "x": 3631,
       "z": 3391,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vallessia_Dracyula",
         "map": "{{Map|name=Vallessia Dracyula|x=3631|y=3391|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w70f463ff880b",
       "npc": "npc.spider_noncombat",
       "x": 3632,
       "z": 3360,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3626,3368|3632,3366|3629,3364|3632,3360|3627,3357|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wede8f6bfb581",
       "npc": "npc.spider_noncombat",
       "x": 3632,
       "z": 3366,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
         "map": "{{Map|3626,3368|3632,3366|3629,3364|3632,3360|3627,3357|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w04e4bc988a88",
       "npc": "npc.vampyrus_diaemus",
       "x": 3636,
       "z": 3386,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vampyrus_Diaemus",
         "map": "{{Map|name=Vampyrus Diaemus|x=3636|y=3386|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wef1740c47889",
       "npc": "npc.darkm_trader_general",
       "x": 3641,
       "z": 3336,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Drasdan_Ranor",
         "map": "{{Map|name=Drasdan Ranor|3641,3336|mtype=pin}}"
       }
     },
     {
+      "id": "wd9e785916b03",
       "npc": "npc.diphylla_bechstein",
       "x": 3644,
       "z": 3378,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Diphylla_Bechstein",
         "map": "{{Map|name=Diphylla Bechstein|x=3644|y=3378|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wfb57154fe412",
       "npc": "npc.vlad_bechstein",
       "x": 3644,
       "z": 3378,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vlad_Bechstein",
         "map": "{{Map|name=Vlad Bechstein|x=3644|y=3378|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5bb1bd911808",
       "npc": "npc.vonnetta_varnis",
       "x": 3644,
       "z": 3387,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vonnetta_Varnis",
         "map": "{{Map|name=Vonnetta Varnis|x=3644|y=3387|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w185c3c13f878",
       "npc": "npc.darkm_trader_candles",
       "x": 3645,
       "z": 3359,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grinka_Krast",
         "map": "{{Map|name=Grinka Krast|3645,3359|mtype=pin}}"
       }

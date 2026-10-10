@@ -1,157 +1,185 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6968,
   "spawns": [
     {
+      "id": "w6e454914d170",
       "npc": "npc.hosidius_bartender_2",
       "x": 1741,
       "z": 3612,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Richard_(Hosidius)",
         "map": "{{Map|mtype=pin|1741,3612}}"
       }
     },
     {
+      "id": "w7e36e75ab327",
       "npc": "npc.hosidius_private_gardener",
       "x": 1742,
       "z": 3587,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Farmer_Hayfield",
         "map": "{{Map|name=Farmer Hayfield|x=1742|y=3587|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8b2bf4ad5da6",
       "npc": "npc.hosidius_bartender_1",
       "x": 1743,
       "z": 3612,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Golova",
         "map": "{{Map|mtype=pin|1743,3612}}"
       }
     },
     {
+      "id": "wa48673cb0c7b",
       "npc": "npc.hosidius_banker_f_east",
       "x": 1747,
       "z": 3599,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Hosidius)",
         "map": "{{Map|name=Banker|x=1747|y=3599|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7c10f49e143e",
       "npc": "npc.hosidius_banker_f_west",
       "x": 1747,
       "z": 3599,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Hosidius)",
         "map": "{{Map|name=Banker|x=1747|y=3599|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc02dfe676a14",
       "npc": "npc.hosidius_banker_m_east",
       "x": 1747,
       "z": 3599,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Hosidius)",
         "map": "{{Map|name=Banker|x=1747|y=3599|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7c360e9a74f7",
       "npc": "npc.hosidius_banker_m_west",
       "x": 1747,
       "z": 3599,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Hosidius)",
         "map": "{{Map|name=Banker|x=1747|y=3599|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfbe5f062d96d",
       "npc": "npc.hosidius_historian",
       "x": 1751,
       "z": 3588,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jonathan",
         "map": "{{Map|1751,3588|rectX=8|rectY=6|mtype=rectangle}}"
       }
     },
     {
+      "id": "w278880d8f52f",
       "npc": "npc.pmod_town_crier_zeah",
       "x": 1757,
       "z": 3599,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Town_Crier",
         "map": "{{Map|name=Town Crier|x=1757|y=3599|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf78858fa8d44",
       "npc": "npc.hosidius_farmingstore",
       "x": 1763,
       "z": 3594,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vannah",
         "map": "{{Map|name=Vannah|1763,3594|mtype=pin}}"
       }
     },
     {
+      "id": "wad84655e4b21",
       "npc": "npc.con_contract_client_9",
       "x": 1767,
       "z": 3622,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mariah",
         "map": "{{Map|mtype=pin|1767,3622|bucket=yes}}"
       }
     },
     {
+      "id": "w515123e64742",
       "npc": "npc.hosidius_foodstore",
       "x": 1768,
       "z": 3598,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Logava",
         "map": "{{Map|name=Logava|1768,3598|mtype=pin}}"
       }
     },
     {
+      "id": "wc2f888a9d12f",
       "npc": "npc.hosidius_generalstore",
       "x": 1774,
       "z": 3588,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Horace",
         "map": "{{Map|name=Horace|1774,3588|mtype=pin}}"
       }
     },
     {
+      "id": "w0d9704b6ad9b",
       "npc": "npc.con_contract_client_10",
       "x": 1784,
       "z": 3590,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Leela_(Mahogany_Homes)",
         "map": "{{Map|mtype=pin|1784,3590|bucket=yes}}"
       }

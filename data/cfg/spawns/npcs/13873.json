@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13873,
   "spawns": [
     {
+      "id": "w7358282c61f2",
       "npc": "npc.sailing_crew_werewolf_world",
       "x": 3491,
       "z": 3189,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Oarswoman_Olga",
         "map": "{{Map|name=Oarswoman Olga|x=3491|y=3189|r=2|mtype=square}}"
       }

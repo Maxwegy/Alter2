@@ -1,97 +1,119 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12849,
   "spawns": [
     {
+      "id": "w22b9661e64e4",
       "npc": "npc.aide_tutor_mining",
       "x": 3227,
       "z": 3146,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mining_tutor",
         "map": "{{Map|name=Mining tutor|x=3227|y=3146|r=4|mtype=square}}"
       }
     },
     {
+      "id": "m93ea56cf80e3",
       "npc": "npc.aide_tutor_cooking",
       "x": 3233,
       "z": 3195,
       "height": 0,
       "walkRadius": 3,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/npcs/CookingTutorPlugin.kt"
     },
     {
+      "id": "w5d058c29afcf",
       "npc": "npc.mistmyst_abigale_lum_vis",
       "x": 3236,
       "z": 3155,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Abigale",
         "map": "{{Map|name=Abigale|x=3236|y=3155|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w792c82c7d9ff",
       "npc": "npc.mistmyst_hewey_lum_vis",
       "x": 3236,
       "z": 3155,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hewey",
         "map": "{{Map|name=Hewey|x=3236|y=3155|r=3|mtype=square}}"
       }
     },
     {
+      "id": "m9f342a12fc07",
       "npc": "npc.count_check",
       "x": 3238,
       "z": 3199,
       "height": 0,
       "walkRadius": 0,
       "direction": "EAST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
     },
     {
+      "id": "m8018122200f5",
       "npc": "npc.dragonslayer_giantrat_1_key",
       "x": 3239,
       "z": 3198,
       "height": 0,
       "walkRadius": 5,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w16454aa7b4e3",
       "npc": "npc.aide_tutor_fishing",
       "x": 3244,
       "z": 3157,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fishing_tutor",
         "map": "{{Map|name=Fishing tutor|x=3244|y=3157|r=3|mtype=square}}"
       }
     },
     {
+      "id": "m45b869e022d8",
       "npc": "npc.dragonslayer_giantrat_2",
       "x": 3246,
       "z": 3198,
       "height": 0,
       "walkRadius": 5,
       "direction": "WEST",
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
     },
     {
+      "id": "w2e54e1dc6bff",
       "npc": "npc.ghostx",
       "x": 3250,
       "z": 3193,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Restless_ghost",
         "map": "{{Map|name=Restless ghost|x=3250|y=3193|plane=0|r=3|mtype=square}}"
       }
