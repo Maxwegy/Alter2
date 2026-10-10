@@ -26,6 +26,8 @@ import org.alter.cockpit.supervisor.AdminClient
 import org.alter.cockpit.supervisor.GameServerSupervisor
 import org.alter.cockpit.supervisor.LogTail
 import org.alter.cockpit.wiki.PageResolver
+import org.alter.cockpit.workorders.ConsumableEnricher
+import org.alter.cockpit.workorders.ConsumableGenerator
 import org.alter.cockpit.workorders.DialogueGenerator
 import org.alter.cockpit.workorders.DoorGenerator
 import org.alter.cockpit.workorders.EnrichmentService
@@ -137,12 +139,12 @@ class Cockpit private constructor(
                 WikiPages(wikiHttp, paths.cockpitDir.resolve("wiki-pages"), Duration.ofHours(infra.wiki.rawCacheTtlHours)),
                 WikiBucketClient(wikiHttp),
                 WikiUrls(),
-                listOf(TalkToEnricher(), TradeEnricher(), PickpocketEnricher(), SceneryEnricher(), RecipeEnricher()),
+                listOf(TalkToEnricher(), TradeEnricher(), PickpocketEnricher(), SceneryEnricher(), RecipeEnricher(), ConsumableEnricher()),
             )
             inbox = InboxService(InboxStore(db), audit, bus, listOf(EnrichExecutor(enrichment), ServerStartExecutor(supervisor)), scope)
             val missingSource = MissingContentSource(paths.missingContent, inbox, enrichment::plan, config.inbox.minCountForCard, config.inbox.missingContentPollSeconds * 1_000)
             val scaffolds = ScaffoldService(
-                listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), SkeletonGenerator()),
+                listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), ConsumableGenerator(), SkeletonGenerator()),
                 ScaffoldContext(RscmNames(paths.dataDir.resolve("cfg/rscm"))) { pkg -> Files.isDirectory(paths.root.resolve(Kt.packagePath(pkg))) },
             )
             val gate = if (config.workorders.compileGate) GradleCompileGate(config.workorders.compileTask, Duration.ofSeconds(config.workorders.compileTimeoutSeconds)) else NoopCompileGate
