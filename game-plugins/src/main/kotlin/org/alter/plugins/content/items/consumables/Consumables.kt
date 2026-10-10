@@ -123,7 +123,8 @@ data class Consumable(
 data class PrayerGear(val worn: List<String>, val carried: List<String>)
 
 /** Chat lines for effects that end on a timer; data, so the plugins carry no strings either. */
-data class Messages(val antifireWarning: String, val antifireExpired: String, val staminaExpired: String)
+/** [staminaExpired] is null until a sourced text exists (TODO in the file); then nothing is sent. */
+data class Messages(val antifireWarning: String, val antifireExpired: String, val staminaExpired: String?)
 
 data class ConsumablesTable(
     val defaults: Map<Kind, KindDefaults>,
@@ -164,7 +165,7 @@ object Consumables {
         val consumables = root["consumables"].map { node -> consumable(node, defaults) }
         val m = root["messages"] ?: throw IllegalArgumentException("consumables.json: messages is missing")
         fun message(key: String) = m[key]?.asText()?.takeIf { it.isNotBlank() } ?: throw IllegalArgumentException("consumables.json: messages.$key is missing")
-        val messages = Messages(message("antifireWarning"), message("antifireExpired"), message("staminaExpired"))
+        val messages = Messages(message("antifireWarning"), message("antifireExpired"), m["staminaExpired"]?.takeUnless { it.isNull }?.asText()?.takeIf { it.isNotBlank() })
         return ConsumablesTable(defaults, prayerGear, consumables, messages)
     }
 
