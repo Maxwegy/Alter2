@@ -32,6 +32,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`, `::reloadconsumables`, `::reloadspecials`.
 - `data/cfg/consumables/consumables.json`: food and potions (heal, boosts, drains, restores, run energy/stamina, antipoison, antivenom, antifire, delays, expiry messages), hand-maintained with a wiki URL on every entry (the cockpit's consumable enricher appends entries from `enrich.inv_op` cards); `ConsumablesDataTests` keeps it resolvable. Plugins carry no numbers or strings.
 - `data/cfg/combat/special_attacks.json`: special attacks (cost, hits, effects, animation/graphic, wiki URL per entry); entries with a `todo` are skipped at boot; `SpecialAttacksDataTests` keeps it resolvable.
+- `data/cfg/combat/autocast.json`: autocast spell groups, the weapons (by type and item) that may cast each, the PvP swap lock and the 241 autocast UI ids (sourced in `data/reports/autocast-241-spike.md`); `AutocastDataTests` keeps it resolvable.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
 
 ## Running the server

@@ -298,7 +298,7 @@ three timers and heals 20 + brew + 18.
 
 ## 4. Special attacks and autocast (Phase 3)
 
-> **Specials built (Phase 3, 2026-10-10); autocast is the next PR.** `data/cfg/combat/special_attacks.json`
+> **Specials built (Phase 3, 2026-10-10); autocast built in the next PR (see the note after this one).** `data/cfg/combat/special_attacks.json`
 > (schemaVersion 1, a wiki `source` per entry), parsed by `SpecialAttackDefs`, decided by the pure `SpecialRules`,
 > loaded by `SpecialAttacksService` and fired by `SpecialAttacks.execute`; `SpecialAttacksPlugin` owns the bar
 > (593:36), the orb (160:35), energy regen and `::reloadspecials`. 18 specials are loaded: dragon and abyssal
@@ -313,6 +313,26 @@ three timers and heals 20 + brew + 18.
 > 300 (`sa_energy`, percent x 10) and the bar in varp 301 (`sa_attack`); with too little energy the bar switches
 > off and a normal attack follows, with no chat line. Fixed on the way: the bludgeon's max hit of 0 at full prayer
 > and its unsourced flat extra hit, the abyssal dagger's cost (50% -> 25%), the dragon pickaxe's boost cap.
+
+> **Autocast built (Phase 3, 2026-10-10).** `data/cfg/combat/autocast.json` holds the spell groups
+> (standard elemental, Ancients; Arceuus as a todo), the weapons that may autocast each group (weapon type 18, and
+> the wiki's Ancients list by item), the 20-tick PvP swap lock and the 241 UI ids. It is parsed by `AutocastDefs`,
+> decided by the pure `AutocastRules`, loaded by `AutocastService` and applied by `AutocastPlugin`.
+>
+> On every weapon change and on login, a selection the weapon can cast is kept; otherwise the group's remembered
+> spell (the saved `autocast_memory` attribute, kept through death) is restored; otherwise it is cleared.
+> Equipping a staff during the PvP swap lock clears it.
+>
+> Combat reads the selection through `Autocast`: varbit 276 `autocast_spell` and varbit 2668 `autocast_defmode`.
+> The client reads both; varp 4720 is unused.
+>
+> Open question 3 below is answered by `data/reports/autocast-241-spike.md`:
+> - 593:28 `autocast_normal` and 593:23 `autocast_defensive` open interface 201;
+> - its spell buttons are script-made children of 201:1, where child n is autocast id n;
+> - varp 664 picks the listed spells.
+>
+> The spike also found that the 241 combat tab and orb put the special bar at 593:39 and 160:36, one off from the
+> bindings above (see `docs/follow-ups.md`).
 
 **What exists.** `content/combat/specialattack/` with `SpecialAttacks.register(item, energy) { ... }` and four
 weapons (abyssal bludgeon, abyssal dagger, armadyl godsword, dragon dagger). Each plugin hard-codes its
