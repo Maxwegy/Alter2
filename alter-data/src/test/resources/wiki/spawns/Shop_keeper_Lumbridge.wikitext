@@ -1,0 +1,55 @@
+{{External|rs=Shopkeeper (Lumbridge)|rsc=Shopkeeper (Lumbridge)}}
+{{Otheruses|def=no|other uses|Shop keeper}}
+{{Infobox NPC
+|name = Shop keeper
+|image = [[File:Shop keeper (Lumbridge).png|114px]]
+|release = [[4 January]] [[2001]]
+|update = Runescape beta is now online!
+|members = No
+|race = [[Human]]
+|location = [[Lumbridge]]
+|shop = [[Lumbridge General Store]]
+|gender = Male
+|options = Talk-to, Trade
+|examine = Sells stuff.
+|map = {{Map|name=Shop keeper (Lumbridge)|x=3211|y=3247|mtype=pin}}
+|id = 2813
+|leagueRegion = Misthalin
+}}
+[[File:Shop keeper (Lumbridge) chathead.png|left]]
+The '''shop keeper''' is in charge of the [[Lumbridge General Store]] in [[Lumbridge]]. He is assisted by the [[shop assistant (Lumbridge)]]. The shop keeper plays a minor role in the [[Death to the Dorgeshuun]]. He is one of the humans [[Zanik]] meets while visiting [[Lumbridge]]. He sells her a [[Bucket|wooden bucket]], a [[Hammer|wood hammer]], and a [[newcomer map]].
+
+==Stock==
+{{StoreTableHead|sellmultiplier=1300|buymultiplier=400|delta=30|bucket=No}}
+{{StoreLine|name=Pot|stock=5|restock=10}}
+{{StoreLine|name=Jug|stock=2|restock=100}}
+{{StoreLine|name=Empty jug pack|stock=5|gemw=No|restock=20}}
+{{StoreLine|name=Shears|stock=2|restock=100}}
+{{StoreLine|name=Knife|stock=5|restock=100}}
+{{StoreLine|name=Bucket|stock=3|restock=10}}
+{{StoreLine|name=Empty bucket pack|stock=15|gemw=no|restock=10}}
+{{StoreLine|name=Bowl|stock=2|restock=50}}
+{{StoreLine|name=Cake tin|stock=2|restock=50}}
+{{StoreLine|name=Tinderbox|stock=2|restock=100}}
+{{StoreLine|name=Chisel|stock=2|restock=100}}
+{{StoreLine|name=Spade|stock=5|restock=100}}
+{{StoreLine|name=Hammer|stock=5|restock=100}}
+{{StoreLine|name=Newcomer map|stock=5|gemw=no|restock=100}}
+{{StoreLine|name=Security book|stock=5|restock=100}}
+{{StoreTableBottom}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Shop keeper (Lumbridge) (beta).png|center|300x150px]]
+|[[File:Shop keeper (Lumbridge).png|center|300x150px]]
+|-
+|RuneScape 2<br/>Beta
+|29 March 2004 –<br/>present
+|}
+
+{{Lumbridge}}

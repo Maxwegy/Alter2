@@ -1,0 +1,133 @@
+{{External|rs=Town crier}}
+{{Infobox NPC
+|version1 = Varrock
+|version2 = Draynor Village
+|version3 = Falador
+|version4 = East Ardougne
+|version5 = Seers' Village
+|version6 = Hosidius
+|version7 = Kingstown
+|name = Town Crier
+|image1 = [[File:Town Crier (Varrock).png|150px]]
+|image2 = [[File:Town Crier (Draynor Village).png|150px]]
+|image3 = [[File:Town Crier (Falador).png|150px]]
+|image4 = [[File:Town Crier (East Ardougne).png|150px]]
+|image5 = [[File:Town Crier (Seers' Village).png|150px]]
+|image6 = [[File:Town Crier (Hosidius).png|150px]]
+|image7 = [[File:Town Crier (Kingstown).png|150px]]
+|release1 = [[17 July]] [[2007]]
+|release2 = [[17 July]] [[2007]]
+|release3 = [[17 July]] [[2007]]
+|release4 = [[17 July]] [[2007]]
+|release5 = [[17 July]] [[2007]]
+|release6 = [[7 January]] [[2016]]
+|release7 = [[16 June]] [[2021]]
+|update1 = Game Improvements (July 2007)
+|update2 = Game Improvements (July 2007)
+|update3 = Game Improvements (July 2007)
+|update4 = Game Improvements (July 2007)
+|update5 = Game Improvements (July 2007)
+|update6 = Zeah: Great Kourend
+|update7 = A Kingdom Divided
+|members1 = No
+|members2 = No
+|members3 = No
+|members4 = Yes
+|members5 = Yes
+|members6 = Yes
+|members7 = Yes
+|race = [[Human]]
+|location1 = [[Varrock]]
+|location2 = [[Draynor Village]]
+|location3 = [[Falador]]
+|location4 = [[East Ardougne]]
+|location5 = [[Seers' Village]]
+|location6 = [[Hosidius]]
+|location7 = [[Kingstown]]
+|gender = Male
+|options = Talk-to
+|examine = Get useful information from this guy.
+|map1 = {{Map|name=Town Crier|x=3254|y=3428|r=4|mtype=square}}
+|map2 = {{Map|name=Town Crier|x=3081|y=3251|r=5|mtype=square}}
+|map3 = {{Map|name=Town Crier|x=2956|y=3381|r=6|mtype=square}}
+|map4 = {{Map|name=Town Crier|x=2664|y=3310|r=4|mtype=square}}
+|map5 = {{Map|name=Town Crier|x=2738|y=3482|r=4|mtype=square}}
+|map6 = {{Map|name=Town Crier|x=1757|y=3599|r=4|mtype=square}}
+|map7 = {{Map|name=Town Crier|x=1664|y=3669|r=4|mtype=square}}
+|id1 = 276
+|id2 = 277
+|id3 = 278
+|id4 = 279
+|id5 = 280
+|id6 = 6823
+|id7 = 10887
+|leagueRegion1 = Misthalin
+|leagueRegion2 = Misthalin
+|leagueRegion3 = Asgarnia
+|leagueRegion4 = Kandarin
+|leagueRegion5 = Kandarin
+|leagueRegion6 = Kourend
+|leagueRegion7 = Kourend
+}}
+{{Synced switch
+|version1 = [[File:Town Crier (Varrock) chathead.png|left]]
+|version2 = [[File:Town Crier (Draynor Village) chathead.png|left]]
+|version3 = [[File:Town Crier (Falador) chathead.png|left]]
+|version4 = [[File:Town Crier (East Ardougne) chathead.png|left]]
+|version5 = [[File:Town Crier (Seers' Village) chathead.png|left]]
+|version6 = [[File:Town Crier (Hosidius) chathead.png|left]]
+|version7 = [[File:Town Crier (Kingstown) chathead.png|left]]
+}}
+'''Town Criers''' can be found in various cities across [[Gielinor]]. They ring their bells and announce information about the latest ''Old School RuneScape'' updates. 
+
+Historically, they used to provide players with information on [[Player Moderator]]s, the Rules of Conduct, and handy tips. [[Player Moderator]]s who spoke to a town crier could ask about more in-depth information about player moderators, including quick access to their guidelines.
+
+==Locations==
+*[[Draynor Village]] - in the market
+*[[East Ardougne]] - in the market. This one can be helpful to players [[Thieving|stealing]] [[cake]]s from the [[Ardougne Baker's Stall.|baker's stall]] in Ardougne as he gets in the way of the [[guard]]s and keeps the player safe.
+*[[Falador]] - near the west [[bank]]
+*[[Hosidius]] - near the [[bank]] in the market
+*[[Kingstown]] - only after the [[protester]]s leave at the end of [[A Kingdom Divided]]
+*[[Seers' Village]] - near the bank
+*[[Varrock]] - near the east bank
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Sound effects==
+{{SFXTableHead}}
+{{SFXLine|file=Town Crier bell ringing (up).wav|desc=Bell ringing, up}}
+{{SFXLine|file=Town Crier bell ringing.wav|desc=''Unused''}}
+{{SFXLine|file=Town Crier bell ringing (up, old).wav|desc=''Unused''}}
+{{SFXLine|file=Town Crier head scratching.wav|desc=Head scratching}}
+{{SFXLine|file=Town Crier bell ringing (down).wav|desc=Bell ringing, down}}
+{{SFXLine|file=Town Crier bell ringing (down, old).wav|desc=''Unused''}}
+{{SFXTableBottom}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 7 October 2020
+|update = Blowpipe Ammo Changes and Small Fixes
+|poll =
+|change = The Town Crier's dialogue on Player Moderators, Rules of Conduct, and general tips have been removed.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+* Historically, Town Criers informed players about [[Player Moderator]]s and their role in the game, as well as showing players the [[Code of Conduct]] and giving general tips about the game. If spoken to as a [[Player Moderator]], he will have different dialogue, showing P-Mod Guidelines, a P-Mod version of the Code of Conduct, and moderating tips.
+** These pieces of dialogue were all removed in an update on 6 October 2020. According to [[Mod Ed]], they were removed because they were heavily outdated, in addition to little to no players speaking to him. In addition, the Old School Team now preferred not to use in-game characters to explain out-of-universe concepts.
+*The [[Crier outfit]] is a player-ownable version of the outfit worn by town criers, and matches the colour of the one worn by the Varrock Town Crier.
+*The Varrock Town Crier's name is Gryff Aldock, as listed in the [[Varrock Census]].{{CiteText|text=Varrock Census|quote=[Citizen's name] Gryff Aldock.|loc=}}
+
+==References==
+{{Reflist}}
+
+{{Draynor Village}}
+{{Falador}}
+{{Varrock}}
+{{Seers' Village}}
+{{Song of the Elves}}
+{{East Ardougne}}
+{{Hosidius}}
+{{Kingstown}}
