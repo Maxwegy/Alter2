@@ -12,12 +12,13 @@ data class PreviewFile(val path: String, val mode: String, val applied: Boolean,
 
 data class Preview(val branch: String, val worktree: String, val files: List<PreviewFile>, val diff: String)
 
-data class Applied(val branch: String, val commit: String, val worktree: String)
+data class Applied(val branch: String, val commit: String, val worktree: String, val compile: CompileResult)
 
 /**
  * Where scaffolds land: a git worktree per card under `data/cockpit/worktrees/`, on a `cockpit/...` branch
- * cut from [baseRef]. Preview writes the files and shows the staged diff; apply commits them; discard throws
- * the worktree and branch away. `main` is never touched, and nothing is pushed.
+ * cut from [baseRef]. Preview writes the files and shows the staged diff; apply runs the [CompileGate] on the
+ * staged worktree and commits only when it passes; discard throws the worktree and branch away. `main` is never
+ * touched, and nothing is pushed.
  */
 class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef: String = "origin/main") {
     private val logger = KotlinLogging.logger {}
@@ -33,14 +34,22 @@ class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef:
         return Preview(scaffold.branch, dir.toString(), files, git(dir, "diff", "--cached", "--no-color"))
     }
 
-    fun apply(cardId: String, scaffold: Scaffold, message: String): Applied {
+    /**
+     * Stage, compile, commit. A failing [gate] throws [CompileFailed] and leaves the files staged in the
+     * worktree, so the developer can look at them; nothing is committed. JSON-only scaffolds skip the gate:
+     * the server validates those files at boot, the compiler never sees them.
+     */
+    fun apply(cardId: String, scaffold: Scaffold, message: String, gate: CompileGate = NoopCompileGate): Applied {
         val preview = preview(cardId, scaffold)
         if (preview.files.none { it.applied }) throw IllegalStateException("Nothing to apply: every file still needs values")
-        if (git(Path.of(preview.worktree), "diff", "--cached", "--name-only").isBlank()) throw IllegalStateException("Nothing to commit: the files already match")
-        git(Path.of(preview.worktree), "commit", "-q", "-m", message)
-        val commit = git(Path.of(preview.worktree), "rev-parse", "--short", "HEAD").trim()
-        logger.info { "Applied card $cardId as $commit on ${scaffold.branch}" }
-        return Applied(scaffold.branch, commit, preview.worktree)
+        val dir = Path.of(preview.worktree)
+        if (git(dir, "diff", "--cached", "--name-only").isBlank()) throw IllegalStateException("Nothing to commit: the files already match")
+        val compile = if (preview.files.any { it.applied && it.path.endsWith(".kt") }) gate.compile(dir) else CompileResult.skipped("no Kotlin files")
+        if (!compile.passed) throw CompileFailed(compile)
+        git(dir, "commit", "-q", "-m", message)
+        val commit = git(dir, "rev-parse", "--short", "HEAD").trim()
+        logger.info { "Applied card $cardId as $commit on ${scaffold.branch} (${compile.task}, ${compile.durationMs} ms)" }
+        return Applied(scaffold.branch, commit, preview.worktree, compile)
     }
 
     fun discard(cardId: String, branch: String?) {

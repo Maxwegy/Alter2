@@ -106,8 +106,16 @@ onMounted(load)
       <div class="row">
         <strong>{{ card.result.scaffold.summary }}</strong>
         <span class="muted">branch <code>{{ card.result.scaffold.branch }}</code></span>
+        <span v-if="card.result.compile?.state === 'compiling'" class="pill RUNNING">compiling… {{ card.result.compile.task }}</span>
+        <span v-else-if="card.result.compile?.state === 'passed'" class="pill DONE">compiled{{ card.result.compile.durationMs ? ' in ' + Math.round(card.result.compile.durationMs / 1000) + 's' : '' }}</span>
+        <span v-else-if="card.result.compile?.state === 'failed'" class="pill FAILED">did not compile</span>
+        <span v-else-if="card.result.compile?.state === 'error'" class="pill FAILED">apply failed</span>
         <span v-if="card.result.applied" class="pill DONE">committed {{ card.result.applied.commit }}</span>
       </div>
+      <details v-if="card.result.compile?.errors?.length" open class="compile">
+        <summary>Compiler output ({{ card.result.compile.task }})</summary>
+        <pre class="error">{{ card.result.compile.errors.join('\n') }}</pre>
+      </details>
       <ul v-if="card.result.scaffold.manual?.length" class="manual">
         <li v-for="(m, i) in card.result.scaffold.manual" :key="i">{{ m }}</li>
       </ul>
@@ -119,9 +127,11 @@ onMounted(load)
         <pre>{{ card.result.preview?.diff || '(no changes)' }}</pre>
       </details>
       <div v-if="canDecide" class="row" style="margin-top: .5rem">
-        <button v-if="!card.result.applied" class="primary" :disabled="busy === card.id" @click="act(card, () => api.apply(card.id))">Apply to branch</button>
+        <button v-if="!card.result.applied" class="primary" :disabled="busy === card.id || card.result.compile?.state === 'compiling'" @click="act(card, () => api.apply(card.id))">
+          {{ card.result.compile?.state === 'compiling' ? 'Compiling…' : card.result.compile?.state === 'failed' ? 'Compile and apply again' : 'Compile and apply to branch' }}
+        </button>
         <span v-else class="muted">Worktree: <code>{{ card.result.applied.worktree }}</code></span>
-        <button :disabled="busy === card.id" @click="act(card, () => api.discard(card.id))">Discard</button>
+        <button :disabled="busy === card.id || card.result.compile?.state === 'compiling'" @click="act(card, () => api.discard(card.id))">Discard</button>
       </div>
     </div>
     <div v-else-if="canDecide && card.status === 'DONE' && card.result?.kind" class="actions row">
