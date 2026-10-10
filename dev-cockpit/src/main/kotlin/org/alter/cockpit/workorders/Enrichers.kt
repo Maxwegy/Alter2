@@ -353,6 +353,138 @@ class RecipeEnricher : Enricher {
     private fun query(material: String) = BucketQuery("recipe").select("page_name", "uses_material", "uses_tool", "uses_facility", "uses_skill", "production_json").where("uses_material", material)
 }
 
+/**
+ * An inventory option on an item: when the item page's infobox offers Eat or Drink, the facts for a
+ * consumables.json entry (kind, dose ids, heal and status effects from the lead). Anything else is the page
+ * enricher's card, as before.
+ */
+class ConsumableEnricher : Enricher {
+    override val kind = "consumable"
+    override val target = "consumables.json entries"
+
+    override fun supports(params: Map<String, Any?>) = params["type"] == "INV_OP"
+
+    override fun plan(params: Map<String, Any?>, urls: WikiUrls) =
+        listOf(PlanStep(PlanStep.REQUEST, "Read the item page's infobox (options, dose ids) and its lead (heal, effects)", "the page found above"))
+
+    override suspend fun enrich(ctx: EnrichContext): Enrichment {
+        val page = ctx.page ?: return PageEnricher().enrich(ctx)
+        val box = ctx.infobox("Infobox Item") ?: return PageEnricher().enrich(ctx)
+        val version = box.forVersion(page.anchor)
+        val options = version.options
+        val consumableKind = when {
+            options.any { it.equals("Eat", true) } -> "food"
+            options.any { it.equals("Drink", true) } -> if (page.title.endsWith(" mix", true)) "mix" else "potion"
+            else -> return PageEnricher().enrich(ctx)
+        }
+        val doseIds = doseIds(box).ifEmpty { mapOf(1 to (firstId(version["id"]) ?: ctx.id)) }
+        val dose = if (box.versions.isEmpty()) null else dose(version["bucketname"], version["version"])
+        val lead = lead(ctx.wikitext().orEmpty())
+        val healMatch = lead.firstNotNullOfOrNull { s -> healPattern.find(s)?.let { s to it.groupValues[1].toInt() } }
+        val effects = effects(lead)
+        val unparsed = lead.filter { s ->
+            s != healMatch?.first && effectWords.containsMatchIn(s) && !curePattern.containsMatchIn(s) && !immunityPattern.containsMatchIn(s)
+        }
+        val facts = ConsumableFacts(page.title, consumableKind, options, doseIds, dose, healMatch?.second, healMatch?.first, effects, unparsed)
+        return Enrichment(
+            kind = kind,
+            page = page,
+            facts = mapOf(
+                "name" to page.title, "kind" to consumableKind, "options" to options, "dose" to dose, "doseIds" to doseIds,
+                "heal" to facts.heal, "effects" to effects.map { it.type }.ifEmpty { null },
+            ),
+            consumable = facts,
+            notes = buildList {
+                if (facts.heal == null) add("TODO heal: the lead has no \"heals/restores N hitpoints\" sentence, so no heal is set.")
+                effects.mapNotNullTo(this) { it.note }
+                unparsed.forEach { add("Not parsed: $it") }
+            },
+            target = target,
+            sources = listOf(Source(page.title, page.url)),
+        )
+    }
+
+    /** `{dose: id}` from a multi-version infobox whose versions are doses (`|bucketname4 = (4)`, `|version4 = 4 dose`). */
+    private fun doseIds(box: Infobox): Map<Int, Int> = box.versions.keys.mapNotNull { index ->
+        val dose = dose(box["bucketname$index"], box["version$index"]) ?: return@mapNotNull null
+        val id = firstId(box["id$index"]) ?: return@mapNotNull null
+        dose to id
+    }.toMap().toSortedMap()
+
+    private fun dose(bucketName: String?, label: String?): Int? =
+        bucketName?.let { Regex("""^\((\d+)\)$""").find(it.trim())?.groupValues?.get(1)?.toInt() }
+            ?: label?.let { Regex("""^(\d+) doses?$""", RegexOption.IGNORE_CASE).find(it.trim())?.groupValues?.get(1)?.toInt() }
+
+    private fun firstId(value: String?): Int? = value?.split(',')?.firstNotNullOfOrNull { it.trim().toIntOrNull() }
+
+    /**
+     * The sentences of the lead paragraph: the first paragraph of prose before the first heading, with templates
+     * (infoboxes, switches) and file links removed, cleaned to plain text.
+     */
+    private fun lead(wikitext: String): List<String> {
+        val body = stripTemplates(wikitext.replace("\r\n", "\n").substringBefore("\n==")).replace(fileLink, "")
+        val paragraph = body.split(Regex("""\n\s*\n""")).map(TranscriptParser::clean).firstOrNull { it.isNotEmpty() } ?: return emptyList()
+        return paragraph.split(Regex("""(?<=[.!?])\s+(?=[A-Z])""")).map(String::trim).filter(String::isNotEmpty)
+    }
+
+    private fun stripTemplates(text: String): String {
+        val out = StringBuilder()
+        var depth = 0
+        var i = 0
+        while (i < text.length) {
+            when {
+                text.startsWith("{{", i) -> { depth++; i += 2 }
+                text.startsWith("}}", i) && depth > 0 -> { depth--; i += 2 }
+                else -> { if (depth == 0) out.append(text[i]); i++ }
+            }
+        }
+        return out.toString()
+    }
+
+    /** `cures venom and poison` and `immunity to poison for 12 minutes` into antipoison / antivenom effects. */
+    private fun effects(lead: List<String>): List<ConsumableEffect> {
+        val cures = mutableSetOf<String>()
+        val immunity = mutableMapOf<String, Int>()
+        val notes = mutableMapOf<String, String>()
+        lead.forEach { s ->
+            curePattern.findAll(s).forEach { m ->
+                val what = m.groupValues[1].lowercase()
+                if ("poison" in what) cures += "antipoison"
+                if ("venom" in what) cures += "antivenom"
+            }
+            immunityPattern.findAll(s).forEach { m ->
+                val against = m.groupValues[1].lowercase()
+                val type = if (against == "venom") "antivenom" else "antipoison"
+                val amount = m.groupValues[3]
+                val unit = m.groupValues[4].lowercase()
+                val ticks = ticks(amount.substringBefore('-').toDouble(), unit)
+                immunity[type] = ticks
+                when {
+                    '-' in amount -> {
+                        val high = ticks(amount.substringAfter('-').toDouble(), unit)
+                        notes[type] = "$against immunity is $amount $unit on the wiki: modelled as the lower bound, $ticks ticks; the upper bound ($high ticks) is a TODO."
+                    }
+                    m.groupValues[2].isNotEmpty() ->
+                        notes[type] = "$against immunity is approximately $amount $unit on the wiki: modelled as $ticks ticks; check other pages for a conflicting value."
+                }
+            }
+        }
+        return listOf("antipoison", "antivenom").filter { it in cures || it in immunity }
+            .map { ConsumableEffect(it, it in cures, immunity[it], notes[it]) }
+    }
+
+    /** Minutes × 100 and seconds ÷ 0.6: one game tick is 0.6 seconds. */
+    private fun ticks(amount: Double, unit: String): Int = Math.round(if (unit.startsWith("minute")) amount * 100 else amount / 0.6).toInt()
+
+    private companion object {
+        val healPattern = Regex("""(?i)\b(?:heals?|restores?)\s+(?:up to\s+)?(\d+)\s+hitpoints?\b""")
+        val curePattern = Regex("""(?i)cures?\s+(venom and poison|poison and venom|poison|venom)""")
+        val immunityPattern = Regex("""(?i)immunity to (poison|venom) for (approximately )?([\d.]+|\d+-\d+)\s*(seconds|minutes)""")
+        val effectWords = Regex("""(?i)\b(boost|restor|heal|drain|cure|immun|poison|venom|protect)""")
+        val fileLink = Regex("""\[\[File:[^\]]*]]""")
+    }
+}
+
 /** Anything else: the page link and whatever infobox it has. Data gaps say what to do instead. */
 class PageEnricher : Enricher {
     override val kind = "page"

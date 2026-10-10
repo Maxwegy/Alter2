@@ -1,0 +1,82 @@
+[
+{
+  "item" : "item.antivenom4",
+  "kind" : "potion",
+  "replacement" : "item.antivenom3",
+  "effects" : [
+    {
+      "antipoison" : {
+        "cure" : true,
+        "immunityTicks" : 1200
+      }
+    },
+    {
+      "antivenom" : {
+        "cure" : true,
+        "immunityTicks" : 60
+      }
+    }
+  ],
+  "source" : "https://oldschool.runescape.wiki/w/Anti-venom"
+},
+{
+  "item" : "item.antivenom3",
+  "kind" : "potion",
+  "replacement" : "item.antivenom2",
+  "effects" : [
+    {
+      "antipoison" : {
+        "cure" : true,
+        "immunityTicks" : 1200
+      }
+    },
+    {
+      "antivenom" : {
+        "cure" : true,
+        "immunityTicks" : 60
+      }
+    }
+  ],
+  "source" : "https://oldschool.runescape.wiki/w/Anti-venom"
+},
+{
+  "item" : "item.antivenom2",
+  "kind" : "potion",
+  "replacement" : "item.antivenom1",
+  "effects" : [
+    {
+      "antipoison" : {
+        "cure" : true,
+        "immunityTicks" : 1200
+      }
+    },
+    {
+      "antivenom" : {
+        "cure" : true,
+        "immunityTicks" : 60
+      }
+    }
+  ],
+  "source" : "https://oldschool.runescape.wiki/w/Anti-venom"
+},
+{
+  "item" : "item.antivenom1",
+  "kind" : "potion",
+  "replacement" : "item.vial",
+  "effects" : [
+    {
+      "antipoison" : {
+        "cure" : true,
+        "immunityTicks" : 1200
+      }
+    },
+    {
+      "antivenom" : {
+        "cure" : true,
+        "immunityTicks" : 60
+      }
+    }
+  ],
+  "source" : "https://oldschool.runescape.wiki/w/Anti-venom"
+}
+]

@@ -7,6 +7,8 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import org.alter.cockpit.inbox.PlanStep
 import org.alter.cockpit.wiki.PageResolver
+import org.alter.cockpit.workorders.ConsumableEffect
+import org.alter.cockpit.workorders.ConsumableEnricher
 import org.alter.cockpit.workorders.EnrichmentService
 import org.alter.cockpit.workorders.Node
 import org.alter.cockpit.workorders.PickpocketEnricher
@@ -36,10 +38,12 @@ class EnricherTests {
     private val lookups = mapOf(
         "npc:3105" to "/w/Hans", "npc:2813" to "/w/Shop_keeper_(Lumbridge)", "npc:3108" to "/w/Man#3",
         "item:2307" to "/w/Bread_dough", "object:114" to "/w/Cooking_range_(Lumbridge_Castle)",
+        "item:319" to "/w/Anchovies", "item:12905" to "/w/Anti-venom#(4)",
     )
     private val pages = mapOf(
         "Hans" to "Hans.wikitext", "Man" to "Man.wikitext", "Transcript:Hans" to "Transcript_Hans.wikitext", "Transcript:Man" to "Transcript_Man.wikitext",
         "Transcript:Shop keeper (Lumbridge)" to "Transcript_Shop_keeper__Lumbridge_.wikitext", "Lumbridge General Store" to "Lumbridge_General_Store.wikitext",
+        "Anchovies" to "Anchovies.wikitext", "Anti-venom" to "Anti-venom.wikitext",
     )
     private val bucketFixtures = mapOf(
         "infobox_npc" to "hans_npc", "infobox_monster" to "man_monster", "storeline" to "store_lumbridge", "infobox_shop" to "shop_lumbridge",
@@ -81,7 +85,7 @@ class EnricherTests {
     private val resolver = PageResolver(wiki, baseUrl = server.url("/"), minIntervalMs = 0)
     private val service = EnrichmentService(
         resolver, WikiPages(http, Files.createTempDirectory("pages")), WikiBucketClient(http), WikiUrls(),
-        listOf(TalkToEnricher(), TradeEnricher(), PickpocketEnricher(), SceneryEnricher(), RecipeEnricher()),
+        listOf(TalkToEnricher(), TradeEnricher(), PickpocketEnricher(), SceneryEnricher(), RecipeEnricher(), ConsumableEnricher()),
     )
 
     @After
@@ -175,6 +179,53 @@ class EnricherTests {
         assertEquals(40.0, recipe.experience!!, 0.0)
         assertEquals(1, recipe.ticks)
         assertEquals(listOf("Bread dough", "Cooking range (Lumbridge Castle)"), e.sources.map { it.title })
+    }
+
+    @Test
+    fun `eat anchovies - a food with the heal from the lead sentence`() = runBlocking {
+        val e = service.enrich(params("INV_OP", 319, "Anchovies", "Eat"))
+        assertEquals("consumable", e.kind)
+        assertEquals("consumables.json entries", e.target)
+        val c = e.consumable!!
+        assertEquals("Anchovies", c.name)
+        assertEquals("food", c.kind)
+        assertEquals(listOf("Eat", "Drop"), c.options)
+        assertEquals(mapOf(1 to 319), c.doseIds)
+        assertNull(c.dose)
+        assertEquals(1, c.heal)
+        assertTrue(c.healSentence!!.contains("restores 1 Hitpoint"))
+        assertTrue(c.effects.isEmpty())
+        assertTrue(c.unparsed.isEmpty())
+        assertEquals(listOf("Anchovies"), e.sources.map { it.title })
+    }
+
+    @Test
+    fun `drink anti-venom - the version by bucket name, every dose id, cures and immunities`() = runBlocking {
+        val e = service.enrich(params("INV_OP", 12905, "Anti-venom(4)", "Drink"))
+        assertEquals("consumable", e.kind)
+        assertEquals("(4)", e.page?.anchor)
+        val c = e.consumable!!
+        assertEquals("potion", c.kind)
+        assertEquals(4, c.dose)
+        assertEquals(mapOf(1 to 12911, 2 to 12909, 3 to 12907, 4 to 12905), c.doseIds)
+        assertEquals(listOf("Drink", "Empty", "Drop"), c.options)
+        assertNull(c.heal)
+        assertEquals(listOf("antipoison", "antivenom"), c.effects.map { it.type })
+        assertEquals(ConsumableEffect("antipoison", true, 1200), c.effects[0])
+        val venom = c.effects[1]
+        assertTrue(venom.cure)
+        assertEquals(60, venom.immunityTicks)
+        assertTrue(venom.note!!.contains("36-54"))
+        assertTrue(e.notes.any { it.startsWith("TODO heal") })
+        assertTrue(c.unparsed.isEmpty())
+    }
+
+    @Test
+    fun `an inventory option on an item that is not eaten or drunk falls through to the page enricher`() = runBlocking {
+        val e = service.enrich(params("INV_OP", 2307, "Bread dough", "Use"))
+        assertEquals("page", e.kind)
+        assertEquals("Bread dough", e.page?.title)
+        assertNull(e.consumable)
     }
 
     @Test

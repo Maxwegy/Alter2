@@ -1,6 +1,9 @@
 package org.alter.cockpit
 
 import org.alter.cockpit.wiki.WikiPage
+import org.alter.cockpit.workorders.ConsumableEffect
+import org.alter.cockpit.workorders.ConsumableFacts
+import org.alter.cockpit.workorders.ConsumableGenerator
 import org.alter.cockpit.workorders.DialogueGenerator
 import org.alter.cockpit.workorders.DoorGenerator
 import org.alter.cockpit.workorders.Enrichment
@@ -9,6 +12,7 @@ import org.alter.cockpit.workorders.PickpocketLine
 import org.alter.cockpit.workorders.Recipe
 import org.alter.cockpit.workorders.RecipeGenerator
 import org.alter.cockpit.workorders.RscmNames
+import org.alter.cockpit.workorders.Scaffold
 import org.alter.cockpit.workorders.ScaffoldContext
 import org.alter.cockpit.workorders.ScaffoldFile
 import org.alter.cockpit.workorders.ScaffoldService
@@ -28,11 +32,12 @@ import java.nio.file.Files
 class ScaffoldGeneratorTests {
     private val rscmDir = Files.createTempDirectory("rscm").also {
         Files.writeString(it.resolve("npc.rscm"), "hans:3105\nman_3106:3106\nman_3108:3108\nshop_keeper_2813:2813\n")
-        Files.writeString(it.resolve("item.rscm"), "pot:1931\njug:1935\ncoins_995:995\nbread_dough:2307\nbread:2309\n")
+        Files.writeString(it.resolve("item.rscm"), "pot:1931\njug:1935\ncoins_995:995\nbread_dough:2307\nbread:2309\n" +
+            "anchovies:319\nantivenom4:12905\nantivenom3:12907\nantivenom2:12909\nantivenom1:12911\nvial_empty:229\nvial:229\n")
         Files.writeString(it.resolve("object.rscm"), "cooking_range_114:114\nladder_16683:16683\n")
     }
     private val ctx = ScaffoldContext(RscmNames(rscmDir)) { pkg -> pkg == "org.alter.plugins.content.areas.lumbridge.npcs" }
-    private val service = ScaffoldService(listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), SkeletonGenerator()), ctx)
+    private val service = ScaffoldService(listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), ConsumableGenerator(), SkeletonGenerator()), ctx)
     private val hans = WikiPage("Hans", "https://w/Hans")
 
     private fun params(type: String, id: Int, name: String?, option: String?, usedId: Int? = null) =
@@ -132,5 +137,63 @@ class ScaffoldGeneratorTests {
         val skeleton = service.generate(Enrichment("page", WikiPage("Gate", "https://w/Gate"), target = "plugin skeleton"), params("LOC_OP", 99, "Gate", "Pass"))
         assertEquals("skeleton", skeleton.kind)
         assertTrue(skeleton.files.single().content.contains("onObjOption(\"object.gate_99\", option = \"pass\")"))
+    }
+
+    private val anchovies = ConsumableFacts(
+        "Anchovies", "food", listOf("Eat", "Drop"), mapOf(1 to 319), null, 1,
+        "Anchovies are a type of fish that restores 1 Hitpoint when eaten.", emptyList(), emptyList(),
+    )
+    private val antivenom = ConsumableFacts(
+        "Anti-venom", "potion", listOf("Drink", "Empty", "Drop"), mapOf(1 to 12911, 2 to 12909, 3 to 12907, 4 to 12905), 4, null, null,
+        listOf(ConsumableEffect("antipoison", true, 1200), ConsumableEffect("antivenom", true, 60, "venom immunity is 36-54 seconds on the wiki")),
+        emptyList(),
+    )
+
+    private fun consumable(facts: ConsumableFacts, page: String) =
+        Enrichment("consumable", WikiPage(page, "https://oldschool.runescape.wiki/w/$page"), consumable = facts, target = "consumables.json entries")
+
+    /** The scaffold's entries as one JSON array whose elements are the file contents byte for byte: the committed fixture's format. */
+    private fun entries(scaffold: Scaffold) = scaffold.files.joinToString(",\n", "[\n", "\n]\n") { it.content }
+
+    private fun fixture(name: String): String =
+        ScaffoldGeneratorTests::class.java.getResourceAsStream("/scaffold/$name")!!.bufferedReader().readText().replace("\r\n", "\n")
+
+    @Test
+    fun `a food becomes one consumables entry appended to the consumables array and checked by the data test`() {
+        val scaffold = service.generate(consumable(anchovies, "Anchovies"), params("INV_OP", 319, "Anchovies", "Eat"))
+        assertEquals("consumable", scaffold.kind)
+        val file = scaffold.files.single()
+        assertEquals("data/cfg/consumables/consumables.json", file.path)
+        assertEquals(ScaffoldFile.JSON_APPEND, file.mode)
+        assertEquals("consumables", file.arrayKey)
+        assertEquals(":game-plugins:test --tests *ConsumablesDataTests", file.verifyTask)
+        assertTrue(file.applyable)
+        assertEquals(fixture("anchovies.consumable.json"), entries(scaffold))
+        assertTrue(scaffold.manual.any { it.contains("Combo food?") })
+    }
+
+    @Test
+    fun `a potion becomes one entry per dose chained down to the vial`() {
+        val scaffold = service.generate(consumable(antivenom, "Anti-venom"), params("INV_OP", 12905, "Anti-venom(4)", "Drink"))
+        assertEquals(4, scaffold.files.size)
+        assertTrue(scaffold.files.all { it.applyable && it.arrayKey == "consumables" && it.verifyTask != null })
+        val parsed = scaffold.files.map { Json.mapper.readValue(it.content, Map::class.java) }
+        assertEquals(listOf("item.antivenom4", "item.antivenom3", "item.antivenom2", "item.antivenom1"), parsed.map { it["item"] })
+        assertEquals(listOf("item.antivenom3", "item.antivenom2", "item.antivenom1", "item.vial"), parsed.map { it["replacement"] })
+        assertTrue(parsed.none { "heal" in it })
+        assertEquals(fixture("antivenom.consumable.json"), entries(scaffold))
+        assertTrue(scaffold.manual.any { it.contains("36-54") })
+    }
+
+    @Test
+    fun `an entry that does nothing, or has no RSCM name, is not applyable and says why`() {
+        val inert = anchovies.copy(heal = null, healSentence = null, unparsed = listOf("It boosts something unclear."))
+        val scaffold = service.generate(consumable(inert, "Anchovies"), params("INV_OP", 319, "Anchovies", "Eat"))
+        assertFalse(scaffold.files.single().applyable)
+        assertTrue(scaffold.manual.any { it.startsWith("TODO: the page gave neither a heal nor an effect") })
+        assertTrue(scaffold.manual.any { it.startsWith("TODO not parsed") && it.contains("boosts something unclear") })
+        val unknown = service.generate(consumable(anchovies, "Anchovies"), params("INV_OP", 99999, "Anchovies", "Eat"))
+        assertFalse(unknown.files.single().applyable)
+        assertTrue(unknown.manual.any { it.contains("99999") })
     }
 }

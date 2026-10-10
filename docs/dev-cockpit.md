@@ -32,7 +32,7 @@ Card states: `PENDING` → (`SNOOZED`) → `RUNNING` → `DONE` or `FAILED` (ret
 
 ## Scaffolds (work orders, part 2)
 
-After GO, a **Scaffold** button turns the enrichment into files on a branch and shows the diff; **Compile and apply to branch** compiles the card's worktree (`:game-plugins:compileKotlin`, run by the worktree's own Gradle wrapper on the cockpit's IO dispatcher, never on the request thread) and commits only when it passes, otherwise the card shows the compiler's `e:` lines and the files stay staged for a retry; **Discard** removes the branch and worktree. JSON-only scaffolds skip the compile (the server validates them at boot). `workorders.compileGate: false`, `compileTask` and `compileTimeoutSeconds` (900) in `data/cfg/cockpit.yml` tune the gate. Nothing touches `main` and nothing is pushed: each card gets a git worktree under `data/cockpit/worktrees/<card>` on a `cockpit/<kind>-<name>-<id>` branch cut from `workorders.baseRef` (`main`).
+After GO, a **Scaffold** button turns the enrichment into files on a branch and shows the diff; **Compile and apply to branch** compiles the card's worktree (`:game-plugins:compileKotlin`, run by the worktree's own Gradle wrapper on the cockpit's IO dispatcher, never on the request thread) and commits only when it passes, otherwise the card shows the compiler's `e:` lines and the files stay staged for a retry; **Discard** removes the branch and worktree. JSON-only scaffolds skip the compile (the server validates them at boot), except a consumables scaffold: its file names a verify task, so the gate runs `:game-plugins:test --tests *ConsumablesDataTests` in the worktree instead of `compileKotlin`. `workorders.compileGate: false`, `compileTask` and `compileTimeoutSeconds` (900) in `data/cfg/cockpit.yml` tune the gate. Nothing touches `main` and nothing is pushed: each card gets a git worktree under `data/cockpit/worktrees/<card>` on a `cockpit/<kind>-<name>-<id>` branch cut from `workorders.baseRef` (`main`).
 
 | Enrichment | Scaffold | Notes a human must act on |
 |---|---|---|
@@ -42,6 +42,7 @@ After GO, a **Scaffold** button turns the enrichment into files on a branch and 
 | scenery Open/Close | a `single-doors.json` entry; not applyable until the other state's id is filled in | find the opened/closed object id |
 | scenery Climb | `onObjOption(..., "climb-up")` stub | the destination tile |
 | recipe | `onItemOnObj`/`onItemOnItem` stub with level check, material removal, output and xp | animation, timing, failure |
+| consumable (INV_OP on an item whose infobox offers Eat or Drink) | entries appended to the `consumables` array of `data/cfg/consumables/consumables.json`: one per dose down to `item.vial` for a potion, one for a food; `heal: {fixed}` only from a lead sentence "heals/restores N hitpoints", `antipoison`/`antivenom` from "cures ..." and "immunity to ... for N minutes/seconds"; not applyable without an RSCM name or any heal or effect | combo food, fast-food delays, lead sentences that were not parsed, immunity ranges and page conflicts |
 | anything else | a plugin skeleton with the matching hook | everything |
 
 Generated code says where it came from (wiki URLs, CC BY-NC-SA 3.0) and is a reviewed starting point, never merged blindly.

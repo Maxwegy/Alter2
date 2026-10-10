@@ -214,9 +214,17 @@ every numeric field has a `source` or a `todo`.
 > stamina potions; the stamina timer is `RunEnergy.STAMINA_BOOST`, whose 0.3 drain multiplier already existed),
 > `antipoison` (`Poison.cure` plus a `Poison.IMMUNITY_TIMER` that `Poison.isImmune` honours) and `antifire`
 > (`partial`/`full` set the two attributes `DragonfireFormula` reads, timed by `ANTIFIRE_TIMER`; a warning 25
-> ticks before expiry). Overhealing is clamped to base while in combat in a PvP area (wiki Anglerfish). Not
-> modelled: venom (the engine has only an orb state), so anti-venom potions are not listed; the stamina orb
-> colour varbit. Expiry chat lines live in the file's `messages` block.
+> ticks before expiry). Overhealing is clamped to base while in combat in a PvP area (wiki Anglerfish). Venom
+> and the stamina orb followed in Phase 3c. Expiry chat lines live in the file's `messages` block.
+>
+> **Phase 3c (2026-10-10).** Venom is modelled: `Venom` holds the wiki's rules as pure functions (6 damage, +2
+> per hit, cap 20, every 30 ticks; an antipoison turns venom into poison at the venom's damage, an anti-venom
+> cures it; venom replaces poison, never the reverse), `Pawn.venom` envenoms players and NPCs (an NPC's
+> `combatDef.immuneVenom` refuses it) and the poison plugin deals the `VENOM` hitsplat on `Poison.VENOM_TIMER`.
+> The file gains the `antivenom` effect and the anti-venom and anti-venom+ chains. Varbit 25 (`stamina_active`)
+> follows the stamina timer, so the run orb shows the effect. The Dev Cockpit's `enrich.inv_op` cards on an
+> Eat/Drink item now produce consumables.json entries (`ConsumableEnricher`/`ConsumableGenerator`), verified by
+> `ConsumablesDataTests` instead of a compile.
 
 **Data source.** `data/cfg/consumables/consumables.json`, hand-maintained, replacing the `Food` enum and
 `EatingPlugin` (`game-plugins/.../content/items/consumables/food/{EatingPlugin,Food,Foods}.kt`).

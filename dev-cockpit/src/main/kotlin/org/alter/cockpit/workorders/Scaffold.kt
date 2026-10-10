@@ -8,6 +8,10 @@ data class ScaffoldFile(
     /** `create` (new file), `replace` (whole file) or `json-append` (append an element to a JSON array file). */
     val mode: String = CREATE,
     val applyable: Boolean = true,
+    /** `json-append` into a JSON object file: the top-level key of the array to append to; null for a top-level array. */
+    val arrayKey: String? = null,
+    /** The Gradle task the apply gate runs when this file is written (e.g. a data test), instead of compiling. */
+    val verifyTask: String? = null,
 ) {
     companion object {
         const val CREATE = "create"

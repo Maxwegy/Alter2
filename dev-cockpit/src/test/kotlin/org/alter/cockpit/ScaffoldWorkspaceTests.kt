@@ -95,4 +95,44 @@ class ScaffoldWorkspaceTests {
         val onlyManual = scaffold.copy(files = scaffold.files.filter { !it.applyable })
         assertThrows(IllegalStateException::class.java) { workspace.apply("card-2", onlyManual, "x") }
     }
+
+    private val consumablesShaped = """
+        {
+          "schemaVersion": 1,
+          "todo": [ "a ] b", "consumables" ],
+          "consumables": [
+            { "item": "item.shrimps", "kind": "food", "note": "x]" },
+            { "item": "item.sardine", "kind": "food" }
+          ],
+          "after": [ 1 ]
+        }
+    """.trimIndent() + "\n"
+
+    @Test
+    fun `json-append with an array key adds only the new element, indented like the others, before that array's bracket`() {
+        val out = workspace.appendToJsonArray(consumablesShaped, "{\"item\": \"item.anchovies\", \"kind\": \"food\"}", "consumables")
+        val expected = consumablesShaped.replace(
+            "    { \"item\": \"item.sardine\", \"kind\": \"food\" }\n  ],",
+            "    { \"item\": \"item.sardine\", \"kind\": \"food\" },\n    {\n      \"item\" : \"item.anchovies\",\n      \"kind\" : \"food\"\n    }\n  ],",
+        )
+        assertEquals(expected, out)
+        // A "]" or the key's name inside a string is not structure; the other arrays are untouched.
+        assertTrue(out.contains("\"todo\": [ \"a ] b\", \"consumables\" ],"))
+        assertTrue(out.endsWith("  \"after\": [ 1 ]\n}\n"))
+        // idempotent: previewing twice must not append twice
+        assertEquals(out, workspace.appendToJsonArray(out, "{\"kind\": \"food\", \"item\": \"item.anchovies\"}", "consumables"))
+        assertThrows(IllegalStateException::class.java) { workspace.appendToJsonArray(consumablesShaped, "{}", "schemaVersion") }
+        assertThrows(IllegalStateException::class.java) { workspace.appendToJsonArray("[]", "{}", "consumables") }
+    }
+
+    @Test
+    fun `json-append into an empty named array and into a top-level array`() {
+        assertEquals(
+            "{\n  \"list\": [\n    {\n      \"b\" : 2\n    }\n  ]\n}\n",
+            workspace.appendToJsonArray("{\n  \"list\": []\n}\n", "{\"b\": 2}", "list"),
+        )
+        // No array key: the top-level path is unchanged.
+        assertEquals("[ {\"a\": 1},\n  {\n    \"b\" : 2\n  }\n]\n", workspace.appendToJsonArray("[ {\"a\": 1} ]\n", "{\"b\": 2}"))
+        assertEquals("[\n  {\n    \"b\" : 2\n  }\n]\n", workspace.appendToJsonArray("[]", "{\"b\": 2}"))
+    }
 }

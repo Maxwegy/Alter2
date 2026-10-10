@@ -1,6 +1,6 @@
 package org.alter.cockpit
 
-/** Captured OSRS Wiki content under `src/test/resources/wiki/` (CC BY-NC-SA 3.0), fetched 2026-10-09. */
+/** Captured OSRS Wiki content under `src/test/resources/wiki/` (CC BY-NC-SA 3.0), fetched 2026-10-09 (Anchovies and Anti-venom 2026-10-10). */
 object Fixtures {
     fun text(name: String): String =
         Fixtures::class.java.getResourceAsStream("/wiki/$name")?.bufferedReader()?.readText() ?: error("No fixture $name")

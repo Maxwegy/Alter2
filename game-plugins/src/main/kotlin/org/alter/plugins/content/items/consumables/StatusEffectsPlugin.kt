@@ -1,7 +1,9 @@
 package org.alter.plugins.content.items.consumables
 
+import org.alter.api.cfg.Varbit
 import org.alter.api.ext.message
 import org.alter.api.ext.player
+import org.alter.api.ext.setVarbit
 import org.alter.game.Server
 import org.alter.game.model.World
 import org.alter.game.model.attr.ANTIFIRE_POTION_CHARGES_ATTR
@@ -17,7 +19,8 @@ import org.alter.plugins.content.mechanics.run.RunEnergy
 /**
  * Ends the timed status effects that [ConsumablesPlugin] starts: dragonfire protection (`ANTIFIRE_TIMER`, read by
  * `DragonfireFormula` through the two antifire attributes), the stamina effect (`RunEnergy.STAMINA_BOOST`, read by
- * `RunEnergy.drain`) and poison immunity (`Poison.IMMUNITY_TIMER`, read by `Poison.isImmune`). Everything here
+ * `RunEnergy.drain`), poison immunity (`Poison.IMMUNITY_TIMER`, read by `Poison.isImmune`) and venom immunity
+ * (`Poison.VENOM_IMMUNITY_TIMER`, read by `Pawn.venom`). Everything here
  * runs on the game thread from the pawn's timers; the chat lines come from the consumables file.
  */
 class StatusEffectsPlugin(
@@ -36,21 +39,27 @@ class StatusEffectsPlugin(
             if (player.timers.has(ANTIFIRE_TIMER)) service?.let { player.message(it.messages.antifireWarning) }
         }
         onTimer(RunEnergy.STAMINA_BOOST) {
+            setStaminaActive(player, false)
             service?.messages?.staminaExpired?.let { player.message(it) }
         }
         // Immunity simply lapses; the handler registers the key so the timer is ticked and removed.
         onTimer(Poison.IMMUNITY_TIMER) {}
+        onTimer(Poison.VENOM_IMMUNITY_TIMER) {}
 
         onLogin {
             // The attributes persist but timers do not: protection that was running at logout has ended.
             if (!player.timers.has(ANTIFIRE_TIMER)) clearAntifire(player)
+            // The stamina timer persists (it does not tick offline), so the orb follows it on login.
+            setStaminaActive(player, player.timers.has(RunEnergy.STAMINA_BOOST))
         }
         onPlayerDeath {
             // The attributes reset on death on their own (resetOnDeath); the timers must not fire afterwards.
             player.timers.remove(ANTIFIRE_TIMER)
             player.timers.remove(ANTIFIRE_WARNING)
             player.timers.remove(RunEnergy.STAMINA_BOOST)
+            setStaminaActive(player, false)
             player.timers.remove(Poison.IMMUNITY_TIMER)
+            player.timers.remove(Poison.VENOM_IMMUNITY_TIMER)
         }
     }
 
@@ -66,6 +75,14 @@ class StatusEffectsPlugin(
             player.attr[DRAGONFIRE_IMMUNITY_ATTR] = tier == AntifireTier.FULL
             player.timers[ANTIFIRE_TIMER] = ticks
             if (ticks > ANTIFIRE_WARNING_TICKS) player.timers[ANTIFIRE_WARNING] = ticks - ANTIFIRE_WARNING_TICKS else player.timers.remove(ANTIFIRE_WARNING)
+        }
+
+        /**
+         * The run orb's stamina look (wiki Stamina potion: the orb icon turns orange while the effect lasts), from
+         * varbit 25 `stamina_active` (gameval). Varbit 24 `stamina_duration` is left alone: its units are unknown.
+         */
+        fun setStaminaActive(player: Player, active: Boolean) {
+            player.setVarbit(Varbit.STAMINA_EFFECT_ENABLED, if (active) 1 else 0)
         }
 
         fun clearAntifire(player: Player) {

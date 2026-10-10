@@ -344,6 +344,64 @@ class RecipeGenerator : ScaffoldGenerator {
     }
 }
 
+/**
+ * `consumable`: consumables.json entries appended to its `consumables` array. A potion gets one entry per dose,
+ * highest first, because the data test needs the whole dose chain down to `item.vial`; a food gets one entry.
+ * Applying runs that data test instead of a compile.
+ */
+class ConsumableGenerator : ScaffoldGenerator {
+    override val kind = "consumable"
+
+    override fun supports(enrichment: Enrichment) = enrichment.kind == "consumable" && enrichment.consumable != null
+
+    override fun generate(enrichment: Enrichment, params: Map<String, Any?>, ctx: ScaffoldContext): Scaffold {
+        val id = (params["id"] as Number).toInt()
+        val facts = enrichment.consumable!!
+        val food = facts.kind == "food"
+        val ids: List<Int> = if (food) listOf(id) else facts.doseIds.entries.sortedByDescending { it.key }.map { it.value }.ifEmpty { listOf(id) }
+        val names = ids.map { ctx.names.name("item", it) }
+        val effects = facts.effects.map { e ->
+            mapOf(e.type to buildMap<String, Any> { put("cure", e.cure); e.immunityTicks?.let { put("immunityTicks", it) } })
+        }
+        val knownKind = facts.kind in setOf("food", "potion", "mix")
+        val doesSomething = facts.heal != null || effects.isNotEmpty()
+        val files = ids.mapIndexed { i, itemId ->
+            val name = names[i] ?: "item.${RscmNames.slug(facts.name)}_$itemId"
+            val entry = buildMap<String, Any?> {
+                put("item", name)
+                put("kind", facts.kind)
+                if (!food) put("replacement", if (i + 1 < ids.size) names[i + 1] ?: "item.${RscmNames.slug(facts.name)}_${ids[i + 1]}" else VIAL)
+                facts.heal?.let { put("heal", mapOf("fixed" to it)) }
+                if (effects.isNotEmpty()) put("effects", effects)
+                put("source", enrichment.page?.url)
+            }
+            ScaffoldFile(
+                PATH, Json.prettyLf.writeValueAsString(entry), ScaffoldFile.JSON_APPEND,
+                applyable = names[i] != null && knownKind && doesSomething, arrayKey = ARRAY_KEY, verifyTask = VERIFY_TASK,
+            )
+        }
+        val manual = buildList {
+            ids.filterIndexed { i, _ -> names[i] == null }.takeIf { it.isNotEmpty() }?.let { add("Item ids not in data/cfg/rscm/item.rscm: ${it.joinToString()}; those entries are not applyable.") }
+            if (!knownKind) add("TODO kind: '${facts.kind}' is not food, potion or mix; the entries are not applyable.")
+            if (!doesSomething) add("TODO: the page gave neither a heal nor an effect, so the entries do nothing and are not applyable; fill them in from the wiki.")
+            if (food) add("Combo food? Check the Food page (https://oldschool.runescape.wiki/w/Food); a combo food needs kind \"combo\".")
+            if (food && Regex("""(?i)\b(half|partial)\b""").containsMatchIn(facts.name)) add("The fast-food delay is not read; see https://oldschool.runescape.wiki/w/Food/Fast_foods.")
+            if (!food && facts.doseIds.isNotEmpty() && facts.doseIds.keys.sorted() != (1..facts.doseIds.size).toList()) add("The doses on the page are ${facts.doseIds.keys.sorted()}, not 1..${facts.doseIds.size}; check the chain.")
+            facts.effects.mapNotNullTo(this) { it.note }
+            facts.unparsed.forEach { add("TODO not parsed (add by hand if it is an effect): $it") }
+        }
+        val summary = if (food) "consumables.json entry for ${facts.name} (${names.first() ?: id})" else "consumables.json entries for ${facts.name} (${ids.size} doses)"
+        return Scaffold(kind, summary, Kt.branch(kind, facts.name, id), files, manual)
+    }
+
+    companion object {
+        const val PATH = "data/cfg/consumables/consumables.json"
+        const val ARRAY_KEY = "consumables"
+        const val VERIFY_TASK = ":game-plugins:test --tests *ConsumablesDataTests"
+        const val VIAL = "item.vial"
+    }
+}
+
 /** Anything else with a page: a plugin skeleton with the matching hook. */
 class SkeletonGenerator : ScaffoldGenerator {
     override val kind = "skeleton"

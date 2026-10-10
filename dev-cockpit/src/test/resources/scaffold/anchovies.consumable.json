@@ -1,0 +1,10 @@
+[
+{
+  "item" : "item.anchovies",
+  "kind" : "food",
+  "heal" : {
+    "fixed" : 1
+  },
+  "source" : "https://oldschool.runescape.wiki/w/Anchovies"
+}
+]

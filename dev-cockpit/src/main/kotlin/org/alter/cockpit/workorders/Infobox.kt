@@ -12,13 +12,18 @@ data class Infobox(val name: String, val params: Map<String, String>) {
 
     /**
      * The view of one version: `examine3` wins over `examine` for version 3, and the numbered keys of other
-     * versions are dropped. [anchor] is the page anchor the id lookup returned (the version label); null or an
-     * unknown label gives version 1 when there are versions, else the box itself.
+     * versions are dropped. [anchor] is the page anchor the id lookup returned: the version label (`4 dose`) or
+     * the bucket name (`|bucketname4 = (4)`, what Special:Lookup gives for items), with `_` read as a space. Null
+     * or an unknown label gives version 1 when there are versions, else the box itself.
      */
     fun forVersion(anchor: String?): Infobox {
         val versions = versions
         if (versions.isEmpty()) return this
-        val index = versions.entries.firstOrNull { it.value.equals(anchor, ignoreCase = true) }?.key ?: 1
+        val wanted = anchor?.replace('_', ' ')
+        fun matches(label: String) = label.replace('_', ' ').equals(wanted, ignoreCase = true)
+        val index = versions.entries.firstOrNull { matches(it.value) }?.key
+            ?: params.entries.firstOrNull { (k, v) -> bucketKey.matches(k) && matches(v) }?.let { bucketKey.matchEntire(it.key)!!.groupValues[1].toInt() }
+            ?: 1
         val merged = mutableMapOf<String, String>()
         params.forEach { (k, v) ->
             val m = numbered.matchEntire(k)
@@ -32,6 +37,7 @@ data class Infobox(val name: String, val params: Map<String, String>) {
 
     private companion object {
         val versionKey = Regex("""version(\d+)""")
+        val bucketKey = Regex("""bucketname(\d+)""")
         val numbered = Regex("""([a-zA-Z_]+?)(\d+)""")
     }
 }

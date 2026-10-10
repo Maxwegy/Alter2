@@ -42,12 +42,42 @@ data class Recipe(
     val ticks: Int?,
 )
 
+/** One status effect read from an item page's lead: `antipoison` or `antivenom`, a cure and/or an immunity. */
+data class ConsumableEffect(
+    val type: String,
+    val cure: Boolean,
+    val immunityTicks: Int?,
+    /** What the parse had to decide (a range on the wiki, a rounding), for the human reviewing the entry. */
+    val note: String? = null,
+)
+
+/**
+ * An eat or drink option on an item page: what consumables.json needs. Only what the page states is filled in;
+ * [heal] is null unless the lead says "heals/restores N hitpoints", and lead sentences about effects that could
+ * not be parsed land in [unparsed] for a human.
+ */
+data class ConsumableFacts(
+    /** The page title, e.g. `Anti-venom`. */
+    val name: String,
+    /** `food`, `potion` or `mix`. */
+    val kind: String,
+    val options: List<String>,
+    /** Item id by dose (`{1: 12911, ..., 4: 12905}`); a food is `{1: id}`. */
+    val doseIds: Map<Int, Int>,
+    /** The card's own dose, or null for a food. */
+    val dose: Int?,
+    val heal: Int?,
+    val healSentence: String?,
+    val effects: List<ConsumableEffect>,
+    val unparsed: List<String>,
+)
+
 /**
  * Everything an enricher found for a card: the page, plain facts for the UI, structured data for the scaffold
  * generators (transcript, shop, ...), notes a human must read, and where it all came from.
  */
 data class Enrichment(
-    /** Which enricher ran: `talk-to`, `trade`, `pickpocket`, `scenery`, `recipe`, `page`. */
+    /** Which enricher ran: `talk-to`, `trade`, `pickpocket`, `scenery`, `recipe`, `consumable`, `page`. */
     val kind: String,
     val page: WikiPage?,
     val facts: Map<String, Any?> = emptyMap(),
@@ -55,6 +85,7 @@ data class Enrichment(
     val shop: Shop? = null,
     val pickpocket: List<PickpocketLine>? = null,
     val recipes: List<Recipe>? = null,
+    val consumable: ConsumableFacts? = null,
     val notes: List<String> = emptyList(),
     /** What a scaffold would be: `dialogue plugin`, `shop config`, `pickpocket entry`, `door config`, ... */
     val target: String,

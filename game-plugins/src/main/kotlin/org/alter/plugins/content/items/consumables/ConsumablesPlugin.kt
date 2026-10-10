@@ -22,6 +22,7 @@ import org.alter.game.plugin.PluginRepository
 import org.alter.game.service.GameService
 import org.alter.plugins.content.infrastructure.InfrastructureService
 import org.alter.plugins.content.mechanics.poison.Poison
+import org.alter.plugins.content.mechanics.poison.Venom
 import org.alter.plugins.content.mechanics.run.RunEnergy
 import org.alter.rscm.RSCM.getRSCM
 
@@ -108,9 +109,21 @@ class ConsumablesPlugin(
             player.sendRunEnergy(units / 100)
         }
         // The stamina effect does not stack: another dose resets the timer (wiki Stamina potion).
-        plan.staminaTicks?.let { player.timers[RunEnergy.STAMINA_BOOST] = it }
-        if (plan.curePoison) Poison.cure(player)
+        plan.staminaTicks?.let {
+            player.timers[RunEnergy.STAMINA_BOOST] = it
+            StatusEffectsPlugin.setStaminaActive(player, true)
+        }
+        // Any poison cure on venom turns it into poison at the venom's damage unless the dose also cures venom
+        // (wiki Venom, Antipoison and Poison pages); a second dose then cures that poison.
+        if (plan.curePoison) {
+            when (Venom.onPoisonCure(player.attr[Poison.VENOM_DAMAGE_ATTR], plan.cureVenom)) {
+                is Venom.CureOutcome.Downgraded -> Poison.downgradeVenom(player)
+                else -> Poison.cure(player)
+            }
+        }
+        if (plan.cureVenom) Poison.cureVenom(player)
         plan.poisonImmunityTicks?.let { player.timers[Poison.IMMUNITY_TIMER] = it }
+        plan.venomImmunityTicks?.let { player.timers[Poison.VENOM_IMMUNITY_TIMER] = it }
         plan.antifire?.let { (tier, ticks) -> StatusEffectsPlugin.setAntifire(player, tier, ticks) }
 
         val name = CacheManager.getItem(itemId).name.lowercase()

@@ -63,14 +63,15 @@ class ConsumablesDataTests {
 
     @Test
     fun `status effects are well formed and every expiry message is present`() {
-        val statusPotions = table.consumables.filter { c -> c.effects.any { it is Effect.RunEnergy || it is Effect.Antipoison || it is Effect.Antifire } }
-        assertTrue(statusPotions.size >= 44, "expected the 11 status potion chains, found ${statusPotions.size} entries")
+        val statusPotions = table.consumables.filter { c -> c.effects.any { it is Effect.RunEnergy || it is Effect.Antipoison || it is Effect.Antivenom || it is Effect.Antifire } }
+        assertTrue(statusPotions.size >= 52, "expected the 13 status potion chains, found ${statusPotions.size} entries")
         statusPotions.forEach { c ->
             assertEquals(Kind.POTION, c.kind, "${c.item} should be a potion")
             c.effects.forEach { e ->
                 when (e) {
                     is Effect.RunEnergy -> assertTrue(e.restorePercent in 1..100 && (e.staminaTicks ?: 1) > 0, "${c.item}: bad runEnergy")
                     is Effect.Antipoison -> assertTrue(e.cure || e.immunityTicks > 0, "${c.item}: antipoison does nothing")
+                    is Effect.Antivenom -> assertTrue(e.cure || e.immunityTicks > 0, "${c.item}: antivenom does nothing")
                     is Effect.Antifire -> assertTrue(e.ticks > 0, "${c.item}: antifire needs a duration")
                     else -> {}
                 }

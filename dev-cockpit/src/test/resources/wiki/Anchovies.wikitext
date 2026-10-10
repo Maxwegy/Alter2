@@ -1,0 +1,54 @@
+{{External|rsc|rs}}
+{{Otheruses|anchovies|the raw version|Raw anchovies}}
+{{Infobox Item
+|name = Anchovies
+|image = [[File:Anchovies.png]]
+|release = [[11 June]] [[2001]]
+|update = New fishing skill and more cooking
+|members = No
+|quest = No
+|tradeable = Yes
+|equipable = No
+|stackable = No
+|noteable = Yes
+|edible = Yes
+|options = Eat, Drop
+|examine = Some nicely cooked anchovies.
+|value = 15
+|weight = 0.100
+|exchange = Yes
+|id = 319
+}}
+[[File:Anchovies detail.png|left|100px]]
+'''Anchovies''' are a type of [[fish]] that restores 1 [[Hitpoints|Hitpoint]] when eaten. It can be obtained by cooking [[raw anchovies]] on a [[fire]] or [[cooking range]], granting 30 experience when successful. When cooking there is a chance to fail, resulting in [[burnt anchovies]]. The burn rate decreases as the player's [[Cooking]] level increases. Anchovies are one of a number of foods with a reduced burn rate while using the [[Cooking range (Lumbridge Castle)|Lumbridge Castle range]] with [[Cook's Assistant]] completed. It will stop burning entirely at Cooking level 34, or 31 when using the Lumbridge range.
+
+Anchovies are an ingredient in [[anchovy pizza]]s, and are also used in the creation of [[impling jar]]s.
+
+==Creation==
+{{Recipe
+|skill1 = Cooking
+|skill1lvl = 1
+|skill1exp = 30
+|members = No
+|ticks = 4
+|facilities = Cooking range
+|mat1 = Raw anchovies
+|output1 = Anchovies
+}}
+
+===Cooking chance===
+{{Skilling success chart|label=Anchovies cooking chance|xlabel=Cooking level
+|label1=Fire or Range|low1=128|high1=512|req1=1|color1=gray|image1=Anchovies.png
+|label2=Lumbridge range|low2=138|high2=532|req2=1|color2=green|image2=Lumbridge Teleport.png
+|label3=Hosidius +5%|low3=140|high3=524|req3=1|color3=red|image3=Anchovies.png
+|label4=Hosidius +10%|low4=153|high4=537|req4=84|color4=blue|image4=Anchovies.png
+}}
+
+==Products==
+{{Uses material list|Anchovies}}
+
+==Item sources==
+{{Drop sources|Anchovies}}
+
+{{Fish}}
+[[Category:Food]]
