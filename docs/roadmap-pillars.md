@@ -298,6 +298,22 @@ three timers and heals 20 + brew + 18.
 
 ## 4. Special attacks and autocast (Phase 3)
 
+> **Specials built (Phase 3, 2026-10-10); autocast is the next PR.** `data/cfg/combat/special_attacks.json`
+> (schemaVersion 1, a wiki `source` per entry), parsed by `SpecialAttackDefs`, decided by the pure `SpecialRules`,
+> loaded by `SpecialAttacksService` and fired by `SpecialAttacks.execute`; `SpecialAttacksPlugin` owns the bar
+> (593:36), the orb (160:35), energy regen and `::reloadspecials`. 18 specials are loaded: dragon and abyssal
+> daggers, bludgeon, the four godswords, dragon warhammer, mace, longsword and halberd, whip, arclight, Saradomin
+> sword, granite maul, the dragon axes, dragon pickaxe and Excalibur. 8 more (claws, scimitar, battleaxe, dragon
+> sword, 2h, spear, magic shortbow, dark bow) are in the file with a `todo` and skipped at boot, so they behave as
+> having no special. Deviations from the sketch below: hits are a list (`accuracy`, sequential `damage`
+> multipliers floored after each, `npcDelayExtra`, `onlyIfTargetLargerThan1x1`, `damageBonusPerMissingPrayerPoint`)
+> and effects are typed (`healSelf`, `drainTargetSkill`, `drainTargetByDamage`, `freezeTarget`, `drainTargetSkills`,
+> `transferRunEnergy`, `extraMagicHit`, `boostSelf`); no weapon keeps custom code; animation and graphic ids are
+> in the file, checked against the gameval `seq`/`spotanim` names; there is no prose parser. Energy stays in varp
+> 300 (`sa_energy`, percent x 10) and the bar in varp 301 (`sa_attack`); with too little energy the bar switches
+> off and a normal attack follows, with no chat line. Fixed on the way: the bludgeon's max hit of 0 at full prayer
+> and its unsourced flat extra hit, the abyssal dagger's cost (50% -> 25%), the dragon pickaxe's boost cap.
+
 **What exists.** `content/combat/specialattack/` with `SpecialAttacks.register(item, energy) { ... }` and four
 weapons (abyssal bludgeon, abyssal dagger, armadyl godsword, dragon dagger). Each plugin hard-codes its
 animation id (`player.animate(id = 1062)` for the dragon dagger), accuracy multiplier and hit logic. Autocast
