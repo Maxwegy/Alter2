@@ -39,7 +39,8 @@ tasks.register<JavaExec>("wikiSync") {
 /**
  * Regenerates the wiki entries in data/cfg/spawns/npcs from the wiki's {{Map}} templates, keeping every manual
  * entry. Never touches data/cfg/wiki. Runs from game-server/ like wikiSync. Pass flags with
- * -PspawnArgs="--offline" or -PspawnArgs="--refresh".
+ * -PspawnArgs="--offline" or -PspawnArgs="--refresh"; -PspawnArgs="--apply-edits" instead applies the in-game
+ * spawn edits in data/run/spawn-edits.jsonl (offline).
  */
 tasks.register<JavaExec>("spawnSync") {
     group = "alter data"
