@@ -39,7 +39,8 @@ class InfrastructurePlugin(
         // Order matters: services init in registration order, all before NPCs spawn.
         val gameData = GameDataService(paths.wikiSnapshot)
         loadService(gameData)
-        loadService(NpcDataService(gameData, paths.npcOverrides))
+        val npcData = NpcDataService(gameData, paths.npcOverrides)
+        loadService(npcData)
         loadService(DropDataService(gameData, paths.dropOverrides))
         loadService(ItemStatsService(gameData))
         if (config.missingContent.enabled) {
@@ -54,7 +55,7 @@ class InfrastructurePlugin(
         }
         loadService(SpawnEditOutboxService(SpawnEditOutbox(paths.spawnEdits, io)))
         if (config.admin.enabled) {
-            loadService(AdminControlService(config.admin, paths.runFile, paths.wikiSnapshot, events))
+            loadService(AdminControlService(config.admin, paths.runFile, paths.wikiSnapshot, npcData, events))
         }
     }
 }
