@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "successFormula": "https://oldschool.runescape.wiki/w/Skilling_success_rate",
+    "boosts": "https://oldschool.runescape.wiki/w/Temporary_skill_boost",
+    "woodcutting": "https://oldschool.runescape.wiki/w/Woodcutting",
+    "axes": "https://oldschool.runescape.wiki/w/Axe",
+    "mining": "https://oldschool.runescape.wiki/w/Mining",
+    "pickaxes": "https://oldschool.runescape.wiki/w/Pickaxe"
+  },
+  "todo": [
+    "messages.*: no chat line is quoted from a source yet, so every message is null and nothing is sent; fill them only from a cited source",
+    "object/depleted pairs marked verify come from data/reports/gameval/loc.txt names; the boot log and ResourceNodesCacheTests are the first check, a 241 client the real one",
+    "dragon pickaxe animation 7139 vs 7138 is unverified (verify)",
+    "bird nests and clue nests: the seed-nest item and the ground spawn are unsourced, so the oak and willow tertiary blocks are todo"
+  ],
+  "messages": {
+    "levelTooLow": null,
+    "noTool": null,
+    "toolLevelTooLow": null,
+    "inventoryFull": null,
+    "start": null,
+    "success": null,
+    "gem": null,
+    "depleted": null
+  },
+  "skills": {
+    "woodcutting": {
+      "option": "Chop down",
+      "rollIntervalTicks": 4,
+      "successBy": "tier",
+      "source": "https://oldschool.runescape.wiki/w/Woodcutting",
+      "tools": [
+        { "item": "item.bronze_axe", "tier": "bronze", "level": 1, "animation": 879, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.iron_axe", "tier": "iron", "level": 1, "animation": 877, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.steel_axe", "tier": "steel", "level": 6, "animation": 875, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.black_axe", "tier": "black", "level": 11, "animation": 873, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.mithril_axe", "tier": "mithril", "level": 21, "animation": 871, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.adamant_axe", "tier": "adamant", "level": 31, "animation": 869, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.rune_axe", "tier": "rune", "level": 41, "animation": 867, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.dragon_axe", "tier": "dragon", "level": 61, "animation": 2846, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.crystal_axe", "tier": "crystal", "level": 71, "animation": 8324, "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.infernal_axe", "todo": "no success-chart line of its own on the tree pages; level, animation and its burning effect unsourced here", "source": "https://oldschool.runescape.wiki/w/Axe" },
+        { "item": "item.trail_gilded_axe", "todo": "gilded axe: no success-chart line of its own on the tree pages; level and animation unsourced here", "source": "https://oldschool.runescape.wiki/w/Axe" }
+      ]
+    },
+    "mining": {
+      "option": "Mine",
+      "successBy": "level",
+      "source": "https://oldschool.runescape.wiki/w/Mining",
+      "notes": ["The pickaxe sets the roll interval only; it does not change the success rate (wiki Pickaxe)."],
+      "tools": [
+        { "item": "item.bronze_pickaxe", "tier": "bronze", "level": 1, "rollIntervalTicks": 8, "animation": 625, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.iron_pickaxe", "tier": "iron", "level": 1, "rollIntervalTicks": 7, "animation": 626, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.steel_pickaxe", "tier": "steel", "level": 6, "rollIntervalTicks": 6, "animation": 627, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.black_pickaxe", "tier": "black", "level": 11, "rollIntervalTicks": 5, "animation": 3873, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.mithril_pickaxe", "tier": "mithril", "level": 21, "rollIntervalTicks": 5, "animation": 629, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.adamant_pickaxe", "tier": "adamant", "level": 31, "rollIntervalTicks": 4, "animation": 628, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.rune_pickaxe", "tier": "rune", "level": 41, "rollIntervalTicks": 3, "animation": 624, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.trail_gilded_pickaxe", "tier": "gilded", "level": 41, "rollIntervalTicks": 3, "animation": 8313, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.dragon_pickaxe", "tier": "dragon", "level": 61, "rollIntervalTicks": 3, "fastRoll": { "chance": [1, 6], "ticks": 2 }, "animation": 7139, "verify": true, "notes": ["animation 7139 vs 7138 unverified"], "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.infernal_pickaxe", "tier": "infernal", "level": 61, "rollIntervalTicks": 3, "fastRoll": { "chance": [1, 6], "ticks": 2 }, "animation": 4482, "source": "https://oldschool.runescape.wiki/w/Pickaxe" },
+        { "item": "item.crystal_pickaxe", "tier": "crystal", "level": 71, "rollIntervalTicks": 3, "fastRoll": { "chance": [1, 4], "ticks": 2 }, "animation": 8347, "source": "https://oldschool.runescape.wiki/w/Pickaxe" }
+      ],
+      "preRoll": {
+        "outOf": 32768,
+        "table": [
+          { "item": null, "weight": 70 },
+          { "item": "item.uncut_sapphire", "weight": 32 },
+          { "item": "item.uncut_emerald", "weight": 16 },
+          { "item": "item.uncut_ruby", "weight": 8 },
+          { "item": "item.uncut_diamond", "weight": 2 }
+        ],
+        "notes": ["A gem gives no ore and no XP and does not deplete the rock. A roll outside the table, or on its Nothing row, goes on to the normal success roll."],
+        "source": "https://oldschool.runescape.wiki/w/Template:MiningPreGemDropTable"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": "tree",
+      "skill": "woodcutting",
+      "level": 1,
+      "experience": 25.0,
+      "objects": [
+        { "object": "object.tree", "depleted": "object.treestump2", "verify": true },
+        { "object": "object.tree2", "depleted": "object.treestump2", "verify": true },
+        { "object": "object.tree3", "depleted": "object.treestump2", "verify": true }
+      ],
+      "objectsTodo": [
+        { "object": "object.tree4", "todo": "stump pairing unsourced" },
+        { "object": "object.tree5", "todo": "stump pairing unsourced" }
+      ],
+      "depletion": "always",
+      "respawnTicks": { "min": 59, "max": 98 },
+      "success": {
+        "byTier": {
+          "bronze": [64, 200], "iron": [96, 300], "steel": [128, 400], "black": [144, 450], "mithril": [160, 500],
+          "adamant": [192, 600], "rune": [224, 700], "dragon": [240, 750], "crystal": [250, 800]
+        }
+      },
+      "reward": "item.logs",
+      "source": "https://oldschool.runescape.wiki/w/Tree",
+      "notes": ["Respawn 35.4-58.8 s from the infobox, as 59-98 ticks.", "Stump object.treestump2 (1342) per https://oldschool.runescape.wiki/w/Tree_stump."]
+    },
+    {
+      "id": "oak",
+      "skill": "woodcutting",
+      "level": 15,
+      "experience": 37.5,
+      "objects": [
+        { "object": "object.oaktree", "depleted": "object.oaktree_stump", "verify": true },
+        { "object": "object.tree_oak_default01", "depleted": "object.tree_oak_stump01", "verify": true },
+        { "object": "object.avium_oak_1", "depleted": "object.avium_oak_1_stump", "verify": true }
+      ],
+      "depletion": { "timerTicks": 45 },
+      "respawnTicks": 14,
+      "success": {
+        "byTier": {
+          "bronze": [32, 100], "iron": [48, 150], "steel": [64, 200], "black": [72, 225], "mithril": [80, 250],
+          "adamant": [96, 300], "rune": [112, 350], "dragon": [120, 375], "crystal": [125, 400]
+        }
+      },
+      "reward": "item.oak_logs",
+      "tertiary": [
+        { "chance": [1, 256], "replacesReward": true, "todo": "bird nest instead of a log: the seed-nest item and the ground spawn are unsourced" }
+      ],
+      "source": "https://oldschool.runescape.wiki/w/Oak_tree"
+    },
+    {
+      "id": "willow",
+      "skill": "woodcutting",
+      "level": 30,
+      "experience": 67.5,
+      "objects": [
+        { "object": "object.willow_tree2", "depleted": "object.willow_tree2or3or4_stump", "verify": true },
+        { "object": "object.willow_tree3", "depleted": "object.willow_tree2or3or4_stump", "verify": true },
+        { "object": "object.willow_tree4", "depleted": "object.willow_tree2or3or4_stump", "verify": true }
+      ],
+      "objectsTodo": [
+        { "object": "object.willowtree", "todo": "willowtree (10819): stump pairing unsourced" }
+      ],
+      "depletion": { "timerTicks": 50 },
+      "respawnTicks": 14,
+      "success": {
+        "byTier": {
+          "bronze": [16, 50], "iron": [24, 75], "steel": [32, 100], "black": [36, 112], "mithril": [40, 125],
+          "adamant": [48, 150], "rune": [56, 175], "dragon": [60, 187], "crystal": [64, 195]
+        }
+      },
+      "reward": "item.willow_logs",
+      "tertiary": [
+        { "chance": [1, 256], "replacesReward": true, "todo": "bird nests, as for oak: the seed-nest item and the ground spawn are unsourced" }
+      ],
+      "source": "https://oldschool.runescape.wiki/w/Willow_tree"
+    },
+    {
+      "id": "copper",
+      "skill": "mining",
+      "level": 1,
+      "experience": 17.5,
+      "objects": [
+        { "object": "object.copperrock1", "depleted": "object.rocks1", "verify": true },
+        { "object": "object.copperrock2", "depleted": "object.rocks2", "verify": true },
+        { "object": "object.newbiecopperrock", "depleted": "object.newbierocks1", "verify": true }
+      ],
+      "depletion": "always",
+      "respawnTicks": 4,
+      "success": { "byLevel": [100, 350] },
+      "reward": "item.copper_ore",
+      "source": "https://oldschool.runescape.wiki/w/Copper_rocks"
+    },
+    {
+      "id": "tin",
+      "skill": "mining",
+      "level": 1,
+      "experience": 17.5,
+      "objects": [
+        { "object": "object.tinrock1", "depleted": "object.rocks1", "verify": true },
+        { "object": "object.tinrock2", "depleted": "object.rocks2", "verify": true },
+        { "object": "object.newbietinrock", "depleted": "object.newbierocks1", "verify": true }
+      ],
+      "depletion": "always",
+      "respawnTicks": 4,
+      "success": { "byLevel": [100, 350] },
+      "reward": "item.tin_ore",
+      "source": "https://oldschool.runescape.wiki/w/Tin_rocks"
+    },
+    {
+      "id": "iron",
+      "skill": "mining",
+      "level": 15,
+      "experience": 35.0,
+      "objects": [
+        { "object": "object.ironrock1", "depleted": "object.rocks1", "verify": true },
+        { "object": "object.ironrock2", "depleted": "object.rocks2", "verify": true }
+      ],
+      "depletion": "always",
+      "respawnTicks": 9,
+      "success": { "byLevel": [96, 350] },
+      "reward": "item.iron_ore",
+      "source": "https://oldschool.runescape.wiki/w/Iron_rocks"
+    },
+    {
+      "id": "coal",
+      "skill": "mining",
+      "level": 30,
+      "experience": 50.0,
+      "objects": [
+        { "object": "object.coalrock1", "depleted": "object.rocks1", "verify": true },
+        { "object": "object.coalrock2", "depleted": "object.rocks2", "verify": true }
+      ],
+      "depletion": "always",
+      "respawnTicks": 50,
+      "success": { "byLevel": [16, 100] },
+      "reward": "item.coal",
+      "source": "https://oldschool.runescape.wiki/w/Coal_rocks"
+    },
+    { "id": "maple", "skill": "woodcutting", "level": 45, "experience": 100.0, "depletion": { "timerTicks": 100 }, "reward": "item.maple_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "teak", "skill": "woodcutting", "level": 35, "experience": 85.0, "depletion": { "timerTicks": 50 }, "reward": "item.teak_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "mahogany", "skill": "woodcutting", "level": 50, "experience": 125.0, "depletion": { "timerTicks": 100 }, "reward": "item.mahogany_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "yew", "skill": "woodcutting", "level": 60, "experience": 175.0, "depletion": { "timerTicks": 190 }, "reward": "item.yew_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "magic", "skill": "woodcutting", "level": 75, "experience": 250.0, "depletion": { "timerTicks": 390 }, "reward": "item.magic_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "redwood", "skill": "woodcutting", "level": 90, "experience": 380.0, "depletion": { "timerTicks": 440 }, "reward": "item.redwood_logs", "source": "https://oldschool.runescape.wiki/w/Woodcutting", "todo": "objects, stumps, respawn and success chart unsourced here" },
+    { "id": "clay", "skill": "mining", "level": 1, "experience": 5.0, "reward": "item.clay", "source": "https://oldschool.runescape.wiki/w/Mining", "todo": "objects, depleted rocks, respawn and success chart unsourced here" },
+    { "id": "silver", "skill": "mining", "level": 20, "experience": 40.0, "reward": "item.silver_ore", "source": "https://oldschool.runescape.wiki/w/Mining", "todo": "objects, depleted rocks, respawn and success chart unsourced here" },
+    { "id": "gold", "skill": "mining", "level": 40, "experience": 65.0, "reward": "item.gold_ore", "source": "https://oldschool.runescape.wiki/w/Mining", "todo": "objects, depleted rocks, respawn and success chart unsourced here" },
+    { "id": "mithril", "skill": "mining", "level": 55, "experience": 80.0, "reward": "item.mithril_ore", "source": "https://oldschool.runescape.wiki/w/Mining", "todo": "objects, depleted rocks, respawn and success chart unsourced here" },
+    { "id": "adamantite", "skill": "mining", "level": 70, "experience": 95.0, "reward": "item.adamantite_ore", "source": "https://oldschool.runescape.wiki/w/Mining", "todo": "objects, depleted rocks, respawn and success chart unsourced here" },
+    { "id": "runite", "skill": "mining", "level": 85, "experience": 125.0, "respawnTicks": 1200, "reward": "item.runite_ore", "source": "https://oldschool.runescape.wiki/w/Mining", "notes": ["Respawn 12 minutes, as 1200 ticks."], "todo": "objects, depleted rocks and success chart unsourced here" }
+  ]
+}

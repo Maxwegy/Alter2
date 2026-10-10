@@ -62,6 +62,18 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `--apply-edits` only matches existing entries; an add edit (`from: null`, planned for Phase 5 `::spawnnpc --persist`) is not supported yet.
 - `::setdirection` sets `lastFacingDirection` and sends one face-coordinate update; a respawn after death does not re-send the facing. Not exercised with a 241 client.
 
+## Resource nodes (Phase 4)
+- TODO entries in `data/cfg/resources/resource_nodes.json`, skipped at boot: maple, teak, mahogany, yew, magic and redwood trees; clay, silver, gold, mithril, adamantite and runite rocks (objects, depleted objects, respawn and charts unsourced). Also `tree4`, `tree5` and `willowtree` (10819), whose stump pairing is unsourced, and the tut2/prif/gim rock variants.
+- TODO tools: the infernal axe and the gilded axe (no chart line of their own).
+- Bird nests and clue nests: the oak and willow 1/256 nest tertiary is a `todo` (the seed-nest item and the ground spawn are unsourced). A loaded tertiary can only replace the reward; extra drops are not supported.
+- All `messages.*` are null (no quoted chat lines), so gathering is silent; no sounds.
+- The depletion timer resets once nobody is gathering (heartbeat 16 ticks, `ResourceNodesService.HEARTBEAT_TICKS`); the wiki says it regenerates, at a rate the plan did not source.
+- The gem pre-roll's "Nothing" row is treated as no gem, after which the normal success roll is made; confirm against Template:MiningPreGemDropTable.
+- Empty rocks (`rocks1`, `rocks2`, `newbierocks1`) keep a "Mine" option in the 241 cache and are not bound, so clicking one goes to the unhandled-interaction fallback.
+- Not modelled: the Mining Guild, mining gloves, the amulet of glory gem rate, special axes and pickaxes (infernal burning, crystal/dragon specials), a cockpit `enrich.resource` enricher, the micro-economy and reactive-config IDEA rows. Fishing (spots are NPCs) is out of scope.
+- `::reloadresources` updates numbers for objects already bound; objects added to the file need a restart.
+- Not verified with a 241 client: login and the option index, the visible replace and restore, the axe and pickaxe animations (the dragon pickaxe's 7139 vs 7138), and every `verify: true` object/depleted pairing (only the cache's options and sizes were checked).
+
 ## Commands and privileges
 - `::qutest`, `::gc`, `::heap` and `::randbank` have no privilege check.
 
