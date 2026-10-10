@@ -26,7 +26,8 @@ class XpDropsPlugin(
     init {
         val INTERFACE_ID = 122
 
-        onButton(interfaceId = 160, component = 5) {
+        // 160:6 `xp_drops` in the 241 cache (op2 "Setup"); 160:5 is now `cr_icon`.
+        onButton(interfaceId = 160, component = 6) {
             val option = player.getInteractingOption()
             player.playSound(Sound.INTERFACE_SELECT1)
 

@@ -25,16 +25,13 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `MeleeCombatFormula` has no defence-style override, so specials that roll against slash (AGS, BGS, SGS, DDS, whip, halberd, Saradomin sword) or stab (arclight) defence roll against the current style.
 - Special attack hits grant no melee experience (the old plugins did not either); only the Saradomin sword's magic hit gives its 2 Magic XP per damage.
 - Not in the batch: Lightbearer and the Surge potion (energy), the granite maul's ornate handle (50%) and cosmetic variants, the 3rd age axe, the halberd's multi-target sweep and directional graphic, the Saradomin sword's graphic and its splash on Protect from Magic, Excalibur's forced chat, the Tekton and Elite Black Knight exceptions.
-- Unverified against a 241 client: the sound ids (the old plugins' values, `verify: true`), animation and graphic appearance (and whether a graphic belongs on the target), the dragon pickaxe's animation (7138 `rockknocker` vs 2661 `dragon_pickaxe_anim`), the varp 300 scale and the 593:36 / 160:35 component ids. Sounds play to the attacker only (`playSound`), not as area sounds.
+- Unverified against a 241 client: the sound ids (the old plugins' values, `verify: true`), animation and graphic appearance (and whether a graphic belongs on the target), the dragon pickaxe's animation (7138 `rockknocker` vs 2661 `dragon_pickaxe_anim`), the varp 300 scale and the 593:39 / 160:36 component ids (now taken from the 241 cache). Sounds play to the attacker only (`playSound`), not as area sounds.
 - The bar switches off on every weapon equip and on logout (kept as it was).
-- **241 component ids are one off** (found by the autocast spike, `data/reports/autocast-241-spike.md`; gameval names and if3 definitions):
-  - the special attack bar is 593:39 `special_attack` (op "Use Special Attack"), not 593:36 (`retaliate_text`);
-  - the minimap orb is 160:36 `specbutton`, not 160:35 (`specenergy_backing`);
-  - `AttackTabPlugin`'s style buttons are 593:6/10/14/18, not 5/9/13/17;
-  - auto retaliate is 593:32 `retaliate`, not 31;
-  - `sendWeaponComponentInformation` writes 593:2/3 (`header`, `title`), while the category text is 593:5.
-
-  None of these was exercised with a 241 client.
+- 241 component ids on interfaces 593 and 160 were corrected from the cache (`data/reports/combat-orbs-241-components.md`, checked by `CombatOrbsComponentsTests`). Left open:
+  - none of the new ids was exercised with a 241 client;
+  - the world map orb (160:55) has four script-labelled ops; which op is "Floating World Map" and which "Fullscreen" (the plugin's `opt != 1` test) is not settled by the cache;
+  - whether a client script already sets the 593 `title`/`category` text, making `sendWeaponComponentInformation`'s writes redundant;
+  - other interfaces bound with 228-era ids (bank, settings 116, quick prayers 77, the world map 595, the toplevel child ids in `InterfaceDestination`, ...) may share the shift; unverified. `./gradlew :plugins:tools:interfaceDump -PcacheArgs="../data/cache <id>..."` lists any interface's components.
 
 ## Autocast (Phase 3)
 - Not modelled:

@@ -48,9 +48,9 @@ class PrayersPlugin(
         }
 
         /**
-         * Toggle quick-prayers.
+         * Toggle quick-prayers: 160:20 `prayerbutton` in the 241 cache (op2 "Setup"); 160:19 is now `prayer_backing`.
          */
-        onButton(interfaceId = 160, component = 19) {
+        onButton(interfaceId = 160, component = 20) {
             val opt = player.getInteractingOption()
             Prayers.toggleQuickPrayers(player, opt)
         }

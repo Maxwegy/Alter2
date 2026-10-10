@@ -840,14 +840,15 @@ fun Player.sendWeaponComponentInformation() {
         name = definition.name
 
         panel = Math.max(0, definition.weaponType)
-        setComponentText(593, 3, "Category: " + WeaponCategory.get(definition.category))
+        setComponentText(593, 5, "Category: " + WeaponCategory.get(definition.category))
     } else {
         name = "Unarmed"
         panel = 0
-        setComponentText(593, 3, "Category: Unarmed")
+        setComponentText(593, 5, "Category: Unarmed")
     }
 
-    setComponentText(593, 2, name)
+    // Revision 241: 593:3 is the `title` text and 593:5 the `category` text (593:2 is the `header` layer).
+    setComponentText(593, 3, name)
     setVarbit(357, panel)
 }
 

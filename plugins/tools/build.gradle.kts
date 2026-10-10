@@ -56,6 +56,11 @@ tasks.register<JavaExec>("gamevalDump") {
     cacheTool("dev.openrune.cache.tools.staging.GamevalDumpMainKt")
 }
 
+tasks.register<JavaExec>("interfaceDump") {
+    description = "List the components of interfaces in a cache: gameval names, if3 type, click mask, ops and text (<dir> <interface id>...)"
+    cacheTool("dev.openrune.cache.tools.staging.InterfaceDumpMainKt")
+}
+
 tasks.register<JavaExec>("rscmGenerate") {
     description = "Generate RSCM tables for a staged cache from its gameval names, with aliases for every committed name and a migration report (<dir> <build> [--out] [--commit])"
     cacheTool("dev.openrune.cache.tools.rscm.RscmGenerateMainKt")

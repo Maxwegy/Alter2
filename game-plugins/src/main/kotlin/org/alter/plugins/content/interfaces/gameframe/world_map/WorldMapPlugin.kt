@@ -26,7 +26,8 @@ class WorldMapPlugin(
 ) : KotlinPlugin(r, world, server) {
         
     init {
-        onButton(interfaceId = 160, component = 53) {
+        // 160:55 `worldmap` in the 241 cache (ops 1-4); 160:53 is now `wiki_icon_graphic`.
+        onButton(interfaceId = 160, component = 55) {
             if (!player.lock.canInterfaceInteract()) {
                 return@onButton
             }
@@ -43,7 +44,7 @@ class WorldMapPlugin(
                     player.openInterface(interfaceId = WORLD_MAP_INTERFACE_ID, dest = InterfaceDestination.WORLD_MAP, fullscreen = false)
                     player.setInterfaceEvents(interfaceId = WORLD_MAP_INTERFACE_ID, component = 21, range = 0..4, setting = InterfaceEvent.ClickOp1)
                 } else {
-                    //  160:53 -> opt 3 for FullScreen
+                    //  160:55 -> opt 3 for FullScreen
                     player.queue {
                         player.animate(Animation.LOOK_AT_MINIMAP_WHEN_FULLSCREEN)
                         wait(1)

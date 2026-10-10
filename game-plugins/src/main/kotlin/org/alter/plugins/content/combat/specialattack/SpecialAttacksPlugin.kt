@@ -52,8 +52,8 @@ class SpecialAttacksPlugin(
         }
 
         // The bar on the combat tab and the minimap orb.
-        onButton(interfaceId = ATTACK_TAB_INTERFACE_ID, component = 36) { onBar(player) }
-        onButton(interfaceId = ORBS_INTERFACE_ID, component = 35) { onBar(player) }
+        onButton(interfaceId = ATTACK_TAB_INTERFACE_ID, component = AttackTab.SPECIAL_ATTACK_COMPONENT) { onBar(player) }
+        onButton(interfaceId = ORBS_INTERFACE_ID, component = SPEC_ORB_COMPONENT) { onBar(player) }
 
         onEquipToSlot(EquipmentType.WEAPON.id) {
             player.setVarp(SPECIAL_ATTACK_VARP, 0)
@@ -103,7 +103,10 @@ class SpecialAttacksPlugin(
     }
 
     private companion object {
-        /** Gameval `orbs`: the minimap orbs, whose component 35 is the special attack orb. */
+        /** Gameval `orbs`: the minimap orbs. */
         const val ORBS_INTERFACE_ID = 160
+
+        /** 160:36 `specbutton` in the 241 cache (160:35 is `specenergy_backing`). */
+        const val SPEC_ORB_COMPONENT = 36
     }
 }
