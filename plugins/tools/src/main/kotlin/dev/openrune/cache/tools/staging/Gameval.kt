@@ -47,6 +47,33 @@ object Gameval {
 
     fun readAll(cache: Cache): Map<Kind, Map<Int, String>> = Kind.values().associateWith { read(cache, it) }
 
+    /** component id → gameval name of one interface; empty when the cache has no index 24 or no such interface. */
+    fun componentNames(cache: Cache, interfaceId: Int): Map<Int, String> {
+        if (!isPresent(cache)) return emptyMap()
+        return componentNames(cache.data(INDEX, Kind.INTERFACE.group, interfaceId) ?: return emptyMap())
+    }
+
+    /**
+     * An interface entry (group 14) is the interface name, a 0 byte, then repeated (unsigned short component id,
+     * name, 0 byte) pairs, closed by component id 0xFFFF.
+     */
+    internal fun componentNames(data: ByteArray): Map<Int, String> {
+        val names = sortedMapOf<Int, String>()
+        var pos = 0
+        while (pos < data.size && data[pos].toInt() != 0) pos++
+        pos++
+        while (pos + 1 < data.size) {
+            val id = ((data[pos].toInt() and 0xFF) shl 8) or (data[pos + 1].toInt() and 0xFF)
+            pos += 2
+            if (id == 0xFFFF) break
+            val start = pos
+            while (pos < data.size && data[pos].toInt() != 0) pos++
+            names[id] = String(data, start, pos - start, Charsets.ISO_8859_1)
+            pos++
+        }
+        return names
+    }
+
     /** The leading name: an optional control-byte prefix (group 10), then bytes up to the first control byte. */
     internal fun name(data: ByteArray): String {
         var start = 0
