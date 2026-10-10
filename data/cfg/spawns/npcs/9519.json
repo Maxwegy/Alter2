@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9519,
+  "spawns": [
+    {
+      "npc": "npc.ogre_hunter2",
+      "x": 2385,
+      "z": 3049,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Scarg",
+        "map": "{{Map|name=Scarg|x=2385|y=3049|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ogre_hunter1",
+      "x": 2412,
+      "z": 3042,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gargh",
+        "map": "{{Map|name=Gargh|x=2412|y=3042|squareX=20|squareY=12|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.smoke_devil_guardian",
+      "x": 2412,
+      "z": 3061,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Breive",
+        "map": "{{Map|name=Breive|x=2412|y=3061|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

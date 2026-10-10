@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9525,
+  "spawns": [
+    {
+      "npc": "npc.aluft_gnome_terrorbird_trainer",
+      "x": 2375,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meegle",
+        "map": "{{Map|name=Meegle|x=2375|y=3437|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_customer_male",
+      "x": 2416,
+      "z": 3416,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Eebel",
+        "map": "{{Map|name=Eebel|x=2416|y=3416|plane=1|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

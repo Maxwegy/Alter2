@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10037,
+  "spawns": [
+    {
+      "npc": "npc.hadley_waterfall_quest",
+      "x": 2519,
+      "z": 3429,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hadley",
+        "map": "{{Map|name=Hadley|x=2519|y=3429|plane=0|r=10|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.canoeing_kaiquir",
+      "x": 2527,
+      "z": 3408,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kaiquir",
+        "map": "{{Map|2527,3408|mtype=square|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.gerald_waterfall_quest",
+      "x": 2527,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gerald",
+        "map": "{{Map|name=Gerald|x=2527|y=3415|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shadow_warrior_rasool",
+      "x": 2535,
+      "z": 3431,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rasolo",
+        "map": "{{Map|name=Rasolo|x=2535|y=3431|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.secret_ghost_explorer",
+      "x": 2558,
+      "z": 3446,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Valdez",
+        "map": "{{Map|name=Valdez|x=2558|y=3446|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

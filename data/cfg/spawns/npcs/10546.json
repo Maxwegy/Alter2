@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10546,
+  "spawns": [
+    {
+      "npc": "npc.tol_npc_efergy01",
+      "x": 2640,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Effigy",
+        "map": "{{Map|name=Effigy|x=2640|y=3218|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_efergy01_still",
+      "x": 2640,
+      "z": 3218,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Effigy",
+        "map": "{{Map|name=Effigy|x=2640|y=3218|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sotn_evelot_vis",
+      "x": 2643,
+      "z": 3202,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Evelot",
+        "map": "{{Map|x=2643|y=3202|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_builder02",
+      "x": 2644,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'No_fingers'",
+        "map": "{{Map|name='No fingers'|x=2644|y=3223|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_builder04",
+      "x": 2644,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'The_Guns'",
+        "map": "{{Map|name='The Guns'|x=2644|y=3226|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_builder01",
+      "x": 2646,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Black-eye'",
+        "map": "{{Map|name='Black-eye'|x=2646|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_builder03",
+      "x": 2647,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Gummy'",
+        "map": "{{Map|name='Gummy'|x=2647|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_mage01",
+      "x": 2649,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Transmute'_The_Alchemist",
+        "map": "{{Map|name='Transmute' The Alchemist|x=2649|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_mage01_still",
+      "x": 2649,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Transmute'_The_Alchemist",
+        "map": "{{Map|name='Transmute' The Alchemist|x=2649|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_mage02",
+      "x": 2649,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Currency'_The_Alchemist",
+        "map": "{{Map|name='Currency' The Alchemist|x=2649|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_mage02_still",
+      "x": 2649,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/'Currency'_The_Alchemist",
+        "map": "{{Map|name='Currency' The Alchemist|x=2649|y=3228|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tol_npc_barry01",
+      "x": 2651,
+      "z": 3227,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bonafido",
+        "map": "{{Map|name=Bonafido|x=2651|y=3227|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_necromancers_assistant",
+      "x": 2670,
+      "z": 3243,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Irwin_Feaselbaum",
+        "map": "{{Map|name=Irwin Feaselbaum|x=2670|y=3243|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

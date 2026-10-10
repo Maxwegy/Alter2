@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9527,
+  "spawns": [
+    {
+      "npc": "npc.gnome_tortoise_trainer",
+      "x": 2418,
+      "z": 3526,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Trainer_Nacklepen",
+        "map": "{{Map|name=Trainer Nacklepen|x=2418|y=3526|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4913,
+  "spawns": [
+    {
+      "npc": "npc.scrambled_alan",
+      "x": 1247,
+      "z": 3167,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alan_(Scrambled!)",
+        "map": "{{Map|name=Alan|1247,3167|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_alan_cutscene",
+      "x": 1247,
+      "z": 3167,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alan_(Scrambled!)",
+        "map": "{{Map|name=Alan|1247,3167|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_alan_cutscene_alt",
+      "x": 1247,
+      "z": 3167,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alan_(Scrambled!)",
+        "map": "{{Map|name=Alan|1247,3167|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.tal_teok_teoki_ralos",
+      "x": 1260,
+      "z": 3154,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jatziri,_Teoki_of_Ralos",
+        "map": "{{Map|1260,3154|mtype=square|r=3}}"
+      }
+    }
+  ]
+}

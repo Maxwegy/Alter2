@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 15163,
+  "spawns": [
+    {
+      "npc": "npc.fossil_mineguard",
+      "x": 3817,
+      "z": 3809,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Petrified_Pete",
+        "map": "{{Map|name=Petrified Pete|x=3817|y=3809|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

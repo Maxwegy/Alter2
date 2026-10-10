@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12600,
+  "spawns": [
+    {
+      "npc": "npc.wildy_hub_refugee1",
+      "x": 3139,
+      "z": 3626,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Skully",
+        "map": "{{Map|3139,3626|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.pvptut_npc_to_kill_1",
+      "x": 3139,
+      "z": 3630,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bowman67",
+        "map": "{{Map|name=Bowman67|x=3139|y=3630|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.pvptut_tutor",
+      "x": 3139,
+      "z": 3630,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pete_Kayer",
+        "map": "{{Map|name=Pete Kayer|x=3139|y=3630|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.br_reward_shopkeeper",
+      "x": 3142,
+      "z": 3635,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Justine",
+        "map": "{{Map|name=Justine|x=3142|y=3635|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.br_wizard_casual",
+      "x": 3142,
+      "z": 3642,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
+        "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.br_wizard_competitive",
+      "x": 3142,
+      "z": 3642,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
+        "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.br_wizard_highstakes",
+      "x": 3142,
+      "z": 3642,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
+        "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wildy_bear_hunter",
+      "x": 3152,
+      "z": 3644,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Derse_Venator",
+        "map": "{{Map|name=Derse Venator|x=3152|y=3644|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wildy_hub_pub_owner",
+      "x": 3152,
+      "z": 3644,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Camarst",
+        "map": "{{Map|name=Camarst|x=3152|y=3644|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wildy_skeleton_hunter",
+      "x": 3152,
+      "z": 3644,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Andros_Mai",
+        "map": "{{Map|name=Andros Mai|x=3152|y=3644|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wildy_spider_hunter",
+      "x": 3152,
+      "z": 3644,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Phabelle_Bile",
+        "map": "{{Map|name=Phabelle Bile|x=3152|y=3644|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.canoeing_marten",
+      "x": 3153,
+      "z": 3630,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marten",
+        "map": "{{Map|name=Marten|3153,3630|mtype=pin}}"
+      }
+    }
+  ]
+}

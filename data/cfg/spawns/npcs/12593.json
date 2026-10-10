@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12593,
+  "spawns": [
+    {
+      "npc": "npc.slice_sergeant_mossfists",
+      "x": 3170,
+      "z": 3172,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sergeant_Mossfists",
+        "map": "{{Map|name=Sergeant Mossfists|x=3170|y=3172|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.slice_sergeant_slimetoes",
+      "x": 3170,
+      "z": 3172,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sergeant_Slimetoes",
+        "map": "{{Map|name=Sergeant Slimetoes|x=3170|y=3172|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.swamp_candle_guy",
+      "x": 3170,
+      "z": 3176,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Candle_seller",
+        "map": "{{Map|3170,3176|r=2|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11570,
+  "spawns": [
+    {
+      "npc": "npc.corsair_captain_1op",
+      "x": 2910,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Tock",
+        "map": "{{Map|name=Captain Tock|x=2910|y=3226|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.corsair_captain_2ops",
+      "x": 2910,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Tock",
+        "map": "{{Map|name=Captain Tock|x=2910|y=3226|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.corscurs_cabinboy_2ops",
+      "x": 2910,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cabin_Boy_Colin",
+        "map": "{{Map|name=Cabin Boy Colin|x=2910|y=3226|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.sailing_charting_weather_troll",
+      "x": 2912,
+      "z": 3213,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meaty_Aura_Logist",
+        "map": "{{Map|2903,2698|2140,2806|2979,2905|2335,2921|1779,2940|2638,3009|2149,3068|1714,3193|2656,3195|2912,3213|2130,3395|1867,3458|1651,3461|2280,3518|2498,3546|2594,3644|2341,3790|2600,3910|2951,3962|2447,3995|zoom=-3|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.artist1",
+      "x": 2928,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Da_Vinci",
+        "map": "{{Map|name=Da Vinci|x=2928|y=3220|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.drunk1",
+      "x": 2928,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hops_(Biohazard)",
+        "map": "{{Map|name=Hops (Biohazard)|x=2928|y=3220|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gambler1",
+      "x": 2928,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chancy",
+        "map": "{{Map|name=Chancy|x=2928|y=3220|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.chemist",
+      "x": 2932,
+      "z": 3210,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chemist",
+        "map": "{{Map|name=Chemist|x=2932|y=3210|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_bush_2",
+      "x": 2941,
+      "z": 3222,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Taria",
+        "map": "{{Map|name=Taria|x=2941|y=3222|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

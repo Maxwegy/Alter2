@@ -61,6 +61,14 @@ class NpcSpawnDataTests {
         // plugins, 30 in the Barrows brothers' plugins and 1 King Black Dragon: every spawnNpc call before Phase 2.
         val manual = read.entries.count { it.source is NpcSpawnSource.Manual }
         assertEquals(115, manual)
-        assertEquals(manual, read.entries.size)
+    }
+
+    @Test
+    fun `the first spawnSync run added 4291 wiki entries`() {
+        // ./gradlew :alter-data:spawnSync on 2026-10-10 (cache 241): 3213 pages, 4291 wiki entries, 21 dropped for a
+        // manual entry. Update these numbers with every committed spawnSync run.
+        val wiki = read.entries.count { it.source is NpcSpawnSource.Wiki }
+        assertEquals(4291, wiki)
+        assertEquals(115 + 4291, read.entries.size)
     }
 }

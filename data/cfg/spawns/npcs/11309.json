@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11309,
+  "spawns": [
+    {
+      "npc": "npc.gujuo",
+      "x": 2864,
+      "z": 2912,
+      "height": 0,
+      "walkRadius": 25,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gujuo",
+        "map": "{{Map|2864,2912|rectX=200|rectY=50|mtype=rectangle}}"
+      }
+    }
+  ]
+}

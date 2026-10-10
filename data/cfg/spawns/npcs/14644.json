@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14644,
+  "spawns": [
+    {
+      "npc": "npc.remus_kaninus",
+      "x": 3656,
+      "z": 3378,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Remus_Kaninus",
+        "map": "{{Map|name=Remus Kaninus|x=3656|y=3378|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vampyressa_van_von",
+      "x": 3657,
+      "z": 3378,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vampyressa_van_Von",
+        "map": "{{Map|name=Vampyressa van Von|x=3657|y=3378|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mordan_nikazsi",
+      "x": 3661,
+      "z": 3348,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mordan_Nikazsi",
+        "map": "{{Map|name=Mordan Nikazsi|x=3661|y=3348|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vallessia_von_pitt",
+      "x": 3664,
+      "z": 3379,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vallessia_von_Pitt",
+        "map": "{{Map|name=Vallessia von Pitt|x=3664|y=3379|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 7222,
+  "spawns": [
+    {
+      "npc": "npc.hosidius_tithe_farmer",
+      "x": 1800,
+      "z": 3502,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Farmer_Gricoller",
+        "map": "{{Map|name=Farmer Gricoller|x=1800|y=3502|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hosidius_evilgrapegirl",
+      "x": 1800,
+      "z": 3502,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bologa",
+        "map": "{{Map|name=Bologa|x=1800|y=3502|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_minecart_tithe_farm",
+      "x": 1807,
+      "z": 3479,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elnes",
+        "map": "{{Map|name=Elnes|x=1807|y=3479|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

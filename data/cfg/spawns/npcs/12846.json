@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12846,
+  "spawns": [
+    {
+      "npc": "npc.fd_elder_by_mirrors",
+      "x": 3214,
+      "z": 2955,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Eblis",
+        "map": "{{Map|x=3214|y=2955|r=3|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

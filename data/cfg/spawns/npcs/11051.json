@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11051,
+  "spawns": [
+    {
+      "npc": "npc.mm_ifaba",
+      "x": 2753,
+      "z": 2776,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ifaba",
+        "map": "{{Map|name=Ifaba|x=2753|y=2776|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_tutab",
+      "x": 2757,
+      "z": 2769,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tutab",
+        "map": "{{Map|name=Tutab|x=2757|y=2769|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_daga",
+      "x": 2759,
+      "z": 2775,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Daga",
+        "map": "{{Map|name=Daga|x=2759|y=2775|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm2_le_smith",
+      "x": 2760,
+      "z": 2786,
+      "height": 2,
+      "walkRadius": 45,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Assistant_Le_Smith",
+        "map": "{{Map|name=Assistant Le Smith|x=2760|y=2786|plane=2|r=45|mtype=square|zoom=1}}"
+      }
+    },
+    {
+      "npc": "npc.mm_sleeping_monkey_guard",
+      "x": 2761,
+      "z": 2771,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sleeping_Monkey",
+        "map": "{{Map|name=Sleeping Monkey|x=2761|y=2771|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_solihib",
+      "x": 2768,
+      "z": 2789,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Solihib",
+        "map": "{{Map|name=Solihib|2768,2789|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mm_aberab",
+      "x": 2769,
+      "z": 2799,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aberab",
+        "map": "{{Map|name=Aberab|x=2769|y=2799|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_trefaji",
+      "x": 2769,
+      "z": 2799,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Trefaji",
+        "map": "{{Map|name=Trefaji|x=2769|y=2799|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm2_javelinstoreowner",
+      "x": 2775,
+      "z": 2778,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oobapohk",
+        "map": "{{Map|name=Oobapohk|x=2775|y=2778|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_bunkdo_final_battle",
+      "x": 2775,
+      "z": 2796,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bunkdo",
+        "map": "{{Map|name=Bunkdo|x=2775|y=2796|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.mm_lumo_final_battle",
+      "x": 2775,
+      "z": 2796,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lumo",
+        "map": "{{Map|name=Lumo|x=2775|y=2796|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.mm_carado_final_battle",
+      "x": 2775,
+      "z": 2801,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Carado",
+        "map": "{{Map|name=Carado|x=2775|y=2801|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.mm2_monkey_banker_model",
+      "x": 2781,
+      "z": 2784,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jumaane",
+        "map": "{{Map|name=Jumaane|x=2781|y=2784|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_hamab",
+      "x": 2781,
+      "z": 2794,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hamab",
+        "map": "{{Map|name=Hamab|2781,2794|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.hundred_ilm_mizaru",
+      "x": 2787,
+      "z": 2795,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mizaru",
+        "map": "{{Map|name=Mizaru|x=2787|y=2795|zoom=3|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hundred_ilm_kikazaru",
+      "x": 2788,
+      "z": 2795,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kikazaru",
+        "map": "{{Map|name=Kikazaru|x=2788|y=2795|zoom=3|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hundred_ilm_iwazaru",
+      "x": 2789,
+      "z": 2795,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Iwazaru",
+        "map": "{{Map|name=Iwazaru|x=2789|y=2795|zoom=3|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_hafuba",
+      "x": 2798,
+      "z": 2799,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hafuba",
+        "map": "{{Map|name=Hafuba|x=2798|y=2799|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_elder_guard_1",
+      "x": 2802,
+      "z": 2759,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elder_Guard",
+        "map": "{{Map|name=Elder Guard|x=2802|y=2759|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_elder_guard_2",
+      "x": 2802,
+      "z": 2759,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elder_Guard",
+        "map": "{{Map|name=Elder Guard|x=2802|y=2759|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_murowoi",
+      "x": 2803,
+      "z": 2765,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Muruwoi",
+        "map": "{{Map|name=Muruwoi|x=2803|y=2765|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_uwogo",
+      "x": 2803,
+      "z": 2765,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Uwogo",
+        "map": "{{Map|name=Uwogo|x=2803|y=2765|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_garkor_aa",
+      "x": 2805,
+      "z": 2762,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Garkor",
+        "map": "{{Map|name=Garkor|x=2805|y=2762|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.mm_lofu",
+      "x": 2805,
+      "z": 2782,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lofu",
+        "map": "{{Map|name=Lofu|x=2805|y=2782|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.mm_denadu",
+      "x": 2805,
+      "z": 2789,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Denadu",
+        "map": "{{Map|name=Denadu|x=2805|y=2789|plane=1|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

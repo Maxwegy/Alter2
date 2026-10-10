@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6461,
+  "spawns": [
+    {
+      "npc": "npc.wint_soldier",
+      "x": 1625,
+      "z": 3941,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Winter_Soldier",
+        "map": "{{Map|name=Winter Soldier|x=1625|y=3941|plane=0|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wint_wcguild_rep",
+      "x": 1632,
+      "z": 3940,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Esther",
+        "map": "{{Map|name=Esther|x=1632|y=3940|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wint_pisc_navigator",
+      "x": 1632,
+      "z": 3941,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ish_the_Navigator",
+        "map": "{{Map|name=Ish the Navigator|x=1632|y=3941|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wint_shay_guard",
+      "x": 1632,
+      "z": 3941,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Kalt",
+        "map": "{{Map|name=Captain Kalt|x=1632|y=3941|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wint_master_pyromancer",
+      "x": 1634,
+      "z": 3949,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ignisia",
+        "map": "{{Map|name=Ignisia|x=1634|y=3949|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wint_toad",
+      "x": 1636,
+      "z": 3941,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wintertoad",
+        "map": "{{Map|name=Wintertoad|x=1636|y=3941|r=10|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lovakengj_minecart_northern_tundras",
+      "x": 1648,
+      "z": 3929,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lassin",
+        "map": "{{Map|name=Lassin|x=1648|y=3929|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11827,
+  "spawns": [
+    {
+      "npc": "npc.wayne",
+      "x": 2972,
+      "z": 3313,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wayne",
+        "map": "{{Map|name=Wayne|x=2972|y=3313|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.agrith_noncombat_ghost",
+      "x": 2990,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_(Malignius_Mortifer)",
+        "map": "{{Map|name=Ghost (Malignius Mortifer)|x=2990|y=3268|plane=0|r=9|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.elemental_wizard_boss",
+      "x": 2990,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Malignius_Mortifer",
+        "map": "{{Map|name=Malignius Mortifer|x=2990|y=3268|r=10|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.unattackable_skeleton",
+      "x": 2990,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Skeleton_(Malignius_Mortifer)",
+        "map": "{{Map|name=Skeleton|x=2990|y=3268|plane=0|r=9|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.unattackable_skeleton_mage",
+      "x": 2990,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Skeleton_mage_(Malignius_Mortifer)",
+        "map": "{{Map|name=Skeleton mage|x=2990|y=3268|plane=0|r=9|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.unattackable_zombie",
+      "x": 2990,
+      "z": 3268,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zombie_(Malignius_Mortifer)",
+        "map": "{{Map|name=Zombie|x=2990|y=3268|plane=0|r=9|mtype=square}}"
+      }
+    }
+  ]
+}

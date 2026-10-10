@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9007,
+  "spawns": [
+    {
+      "npc": "npc.sailing_bt_rat",
+      "x": 2244,
+      "z": 3010,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rat_(Barracuda_Trials)",
+        "map": "{{Map|mtype=pin|2244,3010}}"
+      }
+    }
+  ]
+}

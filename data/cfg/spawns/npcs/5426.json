@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5426,
+  "spawns": [
+    {
+      "npc": "npc.tlati_riverboat_owner_north",
+      "x": 1399,
+      "z": 3245,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Achilka",
+        "map": "{{Map|name=Achilka|mtype=pin|1399,3245|zoom=1|x=1382|y=3289}}"
+      }
+    }
+  ]
+}

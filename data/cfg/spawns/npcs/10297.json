@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10297,
+  "spawns": [
+    {
+      "npc": "npc.haskell_no_travel",
+      "x": 2621,
+      "z": 3691,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Haskell",
+        "map": "{{Map|name=Haskell|x=2621|y=3691|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.haskell_stone",
+      "x": 2621,
+      "z": 3691,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Haskell",
+        "map": "{{Map|name=Haskell|x=2621|y=3691|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.haskell_travel",
+      "x": 2621,
+      "z": 3691,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Haskell",
+        "map": "{{Map|name=Haskell|x=2621|y=3691|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

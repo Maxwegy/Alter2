@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13361,
+  "spawns": [
+    {
+      "npc": "npc.giants_foundry_kovac_fake_attack",
+      "x": 3363,
+      "z": 3148,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kovac",
+        "map": "{{Map|3363,3148|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.clanwars_doctor",
+      "x": 3365,
+      "z": 3171,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dr_Ford",
+        "map": "{{Map|name=Dr Ford|x=3365|y=3171|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

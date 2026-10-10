@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10275,
+  "spawns": [
+    {
+      "npc": "npc.wyrmscraig_clothier",
+      "x": 2573,
+      "z": 2242,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Declan",
+        "map": "{{Map|2573,2242|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.wyrmscraig_villager_1",
+      "x": 2573,
+      "z": 2295,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ffion",
+        "map": "{{Map|2573,2295|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.cormac",
+      "x": 2576,
+      "z": 2253,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cormac",
+        "map": "{{Map|2576,2253|mtype=square|r=3|zoom=3}}"
+      }
+    },
+    {
+      "npc": "npc.wyrmscraig_smith",
+      "x": 2580,
+      "z": 2266,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oisin",
+        "map": "{{Map|2580,2266|mtype=pin}}"
+      }
+    }
+  ]
+}

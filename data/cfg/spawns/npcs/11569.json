@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11569,
+  "spawns": [
+    {
+      "npc": "npc.fishing_boat_memberfish",
+      "x": 2885,
+      "z": 3194,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Boat_fishing_spot_(big_net,_harpoon)",
+        "map": "{{Map|mtype=pin|x=2885|y=3194|zoom=1}}"
+      }
+    },
+    {
+      "npc": "npc.generalassistant7",
+      "x": 2905,
+      "z": 3149,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Musa_Point)",
+        "map": "{{Map|name=Shop assistant (Musa Point)|x=2905|y=3149|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalshopkeeper7",
+      "x": 2905,
+      "z": 3149,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Musa_Point)",
+        "map": "{{Map|name=Shop keeper (Musa Point)|x=2905|y=3149|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zembo",
+      "x": 2927,
+      "z": 3145,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zembo",
+        "map": "{{Map|name=Zembo|x=2927|y=3145|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.luthas",
+      "x": 2939,
+      "z": 3154,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Luthas",
+        "map": "{{Map|name=Luthas|x=2939|y=3154|plane=0|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

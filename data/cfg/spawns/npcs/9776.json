@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9776,
+  "spawns": [
+    {
+      "npc": "npc.castlewars_judge_model",
+      "x": 2441,
+      "z": 3090,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lanthus",
+        "map": "{{Map|name=Lanthus|x=2441|y=3090|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zep_assist_cast",
+      "x": 2459,
+      "z": 3108,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Assistant_Marrow",
+        "map": "{{Map|name=Assistant Marrow|x=2459|y=3108|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

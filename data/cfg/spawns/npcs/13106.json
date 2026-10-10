@@ -11,6 +11,171 @@
       "direction": "WEST",
       "source": "manual",
       "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.borderguard1",
+      "x": 3267,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Guard",
+        "map": "{{Map|name=Border Guard|mtype=pin|3267,3226|3267,3229|ptype=npc|id=4287|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.borderguard1",
+      "x": 3267,
+      "z": 3229,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Guard",
+        "map": "{{Map|name=Border Guard|mtype=pin|3267,3226|3267,3229|ptype=npc|id=4287|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.borderguard2",
+      "x": 3268,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Guard",
+        "map": "{{Map|name=Border Guard|mtype=pin|3268,3226|3268,3229|ptype=npc|id=4288|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.borderguard2",
+      "x": 3268,
+      "z": 3229,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Guard",
+        "map": "{{Map|name=Border Guard|mtype=pin|3268,3226|3268,3229|ptype=npc|id=4288|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.ollie_the_camel",
+      "x": 3281,
+      "z": 3212,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ollie_the_Camel",
+        "map": "{{Map|name=Ollie the Camel|x=3281|y=3212|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.alice_the_camel",
+      "x": 3283,
+      "z": 3200,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alice_the_Camel",
+        "map": "{{Map|name=Alice the Camel|x=3283|y=3200|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gem_trader",
+      "x": 3287,
+      "z": 3212,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gem_trader",
+        "map": "{{Map|name=Gem trader|x=3287|y=3212|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.cam_the_camel",
+      "x": 3297,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cam_the_Camel",
+        "map": "{{Map|name=Cam the Camel|x=3297|y=3228|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.silk_trader",
+      "x": 3298,
+      "z": 3202,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Silk_trader",
+        "map": "{{Map|name=Silk trader|x=3298|y=3202|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.elly_the_camel",
+      "x": 3302,
+      "z": 3211,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elly_the_Camel",
+        "map": "{{Map|name=Elly the Camel|x=3302|y=3211|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.feud_ali_m",
+      "x": 3304,
+      "z": 3211,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_Morrisane",
+        "map": "{{Map|x=3304|y=3211|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_cactus",
+      "x": 3314,
+      "z": 3201,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ayesha",
+        "map": "{{Map|name=Ayesha|x=3314|y=3201|r=6|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_guard_6",
+      "x": 3314,
+      "z": 3235,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Yon",
+        "map": "{{Map|name=Arena Guard Yon|x=3314|y=3235|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.duel_mubariz",
+      "x": 3314,
+      "z": 3240,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mubariz",
+        "map": "{{Map|name=Mubariz|x=3314|y=3240|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pvpa_guard_2_model",
+      "x": 3325,
+      "z": 3254,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Joby",
+        "map": "{{Map|name=Arena Guard Joby|x=3325|y=3254|r=3|mtype=square}}"
+      }
     }
   ]
 }

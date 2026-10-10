@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11323,
+  "spawns": [
+    {
+      "npc": "npc.fd_trollblock1",
+      "x": 2825,
+      "z": 3807,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ice_block",
+        "map": "{{Map|name=Ice block|2825,3807|plane=2|group=1|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.fd_trollblock2",
+      "x": 2825,
+      "z": 3811,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ice_block",
+        "map": "{{Map|name=Ice block|2825,3811|plane=2|group=2|mtype=pin}}"
+      }
+    }
+  ]
+}

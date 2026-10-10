@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13618,
+  "spawns": [
+    {
+      "npc": "npc.saradominist_zealot",
+      "x": 3444,
+      "z": 3258,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zealot",
+        "map": "{{Map|name=Zealot|x=3444|y=3258|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

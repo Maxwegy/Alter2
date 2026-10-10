@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11572,
+  "spawns": [
+    {
+      "npc": "npc.zandar_horfyre",
+      "x": 2908,
+      "z": 3335,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zandar_Horfyre",
+        "map": "{{Map|name=Zandar Horfyre|x=2908|y=3335|plane=2|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6958,
+  "spawns": [
+    {
+      "npc": "npc.stonecutter_dwarf_f_1",
+      "x": 1735,
+      "z": 2968,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_2",
+      "x": 1735,
+      "z": 2968,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_1",
+      "x": 1735,
+      "z": 2968,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_2",
+      "x": 1735,
+      "z": 2968,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_1",
+      "x": 1740,
+      "z": 2955,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_2",
+      "x": 1740,
+      "z": 2955,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_1",
+      "x": 1740,
+      "z": 2955,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_2",
+      "x": 1740,
+      "z": 2955,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_liaison",
+      "x": 1741,
+      "z": 2960,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Avinia",
+        "map": "{{Map|x=1741|y=2960|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_1",
+      "x": 1741,
+      "z": 2972,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_2",
+      "x": 1741,
+      "z": 2972,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_1",
+      "x": 1741,
+      "z": 2972,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_2",
+      "x": 1741,
+      "z": 2972,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_stonemason",
+      "x": 1742,
+      "z": 2977,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Metla",
+        "map": "{{Map|x=1742|y=2977|r=4|plane=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_1",
+      "x": 1750,
+      "z": 2959,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_f_2",
+      "x": 1750,
+      "z": 2959,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_1",
+      "x": 1750,
+      "z": 2959,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.stonecutter_dwarf_m_2",
+      "x": 1750,
+      "z": 2959,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(Stonecutter_Outpost)",
+        "map": "{{Map|name=Worker|1735,2968|1750,2959|1740,2955|1741,2972|mtype=pin}}"
+      }
+    }
+  ]
+}

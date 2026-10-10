@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11319,
+  "spawns": [
+    {
+      "npc": "npc.death_sherpa",
+      "x": 2821,
+      "z": 3556,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tenzing",
+        "map": "{{Map|name=Tenzing|x=2821|y=3556|plane=0|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_gamfred",
+      "x": 2841,
+      "z": 3541,
+      "height": 1,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gamfred",
+        "map": "{{Map|name=Gamfred|x=2841|y=3541|plane=1|squareX=8|squareY=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_food_shopkeeper",
+      "x": 2841,
+      "z": 3552,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lidio",
+        "map": "{{Map|name=Lidio|x=2841|y=3552|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_banker",
+      "x": 2843,
+      "z": 3543,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jade_(Warriors'_Guild)",
+        "map": "{{Map|name=Jade|x=2843|y=3543|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_kamfreena",
+      "x": 2844,
+      "z": 3540,
+      "height": 2,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kamfreena",
+        "map": "{{Map|name=Kamfreena|x=2844|y=3540|plane=2|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_potion_shopkeeper",
+      "x": 2846,
+      "z": 3552,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lilly",
+        "map": "{{Map|name=Lilly|x=2846|y=3552|plane=0|squareX=7|squareY=10|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_ajjat",
+      "x": 2851,
+      "z": 3553,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ajjat",
+        "map": "{{Map|name=Ajjat|x=2851|y=3553|plane=0|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_sloane_npc",
+      "x": 2855,
+      "z": 3553,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sloane",
+        "map": "{{Map|name=Sloane|2855,3553|plane=1|rectX=5|rectY=8|mtype=rectangle|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_yadech_npc",
+      "x": 2855,
+      "z": 3553,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Yadech_Strongarm",
+        "map": "{{Map|2855,3553|plane=1|rectX=6|rectY=8|mtype=rectangle|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_armour_shopkeeper",
+      "x": 2857,
+      "z": 3537,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Anton",
+        "map": "{{Map|name=Anton|x=2857|y=3537|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_shanomi",
+      "x": 2857,
+      "z": 3542,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shanomi",
+        "map": "{{Map|name=Shanomi|x=2857|y=3542|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_harrallak_npc",
+      "x": 2866,
+      "z": 3547,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Harrallak_Menarous",
+        "map": "{{Map|name=Harrallak Menarous|x=2866|y=3547|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.strength_referree2",
+      "x": 2867,
+      "z": 3544,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ref",
+        "map": "{{Map|name=Ref|x=2867|y=3544|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.strength_referree1",
+      "x": 2867,
+      "z": 3556,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ref",
+        "map": "{{Map|name=Ref|x=2867|y=3556|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.war_strength_drunken_warrior",
+      "x": 2872,
+      "z": 3540,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jimmy_(Warriors'_Guild)",
+        "map": "{{Map|name=Jimmy (Warriors' Guild)|x=2872|y=3540|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_ghommal_npc",
+      "x": 2879,
+      "z": 3547,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghommal",
+        "map": "{{Map|name=Ghommal|x=2879|y=3547|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.warguild_laidee",
+      "x": 2879,
+      "z": 3547,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Laidee_Gnonock",
+        "map": "{{Map|name=Laidee Gnonock|x=2879|y=3547|plane=0|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

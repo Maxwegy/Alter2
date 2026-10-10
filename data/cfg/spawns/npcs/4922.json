@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4922,
+  "spawns": [
+    {
+      "npc": "npc.lovakengj_minecart_farming_guild",
+      "x": 1219,
+      "z": 3737,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ferain",
+        "map": "{{Map|name=Ferain|x=1219|y=3737|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit1",
+      "x": 1223,
+      "z": 3749,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1223, y:3749|x:1237,y:3733|x:1240,y:3753|x:1252,y:3748|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_anima_gardener",
+      "x": 1230,
+      "z": 3725,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Felfiz_Yaryus",
+        "map": "{{Map|name=Felfiz Yaryus|x=1230|y=3725|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit2",
+      "x": 1230,
+      "z": 3735,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1230,y:3735|x:1236,y:3759|x:1245,y:3757|x:1262,y:3735|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_hespori_farmer",
+      "x": 1231,
+      "z": 3729,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Arno",
+        "map": "{{Map|name=Arno|x=1231|y=3729|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_farmguild_t2",
+      "x": 1232,
+      "z": 3732,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rosie",
+        "map": "{{Map|name=Rosie (Farming Guild)|x=1232|y=3732|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit3",
+      "x": 1235,
+      "z": 3725,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1235,y:3725|x:1252,y:3754|mtype=pin|group=3}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_farmguild_redwood",
+      "x": 1236,
+      "z": 3753,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alexandra",
+        "map": "{{Map|name=Alexandra|x=1236|y=3753|plane=0|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit2",
+      "x": 1236,
+      "z": 3759,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1230,y:3735|x:1236,y:3759|x:1245,y:3757|x:1262,y:3735|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit1",
+      "x": 1237,
+      "z": 3733,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1223, y:3749|x:1237,y:3733|x:1240,y:3753|x:1252,y:3748|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit1",
+      "x": 1240,
+      "z": 3753,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1223, y:3749|x:1237,y:3733|x:1240,y:3753|x:1252,y:3748|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_farmguild_t3",
+      "x": 1242,
+      "z": 3757,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nikkie",
+        "map": "{{Map|name=Nikkie|x=1242|y=3757|plane=0|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit2",
+      "x": 1245,
+      "z": 3757,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1230,y:3735|x:1236,y:3759|x:1245,y:3757|x:1262,y:3735|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_guard_1",
+      "x": 1246,
+      "z": 3719,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Soldier_(Kebos_Lowlands)",
+        "map": "{{Map|name=Soldier|1246,3719|1254,3683|1289,3695|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_guard_3",
+      "x": 1246,
+      "z": 3719,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranger_(Kebos_Lowlands)",
+        "map": "{{Map|name=Ranger|1246,3719|1254,3683|1289,3695|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.kebos_seed_merchant",
+      "x": 1247,
+      "z": 3740,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Amelia_(Farming_Guild)",
+        "map": "{{Map|name=Amelia (Farming Guild)|x=1247|y=3740|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_farmguild_celastrus",
+      "x": 1247,
+      "z": 3754,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Taylor",
+        "map": "{{Map|name=Taylor|x=1247|y=3754|plane=0|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_banker1",
+      "x": 1250,
+      "z": 3760,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Farming_Guild)",
+        "map": "{{Map|name=Banker (Farming Guild)|x=1250|y=3760|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_banker2",
+      "x": 1250,
+      "z": 3760,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Farming_Guild)",
+        "map": "{{Map|name=Banker (Farming Guild)|x=1250|y=3760|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kebos_farming_store",
+      "x": 1251,
+      "z": 3734,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Allanna",
+        "map": "{{Map|name=Allanna|x=1251|y=3734|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kebos_poh_garden_supplier",
+      "x": 1251,
+      "z": 3735,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Garden_supplier",
+        "map": "{{Map|name=Garden supplier|x=1251|y=3735|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit1",
+      "x": 1252,
+      "z": 3748,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1223, y:3749|x:1237,y:3733|x:1240,y:3753|x:1252,y:3748|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit3",
+      "x": 1252,
+      "z": 3754,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1235,y:3725|x:1252,y:3754|mtype=pin|group=3}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_spirit_tree_5",
+      "x": 1255,
+      "z": 3753,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Latlink_Fastbell",
+        "map": "{{Map|name=Latlink Fastbell|x=1255|y=3753|plane=0|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.kebos_farming_guild_gazebo_cat_box",
+      "x": 1256,
+      "z": 3758,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cat_(Farming_Guild)",
+        "map": "{{Map|name=Cat (Farming Guild)|x=1256|y=3758|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.farming_guild_rabbit2",
+      "x": 1262,
+      "z": 3735,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rabbit_(Farming_Guild)",
+        "map": "{{Map|x:1230,y:3735|x:1236,y:3759|x:1245,y:3757|x:1262,y:3735|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_farmguild_t1",
+      "x": 1264,
+      "z": 3734,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alan_(Farming_Guild)",
+        "map": "{{Map|name=Alan (Farming Guild)|x=1264|y=3734|r=2|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10033,
+  "spawns": [
+    {
+      "npc": "npc.elkoy_1op",
+      "x": 2503,
+      "z": 3193,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elkoy",
+        "map": "{{Map|name=Elkoy|x=2503|y=3193|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.elkoy_2ops",
+      "x": 2503,
+      "z": 3193,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Elkoy",
+        "map": "{{Map|name=Elkoy|x=2503|y=3193|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.remsai",
+      "x": 2523,
+      "z": 3169,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Remsai",
+        "map": "{{Map|name=Remsai|x=2523|y=3169|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.treevillage_shopkeeper1",
+      "x": 2528,
+      "z": 3162,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bolkoy",
+        "map": "{{Map|name=Bolkoy|x=2528|y=3162|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lostgnome",
+      "x": 2528,
+      "z": 3180,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kalron",
+        "map": "{{Map|name=Kalron|x=2528|y=3180|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.chantergnome",
+      "x": 2542,
+      "z": 3170,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Local_Gnome",
+        "map": "{{Map|name=Local Gnome|x=2542|y=3170|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.king_bolren",
+      "x": 2542,
+      "z": 3170,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/King_Bolren",
+        "map": "{{Map|name=King Bolren|x=2542|y=3170|plane=0|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

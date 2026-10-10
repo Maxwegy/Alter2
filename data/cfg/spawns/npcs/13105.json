@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13105,
+  "spawns": [
+    {
+      "npc": "npc.kharidbanker1",
+      "x": 3269,
+      "z": 3167,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Al_Kharid)",
+        "map": "{{Map|name=Banker (Al Kharid)|x=3269|y=3167|rectX=8|rectY=13|mtype=rectangle}}"
+      }
+    },
+    {
+      "npc": "npc.kharidbanker2",
+      "x": 3269,
+      "z": 3167,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Al_Kharid)",
+        "map": "{{Map|name=Banker (Al Kharid)|x=3269|y=3167|rectX=8|rectY=13|mtype=rectangle}}"
+      }
+    },
+    {
+      "npc": "npc.tempoross_ferry_to_lobby_npc",
+      "x": 3271,
+      "z": 3144,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ferryman_Sathwood",
+        "map": "{{Map|x=3271|y=3144|plane=0|zoom=3|mtype=pin|group=pinex}}"
+      }
+    },
+    {
+      "npc": "npc.agrith_reen",
+      "x": 3272,
+      "z": 3159,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Father_Reen",
+        "map": "{{Map|name=Father Reen|x=3272|y=3159|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.agrith_reen_sigil",
+      "x": 3272,
+      "z": 3159,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Father_Reen",
+        "map": "{{Map|name=Father Reen|x=3272|y=3159|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kebab_seller",
+      "x": 3274,
+      "z": 3181,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Karim",
+        "map": "{{Map|name=Karim|x=3274|y=3181|plane=0|r=2|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.ellis_tanner",
+      "x": 3274,
+      "z": 3192,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ellis",
+        "map": "{{Map|name=Ellis|3274,3192|mtype=square|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.al_the_camel",
+      "x": 3276,
+      "z": 3170,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Al_the_Camel",
+        "map": "{{Map|name=Al the Camel|x=3276|y=3170|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.prince_ali_vis",
+      "x": 3286,
+      "z": 3163,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Prince_Ali",
+        "map": "{{Map|x=3286|y=3163|mtype=rectangle|zoom=3|r=4}}"
+      }
+    },
+    {
+      "npc": "npc.zeke",
+      "x": 3288,
+      "z": 3190,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zeke",
+        "map": "{{Map|x=3288|y=3190|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.osman",
+      "x": 3293,
+      "z": 3180,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Osman_(The_man_who_is_not_Osman)",
+        "map": "{{Map|name=Osman (The man who is not Osman)|x=3293|y=3180|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ali_the_tailor",
+      "x": 3301,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_the_Tailor",
+        "map": "{{Map|name=Ali the Tailor|x=3301|y=3198|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hassan",
+      "x": 3302,
+      "z": 3163,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chancellor_Hassan",
+        "map": "{{Map|name=Chancellor Hassan|x=3302|y=3163|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ali_the_farmer",
+      "x": 3305,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_the_Farmer",
+        "map": "{{Map|name=Ali the Farmer|x=3305|y=3198|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ali_the_guard",
+      "x": 3305,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_the_Guard",
+        "map": "{{Map|name=Ali the Guard|x=3305|y=3198|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ali_the_smith",
+      "x": 3305,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_the_Smith",
+        "map": "{{Map|name=Ali the Smith|x=3305|y=3198|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalshopkeeper3",
+      "x": 3315,
+      "z": 3182,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Al_Kharid)",
+        "map": "{{Map|name=Shop keeper (Al Kharid)|3315,3182|rectX=7|rectY=9|mtype=rectangle}}"
+      }
+    },
+    {
+      "npc": "npc.ranael",
+      "x": 3316,
+      "z": 3163,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ranael",
+        "map": "{{Map|name=Ranael|x=3316|y=3163|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.generalassistant3",
+      "x": 3316,
+      "z": 3182,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Al_Kharid)",
+        "map": "{{Map|name=Shop assistant (Al Kharid)|x=3316|y=3182|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.louie_legs",
+      "x": 3317,
+      "z": 3175,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Louie_Legs",
+        "map": "{{Map|name=Louie Legs|x=3317|y=3175|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arabian_sorceress_apprentice",
+      "x": 3321,
+      "z": 3139,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Apprentice",
+        "map": "{{Map|name=Apprentice|x=3321|y=3139|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arabian_sorceress",
+      "x": 3321,
+      "z": 3139,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sorceress",
+        "map": "{{Map|name=Sorceress|x=3321|y=3139|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.dommik",
+      "x": 3321,
+      "z": 3194,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dommik",
+        "map": "{{Map|name=Dommik|x=3321|y=3194|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

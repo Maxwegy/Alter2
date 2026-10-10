@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6190,
+  "spawns": [
+    {
+      "npc": "npc.sunset_coast_fishing_shop",
+      "x": 1560,
+      "z": 2960,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Picaria",
+        "map": "{{Map|1560,2960|mtype=pin}}"
+      }
+    }
+  ]
+}

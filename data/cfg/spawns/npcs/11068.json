@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11068,
+  "spawns": [
+    {
+      "npc": "npc.aluft_gnome_explorer_mountain",
+      "x": 2782,
+      "z": 3865,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brambickle",
+        "map": "{{Map|name=Brambickle|x=2782|y=3865|plane=0|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

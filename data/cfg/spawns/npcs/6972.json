@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6972,
+  "spawns": [
+    {
+      "npc": "npc.arceuus_essencebuyer",
+      "x": 1764,
+      "z": 3852,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Clerris",
+        "map": "{{Map|name=Clerris|x=1764|y=3852|plane=0|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

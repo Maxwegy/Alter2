@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11312,
+  "spawns": [
+    {
+      "npc": "npc.tbwcu_murcaily",
+      "x": 2816,
+      "z": 3084,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Murcaily",
+        "map": "{{Map|name=Murcaily|x=2816|y=3084|r=1|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10274,
+  "spawns": [
+    {
+      "npc": "npc.goat_pit_helper",
+      "x": 2577,
+      "z": 2202,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Geoff",
+        "map": "{{Map|2577,2202|mtype=pin}}"
+      }
+    }
+  ]
+}

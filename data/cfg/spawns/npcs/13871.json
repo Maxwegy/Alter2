@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13871,
+  "spawns": [
+    {
+      "npc": "npc.oasis_tea_ali",
+      "x": 3489,
+      "z": 3058,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ali_the_Tea_Seller",
+        "map": "{{Map|name=Ali the Tea Seller|3489,3058|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.oasis_knight_morgiana",
+      "x": 3501,
+      "z": 3056,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Morgiana",
+        "map": "{{Map|name=Morgiana|3501,3056|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.chihuahua_wander",
+      "x": 3507,
+      "z": 3050,
+      "height": 0,
+      "walkRadius": 11,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chihuahua_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=22|rectY=60|3507,3050|}}"
+      }
+    },
+    {
+      "npc": "npc.oasis_mage_cassim",
+      "x": 3511,
+      "z": 3049,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Cassim",
+        "map": "{{Map|name=Cassim|3511,3049|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

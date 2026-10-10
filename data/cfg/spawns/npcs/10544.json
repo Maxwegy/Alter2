@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10544,
+  "spawns": [
+    {
+      "npc": "npc.grandtree_hazelmere",
+      "x": 2678,
+      "z": 3086,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hazelmere",
+        "map": "{{Map|x=2678|y=3086|plane=1|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

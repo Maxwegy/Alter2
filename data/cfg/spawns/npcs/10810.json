@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10810,
+  "spawns": [
+    {
+      "npc": "npc.peng_larry_rell",
+      "x": 2707,
+      "z": 3734,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Larry",
+        "map": "{{Map|name=Larry|x=2707|y=3734|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.olaf",
+      "x": 2724,
+      "z": 3729,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Olaf_Hradson",
+        "map": "{{Map|name=Olaf Hradson|x=2724|y=3729|r=2|mtype=square}}"
+      }
+    }
+  ]
+}

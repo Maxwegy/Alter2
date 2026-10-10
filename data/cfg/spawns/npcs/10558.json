@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10558,
+  "spawns": [
+    {
+      "npc": "npc.peng_noodle",
+      "x": 2638,
+      "z": 4010,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Noodle",
+        "map": "{{Map|2638,4010|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.peng_kgp",
+      "x": 2640,
+      "z": 4009,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/KGP_Agent",
+        "map": "{{Map|name=KGP Agent|x=2640|y=4009|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.peng_larry_ice",
+      "x": 2661,
+      "z": 3990,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Larry",
+        "map": "{{Map|name=Larry|x=2661|y=3990|plane=1|mtype=pin}}"
+      }
+    }
+  ]
+}

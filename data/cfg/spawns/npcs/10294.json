@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10294,
+  "spawns": [
+    {
+      "npc": "npc.lawgof2",
+      "x": 2567,
+      "z": 3462,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Lawgof",
+        "map": "{{Map|name=Captain Lawgof|x=2567|y=3462|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.stankers",
+      "x": 2581,
+      "z": 3486,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Stankers",
+        "map": "{{Map|name=Stankers|x=2581|y=3486|plane=0|r=7|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.brother_galahad",
+      "x": 2613,
+      "z": 3477,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Galahad",
+        "map": "{{Map|name=Galahad|x=2613|y=3477|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

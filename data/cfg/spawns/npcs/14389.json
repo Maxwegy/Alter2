@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14389,
+  "spawns": [
+    {
+      "npc": "npc.crimsonette_van_marr",
+      "x": 3600,
+      "z": 3392,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Crimsonette_van_Marr",
+        "map": "{{Map|name=Crimsonette van Marr|x=3600|y=3392|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.darkm_trader_pub",
+      "x": 3600,
+      "z": 3392,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Despoina_Callidra",
+        "map": "{{Map|name=Despoina Callidra|3600,3392|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.grigor_rasputin",
+      "x": 3600,
+      "z": 3392,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Grigor_Rasputin",
+        "map": "{{Map|name=Grigor Rasputin|x=3600|y=3392|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vormar_vakan",
+      "x": 3600,
+      "z": 3392,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vormar_Vakan",
+        "map": "{{Map|name=Vormar Vakan|x=3600|y=3392|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vlad_diaemus",
+      "x": 3611,
+      "z": 3393,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Vlad_Diaemus",
+        "map": "{{Map|name=Vlad Diaemus|x=3611|y=3393|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.lasenna_rasputin",
+      "x": 3621,
+      "z": 3394,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lasenna_Rasputin",
+        "map": "{{Map|name=Lasenna Rasputin|x=3621|y=3394|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.valentin_rasputin",
+      "x": 3621,
+      "z": 3394,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Valentin_Rasputin",
+        "map": "{{Map|name=Valentin Rasputin|x=3621|y=3394|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

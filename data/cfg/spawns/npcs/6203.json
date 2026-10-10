@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6203,
+  "spawns": [
+    {
+      "npc": "npc.arcquest_towermage2",
+      "x": 1573,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage3",
+      "x": 1573,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage4",
+      "x": 1573,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage5",
+      "x": 1573,
+      "z": 3815,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.trobin_arceuus_focus_visible",
+      "x": 1577,
+      "z": 3821,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lord_Trobin_Arceuus",
+        "map": "{{Map|name=Lord Trobin Arceuus|x=1577|y=3821|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.asteros_arceuus_vis",
+      "x": 1579,
+      "z": 3819,
+      "height": 1,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Asteros_Arceuus",
+        "map": "{{Map|name=Asteros Arceuus|x=1579|y=3819|plane=1|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage2",
+      "x": 1597,
+      "z": 3818,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage3",
+      "x": 1597,
+      "z": 3818,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage4",
+      "x": 1597,
+      "z": 3818,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage5",
+      "x": 1597,
+      "z": 3818,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage2",
+      "x": 1597,
+      "z": 3821,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage3",
+      "x": 1597,
+      "z": 3821,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage4",
+      "x": 1597,
+      "z": 3821,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    },
+    {
+      "npc": "npc.arcquest_towermage5",
+      "x": 1597,
+      "z": 3821,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tower_Mage",
+        "map": "{{Map|mtype=pin|1597,3821|1597,3818|1573,3815}}"
+      }
+    }
+  ]
+}

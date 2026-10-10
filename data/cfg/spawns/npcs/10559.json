@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10559,
+  "spawns": [
+    {
+      "npc": "npc.peng_commander",
+      "x": 2639,
+      "z": 4041,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Army_Commander",
+        "map": "{{Map|name=Army Commander|x=2639|y=4041|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.peng_agility_instructor",
+      "x": 2654,
+      "z": 4040,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Agility_Instructor",
+        "map": "{{Map|name=Agility Instructor|x=2654|y=4040|plane=1|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

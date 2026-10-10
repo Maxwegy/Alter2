@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12086,
+  "spawns": [
+    {
+      "npc": "npc.oracle",
+      "x": 3011,
+      "z": 3501,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oracle",
+        "map": "{{Map|name=Oracle|x=3011|y=3501|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bkf_cat",
+      "x": 3030,
+      "z": 3507,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Black_Cat",
+        "map": "{{Map|name=Black Cat|x=3030|y=3507|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.greldo",
+      "x": 3030,
+      "z": 3507,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Greldo",
+        "map": "{{Map|name=Greldo|x=3030|y=3507|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.chihuahua_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chihuahua_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.collie_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Collie_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.corgi_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Corgi_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.dogq_black_lab",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sky",
+        "map": "{{Map|name=Chase|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.dogq_talia",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Talia",
+        "map": "{{Map|name=Talia|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.greyhound_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Greyhound_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.husky_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Husky_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.samoyed_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Samoyed_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.shepard_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bernese_Mountain_Dog_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.shiba_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shiba_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.yorkie_shelter",
+      "x": 3037,
+      "z": 3457,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Yorkie_(wandering)",
+        "map": "{{Map|3037,3457|mtype=rectangle|rectX=8|rectY=12}}"
+      }
+    },
+    {
+      "npc": "npc.abbot_langley",
+      "x": 3052,
+      "z": 3490,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Abbot_Langley",
+        "map": "{{Map|name=Abbot Langley|x=3052|y=3490|plane=0|r=9|mtype=square|ptype=npc}}"
+      }
+    },
+    {
+      "npc": "npc.brother_jered",
+      "x": 3052,
+      "z": 3491,
+      "height": 1,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brother_Jered",
+        "map": "{{Map|name=Brother Jered|x=3052|y=3491|plane=1|r=8|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.secret_ghost_mage",
+      "x": 3052,
+      "z": 3498,
+      "height": 1,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dhalak",
+        "map": "{{Map|name=Dhalak|x=3052|y=3498|plane=1|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.brother_althric",
+      "x": 3052,
+      "z": 3505,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Brother_Althric",
+        "map": "{{Map|name=Brother Althric|x=3052|y=3505|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.oziach",
+      "x": 3070,
+      "z": 3517,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Oziach",
+        "map": "{{Map|name=Oziach|3070,3517|mtype=pin}}"
+      }
+    }
+  ]
+}

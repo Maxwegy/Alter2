@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5422,
+  "spawns": [
+    {
+      "npc": "npc.doti_wanderingguard",
+      "x": 1395,
+      "z": 2967,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wandering_Guard",
+        "map": "{{Map|name=Wandering Guard|1395,2967|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_dog_chiribaya_cabbage",
+      "x": 1403,
+      "z": 2947,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Woofson",
+        "map": "{{Map|1403,2947|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.varlamore_dog_bloodhound_cabbage",
+      "x": 1405,
+      "z": 2947,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Locke_McScruff",
+        "map": "{{Map|1405,2947|mtype=pin}}"
+      }
+    }
+  ]
+}

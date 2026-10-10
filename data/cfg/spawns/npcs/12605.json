@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12605,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_resource_guardian",
+      "x": 3184,
+      "z": 3945,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Mandrith",
+        "map": "{{Map|name=Mandrith|x=3184|y=3945|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.wilderness_resource_certer",
+      "x": 3185,
+      "z": 3934,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Piles",
+        "map": "{{Map|name=Piles|x=3185|y=3934|r=10|mtype=square}}"
+      }
+    }
+  ]
+}

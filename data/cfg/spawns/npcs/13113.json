@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13113,
+  "spawns": [
+    {
+      "npc": "npc.slayer_larran",
+      "x": 3278,
+      "z": 3660,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Larran",
+        "map": "{{Map|name=Larran|x=3278|y=3660|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

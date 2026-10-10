@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4405,
+  "spawns": [
+    {
+      "npc": "npc.vardorvis_big_tentacle",
+      "x": 1123,
+      "z": 3417,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Large_Tendril",
+        "map": "{{Map|name=Large Tendril|x=1123|y=3417|mtype=pin}}"
+      }
+    }
+  ]
+}

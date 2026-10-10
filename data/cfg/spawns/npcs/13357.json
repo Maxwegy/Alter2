@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13357,
+  "spawns": [
+    {
+      "npc": "npc.magic_carpet_seller3",
+      "x": 3348,
+      "z": 2942,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
+        "map": "{{Map|name=Rug Merchant|x=3348|y=2942|plane=0|r=4|mapID=0|mtype=square|group=19}}"
+      }
+    },
+    {
+      "npc": "npc.bcs_crocodile_named",
+      "x": 3355,
+      "z": 2924,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Roger",
+        "map": "{{Map|3355,2924|mtype=square|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.bcs_crocodile_vis",
+      "x": 3355,
+      "z": 2924,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Roger",
+        "map": "{{Map|3355,2924|mtype=square|r=2}}"
+      }
+    }
+  ]
+}

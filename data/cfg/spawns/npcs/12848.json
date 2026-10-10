@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12848,
+  "spawns": [
+    {
+      "npc": "npc.kalphite_oldman",
+      "x": 3229,
+      "z": 3106,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Weird_Old_Man",
+        "map": "{{Map|name=Weird Old Man|x=3229|y=3106|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

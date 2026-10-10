@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5939,
+  "spawns": [
+    {
+      "npc": "npc.spiritofadventure_bernina_vis",
+      "x": 1495,
+      "z": 3317,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_(Bernina)",
+        "map": "{{Map|name=Bernina|1495,3317|mtype=rectangle|rectX=9|rectY=4|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_guard_viero_known",
+      "x": 1523,
+      "z": 3293,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Viero",
+        "map": "{{Map|name=Guard|x=1523|y=3293|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_guard_viero_unknown",
+      "x": 1523,
+      "z": 3293,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Viero",
+        "map": "{{Map|name=Guard|x=1523|y=3293|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_nelta",
+      "x": 1525,
+      "z": 3291,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Manauia",
+        "map": "{{Map|1525,3291|mtype=square|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_worker_2",
+      "x": 1528,
+      "z": 3290,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(The_Darkfrost)",
+        "map": "{{Map|name=Worker|1528,3290|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_leader",
+      "x": 1528,
+      "z": 3293,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Taala",
+        "map": "{{Map|name=Taala|x=1528|y=3293|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_seer",
+      "x": 1530,
+      "z": 3284,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seer_(The_Darkfrost)",
+        "map": "{{Map|name=Seer|1530,3284|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_guard",
+      "x": 1531,
+      "z": 3287,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Guard_(The_Darkfrost)",
+        "map": "{{Map|name=Guard|x=1531|y=3287|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_seer",
+      "x": 1531,
+      "z": 3292,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Seer_(The_Darkfrost)",
+        "map": "{{Map|name=Seer|1531,3292|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_worker_1",
+      "x": 1532,
+      "z": 3290,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Worker_(The_Darkfrost)",
+        "map": "{{Map|name=Worker|1532,3290|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_chef_known",
+      "x": 1534,
+      "z": 3289,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marla",
+        "map": "{{Map|1534,3289|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.huey_lobby_chef_unknown",
+      "x": 1534,
+      "z": 3289,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marla",
+        "map": "{{Map|1534,3289|mtype=pin}}"
+      }
+    }
+  ]
+}

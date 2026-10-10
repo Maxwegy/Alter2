@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6970,
+  "spawns": [
+    {
+      "npc": "npc.piscarilius_poor_citizen_2",
+      "x": 1781,
+      "z": 3720,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_man",
+        "map": "{{Map|name=Poor looking man|1781,3720|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_poor_citizen_2",
+      "x": 1782,
+      "z": 3719,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_man",
+        "map": "{{Map|name=Poor looking man|plane=2|1785,3758|1782,3719|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_poor_citizen",
+      "x": 1785,
+      "z": 3755,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_man",
+        "map": "{{Map|name=Poor looking man|plane=1|1785,3755|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_foodshop",
+      "x": 1785,
+      "z": 3757,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kenelme",
+        "map": "{{Map|name=Kenelme|x=1785|y=3757|squareX=6|squareY=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_poor_citizen_2",
+      "x": 1785,
+      "z": 3758,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_man",
+        "map": "{{Map|name=Poor looking man|plane=2|1785,3758|1782,3719|mtype=pin|group=2}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_poor_citizen_female",
+      "x": 1791,
+      "z": 3721,
+      "height": 2,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_woman",
+        "map": "{{Map|name=Poor looking woman|plane=2|x:1791,y:3721|mtype=pin|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.piscarilius_poor_citizen_female_2",
+      "x": 1791,
+      "z": 3722,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Poor_looking_woman",
+        "map": "{{Map|name=Poor looking woman|x:1791,y:3722|mtype=pin|group=2}}"
+      }
+    }
+  ]
+}

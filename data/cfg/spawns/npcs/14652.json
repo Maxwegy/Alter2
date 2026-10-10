@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14652,
+  "spawns": [
+    {
+      "npc": "npc.fossil_pool_bobber",
+      "x": 3688,
+      "z": 3882,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bobbing_fossil",
+        "map": "{{Map|mtype=square|3688,3882|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.fossil_chemist",
+      "x": 3690,
+      "z": 3877,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Irene",
+        "map": "{{Map|name=Irene|x=3690|y=3877|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.maz",
+      "x": 3703,
+      "z": 3852,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Maz",
+        "map": "{{Map|name=Maz|x=3703|y=3852|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

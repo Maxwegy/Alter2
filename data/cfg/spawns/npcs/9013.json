@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9013,
+  "spawns": [
+    {
+      "npc": "npc.prif_tide",
+      "x": 2249,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tide",
+        "map": "{{Map|name=Tide|x=2249|y=3445|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gwenith_elf_3",
+      "x": 2276,
+      "z": 3451,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lleidr_Golau",
+        "map": "{{Map|name=Lleidr Golau|x=2276|y=3451|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gwenith_elf_2",
+      "x": 2282,
+      "z": 3443,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meddwl_Ymlaen_Llaw",
+        "map": "{{Map|name=Meddwl Ymlaen Llaw|x=2282|y=3443|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.gwenith_elf_1",
+      "x": 2283,
+      "z": 3444,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rhoddwr_Tan",
+        "map": "{{Map|name=Rhoddwr Tan|x=2283|y=3444|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.prif_west",
+      "x": 2285,
+      "z": 3407,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Red_Panda",
+        "map": "{{Map|name=Red Panda|x=2285|y=3407|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

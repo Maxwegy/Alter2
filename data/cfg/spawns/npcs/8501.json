@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 8501,
+  "spawns": [
+    {
+      "npc": "npc.sailing_charting_weather_troll",
+      "x": 2130,
+      "z": 3395,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Meaty_Aura_Logist",
+        "map": "{{Map|2903,2698|2140,2806|2979,2905|2335,2921|1779,2940|2638,3009|2149,3068|1714,3193|2656,3195|2912,3213|2130,3395|1867,3458|1651,3461|2280,3518|2498,3546|2594,3644|2341,3790|2600,3910|2951,3962|2447,3995|zoom=-3|mapID=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.prif_ed",
+      "x": 2166,
+      "z": 3417,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ed",
+        "map": "{{Map|name=Ed|2166,3417|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.prif_ghost_visible",
+      "x": 2172,
+      "z": 3430,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_(Mynydd)",
+        "map": "{{Map|name=Ghost (Mynydd)|x=2172|y=3430|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

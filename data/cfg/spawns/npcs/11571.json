@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11571,
+  "spawns": [
+    {
+      "npc": "npc.makeover_mage_frog",
+      "x": 2917,
+      "z": 3321,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Frog_(Makeover_Mage)",
+        "map": "{{Map|x=2917|y=3321|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.makeover_mage",
+      "x": 2918,
+      "z": 3322,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Makeover_Mage",
+        "map": "{{Map|name=Makeover Mage|x=2918|y=3322|r=4|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.collie_wander",
+      "x": 2920,
+      "z": 3300,
+      "height": 0,
+      "walkRadius": 20,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Border_Collie_(wandering)",
+        "map": "{{Map|mtype=rectangle|rectX=40|rectY=80|2920,3300|}}"
+      }
+    },
+    {
+      "npc": "npc.zep_assist_craft",
+      "x": 2922,
+      "z": 3301,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Assistant_Brock",
+        "map": "{{Map|name=Assistant Brock|x=2922|y=3301|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tanner",
+      "x": 2933,
+      "z": 3285,
+      "height": 1,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tanner_(Crafting_Guild)",
+        "map": "{{Map|name=Tanner (Crafting Guild)|x=2933|y=3285|plane=1|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.master_crafter",
+      "x": 2935,
+      "z": 3283,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Master_Crafter",
+        "map": "{{Map|name=Master Crafter|x=2935|y=3283|r=10|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.master_crafter_2",
+      "x": 2935,
+      "z": 3283,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Master_Crafter",
+        "map": "{{Map|name=Master Crafter|x=2935|y=3283|r=10|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.master_crafter_3",
+      "x": 2935,
+      "z": 3283,
+      "height": 0,
+      "walkRadius": 10,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Master_Crafter",
+        "map": "{{Map|name=Master Crafter|x=2935|y=3283|r=10|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

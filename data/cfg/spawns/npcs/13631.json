@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13631,
+  "spawns": [
+    {
+      "npc": "npc.bh_emblem_trader",
+      "x": 3419,
+      "z": 4065,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Emblem_Trader",
+        "map": "{{Map|x=3424|y=4064|x:3419,y:4065|mtype=pin|group=Daimon|zoom=3}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 11059,
+  "spawns": [
+    {
+      "npc": "npc.bailey",
+      "x": 2764,
+      "z": 3275,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bailey",
+        "map": "{{Map|name=Bailey|x=2764|y=3275|r=5|mtype=square}}"
+      }
+    }
+  ]
+}

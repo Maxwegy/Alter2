@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 9263,
+  "spawns": [
+    {
+      "npc": "npc.ogre_hunter3",
+      "x": 2334,
+      "z": 3065,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gruh",
+        "map": "{{Map|name=Gruh|x=2334|y=3065|squareX=22|squareY=15|mtype=square}}"
+      }
+    }
+  ]
+}

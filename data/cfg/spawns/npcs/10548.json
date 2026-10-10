@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10548,
+  "spawns": [
+    {
+      "npc": "npc.farming_shopkeeper_3",
+      "x": 2645,
+      "z": 3359,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Richard_(Ardougne)",
+        "map": "{{Map|name=Richard (Ardougne)|x=2645|y=3359|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.poh_chief_servant",
+      "x": 2667,
+      "z": 3332,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Chief_servant",
+        "map": "{{Map|name=Chief servant|x=2667|y=3332|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.kragen",
+      "x": 2667,
+      "z": 3375,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kragen",
+        "map": "{{Map|name=Kragen|x=2667|y=3375|r=6|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

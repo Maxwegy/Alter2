@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10288,
+  "spawns": [
+    {
+      "npc": "npc.hunting_shop_owner_yanille",
+      "x": 2567,
+      "z": 3083,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Aleck",
+        "map": "{{Map|name=Aleck|x=2567|y=3083|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.hunting_weapon_designer",
+      "x": 2567,
+      "z": 3083,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Leon",
+        "map": "{{Map|name=Leon|x=2567|y=3083|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.frenita",
+      "x": 2567,
+      "z": 3100,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Frenita",
+        "map": "{{Map|name=Frenita|x=2567|y=3100|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.farming_gardener_hops_1",
+      "x": 2578,
+      "z": 3103,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Selena",
+        "map": "{{Map|name=Selena|x=2578|y=3103|plane=0|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.aluft_gnome_mage_2",
+      "x": 2591,
+      "z": 3088,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Professor_Imblewyn",
+        "map": "{{Map|name=Professor Imblewyn|x=2591|y=3088|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_human_zavistic_rarve",
+      "x": 2591,
+      "z": 3088,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Zavistic_Rarve",
+        "map": "{{Map|name=Zavistic Rarve|x=2591|y=3088|plane=0|r=6|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.magic_store_owner",
+      "x": 2591,
+      "z": 3088,
+      "height": 1,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_Akutha",
+        "map": "{{Map|name=Wizard Akutha|x=2591|y=3088|plane=1|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magic_store_owner2",
+      "x": 2591,
+      "z": 3088,
+      "height": 1,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Wizard_Sinina",
+        "map": "{{Map|name=Wizard Sinina|x=2591|y=3088|plane=1|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_sithik_man",
+      "x": 2592,
+      "z": 3104,
+      "height": 1,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sithik_Ints",
+        "map": "{{Map|zoom=3|plane=1|x=2592|y=3104|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zogre_sithik_ogre",
+      "x": 2592,
+      "z": 3104,
+      "height": 1,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sithik_Ints",
+        "map": "{{Map|zoom=3|plane=1|x=2592|y=3104|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pillory_tramp_thrower_yanille",
+      "x": 2606,
+      "z": 3102,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tramp_(pillory)",
+        "map": "{{Map|name=Tramp|x=2606|y=3102|plane=0|r=3|mtype=square|height=150|group=1}}"
+      }
+    },
+    {
+      "npc": "npc.nzone_host",
+      "x": 2610,
+      "z": 3115,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dominic_Onion",
+        "map": "{{Map|name=Dominic Onion|x=2610|y=3115|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

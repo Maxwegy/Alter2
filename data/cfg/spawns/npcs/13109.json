@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13109,
+  "spawns": [
+    {
+      "npc": "npc.vm_collector",
+      "x": 3264,
+      "z": 3455,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/The_Collector",
+        "map": "{{Map|name=The Collector|x=3264|y=3455|plane=0|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_advent_02",
+      "x": 3265,
+      "z": 3445,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Marfet",
+        "map": "{{Map|name=Marfet|x=3265|y=3445|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_timeline_historian",
+      "x": 3265,
+      "z": 3454,
+      "height": 1,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Historian_Minas",
+        "map": "{{Map|name=Historian Minas|x=3265|y=3454|plane=1|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist5_npc_dummy",
+      "x": 3266,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sinco_Doar",
+        "map": "{{Map|name=Sinco Doar|x=3266|y=3445|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_archaeologist6_npc_dummy",
+      "x": 3266,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tinse_Torpe",
+        "map": "{{Map|name=Tinse Torpe|x=3266|y=3445|plane=0|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vc_pox",
+      "x": 3269,
+      "z": 3400,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pox",
+        "map": "{{Map|name=Pox|x=3269|y=3400|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vc_pox_inwarehouse",
+      "x": 3269,
+      "z": 3400,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Pox",
+        "map": "{{Map|name=Pox|x=3269|y=3400|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vc_hooknosed_jack",
+      "x": 3269,
+      "z": 3401,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hooknosed_Jack",
+        "map": "{{Map|name=Hooknosed Jack|x=3269|y=3401|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tea_seller",
+      "x": 3270,
+      "z": 3413,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tea_Seller",
+        "map": "{{Map|name=Tea Seller|x=3270|y=3413|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq2_quetzal_noname",
+      "x": 3277,
+      "z": 3411,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Primio",
+        "map": "{{Map|name=Primio|3277,3411|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vmq2_quetzal_op",
+      "x": 3277,
+      "z": 3411,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Primio",
+        "map": "{{Map|name=Primio|3277,3411|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.tailorp",
+      "x": 3281,
+      "z": 3398,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Asyff",
+        "map": "{{Map|name=Asyff|3281,3398|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.dimintheis",
+      "x": 3281,
+      "z": 3404,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dimintheis",
+        "map": "{{Map|name=Dimintheis|x=3281|y=3404|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vmq2_quetzal_keeper_2op",
+      "x": 3281,
+      "z": 3413,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Regulus_Cento",
+        "map": "{{Map|x=3281|y=3413|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard",
+      "x": 3295,
+      "z": 3427,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard2",
+      "x": 3295,
+      "z": 3427,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.vm_museum_guard3",
+      "x": 3295,
+      "z": 3427,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Museum_guard",
+        "map": "{{Map|name=Museum guard|3295,3427|3263,3441|3260,3447|mtype=square|r=3}}"
+      }
+    },
+    {
+      "npc": "npc.soulbane_tolnaboy",
+      "x": 3308,
+      "z": 3452,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tolna",
+        "map": "{{Map|name=Tolna|x=3308|y=3452|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_patrol_route_wheelbarrow",
+      "x": 3310,
+      "z": 3425,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Workman_(wheelbarrow)",
+        "map": "{{Map|x=3310|y=3425|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.vm_patrol_route_wheelbarrow_empty",
+      "x": 3310,
+      "z": 3425,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Workman_(wheelbarrow)",
+        "map": "{{Map|x=3310|y=3425|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.pilot_digsite",
+      "x": 3321,
+      "z": 3431,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Captain_Errdo",
+        "map": "{{Map|name=Captain Errdo|3321,3431|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.vm_woodcutter",
+      "x": 3321,
+      "z": 3445,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ed_Wood",
+        "map": "{{Map|name=Ed Wood|x=3321|y=3445|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6712,
+  "spawns": [
+    {
+      "npc": "npc.hosidius_citykitchen_assistant",
+      "x": 1679,
+      "z": 3619,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Talia_(Hosidius)",
+        "map": "{{Map|1679,3619|rectX=7|rectY=8|mtype=rectangle}}"
+      }
+    },
+    {
+      "npc": "npc.hosidius_citykitchen_chef",
+      "x": 1679,
+      "z": 3619,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ramocean",
+        "map": "{{Map|name=Ramocean|x=1679|y=3619|plane=0|squareX=9|squareY=8|mtype=square}}"
+      }
+    }
+  ]
+}

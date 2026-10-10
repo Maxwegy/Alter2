@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 7216,
+  "spawns": [
+    {
+      "npc": "npc.colosseum_boss_seated",
+      "x": 1823,
+      "z": 3123,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sol_Heredit",
+        "map": "{{Map|name=Sol Heredit|1823,3123|mtype=pin}}"
+      }
+    }
+  ]
+}

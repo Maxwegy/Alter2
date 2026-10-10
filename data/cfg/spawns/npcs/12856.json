@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12856,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_capeseller_9",
+      "x": 3239,
+      "z": 3609,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Simon",
+        "map": "{{Map|name=Simon|x=3239|y=3609|plane=0|r=7|mtype=square}}"
+      }
+    }
+  ]
+}

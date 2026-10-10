@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 7470,
+  "spawns": [
+    {
+      "npc": "npc.vatrachos_dwarf",
+      "x": 1889,
+      "z": 2978,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Thigo",
+        "map": "{{Map|x=1889|y=2978|r=4|mtype=square}}"
+      }
+    }
+  ]
+}

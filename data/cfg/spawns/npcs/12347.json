@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12347,
+  "spawns": [
+    {
+      "npc": "npc.wilderness_capeseller_8",
+      "x": 3073,
+      "z": 3809,
+      "height": 0,
+      "walkRadius": 12,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Edmond_(merchant)",
+        "map": "{{Map|name=Edmond (merchant)|x=3073|y=3809|r=12|mtype=square}}"
+      }
+    }
+  ]
+}

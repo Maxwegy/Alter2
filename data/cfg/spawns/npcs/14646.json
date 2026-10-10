@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14646,
+  "spawns": [
+    {
+      "npc": "npc.makinghistory_droalak",
+      "x": 3659,
+      "z": 3475,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Droalak",
+        "map": "{{Map|name=Droalak|x=3659|y=3475|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.makinghistory_droalak_fade_npc",
+      "x": 3659,
+      "z": 3475,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Droalak",
+        "map": "{{Map|name=Droalak|x=3659|y=3475|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_shopkeeper",
+      "x": 3659,
+      "z": 3478,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_shopkeeper",
+        "map": "{{Map|name=Ghost shopkeeper|x=3659|y=3478|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_protestor",
+      "x": 3660,
+      "z": 3499,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Gravingas",
+        "map": "{{Map|name=Gravingas|x=3660|y=3499|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_guard",
+      "x": 3660,
+      "z": 3508,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_guard",
+        "map": "{{Map|name=Ghost guard|x=3660|y=3508|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_necrovarus",
+      "x": 3660,
+      "z": 3516,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Necrovarus",
+        "map": "{{Map|name=Necrovarus|x=3660|y=3516|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.sarah_corvo",
+      "x": 3675,
+      "z": 3469,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sarah_(Port_Phasmatys)",
+        "map": "{{Map|name=Sarah (Port Phasmatys)|x=3675|y=3469|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.makinghistory_melina",
+      "x": 3675,
+      "z": 3481,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Melina",
+        "map": "{{Map|name=Melina|x=3675|y=3481|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.makinghistory_melina_fade_npc",
+      "x": 3675,
+      "z": 3481,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Melina",
+        "map": "{{Map|name=Melina|x=3675|y=3481|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_robin",
+      "x": 3676,
+      "z": 3494,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Robin",
+        "map": "{{Map|name=Robin|x=3676|y=3494|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_velorina",
+      "x": 3678,
+      "z": 3510,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Velorina",
+        "map": "{{Map|x=3678|y=3510|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_innkeeper",
+      "x": 3680,
+      "z": 3498,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_innkeeper",
+        "map": "{{Map|name=Ghost innkeeper|x=3680|y=3498|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3686,
+      "z": 3503,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_banker",
+      "x": 3687,
+      "z": 3464,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_banker",
+        "map": "{{Map|mtype=pin|3687,3464|3688,3464|3690,3464|3691,3464}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_banker",
+      "x": 3688,
+      "z": 3464,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_banker",
+        "map": "{{Map|mtype=pin|3687,3464|3688,3464|3690,3464|3691,3464}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3689,
+      "z": 3508,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_banker",
+      "x": 3690,
+      "z": 3464,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_banker",
+        "map": "{{Map|mtype=pin|3687,3464|3688,3464|3690,3464|3691,3464}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_akharanu",
+      "x": 3690,
+      "z": 3497,
+      "height": 0,
+      "walkRadius": 1,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ak-Haranu",
+        "map": "{{Map|name=Ak-Haranu|x=3690|y=3497|r=1|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3690,
+      "z": 3514,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_banker",
+      "x": 3691,
+      "z": 3464,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_banker",
+        "map": "{{Map|mtype=pin|3687,3464|3688,3464|3690,3464|3691,3464}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3691,
+      "z": 3512,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_captain_2",
+      "x": 3691,
+      "z": 3513,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_captain_(ghostship)",
+        "map": "{{Map|name=Ghost captain (ghostship)|x=3691|y=3513|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3694,
+      "z": 3518,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|3698,3514|3694,3518|plane=1|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3698,
+      "z": 3497,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3698,
+      "z": 3514,
+      "height": 1,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|3698,3514|3694,3518|plane=1|height=150|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_captain_1",
+      "x": 3704,
+      "z": 3487,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_captain",
+        "map": "{{Map|name=Ghost captain|x=3704|y=3487|r=2|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.ahoy_ghost_sailor",
+      "x": 3704,
+      "z": 3496,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ghost_sailor",
+        "map": "{{Map|name=Ghost sailor|3704,3496|3698,3497|3686,3503|3689,3508|3691,3512|3690,3514|height=150|mtype=pin}}"
+      }
+    }
+  ]
+}

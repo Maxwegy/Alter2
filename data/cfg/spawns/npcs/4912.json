@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "regionId": 4912,
+  "spawns": [
+    {
+      "npc": "npc.scrambled_king",
+      "x": 1223,
+      "z": 3120,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/King_(Tal_Teklan)",
+        "map": "{{Map|name=King|1223,3120|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_1",
+      "x": 1226,
+      "z": 3104,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nezketi",
+        "map": "{{Map|name=Nezketi|x=1226|y=3104|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_1_cutscene",
+      "x": 1226,
+      "z": 3104,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Nezketi",
+        "map": "{{Map|name=Nezketi|x=1226|y=3104|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_3",
+      "x": 1226,
+      "z": 3118,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Acatzin",
+        "map": "{{Map|name=Acatzin|x=1226|y=3118|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_3_cutscene",
+      "x": 1226,
+      "z": 3118,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Acatzin",
+        "map": "{{Map|name=Acatzin|x=1226|y=3118|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tal_teklan_general_store",
+      "x": 1241,
+      "z": 3109,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Tal_Teklan)",
+        "map": "{{Map|mtype=rectangle|rectX=7|rectY=7|1241,3109}}"
+      }
+    },
+    {
+      "npc": "npc.tal_teklan_banker",
+      "x": 1245,
+      "z": 3121,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Banker_(Tal_Teklan)",
+        "map": "{{Map|name=Banker (Tal Teklan)|1245,3121|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_2",
+      "x": 1250,
+      "z": 3106,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kauayotl",
+        "map": "{{Map|name=Kauayotl|x=1250|y=3106|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.scrambled_kings_man_2_cutscene",
+      "x": 1250,
+      "z": 3106,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kauayotl",
+        "map": "{{Map|name=Kauayotl|x=1250|y=3106|plane=0|r=2|mapID=0|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tlati_riverboat_owner_west",
+      "x": 1259,
+      "z": 3124,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Achilka",
+        "map": "{{Map|name=Achilka|mtype=pin|1259,3124|zoom=1|x=1251|y=3125}}"
+      }
+    }
+  ]
+}

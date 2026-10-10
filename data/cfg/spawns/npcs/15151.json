@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "regionId": 15151,
+  "spawns": [
+    {
+      "npc": "npc.fancy_dan",
+      "x": 3801,
+      "z": 3015,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Fancy_Dan",
+        "map": "{{Map|x=3801|y=3015|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.honest_jimmy",
+      "x": 3812,
+      "z": 3021,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Honest_Jimmy",
+        "map": "{{Map|x=3812|y=3021|r=3|mtype=square|bucket=yes}}"
+      }
+    },
+    {
+      "npc": "npc.san_fan",
+      "x": 3824,
+      "z": 3015,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/San_Fan",
+        "map": "{{Map|x=3824|y=3015|r=3|mtype=square}}"
+      }
+    }
+  ]
+}

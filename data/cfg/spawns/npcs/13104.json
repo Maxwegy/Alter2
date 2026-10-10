@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13104,
+  "spawns": [
+    {
+      "npc": "npc.jarr_desert_diary",
+      "x": 3302,
+      "z": 3122,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Jarr",
+        "map": "{{Map|name=Jarr|x=3302|y=3122|plane=0|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.irena",
+      "x": 3303,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Irena",
+        "map": "{{Map|name=Irena|x=3303|y=3112|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shadow_maj_scout4",
+      "x": 3304,
+      "z": 3109,
+      "height": 0,
+      "walkRadius": 7,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Scout_(Shantay_Pass)",
+        "map": "{{Map|name=Scout (Shantay Pass)|x=3304|y=3109|plane=0|r=7|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.tourtrap_qip_irena_happy",
+      "x": 3304,
+      "z": 3112,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Irena",
+        "map": "{{Map|name=Irena|x=3304|y=3112|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.shantay",
+      "x": 3304,
+      "z": 3124,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Shantay",
+        "map": "{{Map|name=Shantay|x=3304|y=3124|plane=0|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.magic_carpet_seller1",
+      "x": 3311,
+      "z": 3109,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
+        "map": "{{Map|name=Rug Merchant|x=3311|y=3109|plane=0|r=4|mapID=0|mtype=square|group=17}}"
+      }
+    }
+  ]
+}

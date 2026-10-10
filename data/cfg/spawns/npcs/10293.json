@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10293,
+  "spawns": [
+    {
+      "npc": "npc.fishguildshop",
+      "x": 2595,
+      "z": 3401,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Roachey",
+        "map": "{{Map|name=Roachey|x=2595|y=3401|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.master_fisher",
+      "x": 2612,
+      "z": 3392,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Master_fisher",
+        "map": "{{Map|name=Master fisher|x=2612|y=3392|plane=0|r=5|mtype=square|bucket=yes}}"
+      }
+    }
+  ]
+}

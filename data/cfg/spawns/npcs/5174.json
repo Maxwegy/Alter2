@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5174,
+  "spawns": [
+    {
+      "npc": "npc.little_frog",
+      "x": 1281,
+      "z": 3500,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Frog_(Mount_Quidamortem)",
+        "map": "{{Map|x=1281|y=3500|plane=0|r=4|mapID=0|mtype=square}}"
+      }
+    }
+  ]
+}

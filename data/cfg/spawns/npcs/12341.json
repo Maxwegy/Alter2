@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12341,
+  "spawns": [
+    {
+      "npc": "npc.peksa",
+      "x": 3075,
+      "z": 3430,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Peksa",
+        "map": "{{Map|name=Peksa|x=3075|y=3430|plane=0|r=3|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bim_atlas",
+      "x": 3075,
+      "z": 3439,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Atlas",
+        "map": "{{Map|name=Atlas|x=3075|y=3439|mtype=pin|mapID=0}}"
+      }
+    },
+    {
+      "npc": "npc.sos_barb_visible",
+      "x": 3081,
+      "z": 3420,
+      "height": 0,
+      "walkRadius": 6,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Litara",
+        "map": "{{Map|name=Litara|x=3081|y=3420|r=6|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.favour_tassie_slipcast",
+      "x": 3085,
+      "z": 3409,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Tassie_Slipcast",
+        "map": "{{Map|name=Tassie Slipcast|x=3085|y=3409|plane=0|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.bim_checkal",
+      "x": 3087,
+      "z": 3415,
+      "height": 0,
+      "walkRadius": 2,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Checkal",
+        "map": "{{Map|name=Checkal|x=3087|y=3415|mtype=square|r=2}}"
+      }
+    },
+    {
+      "npc": "npc.fai_barbarian_9",
+      "x": 3097,
+      "z": 3429,
+      "height": 2,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Hunding",
+        "map": "{{Map|name=Hunding|x=3097|y=3429|plane=2|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.canoeing_sigurd",
+      "x": 3112,
+      "z": 3409,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Sigurd",
+        "map": "{{Map|name=Sigurd|3112,3409|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.pride24_kit_glade",
+      "x": 3127,
+      "z": 3399,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Kit_Breaker",
+        "map": "{{Map|3127,3399|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.dogq_goblin_toetaller",
+      "x": 3130,
+      "z": 3435,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Toetaller",
+        "map": "{{Map|name=Toetaller|3130,3435|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.dogq_goblin_picklenose",
+      "x": 3130,
+      "z": 3437,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Picklenose",
+        "map": "{{Map|name=Picklenose|3130,3437|mtype=pin}}"
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14390,
+  "spawns": [
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3586,
+      "z": 3482,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3596,
+      "z": 3477,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.spider_that_spawns_vampyres",
+      "x": 3597,
+      "z": 3489,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
+        "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3600,
+      "z": 3506,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3607,
+      "z": 3497,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3610,
+      "z": 3465,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.spider_that_spawns_vampyres",
+      "x": 3611,
+      "z": 3462,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
+        "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3613,
+      "z": 3491,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3617,
+      "z": 3514,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3619,
+      "z": 3502,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.spider_that_spawns_vampyres",
+      "x": 3620,
+      "z": 3500,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
+        "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3628,
+      "z": 3476,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3629,
+      "z": 3509,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.nasty_tree_swamp",
+      "x": 3630,
+      "z": 3489,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Undead_tree",
+        "map": "{{Map|name=Undead tree|3556,3470|3570,3507|3577,3493|3579,3477|3586,3482|3596,3477|3600,3506|3607,3497|3610,3465|3613,3491|3617,3514|3619,3502|3628,3476|3629,3509|3630,3489|mtype=pin|group=morytania}}"
+      }
+    },
+    {
+      "npc": "npc.spider_that_spawns_vampyres",
+      "x": 3636,
+      "z": 3484,
+      "height": 0,
+      "walkRadius": 0,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Spider_(Morytania)",
+        "map": "{{Map|3567,3503|3620,3500|3597,3489|3636,3484|3566,3457|3611,3462|plane=0|mtype=pin}}"
+      }
+    }
+  ]
+}

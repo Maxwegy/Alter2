@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "regionId": 5940,
+  "spawns": [
+    {
+      "npc": "npc.auburn_grave_watcher",
+      "x": 1484,
+      "z": 3344,
+      "height": 0,
+      "walkRadius": 3,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Adrinus",
+        "map": "{{Map|name=Adrinus|1484,3344|mtype=square|r=3}}"
+      }
+    }
+  ]
+}

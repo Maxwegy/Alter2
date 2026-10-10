@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "regionId": 6969,
+  "spawns": [
+    {
+      "npc": "npc.kourend_entrance_bartender",
+      "x": 1770,
+      "z": 3683,
+      "height": 0,
+      "walkRadius": 4,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Bast",
+        "map": "{{Map|name=Bast|x=1770|y=3683|r=4|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_dock_passenger_11",
+      "x": 1780,
+      "z": 3683,
+      "height": 0,
+      "walkRadius": 8,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Ross_and_Ben",
+        "map": "{{Map|name=Ross and Ben|x=1780|y=3683|r=8|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_dock_passenger_12",
+      "x": 1782,
+      "z": 3682,
+      "height": 0,
+      "walkRadius": 5,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Dobwinkle",
+        "map": "{{Map|name=Dobwinkle|x=1782|y=3682|r=5|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_dock_passenger_13",
+      "x": 1790,
+      "z": 3685,
+      "height": 0,
+      "walkRadius": 12,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Alexander",
+        "map": "{{Map|name=Alexander|x=1790|y=3685|r=12|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_dock_passenger_07",
+      "x": 1790,
+      "z": 3687,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Simon_(Piscarilius)",
+        "map": "{{Map|name=Simon (Piscarilius)|x=1790|y=3687|squareX=26|squareY=18|mtype=square}}"
+      }
+    },
+    {
+      "npc": "npc.zeah_dock_passenger_10",
+      "x": 1790,
+      "z": 3687,
+      "height": 0,
+      "walkRadius": 9,
+      "source": {
+        "page": "https://oldschool.runescape.wiki/w/Lorraine",
+        "map": "{{Map|name=Lorraine|x=1790|y=3687|squareX=26|squareY=18|mtype=square}}"
+      }
+    }
+  ]
+}
