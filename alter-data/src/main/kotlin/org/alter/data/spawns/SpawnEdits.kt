@@ -6,6 +6,8 @@ import com.fasterxml.jackson.databind.node.ObjectNode
 
 /** Where a spawn is (or should be) and how it behaves: the editable part of a [NpcSpawnEntry]. */
 data class SpawnPlacement(val x: Int, val z: Int, val height: Int, val walkRadius: Int, val direction: String? = null) {
+    val regionId: Int get() = SpawnRules.regionId(x, z)
+
     companion object {
         fun of(entry: NpcSpawnEntry) = SpawnPlacement(entry.x, entry.z, entry.height, entry.walkRadius, entry.direction)
     }
@@ -13,26 +15,34 @@ data class SpawnPlacement(val x: Int, val z: Int, val height: Int, val walkRadiu
 
 /**
  * One in-game change to a spawn entry, as the live spawn commands record it in the runtime outbox
- * `data/run/spawn-edits.jsonl` (one JSON object per line). [from] is the entry as it was, [to] what it became,
- * or null when the spawn was removed. [regionId] is the region file [from] lives in and [source] the entry's
- * source when the edit was made: `"manual"` or the wiki page URL. [at] is an ISO-8601 instant.
+ * `data/run/spawn-edits.jsonl` (one JSON object per line). [id] is the entry's stable id ([SpawnIds]); [from] is
+ * the entry as it was (null: the spawn was added), [to] what it became (null: it was removed). [regionId] is the
+ * region file the entry lived in ([to]'s region for an add) and [source] its kind when the edit was made:
+ * `"manual"`, `"edit"` or, for a wiki entry, its page URL (an add is `"edit"`). [at] is an ISO-8601 instant.
  *
+ * Version-1 lines (before stable ids) have no `id` and are matched by `(npc, from tile)` instead.
  * The server only appends these lines; `./gradlew :alter-data:spawnSync -PspawnArgs="--apply-edits"` applies
  * them to `data/cfg/spawns/npcs` ([SpawnEditApplier]).
  */
 data class SpawnEdit(
     val at: String,
     val npc: String,
-    val from: SpawnPlacement,
+    val id: String?,
+    val from: SpawnPlacement?,
     val to: SpawnPlacement?,
     val regionId: Int,
     val source: String,
 ) {
+    init {
+        require(from != null || to != null) { "from and to cannot both be null" }
+    }
+
     companion object {
         /** The edit that turns [entry] into [to] (null: remove it). */
         fun of(at: String, entry: NpcSpawnEntry, to: SpawnPlacement?) = SpawnEdit(
             at = at,
             npc = entry.npc,
+            id = entry.id,
             from = SpawnPlacement.of(entry),
             to = to,
             regionId = entry.regionId,
@@ -42,15 +52,29 @@ data class SpawnEdit(
                 is NpcSpawnSource.Wiki -> s.page
             },
         )
+
+        /** A new spawn of [npc] at [to], with an id minted from [at]. */
+        fun add(at: String, npc: String, to: SpawnPlacement) = SpawnEdit(
+            at = at,
+            npc = npc,
+            id = SpawnIds.minted(npc, to.x, to.z, to.height, at),
+            from = null,
+            to = to,
+            regionId = to.regionId,
+            source = NpcSpawnFiles.KIND_EDIT,
+        )
     }
 }
 
-/** The outbox line format: fixed field order, `direction` omitted when absent, `to` written as `null` for a removal. */
+/**
+ * The outbox line format: fixed field order (`at`, `npc`, `id`, `from`, `to`, `regionId`, `source`), `direction`
+ * omitted when absent, `from` written as `null` for an add and `to` as `null` for a removal.
+ */
 object SpawnEdits {
     const val OUTBOX_FILE = "spawn-edits.jsonl"
 
     private val mapper = ObjectMapper()
-    private val FIELDS = setOf("at", "npc", "from", "to", "regionId", "source")
+    private val FIELDS = setOf("at", "npc", "id", "from", "to", "regionId", "source")
     private val PLACEMENT_FIELDS = setOf("x", "z", "height", "walkRadius", "direction")
 
     /** One outbox line, without the line break. */
@@ -58,7 +82,8 @@ object SpawnEdits {
         val root = mapper.createObjectNode()
         root.put("at", edit.at)
         root.put("npc", edit.npc)
-        root.set<JsonNode>("from", placement(edit.from))
+        edit.id?.let { root.put("id", it) }
+        if (edit.from == null) root.putNull("from") else root.set<JsonNode>("from", placement(edit.from))
         if (edit.to == null) root.putNull("to") else root.set<JsonNode>("to", placement(edit.to))
         root.put("regionId", edit.regionId)
         root.put("source", edit.source)
@@ -107,16 +132,24 @@ object SpawnEdits {
         val at = text("at")
         val npc = text("npc")
         val source = text("source")
-        val regionId = node.get("regionId")?.takeIf { it.isInt }?.intValue().also { if (it == null) problems += "regionId must be an integer" }
-        val from = parsePlacement(node.get("from"), "from", problems)
-        val toNode = node.get("to")
-        val to = when {
-            toNode == null -> null.also { problems += "to must be an object or null" }
-            toNode.isNull -> null
-            else -> parsePlacement(toNode, "to", problems)
+        val id = node.get("id")?.let { v ->
+            v.takeIf { it.isTextual && SpawnIds.isValid(it.textValue()) }?.textValue() ?: null.also { problems += "id must match ${SpawnIds.PATTERN.pattern} when present" }
         }
+        val regionId = node.get("regionId")?.takeIf { it.isInt }?.intValue().also { if (it == null) problems += "regionId must be an integer" }
+        fun nullablePlacement(name: String): SpawnPlacement? {
+            val value = node.get(name)
+            return when {
+                value == null -> null.also { problems += "$name must be an object or null" }
+                value.isNull -> null
+                else -> parsePlacement(value, name, problems)
+            }
+        }
+        val from = nullablePlacement("from")
+        val to = nullablePlacement("to")
+        if (node.get("from")?.isNull == true && node.get("to")?.isNull == true) problems += "from and to cannot both be null"
+        if (node.get("from")?.isNull == true && node.get("id") == null) problems += "an add (from null) needs an id"
         if (problems.isNotEmpty()) return null
-        return SpawnEdit(at!!, npc!!, from!!, to, regionId!!, source!!)
+        return SpawnEdit(at!!, npc!!, id, from, to, regionId!!, source!!)
     }
 
     private fun parsePlacement(node: JsonNode?, name: String, problems: MutableList<String>): SpawnPlacement? {

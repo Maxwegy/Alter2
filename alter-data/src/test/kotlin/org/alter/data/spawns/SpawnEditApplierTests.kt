@@ -14,15 +14,18 @@ class SpawnEditApplierTests {
     private val spawnDir: Path = root.resolve("cfg/spawns/npcs")
     private val outbox: Path = root.resolve("run/spawn-edits.jsonl")
     private val now = Instant.parse("2026-10-10T12:34:56Z")
+    private val at = "2026-10-10T12:00:00Z"
 
-    private val hansPage = "https://oldschool.runescape.wiki/w/Hans"
     private val hansWiki = Entries.hansWiki
     private val duke = Entries.manual("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH", note = "migrated")
     private val man = Entries.manual("npc.man", 3263, 3232, 0, 5)
 
-    private fun edit(entry: NpcSpawnEntry, to: SpawnPlacement?) = SpawnEdit.of("2026-10-10T12:00:00Z", entry, to)
+    private fun edit(entry: NpcSpawnEntry, to: SpawnPlacement?) = SpawnEdit.of(at, entry, to)
 
-    private fun edited(e: NpcSpawnEntry) = e.copy(source = SpawnEditApplier.editedSource(e.source, "2026-10-10T12:00:00Z"))
+    private fun edited(e: NpcSpawnEntry) = e.copy(source = SpawnEditApplier.editedSource(e.source, at))
+
+    /** The same edit as a version-1 outbox line would give it: no id, matched by (npc, from tile). */
+    private fun SpawnEdit.v1() = copy(id = null)
 
     private fun numbered(vararg edits: SpawnEdit) = edits.mapIndexed { i, e -> IndexedValue(i + 1, e) }
 
@@ -35,21 +38,24 @@ class SpawnEditApplierTests {
     private fun entries(): List<NpcSpawnEntry> = assertIs<NpcSpawnFiles.ReadResult.Read>(NpcSpawnFiles.readAll(spawnDir)).entries
 
     @Test
-    fun `a move rewrites the entry`() {
+    fun `a move keeps the id and makes the entry an edit`() {
         val result = SpawnEditApplier.apply(listOf(duke, hansWiki), numbered(edit(duke, SpawnPlacement(3215, 3220, 1, 4, "SOUTH"))))
         assertEquals(1, result.applied)
         assertEquals(emptyList(), result.unmatched)
-        assertEquals(listOf(hansWiki, edited(duke.copy(x = 3215))), result.entries)
+        assertEquals(listOf(hansWiki, duke.copy(x = 3215, source = NpcSpawnSource.Edit(at))), result.entries)
     }
 
     @Test
     fun `an edited wiki entry becomes an edit entry that keeps its page and map`() {
         val result = SpawnEditApplier.apply(listOf(hansWiki), numbered(edit(hansWiki, SpawnPlacement(3212, 3219, 0, 3, "EAST"))))
-        val edited = result.entries.single()
-        assertEquals(NpcSpawnSource.Edit("2026-10-10T12:00:00Z", hansPage, Entries.HANS_MAP), edited.source)
-        assertEquals(hansWiki.id, edited.id)
-        assertEquals(3, edited.walkRadius)
-        assertEquals("EAST", edited.direction)
+        val e = result.entries.single()
+        assertEquals(NpcSpawnSource.Edit(at, Entries.HANS_PAGE, Entries.HANS_MAP), e.source)
+        assertEquals("w06bd7d9b22e4", e.id)
+        assertEquals(3, e.walkRadius)
+        assertEquals("EAST", e.direction)
+        // A second edit keeps the page and map and takes the newer instant.
+        val again = SpawnEditApplier.apply(result.entries, numbered(SpawnEdit.of("2026-10-11T00:00:00Z", e, SpawnPlacement.of(e).copy(walkRadius = 1))))
+        assertEquals(NpcSpawnSource.Edit("2026-10-11T00:00:00Z", Entries.HANS_PAGE, Entries.HANS_MAP), again.entries.single().source)
     }
 
     @Test
@@ -60,11 +66,46 @@ class SpawnEditApplierTests {
     }
 
     @Test
-    fun `later edits match the earlier edit's result`() {
+    fun `an add inserts an edit entry with the line's id`() {
+        val add = SpawnEdit.add(at, "npc.man", SpawnPlacement(3222, 3218, 0, 2))
+        val result = SpawnEditApplier.apply(listOf(duke), numbered(add))
+        assertEquals(1, result.added)
+        assertEquals(1, result.applied)
+        assertEquals(
+            listOf(duke, NpcSpawnEntry("me4c8acb121d1", "npc.man", 3222, 3218, 0, 2, null, NpcSpawnSource.Edit(at))),
+            result.entries,
+        )
+    }
+
+    @Test
+    fun `an add onto an occupied tile or with an existing id is skipped`() {
+        val onDuke = SpawnEdit.add(at, "npc.duke_of_lumbridge", SpawnPlacement(3212, 3220, 1, 0))
+        val sameId = SpawnEdit.add(at, "npc.man", SpawnPlacement(3222, 3218, 0, 2)).copy(id = duke.id)
+        val result = SpawnEditApplier.apply(listOf(duke), numbered(onDuke, sameId))
+        assertEquals(listOf(duke), result.entries)
+        assertEquals(0, result.added)
+        assertEquals(listOf("npc.duke_of_lumbridge already spawns at (3212, 3220, 1)", "id ${duke.id} already exists"), result.unmatched.map { it.reason })
+        assertEquals("line 0001: npc.duke_of_lumbridge add at (3212, 3220, 1): npc.duke_of_lumbridge already spawns at (3212, 3220, 1)", result.unmatched[0].toString())
+    }
+
+    @Test
+    fun `edits find their entry by id, even after it moved`() {
+        val moved = duke.copy(x = 3215)
+        // The second line names the original tile in from, as a stale outbox might; the id still finds the entry.
+        val result = SpawnEditApplier.apply(
+            listOf(duke),
+            numbered(edit(duke, SpawnPlacement.of(moved)), edit(duke, SpawnPlacement.of(moved).copy(walkRadius = 0))),
+        )
+        assertEquals(listOf(edited(moved.copy(walkRadius = 0))), result.entries)
+        assertEquals(2, result.applied)
+    }
+
+    @Test
+    fun `version-1 lines match by npc and from tile, in order`() {
         val moved = duke.copy(x = 3215)
         val result = SpawnEditApplier.apply(
             listOf(duke),
-            numbered(edit(duke, SpawnPlacement.of(moved)), edit(moved, SpawnPlacement.of(moved).copy(walkRadius = 0))),
+            numbered(edit(duke, SpawnPlacement.of(moved)).v1(), edit(moved, SpawnPlacement.of(moved).copy(walkRadius = 0)).v1()),
         )
         assertEquals(listOf(edited(moved.copy(walkRadius = 0))), result.entries)
         assertEquals(2, result.applied)
@@ -72,18 +113,20 @@ class SpawnEditApplierTests {
 
     @Test
     fun `an edit with no matching entry, or onto an occupied tile, is reported and skipped`() {
-        val ghost = duke.copy(x = 3000)
+        val ghost = Entries.manual("npc.duke_of_lumbridge", 3000, 3220, 1, 4)
         val onHans = SpawnPlacement(3212, 3219, 0, 0)
         val hansTwin = Entries.manual("npc.hans", 3213, 3219, 0, 11)
         val result = SpawnEditApplier.apply(
             listOf(duke, hansWiki, hansTwin),
-            numbered(edit(ghost, null), edit(hansTwin, onHans)),
+            numbered(edit(ghost, null), edit(hansTwin, onHans), edit(ghost, null).v1(), edit(hansTwin, null).copy(npc = "npc.man")),
         )
         assertEquals(listOf(duke, hansWiki, hansTwin).sortedWith(NpcSpawnFiles.canonicalOrder), result.entries)
         assertEquals(0, result.applied)
-        assertEquals(listOf(1, 2), result.unmatched.map { it.line })
-        assertEquals("no entry for this npc on that tile", result.unmatched[0].reason)
+        assertEquals(listOf(1, 2, 3, 4), result.unmatched.map { it.line })
+        assertEquals("no entry with id ${ghost.id}", result.unmatched[0].reason)
         assertTrue("already spawns" in result.unmatched[1].reason)
+        assertEquals("no entry for this npc on that tile", result.unmatched[2].reason)
+        assertEquals("id ${hansTwin.id} is npc.hans, not npc.man", result.unmatched[3].reason)
     }
 
     @Test
@@ -98,6 +141,18 @@ class SpawnEditApplierTests {
     }
 
     @Test
+    fun `add, move and remove from one outbox are written and reported`() {
+        val add = SpawnEdit.add(at, "npc.man", SpawnPlacement(3222, 3218, 0, 2))
+        seed(man, duke, hansWiki, edits = listOf(add, edit(hansWiki, SpawnPlacement(3213, 3219, 0, 3)), edit(duke, null)))
+        val result = assertIs<SpawnEditApplier.Result.Written>(SpawnEditApplier.run(spawnDir, outbox, now))
+        assertEquals(mapOf("applied" to 3, "added" to 1, "moved" to 0, "deleted" to 1, "unmatched" to 0), result.report.summary.filterKeys { it in setOf("applied", "added", "moved", "deleted", "unmatched") })
+        val byId = entries().associateBy { it.id }
+        assertEquals(setOf("me4c8acb121d1", hansWiki.id, man.id), byId.keys)
+        assertEquals(NpcSpawnSource.Edit(at), byId.getValue("me4c8acb121d1").source)
+        assertEquals(3213, byId.getValue(hansWiki.id).x)
+    }
+
+    @Test
     fun `moving the last entry out of a region deletes its file`() {
         seed(man, edits = listOf(edit(man, SpawnPlacement(3264, 3232, 0, 5))))
         val result = assertIs<SpawnEditApplier.Result.Written>(SpawnEditApplier.run(spawnDir, outbox, now))
@@ -107,7 +162,7 @@ class SpawnEditApplierTests {
 
     @Test
     fun `the applied outbox is renamed and unmatched edits are in the report`() {
-        seed(duke, edits = listOf(edit(duke, null), edit(hansWiki, null)))
+        seed(duke, edits = listOf(edit(duke, null), edit(hansWiki, null).v1()))
         val result = assertIs<SpawnEditApplier.Result.Written>(SpawnEditApplier.run(spawnDir, outbox, now))
         assertFalse(Files.exists(outbox))
         assertEquals("spawn-edits.applied-20261010-123456.jsonl", result.archived.fileName.toString())
