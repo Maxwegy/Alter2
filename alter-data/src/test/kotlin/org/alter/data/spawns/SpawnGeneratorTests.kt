@@ -71,6 +71,53 @@ class SpawnGeneratorTests {
     }
 
     @Test
+    fun `the Shop keeper gets its wiki id`() {
+        val shop = generate().entries.single { it.npc == "npc.npc_2813" }
+        assertEquals("w8e44ba740e77", shop.id)
+    }
+
+    @Test
+    fun `a wiki entry whose id an edit entry carries is dropped wherever the edit stands`() {
+        val hansId = "w7f6f9a4f87ff"
+        val edited = NpcSpawnEntry(hansId, "npc.npc_3105", 3260, 3260, 0, 2, source = NpcSpawnSource.Edit("2026-10-10T12:00:00Z", "https://oldschool.runescape.wiki/w/Hans", "{{Map|name=Hans|3212,3219|rectX=23|rectY=31|mtype=rectangle}}"))
+        val report = ReportBuilder("test")
+        val r = SpawnGenerator(cache).generate(pages, listOf(edited), report)
+        assertEquals(1, r.droppedClaimedById)
+        assertEquals(0, r.droppedOverlappedByManual)
+        assertEquals(0, r.orphanedEdits)
+        assertEquals(1, r.editsKept)
+        assertEquals(0, r.manualKept)
+        assertEquals(8, r.wikiEntries)
+        assertEquals(listOf(edited), r.entries.filter { it.npc == "npc.npc_3105" })
+        assertEquals(1, report.count("Wiki entries claimed by id"))
+        assertEquals(0, report.count("Edit origins no longer generated"))
+    }
+
+    @Test
+    fun `an edit entry within the walk radius drops the wiki entry like a manual one`() {
+        val added = NpcSpawnEntry(SpawnIds.minted("npc.npc_2813", 3212, 3248, 0, "2026-10-10T12:00:00Z"), "npc.npc_2813", 3212, 3248, 0, 1, source = NpcSpawnSource.Edit("2026-10-10T12:00:00Z"))
+        val r = generate(listOf(added))
+        assertEquals(0, r.droppedClaimedById)
+        assertEquals(1, r.droppedOverlappedByManual)
+        assertEquals(1, r.editsKept)
+        assertEquals(8, r.wikiEntries)
+        assertEquals(listOf(added), r.entries.filter { it.npc == "npc.npc_2813" })
+    }
+
+    @Test
+    fun `an edit entry whose wiki feature is gone is kept and listed`() {
+        val page = "https://oldschool.runescape.wiki/w/Old"
+        val orphan = NpcSpawnEntry(SpawnIds.wiki(page, "npc.npc_3105", 2600, 3100, 0), "npc.npc_3105", 2601, 3100, 0, 0, source = NpcSpawnSource.Edit("2026-10-10T12:00:00Z", page, "{{Map|2600,3100|mtype=pin}}"))
+        val report = ReportBuilder("test")
+        val r = SpawnGenerator(cache).generate(pages, listOf(orphan), report)
+        assertEquals(1, r.orphanedEdits)
+        assertEquals(0, r.droppedClaimedById)
+        assertEquals(9, r.wikiEntries)
+        assertTrue(orphan in r.entries)
+        assertEquals(1, report.count("Edit origins no longer generated"))
+    }
+
+    @Test
     fun `exact wiki duplicates collapse into one`() {
         val r = generate(pages = pages + SpawnGenerator.Page("Shop keeper (copy)", Fixtures.shopKeeper))
         assertEquals(1, r.wikiDuplicatesCollapsed)

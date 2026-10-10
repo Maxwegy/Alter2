@@ -40,10 +40,25 @@ class SpawnSyncTests {
         assertEquals(2, first.report.summary["pages.candidates"])
         assertEquals(0, first.report.summary["skip.noMapTemplate"])
         assertEquals(8, first.report.summary["entries"])
+        listOf("droppedClaimedById", "orphanedEdits", "editsKept", "manualKept").forEach { assertEquals(0, first.report.summary[it], it) }
 
         val second = assertIs<SpawnSync.Result.Written>(sync().run(SpawnSync.Options(offline = true)))
         assertEquals(emptyList(), second.write.written)
         assertEquals(emptyList(), second.write.removed)
+    }
+
+    @Test
+    fun `an edit entry claiming a wiki id survives the sync and is counted`() = runBlocking {
+        seedCache(mapOf("Hans" to Fixtures.hans, "Town Crier" to Fixtures.townCrier))
+        val edited = NpcSpawnEntry("w7f6f9a4f87ff", "npc.npc_3105", 3214, 3220, 0, 3, source = NpcSpawnSource.Edit("2026-10-10T12:00:00Z", Entries.HANS_PAGE, Entries.HANS_MAP))
+        NpcSpawnFiles.write(spawnDir, NpcSpawnFiles.group(listOf(edited)))
+        val result = assertIs<SpawnSync.Result.Written>(sync().run(SpawnSync.Options(offline = true)))
+        assertEquals(1, result.report.summary["droppedClaimedById"])
+        assertEquals(1, result.report.summary["editsKept"])
+        assertEquals(0, result.report.summary["orphanedEdits"])
+        assertEquals(7, result.report.summary["wikiEntries"])
+        val read = assertIs<NpcSpawnFiles.ReadResult.Read>(NpcSpawnFiles.readAll(spawnDir))
+        assertEquals(listOf(edited), read.entries.filter { it.npc == "npc.npc_3105" })
     }
 
     @Test
