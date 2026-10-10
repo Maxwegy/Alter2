@@ -23,12 +23,6 @@ class GuthanPlugin(
 ) : KotlinPlugin(r, world, server) {
         
     init {
-        spawnNpc("npc.guthan_the_infested", 3577, 3282, 0, 2)
-        spawnNpc("npc.guthan_the_infested", 3579, 3279, 0, 2)
-        spawnNpc("npc.guthan_the_infested", 3579, 3285, 0, 2)
-        spawnNpc("npc.guthan_the_infested", 3575, 3279, 0, 2)
-        spawnNpc("npc.guthan_the_infested", 3575, 3285, 0, 2)
-
         setCombatDef("npc.guthan_the_infested") {
             configs {
                 attackSpeed = 6

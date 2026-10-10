@@ -2,7 +2,6 @@ package org.alter.plugins.content.areas.lumbridge.npcs.stores
 
 import org.alter.api.ext.*
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -37,8 +36,6 @@ class BobPlugin(
     )
 
     init {
-        spawnNpc("npc.bob_10619", 3230, 3203, 0, 2, Direction.EAST)
-
         createShop("Bob's Brilliant Axes.", CoinCurrency(), purchasePolicy = PurchasePolicy.BUY_STOCK) {
             storeItems.forEachIndexed { index, item ->
                 items[index] = item

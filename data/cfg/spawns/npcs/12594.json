@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12594,
+  "spawns": [
+    {
+      "npc": "npc.sos_pest_giantspider1",
+      "x": 3165,
+      "z": 3251,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.poh_giantspider",
+      "x": 3168,
+      "z": 3243,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.sheepunsheeredshaggy2",
+      "x": 3196,
+      "z": 3263,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.sheepunsheeredshaggy2",
+      "x": 3199,
+      "z": 3261,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    }
+  ]
+}

@@ -2,7 +2,6 @@ package org.alter.plugins.content.areas.lumbridge.npcs
 
 import org.alter.api.ext.*
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -29,8 +28,6 @@ class HansPlugin(
     )
 
     init {
-        spawnNpc("npc.hans", 3221, 3219, 0, 0, Direction.EAST)
-
         onNpcOption("npc.hans", option = "talk-to")
         {
             player.queue { dialog(player) }

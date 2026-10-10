@@ -13,8 +13,6 @@ class CookingTutorPlugin(
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.cooking_tutor", x = 3233, z = 3195, walkRadius = 3, height = 0)
-
         onNpcOption("npc.cooking_tutor", option = "talk-to") {
             player.queue { menu(player) }
         }

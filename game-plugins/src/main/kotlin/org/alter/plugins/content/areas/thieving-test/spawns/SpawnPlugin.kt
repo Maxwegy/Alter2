@@ -1,15 +1,9 @@
 package org.alter.plugins.content.areas.`thieving-test`.spawns
 
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
-
-/**Example
- *spawnNpc(npc = "npc.ID", x = xxxx, y = zzzz, height = 0, walk = 0, direction = Direction.NORTH)
- */
-
 
 class SpawnPlugin(
     r: PluginRepository,
@@ -17,19 +11,6 @@ class SpawnPlugin(
     server: Server
 ) : KotlinPlugin(r, world, server) {
     init {
-        spawnNpc(npc = "npc.man_3106", x = 2591, z = 4730, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.farmer_3114", x = 2586, z = 4730, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.ham_member", x = 2582, z = 4730, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.al_kharid_warrior", x = 2591, z = 4727, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.rogue_526", x = 2586, z = 4727, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.cave_goblin_2268", x = 2582, z = 4727, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.master_farmer_5730", x = 2591, z = 4724, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.guard_397", x = 2586, z = 4724, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.menaphite_thug_3550", x = 2582, z = 4724, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.knight_of_ardougne", x = 2591, z = 4721, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.paladin_3293", x = 2586, z = 4721, walkRadius = 2, direction = Direction.SOUTH)
-        spawnNpc(npc = "npc.hero_3295", x = 2582, z = 4721, walkRadius = 2, direction = Direction.SOUTH)
-
         spawnObj(obj = "object.veg_stall", x = 2580, z = 4735, rot = 2)
         spawnObj(obj = "object.bakers_stall_11730", x = 2582, z = 4735, rot = 2)
         spawnObj(obj = "object.tea_stall", x = 2584, z = 4735, rot = 2)

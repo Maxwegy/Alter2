@@ -3,7 +3,6 @@ package org.alter.plugins.content.areas.lumbridge.npcs
 import org.alter.api.InterfaceDestination
 import org.alter.api.ext.*
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -15,8 +14,6 @@ class DoomsayerPlugin(
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.doomsayer", x = 3232, z = 3223, direction = Direction.EAST)
-
         onNpcOption(npc = "npc.doomsayer", option = "Talk-to") {
             player.queue { dialog(player) }
         }

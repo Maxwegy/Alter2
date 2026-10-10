@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12595,
+  "spawns": [
+    {
+      "npc": "npc.ramunsheeredshaggy",
+      "x": 3195,
+      "z": 3271,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    }
+  ]
+}

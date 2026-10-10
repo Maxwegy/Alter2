@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "regionId": 13106,
+  "spawns": [
+    {
+      "npc": "npc.goblin",
+      "x": 3264,
+      "z": 3232,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    }
+  ]
+}
