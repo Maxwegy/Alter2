@@ -16,16 +16,16 @@
         9460
       ],
       "names" : [
-        "npc.the_nightmare_9425",
-        "npc.the_nightmare_9426",
-        "npc.the_nightmare_9427",
-        "npc.the_nightmare_9428",
-        "npc.the_nightmare_9429",
-        "npc.the_nightmare_9430",
-        "npc.the_nightmare_9431",
-        "npc.the_nightmare_9432",
-        "npc.the_nightmare_9433",
-        "npc.the_nightmare_9460"
+        "npc.nightmare_phase_01",
+        "npc.nightmare_phase_02",
+        "npc.nightmare_phase_03",
+        "npc.nightmare_weak_phase_01",
+        "npc.nightmare_weak_phase_02",
+        "npc.nightmare_weak_phase_03",
+        "npc.nightmare_blast",
+        "npc.nightmare_initial",
+        "npc.nightmare_dying",
+        "npc.nightmare_entry_ready"
       ],
       "combatLevel" : 814,
       "hitpoints" : 2400,

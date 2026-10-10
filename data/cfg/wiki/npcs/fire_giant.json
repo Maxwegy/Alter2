@@ -8,7 +8,7 @@
         7252
       ],
       "names" : [
-        "npc.fire_giant_7252"
+        "npc.kourend_firegiant2"
       ],
       "combatLevel" : 104,
       "hitpoints" : 130,
@@ -39,7 +39,7 @@
         7251
       ],
       "names" : [
-        "npc.fire_giant_7251"
+        "npc.kourend_firegiant1"
       ],
       "combatLevel" : 109,
       "hitpoints" : 150,
@@ -79,16 +79,16 @@
         2084
       ],
       "names" : [
-        "npc.fire_giant",
-        "npc.fire_giant_2076",
-        "npc.fire_giant_2077",
-        "npc.fire_giant_2078",
-        "npc.fire_giant_2079",
-        "npc.fire_giant_2080",
-        "npc.fire_giant_2081",
-        "npc.fire_giant_2082",
-        "npc.fire_giant_2083",
-        "npc.fire_giant_2084"
+        "npc.firegiant_big",
+        "npc.firegiant_big2",
+        "npc.firegiant_big3",
+        "npc.firegiant",
+        "npc.firegiant2",
+        "npc.firegiant3",
+        "npc.firegiant_strongholdcave_1",
+        "npc.firegiant_strongholdcave_2",
+        "npc.firegiant_strongholdcave_3",
+        "npc.firegiant_strongholdcave_4"
       ],
       "combatLevel" : 86,
       "hitpoints" : 111,

@@ -33,7 +33,7 @@ object RscmTables {
     fun displayBase(display: String?): String = if (display == null) "null" else Namer().name(display, 0)?.lowercase() ?: "null"
 
     /** A committed name without the `_<id>` suffix `Namer` adds to duplicates. */
-    fun baseName(name: String): String = name.replace(Regex("_\\d+$"), "")
+    fun baseName(name: String): String = name.replace(Regex("_+\\d+$"), "")
 
     /** `"item.shark"`-style references in Kotlin sources and JSON/YAML config under [roots], grouped by table. */
     fun references(roots: List<Path>): Map<RscmTable, Set<String>> {

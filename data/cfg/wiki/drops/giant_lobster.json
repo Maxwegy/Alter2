@@ -8,29 +8,29 @@
         4800
       ],
       "main" : [
-        { "item" : 45, "name" : "item.opal_bolt_tips", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 45, "name" : "item.opal_bolttips", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 401, "name" : "item.seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 401, "name" : "item.seaweed", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 401, "name" : "item.seaweed", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 403, "name" : "item.edible_seaweed", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 407, "name" : "item.oyster", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
-        { "item" : 407, "name" : "item.oyster", "min" : 2, "max" : 2, "chance" : [ 3, 32 ], "wiki" : "12/128" },
-        { "item" : 409, "name" : "item.empty_oyster", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 409, "name" : "item.empty_oyster", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 411, "name" : "item.oyster_pearl", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 407, "name" : "item.oystershell", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 407, "name" : "item.oystershell", "min" : 2, "max" : 2, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 409, "name" : "item.oysterempty", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 409, "name" : "item.oysterempty", "min" : 3, "max" : 3, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 411, "name" : "item.smalloysterpearls", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 436, "name" : "item.copper_ore", "min" : 3, "max" : 3, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 438, "name" : "item.tin_ore", "min" : 3, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 453, "name" : "item.coal", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 3, 64 ], "wiki" : "6/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 36, "max" : 36, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 8, "max" : 8, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 36, "max" : 36, "chance" : [ 1, 16 ], "wiki" : "8/128" },
         { "item" : 1265, "name" : "item.bronze_pickaxe", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
         { "item" : 1267, "name" : "item.iron_pickaxe", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
         { "item" : 1969, "name" : "item.spinach_roll", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 9683, "name" : "item.dead_sea_slug", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+        { "item" : 9683, "name" : "item.slug2_seaslug_young", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
       ]
     }
   ]

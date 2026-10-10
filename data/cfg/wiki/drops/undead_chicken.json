@@ -8,7 +8,7 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 4289, "name" : "item.raw_chicken_4289", "min" : 1, "max" : 1 }
+        { "item" : 4289, "name" : "item.raw_chicken_undead", "min" : 1, "max" : 1 }
       ],
       "main" : [
         { "item" : 314, "name" : "item.feather", "min" : 5, "max" : 5, "chance" : [ 1, 2 ], "wiki" : "64/128" },

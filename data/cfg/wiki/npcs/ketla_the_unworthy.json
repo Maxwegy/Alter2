@@ -8,7 +8,7 @@
         12329
       ],
       "names" : [
-        "npc.ketla_the_unworthy"
+        "npc.dt2_ketla_wight_combat"
       ],
       "combatLevel" : 236,
       "hitpoints" : 200,
@@ -36,7 +36,7 @@
         12330
       ],
       "names" : [
-        "npc.ketla_the_unworthy_12330"
+        "npc.dt2_ketla_wight_combat_clone"
       ],
       "combatLevel" : 236,
       "hitpoints" : 1,

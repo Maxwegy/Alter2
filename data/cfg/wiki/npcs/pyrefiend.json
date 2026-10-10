@@ -11,10 +11,10 @@
         436
       ],
       "names" : [
-        "npc.pyrefiend_433",
-        "npc.pyrefiend_434",
-        "npc.pyrefiend_435",
-        "npc.pyrefiend_436"
+        "npc.slayer_pyrefiend_1",
+        "npc.slayer_pyrefiend_2",
+        "npc.slayer_pyrefiend_3",
+        "npc.slayer_pyrefiend_4"
       ],
       "combatLevel" : 43,
       "hitpoints" : 45,
@@ -46,7 +46,7 @@
         3139
       ],
       "names" : [
-        "npc.pyrefiend_3139"
+        "npc.godwars_pyrefiend_1"
       ],
       "combatLevel" : 48,
       "hitpoints" : 48,

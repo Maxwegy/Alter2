@@ -8,7 +8,7 @@
         13657
       ],
       "names" : [
-        "npc.cerberus_13657"
+        "npc.deadman_breach_cerberus"
       ],
       "combatLevel" : 726,
       "hitpoints" : 2000,
@@ -38,7 +38,7 @@
         13657
       ],
       "names" : [
-        "npc.cerberus_13657"
+        "npc.deadman_breach_cerberus"
       ],
       "combatLevel" : 430,
       "hitpoints" : 1000,
@@ -68,7 +68,7 @@
         13657
       ],
       "names" : [
-        "npc.cerberus_13657"
+        "npc.deadman_breach_cerberus"
       ],
       "combatLevel" : 413,
       "hitpoints" : 750,

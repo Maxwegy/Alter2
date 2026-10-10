@@ -9,9 +9,9 @@
         4960
       ],
       "names" : [
-        "npc.black_knight_4934",
-        "npc.black_knight_4959",
-        "npc.black_knight_4960"
+        "npc.wanted_black_knight_for_cutscene",
+        "npc.wanted_summoned_black_knight",
+        "npc.wanted_black_knight_attackable_base_config"
       ],
       "combatLevel" : 32,
       "hitpoints" : 42,

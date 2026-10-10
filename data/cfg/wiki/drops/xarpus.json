@@ -9,7 +9,7 @@
         10772
       ],
       "always" : [
-        { "item" : 22512, "name" : "item.the_wild_hunt", "min" : 1, "max" : 1 }
+        { "item" : 22512, "name" : "item.tob_book_xarpus", "min" : 1, "max" : 1 }
       ]
     }
   ]

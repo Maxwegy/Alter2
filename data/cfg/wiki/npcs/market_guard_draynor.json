@@ -8,7 +8,7 @@
         2120
       ],
       "names" : [
-        "npc.market_guard"
+        "npc.wom_marketguard"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -34,7 +34,7 @@
         5732
       ],
       "names" : [
-        "npc.market_guard_5732"
+        "npc.farming_market_guard"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,

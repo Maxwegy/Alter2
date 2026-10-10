@@ -8,7 +8,7 @@
         430
       ],
       "names" : [
-        "npc.turoth_430"
+        "npc.slayer_turoth_baby"
       ],
       "combatLevel" : 83,
       "hitpoints" : 76,
@@ -38,7 +38,7 @@
         429
       ],
       "names" : [
-        "npc.turoth_429"
+        "npc.slayer_turoth_child"
       ],
       "combatLevel" : 85,
       "hitpoints" : 77,
@@ -68,7 +68,7 @@
         427
       ],
       "names" : [
-        "npc.turoth_427"
+        "npc.slayer_turoth_dad"
       ],
       "combatLevel" : 89,
       "hitpoints" : 81,
@@ -98,7 +98,7 @@
         428
       ],
       "names" : [
-        "npc.turoth_428"
+        "npc.slayer_turoth_mum"
       ],
       "combatLevel" : 87,
       "hitpoints" : 79,

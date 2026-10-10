@@ -37,6 +37,8 @@ enum class WeaponCategory(val id: List<Int>, val weaponType: Int) {
 
     companion object {
         val values = values()
+        private val logger = io.github.oshai.kotlinlogging.KotlinLogging.logger {}
+        private val unknown = java.util.concurrent.ConcurrentHashMap.newKeySet<Int>()
 
         fun get(def: ItemType, id: Int): Int {
             values.forEach {
@@ -44,7 +46,12 @@ enum class WeaponCategory(val id: List<Int>, val weaponType: Int) {
                     return it.weaponType
                 }
             }
-            throw IllegalStateException("Unknown $id item ${def.id} at WeaponCategory")
+            // A category this table does not know yet (the 241 cache introduced 2294 on item 32712). Throwing here
+            // aborted ItemMetadataService.loadAll for every item after it; treat it as unarmed and say so once.
+            if (unknown.add(id)) {
+                logger.warn { "Unknown weapon category $id (first seen on item ${def.id}); treating it as unarmed. Add it to WeaponCategory." }
+            }
+            return UNARMED.weaponType
         }
     }
 }

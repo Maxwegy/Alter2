@@ -9,8 +9,8 @@
         6915
       ],
       "names" : [
-        "npc.lizardman",
-        "npc.lizardman_6915"
+        "npc.zeah_lizardman_1_vn",
+        "npc.zeah_lizardman_1_vp"
       ],
       "combatLevel" : 53,
       "hitpoints" : 60,
@@ -40,9 +40,9 @@
         8563
       ],
       "names" : [
-        "npc.lizardman_6916",
-        "npc.lizardman_6917",
-        "npc.lizardman_8563"
+        "npc.zeah_lizardman_2_vn",
+        "npc.zeah_lizardman_2_vp",
+        "npc.molch_lizardman_1"
       ],
       "combatLevel" : 62,
       "hitpoints" : 60,

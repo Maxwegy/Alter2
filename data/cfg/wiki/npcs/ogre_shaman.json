@@ -8,7 +8,7 @@
         4383
       ],
       "names" : [
-        "npc.ogre_shaman_4383"
+        "npc.qip_watchtower_ogre_shaman_01_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,
@@ -34,7 +34,7 @@
         4387
       ],
       "names" : [
-        "npc.ogre_shaman_4387"
+        "npc.qip_watchtower_ogre_shaman_02_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,
@@ -60,7 +60,7 @@
         4389
       ],
       "names" : [
-        "npc.ogre_shaman_4389"
+        "npc.qip_watchtower_ogre_shaman_03_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,
@@ -86,7 +86,7 @@
         4391
       ],
       "names" : [
-        "npc.ogre_shaman_4391"
+        "npc.qip_watchtower_ogre_shaman_04_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,
@@ -111,7 +111,7 @@
         4393
       ],
       "names" : [
-        "npc.ogre_shaman_4393"
+        "npc.qip_watchtower_ogre_shaman_05_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,
@@ -136,7 +136,7 @@
         4395
       ],
       "names" : [
-        "npc.ogre_shaman_4395"
+        "npc.qip_watchtower_ogre_shaman_06_normal"
       ],
       "combatLevel" : 113,
       "hitpoints" : 1,

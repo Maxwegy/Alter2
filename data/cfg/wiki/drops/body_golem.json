@@ -13,17 +13,17 @@
         { "item" : 436, "name" : "item.copper_ore", "min" : 3, "max" : 4, "chance" : [ 3, 26 ], "wiki" : "6/52" },
         { "item" : 438, "name" : "item.tin_ore", "min" : 3, "max" : 4, "chance" : [ 3, 26 ], "wiki" : "6/52" },
         { "item" : 440, "name" : "item.iron_ore", "min" : 2, "max" : 3, "chance" : [ 3, 26 ], "wiki" : "6/52" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 1, "max" : 1, "chance" : [ 3, 26 ], "wiki" : "6/52" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 5, "max" : 10, "chance" : [ 2, 13 ], "wiki" : "8/52" },
-        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 52 ], "wiki" : "1/52" },
-        { "item" : 1437, "name" : "item.rune_essence_noted", "min" : 4, "max" : 6, "noted" : true, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 1, "max" : 1, "chance" : [ 3, 26 ], "wiki" : "6/52" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 5, "max" : 10, "chance" : [ 2, 13 ], "wiki" : "8/52" },
+        { "item" : 1437, "name" : "item.cert_blankrune", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 52 ], "wiki" : "1/52" },
+        { "item" : 1437, "name" : "item.cert_blankrune", "min" : 4, "max" : 6, "noted" : true, "chance" : [ 3, 26 ], "wiki" : "6/52" },
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 52 ], "wiki" : "1/52" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 26 ], "wiki" : "2/52" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 13 ], "wiki" : "4/52" },
-        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 62 ], "wiki" : "1/62", "approx" : true },
-        { "item" : 25639, "name" : "item.barronite_guard", "min" : 1, "max" : 1, "chance" : [ 1, 250 ], "wiki" : "1/250", "approx" : true },
-        { "item" : 25676, "name" : "item.barronite_shards", "min" : 10, "max" : 20, "chance" : [ 1, 5 ], "wiki" : "2/10", "approx" : true },
-        { "item" : 25698, "name" : "item.body_core", "min" : 1, "max" : 1, "chance" : [ 2, 15 ], "wiki" : "2/15", "approx" : true }
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 62 ], "wiki" : "1/62", "approx" : true },
+        { "item" : 25639, "name" : "item.barronite_mace_3", "min" : 1, "max" : 1, "chance" : [ 1, 250 ], "wiki" : "1/250", "approx" : true },
+        { "item" : 25676, "name" : "item.camdozaal_barronite_shard", "min" : 10, "max" : 20, "chance" : [ 1, 5 ], "wiki" : "2/10", "approx" : true },
+        { "item" : 25698, "name" : "item.camdozaal_golem_core_body", "min" : 1, "max" : 1, "chance" : [ 2, 15 ], "wiki" : "2/15", "approx" : true }
       ]
     }
   ]

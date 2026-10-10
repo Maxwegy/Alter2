@@ -4,9 +4,11 @@
     {
       "source" : "Stag",
       "ids" : [
-        1845
+        1845,
+        14222
       ],
       "names" : [
+        "npc.fairy2_stag",
         "npc.stag"
       ],
       "combatLevel" : 15,

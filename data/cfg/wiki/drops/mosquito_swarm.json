@@ -7,7 +7,7 @@
         6273
       ],
       "always" : [
-        { "item" : 6319, "name" : "item.proboscis", "min" : 3, "max" : 3 }
+        { "item" : 6319, "name" : "item.mosquito_proboscis", "min" : 3, "max" : 3 }
       ]
     },
     {
@@ -16,7 +16,7 @@
         6402
       ],
       "always" : [
-        { "item" : 6319, "name" : "item.proboscis", "min" : 5, "max" : 5 }
+        { "item" : 6319, "name" : "item.mosquito_proboscis", "min" : 5, "max" : 5 }
       ]
     }
   ]

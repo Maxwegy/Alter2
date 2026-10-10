@@ -8,7 +8,7 @@
         795
       ],
       "names" : [
-        "npc.locust_rider"
+        "npc.contact_locust_lance"
       ],
       "combatLevel" : 106,
       "hitpoints" : 90,
@@ -39,7 +39,7 @@
         800
       ],
       "names" : [
-        "npc.locust_rider_800"
+        "npc.contact_locust_lance_b"
       ],
       "combatLevel" : 68,
       "hitpoints" : 90,
@@ -69,7 +69,7 @@
         796
       ],
       "names" : [
-        "npc.locust_rider_796"
+        "npc.contact_locust_bow"
       ],
       "combatLevel" : 98,
       "hitpoints" : 90,
@@ -100,7 +100,7 @@
         801
       ],
       "names" : [
-        "npc.locust_rider_801"
+        "npc.contact_locust_bow_b"
       ],
       "combatLevel" : 68,
       "hitpoints" : 90,

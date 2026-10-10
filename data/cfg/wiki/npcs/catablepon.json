@@ -8,7 +8,7 @@
         2474
       ],
       "names" : [
-        "npc.catablepon"
+        "npc.sos_pest_catablepon"
       ],
       "combatLevel" : 49,
       "hitpoints" : 40,
@@ -36,7 +36,7 @@
         2475
       ],
       "names" : [
-        "npc.catablepon_2475"
+        "npc.sos_pest_catablepon2"
       ],
       "combatLevel" : 64,
       "hitpoints" : 70,
@@ -64,7 +64,7 @@
         2476
       ],
       "names" : [
-        "npc.catablepon_2476"
+        "npc.sos_pest_catablepon3"
       ],
       "combatLevel" : 68,
       "hitpoints" : 50,

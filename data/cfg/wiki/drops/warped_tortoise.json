@@ -11,14 +11,14 @@
       ],
       "main" : [
         { "item" : 187, "name" : "item.weapon_poison", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "3/64" },
-        { "item" : 450, "name" : "item.adamantite_ore_noted", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "2/64" },
-        { "item" : 454, "name" : "item.coal_noted", "min" : 6, "max" : 12, "noted" : true, "chance" : [ 3, 64 ], "wiki" : "3/64" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 80, "max" : 100, "chance" : [ 3, 32 ], "wiki" : "6/64" },
-        { "item" : 560, "name" : "item.death_rune", "min" : 15, "max" : 20, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 450, "name" : "item.cert_adamantite_ore", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 454, "name" : "item.cert_coal", "min" : 6, "max" : 12, "noted" : true, "chance" : [ 3, 64 ], "wiki" : "3/64" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 80, "max" : 100, "chance" : [ 3, 32 ], "wiki" : "6/64" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 15, "max" : 20, "chance" : [ 3, 64 ], "wiki" : "3/64" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 600, "max" : 800, "chance" : [ 5, 32 ], "wiki" : "10/64" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 995, "name" : "item.coins", "min" : 600, "max" : 800, "chance" : [ 5, 32 ], "wiki" : "10/64" },
         { "item" : 1123, "name" : "item.adamant_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "2/64" },
         { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4369067 ], "wiki" : "1/43,690.67" },
@@ -32,19 +32,19 @@
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "wiki" : "1/170.67" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 8533 ], "wiki" : "1/85.33" },
         { "item" : 1939, "name" : "item.swamp_tar", "min" : 40, "max" : 60, "chance" : [ 3, 32 ], "wiki" : "6/64" },
-        { "item" : 1966, "name" : "item.cabbage_noted", "min" : 20, "max" : 40, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "6/64" },
+        { "item" : 1966, "name" : "item.cert_cabbage", "min" : 20, "max" : 40, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "6/64" },
         { "item" : 2114, "name" : "item.pineapple", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "3/64" },
         { "item" : 2187, "name" : "item.tangled_toads_legs", "min" : 2, "max" : 3, "chance" : [ 3, 64 ], "wiki" : "3/64" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
-        { "item" : 4698, "name" : "item.mud_rune", "min" : 30, "max" : 50, "chance" : [ 5, 64 ], "wiki" : "5/64" },
-        { "item" : 7939, "name" : "item.tortoise_shell", "min" : 1, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "2/64" },
-        { "item" : 10995, "name" : "item.perfect_shell", "min" : 1, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 4698, "name" : "item.mudrune", "min" : 30, "max" : 50, "chance" : [ 5, 64 ], "wiki" : "5/64" },
+        { "item" : 7939, "name" : "item.battle_tortoise_shell", "min" : 1, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "2/64" },
+        { "item" : 10995, "name" : "item.dorgesh_tortoise_shell", "min" : 1, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "2/64" },
         { "item" : 28583, "name" : "item.warped_sceptre_uncharged", "min" : 1, "max" : 1, "chance" : [ 1, 320 ], "wiki" : "1/320" }
       ],
       "tertiary" : [
-        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" },
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 76 ], "wiki" : "1/76" }
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 76 ], "wiki" : "1/76" }
       ]
     }
   ]

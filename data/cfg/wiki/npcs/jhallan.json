@@ -8,8 +8,8 @@
         12354
       ],
       "names" : [
-        "npc.jhallan_12353",
-        "npc.jhallan_12354"
+        "npc.dt2_jhallan_chase",
+        "npc.dt2_jhallan_combat"
       ],
       "combatLevel" : 491,
       "hitpoints" : 1500,
@@ -34,8 +34,8 @@
         12354
       ],
       "names" : [
-        "npc.jhallan_12353",
-        "npc.jhallan_12354"
+        "npc.dt2_jhallan_chase",
+        "npc.dt2_jhallan_combat"
       ],
       "combatLevel" : 491,
       "hitpoints" : 1,

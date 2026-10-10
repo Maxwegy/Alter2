@@ -8,7 +8,7 @@
         6299
       ],
       "names" : [
-        "npc.black_knight_titan_hard"
+        "npc.nzone_black_knight_titan_hard"
       ],
       "combatLevel" : 210,
       "hitpoints" : 255,
@@ -33,7 +33,7 @@
         6360
       ],
       "names" : [
-        "npc.black_knight_titan_6360"
+        "npc.nzone_black_knight_titan_normal"
       ],
       "combatLevel" : 120,
       "hitpoints" : 142,

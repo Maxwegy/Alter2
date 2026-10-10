@@ -8,7 +8,7 @@
         11711
       ],
       "names" : [
-        "npc.baboon_mage"
+        "npc.toa_path_apmeken_baboon_magic_1"
       ],
       "combatLevel" : 56,
       "hitpoints" : 20,
@@ -33,7 +33,7 @@
         11714
       ],
       "names" : [
-        "npc.baboon_mage_11714"
+        "npc.toa_path_apmeken_baboon_magic_2"
       ],
       "combatLevel" : 68,
       "hitpoints" : 25,

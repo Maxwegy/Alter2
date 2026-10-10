@@ -9,9 +9,9 @@
         1682
       ],
       "names" : [
-        "npc.giant_crypt_rat",
-        "npc.giant_crypt_rat_1681",
-        "npc.giant_crypt_rat_1682"
+        "npc.barrows_giantrat",
+        "npc.barrows_giantrat2",
+        "npc.barrows_giantrat3"
       ],
       "combatLevel" : 76,
       "hitpoints" : 70,

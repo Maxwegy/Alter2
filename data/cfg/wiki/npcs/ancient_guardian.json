@@ -9,8 +9,8 @@
         10665
       ],
       "names" : [
-        "npc.ancient_guardian",
-        "npc.ancient_guardian_10665"
+        "npc.bim_golem_boss",
+        "npc.bim_golem_guardian_cutscene"
       ],
       "combatLevel" : 25,
       "hitpoints" : 40,
@@ -35,7 +35,7 @@
         10666
       ],
       "names" : [
-        "npc.rubble"
+        "npc.bim_golem_boss_inactive_cutscene"
       ],
       "combatLevel" : 25,
       "hitpoints" : 40,

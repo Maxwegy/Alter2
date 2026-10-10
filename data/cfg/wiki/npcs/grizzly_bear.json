@@ -8,7 +8,7 @@
         2838
       ],
       "names" : [
-        "npc.grizzly_bear"
+        "npc.brownbear"
       ],
       "combatLevel" : 21,
       "hitpoints" : 27,
@@ -36,7 +36,7 @@
         3423
       ],
       "names" : [
-        "npc.grizzly_bear_3423"
+        "npc.regicide_darkbear"
       ],
       "combatLevel" : 42,
       "hitpoints" : 35,

@@ -10,10 +10,10 @@
         2240
       ],
       "names" : [
-        "npc.ork_2237",
-        "npc.ork_2238",
-        "npc.ork_2239",
-        "npc.ork_2240"
+        "npc.godwars_ancient_ork1",
+        "npc.godwars_ancient_ork2",
+        "npc.godwars_ancient_ork3",
+        "npc.godwars_ancient_ork4"
       ],
       "combatLevel" : 107,
       "hitpoints" : 110,

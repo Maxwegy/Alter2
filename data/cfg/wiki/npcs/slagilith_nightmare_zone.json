@@ -8,7 +8,7 @@
         6324
       ],
       "names" : [
-        "npc.slagilith_hard"
+        "npc.nzone_slagilith_hard"
       ],
       "combatLevel" : 202,
       "hitpoints" : 150,
@@ -34,7 +34,7 @@
         6385
       ],
       "names" : [
-        "npc.slagilith_6385"
+        "npc.nzone_slagilith_normal"
       ],
       "combatLevel" : 92,
       "hitpoints" : 60,

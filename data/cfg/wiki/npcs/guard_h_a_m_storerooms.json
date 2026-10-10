@@ -11,11 +11,11 @@
         4526
       ],
       "names" : [
-        "npc.guard_4522",
-        "npc.guard_4523",
-        "npc.guard_4524",
-        "npc.guard_4525",
-        "npc.guard_4526"
+        "npc.dttd_ham_guard_1_postquest",
+        "npc.dttd_ham_guard_2_postquest",
+        "npc.dttd_ham_guard_3_postquest",
+        "npc.dttd_ham_guard_4_postquest",
+        "npc.dttd_ham_guard_5_postquest"
       ],
       "combatLevel" : 22,
       "hitpoints" : 30,

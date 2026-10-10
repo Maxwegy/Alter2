@@ -9,8 +9,8 @@
         1703
       ],
       "names" : [
-        "npc.shifter_1702",
-        "npc.shifter_1703"
+        "npc.pest_shifter_5a",
+        "npc.pest_shifter_5b"
       ],
       "combatLevel" : 104,
       "hitpoints" : 83,
@@ -36,8 +36,8 @@
         1695
       ],
       "names" : [
-        "npc.shifter",
-        "npc.shifter_1695"
+        "npc.pest_shifter_1a",
+        "npc.pest_shifter_1b"
       ],
       "combatLevel" : 38,
       "hitpoints" : 23,
@@ -63,8 +63,8 @@
         1697
       ],
       "names" : [
-        "npc.shifter_1696",
-        "npc.shifter_1697"
+        "npc.pest_shifter_2a",
+        "npc.pest_shifter_2b"
       ],
       "combatLevel" : 57,
       "hitpoints" : 38,
@@ -90,8 +90,8 @@
         1699
       ],
       "names" : [
-        "npc.shifter_1698",
-        "npc.shifter_1699"
+        "npc.pest_shifter_3a",
+        "npc.pest_shifter_3b"
       ],
       "combatLevel" : 76,
       "hitpoints" : 53,
@@ -117,8 +117,8 @@
         1701
       ],
       "names" : [
-        "npc.shifter_1700",
-        "npc.shifter_1701"
+        "npc.pest_shifter_4a",
+        "npc.pest_shifter_4b"
       ],
       "combatLevel" : 90,
       "hitpoints" : 68,

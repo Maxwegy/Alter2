@@ -9,8 +9,8 @@
         12074
       ],
       "names" : [
-        "npc.strange_creature",
-        "npc.strange_creature_12074"
+        "npc.sotn_muspah_cutscene",
+        "npc.muspah_melee_quest"
       ],
       "combatLevel" : 368,
       "hitpoints" : 550,
@@ -36,7 +36,7 @@
         12076
       ],
       "names" : [
-        "npc.strange_creature_12076"
+        "npc.muspah_final_quest"
       ],
       "combatLevel" : 368,
       "hitpoints" : 550,
@@ -65,8 +65,8 @@
         12081
       ],
       "names" : [
-        "npc.strange_creature_12073",
-        "npc.strange_creature_12081"
+        "npc.muspah_quest",
+        "npc.muspah_teleport_quest"
       ],
       "combatLevel" : 368,
       "hitpoints" : 550,
@@ -94,7 +94,7 @@
         12075
       ],
       "names" : [
-        "npc.strange_creature_12075"
+        "npc.muspah_soulsplit_quest"
       ],
       "combatLevel" : 368,
       "hitpoints" : 75,

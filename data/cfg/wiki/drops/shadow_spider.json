@@ -7,12 +7,12 @@
         3016
       ],
       "main" : [
-        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 276 ], "wiki" : "1/276" }
+        { "item" : 21257, "name" : "item.slayer_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 276 ], "wiki" : "1/276" }
       ],
       "tertiary" : [
         { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
-        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 335 ], "wiki" : "1/335" }
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23490, "name" : "item.slayer_wilderness_key", "min" : 1, "max" : 1, "chance" : [ 1, 335 ], "wiki" : "1/335" }
       ]
     }
   ]

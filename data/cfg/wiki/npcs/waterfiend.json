@@ -8,7 +8,7 @@
         2916
       ],
       "names" : [
-        "npc.waterfiend"
+        "npc.brut_waterfiend"
       ],
       "combatLevel" : 115,
       "hitpoints" : 128,
@@ -39,7 +39,7 @@
         2917
       ],
       "names" : [
-        "npc.waterfiend_2917"
+        "npc.waterfiend_strongholdcave"
       ],
       "combatLevel" : 115,
       "hitpoints" : 128,

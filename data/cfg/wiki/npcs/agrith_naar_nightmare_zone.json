@@ -8,7 +8,7 @@
         6327
       ],
       "names" : [
-        "npc.agrith_naar_hard"
+        "npc.nzone_agrith_naar_hard"
       ],
       "combatLevel" : 196,
       "hitpoints" : 209,
@@ -39,7 +39,7 @@
         6388
       ],
       "names" : [
-        "npc.agrith_naar_6388"
+        "npc.nzone_agrith_naar_normal"
       ],
       "combatLevel" : 100,
       "hitpoints" : 95,

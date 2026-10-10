@@ -8,7 +8,7 @@
         7549
       ],
       "names" : [
-        "npc.scavenger_beast_7549"
+        "npc.raids_scavenger_beast_b"
       ],
       "hitpoints" : 45,
       "attackSpeed" : 4,
@@ -35,7 +35,7 @@
         7548
       ],
       "names" : [
-        "npc.scavenger_beast"
+        "npc.raids_scavenger_beast_a"
       ],
       "hitpoints" : 30,
       "attackSpeed" : 4,

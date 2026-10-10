@@ -1,0 +1,119 @@
+{
+  "page" : "Ancient feral vyre",
+  "versions" : [
+    {
+      "source" : "Ancient feral vyre#1",
+      "version" : "1",
+      "ids" : [
+        15760,
+        16229
+      ],
+      "names" : [
+        "npc.vampyrium_ancient_feral_vyre",
+        "npc.sotfa_forest_ancient_feral_vyre_1"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 144, "strength" : 88, "defence" : 88, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Ancient feral vyre#2",
+      "version" : "2",
+      "ids" : [
+        16230
+      ],
+      "names" : [
+        "npc.sotfa_forest_ancient_feral_vyre_2"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 144, "strength" : 88, "defence" : 88, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Ancient feral vyre#3",
+      "version" : "3",
+      "ids" : [
+        16231
+      ],
+      "names" : [
+        "npc.sotfa_forest_ancient_feral_vyre_3"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 144, "strength" : 88, "defence" : 88, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Ancient feral vyre#4",
+      "version" : "4",
+      "ids" : [
+        16232
+      ],
+      "names" : [
+        "npc.sotfa_forest_ancient_feral_vyre_4"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 144, "strength" : 88, "defence" : 88, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 20, "crushDefence" : 20, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    }
+  ]
+}

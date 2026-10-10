@@ -36,7 +36,7 @@
         13798
       ],
       "names" : [
-        "npc.ice_spider_13798"
+        "npc.tapo_ice_spider_shortrange"
       ],
       "combatLevel" : 61,
       "hitpoints" : 65,
@@ -64,7 +64,7 @@
         10722
       ],
       "names" : [
-        "npc.ice_spider_10722"
+        "npc.ice_spider_shortrange"
       ],
       "combatLevel" : 61,
       "hitpoints" : 65,

@@ -1,0 +1,120 @@
+{
+  "page" : "Venator (The Blood Moon Rises)",
+  "versions" : [
+    {
+      "source" : "Venator (The Blood Moon Rises)#1",
+      "version" : "1",
+      "ids" : [
+        16213
+      ],
+      "names" : [
+        "npc.castle_drakan_venator"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 160,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 100, "ranged" : 75, "magic" : 100 },
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Venator (The Blood Moon Rises)#2",
+      "version" : "2",
+      "ids" : [
+        16214
+      ],
+      "names" : [
+        "npc.castle_drakan_venator_2"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 160,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 100, "ranged" : 75, "magic" : 100 },
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Venator (The Blood Moon Rises)#3",
+      "version" : "3",
+      "ids" : [
+        16215
+      ],
+      "names" : [
+        "npc.castle_drakan_venator_3"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 160,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 100, "ranged" : 75, "magic" : 100 },
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Venator (The Blood Moon Rises)#4",
+      "version" : "4",
+      "ids" : [
+        16216
+      ],
+      "names" : [
+        "npc.castle_drakan_venator_4"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 160,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 100, "ranged" : 75, "magic" : 100 },
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    },
+    {
+      "source" : "Venator (The Blood Moon Rises)#5",
+      "version" : "5",
+      "ids" : [
+        16217
+      ],
+      "names" : [
+        "npc.castle_drakan_venator_5"
+      ],
+      "combatLevel" : 195,
+      "hitpoints" : 160,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 100, "ranged" : 75, "magic" : 100 },
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "vampyre3"
+      ]
+    }
+  ]
+}

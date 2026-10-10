@@ -8,7 +8,7 @@
         1709
       ],
       "names" : [
-        "npc.spinner"
+        "npc.pest_spinner_1"
       ],
       "combatLevel" : 36,
       "hitpoints" : 33,
@@ -33,7 +33,7 @@
         1710
       ],
       "names" : [
-        "npc.spinner_1710"
+        "npc.pest_spinner_2"
       ],
       "combatLevel" : 55,
       "hitpoints" : 53,
@@ -58,7 +58,7 @@
         1711
       ],
       "names" : [
-        "npc.spinner_1711"
+        "npc.pest_spinner_3"
       ],
       "combatLevel" : 74,
       "hitpoints" : 73,
@@ -83,7 +83,7 @@
         1713
       ],
       "names" : [
-        "npc.spinner_1713"
+        "npc.pest_spinner_5"
       ],
       "combatLevel" : 88,
       "hitpoints" : 93,
@@ -108,7 +108,7 @@
         1712
       ],
       "names" : [
-        "npc.spinner_1712"
+        "npc.pest_spinner_4"
       ],
       "combatLevel" : 92,
       "hitpoints" : 101,

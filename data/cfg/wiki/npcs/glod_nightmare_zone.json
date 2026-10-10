@@ -8,7 +8,7 @@
         6297
       ],
       "names" : [
-        "npc.glod_hard"
+        "npc.nzone_grim_glod_hard"
       ],
       "combatLevel" : 276,
       "hitpoints" : 255,
@@ -34,7 +34,7 @@
         6358
       ],
       "names" : [
-        "npc.glod_6358"
+        "npc.nzone_grim_glod_normal"
       ],
       "combatLevel" : 138,
       "hitpoints" : 160,

@@ -8,7 +8,7 @@
         613
       ],
       "names" : [
-        "npc.zombie_pirate_613"
+        "npc.deal_zombie_pirates_1"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -39,7 +39,7 @@
         614
       ],
       "names" : [
-        "npc.zombie_pirate_614"
+        "npc.deal_zombie_pirates_2"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -70,7 +70,7 @@
         615
       ],
       "names" : [
-        "npc.zombie_pirate_615"
+        "npc.deal_zombie_pirates_3"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -101,7 +101,7 @@
         616
       ],
       "names" : [
-        "npc.zombie_pirate_616"
+        "npc.deal_zombie_pirates_4"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -132,7 +132,7 @@
         617
       ],
       "names" : [
-        "npc.zombie_pirate_617"
+        "npc.deal_zombie_pirates_5"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -163,7 +163,7 @@
         618
       ],
       "names" : [
-        "npc.zombie_pirate_618"
+        "npc.deal_zombie_pirates_6"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,

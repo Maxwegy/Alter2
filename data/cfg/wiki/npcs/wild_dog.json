@@ -8,7 +8,7 @@
         112
       ],
       "names" : [
-        "npc.wild_dog"
+        "npc.dog_wild"
       ],
       "combatLevel" : 63,
       "hitpoints" : 62,
@@ -35,7 +35,7 @@
         113
       ],
       "names" : [
-        "npc.wild_dog_113"
+        "npc.dog_wild_2"
       ],
       "combatLevel" : 63,
       "hitpoints" : 62,

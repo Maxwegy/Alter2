@@ -15,15 +15,15 @@
         11198
       ],
       "names" : [
-        "npc.sergeant_11073",
-        "npc.sergeant_11075",
-        "npc.sergeant_11077",
-        "npc.sergeant_11079",
-        "npc.sergeant_11081",
-        "npc.sergeant_11083",
-        "npc.sergeant_11085",
-        "npc.sergeant_11087",
-        "npc.sergeant_11198"
+        "npc.shayzien_soldier_m1_big",
+        "npc.shayzien_soldier_m2_big",
+        "npc.shayzien_soldier_m3_big",
+        "npc.shayzien_soldier_m4_big",
+        "npc.shayzien_soldier_f1_big",
+        "npc.shayzien_soldier_f2_big",
+        "npc.shayzien_soldier_f3_big",
+        "npc.shayzien_soldier_f4_big",
+        "npc.deadman_shayzien_soldier"
       ],
       "combatLevel" : 84,
       "hitpoints" : 86,

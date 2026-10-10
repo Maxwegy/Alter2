@@ -8,13 +8,13 @@
         4813
       ],
       "main" : [
-        { "item" : 555, "name" : "item.water_rune", "min" : 1, "max" : 5, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 556, "name" : "item.air_rune", "min" : 1, "max" : 5, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 1, "max" : 5, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 556, "name" : "item.airrune", "min" : 1, "max" : 5, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 20, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 30, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 995, "name" : "item.coins", "min" : 1, "max" : 20, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 1, "max" : 30, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 23301689 ], "wiki" : "1/233,016.89" },
         { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 25, 45511 ], "wiki" : "1/1,820.44" },
@@ -23,10 +23,10 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "wiki" : "1/682.67" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 34133 ], "wiki" : "1/341.33" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "wiki" : "1/170.67" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "wiki" : "1/174,762.67" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "wiki" : "1/174,762.67" }
       ],
       "tertiary" : [
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 8 ], "wiki" : "1/8" },
         { "item" : 11942, "name" : "item.ecumenical_key", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" }
       ]
@@ -38,7 +38,7 @@
       ],
       "main" : [
         { "item" : 29895, "name" : "item.frozen_tear", "min" : 5, "max" : 5, "chance" : [ 1, 150 ], "wiki" : "1/150" },
-        { "item" : 30105, "name" : "item.tooth_half_of_key_30105", "min" : 1, "max" : 1, "chance" : [ 1, 1373 ], "wiki" : "1/1,373" }
+        { "item" : 30105, "name" : "item.varlamore_key_half_1", "min" : 1, "max" : 1, "chance" : [ 1, 1373 ], "wiki" : "1/1,373" }
       ]
     }
   ]

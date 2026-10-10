@@ -8,7 +8,7 @@
         3957
       ],
       "names" : [
-        "npc.ungadulu"
+        "npc.ungadulu_good"
       ],
       "combatLevel" : 70,
       "hitpoints" : 65,
@@ -34,7 +34,7 @@
         3958
       ],
       "names" : [
-        "npc.ungadulu_3958"
+        "npc.ungadulu_bad"
       ],
       "combatLevel" : 169,
       "hitpoints" : 150,

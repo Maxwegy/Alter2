@@ -14,13 +14,13 @@
         { "item" : 534, "name" : "item.babydragon_bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 7839, "name" : "item.baby_dragon_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
-        { "item" : 27897, "name" : "item.scaly_blue_dragonhide", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
+        { "item" : 7839, "name" : "item.rag_baby_blue_dragon_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
+        { "item" : 27897, "name" : "item.scaly_bluehide", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
         { "item" : 29895, "name" : "item.frozen_tear", "min" : 6, "max" : 6, "chance" : [ 1, 100 ], "wiki" : "1/100", "approx" : true },
-        { "item" : 30105, "name" : "item.tooth_half_of_key_30105", "min" : 1, "max" : 1, "chance" : [ 1, 1066 ], "wiki" : "1/1,066" }
+        { "item" : 30105, "name" : "item.varlamore_key_half_1", "min" : 1, "max" : 1, "chance" : [ 1, 1066 ], "wiki" : "1/1,066" }
       ],
       "tertiary" : [
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 640 ], "wiki" : "1/640" }
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 640 ], "wiki" : "1/640" }
       ]
     }
   ]

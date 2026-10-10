@@ -9,8 +9,8 @@
         398
       ],
       "names" : [
-        "npc.guard_397",
-        "npc.guard_398"
+        "npc.hos_town_guard_01",
+        "npc.hos_town_guard_02"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -37,8 +37,8 @@
         400
       ],
       "names" : [
-        "npc.guard_399",
-        "npc.guard_400"
+        "npc.hos_town_guard_03",
+        "npc.hos_town_guard_04"
       ],
       "combatLevel" : 19,
       "hitpoints" : 22,

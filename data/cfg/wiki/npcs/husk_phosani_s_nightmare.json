@@ -8,7 +8,7 @@
         9466
       ],
       "names" : [
-        "npc.husk_9466"
+        "npc.nightmare_challenge_husk_magic"
       ],
       "combatLevel" : 104,
       "hitpoints" : 20,
@@ -33,7 +33,7 @@
         9467
       ],
       "names" : [
-        "npc.husk_9467"
+        "npc.nightmare_challenge_husk_ranged"
       ],
       "combatLevel" : 104,
       "hitpoints" : 20,

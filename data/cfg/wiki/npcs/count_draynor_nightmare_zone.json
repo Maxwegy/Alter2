@@ -8,7 +8,7 @@
         6332
       ],
       "names" : [
-        "npc.count_draynor_hard"
+        "npc.nzone_count_draynor_hard"
       ],
       "combatLevel" : 177,
       "hitpoints" : 210,
@@ -37,7 +37,7 @@
         6393
       ],
       "names" : [
-        "npc.count_draynor_6393"
+        "npc.nzone_count_draynor_normal"
       ],
       "combatLevel" : 34,
       "hitpoints" : 35,

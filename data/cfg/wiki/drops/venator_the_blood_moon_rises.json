@@ -1,0 +1,18 @@
+{
+  "page" : "Venator (The Blood Moon Rises)",
+  "tables" : [
+    {
+      "source" : "Venator (The Blood Moon Rises)",
+      "npcIds" : [
+        16213,
+        16214,
+        16215,
+        16216,
+        16217
+      ],
+      "always" : [
+        { "item" : 33802, "name" : "item.vampyrium_mystery_jerky", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

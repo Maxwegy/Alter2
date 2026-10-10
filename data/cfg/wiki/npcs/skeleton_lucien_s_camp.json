@@ -8,7 +8,7 @@
         13476
       ],
       "names" : [
-        "npc.skeleton_13476"
+        "npc.wgs_skeleton_1"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -38,7 +38,7 @@
         13477
       ],
       "names" : [
-        "npc.skeleton_13477"
+        "npc.wgs_skeleton_2"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -68,7 +68,7 @@
         13478
       ],
       "names" : [
-        "npc.skeleton_13478"
+        "npc.wgs_skeleton_3"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -98,7 +98,7 @@
         13479
       ],
       "names" : [
-        "npc.skeleton_13479"
+        "npc.wgs_skeleton_4"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,

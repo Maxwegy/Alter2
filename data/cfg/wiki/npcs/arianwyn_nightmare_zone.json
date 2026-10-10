@@ -8,7 +8,7 @@
         9246
       ],
       "names" : [
-        "npc.arianwyn_hard"
+        "npc.nzone_sote_arianwyn_hard"
       ],
       "combatLevel" : 378,
       "hitpoints" : 300,
@@ -34,7 +34,7 @@
         9248
       ],
       "names" : [
-        "npc.arianwyn_9248"
+        "npc.nzone_sote_arianwyn_normal"
       ],
       "combatLevel" : 212,
       "hitpoints" : 300,

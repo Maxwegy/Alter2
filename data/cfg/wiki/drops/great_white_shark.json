@@ -1,0 +1,50 @@
+{
+  "page" : "Great white shark",
+  "tables" : [
+    {
+      "source" : "Great white shark",
+      "npcIds" : [
+        15200
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 383, "name" : "item.raw_shark", "min" : 1, "max" : 1, "chance" : [ 17, 100 ], "wiki" : "17/100" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 50, "max" : 65, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 989, "name" : "item.crystal_key", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 995, "name" : "item.coins", "min" : 15000, "max" : 20000, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 1123, "name" : "item.adamant_platebody", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 54613333 ], "wiki" : "1/546,133.33" },
+        { "item" : 1289, "name" : "item.rune_sword", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 1305, "name" : "item.dragon_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 1391, "name" : "item.battlestaff", "min" : 1, "max" : 1, "chance" : [ 3, 50 ], "wiki" : "6/100" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 426667 ], "wiki" : "1/4,266.67" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1600 ], "wiki" : "1/1,600" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 1700, "name" : "item.strung_diamond_amulet", "min" : 1, "max" : 1, "chance" : [ 3, 25 ], "wiki" : "12/100" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 409600 ], "wiki" : "1/409,600" },
+        { "item" : 4089, "name" : "item.mystic_hat", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 9144, "name" : "item.xbows_crossbow_bolts_runite", "min" : 30, "max" : 50, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 9194, "name" : "item.xbows_bolt_tips_onyx", "min" : 4, "max" : 6, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 11232, "name" : "item.dragon_dart_tip", "min" : 15, "max" : 25, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 12073, "name" : "item.trail_elite_emote_exp1", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
+        { "item" : 22284, "name" : "item.black_dhide_shield", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 24, "max" : 36, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 31916, "name" : "item.dragon_cannonball", "min" : 12, "max" : 18, "chance" : [ 1, 50 ], "wiki" : "2/100" },
+        { "item" : 31961, "name" : "item.broken_dragon_hook", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 31996, "name" : "item.dragon_sheet", "min" : 1, "max" : 2, "chance" : [ 1, 180 ], "wiki" : "4/720" },
+        { "item" : 32017, "name" : "item.sailing_boat_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 720 ], "wiki" : "1/720" },
+        { "item" : 32038, "name" : "item.sailing_boat_large_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 720 ], "wiki" : "1/720" },
+        { "item" : 32812, "name" : "item.sailing_great_white_shark_jaw", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 32831, "name" : "item.sailing_great_white_shark_liver", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 32859, "name" : "item.sailing_fremennik_shipwreck_salvage", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "2/100" }
+      ]
+    }
+  ]
+}

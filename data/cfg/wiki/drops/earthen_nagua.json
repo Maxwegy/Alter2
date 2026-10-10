@@ -1,0 +1,44 @@
+{
+  "page" : "Earthen Nagua",
+  "tables" : [
+    {
+      "source" : "Earthen Nagua",
+      "npcIds" : [
+        14420,
+        14421
+      ],
+      "main" : [
+        { "item" : 441, "name" : "item.cert_iron_ore", "min" : 8, "max" : 15, "noted" : true, "chance" : [ 1, 8 ], "wiki" : "4/32" },
+        { "item" : 445, "name" : "item.cert_gold_ore", "min" : 4, "max" : 8, "noted" : true, "chance" : [ 1, 16 ], "wiki" : "2/32" },
+        { "item" : 450, "name" : "item.cert_adamantite_ore", "min" : 1, "max" : 2, "noted" : true, "chance" : [ 1, 16 ], "wiki" : "2/32" },
+        { "item" : 454, "name" : "item.cert_coal", "min" : 8, "max" : 15, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "3/32" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 10, "max" : 19, "chance" : [ 75, 1264 ], "wiki" : "75/1,264" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 20, "max" : 30, "chance" : [ 111, 1264 ], "wiki" : "111/1,264" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 31, "max" : 50, "chance" : [ 51, 1264 ], "wiki" : "51/1,264" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 8, "max" : 13, "chance" : [ 1, 16 ], "wiki" : "2/32" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 8, "max" : 15, "chance" : [ 1, 16 ], "wiki" : "2/32" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 8, "max" : 20, "chance" : [ 3, 32 ], "wiki" : "3/32" },
+        { "item" : 576, "name" : "item.cert_earth_orb", "min" : 1, "max" : 2, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "1/32" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "wiki" : "1/174,762.67" },
+        { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "1/32" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 136533 ], "wiki" : "1/1,365.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1762, "name" : "item.cert_softclay", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "3/32" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "wiki" : "1/131,072" },
+        { "item" : 29381, "name" : "item.blessed_bone_shard", "min" : 20, "max" : 40, "chance" : [ 1, 16 ], "wiki" : "2/32" },
+        { "item" : 30957, "name" : "item.earthbound_tecpatl", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128", "approx" : true },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 76 ], "wiki" : "1/76" }
+      ]
+    }
+  ]
+}

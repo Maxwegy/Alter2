@@ -13,13 +13,13 @@
         5329
       ],
       "names" : [
-        "npc.sigmund_5139",
-        "npc.sigmund_5142",
-        "npc.sigmund_5143",
-        "npc.sigmund_5144",
-        "npc.sigmund_5145",
-        "npc.sigmund_5146",
-        "npc.sigmund_5329"
+        "npc.slice_sigmund_village",
+        "npc.slice_sigmund_showdown",
+        "npc.slice_sigmund_melee",
+        "npc.slice_sigmund_ranged",
+        "npc.slice_sigmund_magic",
+        "npc.slice_sigmund_noprayer",
+        "npc.lost_tribe_cutscene_sigmund"
       ],
       "combatLevel" : 64,
       "hitpoints" : 70,
@@ -48,12 +48,12 @@
         4328
       ],
       "names" : [
-        "npc.sigmund",
-        "npc.sigmund_991",
-        "npc.sigmund_992",
-        "npc.sigmund_993",
-        "npc.sigmund_994",
-        "npc.sigmund_4328"
+        "npc.dttd_sigmund_mill",
+        "npc.dttd_sigmund_melee",
+        "npc.dttd_sigmund_ranged",
+        "npc.dttd_sigmund_magic",
+        "npc.dttd_sigmund_ranged_vs_zanik",
+        "npc.dttd_cutscene_sigmund"
       ],
       "combatLevel" : 50,
       "hitpoints" : 60,

@@ -9,8 +9,8 @@
         3122
       ],
       "names" : [
-        "npc.tokxil_2194",
-        "npc.tokxil_3122"
+        "npc.tzhaar_fightpit_swarm_3b",
+        "npc.tzhaar_fightcave_swarm_3b"
       ],
       "combatLevel" : 90,
       "hitpoints" : 40,
@@ -40,8 +40,8 @@
         3121
       ],
       "names" : [
-        "npc.tokxil_2193",
-        "npc.tokxil_3121"
+        "npc.tzhaar_fightpit_swarm_3a",
+        "npc.tzhaar_fightcave_swarm_3a"
       ],
       "combatLevel" : 90,
       "hitpoints" : 40,

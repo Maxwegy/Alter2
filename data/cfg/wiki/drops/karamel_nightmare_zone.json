@@ -8,7 +8,7 @@
         6371
       ],
       "always" : [
-        { "item" : 6794, "name" : "item.chocice", "min" : 1, "max" : 1 }
+        { "item" : 6794, "name" : "item.elid_choc_ice", "min" : 1, "max" : 1 }
       ]
     }
   ]

@@ -1,0 +1,29 @@
+{
+  "page" : "Butterfly ray",
+  "versions" : [
+    {
+      "source" : "Butterfly ray",
+      "ids" : [
+        15216
+      ],
+      "names" : [
+        "npc.sailing_butterfly_ray"
+      ],
+      "combatLevel" : 68,
+      "hitpoints" : 83,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 35, "defence" : 15, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "4"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

@@ -9,8 +9,8 @@
         5739
       ],
       "names" : [
-        "npc.penance_fighter",
-        "npc.penance_fighter_5739"
+        "npc.barbassault_pen_fighter_tutor",
+        "npc.barbassault_pen_fighter_lv1"
       ],
       "combatLevel" : 30,
       "hitpoints" : 28,
@@ -38,7 +38,7 @@
         5740
       ],
       "names" : [
-        "npc.penance_fighter_5740"
+        "npc.barbassault_pen_fighter_lv2"
       ],
       "combatLevel" : 32,
       "hitpoints" : 29,
@@ -66,7 +66,7 @@
         5741
       ],
       "names" : [
-        "npc.penance_fighter_5741"
+        "npc.barbassault_pen_fighter_lv3"
       ],
       "combatLevel" : 37,
       "hitpoints" : 32,
@@ -94,7 +94,7 @@
         5742
       ],
       "names" : [
-        "npc.penance_fighter_5742"
+        "npc.barbassault_pen_fighter_lv4"
       ],
       "combatLevel" : 42,
       "hitpoints" : 37,
@@ -122,7 +122,7 @@
         5743
       ],
       "names" : [
-        "npc.penance_fighter_5743"
+        "npc.barbassault_pen_fighter_lv5"
       ],
       "combatLevel" : 47,
       "hitpoints" : 38,
@@ -150,7 +150,7 @@
         5744
       ],
       "names" : [
-        "npc.penance_fighter_5744"
+        "npc.barbassault_pen_fighter_lv6"
       ],
       "combatLevel" : 56,
       "hitpoints" : 49,
@@ -178,7 +178,7 @@
         5745
       ],
       "names" : [
-        "npc.penance_fighter_5745"
+        "npc.barbassault_pen_fighter_lv7"
       ],
       "combatLevel" : 61,
       "hitpoints" : 50,
@@ -206,7 +206,7 @@
         5746
       ],
       "names" : [
-        "npc.penance_fighter_5746"
+        "npc.barbassault_pen_fighter_lv8"
       ],
       "combatLevel" : 68,
       "hitpoints" : 55,
@@ -234,7 +234,7 @@
         5747
       ],
       "names" : [
-        "npc.penance_fighter_5747"
+        "npc.barbassault_pen_fighter_lv9"
       ],
       "combatLevel" : 77,
       "hitpoints" : 56,

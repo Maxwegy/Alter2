@@ -11,11 +11,11 @@
         447
       ],
       "names" : [
-        "npc.infernal_mage_443",
-        "npc.infernal_mage_444",
-        "npc.infernal_mage_445",
-        "npc.infernal_mage_446",
-        "npc.infernal_mage_447"
+        "npc.slayer_infernal_mage_1",
+        "npc.slayer_infernal_mage_2",
+        "npc.slayer_infernal_mage_3",
+        "npc.slayer_infernal_mage_4",
+        "npc.slayer_infernal_mage_5"
       ],
       "combatLevel" : 66,
       "hitpoints" : 60,

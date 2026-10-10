@@ -8,7 +8,7 @@
         13599
       ],
       "names" : [
-        "npc.tormented_demon"
+        "npc.tormented_demon_1"
       ],
       "combatLevel" : 450,
       "hitpoints" : 600,
@@ -39,7 +39,7 @@
         13600
       ],
       "names" : [
-        "npc.tormented_demon_13600"
+        "npc.tormented_demon_2"
       ],
       "combatLevel" : 450,
       "hitpoints" : 600,
@@ -70,7 +70,7 @@
         13601
       ],
       "names" : [
-        "npc.tormented_demon_13601"
+        "npc.tormented_demon_quest_1"
       ],
       "combatLevel" : 450,
       "hitpoints" : 600,
@@ -101,7 +101,7 @@
         13602
       ],
       "names" : [
-        "npc.tormented_demon_13602"
+        "npc.tormented_demon_quest_2"
       ],
       "combatLevel" : 450,
       "hitpoints" : 600,

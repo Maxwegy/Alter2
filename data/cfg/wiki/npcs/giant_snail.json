@@ -8,7 +8,7 @@
         5629
       ],
       "names" : [
-        "npc.giant_snail_5629"
+        "npc.templetrek_giantsnail_2"
       ],
       "combatLevel" : 109,
       "hitpoints" : 150,
@@ -34,7 +34,7 @@
         5630
       ],
       "names" : [
-        "npc.giant_snail_5630"
+        "npc.templetrek_giantsnail_3"
       ],
       "combatLevel" : 139,
       "hitpoints" : 160,
@@ -60,7 +60,7 @@
         5628
       ],
       "names" : [
-        "npc.giant_snail"
+        "npc.templetrek_giantsnail_1"
       ],
       "combatLevel" : 80,
       "hitpoints" : 125,

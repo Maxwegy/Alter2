@@ -9,8 +9,8 @@
         13774
       ],
       "names" : [
-        "npc.emissary_brawler",
-        "npc.emissary_brawler_13774"
+        "npc.vmq3_tower_twilight_melee_variant_1a",
+        "npc.vmq3_tower_twilight_melee_variant_1b"
       ],
       "combatLevel" : 74,
       "hitpoints" : 35,
@@ -36,8 +36,8 @@
         13776
       ],
       "names" : [
-        "npc.emissary_brawler_13775",
-        "npc.emissary_brawler_13776"
+        "npc.vmq3_tower_twilight_melee_variant_2a",
+        "npc.vmq3_tower_twilight_melee_variant_2b"
       ],
       "combatLevel" : 86,
       "hitpoints" : 55,

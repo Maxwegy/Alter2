@@ -8,7 +8,7 @@
         5194
       ],
       "names" : [
-        "npc.baby_green_dragon"
+        "npc.babygreendragon1"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -38,7 +38,7 @@
         5872
       ],
       "names" : [
-        "npc.baby_green_dragon_5872"
+        "npc.babygreendragon2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -68,7 +68,7 @@
         5873
       ],
       "names" : [
-        "npc.baby_green_dragon_5873"
+        "npc.babygreendragon3"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,

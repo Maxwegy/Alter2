@@ -1,0 +1,162 @@
+{
+  "page" : "Zemouregal Summon",
+  "versions" : [
+    {
+      "source" : "Zemouregal Summon#Fremennik",
+      "version" : "Fremennik",
+      "ids" : [
+        15562
+      ],
+      "names" : [
+        "npc.deadman_breach_ulfric_minion"
+      ],
+      "combatLevel" : 151,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 50, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Zemouregal Summon#Khazard",
+      "version" : "Khazard",
+      "ids" : [
+        15563
+      ],
+      "names" : [
+        "npc.deadman_breach_khazard_minion"
+      ],
+      "combatLevel" : 163,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false }
+    },
+    {
+      "source" : "Zemouregal Summon#Mummy",
+      "version" : "Mummy",
+      "ids" : [
+        15558
+      ],
+      "names" : [
+        "npc.deadman_breach_mummy_minion"
+      ],
+      "combatLevel" : 163,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 150, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zemouregal Summon#Pirate",
+      "version" : "Pirate",
+      "ids" : [
+        15561
+      ],
+      "names" : [
+        "npc.deadman_breach_pirate_minion"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 35,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 75, "strength" : 100, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "Zemouregal Summon#Shade",
+      "version" : "Shade",
+      "ids" : [
+        15559
+      ],
+      "names" : [
+        "npc.deadman_breach_shade_minion"
+      ],
+      "combatLevel" : 141,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 250, "strength" : 150, "defence" : 10, "ranged" : 1, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    },
+    {
+      "source" : "Zemouregal Summon#Undead One",
+      "version" : "Undead One",
+      "ids" : [
+        15560
+      ],
+      "names" : [
+        "npc.deadman_breach_undead_one_minion"
+      ],
+      "combatLevel" : 147,
+      "hitpoints" : 35,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 150, "defence" : 100, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

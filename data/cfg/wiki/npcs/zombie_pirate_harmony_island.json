@@ -9,8 +9,8 @@
         564
       ],
       "names" : [
-        "npc.zombie_pirate",
-        "npc.zombie_pirate_564"
+        "npc.brain_zombie_pirate_1",
+        "npc.brain_zombie_pirate_underwater_1"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -41,7 +41,7 @@
         575
       ],
       "names" : [
-        "npc.zombie_pirate_575"
+        "npc.brain_zombie_pirate_10"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -72,7 +72,7 @@
         576
       ],
       "names" : [
-        "npc.zombie_pirate_576"
+        "npc.brain_zombie_pirate_11"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -103,7 +103,7 @@
         577
       ],
       "names" : [
-        "npc.zombie_pirate_577"
+        "npc.brain_zombie_pirate_12"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -134,7 +134,7 @@
         578
       ],
       "names" : [
-        "npc.zombie_pirate_578"
+        "npc.brain_zombie_pirate_13"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -165,7 +165,7 @@
         579
       ],
       "names" : [
-        "npc.zombie_pirate_579"
+        "npc.brain_zombie_pirate_14"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -196,7 +196,7 @@
         580
       ],
       "names" : [
-        "npc.zombie_pirate_580"
+        "npc.brain_zombie_pirate_15"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -227,7 +227,7 @@
         581
       ],
       "names" : [
-        "npc.zombie_pirate_581"
+        "npc.brain_zombie_pirate_16"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -259,8 +259,8 @@
         583
       ],
       "names" : [
-        "npc.zombie_pirate_582",
-        "npc.zombie_pirate_583"
+        "npc.brain_zombie_pirate_17",
+        "npc.brain_zombie_pirate_underwater_17"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -292,8 +292,8 @@
         585
       ],
       "names" : [
-        "npc.zombie_pirate_584",
-        "npc.zombie_pirate_585"
+        "npc.brain_zombie_pirate_18",
+        "npc.brain_zombie_pirate_underwater_18"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -325,8 +325,8 @@
         587
       ],
       "names" : [
-        "npc.zombie_pirate_586",
-        "npc.zombie_pirate_587"
+        "npc.brain_zombie_pirate_19",
+        "npc.brain_zombie_pirate_underwater_19"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -358,8 +358,8 @@
         566
       ],
       "names" : [
-        "npc.zombie_pirate_565",
-        "npc.zombie_pirate_566"
+        "npc.brain_zombie_pirate_2",
+        "npc.brain_zombie_pirate_underwater_2"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -391,8 +391,8 @@
         589
       ],
       "names" : [
-        "npc.zombie_pirate_588",
-        "npc.zombie_pirate_589"
+        "npc.brain_zombie_pirate_20",
+        "npc.brain_zombie_pirate_underwater_20"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -424,8 +424,8 @@
         591
       ],
       "names" : [
-        "npc.zombie_pirate_590",
-        "npc.zombie_pirate_591"
+        "npc.brain_zombie_pirate_21",
+        "npc.brain_zombie_pirate_underwater_21"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -456,7 +456,7 @@
         592
       ],
       "names" : [
-        "npc.zombie_pirate_592"
+        "npc.brain_zombie_pirate_22"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -488,8 +488,8 @@
         594
       ],
       "names" : [
-        "npc.zombie_pirate_593",
-        "npc.zombie_pirate_594"
+        "npc.brain_zombie_pirate_23",
+        "npc.brain_zombie_pirate_underwater_23"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -521,8 +521,8 @@
         596
       ],
       "names" : [
-        "npc.zombie_pirate_595",
-        "npc.zombie_pirate_596"
+        "npc.brain_zombie_pirate_24",
+        "npc.brain_zombie_pirate_underwater_24"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -554,8 +554,8 @@
         598
       ],
       "names" : [
-        "npc.zombie_pirate_597",
-        "npc.zombie_pirate_598"
+        "npc.brain_zombie_pirate_25",
+        "npc.brain_zombie_pirate_underwater_25"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -586,7 +586,7 @@
         599
       ],
       "names" : [
-        "npc.zombie_pirate_599"
+        "npc.brain_zombie_pirate_26"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -617,7 +617,7 @@
         567
       ],
       "names" : [
-        "npc.zombie_pirate_567"
+        "npc.brain_zombie_pirate_3"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -648,7 +648,7 @@
         568
       ],
       "names" : [
-        "npc.zombie_pirate_568"
+        "npc.brain_zombie_pirate_4"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -680,8 +680,8 @@
         570
       ],
       "names" : [
-        "npc.zombie_pirate_569",
-        "npc.zombie_pirate_570"
+        "npc.brain_zombie_pirate_5",
+        "npc.brain_zombie_pirate_underwater_5"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -712,7 +712,7 @@
         571
       ],
       "names" : [
-        "npc.zombie_pirate_571"
+        "npc.brain_zombie_pirate_6"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -743,7 +743,7 @@
         572
       ],
       "names" : [
-        "npc.zombie_pirate_572"
+        "npc.brain_zombie_pirate_7"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -774,7 +774,7 @@
         573
       ],
       "names" : [
-        "npc.zombie_pirate_573"
+        "npc.brain_zombie_pirate_8"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -805,7 +805,7 @@
         574
       ],
       "names" : [
-        "npc.zombie_pirate_574"
+        "npc.brain_zombie_pirate_9"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,

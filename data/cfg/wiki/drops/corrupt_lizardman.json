@@ -8,7 +8,7 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 13383, "name" : "item.xerician_fabric", "min" : 3, "max" : 3 }
+        { "item" : 13383, "name" : "item.xeric_fabric", "min" : 3, "max" : 3 }
       ]
     }
   ]

@@ -8,7 +8,7 @@
         5944
       ],
       "names" : [
-        "npc.rock_lobster"
+        "npc.dagannoth_rock_lobster_2x2"
       ],
       "combatLevel" : 127,
       "hitpoints" : 150,
@@ -34,7 +34,7 @@
         5945
       ],
       "names" : [
-        "npc.rock_5945"
+        "npc.dagannoth_rock_lobster_2x2_loc"
       ],
       "combatLevel" : 127,
       "hitpoints" : 150,

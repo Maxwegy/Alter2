@@ -8,7 +8,7 @@
         3019
       ],
       "names" : [
-        "npc.spider_3019"
+        "npc.spider"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,
@@ -36,7 +36,7 @@
         2478
       ],
       "names" : [
-        "npc.spider"
+        "npc.sos_pest_spider"
       ],
       "combatLevel" : 24,
       "hitpoints" : 22,
@@ -64,7 +64,7 @@
         4561
       ],
       "names" : [
-        "npc.spider_4561"
+        "npc.upass_little_spider"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,

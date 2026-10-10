@@ -20,10 +20,10 @@
       ],
       "main" : [
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 21, 128 ], "wiki" : "21/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 8, "max" : 8, "chance" : [ 23, 128 ], "wiki" : "23/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 5, "chance" : [ 21, 128 ], "wiki" : "21/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 8, "max" : 8, "chance" : [ 23, 128 ], "wiki" : "23/128" },
         { "item" : 1059, "name" : "item.leather_gloves", "min" : 1, "max" : 1, "chance" : [ 21, 128 ], "wiki" : "21/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "wiki" : "1/131,072" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 34952533 ], "wiki" : "1/349,525.33" },
@@ -36,12 +36,12 @@
         { "item" : 1635, "name" : "item.gold_ring", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 1637, "name" : "item.sapphire_ring", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1639, "name" : "item.emerald_ring", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
-        { "item" : 2912, "name" : "item.red_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2922, "name" : "item.yellow_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2932, "name" : "item.teal_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2942, "name" : "item.purple_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 7975, "name" : "item.crawling_hand_7975", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 2912, "name" : "item.wolfengloves_crimson", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2922, "name" : "item.wolfengloves_tangerine", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2932, "name" : "item.wolfengloves_ocean", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 2942, "name" : "item.wolfengloves_purple", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 7975, "name" : "item.poh_trophydrop_crawlinghand", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" }
       ]
     }
   ]

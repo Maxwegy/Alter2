@@ -8,7 +8,7 @@
         107
       ],
       "names" : [
-        "npc.white_wolf"
+        "npc.whitewolf_sentry"
       ],
       "combatLevel" : 25,
       "hitpoints" : 34,
@@ -36,7 +36,7 @@
         108
       ],
       "names" : [
-        "npc.white_wolf_108"
+        "npc.whitewolf"
       ],
       "combatLevel" : 38,
       "hitpoints" : 44,

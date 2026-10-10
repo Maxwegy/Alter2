@@ -13,12 +13,12 @@
         7886
       ],
       "names" : [
-        "npc.dusk_7851",
-        "npc.dusk_7854",
-        "npc.dusk_7855",
-        "npc.dusk_7882",
-        "npc.dusk_7883",
-        "npc.dusk_7886"
+        "npc.gargboss_dusk_phase1_defensive",
+        "npc.gargboss_dusk_phase1_transition",
+        "npc.gargboss_dusk_phase1_flytransition",
+        "npc.gargboss_dusk_phase2_attacking",
+        "npc.gargboss_dusk_phase3_defensive",
+        "npc.gargboss_dusk_phase3_transition"
       ],
       "combatLevel" : 248,
       "hitpoints" : 450,
@@ -50,9 +50,9 @@
         7889
       ],
       "names" : [
-        "npc.dusk_7887",
-        "npc.dusk_7888",
-        "npc.dusk_7889"
+        "npc.gargboss_dusk_phase4_spawn",
+        "npc.gargboss_dusk_phase4",
+        "npc.gargboss_dusk_death"
       ],
       "combatLevel" : 328,
       "hitpoints" : 450,

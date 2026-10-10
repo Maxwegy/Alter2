@@ -8,7 +8,7 @@
         3141
       ],
       "names" : [
-        "npc.gorak_3141"
+        "npc.godwars_gorak"
       ],
       "combatLevel" : 149,
       "hitpoints" : 128,
@@ -34,7 +34,7 @@
         1834
       ],
       "names" : [
-        "npc.gorak"
+        "npc.fairytale2_gorak"
       ],
       "combatLevel" : 145,
       "hitpoints" : 112,

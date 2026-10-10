@@ -8,7 +8,7 @@
         4311
       ],
       "names" : [
-        "npc.sea_troll_4311"
+        "npc.swan_troll_fishing_3"
       ],
       "combatLevel" : 101,
       "hitpoints" : 80,
@@ -34,7 +34,7 @@
         4309
       ],
       "names" : [
-        "npc.sea_troll_4309"
+        "npc.swan_troll_fishing_1"
       ],
       "combatLevel" : 65,
       "hitpoints" : 80,
@@ -60,7 +60,7 @@
         4308
       ],
       "names" : [
-        "npc.sea_troll"
+        "npc.swan_troll_ambush"
       ],
       "combatLevel" : 79,
       "hitpoints" : 100,
@@ -86,7 +86,7 @@
         4310
       ],
       "names" : [
-        "npc.sea_troll_4310"
+        "npc.swan_troll_fishing_2"
       ],
       "combatLevel" : 87,
       "hitpoints" : 80,

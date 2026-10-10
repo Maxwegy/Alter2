@@ -8,7 +8,7 @@
         3295
       ],
       "names" : [
-        "npc.hero_3295"
+        "npc.hero"
       ],
       "combatLevel" : 69,
       "hitpoints" : 82,
@@ -34,7 +34,7 @@
         11934
       ],
       "names" : [
-        "npc.hero_11934"
+        "npc.hero_variant01"
       ],
       "combatLevel" : 69,
       "hitpoints" : 82,
@@ -60,7 +60,7 @@
         11935
       ],
       "names" : [
-        "npc.hero_11935"
+        "npc.hero_f"
       ],
       "combatLevel" : 69,
       "hitpoints" : 82,

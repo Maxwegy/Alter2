@@ -13,7 +13,7 @@
       ],
       "needsReview" : true,
       "tertiary" : [
-        { "item" : 151, "name" : "item.fishing_potion3", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 151, "name" : "item.3dosefisherspotion", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 5, "max" : 5, "chance" : [ 27, 128 ], "wiki" : "27/128" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 15, "max" : 15, "chance" : [ 9, 128 ], "wiki" : "9/128" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 30, "max" : 30, "chance" : [ 13, 128 ], "wiki" : "13/128" },
@@ -28,8 +28,8 @@
         { "item" : 371, "name" : "item.raw_swordfish", "min" : 1, "max" : 1, "chance" : [ 19, 128 ], "wiki" : "19/128" },
         { "item" : 383, "name" : "item.raw_shark", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
         { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 407, "name" : "item.oyster", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
-        { "item" : 7884, "name" : "item.troll_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+        { "item" : 407, "name" : "item.oystershell", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 7884, "name" : "item.rag_troll_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
       ]
     }
   ]

@@ -1,0 +1,21 @@
+{
+  "page" : "Maxilla beast",
+  "versions" : [
+    {
+      "source" : "Maxilla beast",
+      "ids" : [
+        16233
+      ],
+      "names" : [
+        "npc.sotfa_forest_maxilla_beast"
+      ],
+      "combatLevel" : 194,
+      "hitpoints" : 200,
+      "size" : 2,
+      "maxHits" : [
+        "53"
+      ],
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

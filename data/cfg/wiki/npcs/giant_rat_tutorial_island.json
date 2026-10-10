@@ -8,7 +8,7 @@
         9483
       ],
       "names" : [
-        "npc.giant_rat_9483"
+        "npc.tut2_giantrat"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,
@@ -33,7 +33,7 @@
         3314
       ],
       "names" : [
-        "npc.giant_rat_3314"
+        "npc.newbiegiantrat2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,
@@ -58,7 +58,7 @@
         3315
       ],
       "names" : [
-        "npc.giant_rat_3315"
+        "npc.newbiegiantrat3"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,
@@ -83,7 +83,7 @@
         3313
       ],
       "names" : [
-        "npc.giant_rat_3313"
+        "npc.newbiegiantrat"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,

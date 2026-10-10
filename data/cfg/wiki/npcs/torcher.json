@@ -9,8 +9,8 @@
         1715
       ],
       "names" : [
-        "npc.torcher",
-        "npc.torcher_1715"
+        "npc.pest_torcher_1a",
+        "npc.pest_torcher_1b"
       ],
       "combatLevel" : 33,
       "hitpoints" : 18,
@@ -36,8 +36,8 @@
         1717
       ],
       "names" : [
-        "npc.torcher_1716",
-        "npc.torcher_1717"
+        "npc.pest_torcher_2a",
+        "npc.pest_torcher_2b"
       ],
       "combatLevel" : 49,
       "hitpoints" : 30,
@@ -63,8 +63,8 @@
         1719
       ],
       "names" : [
-        "npc.torcher_1718",
-        "npc.torcher_1719"
+        "npc.pest_torcher_3a",
+        "npc.pest_torcher_3b"
       ],
       "combatLevel" : 66,
       "hitpoints" : 45,
@@ -90,8 +90,8 @@
         1721
       ],
       "names" : [
-        "npc.torcher_1720",
-        "npc.torcher_1721"
+        "npc.pest_torcher_4a",
+        "npc.pest_torcher_4b"
       ],
       "combatLevel" : 79,
       "hitpoints" : 57,
@@ -116,7 +116,7 @@
         1722
       ],
       "names" : [
-        "npc.torcher_1722"
+        "npc.pest_torcher_5a"
       ],
       "combatLevel" : 91,
       "hitpoints" : 70,
@@ -141,7 +141,7 @@
         1723
       ],
       "names" : [
-        "npc.torcher_1723"
+        "npc.pest_torcher_5b"
       ],
       "combatLevel" : 92,
       "hitpoints" : 71,

@@ -11,10 +11,10 @@
         9617
       ],
       "names" : [
-        "npc.vampyre_juvinate_9614",
-        "npc.vampyre_juvinate_9615",
-        "npc.vampyre_juvinate_9616",
-        "npc.vampyre_juvinate_9617"
+        "npc.myq5_trek_juvinate_1",
+        "npc.myq5_trek_juvinate_2",
+        "npc.myq5_trek_juvinate_1_held",
+        "npc.myq5_trek_juvinate_2_held"
       ],
       "combatLevel" : 119,
       "hitpoints" : 150,
@@ -44,8 +44,8 @@
         5639
       ],
       "names" : [
-        "npc.vampyre_juvinate_5636",
-        "npc.vampyre_juvinate_5639"
+        "npc.templetrek_vampire_3",
+        "npc.trek_vampire_juve_held_3"
       ],
       "combatLevel" : 119,
       "hitpoints" : 150,
@@ -75,8 +75,8 @@
         4486
       ],
       "names" : [
-        "npc.vampyre_juvinate_4443",
-        "npc.vampyre_juvinate_4486"
+        "npc.burgh_ivan_temple_vampire_juve_2",
+        "npc.burgh_vampire_juve_1_attackable"
       ],
       "combatLevel" : 50,
       "hitpoints" : 60,
@@ -110,12 +110,12 @@
         4487
       ],
       "names" : [
-        "npc.vampyre_juvinate_4427",
-        "npc.vampyre_juvinate_4428",
-        "npc.vampyre_juvinate_4429",
-        "npc.vampyre_juvinate_4430",
-        "npc.vampyre_juvinate_4432",
-        "npc.vampyre_juvinate_4487"
+        "npc.burgh_vampire_juve_1",
+        "npc.burgh_vampire_juve_2",
+        "npc.burgh_vampire_juve_3",
+        "npc.burgh_vampire_juve_4",
+        "npc.burgh_vampire_juve_held",
+        "npc.burgh_vampire_juve_2_attackable"
       ],
       "combatLevel" : 54,
       "hitpoints" : 85,
@@ -147,10 +147,10 @@
         9730
       ],
       "names" : [
-        "npc.vampyre_juvinate_9727",
-        "npc.vampyre_juvinate_9728",
-        "npc.vampyre_juvinate_9729",
-        "npc.vampyre_juvinate_9730"
+        "npc.darkm_juvinate_01",
+        "npc.darkm_juvinate_02",
+        "npc.darkm_juvinate_01_held",
+        "npc.darkm_juvinate_02_held"
       ],
       "combatLevel" : 54,
       "hitpoints" : 85,
@@ -183,10 +183,10 @@
         3699
       ],
       "names" : [
-        "npc.vampyre_juvinate_3694",
-        "npc.vampyre_juvinate_3695",
-        "npc.vampyre_juvinate_3698",
-        "npc.vampyre_juvinate_3699"
+        "npc.sang_myq3_male_juvinate",
+        "npc.sang_myq3_female_juvinate",
+        "npc.sang_myq3_male_juvinate_held",
+        "npc.sang_myq3_female_juvinate_held"
       ],
       "combatLevel" : 54,
       "hitpoints" : 85,
@@ -217,8 +217,8 @@
         5637
       ],
       "names" : [
-        "npc.vampyre_juvinate_5634",
-        "npc.vampyre_juvinate_5637"
+        "npc.templetrek_vampire_1",
+        "npc.trek_vampire_juve_held_1"
       ],
       "combatLevel" : 59,
       "hitpoints" : 50,
@@ -247,7 +247,7 @@
         4442
       ],
       "names" : [
-        "npc.vampyre_juvinate_4442"
+        "npc.burgh_ivan_temple_vampire_juve_1"
       ],
       "combatLevel" : 75,
       "hitpoints" : 110,
@@ -277,8 +277,8 @@
         5638
       ],
       "names" : [
-        "npc.vampyre_juvinate_5635",
-        "npc.vampyre_juvinate_5638"
+        "npc.templetrek_vampire_2",
+        "npc.trek_vampire_juve_held_2"
       ],
       "combatLevel" : 90,
       "hitpoints" : 100,

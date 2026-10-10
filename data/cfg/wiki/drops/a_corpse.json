@@ -1,0 +1,14 @@
+{
+  "page" : "A corpse",
+  "tables" : [
+    {
+      "source" : "A corpse",
+      "npcIds" : [
+        15165
+      ],
+      "main" : [
+        { "item" : 7863, "name" : "item.rag_zombie_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+      ]
+    }
+  ]
+}

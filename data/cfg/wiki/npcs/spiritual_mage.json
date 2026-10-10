@@ -8,7 +8,7 @@
         3168
       ],
       "names" : [
-        "npc.spiritual_mage_3168"
+        "npc.godwars_spiritual_armadyl_mage"
       ],
       "combatLevel" : 123,
       "hitpoints" : 86,
@@ -39,7 +39,7 @@
         2244
       ],
       "names" : [
-        "npc.spiritual_mage_2244"
+        "npc.godwars_spiritual_bandos_mage"
       ],
       "combatLevel" : 121,
       "hitpoints" : 106,
@@ -70,7 +70,7 @@
         2212
       ],
       "names" : [
-        "npc.spiritual_mage"
+        "npc.godwars_spiritual_saradomin_mage"
       ],
       "combatLevel" : 120,
       "hitpoints" : 85,
@@ -101,7 +101,7 @@
         3161
       ],
       "names" : [
-        "npc.spiritual_mage_3161"
+        "npc.godwars_spiritual_zamorak_mage"
       ],
       "combatLevel" : 121,
       "hitpoints" : 75,
@@ -132,7 +132,7 @@
         11292
       ],
       "names" : [
-        "npc.spiritual_mage_11292"
+        "npc.nex_prison_mage"
       ],
       "combatLevel" : 182,
       "hitpoints" : 125,

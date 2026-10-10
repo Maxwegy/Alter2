@@ -9,9 +9,9 @@
         7103
       ],
       "names" : [
-        "npc.glough_7101",
-        "npc.glough_7102",
-        "npc.glough_7103"
+        "npc.mm2_demon_glough",
+        "npc.mm2_demon_glough_nomove",
+        "npc.mm2_demon_glough_cutscene"
       ],
       "combatLevel" : 431,
       "hitpoints" : 575,

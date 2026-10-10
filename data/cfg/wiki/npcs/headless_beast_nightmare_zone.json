@@ -8,7 +8,7 @@
         10492
       ],
       "names" : [
-        "npc.headless_beast_hard"
+        "npc.nzone_ga_beast_hard"
       ],
       "combatLevel" : 233,
       "hitpoints" : 320,
@@ -37,7 +37,7 @@
         10493
       ],
       "names" : [
-        "npc.headless_beast"
+        "npc.nzone_ga_beast_normal"
       ],
       "combatLevel" : 82,
       "hitpoints" : 100,

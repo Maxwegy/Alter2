@@ -8,7 +8,7 @@
         1233
       ],
       "names" : [
-        "npc.arzinian_avatar_of_magic"
+        "npc.dwarf_rock_avatar_mage"
       ],
       "hitpoints" : 200,
       "attackSpeed" : 4,
@@ -31,7 +31,7 @@
         1234
       ],
       "names" : [
-        "npc.arzinian_avatar_of_magic_1234"
+        "npc.dwarf_rock_avatar_mage_green"
       ],
       "combatLevel" : 125,
       "hitpoints" : 100,
@@ -56,7 +56,7 @@
         1235
       ],
       "names" : [
-        "npc.arzinian_avatar_of_magic_1235"
+        "npc.dwarf_rock_avatar_mage_yellow"
       ],
       "combatLevel" : 75,
       "hitpoints" : 70,

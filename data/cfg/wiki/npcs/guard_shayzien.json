@@ -14,14 +14,14 @@
         11106
       ],
       "names" : [
-        "npc.guard_11092",
-        "npc.guard_11094",
-        "npc.guard_11096",
-        "npc.guard_11098",
-        "npc.guard_11100",
-        "npc.guard_11102",
-        "npc.guard_11104",
-        "npc.guard_11106"
+        "npc.kourend_guard_m1",
+        "npc.kourend_guard_m2",
+        "npc.kourend_guard_m3",
+        "npc.kourend_guard_m4",
+        "npc.kourend_guard_f1",
+        "npc.kourend_guard_f2",
+        "npc.kourend_guard_f3",
+        "npc.kourend_guard_f4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

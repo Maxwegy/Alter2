@@ -7,7 +7,7 @@
         6594
       ],
       "names" : [
-        "npc.ent"
+        "npc.wilderness_ent"
       ],
       "combatLevel" : 101,
       "hitpoints" : 105,
@@ -34,7 +34,7 @@
         7234
       ],
       "names" : [
-        "npc.ent_7234"
+        "npc.wcguild_ent"
       ],
       "combatLevel" : 86,
       "hitpoints" : 75,

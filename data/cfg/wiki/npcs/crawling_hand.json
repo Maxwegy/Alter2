@@ -8,7 +8,7 @@
         455
       ],
       "names" : [
-        "npc.crawling_hand_455"
+        "npc.slayer_crawling_hand_big_3"
       ],
       "combatLevel" : 11,
       "hitpoints" : 18,
@@ -37,7 +37,7 @@
         453
       ],
       "names" : [
-        "npc.crawling_hand_453"
+        "npc.slayer_crawling_hand_big_1"
       ],
       "combatLevel" : 12,
       "hitpoints" : 19,
@@ -67,7 +67,7 @@
         454
       ],
       "names" : [
-        "npc.crawling_hand_454"
+        "npc.slayer_crawling_hand_big_2"
       ],
       "combatLevel" : 12,
       "hitpoints" : 19,
@@ -97,7 +97,7 @@
         456
       ],
       "names" : [
-        "npc.crawling_hand_456"
+        "npc.slayer_crawling_hand_big_4"
       ],
       "combatLevel" : 12,
       "hitpoints" : 19,
@@ -126,7 +126,7 @@
         457
       ],
       "names" : [
-        "npc.crawling_hand_457"
+        "npc.slayer_crawling_hand_big_5"
       ],
       "combatLevel" : 12,
       "hitpoints" : 19,
@@ -155,7 +155,7 @@
         450
       ],
       "names" : [
-        "npc.crawling_hand_450"
+        "npc.slayer_crawling_hand_3"
       ],
       "combatLevel" : 7,
       "hitpoints" : 15,
@@ -185,7 +185,7 @@
         448
       ],
       "names" : [
-        "npc.crawling_hand_448"
+        "npc.slayer_crawling_hand_1"
       ],
       "combatLevel" : 8,
       "hitpoints" : 16,
@@ -215,7 +215,7 @@
         449
       ],
       "names" : [
-        "npc.crawling_hand_449"
+        "npc.slayer_crawling_hand_2"
       ],
       "combatLevel" : 8,
       "hitpoints" : 16,
@@ -245,7 +245,7 @@
         451
       ],
       "names" : [
-        "npc.crawling_hand_451"
+        "npc.slayer_crawling_hand_4"
       ],
       "combatLevel" : 8,
       "hitpoints" : 16,
@@ -275,7 +275,7 @@
         452
       ],
       "names" : [
-        "npc.crawling_hand_452"
+        "npc.slayer_crawling_hand_5"
       ],
       "combatLevel" : 8,
       "hitpoints" : 16,

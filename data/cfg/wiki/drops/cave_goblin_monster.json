@@ -14,21 +14,21 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "tertiary" : [
-        { "item" : 555, "name" : "item.water_rune", "min" : 6, "max" : 6, "chance" : [ 1, 10 ], "wiki" : "5/50" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 1, 10 ], "wiki" : "5/50" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 7, "max" : 7, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 6, "max" : 6, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 4, "max" : 4, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 7, "max" : 7, "chance" : [ 1, 10 ], "wiki" : "5/50" },
         { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "4/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 2, 25 ], "wiki" : "4/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 9, "max" : 9, "chance" : [ 2, 25 ], "wiki" : "4/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 3, 25 ], "wiki" : "6/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 20, "max" : 20, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 5, "chance" : [ 2, 25 ], "wiki" : "4/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 9, "max" : 9, "chance" : [ 2, 25 ], "wiki" : "4/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 15, "max" : 15, "chance" : [ 3, 25 ], "wiki" : "6/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 20, "max" : 20, "chance" : [ 1, 10 ], "wiki" : "5/50" },
         { "item" : 1009, "name" : "item.brass_necklace", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
         { "item" : 2347, "name" : "item.hammer", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "4/50" },
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
-        { "item" : 7905, "name" : "item.cave_goblin_skull", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
-        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" }
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 6801, "name" : "item.champions_challenge_goblin", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 7905, "name" : "item.rag_cave_goblin_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" },
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" }
       ]
     }
   ]

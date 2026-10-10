@@ -9,8 +9,8 @@
         12003
       ],
       "names" : [
-        "npc.desert_lizard_459",
-        "npc.desert_lizard_12003"
+        "npc.slayer_lizard_large1_green",
+        "npc.slayer_lizard_large1_green_lowrange"
       ],
       "combatLevel" : 24,
       "hitpoints" : 25,
@@ -37,7 +37,7 @@
         461
       ],
       "names" : [
-        "npc.desert_lizard_461"
+        "npc.slayer_lizard_large3_sandy"
       ],
       "combatLevel" : 24,
       "hitpoints" : 25,
@@ -64,7 +64,7 @@
         460
       ],
       "names" : [
-        "npc.desert_lizard_460"
+        "npc.slayer_lizard_large2_sandy"
       ],
       "combatLevel" : 24,
       "hitpoints" : 25,

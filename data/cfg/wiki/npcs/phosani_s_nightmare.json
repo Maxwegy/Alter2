@@ -17,17 +17,17 @@
         11155
       ],
       "names" : [
-        "npc.phosanis_nightmare_9416",
-        "npc.phosanis_nightmare_9417",
-        "npc.phosanis_nightmare_9418",
-        "npc.phosanis_nightmare_9419",
-        "npc.phosanis_nightmare_9420",
-        "npc.phosanis_nightmare_9421",
-        "npc.phosanis_nightmare_9422",
-        "npc.phosanis_nightmare_9424",
-        "npc.phosanis_nightmare_11153",
-        "npc.phosanis_nightmare_11154",
-        "npc.phosanis_nightmare_11155"
+        "npc.nightmare_challenge_phase_01",
+        "npc.nightmare_challenge_phase_02",
+        "npc.nightmare_challenge_phase_03",
+        "npc.nightmare_challenge_weak_phase_01",
+        "npc.nightmare_challenge_weak_phase_02",
+        "npc.nightmare_challenge_weak_phase_03",
+        "npc.nightmare_challenge_blast",
+        "npc.nightmare_challenge_dying",
+        "npc.nightmare_challenge_phase_04",
+        "npc.nightmare_challenge_phase_05",
+        "npc.nightmare_challenge_weak_phase_04"
       ],
       "combatLevel" : 1024,
       "hitpoints" : 3200,

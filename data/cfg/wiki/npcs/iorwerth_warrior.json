@@ -9,8 +9,8 @@
         8759
       ],
       "names" : [
-        "npc.iorwerth_warrior",
-        "npc.iorwerth_warrior_8759"
+        "npc.regicide_darkelf2",
+        "npc.regicide_darkelf3"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -38,8 +38,8 @@
         9503
       ],
       "names" : [
-        "npc.iorwerth_warrior_9502",
-        "npc.iorwerth_warrior_9503"
+        "npc.prif_darkelf2",
+        "npc.prif_darkelf3"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,

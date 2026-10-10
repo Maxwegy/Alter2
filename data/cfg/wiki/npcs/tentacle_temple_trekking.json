@@ -8,7 +8,7 @@
         5646
       ],
       "names" : [
-        "npc.tentacle_5646"
+        "npc.templetrek_tentacle_arm_spawning"
       ],
       "combatLevel" : 99,
       "hitpoints" : 75,
@@ -33,7 +33,7 @@
         5643
       ],
       "names" : [
-        "npc.tentacle_5643"
+        "npc.templetrek_tentacle_arm"
       ],
       "combatLevel" : 99,
       "hitpoints" : 75,

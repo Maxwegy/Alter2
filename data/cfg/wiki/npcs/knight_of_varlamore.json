@@ -8,7 +8,7 @@
         13114
       ],
       "names" : [
-        "npc.knight_of_varlamore_13114"
+        "npc.varlamore_knight_m_1"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -33,7 +33,7 @@
         13115
       ],
       "names" : [
-        "npc.knight_of_varlamore_13115"
+        "npc.varlamore_knight_m_2"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -58,7 +58,7 @@
         13116
       ],
       "names" : [
-        "npc.knight_of_varlamore_13116"
+        "npc.varlamore_knight_m_3"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -83,7 +83,7 @@
         13117
       ],
       "names" : [
-        "npc.knight_of_varlamore_13117"
+        "npc.varlamore_knight_f_1"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -108,7 +108,7 @@
         13118
       ],
       "names" : [
-        "npc.knight_of_varlamore_13118"
+        "npc.varlamore_knight_f_2"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -133,7 +133,7 @@
         13119
       ],
       "names" : [
-        "npc.knight_of_varlamore_13119"
+        "npc.varlamore_knight_f_3"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,

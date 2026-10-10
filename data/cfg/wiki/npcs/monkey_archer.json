@@ -9,8 +9,8 @@
         6813
       ],
       "names" : [
-        "npc.monkey_archer_5273",
-        "npc.monkey_archer_6813"
+        "npc.mm_ravine_archer",
+        "npc.mm2_monkey_archer"
       ],
       "combatLevel" : 86,
       "hitpoints" : 50,
@@ -38,8 +38,8 @@
         5274
       ],
       "names" : [
-        "npc.monkey_archer",
-        "npc.monkey_archer_5274"
+        "npc.mm_monkey_archer",
+        "npc.mm_posted_archer"
       ],
       "combatLevel" : 86,
       "hitpoints" : 50,

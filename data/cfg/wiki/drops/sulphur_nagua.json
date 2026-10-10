@@ -7,21 +7,21 @@
         13033
       ],
       "main" : [
-        { "item" : 437, "name" : "item.copper_ore_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 439, "name" : "item.tin_ore_noted", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 441, "name" : "item.iron_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 27, 128 ], "wiki" : "27/128" },
-        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "12/128" },
-        { "item" : 448, "name" : "item.mithril_ore_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 437, "name" : "item.cert_copper_ore", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 439, "name" : "item.cert_tin_ore", "min" : 10, "max" : 15, "noted" : true, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 441, "name" : "item.cert_iron_ore", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 27, 128 ], "wiki" : "27/128" },
+        { "item" : 443, "name" : "item.cert_silver_ore", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 448, "name" : "item.cert_mithril_ore", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 453, "name" : "item.coal", "min" : 1, "max" : 1, "chance" : [ 21, 128 ], "wiki" : "21/128" },
-        { "item" : 454, "name" : "item.coal_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 13, 128 ], "wiki" : "13/128" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 10, "max" : 40, "chance" : [ 13, 64 ], "wiki" : "26/128" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 40, "max" : 60, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 560, "name" : "item.death_rune", "min" : 40, "max" : 60, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 561, "name" : "item.nature_rune", "min" : 5, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 40, "max" : 60, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 454, "name" : "item.cert_coal", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 10, "max" : 40, "chance" : [ 13, 64 ], "wiki" : "26/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 40, "max" : 60, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 40, "max" : 60, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 5, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 40, "max" : 60, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 546133 ], "rolls" : 2, "wiki" : "1/5,461.33" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "rolls" : 2, "wiki" : "1/5,461.33" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "rolls" : 2, "wiki" : "1/5,461.33" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "rolls" : 2, "wiki" : "1/5,461.33" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "rolls" : 2, "wiki" : "1/5,461.33" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "rolls" : 2, "wiki" : "1/87,381.33" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 23301689 ], "rolls" : 2, "wiki" : "1/233,016.89" },
         { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 25, 45511 ], "rolls" : 2, "wiki" : "1/1,820.44" },
@@ -29,13 +29,13 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 68267 ], "rolls" : 2, "wiki" : "1/682.67" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 34133 ], "rolls" : 2, "wiki" : "1/341.33" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 100, 17067 ], "rolls" : 2, "wiki" : "1/170.67" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "rolls" : 2, "wiki" : "1/174,762.67" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "rolls" : 2, "wiki" : "1/174,762.67" },
         { "item" : 29084, "name" : "item.sulphur_blades", "min" : 1, "max" : 1, "chance" : [ 1, 450 ], "wiki" : "1/450" },
         { "item" : 29087, "name" : "item.sulphurous_essence", "min" : 6, "max" : 10, "chance" : [ 1, 32 ], "wiki" : "4/128" }
       ],
       "tertiary" : [
-        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256", "approx" : true },
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256", "approx" : true },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
       ]
     }
   ]

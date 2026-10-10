@@ -11,14 +11,14 @@
         { "item" : 25766, "name" : "item.fiendish_ashes", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 195, "name" : "item.potion", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 195, "name" : "item.acne_potion", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 434, "name" : "item.clay", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 579, "name" : "item.blue_wizard_hat", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 579, "name" : "item.bluewizhat", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
         { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
         { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
-        { "item" : 753, "name" : "item.cadava_berries", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 877, "name" : "item.bronze_bolts", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
-        { "item" : 956, "name" : "item.flyer", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 753, "name" : "item.cadavaberries", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 877, "name" : "item.bolt", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 956, "name" : "item.flier", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1448, "name" : "item.mind_talisman", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
         { "item" : 1470, "name" : "item.red_bead", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
         { "item" : 1472, "name" : "item.yellow_bead", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
@@ -26,12 +26,12 @@
         { "item" : 1476, "name" : "item.white_bead", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
         { "item" : 1735, "name" : "item.shears", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 1759, "name" : "item.ball_of_wool", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
-        { "item" : 1925, "name" : "item.bucket", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 1929, "name" : "item.bucket_of_water", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 1931, "name" : "item.pot", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 1933, "name" : "item.pot_of_flour", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 1935, "name" : "item.jug", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 1937, "name" : "item.jug_of_water", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1925, "name" : "item.bucket_empty", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1929, "name" : "item.bucket_water", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1931, "name" : "item.pot_empty", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1933, "name" : "item.pot_flour", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1935, "name" : "item.jug_empty", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1937, "name" : "item.jug_water", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1947, "name" : "item.grain", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 1949, "name" : "item.chefs_hat", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1965, "name" : "item.cabbage", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
@@ -45,10 +45,10 @@
       ],
       "tertiary" : [
         { "item" : 1944, "name" : "item.egg", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 6803, "name" : "item.imp_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
+        { "item" : 6803, "name" : "item.champions_challenge_imp", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" },
         { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" },
         { "item" : 11942, "name" : "item.ecumenical_key", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
-        { "item" : 13454, "name" : "item.ensouled_imp_head_13454", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
+        { "item" : 13454, "name" : "item.arceuus_corpse_imp", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
       ]
     }
   ]

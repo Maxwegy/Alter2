@@ -8,7 +8,7 @@
         6319
       ],
       "names" : [
-        "npc.tree_spirit_hard"
+        "npc.nzone_tree_spirit_hard"
       ],
       "combatLevel" : 199,
       "hitpoints" : 187,
@@ -37,7 +37,7 @@
         6380
       ],
       "names" : [
-        "npc.tree_spirit_6380"
+        "npc.nzone_tree_spirit_normal"
       ],
       "combatLevel" : 101,
       "hitpoints" : 85,

@@ -8,7 +8,7 @@
         6330
       ],
       "names" : [
-        "npc.dad_hard"
+        "npc.nzone_troll_champion_hard"
       ],
       "combatLevel" : 201,
       "hitpoints" : 240,
@@ -35,7 +35,7 @@
         6391
       ],
       "names" : [
-        "npc.dad_6391"
+        "npc.nzone_troll_champion_normal"
       ],
       "combatLevel" : 101,
       "hitpoints" : 120,

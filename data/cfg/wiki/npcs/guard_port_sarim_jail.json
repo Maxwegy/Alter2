@@ -8,7 +8,7 @@
         1546
       ],
       "names" : [
-        "npc.guard_1546"
+        "npc.jail_guard_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -34,7 +34,7 @@
         1547
       ],
       "names" : [
-        "npc.guard_1547"
+        "npc.jail_guard_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -60,7 +60,7 @@
         1548
       ],
       "names" : [
-        "npc.guard_1548"
+        "npc.jail_guard_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -86,7 +86,7 @@
         1549
       ],
       "names" : [
-        "npc.guard_1549"
+        "npc.jail_guard_4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -112,7 +112,7 @@
         1550
       ],
       "names" : [
-        "npc.guard_1550"
+        "npc.jail_guard_5"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

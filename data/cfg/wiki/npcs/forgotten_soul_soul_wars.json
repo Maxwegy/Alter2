@@ -11,10 +11,10 @@
         10535
       ],
       "names" : [
-        "npc.forgotten_soul",
-        "npc.forgotten_soul_10524",
-        "npc.forgotten_soul_10534",
-        "npc.forgotten_soul_10535"
+        "npc.soul_wars_tut_soul_weak_1",
+        "npc.soul_wars_tut_soul_weak_2",
+        "npc.soul_wars_soul_weak_1",
+        "npc.soul_wars_soul_weak_2"
       ],
       "combatLevel" : 46,
       "hitpoints" : 50,
@@ -46,10 +46,10 @@
         10537
       ],
       "names" : [
-        "npc.forgotten_soul_10525",
-        "npc.forgotten_soul_10526",
-        "npc.forgotten_soul_10536",
-        "npc.forgotten_soul_10537"
+        "npc.soul_wars_tut_soul_strong_1",
+        "npc.soul_wars_tut_soul_strong_2",
+        "npc.soul_wars_soul_strong_1",
+        "npc.soul_wars_soul_strong_2"
       ],
       "combatLevel" : 76,
       "hitpoints" : 80,

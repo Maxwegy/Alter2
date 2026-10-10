@@ -1,0 +1,98 @@
+{
+  "page" : "Earthen Nagua",
+  "versions" : [
+    {
+      "source" : "Earthen Nagua#Normal",
+      "version" : "Normal",
+      "ids" : [
+        14420
+      ],
+      "names" : [
+        "npc.earth_nagua"
+      ],
+      "combatLevel" : 128,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 50, "crushDefence" : 50, "magicDefence" : 60, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 total",
+        "7+6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 165.0, "categories" : [ "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    },
+    {
+      "source" : "Earthen Nagua#Reinforced",
+      "version" : "Reinforced",
+      "ids" : [
+        14421
+      ],
+      "names" : [
+        "npc.earth_nagua_reinforced"
+      ],
+      "combatLevel" : 128,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : 70, "crushDefence" : 10, "magicDefence" : 60, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 total",
+        "7+6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 165.0, "categories" : [ "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    },
+    {
+      "source" : "Earthen Nagua#Weakened",
+      "version" : "Weakened",
+      "ids" : [
+        14420
+      ],
+      "names" : [
+        "npc.earth_nagua"
+      ],
+      "combatLevel" : 128,
+      "hitpoints" : 160,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 120, "strength" : 120, "defence" : 40, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 60, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 100, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "13 total",
+        "7+6"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "spectral"
+      ],
+      "slayer" : { "level" : 48, "xp" : 165.0, "categories" : [ "Lesser Nagua" ], "assignedBy" : [ "chaeldar", "konar" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 15 }
+    }
+  ]
+}

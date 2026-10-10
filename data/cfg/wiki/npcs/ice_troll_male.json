@@ -8,7 +8,7 @@
         5829
       ],
       "names" : [
-        "npc.ice_troll_male_5829"
+        "npc.fris_trollm_pc"
       ],
       "combatLevel" : 82,
       "hitpoints" : 80,
@@ -35,7 +35,7 @@
         1875
       ],
       "names" : [
-        "npc.ice_troll_male"
+        "npc.fris_trollm"
       ],
       "combatLevel" : 82,
       "hitpoints" : 80,

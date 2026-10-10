@@ -8,7 +8,7 @@
         4658
       ],
       "names" : [
-        "npc.mercenary_4658"
+        "npc.tourtrap_qip_desert_mining_merc_3"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -34,7 +34,7 @@
         4659
       ],
       "names" : [
-        "npc.mercenary_4659"
+        "npc.tourtrap_qip_desert_mining_merc_4"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -60,7 +60,7 @@
         4657
       ],
       "names" : [
-        "npc.mercenary_4657"
+        "npc.tourtrap_qip_desert_mining_merc_2"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -86,7 +86,7 @@
         4656
       ],
       "names" : [
-        "npc.mercenary"
+        "npc.tourtrap_qip_desert_mining_merc_1"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,

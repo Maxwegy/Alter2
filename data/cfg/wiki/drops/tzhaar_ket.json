@@ -18,13 +18,13 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "4/512" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "8/512" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "16/512" },
-        { "item" : 6524, "name" : "item.toktzketxil", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 6528, "name" : "item.tzhaarketom", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 6529, "name" : "item.tokkul", "min" : 1, "max" : 64, "chance" : [ 5, 16 ], "wiki" : "160/512" },
-        { "item" : 6568, "name" : "item.obsidian_cape", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" }
+        { "item" : 6524, "name" : "item.tzhaar_spikeshield", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 6528, "name" : "item.tzhaar_maul", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 6529, "name" : "item.tzhaar_token", "min" : 1, "max" : 64, "chance" : [ 5, 16 ], "wiki" : "160/512" },
+        { "item" : 6568, "name" : "item.tzhaar_cape_obsidian", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" }
       ],
       "tertiary" : [
-        { "item" : 13499, "name" : "item.ensouled_tzhaar_head_13499", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
+        { "item" : 13499, "name" : "item.arceuus_corpse_tzhaar", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
       ]
     },
     {
@@ -37,17 +37,17 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 3, 256 ], "wiki" : "6/512" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "8/512" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "16/512" },
-        { "item" : 6524, "name" : "item.toktzketxil", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 6528, "name" : "item.tzhaarketom", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 6529, "name" : "item.tokkul", "min" : 20, "max" : 83, "chance" : [ 3, 8 ], "wiki" : "192/512" },
-        { "item" : 6568, "name" : "item.obsidian_cape", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 9194, "name" : "item.onyx_bolt_tips", "min" : 1, "max" : 4, "chance" : [ 5, 256 ], "wiki" : "10/512" },
+        { "item" : 6524, "name" : "item.tzhaar_spikeshield", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 6528, "name" : "item.tzhaar_maul", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 6529, "name" : "item.tzhaar_token", "min" : 20, "max" : 83, "chance" : [ 3, 8 ], "wiki" : "192/512" },
+        { "item" : 6568, "name" : "item.tzhaar_cape_obsidian", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 9194, "name" : "item.xbows_bolt_tips_onyx", "min" : 1, "max" : 4, "chance" : [ 5, 256 ], "wiki" : "10/512" },
         { "item" : 21298, "name" : "item.obsidian_helmet", "min" : 1, "max" : 1, "chance" : [ 1, 2000 ], "wiki" : "1/2,000" },
         { "item" : 21301, "name" : "item.obsidian_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 2000 ], "wiki" : "1/2,000" },
         { "item" : 21304, "name" : "item.obsidian_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 2000 ], "wiki" : "1/2,000" }
       ],
       "tertiary" : [
-        { "item" : 13499, "name" : "item.ensouled_tzhaar_head_13499", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
+        { "item" : 13499, "name" : "item.arceuus_corpse_tzhaar", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
       ]
     }
   ]

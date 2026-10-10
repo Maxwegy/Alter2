@@ -1,0 +1,30 @@
+{
+  "page" : "Armoured kraken",
+  "versions" : [
+    {
+      "source" : "Armoured kraken",
+      "ids" : [
+        15210
+      ],
+      "names" : [
+        "npc.sailing_armoured_kraken"
+      ],
+      "combatLevel" : 180,
+      "hitpoints" : 231,
+      "attackSpeed" : 5,
+      "size" : 4,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 150, "ranged" : 1, "magic" : 175 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -63, "rangedDefence" : 125, "lightRangedDefence" : 175, "heavyRangedDefence" : 125, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

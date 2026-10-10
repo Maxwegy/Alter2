@@ -8,7 +8,7 @@
         5276
       ],
       "names" : [
-        "npc.monkey_guard_5276"
+        "npc.mm_religious_trapdoor_guard"
       ],
       "combatLevel" : 167,
       "hitpoints" : 130,
@@ -35,7 +35,7 @@
         5275
       ],
       "names" : [
-        "npc.monkey_guard_5275"
+        "npc.mm_religious_guard"
       ],
       "combatLevel" : 167,
       "hitpoints" : 130,

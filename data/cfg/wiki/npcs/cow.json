@@ -35,7 +35,7 @@
         2791
       ],
       "names" : [
-        "npc.cow_2791"
+        "npc.cow2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -62,7 +62,7 @@
         2793
       ],
       "names" : [
-        "npc.cow_2793"
+        "npc.cow3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -89,7 +89,7 @@
         2795
       ],
       "names" : [
-        "npc.cow_2795"
+        "npc.cow_beef"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -116,7 +116,7 @@
         5842
       ],
       "names" : [
-        "npc.cow_5842"
+        "npc.fairy_cow"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,

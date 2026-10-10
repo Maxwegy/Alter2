@@ -9,8 +9,8 @@
         8401
       ],
       "names" : [
-        "npc.monk_of_zamorak_528",
-        "npc.monk_of_zamorak_8401"
+        "npc.chaosmonk2",
+        "npc.chaos_temple_monk2"
       ],
       "combatLevel" : 17,
       "hitpoints" : 10,
@@ -38,8 +38,8 @@
         8400
       ],
       "names" : [
-        "npc.monk_of_zamorak",
-        "npc.monk_of_zamorak_8400"
+        "npc.chaosmonk1",
+        "npc.chaos_temple_monk1"
       ],
       "combatLevel" : 22,
       "hitpoints" : 20,
@@ -67,7 +67,7 @@
         8698
       ],
       "names" : [
-        "npc.monk_of_zamorak_8698"
+        "npc.chaos_temple_monk_wilderness"
       ],
       "combatLevel" : 23,
       "hitpoints" : 16,
@@ -95,7 +95,7 @@
         529
       ],
       "names" : [
-        "npc.monk_of_zamorak_529"
+        "npc.chaosmonk3"
       ],
       "combatLevel" : 45,
       "hitpoints" : 40,

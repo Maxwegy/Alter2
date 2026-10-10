@@ -8,8 +8,8 @@
         11732
       ],
       "always" : [
-        { "item" : 27219, "name" : "item.fang_27219", "min" : 1, "max" : 1 },
-        { "item" : 27308, "name" : "item.crondis_capture", "min" : 1, "max" : 1 }
+        { "item" : 27219, "name" : "item.toa_zebak_fang", "min" : 1, "max" : 1 },
+        { "item" : 27308, "name" : "item.toa_book_zebak", "min" : 1, "max" : 1 }
       ]
     }
   ]

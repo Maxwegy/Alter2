@@ -7,7 +7,7 @@
         6476
       ],
       "names" : [
-        "npc.tarn_6476"
+        "npc.lotr_tran_razorlor_ghost"
       ],
       "combatLevel" : 69,
       "hitpoints" : 80,
@@ -35,7 +35,7 @@
         6477
       ],
       "names" : [
-        "npc.mutant_tarn"
+        "npc.lotr_tran_razorlor_mutant"
       ],
       "combatLevel" : 69,
       "hitpoints" : 80,

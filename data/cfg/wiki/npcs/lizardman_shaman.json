@@ -8,7 +8,7 @@
         8565
       ],
       "names" : [
-        "npc.lizardman_shaman_8565"
+        "npc.molch_lizardshaman_1"
       ],
       "combatLevel" : 150,
       "hitpoints" : 150,
@@ -40,10 +40,10 @@
         7745
       ],
       "names" : [
-        "npc.lizardman_shaman",
-        "npc.lizardman_shaman_6767",
-        "npc.lizardman_shaman_7744",
-        "npc.lizardman_shaman_7745"
+        "npc.zeah_lizardshaman_1",
+        "npc.zeah_lizardshaman_2",
+        "npc.lizardman_cave_shaman_1",
+        "npc.lizardman_cave_shaman_2"
       ],
       "combatLevel" : 150,
       "hitpoints" : 150,

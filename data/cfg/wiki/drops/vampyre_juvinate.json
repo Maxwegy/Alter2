@@ -33,7 +33,7 @@
         9730
       ],
       "always" : [
-        { "item" : 3325, "name" : "item.vampyre_dust", "min" : 1, "max" : 1 }
+        { "item" : 3325, "name" : "item.vampire_dust", "min" : 1, "max" : 1 }
       ]
     }
   ]

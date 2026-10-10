@@ -7,8 +7,8 @@
         1225
       ],
       "tertiary" : [
-        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
       ]
     }
   ]

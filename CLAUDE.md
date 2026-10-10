@@ -19,7 +19,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 ## Build and test
 
 - `./gradlew build` (CI runs exactly this). `./gradlew :module:test --tests "pkg.ClassTests"` for one class.
-- The OSRS cache (`data/cache`, `data/xteas.json`) is not committed. Tests that need it skip via JUnit `Assume`.
+- The OSRS cache (`data/cache`) is not committed; stage it with `cacheStage` and copy it in. Map squares are unencrypted from revision 237 on, so no `xteas.json` is needed. Tests that need the cache skip via JUnit `Assume`.
 - Gradle must run on JDK 17. If the default `java` is older, set `JAVA_HOME` to a JDK 17.
 
 ## Data and cache tools
@@ -48,7 +48,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 5. **No DI framework.** Infrastructure classes take dependencies through constructors and never call `world.getService`. One bootstrap plugin wires them and registers services with `loadService()`. Content looks services up once (`onWorldInit` or `by lazy`), never per tick.
 6. **alter-data stays pure.** It must not import `org.alter.game`, `org.alter.api`, `org.alter.plugins` or `net.rsprot` (`PurityTests` enforces this).
 7. **Reference data:** the wiki snapshot in `data/cfg/wiki/` is committed and generated only by `wikiSync`; never hand-edit it. Hand edits go in override files (`data/cfg/npcs/overrides`, `data/cfg/drops/overrides`, `data/cfg/items/itemOverrides`). Precedence: overrides > cache > snapshot. Production never calls the wiki.
-8. **Content refers to things by RSCM name** (`"npc.man_3108"`, `"item.abyssal_whip"`), not raw ids.
+8. **Content refers to things by RSCM name** (`"npc.man_3108"`, `"item.abyssal_whip"`), not raw ids. From revision 241 the canonical names are the cache's gameval names; the 228-era names stay as generated aliases (`docs/rscm-241-migration.md`). Never hand-edit `data/cfg/rscm`; regenerate with `rscmGenerate`.
 9. **Hand-written `setCombatDef` calls go in a plugin's `init {}`**, never `onWorldInit`: wiki defs fill in remaining NPCs before spawns.
 10. **Fatal boot checks log and call `exitProcess(1)`.** A plain throw leaves the JVM alive (non-daemon login threads) with no port bound.
 

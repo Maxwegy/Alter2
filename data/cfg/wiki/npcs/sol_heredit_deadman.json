@@ -1,0 +1,55 @@
+{
+  "page" : "Sol Heredit (Deadman)",
+  "versions" : [
+    {
+      "source" : "Sol Heredit (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15554
+      ],
+      "names" : [
+        "npc.deadman_breach_sol_heredit"
+      ],
+      "combatLevel" : 668,
+      "hitpoints" : 1500,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 400, "defence" : 200, "ranged" : 350, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : 65, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 750, "rangedDefence" : 825, "lightRangedDefence" : 825, "heavyRangedDefence" : 825, "attackBonus" : 250, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "44"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Sol Heredit (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15554
+      ],
+      "names" : [
+        "npc.deadman_breach_sol_heredit"
+      ],
+      "combatLevel" : 481,
+      "hitpoints" : 750,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 350, "strength" : 400, "defence" : 200, "ranged" : 350, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : 65, "slashDefence" : 5, "crushDefence" : 30, "magicDefence" : 750, "rangedDefence" : 825, "lightRangedDefence" : 825, "heavyRangedDefence" : 825, "attackBonus" : 250, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "44"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "page" : "Wyrd",
+  "versions" : [
+    {
+      "source" : "Wyrd",
+      "ids" : [
+        16212
+      ],
+      "names" : [
+        "npc.safalaan_wyrd"
+      ],
+      "combatLevel" : 564,
+      "hitpoints" : 1100,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 250, "strength" : 250, "defence" : 180, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 80, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 30, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 80, "strengthBonus" : 10, "rangedStrength" : 10, "magicDamage" : 10 },
+      "maxHits" : [
+        "30 (melee)",
+        "78+ (explosion)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" },
+      "attributes" : [
+        "vampyre3"
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         1778
       ],
       "names" : [
-        "npc.double_agent_1778"
+        "npc.double_agent_2"
       ],
       "combatLevel" : 108,
       "hitpoints" : 120,
@@ -33,7 +33,7 @@
         7312
       ],
       "names" : [
-        "npc.double_agent_7312"
+        "npc.double_agent_master"
       ],
       "combatLevel" : 141,
       "hitpoints" : 160,
@@ -58,7 +58,7 @@
         1777
       ],
       "names" : [
-        "npc.double_agent"
+        "npc.double_agent_1"
       ],
       "combatLevel" : 65,
       "hitpoints" : 80,

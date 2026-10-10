@@ -9,8 +9,8 @@
         5942
       ],
       "names" : [
-        "npc.dagannoth_2259",
-        "npc.dagannoth_5942"
+        "npc.dungeon_dagganoth_lighter",
+        "npc.dungeon_dagganoth_lighter_deeper"
       ],
       "combatLevel" : 88,
       "hitpoints" : 85,
@@ -39,8 +39,8 @@
         5943
       ],
       "names" : [
-        "npc.dagannoth_3185",
-        "npc.dagannoth_5943"
+        "npc.dungeon_dagganoth_mainroom",
+        "npc.dungeon_dagganoth_mainroom_deeper"
       ],
       "combatLevel" : 90,
       "hitpoints" : 95,

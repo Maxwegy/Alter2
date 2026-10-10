@@ -10,9 +10,9 @@
         10832
       ],
       "names" : [
-        "npc.verzik_vitur_10830",
-        "npc.verzik_vitur_10831",
-        "npc.verzik_vitur_10832"
+        "npc.verzik_initial_story",
+        "npc.verzik_phase1_story",
+        "npc.verzik_phase1_to2_transition_story"
       ],
       "combatLevel" : 425,
       "hitpoints" : 1200,
@@ -38,8 +38,8 @@
         10834
       ],
       "names" : [
-        "npc.verzik_vitur_10833",
-        "npc.verzik_vitur_10834"
+        "npc.verzik_phase2_story",
+        "npc.verzik_phase2_to3_transition_story"
       ],
       "combatLevel" : 488,
       "hitpoints" : 1600,
@@ -69,8 +69,8 @@
         10836
       ],
       "names" : [
-        "npc.verzik_vitur_10835",
-        "npc.verzik_vitur_10836"
+        "npc.verzik_phase3_story",
+        "npc.verzik_death_bat_story"
       ],
       "combatLevel" : 512,
       "hitpoints" : 2400,
@@ -102,9 +102,9 @@
         10849
       ],
       "names" : [
-        "npc.verzik_vitur_10847",
-        "npc.verzik_vitur_10848",
-        "npc.verzik_vitur_10849"
+        "npc.verzik_initial_hard",
+        "npc.verzik_phase1_hard",
+        "npc.verzik_phase1_to2_transition_hard"
       ],
       "combatLevel" : 1040,
       "hitpoints" : 2000,
@@ -130,8 +130,8 @@
         10851
       ],
       "names" : [
-        "npc.verzik_vitur_10850",
-        "npc.verzik_vitur_10851"
+        "npc.verzik_phase2_hard",
+        "npc.verzik_phase2_to3_transition_hard"
       ],
       "combatLevel" : 1265,
       "hitpoints" : 3500,
@@ -161,8 +161,8 @@
         10853
       ],
       "names" : [
-        "npc.verzik_vitur_10852",
-        "npc.verzik_vitur_10853"
+        "npc.verzik_phase3_hard",
+        "npc.verzik_death_bat_hard"
       ],
       "combatLevel" : 1520,
       "hitpoints" : 3500,
@@ -194,9 +194,9 @@
         8371
       ],
       "names" : [
-        "npc.verzik_vitur_8369",
-        "npc.verzik_vitur_8370",
-        "npc.verzik_vitur_8371"
+        "npc.verzik_initial",
+        "npc.verzik_phase1",
+        "npc.verzik_phase1_to2_transition"
       ],
       "combatLevel" : 1040,
       "hitpoints" : 2000,
@@ -222,8 +222,8 @@
         8373
       ],
       "names" : [
-        "npc.verzik_vitur_8372",
-        "npc.verzik_vitur_8373"
+        "npc.verzik_phase2",
+        "npc.verzik_phase2_to3_transition"
       ],
       "combatLevel" : 1265,
       "hitpoints" : 3500,
@@ -253,8 +253,8 @@
         8375
       ],
       "names" : [
-        "npc.verzik_vitur_8374",
-        "npc.verzik_vitur_8375"
+        "npc.verzik_phase3",
+        "npc.verzik_death_bat"
       ],
       "combatLevel" : 1520,
       "hitpoints" : 3500,

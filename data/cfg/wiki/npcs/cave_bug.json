@@ -8,7 +8,7 @@
         481
       ],
       "names" : [
-        "npc.cave_bug"
+        "npc.swamp_cave_bug"
       ],
       "combatLevel" : 6,
       "hitpoints" : 5,
@@ -36,7 +36,7 @@
         483
       ],
       "names" : [
-        "npc.cave_bug_483"
+        "npc.molanisk_giant_cave_bug"
       ],
       "combatLevel" : 96,
       "hitpoints" : 93,

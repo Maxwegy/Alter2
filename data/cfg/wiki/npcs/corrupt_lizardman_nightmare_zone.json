@@ -8,7 +8,7 @@
         7996
       ],
       "names" : [
-        "npc.corrupt_lizardman_hard"
+        "npc.nzone_shayzienquest_lizardman_hard"
       ],
       "combatLevel" : 152,
       "hitpoints" : 150,
@@ -35,7 +35,7 @@
         7997
       ],
       "names" : [
-        "npc.corrupt_lizardman"
+        "npc.nzone_shayzienquest_lizardman_normal"
       ],
       "combatLevel" : 46,
       "hitpoints" : 50,

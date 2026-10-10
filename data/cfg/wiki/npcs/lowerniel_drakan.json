@@ -1,0 +1,32 @@
+{
+  "page" : "Lowerniel Drakan",
+  "versions" : [
+    {
+      "source" : "Lowerniel Drakan",
+      "ids" : [
+        16204
+      ],
+      "names" : [
+        "npc.myq6_lowerniel_final_combat"
+      ],
+      "combatLevel" : 1063,
+      "hitpoints" : 3000,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 400, "strength" : 320, "defence" : 100, "ranged" : 320, "magic" : 320 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 300, "rangedAttack" : 60, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 150, "lightRangedDefence" : 150, "heavyRangedDefence" : 150, "attackBonus" : 100, "strengthBonus" : 70, "rangedStrength" : 10, "magicDamage" : 10 },
+      "maxHits" : [
+        "69"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true, "burn" : "Not immune", "freeze" : "100% resistance" },
+      "attributes" : [
+        "vampyre3"
+      ]
+    }
+  ]
+}

@@ -9,8 +9,8 @@
         102
       ],
       "names" : [
-        "npc.rock_crab",
-        "npc.rock_crab_102"
+        "npc.horror_rockcrab",
+        "npc.horror_rockcrab_small"
       ],
       "combatLevel" : 13,
       "hitpoints" : 50,
@@ -39,8 +39,8 @@
         103
       ],
       "names" : [
-        "npc.rocks",
-        "npc.rocks_103"
+        "npc.horror_rockcrab_inactive",
+        "npc.horror_rockcrab_small_inactive"
       ],
       "combatLevel" : 13,
       "hitpoints" : 50,

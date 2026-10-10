@@ -8,7 +8,7 @@
         8069
       ],
       "names" : [
-        "npc.zombie_8069"
+        "npc.ds2_zombie_magic"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -39,7 +39,7 @@
         8067
       ],
       "names" : [
-        "npc.zombie_8067"
+        "npc.ds2_zombie_melee"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -70,7 +70,7 @@
         8068
       ],
       "names" : [
-        "npc.zombie_8068"
+        "npc.ds2_zombie_ranged"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,

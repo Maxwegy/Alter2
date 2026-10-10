@@ -8,7 +8,7 @@
         6309
       ],
       "names" : [
-        "npc.flambeed_hard"
+        "npc.nzone_hundred_minion2_hard"
       ],
       "combatLevel" : 238,
       "hitpoints" : 255,
@@ -36,7 +36,7 @@
         6370
       ],
       "names" : [
-        "npc.flambeed_6370"
+        "npc.nzone_hundred_minion2_normal"
       ],
       "combatLevel" : 149,
       "hitpoints" : 210,

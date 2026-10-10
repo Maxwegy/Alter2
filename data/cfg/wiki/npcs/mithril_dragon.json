@@ -9,9 +9,9 @@
         8089
       ],
       "names" : [
-        "npc.mithril_dragon",
-        "npc.mithril_dragon_8088",
-        "npc.mithril_dragon_8089"
+        "npc.brut_mithril_dragon",
+        "npc.ds2_mithril_dragon_cutscene",
+        "npc.ds2_mithril_dragon"
       ],
       "combatLevel" : 304,
       "hitpoints" : 254,

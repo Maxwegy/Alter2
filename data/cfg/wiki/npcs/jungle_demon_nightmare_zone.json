@@ -8,7 +8,7 @@
         6321
       ],
       "names" : [
-        "npc.jungle_demon_hard"
+        "npc.nzone_mm_demon_hard"
       ],
       "combatLevel" : 327,
       "hitpoints" : 255,
@@ -37,7 +37,7 @@
         6382
       ],
       "names" : [
-        "npc.jungle_demon_6382"
+        "npc.nzone_mm_demon_normal"
       ],
       "combatLevel" : 195,
       "hitpoints" : 170,

@@ -8,7 +8,7 @@
         4246
       ],
       "names" : [
-        "npc.monk_4246"
+        "npc.monk_ardougne"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -36,9 +36,9 @@
         6956
       ],
       "names" : [
-        "npc.monk_2579",
-        "npc.monk_4068",
-        "npc.monk_6956"
+        "npc.monk",
+        "npc.entrana_monk",
+        "npc.hosidius_monk"
       ],
       "combatLevel" : 5,
       "hitpoints" : 15,

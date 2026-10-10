@@ -23,14 +23,14 @@
         { "item" : 536, "name" : "item.dragon_bones", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "5/256" },
         { "item" : 536, "name" : "item.dragon_bones", "min" : 2, "max" : 2, "chance" : [ 1, 256 ], "wiki" : "1/256" },
         { "item" : 536, "name" : "item.dragon_bones", "min" : 3, "max" : 3, "chance" : [ 1, 256 ], "wiki" : "1/256" },
-        { "item" : 556, "name" : "item.air_rune", "min" : 40, "max" : 40, "chance" : [ 5, 64 ], "wiki" : "20/256" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 35, "max" : 35, "chance" : [ 5, 64 ], "wiki" : "20/256" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 50, "max" : 50, "chance" : [ 15, 256 ], "wiki" : "15/256" },
-        { "item" : 564, "name" : "item.cosmic_rune", "min" : 5, "max" : 5, "chance" : [ 5, 64 ], "wiki" : "20/256" },
+        { "item" : 556, "name" : "item.airrune", "min" : 40, "max" : 40, "chance" : [ 5, 64 ], "wiki" : "20/256" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 35, "max" : 35, "chance" : [ 5, 64 ], "wiki" : "20/256" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 50, "max" : 50, "chance" : [ 15, 256 ], "wiki" : "15/256" },
+        { "item" : 564, "name" : "item.cosmicrune", "min" : 5, "max" : 5, "chance" : [ 5, 64 ], "wiki" : "20/256" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 234057 ], "wiki" : "1/2,340.57" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 234057 ], "wiki" : "1/2,340.57" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 234057 ], "wiki" : "1/2,340.57" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 26, "max" : 26, "chance" : [ 5, 128 ], "wiki" : "10/256" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 234057 ], "wiki" : "1/2,340.57" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 234057 ], "wiki" : "1/2,340.57" },
+        { "item" : 995, "name" : "item.coins", "min" : 26, "max" : 26, "chance" : [ 5, 128 ], "wiki" : "10/256" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 50, 1872457 ], "wiki" : "1/37,449.14" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 50, 4993219 ], "wiki" : "1/99,864.38" },
         { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 78019 ], "wiki" : "1/780.19" },
@@ -38,9 +38,9 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 100, 29257 ], "wiki" : "1/292.57" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 100, 14629 ], "wiki" : "1/146.29" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 50, 3657 ], "wiki" : "1/73.14" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 7489829 ], "wiki" : "1/74,898.29" },
-        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 7489829 ], "wiki" : "1/74,898.29" },
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
       ]
     }
   ]

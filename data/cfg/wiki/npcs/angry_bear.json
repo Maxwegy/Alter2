@@ -8,7 +8,7 @@
         1060
       ],
       "names" : [
-        "npc.angry_bear"
+        "npc.soulbane_anger_bear"
       ],
       "combatLevel" : 40,
       "hitpoints" : 200,
@@ -33,7 +33,7 @@
         4692
       ],
       "names" : [
-        "npc.angry_bear_4692"
+        "npc.soulbane_bear"
       ],
       "combatLevel" : 47,
       "hitpoints" : 50,

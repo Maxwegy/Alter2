@@ -1,0 +1,65 @@
+{
+  "page" : "Yama (Deadman)",
+  "versions" : [
+    {
+      "source" : "Yama (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15555
+      ],
+      "names" : [
+        "npc.deadman_breach_yama"
+      ],
+      "combatLevel" : 1024,
+      "hitpoints" : 3000,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 320, "strength" : 350, "defence" : 225, "ranged" : 210, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 100, "slashDefence" : 80, "crushDefence" : 333, "magicDefence" : 60, "rangedDefence" : 200, "lightRangedDefence" : 333, "heavyRangedDefence" : 333, "attackBonus" : 50, "strengthBonus" : 15, "rangedStrength" : 80, "magicDamage" : 65 },
+      "maxHits" : [
+        "44 (Melee)",
+        "60 (Meteor)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    },
+    {
+      "source" : "Yama (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15555
+      ],
+      "names" : [
+        "npc.deadman_breach_yama"
+      ],
+      "combatLevel" : 524,
+      "hitpoints" : 1000,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 320, "strength" : 350, "defence" : 225, "ranged" : 210, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 100, "rangedAttack" : 100, "stabDefence" : 100, "slashDefence" : 80, "crushDefence" : 333, "magicDefence" : 60, "rangedDefence" : 200, "lightRangedDefence" : 333, "heavyRangedDefence" : 333, "attackBonus" : 50, "strengthBonus" : 15, "rangedStrength" : 80, "magicDamage" : 65 },
+      "maxHits" : [
+        "44 (Melee)",
+        "60 (Meteor)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

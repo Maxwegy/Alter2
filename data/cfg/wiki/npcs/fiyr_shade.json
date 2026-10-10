@@ -8,7 +8,7 @@
         1286
       ],
       "names" : [
-        "npc.fiyr_shade"
+        "npc.shade_level5"
       ],
       "combatLevel" : 120,
       "hitpoints" : 110,
@@ -41,7 +41,7 @@
         1285
       ],
       "names" : [
-        "npc.fiyr_shadow"
+        "npc.shadeshadow_level5"
       ],
       "combatLevel" : 120,
       "hitpoints" : 110,

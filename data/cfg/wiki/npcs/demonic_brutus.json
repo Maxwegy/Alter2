@@ -1,0 +1,59 @@
+{
+  "page" : "Demonic Brutus",
+  "versions" : [
+    {
+      "source" : "Demonic Brutus#Brutus",
+      "version" : "Brutus",
+      "ids" : [
+        15628
+      ],
+      "names" : [
+        "npc.cowboss_hardmode"
+      ],
+      "combatLevel" : 1224,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 380, "strength" : 418, "defence" : 200, "ranged" : 1, "magic" : 272 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 182, "slashDefence" : 65, "crushDefence" : 216, "magicDefence" : 520, "rangedDefence" : 418, "lightRangedDefence" : 460, "heavyRangedDefence" : 110, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "43 (Melee)",
+        "56+ (Special)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    },
+    {
+      "source" : "Demonic Brutus#Ghost",
+      "version" : "Ghost",
+      "ids" : [
+        15629
+      ],
+      "names" : [
+        "npc.cowboss_hardmode_ghost"
+      ],
+      "combatLevel" : 1224,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 380, "strength" : 418, "defence" : 200, "ranged" : 1, "magic" : 272 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 182, "slashDefence" : 65, "crushDefence" : 216, "magicDefence" : 520, "rangedDefence" : 418, "lightRangedDefence" : 460, "heavyRangedDefence" : 110, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "43 (Melee)",
+        "56+ (Special)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 25 }
+    }
+  ]
+}

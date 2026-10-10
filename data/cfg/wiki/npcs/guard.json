@@ -8,7 +8,7 @@
         5418
       ],
       "names" : [
-        "npc.guard_5418"
+        "npc.ardougne_guard"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -34,7 +34,7 @@
         11937
       ],
       "names" : [
-        "npc.guard_11937"
+        "npc.ardougne_guard_variant01"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -60,7 +60,7 @@
         11938
       ],
       "names" : [
-        "npc.guard_11938"
+        "npc.ardougne_guard_f"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -86,7 +86,7 @@
         11939
       ],
       "names" : [
-        "npc.guard_11939"
+        "npc.ardougne_guard_f_variant01"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -112,7 +112,7 @@
         3254
       ],
       "names" : [
-        "npc.guard_3254"
+        "npc.guard1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -138,7 +138,7 @@
         11922
       ],
       "names" : [
-        "npc.guard_11922"
+        "npc.guard1_variant01"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -164,7 +164,7 @@
         11923
       ],
       "names" : [
-        "npc.guard_11923"
+        "npc.guard1_f"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -190,7 +190,7 @@
         11924
       ],
       "names" : [
-        "npc.guard_11924"
+        "npc.guard1_f_variant01"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -216,7 +216,7 @@
         3271
       ],
       "names" : [
-        "npc.guard_3271"
+        "npc.fai_falador_guard3"
       ],
       "combatLevel" : 19,
       "hitpoints" : 22,
@@ -242,7 +242,7 @@
         3270
       ],
       "names" : [
-        "npc.guard_3270"
+        "npc.fai_falador_guard2"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -268,7 +268,7 @@
         11945
       ],
       "names" : [
-        "npc.guard_11945"
+        "npc.fai_falador_guard2_f"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -294,7 +294,7 @@
         11947
       ],
       "names" : [
-        "npc.guard_11947"
+        "npc.fai_falador_guard4_f"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -320,7 +320,7 @@
         3273
       ],
       "names" : [
-        "npc.guard_3273"
+        "npc.fai_falador_guard5"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -346,7 +346,7 @@
         3274
       ],
       "names" : [
-        "npc.guard_3274"
+        "npc.fai_falador_guard6"
       ],
       "combatLevel" : 22,
       "hitpoints" : 22,
@@ -372,7 +372,7 @@
         3269
       ],
       "names" : [
-        "npc.guard_3269"
+        "npc.fai_falador_guard1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -398,7 +398,7 @@
         11942
       ],
       "names" : [
-        "npc.guard_11942"
+        "npc.fai_falador_guard1_variant01"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -424,7 +424,7 @@
         11943
       ],
       "names" : [
-        "npc.guard_11943"
+        "npc.fai_falador_guard1_f"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -450,7 +450,7 @@
         11944
       ],
       "names" : [
-        "npc.guard_11944"
+        "npc.fai_falador_guard1_variant02"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -476,7 +476,7 @@
         11946
       ],
       "names" : [
-        "npc.guard_11946"
+        "npc.fai_falador_guard3_f"
       ],
       "combatLevel" : 19,
       "hitpoints" : 22,
@@ -502,7 +502,7 @@
         11911
       ],
       "names" : [
-        "npc.guard_11911"
+        "npc.fai_varrock_guard02"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -528,7 +528,7 @@
         11912
       ],
       "names" : [
-        "npc.guard_11912"
+        "npc.fai_varrock_guard02_variant01"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -554,7 +554,7 @@
         11913
       ],
       "names" : [
-        "npc.guard_11913"
+        "npc.fai_varrock_guard02_variant02"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -580,7 +580,7 @@
         11914
       ],
       "names" : [
-        "npc.guard_11914"
+        "npc.fai_varrock_guard02_f"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -606,7 +606,7 @@
         11915
       ],
       "names" : [
-        "npc.guard_11915"
+        "npc.fai_varrock_guard02_f_variant01"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -632,7 +632,7 @@
         11916
       ],
       "names" : [
-        "npc.guard_11916"
+        "npc.fai_varrock_guard02_f_variant02"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -658,7 +658,7 @@
         11917
       ],
       "names" : [
-        "npc.guard_11917"
+        "npc.fai_varrock_guard_captain02"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

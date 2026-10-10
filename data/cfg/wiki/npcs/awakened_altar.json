@@ -10,10 +10,10 @@
         7294
       ],
       "names" : [
-        "npc.awakened_altar",
-        "npc.awakened_altar_7290",
-        "npc.awakened_altar_7292",
-        "npc.awakened_altar_7294"
+        "npc.cata_boss_altar_open_n",
+        "npc.cata_boss_altar_open_e",
+        "npc.cata_boss_altar_open_s",
+        "npc.cata_boss_altar_open_w"
       ],
       "hitpoints" : 100,
       "attackSpeed" : -1,

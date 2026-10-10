@@ -1,0 +1,31 @@
+{
+  "page" : "Blue dagannoth",
+  "versions" : [
+    {
+      "source" : "Blue dagannoth",
+      "ids" : [
+        15166
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_crate_blue_lagoon_effect"
+      ],
+      "combatLevel" : 100,
+      "hitpoints" : 120,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 78, "strength" : 78, "defence" : 81, "ranged" : 50, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 150, "slashDefence" : 150, "crushDefence" : 150, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 126.0, "categories" : [ "Dagannoth" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
+    }
+  ]
+}

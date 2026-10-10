@@ -11,10 +11,10 @@
         5189
       ],
       "names" : [
-        "npc.guard_5185",
-        "npc.guard_5186",
-        "npc.guard_5188",
-        "npc.guard_5189"
+        "npc.mcannonguard",
+        "npc.mcannonguard1",
+        "npc.mcannonguard3",
+        "npc.mcannonguard4"
       ],
       "combatLevel" : 10,
       "hitpoints" : 16,
@@ -41,7 +41,7 @@
         5187
       ],
       "names" : [
-        "npc.guard_5187"
+        "npc.mcannonguard2"
       ],
       "combatLevel" : 10,
       "hitpoints" : 16,

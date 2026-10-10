@@ -8,7 +8,7 @@
         2652
       ],
       "names" : [
-        "npc.bruise_blamish_snail_2652"
+        "npc.mmsnailpoint_blue"
       ],
       "combatLevel" : 20,
       "hitpoints" : 15,
@@ -35,7 +35,7 @@
         2647
       ],
       "names" : [
-        "npc.bruise_blamish_snail"
+        "npc.mmsnailround_blue"
       ],
       "combatLevel" : 20,
       "hitpoints" : 12,

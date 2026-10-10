@@ -8,7 +8,7 @@
         6603
       ],
       "names" : [
-        "npc.rogue_6603"
+        "npc.wilderness_rogue"
       ],
       "combatLevel" : 135,
       "hitpoints" : 125,
@@ -35,7 +35,7 @@
         526
       ],
       "names" : [
-        "npc.rogue_526"
+        "npc.rogue"
       ],
       "combatLevel" : 15,
       "hitpoints" : 17,

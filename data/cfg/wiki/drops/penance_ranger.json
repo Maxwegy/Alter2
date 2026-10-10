@@ -16,9 +16,9 @@
         5765
       ],
       "always" : [
-        { "item" : 10531, "name" : "item.green_egg", "min" : 2, "max" : 2 },
-        { "item" : 10532, "name" : "item.red_egg", "min" : 2, "max" : 2 },
-        { "item" : 10533, "name" : "item.blue_egg", "min" : 2, "max" : 2 }
+        { "item" : 10531, "name" : "item.barbassault_egg_01", "min" : 2, "max" : 2 },
+        { "item" : 10532, "name" : "item.barbassault_egg_02", "min" : 2, "max" : 2 },
+        { "item" : 10533, "name" : "item.barbassault_egg_03", "min" : 2, "max" : 2 }
       ]
     }
   ]

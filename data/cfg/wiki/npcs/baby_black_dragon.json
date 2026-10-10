@@ -8,7 +8,7 @@
         7955
       ],
       "names" : [
-        "npc.baby_black_dragon_7955"
+        "npc.baby_black_dragon_nohunt"
       ],
       "combatLevel" : 83,
       "hitpoints" : 80,
@@ -38,8 +38,8 @@
         1872
       ],
       "names" : [
-        "npc.baby_black_dragon",
-        "npc.baby_black_dragon_1872"
+        "npc.chickenquest_baby_black_dragon",
+        "npc.baby_black_dragon_strongholdcave"
       ],
       "combatLevel" : 83,
       "hitpoints" : 80,

@@ -8,7 +8,7 @@
         2498
       ],
       "names" : [
-        "npc.flesh_crawler"
+        "npc.sos_fam_fleshcrawler"
       ],
       "combatLevel" : 28,
       "hitpoints" : 25,
@@ -36,7 +36,7 @@
         2499
       ],
       "names" : [
-        "npc.flesh_crawler_2499"
+        "npc.sos_fam_fleshcrawler2"
       ],
       "combatLevel" : 35,
       "hitpoints" : 25,
@@ -64,7 +64,7 @@
         2500
       ],
       "names" : [
-        "npc.flesh_crawler_2500"
+        "npc.sos_fam_fleshcrawler3"
       ],
       "combatLevel" : 41,
       "hitpoints" : 25,

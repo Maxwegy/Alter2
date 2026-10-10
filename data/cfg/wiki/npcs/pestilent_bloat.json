@@ -8,7 +8,7 @@
         10812
       ],
       "names" : [
-        "npc.pestilent_bloat_10812"
+        "npc.tob_bloat_story"
       ],
       "combatLevel" : 312,
       "hitpoints" : 1280,
@@ -37,7 +37,7 @@
         10813
       ],
       "names" : [
-        "npc.pestilent_bloat_10813"
+        "npc.tob_bloat_hard"
       ],
       "combatLevel" : 1044,
       "hitpoints" : 2400,
@@ -66,7 +66,7 @@
         8359
       ],
       "names" : [
-        "npc.pestilent_bloat"
+        "npc.tob_bloat"
       ],
       "combatLevel" : 870,
       "hitpoints" : 2000,

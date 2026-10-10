@@ -8,7 +8,7 @@
         8611
       ],
       "names" : [
-        "npc.wyrm_8611"
+        "npc.wyrm_light"
       ],
       "combatLevel" : 97,
       "hitpoints" : 120,
@@ -41,7 +41,7 @@
         8610
       ],
       "names" : [
-        "npc.wyrm_8610"
+        "npc.wyrm_dark"
       ],
       "combatLevel" : 97,
       "hitpoints" : 120,

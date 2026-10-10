@@ -1,0 +1,56 @@
+{
+  "page" : "Orca",
+  "tables" : [
+    {
+      "source" : "Orca",
+      "npcIds" : [
+        15204
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 395, "name" : "item.raw_seaturtle", "min" : 1, "max" : 1, "chance" : [ 5, 46 ], "wiki" : "10/92" },
+        { "item" : 413, "name" : "item.bigoysterpearls", "min" : 1, "max" : 1, "chance" : [ 2, 23 ], "wiki" : "8/92" },
+        { "item" : 565, "name" : "item.bloodrune", "min" : 45, "max" : 70, "chance" : [ 3, 92 ], "wiki" : "3/92" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 5888 ], "wiki" : "1/5,888" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 50, "max" : 75, "chance" : [ 5, 46 ], "wiki" : "10/92" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 5888 ], "wiki" : "1/5,888" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 5888 ], "wiki" : "1/5,888" },
+        { "item" : 995, "name" : "item.coins", "min" : 15000, "max" : 20000, "chance" : [ 3, 23 ], "wiki" : "12/92" },
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 1, "max" : 1, "chance" : [ 3, 46 ], "wiki" : "6/92" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 94208 ], "wiki" : "1/94,208" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 25122133 ], "wiki" : "1/251,221.33" },
+        { "item" : 1303, "name" : "item.rune_longsword", "min" : 1, "max" : 1, "chance" : [ 2, 23 ], "wiki" : "8/92" },
+        { "item" : 1347, "name" : "item.rune_warhammer", "min" : 1, "max" : 1, "chance" : [ 3, 46 ], "wiki" : "6/92" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 196267 ], "wiki" : "1/1,962.67" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2944 ], "wiki" : "1/2,944" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 736 ], "wiki" : "1/736" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 368 ], "wiki" : "1/368" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 184 ], "wiki" : "1/184" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 188416 ], "wiki" : "1/188,416" },
+        { "item" : 12073, "name" : "item.trail_elite_emote_exp1", "min" : 1, "max" : 1, "chance" : [ 1, 130 ], "wiki" : "1/130", "approx" : true },
+        { "item" : 31406, "name" : "item.nails_dragon", "min" : 4, "max" : 11, "chance" : [ 1, 75 ], "wiki" : "1/75" },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 1, "chance" : [ 3, 92 ], "wiki" : "3/92" },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 1, "chance" : [ 1, 46 ], "wiki" : "2/92" },
+        { "item" : 31541, "name" : "item.flax_seed", "min" : 1, "max" : 1, "chance" : [ 1, 92 ], "wiki" : "5/460" },
+        { "item" : 31543, "name" : "item.hemp_seed", "min" : 1, "max" : 1, "chance" : [ 3, 460 ], "wiki" : "3/460" },
+        { "item" : 31545, "name" : "item.cotton_seed", "min" : 1, "max" : 1, "chance" : [ 1, 230 ], "wiki" : "2/460" },
+        { "item" : 31547, "name" : "item.camphor_seed", "min" : 1, "max" : 1, "chance" : [ 3, 368 ], "wiki" : "15/1,840" },
+        { "item" : 31549, "name" : "item.ironwood_seed", "min" : 1, "max" : 1, "chance" : [ 1, 460 ], "wiki" : "4/1,840" },
+        { "item" : 31551, "name" : "item.rosewood_seed", "min" : 1, "max" : 1, "chance" : [ 1, 1840 ], "wiki" : "1/1,840" },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 24, "max" : 42, "chance" : [ 5, 92 ], "wiki" : "5/92" },
+        { "item" : 31916, "name" : "item.dragon_cannonball", "min" : 18, "max" : 24, "chance" : [ 1, 46 ], "wiki" : "2/92" },
+        { "item" : 31946, "name" : "item.echo_pearl", "min" : 1, "max" : 1, "chance" : [ 1, 70 ], "wiki" : "1/70" },
+        { "item" : 31976, "name" : "item.boat_repair_kit_camphor", "min" : 1, "max" : 2, "chance" : [ 3, 46 ], "wiki" : "6/92" },
+        { "item" : 31996, "name" : "item.dragon_sheet", "min" : 1, "max" : 2, "chance" : [ 1, 200 ], "wiki" : "2/400" },
+        { "item" : 32017, "name" : "item.sailing_boat_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 32038, "name" : "item.sailing_boat_large_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 32814, "name" : "item.sailing_orca_blubber", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 32833, "name" : "item.sailing_orca_teeth", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 32859, "name" : "item.sailing_fremennik_shipwreck_salvage", "min" : 1, "max" : 1, "chance" : [ 3, 46 ], "wiki" : "6/92" }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         1140
       ],
       "names" : [
-        "npc.woman_1140"
+        "npc.dskin_w_ardoungecitizenlady4"
       ],
       "combatLevel" : 12,
       "hitpoints" : 13,
@@ -34,7 +34,7 @@
         1142
       ],
       "names" : [
-        "npc.woman_1142"
+        "npc.w_ardoungecitizenlady4"
       ],
       "combatLevel" : 14,
       "hitpoints" : 23,
@@ -60,7 +60,7 @@
         1119
       ],
       "names" : [
-        "npc.woman"
+        "npc.dskin_w_ardoungecitizen2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -86,7 +86,7 @@
         1131
       ],
       "names" : [
-        "npc.woman_1131"
+        "npc.dskin_w_ardoungecitizenlady1"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -112,7 +112,7 @@
         1141
       ],
       "names" : [
-        "npc.woman_1141"
+        "npc.w_ardoungecitizenlady2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -138,7 +138,7 @@
         1130
       ],
       "names" : [
-        "npc.woman_1130"
+        "npc.w_ardoungecitizenlady1"
       ],
       "combatLevel" : 4,
       "hitpoints" : 13,
@@ -164,7 +164,7 @@
         1139
       ],
       "names" : [
-        "npc.woman_1139"
+        "npc.dskin_w_ardoungecitizenlady3"
       ],
       "combatLevel" : 4,
       "hitpoints" : 13,

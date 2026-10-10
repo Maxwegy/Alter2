@@ -8,7 +8,7 @@
         1409
       ],
       "names" : [
-        "npc.black_guard"
+        "npc.fai_black_guard_01"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -35,7 +35,7 @@
         1410
       ],
       "names" : [
-        "npc.black_guard_1410"
+        "npc.fai_black_guard_02"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -62,7 +62,7 @@
         1411
       ],
       "names" : [
-        "npc.black_guard_1411"
+        "npc.fai_black_guard_03"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -89,7 +89,7 @@
         1412
       ],
       "names" : [
-        "npc.black_guard_1412"
+        "npc.fai_black_guard_04"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -116,7 +116,7 @@
         6046
       ],
       "names" : [
-        "npc.black_guard_6046"
+        "npc.dwarf_city_black_guard1"
       ],
       "combatLevel" : 48,
       "hitpoints" : 40,
@@ -143,7 +143,7 @@
         6047
       ],
       "names" : [
-        "npc.black_guard_6047"
+        "npc.dwarf_city_black_guard2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 40,
@@ -170,7 +170,7 @@
         6048
       ],
       "names" : [
-        "npc.black_guard_6048"
+        "npc.dwarf_city_black_guard3"
       ],
       "combatLevel" : 48,
       "hitpoints" : 40,
@@ -197,7 +197,7 @@
         6049
       ],
       "names" : [
-        "npc.black_guard_6049"
+        "npc.dwarf_city_black_guard4"
       ],
       "combatLevel" : 48,
       "hitpoints" : 40,

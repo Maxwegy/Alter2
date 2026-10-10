@@ -8,7 +8,7 @@
         10957
       ],
       "names" : [
-        "npc.phantom_hand"
+        "npc.akd_xamphur_hand_left"
       ],
       "combatLevel" : 47,
       "hitpoints" : 12,
@@ -33,7 +33,7 @@
         10958
       ],
       "names" : [
-        "npc.phantom_hand_10958"
+        "npc.akd_xamphur_hand_right"
       ],
       "combatLevel" : 47,
       "hitpoints" : 12,

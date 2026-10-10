@@ -9,8 +9,8 @@
         9613
       ],
       "names" : [
-        "npc.nail_beast_2948",
-        "npc.nail_beast_9613"
+        "npc.ttrek2_nail_beast_3",
+        "npc.myq5_nail_beast_2"
       ],
       "combatLevel" : 141,
       "hitpoints" : 75,
@@ -36,8 +36,8 @@
         9612
       ],
       "names" : [
-        "npc.nail_beast",
-        "npc.nail_beast_9612"
+        "npc.ttrek2_nail_beast_1",
+        "npc.myq5_nail_beast_1"
       ],
       "combatLevel" : 69,
       "hitpoints" : 55,
@@ -62,7 +62,7 @@
         2947
       ],
       "names" : [
-        "npc.nail_beast_2947"
+        "npc.ttrek2_nail_beast_2"
       ],
       "combatLevel" : 98,
       "hitpoints" : 65,

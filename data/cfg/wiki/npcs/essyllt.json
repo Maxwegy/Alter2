@@ -11,11 +11,11 @@
         9016
       ],
       "names" : [
-        "npc.essyllt_8847",
-        "npc.essyllt_8871",
-        "npc.essyllt_8872",
-        "npc.essyllt_8950",
-        "npc.essyllt_9016"
+        "npc.sote_head_mourner",
+        "npc.sote_essyllt_cutscene",
+        "npc.sote_essyllt_cutscene_armed",
+        "npc.sote_essyllt_combat",
+        "npc.mourner_hideout_head_mourner_vis"
       ],
       "combatLevel" : 236,
       "hitpoints" : 320,

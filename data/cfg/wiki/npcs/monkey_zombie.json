@@ -8,7 +8,7 @@
         5282
       ],
       "names" : [
-        "npc.monkey_zombie_5282"
+        "npc.mm_zombie_monkey_large_guard"
       ],
       "combatLevel" : 129,
       "hitpoints" : 90,
@@ -39,7 +39,7 @@
         5283
       ],
       "names" : [
-        "npc.monkey_zombie_5283"
+        "npc.mm_zombie_monkey_small"
       ],
       "combatLevel" : 82,
       "hitpoints" : 60,
@@ -70,7 +70,7 @@
         5281
       ],
       "names" : [
-        "npc.monkey_zombie"
+        "npc.mm_zombie_monkey_large"
       ],
       "combatLevel" : 98,
       "hitpoints" : 60,

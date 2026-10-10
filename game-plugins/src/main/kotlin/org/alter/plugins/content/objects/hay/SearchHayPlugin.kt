@@ -26,7 +26,7 @@ class SearchHayPlugin(
     init {
         val HAY_OBJECTS =
             setOf(
-                "object.haystack",
+                "object.haystack__228",
                 "object.hay_bales",
                 "object.hay_bales_299",
             )

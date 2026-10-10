@@ -8,7 +8,7 @@
         3972
       ],
       "names" : [
-        "npc.skeleton_3972"
+        "npc.dragonslayer_skeleton_1_key"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -39,7 +39,7 @@
         3973
       ],
       "names" : [
-        "npc.skeleton_3973"
+        "npc.dragonslayer_skeleton_2"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -70,7 +70,7 @@
         3974
       ],
       "names" : [
-        "npc.skeleton_3974"
+        "npc.dragonslayer_skeleton_3"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,

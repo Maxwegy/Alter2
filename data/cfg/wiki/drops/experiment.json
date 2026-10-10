@@ -12,7 +12,7 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 7893, "name" : "item.experiment_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+        { "item" : 7893, "name" : "item.rag_experiment_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
       ]
     },
     {
@@ -21,7 +21,7 @@
         1273
       ],
       "always" : [
-        { "item" : 4184, "name" : "item.cavern_key", "min" : 1, "max" : 1 }
+        { "item" : 4184, "name" : "item.fenk_mausoleum_key", "min" : 1, "max" : 1 }
       ]
     }
   ]

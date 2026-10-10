@@ -9,9 +9,9 @@
         13788
       ],
       "names" : [
-        "npc.frost_nagua",
-        "npc.frost_nagua_13787",
-        "npc.frost_nagua_13788"
+        "npc.frost_nagua_cutscene",
+        "npc.vmq3_ruins_frost_nagua",
+        "npc.frost_nagua"
       ],
       "combatLevel" : 104,
       "hitpoints" : 120,

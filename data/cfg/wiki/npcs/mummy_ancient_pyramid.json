@@ -8,7 +8,7 @@
         720
       ],
       "names" : [
-        "npc.mummy_720"
+        "npc.deserttreasure_mummy_2"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -34,7 +34,7 @@
         725
       ],
       "names" : [
-        "npc.mummy_725"
+        "npc.deserttreasure_mummy_2_on_fire"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -60,7 +60,7 @@
         721
       ],
       "names" : [
-        "npc.mummy_721"
+        "npc.deserttreasure_mummy_3"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -86,7 +86,7 @@
         726
       ],
       "names" : [
-        "npc.mummy_726"
+        "npc.deserttreasure_mummy_3_on_fire"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -112,7 +112,7 @@
         722
       ],
       "names" : [
-        "npc.mummy_722"
+        "npc.deserttreasure_mummy_4"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -138,7 +138,7 @@
         727
       ],
       "names" : [
-        "npc.mummy_727"
+        "npc.deserttreasure_mummy_4_on_fire"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -164,7 +164,7 @@
         723
       ],
       "names" : [
-        "npc.mummy_723"
+        "npc.deserttreasure_mummy_5"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -190,7 +190,7 @@
         728
       ],
       "names" : [
-        "npc.mummy_728"
+        "npc.deserttreasure_mummy_5_on_fire"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,

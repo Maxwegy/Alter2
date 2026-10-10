@@ -8,7 +8,7 @@
         1635
       ],
       "names" : [
-        "npc.baby_impling"
+        "npc.ii_impling_type_1"
       ],
       "hitpoints" : 10,
       "attackSpeed" : 0,
@@ -31,7 +31,7 @@
         1645
       ],
       "names" : [
-        "npc.baby_impling_1645"
+        "npc.ii_impling_type_1_maze"
       ],
       "hitpoints" : 10,
       "attackSpeed" : 0,

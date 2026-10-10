@@ -8,7 +8,7 @@
         3138
       ],
       "names" : [
-        "npc.bloodveld_3138"
+        "npc.godwars_bloodveld"
       ],
       "combatLevel" : 81,
       "hitpoints" : 134,
@@ -41,10 +41,10 @@
         487
       ],
       "names" : [
-        "npc.bloodveld_484",
-        "npc.bloodveld_485",
-        "npc.bloodveld_486",
-        "npc.bloodveld_487"
+        "npc.slayer_bloodveld",
+        "npc.slayer_bloodveld_baby",
+        "npc.slayer_bloodveld_strongholdcave",
+        "npc.slayer_bloodveld_baby_strongholdcave"
       ],
       "combatLevel" : 76,
       "hitpoints" : 120,

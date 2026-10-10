@@ -8,7 +8,7 @@
         8298
       ],
       "names" : [
-        "npc.swamp_crab_8298"
+        "npc.swampcrab_bloom"
       ],
       "combatLevel" : 55,
       "hitpoints" : 75,
@@ -36,7 +36,7 @@
         8299
       ],
       "names" : [
-        "npc.swampy_log"
+        "npc.swampcrab_inactive"
       ],
       "combatLevel" : 55,
       "hitpoints" : 75,
@@ -64,7 +64,7 @@
         8297
       ],
       "names" : [
-        "npc.swamp_crab"
+        "npc.swampcrab"
       ],
       "combatLevel" : 55,
       "hitpoints" : 75,

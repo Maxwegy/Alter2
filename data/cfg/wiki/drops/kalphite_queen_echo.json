@@ -1,0 +1,15 @@
+{
+  "page" : "Kalphite Queen (Echo)",
+  "tables" : [
+    {
+      "source" : "Kalphite Queen (Echo)",
+      "npcIds" : [
+        15616,
+        15617
+      ],
+      "main" : [
+        { "item" : 30373, "name" : "item.drygore_blowpipe", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+      ]
+    }
+  ]
+}

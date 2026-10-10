@@ -1,0 +1,59 @@
+{
+  "page" : "Aquanite",
+  "versions" : [
+    {
+      "source" : "Aquanite#Lure",
+      "version" : "Lure",
+      "ids" : [
+        15497
+      ],
+      "names" : [
+        "npc.slayer_aquanite"
+      ],
+      "combatLevel" : 145,
+      "hitpoints" : 180,
+      "attackSpeed" : 5,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 1, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 140, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 78, "xp" : 180.0, "categories" : [ "Aquanite" ], "assignedBy" : [ "duradel", "mortimer", "nieve" ] }
+    },
+    {
+      "source" : "Aquanite#No lure",
+      "version" : "No lure",
+      "ids" : [
+        15498
+      ],
+      "names" : [
+        "npc.slayer_aquanite_nolure"
+      ],
+      "combatLevel" : 145,
+      "hitpoints" : 180,
+      "attackSpeed" : 5,
+      "respawnTicks" : 15,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 70, "ranged" : 1, "magic" : 170 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 50, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 140, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 78, "xp" : 180.0, "categories" : [ "Aquanite" ], "assignedBy" : [ "duradel", "mortimer", "nieve" ] }
+    }
+  ]
+}

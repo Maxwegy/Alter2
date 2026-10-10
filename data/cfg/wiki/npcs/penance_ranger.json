@@ -9,8 +9,8 @@
         5757
       ],
       "names" : [
-        "npc.penance_ranger",
-        "npc.penance_ranger_5757"
+        "npc.barbassault_pen_ranger_tutor",
+        "npc.barbassault_pen_ranger_lv1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 20,
@@ -38,7 +38,7 @@
         5758
       ],
       "names" : [
-        "npc.penance_ranger_5758"
+        "npc.barbassault_pen_ranger_lv2"
       ],
       "combatLevel" : 25,
       "hitpoints" : 28,
@@ -66,7 +66,7 @@
         5759
       ],
       "names" : [
-        "npc.penance_ranger_5759"
+        "npc.barbassault_pen_ranger_lv3"
       ],
       "combatLevel" : 32,
       "hitpoints" : 29,
@@ -94,7 +94,7 @@
         5760
       ],
       "names" : [
-        "npc.penance_ranger_5760"
+        "npc.barbassault_pen_ranger_lv4"
       ],
       "combatLevel" : 38,
       "hitpoints" : 34,
@@ -122,7 +122,7 @@
         5761
       ],
       "names" : [
-        "npc.penance_ranger_5761"
+        "npc.barbassault_pen_ranger_lv5"
       ],
       "combatLevel" : 43,
       "hitpoints" : 41,
@@ -150,7 +150,7 @@
         5762
       ],
       "names" : [
-        "npc.penance_ranger_5762"
+        "npc.barbassault_pen_ranger_lv6"
       ],
       "combatLevel" : 51,
       "hitpoints" : 50,
@@ -178,7 +178,7 @@
         5763
       ],
       "names" : [
-        "npc.penance_ranger_5763"
+        "npc.barbassault_pen_ranger_lv7"
       ],
       "combatLevel" : 57,
       "hitpoints" : 50,
@@ -206,7 +206,7 @@
         5764
       ],
       "names" : [
-        "npc.penance_ranger_5764"
+        "npc.barbassault_pen_ranger_lv8"
       ],
       "combatLevel" : 64,
       "hitpoints" : 54,
@@ -234,7 +234,7 @@
         5765
       ],
       "names" : [
-        "npc.penance_ranger_5765"
+        "npc.barbassault_pen_ranger_lv9"
       ],
       "combatLevel" : 72,
       "hitpoints" : 58,

@@ -8,7 +8,7 @@
         1065
       ],
       "names" : [
-        "npc.angry_goblin"
+        "npc.soulbane_anger_goblin"
       ],
       "combatLevel" : 45,
       "hitpoints" : 200,
@@ -32,7 +32,7 @@
         4691
       ],
       "names" : [
-        "npc.angry_goblin_4691"
+        "npc.soulbane_goblin"
       ],
       "combatLevel" : 47,
       "hitpoints" : 50,

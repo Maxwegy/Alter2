@@ -78,12 +78,21 @@ private fun dryRun(dir: Path, build: Int, dataDir: Path): Int {
     var removed = 0
     var moved = 0
     // If the cache didn't decode at all, a name diff would only say "everything is gone".
+    // From revision 241 the canonical names are the gameval names (index 24); the 228-era names are aliases that
+    // still follow the decoded display name. A committed name is fine when either rule holds.
+    val gameval: Map<String, Map<Int, String>> = if (failures.isEmpty() && Gameval.isPresent(CacheManager.cache)) mapOf(
+        "item" to Gameval.read(CacheManager.cache, Gameval.Kind.OBJ),
+        "npc" to Gameval.read(CacheManager.cache, Gameval.Kind.NPC),
+        "object" to Gameval.read(CacheManager.cache, Gameval.Kind.LOC),
+    ) else emptyMap()
     if (failures.isEmpty()) committed.forEach { (table, names) ->
         val entities = staged[table].orEmpty()
+        val gamevalNames = gameval[table].orEmpty()
         // Compare by id: does each committed name's id still exist, and does it still hold the same thing?
         val gone = names.filter { (_, id) -> id !in entities }.keys.sorted()
         val changed = names.mapNotNull { (name, id) ->
             val now = entities[id] ?: return@mapNotNull null
+            if (gamevalNames[id] == name) return@mapNotNull null
             val current = sanitize(now)
             if (current == null || current == name || current == baseName(name)) null else "$table.$name ($id) is now '$now'"
         }.sorted()
@@ -120,7 +129,7 @@ private fun sanitize(raw: String): String? {
 }
 
 /** A committed RSCM name without the `_<id>` suffix Namer adds to duplicates. */
-private fun baseName(name: String): String = name.replace(Regex("_\\d+$"), "")
+private fun baseName(name: String): String = name.replace(Regex("_+\\d+$"), "")
 
 private fun readRscm(file: Path): Map<String, Int> {
     if (!Files.exists(file)) return emptyMap()

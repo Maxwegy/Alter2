@@ -8,7 +8,7 @@
         2842
       ],
       "names" : [
-        "npc.ice_warrior_2842"
+        "npc.icewarrior_low_wanderrange"
       ],
       "combatLevel" : 57,
       "hitpoints" : 59,
@@ -36,7 +36,7 @@
         2851
       ],
       "names" : [
-        "npc.ice_warrior_2851"
+        "npc.icewarrior_queen"
       ],
       "combatLevel" : 57,
       "hitpoints" : 59,
@@ -64,7 +64,7 @@
         2841
       ],
       "names" : [
-        "npc.ice_warrior"
+        "npc.icewarrior"
       ],
       "combatLevel" : 57,
       "hitpoints" : 59,
@@ -92,7 +92,7 @@
         13802
       ],
       "names" : [
-        "npc.ice_warrior_13802"
+        "npc.ice_warrior_tapoyauik"
       ],
       "combatLevel" : 57,
       "hitpoints" : 59,

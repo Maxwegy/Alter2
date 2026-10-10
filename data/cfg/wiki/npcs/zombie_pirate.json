@@ -8,7 +8,7 @@
         13489
       ],
       "names" : [
-        "npc.zombie_pirate_13489"
+        "npc.wildy_zombie_pirate_1"
       ],
       "combatLevel" : 22,
       "hitpoints" : 30,
@@ -39,8 +39,8 @@
         13491
       ],
       "names" : [
-        "npc.zombie_pirate_13490",
-        "npc.zombie_pirate_13491"
+        "npc.wildy_zombie_pirate_2",
+        "npc.wildy_zombie_pirate_3"
       ],
       "combatLevel" : 28,
       "hitpoints" : 35,
@@ -71,8 +71,8 @@
         13493
       ],
       "names" : [
-        "npc.zombie_pirate_13492",
-        "npc.zombie_pirate_13493"
+        "npc.wildy_zombie_pirate_4",
+        "npc.wildy_zombie_pirate_5"
       ],
       "combatLevel" : 34,
       "hitpoints" : 40,

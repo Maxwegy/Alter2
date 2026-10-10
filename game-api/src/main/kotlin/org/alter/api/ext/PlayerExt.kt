@@ -131,6 +131,11 @@ fun Player.setInterfaceUnderlay(
     runClientScript(CommonClientScripts.MAIN_MODAL_OPEN, color, transparency)
 }
 
+private fun Player.ifSetEvents(interfaceId: Int, component: Int, from: Int, to: Int, events: Int) {
+    val (events1, events2) = legacyEventsToV2(events)
+    write(IfSetEventsV2(interfaceId = interfaceId, componentId = component, start = from, end = to, events1 = events1, events2 = events2))
+}
+
 fun Player.setInterfaceEvents(
     interfaceId: Int,
     component: Int,
@@ -138,7 +143,7 @@ fun Player.setInterfaceEvents(
     to: Int,
     setting: Int,
 ) {
-    write(IfSetEvents(interfaceId = interfaceId, componentId = component, start = from, end = to, events = setting))
+    write(ifSetEvents(interfaceId, component, from, to, setting))
 }
 
 fun Player.setInterfaceEvents(
@@ -147,7 +152,7 @@ fun Player.setInterfaceEvents(
     range: IntRange,
     setting: Int,
 ) {
-    write(IfSetEvents(interfaceId = interfaceId, componentId = component, start = range.first, end = range.last, events = setting))
+    write(ifSetEvents(interfaceId, component, range.first, range.last, setting))
 }
 
 fun Player.setInterfaceEvents(
@@ -161,7 +166,7 @@ fun Player.setInterfaceEvents(
         list.add(it.flag)
     }
     val settings = list.reduce(Int::or)
-    write(IfSetEvents(interfaceId = interfaceId, componentId = component, start = range.first, end = range.last, events = settings))
+    write(ifSetEvents(interfaceId, component, range.first, range.last, settings))
 }
 
 fun Player.setInterfaceEvents(
@@ -170,7 +175,7 @@ fun Player.setInterfaceEvents(
     range: IntRange,
     setting: InterfaceEvent,
 ) {
-    write(IfSetEvents(interfaceId = interfaceId, componentId = component, start = range.first, end = range.last, events = setting.flag))
+    write(ifSetEvents(interfaceId, component, range.first, range.last, setting.flag))
 }
 
 fun Player.setComponentText(

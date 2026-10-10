@@ -8,7 +8,7 @@
         7420
       ],
       "names" : [
-        "npc.zamorak_ranger"
+        "npc.rc_zmi_ranger"
       ],
       "combatLevel" : 81,
       "hitpoints" : 50,
@@ -34,7 +34,7 @@
         7421
       ],
       "names" : [
-        "npc.zamorak_ranger_7421"
+        "npc.rc_zmi_ranger2"
       ],
       "combatLevel" : 82,
       "hitpoints" : 50,

@@ -9,8 +9,8 @@
         6409
       ],
       "names" : [
-        "npc.broodoo_victim",
-        "npc.broodoo_victim_6409"
+        "npc.tbwcu_broodoo_poison_instant",
+        "npc.tbwcu_broodoo_poison"
       ],
       "combatLevel" : 60,
       "hitpoints" : 100,
@@ -36,8 +36,8 @@
         6413
       ],
       "names" : [
-        "npc.broodoo_victim_6412",
-        "npc.broodoo_victim_6413"
+        "npc.tbwcu_broodoo_combat_instant",
+        "npc.tbwcu_broodoo_combat"
       ],
       "combatLevel" : 60,
       "hitpoints" : 100,
@@ -63,8 +63,8 @@
         6411
       ],
       "names" : [
-        "npc.broodoo_victim_6410",
-        "npc.broodoo_victim_6411"
+        "npc.tbwcu_broodoo_disease_instant",
+        "npc.tbwcu_broodoo_disease"
       ],
       "combatLevel" : 60,
       "hitpoints" : 100,

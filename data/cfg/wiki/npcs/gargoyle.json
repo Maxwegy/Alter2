@@ -9,8 +9,8 @@
         1543
       ],
       "names" : [
-        "npc.gargoyle_413",
-        "npc.gargoyle_1543"
+        "npc.slayer_gargoyle_dead",
+        "npc.slayer_cave_gargoyle"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -42,8 +42,8 @@
         413
       ],
       "names" : [
-        "npc.gargoyle_412",
-        "npc.gargoyle_413"
+        "npc.slayer_gargoyle_1",
+        "npc.slayer_gargoyle_dead"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,

@@ -1,0 +1,30 @@
+{
+  "page" : "Black jaguar (Scrambled!)",
+  "versions" : [
+    {
+      "source" : "Black jaguar (Scrambled!)",
+      "ids" : [
+        14512
+      ],
+      "names" : [
+        "npc.scrambled_jaguar"
+      ],
+      "combatLevel" : 88,
+      "hitpoints" : 85,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 75, "strength" : 75, "defence" : 75, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

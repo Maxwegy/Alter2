@@ -8,7 +8,7 @@
         774
       ],
       "names" : [
-        "npc.skraeling_774"
+        "npc.etc_guard2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 1,
@@ -34,7 +34,7 @@
         773
       ],
       "names" : [
-        "npc.skraeling"
+        "npc.etc_guard1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 1,

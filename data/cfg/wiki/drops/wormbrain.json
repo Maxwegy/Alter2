@@ -7,7 +7,7 @@
         820
       ],
       "always" : [
-        { "item" : 1536, "name" : "item.map_part_1536", "min" : 1, "max" : 1 }
+        { "item" : 1536, "name" : "item.mappart2", "min" : 1, "max" : 1 }
       ]
     }
   ]

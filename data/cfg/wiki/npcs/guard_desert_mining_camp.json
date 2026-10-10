@@ -8,7 +8,7 @@
         4665
       ],
       "names" : [
-        "npc.guard_4665"
+        "npc.tourtrap_qip_desert_mining_guard_6"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -36,9 +36,9 @@
         4667
       ],
       "names" : [
-        "npc.guard_4661",
-        "npc.guard_4663",
-        "npc.guard_4667"
+        "npc.tourtrap_qip_desert_mining_guard_2",
+        "npc.tourtrap_qip_desert_mining_guard_4",
+        "npc.tourtrap_qip_desert_mining_guard_still_2"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -66,9 +66,9 @@
         4669
       ],
       "names" : [
-        "npc.guard_4660",
-        "npc.guard_4666",
-        "npc.guard_4669"
+        "npc.tourtrap_qip_desert_mining_guard_1",
+        "npc.tourtrap_qip_desert_mining_guard_still_1",
+        "npc.tourtrap_qip_rowdy_desert_mining_guard_1"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -94,7 +94,7 @@
         4664
       ],
       "names" : [
-        "npc.guard_4664"
+        "npc.tourtrap_qip_desert_mining_guard_5"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -121,8 +121,8 @@
         4668
       ],
       "names" : [
-        "npc.guard_4662",
-        "npc.guard_4668"
+        "npc.tourtrap_qip_desert_mining_guard_3",
+        "npc.tourtrap_qip_desert_mining_guard_still_3"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,

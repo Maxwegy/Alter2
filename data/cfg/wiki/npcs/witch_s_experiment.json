@@ -8,7 +8,7 @@
         3998
       ],
       "names" : [
-        "npc.witchs_experiment_third_form"
+        "npc.shapeshifterbear"
       ],
       "combatLevel" : 42,
       "hitpoints" : 41,
@@ -33,7 +33,7 @@
         3996
       ],
       "names" : [
-        "npc.witchs_experiment"
+        "npc.shapeshifterglob"
       ],
       "combatLevel" : 19,
       "hitpoints" : 21,
@@ -58,7 +58,7 @@
         3997
       ],
       "names" : [
-        "npc.witchs_experiment_second_form"
+        "npc.shapeshifterspider"
       ],
       "combatLevel" : 30,
       "hitpoints" : 31,
@@ -83,7 +83,7 @@
         3999
       ],
       "names" : [
-        "npc.witchs_experiment_fourth_form"
+        "npc.shapeshifterwolf"
       ],
       "combatLevel" : 53,
       "hitpoints" : 51,

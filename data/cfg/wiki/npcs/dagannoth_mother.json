@@ -15,15 +15,15 @@
         988
       ],
       "names" : [
-        "npc.dagannoth_mother",
-        "npc.dagannoth_mother_981",
-        "npc.dagannoth_mother_982",
-        "npc.dagannoth_mother_983",
-        "npc.dagannoth_mother_984",
-        "npc.dagannoth_mother_985",
-        "npc.dagannoth_mother_986",
-        "npc.dagannoth_mother_987",
-        "npc.dagannoth_mother_988"
+        "npc.horror_dagganoth_aira",
+        "npc.horror_dagganoth_airb",
+        "npc.horror_dagganoth_airc",
+        "npc.horror_dagganoth_air",
+        "npc.horror_dagganoth_water",
+        "npc.horror_dagganoth_fire",
+        "npc.horror_dagganoth_earth",
+        "npc.horror_dagganoth_ranged",
+        "npc.horror_dagganoth_melee"
       ],
       "combatLevel" : 100,
       "hitpoints" : 120,

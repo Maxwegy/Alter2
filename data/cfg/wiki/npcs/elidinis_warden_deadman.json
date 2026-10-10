@@ -1,0 +1,57 @@
+{
+  "page" : "Elidinis' Warden (Deadman)",
+  "versions" : [
+    {
+      "source" : "Elidinis' Warden (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15552
+      ],
+      "names" : [
+        "npc.deadman_breach_warden_tumeken_mage"
+      ],
+      "combatLevel" : 970,
+      "hitpoints" : 3000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 190, "magic" : 400 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Elidinis' Warden (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15552
+      ],
+      "names" : [
+        "npc.deadman_breach_warden_tumeken_mage"
+      ],
+      "combatLevel" : 407,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 190, "magic" : 400 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 10, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "41"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

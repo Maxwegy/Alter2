@@ -7,7 +7,7 @@
         4773
       ],
       "names" : [
-        "npc.fortress_guard_4773"
+        "npc.fortressguard_01"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -32,7 +32,7 @@
         4774
       ],
       "names" : [
-        "npc.fortress_guard_4774"
+        "npc.fortressguard_02"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -57,7 +57,7 @@
         4775
       ],
       "names" : [
-        "npc.fortress_guard_4775"
+        "npc.fortressguard_03"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -82,7 +82,7 @@
         4776
       ],
       "names" : [
-        "npc.fortress_guard_4776"
+        "npc.fortressguard_04"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,
@@ -107,7 +107,7 @@
         4772
       ],
       "names" : [
-        "npc.fortress_guard"
+        "npc.fortressguard"
       ],
       "combatLevel" : 20,
       "hitpoints" : 22,

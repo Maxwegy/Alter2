@@ -12,11 +12,11 @@
         7545
       ],
       "always" : [
-        { "item" : 20890, "name" : "item.tektons_journal", "min" : 1, "max" : 1 },
-        { "item" : 20910, "name" : "item.stinkhorn_mushroom", "min" : 5, "max" : 5 },
-        { "item" : 20960, "name" : "item.revitalisation_4_20960", "min" : 1, "max" : 1 },
-        { "item" : 20972, "name" : "item.prayer_enhance_4_20972", "min" : 1, "max" : 1 },
-        { "item" : 20996, "name" : "item.overload_4_20996", "min" : 2, "max" : 2 }
+        { "item" : 20890, "name" : "item.raids_tekton_book", "min" : 1, "max" : 1 },
+        { "item" : 20910, "name" : "item.raids_stinkhorn_mushroom", "min" : 5, "max" : 5 },
+        { "item" : 20960, "name" : "item.raids_vial_revitalisation_strong_4", "min" : 1, "max" : 1 },
+        { "item" : 20972, "name" : "item.raids_vial_prayer_strong_4", "min" : 1, "max" : 1 },
+        { "item" : 20996, "name" : "item.raids_vial_overload_strong_4", "min" : 2, "max" : 2 }
       ],
       "main" : [
         { "item" : 6573, "name" : "item.onyx", "min" : 1, "max" : 1, "chance" : [ 1, 450 ], "wiki" : "1/450" }

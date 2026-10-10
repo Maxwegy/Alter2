@@ -1,0 +1,29 @@
+{
+  "page" : "Bull shark",
+  "versions" : [
+    {
+      "source" : "Bull shark",
+      "ids" : [
+        15194
+      ],
+      "names" : [
+        "npc.sailing_bull_shark"
+      ],
+      "combatLevel" : 65,
+      "hitpoints" : 81,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 45, "defence" : 20, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 100, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "5"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

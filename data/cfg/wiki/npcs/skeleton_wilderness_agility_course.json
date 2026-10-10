@@ -8,7 +8,7 @@
         13495
       ],
       "names" : [
-        "npc.skeleton_13495"
+        "npc.wildy_agility_skeleton_1"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -39,7 +39,7 @@
         13496
       ],
       "names" : [
-        "npc.skeleton_13496"
+        "npc.wildy_agility_skeleton_2"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -70,7 +70,7 @@
         13497
       ],
       "names" : [
-        "npc.skeleton_13497"
+        "npc.wildy_agility_skeleton_3"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -101,7 +101,7 @@
         13498
       ],
       "names" : [
-        "npc.skeleton_13498"
+        "npc.wildy_agility_skeleton_4"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -132,7 +132,7 @@
         13499
       ],
       "names" : [
-        "npc.skeleton_13499"
+        "npc.wildy_agility_skeleton_5"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -163,7 +163,7 @@
         13500
       ],
       "names" : [
-        "npc.skeleton_13500"
+        "npc.wildy_agility_skeleton_1_longhunt"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,
@@ -194,7 +194,7 @@
         13501
       ],
       "names" : [
-        "npc.skeleton_13501"
+        "npc.wildy_agility_skeleton_2_longhunt"
       ],
       "combatLevel" : 18,
       "hitpoints" : 17,

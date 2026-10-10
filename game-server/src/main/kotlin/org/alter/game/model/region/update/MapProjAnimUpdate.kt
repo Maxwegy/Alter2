@@ -1,6 +1,7 @@
  package org.alter.game.model.region.update
 
- import net.rsprot.protocol.game.outgoing.zone.payload.MapProjAnim
+ import net.rsprot.protocol.game.outgoing.zone.payload.MapProjAnimV2
+import net.rsprot.protocol.internal.game.outgoing.info.CoordGrid
  import net.rsprot.protocol.message.ZoneProt
  import org.alter.game.model.entity.Projectile
 
@@ -16,7 +17,7 @@
     override fun toMessage(): ZoneProt {
         return if (entity.targetPawn != null) {
             val targetIndex = if (entity.targetPawn.entityType.isNpc) entity.targetPawn.index + 1 else -(entity.targetPawn.index + 1)
-            MapProjAnim(
+            MapProjAnimV2(
                 id = entity.gfx,
                 startHeight = entity.startHeight,
                 endHeight = entity.endHeight,
@@ -28,12 +29,11 @@
                 targetIndex = targetIndex,
                 xInZone = (entity.tile.x and 0x7),
                 zInZone = (entity.tile.z and 0x7),
-                deltaX = entity.targetTile.x - entity.tile.x,
-                deltaZ = entity.targetTile.z - entity.tile.z,
+                end = CoordGrid(entity.targetTile.height, entity.targetTile.x, entity.targetTile.z),
             )
         } else {
             //Note: identical to above except that the targetIndex is 0.
-            MapProjAnim(
+            MapProjAnimV2(
                 id = entity.gfx,
                 startHeight = entity.startHeight,
                 endHeight = entity.endHeight,
@@ -45,8 +45,7 @@
                 targetIndex = 0,
                 xInZone = (entity.tile.x and 0x7),
                 zInZone = (entity.tile.z and 0x7),
-                deltaX = entity.targetTile.x - entity.tile.x,
-                deltaZ = entity.targetTile.z - entity.tile.z,
+                end = CoordGrid(entity.targetTile.height, entity.targetTile.x, entity.targetTile.z),
             )
         }
     }

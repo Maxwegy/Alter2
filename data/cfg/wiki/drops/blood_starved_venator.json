@@ -1,0 +1,60 @@
+{
+  "page" : "Blood-starved venator",
+  "tables" : [
+    {
+      "source" : "Blood-starved venator",
+      "npcIds" : [
+        15770
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1 },
+        { "item" : 33695, "name" : "item.venator_heart", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 448, "name" : "item.cert_mithril_ore", "min" : 6, "max" : 7, "noted" : true, "chance" : [ 12, 131 ], "rolls" : 3, "wiki" : "12/131", "approx" : true },
+        { "item" : 450, "name" : "item.cert_adamantite_ore", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 17, 131 ], "rolls" : 3, "wiki" : "17/131", "approx" : true },
+        { "item" : 452, "name" : "item.cert_runite_ore", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 131 ], "rolls" : 3, "wiki" : "1/131", "approx" : true },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16768 ], "rolls" : 3, "wiki" : "1/16,768" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16768 ], "rolls" : 3, "wiki" : "1/16,768" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16768 ], "rolls" : 3, "wiki" : "1/16,768" },
+        { "item" : 995, "name" : "item.coins", "min" : 3000, "max" : 7000, "chance" : [ 19, 131 ], "rolls" : 3, "wiki" : "19/131", "approx" : true },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 268288 ], "rolls" : 3, "wiki" : "1/268,288" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 71543467 ], "rolls" : 3, "wiki" : "1/715,434.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 558933 ], "rolls" : 3, "wiki" : "1/5,589.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8384 ], "rolls" : 3, "wiki" : "1/8,384" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2096 ], "rolls" : 3, "wiki" : "1/2,096" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1048 ], "rolls" : 3, "wiki" : "1/1,048" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 524 ], "rolls" : 3, "wiki" : "1/524" },
+        { "item" : 1743, "name" : "item.hard_leather", "min" : 1, "max" : 1, "chance" : [ 6, 131 ], "rolls" : 3, "wiki" : "6/131", "approx" : true },
+        { "item" : 1993, "name" : "item.jug_wine", "min" : 1, "max" : 1, "chance" : [ 1, 131 ], "rolls" : 3, "wiki" : "1/131", "approx" : true },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 536576 ], "rolls" : 3, "wiki" : "1/536,576" },
+        { "item" : 2971, "name" : "item.cert_mortmyremushroom", "min" : 5, "max" : 5, "noted" : true, "chance" : [ 10, 131 ], "rolls" : 3, "wiki" : "10/131", "approx" : true },
+        { "item" : 11334, "name" : "item.brut_fish_cuts", "min" : 3, "max" : 5, "chance" : [ 5, 131 ], "rolls" : 3, "wiki" : "5/131", "approx" : true },
+        { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 536 ], "wiki" : "1/536" },
+        { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 153 ], "wiki" : "1/153" },
+        { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 153 ], "wiki" : "1/153" },
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 536 ], "wiki" : "1/536" },
+        { "item" : 24777, "name" : "item.blood_shard", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" },
+        { "item" : 32307, "name" : "item.sailing_fine_fish_offcuts", "min" : 2, "max" : 2, "chance" : [ 3, 131 ], "rolls" : 3, "wiki" : "3/131", "approx" : true },
+        { "item" : 33623, "name" : "item.blood_sac", "min" : 6, "max" : 8, "chance" : [ 3, 131 ], "rolls" : 3, "wiki" : "3/131", "approx" : true },
+        { "item" : 33625, "name" : "item.letvek", "min" : 1, "max" : 1, "chance" : [ 2, 131 ], "rolls" : 3, "wiki" : "2/131", "approx" : true },
+        { "item" : 33651, "name" : "item.stymphike_feather", "min" : 15, "max" : 22, "chance" : [ 12, 131 ], "rolls" : 3, "wiki" : "12/131", "approx" : true },
+        { "item" : 33657, "name" : "item.orikalkum_gravel", "min" : 1, "max" : 1, "chance" : [ 1, 131 ], "rolls" : 3, "wiki" : "1/131", "approx" : true },
+        { "item" : 33659, "name" : "item.grapevine", "min" : 1, "max" : 1, "chance" : [ 5, 131 ], "rolls" : 3, "wiki" : "5/131", "approx" : true },
+        { "item" : 33661, "name" : "item.venator_fang", "min" : 10, "max" : 20, "chance" : [ 7, 131 ], "rolls" : 3, "wiki" : "7/131", "approx" : true },
+        { "item" : 33663, "name" : "item.venator_tooth", "min" : 15, "max" : 30, "chance" : [ 7, 131 ], "rolls" : 3, "wiki" : "7/131", "approx" : true },
+        { "item" : 33677, "name" : "item.tarnished_longsword", "min" : 1, "max" : 1, "chance" : [ 115, 14803 ], "rolls" : 3, "wiki" : "115/14,803", "approx" : true },
+        { "item" : 33679, "name" : "item.tarnished_spear", "min" : 1, "max" : 1, "chance" : [ 690, 14803 ], "rolls" : 3, "wiki" : "690/14,803", "approx" : true },
+        { "item" : 33681, "name" : "item.tarnished_2h_sword", "min" : 1, "max" : 1, "chance" : [ 115, 14803 ], "rolls" : 3, "wiki" : "115/14,803", "approx" : true },
+        { "item" : 33683, "name" : "item.tarnished_battleaxe", "min" : 1, "max" : 1, "chance" : [ 115, 14803 ], "rolls" : 3, "wiki" : "115/14,803", "approx" : true },
+        { "item" : 33685, "name" : "item.tarnished_halberd", "min" : 1, "max" : 1, "chance" : [ 115, 14803 ], "rolls" : 3, "wiki" : "115/14,803", "approx" : true },
+        { "item" : 33687, "name" : "item.tarnished_ring", "min" : 1, "max" : 1, "chance" : [ 506, 14803 ], "rolls" : 3, "wiki" : "506/14,803", "approx" : true },
+        { "item" : 33689, "name" : "item.tarnished_bracelet", "min" : 1, "max" : 1, "chance" : [ 253, 14803 ], "rolls" : 3, "wiki" : "253/14,803", "approx" : true },
+        { "item" : 33691, "name" : "item.tarnished_necklace", "min" : 1, "max" : 1, "chance" : [ 253, 14803 ], "rolls" : 3, "wiki" : "253/14,803", "approx" : true },
+        { "item" : 33693, "name" : "item.tarnished_amulet", "min" : 1, "max" : 1, "chance" : [ 253, 14803 ], "rolls" : 3, "wiki" : "253/14,803", "approx" : true }
+      ]
+    }
+  ]
+}

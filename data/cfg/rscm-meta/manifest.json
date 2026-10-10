@@ -1,0 +1,23 @@
+{
+  "build": 241,
+  "cacheDir": "241-2735",
+  "previousBuild": 228,
+  "oldDisplayNamesFromCache": true,
+  "tables": {
+    "item": {
+      "canonical": 34646,
+      "aliases": 16965,
+      "sha256": "ee74d149d59412fde3688d826fa4b63604b83aa9b2189b6868af3a4bdb1a2983"
+    },
+    "npc": {
+      "canonical": 16631,
+      "aliases": 11273,
+      "sha256": "a51e9523df79c72ab8ada3c0455da535a1ca5edabd123c1ad89647d6776909a1"
+    },
+    "object": {
+      "canonical": 62534,
+      "aliases": 26283,
+      "sha256": "81ff01309ce6a7e867d23c5f9c1964ddbc78bd48fae2cf24c6a484b0f3d06438"
+    }
+  }
+}

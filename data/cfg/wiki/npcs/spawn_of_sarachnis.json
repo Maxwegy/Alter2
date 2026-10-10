@@ -8,7 +8,7 @@
         8714
       ],
       "names" : [
-        "npc.spawn_of_sarachnis"
+        "npc.sarachnis_melee_spawn"
       ],
       "combatLevel" : 107,
       "hitpoints" : 30,
@@ -34,7 +34,7 @@
         8715
       ],
       "names" : [
-        "npc.spawn_of_sarachnis_8715"
+        "npc.sarachnis_mage_spawn"
       ],
       "combatLevel" : 68,
       "hitpoints" : 30,

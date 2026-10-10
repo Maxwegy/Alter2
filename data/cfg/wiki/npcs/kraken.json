@@ -8,7 +8,7 @@
         494
       ],
       "names" : [
-        "npc.kraken"
+        "npc.slayer_kraken_boss"
       ],
       "combatLevel" : 291,
       "hitpoints" : 255,
@@ -35,7 +35,7 @@
         496
       ],
       "names" : [
-        "npc.whirlpool_496"
+        "npc.slayer_kraken_boss_whirlpool"
       ],
       "hitpoints" : 255,
       "attackSpeed" : 4,

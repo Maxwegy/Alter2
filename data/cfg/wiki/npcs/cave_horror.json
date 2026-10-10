@@ -8,7 +8,7 @@
         1051
       ],
       "names" : [
-        "npc.cave_horror_1051"
+        "npc.harmless_island_cave_horror_alpha"
       ],
       "combatLevel" : 80,
       "hitpoints" : 55,
@@ -36,7 +36,7 @@
         1049
       ],
       "names" : [
-        "npc.cave_horror_1049"
+        "npc.harmless_island_cave_horror_guard"
       ],
       "combatLevel" : 80,
       "hitpoints" : 55,
@@ -64,7 +64,7 @@
         1050
       ],
       "names" : [
-        "npc.cave_horror_1050"
+        "npc.harmless_island_cave_horror_small_guard"
       ],
       "combatLevel" : 80,
       "hitpoints" : 55,
@@ -92,7 +92,7 @@
         1047
       ],
       "names" : [
-        "npc.cave_horror_1047"
+        "npc.harmless_island_cave_horror_worker"
       ],
       "combatLevel" : 80,
       "hitpoints" : 55,
@@ -120,7 +120,7 @@
         1048
       ],
       "names" : [
-        "npc.cave_horror_1048"
+        "npc.harmless_island_cave_horror_young_worker"
       ],
       "combatLevel" : 80,
       "hitpoints" : 55,

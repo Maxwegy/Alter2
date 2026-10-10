@@ -9,8 +9,8 @@
         7567
       ],
       "names" : [
-        "npc.vasa_nistirio",
-        "npc.vasa_nistirio_7567"
+        "npc.raids_vasanistirio_walking",
+        "npc.raids_vasanistirio_healing"
       ],
       "hitpoints" : 450,
       "attackSpeed" : 3,
@@ -39,8 +39,8 @@
         7567
       ],
       "names" : [
-        "npc.vasa_nistirio",
-        "npc.vasa_nistirio_7567"
+        "npc.raids_vasanistirio_walking",
+        "npc.raids_vasanistirio_healing"
       ],
       "hitpoints" : 300,
       "attackSpeed" : 3,

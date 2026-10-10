@@ -8,7 +8,7 @@
         64
       ],
       "names" : [
-        "npc.zombie_64"
+        "npc.zombie_entranan"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -39,7 +39,7 @@
         65
       ],
       "names" : [
-        "npc.zombie_65"
+        "npc.zombie_entranan2"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -70,7 +70,7 @@
         66
       ],
       "names" : [
-        "npc.zombie_66"
+        "npc.zombie_entranan3"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -101,7 +101,7 @@
         67
       ],
       "names" : [
-        "npc.zombie_67"
+        "npc.zombie_entranan4"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,
@@ -132,7 +132,7 @@
         68
       ],
       "names" : [
-        "npc.zombie_68"
+        "npc.zombie_entranan5"
       ],
       "combatLevel" : 25,
       "hitpoints" : 30,

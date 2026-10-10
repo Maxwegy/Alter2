@@ -1,0 +1,29 @@
+{
+  "page" : "Chimalli",
+  "versions" : [
+    {
+      "source" : "Chimalli",
+      "ids" : [
+        14362
+      ],
+      "names" : [
+        "npc.vmq4_keystone_chamber_boss_ranged"
+      ],
+      "combatLevel" : 160,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 200, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 120, "stabDefence" : 70, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 120, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 10, "magicDamage" : 0 },
+      "maxHits" : [
+        "24"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

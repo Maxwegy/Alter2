@@ -36,7 +36,7 @@
         5331
       ],
       "names" : [
-        "npc.cave_goblin_miner_5331"
+        "npc.cave_goblin_miner2"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -64,7 +64,7 @@
         5332
       ],
       "names" : [
-        "npc.cave_goblin_miner_5332"
+        "npc.cave_goblin_miner3"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -92,7 +92,7 @@
         5333
       ],
       "names" : [
-        "npc.cave_goblin_miner_5333"
+        "npc.cave_goblin_miner4"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -120,7 +120,7 @@
         5336
       ],
       "names" : [
-        "npc.cave_goblin_miner_5336"
+        "npc.cave_goblin_miner_mining"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -147,7 +147,7 @@
         5337
       ],
       "names" : [
-        "npc.cave_goblin_miner_5337"
+        "npc.cave_goblin_miner2_mining"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -174,7 +174,7 @@
         5338
       ],
       "names" : [
-        "npc.cave_goblin_miner_5338"
+        "npc.cave_goblin_miner3_mining"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -201,7 +201,7 @@
         5339
       ],
       "names" : [
-        "npc.cave_goblin_miner_5339"
+        "npc.cave_goblin_miner4_mining"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,

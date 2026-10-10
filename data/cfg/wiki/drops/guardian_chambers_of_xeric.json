@@ -10,9 +10,9 @@
         7572
       ],
       "always" : [
-        { "item" : 20903, "name" : "item.noxifer_seed", "min" : 3, "max" : 5 },
-        { "item" : 20906, "name" : "item.golpar_seed", "min" : 3, "max" : 5 },
-        { "item" : 20909, "name" : "item.buchu_seed", "min" : 3, "max" : 5 }
+        { "item" : 20903, "name" : "item.raids_seed_noxifer", "min" : 3, "max" : 5 },
+        { "item" : 20906, "name" : "item.raids_seed_golpar", "min" : 3, "max" : 5 },
+        { "item" : 20909, "name" : "item.raids_seed_buchuleaf", "min" : 3, "max" : 5 }
       ]
     }
   ]

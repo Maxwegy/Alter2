@@ -8,8 +8,8 @@
         7258
       ],
       "main" : [
-        { "item" : 546, "name" : "item.shade_robe_top", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "32/128" },
-        { "item" : 548, "name" : "item.shade_robe", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "32/128" }
+        { "item" : 546, "name" : "item.blackrobetop", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "32/128" },
+        { "item" : 548, "name" : "item.blackrobebottom", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "32/128" }
       ]
     },
     {
@@ -18,10 +18,10 @@
         7258
       ],
       "tertiary" : [
-        { "item" : 19677, "name" : "item.ancient_shard", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
-        { "item" : 19679, "name" : "item.dark_totem_base", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" },
-        { "item" : 19681, "name" : "item.dark_totem_middle", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" },
-        { "item" : 19683, "name" : "item.dark_totem_top", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" }
+        { "item" : 19677, "name" : "item.cata_shard", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 19679, "name" : "item.cata_totem1", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" },
+        { "item" : 19681, "name" : "item.cata_totem2", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" },
+        { "item" : 19683, "name" : "item.cata_totem3", "min" : 1, "max" : 1, "chance" : [ 1, 385 ], "wiki" : "1/385" }
       ]
     }
   ]

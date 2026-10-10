@@ -8,7 +8,7 @@
         7894
       ],
       "names" : [
-        "npc.sand_snake_hard"
+        "npc.nzone_hosidiusquest_snake_hard"
       ],
       "combatLevel" : 154,
       "hitpoints" : 180,
@@ -34,7 +34,7 @@
         7895
       ],
       "names" : [
-        "npc.sand_snake"
+        "npc.nzone_hosidiusquest_snake_normal"
       ],
       "combatLevel" : 36,
       "hitpoints" : 60,

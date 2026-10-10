@@ -1,0 +1,42 @@
+{
+  "page" : "Brutus",
+  "tables" : [
+    {
+      "source" : "Brutus",
+      "npcIds" : [
+        15626,
+        15627
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 33106, "name" : "item.raw_tbone_steak", "min" : 1, "max" : 1 },
+        { "item" : 33115, "name" : "item.bull_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 556, "name" : "item.airrune", "min" : 29, "max" : 29, "chance" : [ 10, 81 ], "wiki" : "10/81" },
+        { "item" : 558, "name" : "item.mindrune", "min" : 18, "max" : 18, "chance" : [ 8, 81 ], "wiki" : "8/81" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 12, "max" : 12, "chance" : [ 2, 81 ], "wiki" : "2/81" },
+        { "item" : 884, "name" : "item.iron_arrow", "min" : 14, "max" : 14, "chance" : [ 10, 81 ], "wiki" : "10/81" },
+        { "item" : 995, "name" : "item.coins", "min" : 60, "max" : 80, "chance" : [ 5, 27 ], "wiki" : "15/81" },
+        { "item" : 995, "name" : "item.coins", "min" : 80, "max" : 100, "chance" : [ 5, 81 ], "wiki" : "5/81" },
+        { "item" : 995, "name" : "item.coins", "min" : 100, "max" : 120, "chance" : [ 5, 81 ], "wiki" : "5/81" },
+        { "item" : 1067, "name" : "item.iron_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 81 ], "wiki" : "1/81" },
+        { "item" : 1081, "name" : "item.iron_plateskirt", "min" : 1, "max" : 1, "chance" : [ 1, 81 ], "wiki" : "1/81" },
+        { "item" : 1115, "name" : "item.iron_platebody", "min" : 1, "max" : 1, "chance" : [ 2, 81 ], "wiki" : "2/81" },
+        { "item" : 1153, "name" : "item.iron_full_helm", "min" : 1, "max" : 1, "chance" : [ 2, 81 ], "wiki" : "2/81" },
+        { "item" : 1511, "name" : "item.logs", "min" : 2, "max" : 2, "chance" : [ 5, 81 ], "wiki" : "5/81" },
+        { "item" : 1521, "name" : "item.oak_logs", "min" : 2, "max" : 2, "chance" : [ 5, 81 ], "wiki" : "5/81" },
+        { "item" : 1739, "name" : "item.cow_hide", "min" : 1, "max" : 1, "chance" : [ 10, 81 ], "wiki" : "10/81" },
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "1/40" },
+        { "item" : 5312, "name" : "item.acorn", "min" : 2, "max" : 2, "chance" : [ 5, 81 ], "wiki" : "5/81" },
+        { "item" : 5318, "name" : "item.potato_seed", "min" : 3, "max" : 3, "chance" : [ 10, 81 ], "wiki" : "10/81" },
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "1/15" },
+        { "item" : 33091, "name" : "item.bottomless_milk_bucket", "min" : 1, "max" : 1, "chance" : [ 2, 75 ], "wiki" : "4/150" },
+        { "item" : 33093, "name" : "item.cow_slippers", "min" : 1, "max" : 1, "chance" : [ 1, 150 ], "wiki" : "1/150" },
+        { "item" : 33101, "name" : "item.mooleta", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "5/150" },
+        { "item" : 33107, "name" : "item.cert_raw_tbone_steak", "min" : 3, "max" : 3, "noted" : true, "chance" : [ 10, 81 ], "wiki" : "10/81" },
+        { "item" : 33124, "name" : "item.cowbosspet", "min" : 1, "max" : 1, "chance" : [ 1, 1000 ], "wiki" : "1/1,000" }
+      ]
+    }
+  ]
+}

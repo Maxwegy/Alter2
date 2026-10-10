@@ -14,14 +14,14 @@
         13290
       ],
       "names" : [
-        "npc.bandit_13283",
-        "npc.bandit_13284",
-        "npc.bandit_13285",
-        "npc.bandit_13286",
-        "npc.bandit_13287",
-        "npc.bandit_13288",
-        "npc.bandit_13289",
-        "npc.bandit_13290"
+        "npc.varlamore_bandit_m_1",
+        "npc.varlamore_bandit_m_2",
+        "npc.varlamore_bandit_m_3",
+        "npc.varlamore_bandit_m_4",
+        "npc.varlamore_bandit_f_1",
+        "npc.varlamore_bandit_f_2",
+        "npc.varlamore_bandit_f_3",
+        "npc.varlamore_bandit_f_4"
       ],
       "combatLevel" : 23,
       "hitpoints" : 27,

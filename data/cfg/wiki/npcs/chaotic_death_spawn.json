@@ -8,7 +8,7 @@
         7649
       ],
       "names" : [
-        "npc.chaotic_death_spawn_7649"
+        "npc.superior_nechryael_magic_spawn"
       ],
       "combatLevel" : 215,
       "hitpoints" : 50,
@@ -33,7 +33,7 @@
         6716
       ],
       "names" : [
-        "npc.chaotic_death_spawn"
+        "npc.superior_nechryael_melee_spawn"
       ],
       "combatLevel" : 215,
       "hitpoints" : 50,
@@ -58,7 +58,7 @@
         6723
       ],
       "names" : [
-        "npc.chaotic_death_spawn_6723"
+        "npc.superior_nechryael_ranged_spawn"
       ],
       "combatLevel" : 215,
       "hitpoints" : 50,

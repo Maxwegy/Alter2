@@ -4,9 +4,11 @@
     {
       "source" : "Giant mosquito",
       "ids" : [
-        1041
+        1041,
+        15440
       ],
       "names" : [
+        "npc.harmless_island_mosquito",
         "npc.giant_mosquito"
       ],
       "combatLevel" : 13,

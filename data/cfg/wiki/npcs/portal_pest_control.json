@@ -8,7 +8,7 @@
         1740
       ],
       "names" : [
-        "npc.portal_1740"
+        "npc.pest_portal_2_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -32,7 +32,7 @@
         1744
       ],
       "names" : [
-        "npc.portal_1744"
+        "npc.pest_portal_shield_2_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -56,7 +56,7 @@
         1748
       ],
       "names" : [
-        "npc.portal_1748"
+        "npc.pest_portal_2_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -80,7 +80,7 @@
         1752
       ],
       "names" : [
-        "npc.portal_1752"
+        "npc.pest_portal_shield_2_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -104,7 +104,7 @@
         1739
       ],
       "names" : [
-        "npc.portal"
+        "npc.pest_portal_1_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -128,7 +128,7 @@
         1743
       ],
       "names" : [
-        "npc.portal_1743"
+        "npc.pest_portal_shield_1_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -152,7 +152,7 @@
         1747
       ],
       "names" : [
-        "npc.portal_1747"
+        "npc.pest_portal_1_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -176,7 +176,7 @@
         1751
       ],
       "names" : [
-        "npc.portal_1751"
+        "npc.pest_portal_shield_1_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -200,7 +200,7 @@
         1742
       ],
       "names" : [
-        "npc.portal_1742"
+        "npc.pest_portal_4_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -224,7 +224,7 @@
         1746
       ],
       "names" : [
-        "npc.portal_1746"
+        "npc.pest_portal_shield_4_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -248,7 +248,7 @@
         1750
       ],
       "names" : [
-        "npc.portal_1750"
+        "npc.pest_portal_4_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -272,7 +272,7 @@
         1754
       ],
       "names" : [
-        "npc.portal_1754"
+        "npc.pest_portal_shield_4_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -296,7 +296,7 @@
         1741
       ],
       "names" : [
-        "npc.portal_1741"
+        "npc.pest_portal_3_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -320,7 +320,7 @@
         1745
       ],
       "names" : [
-        "npc.portal_1745"
+        "npc.pest_portal_shield_3_active"
       ],
       "hitpoints" : 250,
       "attackSpeed" : -1,
@@ -344,7 +344,7 @@
         1749
       ],
       "names" : [
-        "npc.portal_1749"
+        "npc.pest_portal_3_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,
@@ -368,7 +368,7 @@
         1753
       ],
       "names" : [
-        "npc.portal_1753"
+        "npc.pest_portal_shield_3_active_bt1"
       ],
       "hitpoints" : 200,
       "attackSpeed" : -1,

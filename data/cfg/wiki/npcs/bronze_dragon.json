@@ -8,7 +8,7 @@
         7253
       ],
       "names" : [
-        "npc.bronze_dragon_7253"
+        "npc.kourend_bronze_dragon"
       ],
       "combatLevel" : 143,
       "hitpoints" : 122,
@@ -44,7 +44,7 @@
       ],
       "names" : [
         "npc.bronze_dragon",
-        "npc.bronze_dragon_271"
+        "npc.bronze_dragon_strongholdcave"
       ],
       "combatLevel" : 131,
       "hitpoints" : 122,

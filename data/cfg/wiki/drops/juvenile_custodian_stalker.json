@@ -1,0 +1,57 @@
+{
+  "page" : "Juvenile custodian stalker",
+  "tables" : [
+    {
+      "source" : "Juvenile custodian stalker",
+      "npcIds" : [
+        14702
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 2, "name" : "item.mcannonball", "min" : 10, "max" : 15, "chance" : [ 1, 8 ], "wiki" : "20/160" },
+        { "item" : 373, "name" : "item.swordfish", "min" : 2, "max" : 3, "chance" : [ 1, 20 ], "wiki" : "8/160" },
+        { "item" : 443, "name" : "item.cert_silver_ore", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 554, "name" : "item.firerune", "min" : 50, "max" : 50, "chance" : [ 1, 8 ], "wiki" : "20/160" },
+        { "item" : 556, "name" : "item.airrune", "min" : 100, "max" : 100, "chance" : [ 1, 8 ], "wiki" : "20/160" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 10, "max" : 26, "chance" : [ 1, 16 ], "wiki" : "10/160" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 45, "max" : 45, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 67, "max" : 67, "chance" : [ 100, 682667 ], "wiki" : "1/6,826.67" },
+        { "item" : 563, "name" : "item.lawrune", "min" : 45, "max" : 45, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 829, "name" : "item.adamant_javelin", "min" : 20, "max" : 20, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 10, 33267 ], "wiki" : "1/3,326.7" },
+        { "item" : 886, "name" : "item.steel_arrow", "min" : 150, "max" : 150, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 5, "max" : 20, "chance" : [ 3, 40 ], "wiki" : "12/160" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 42, "max" : 42, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 78299 ], "wiki" : "1/782.99" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 78299 ], "wiki" : "1/782.99" },
+        { "item" : 995, "name" : "item.coins", "min" : 400, "max" : 750, "chance" : [ 1, 8 ], "wiki" : "20/160" },
+        { "item" : 995, "name" : "item.coins", "min" : 3000, "max" : 3000, "chance" : [ 25, 24381 ], "wiki" : "1/975.24" },
+        { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 20480 ], "wiki" : "1/20,480" },
+        { "item" : 1185, "name" : "item.rune_sq_shield", "min" : 1, "max" : 1, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 20480 ], "wiki" : "1/20,480" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 1548857 ], "wiki" : "1/15,488.57" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 20, 826057 ], "wiki" : "1/41,302.85" },
+        { "item" : 1319, "name" : "item.rune_2h_sword", "min" : 1, "max" : 1, "chance" : [ 100, 682667 ], "wiki" : "1/6,826.67" },
+        { "item" : 1331, "name" : "item.adamant_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "16/160" },
+        { "item" : 1373, "name" : "item.rune_battleaxe", "min" : 1, "max" : 1, "chance" : [ 100, 682667 ], "wiki" : "1/6,826.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 10, 11089 ], "wiki" : "1/1,108.9" },
+        { "item" : 1615, "name" : "item.dragonstone", "min" : 1, "max" : 1, "chance" : [ 1, 10240 ], "wiki" : "1/10,240" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 20, 33267 ], "wiki" : "1/1,663.35" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 25, 10396 ], "wiki" : "1/415.84" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 25, 5198 ], "wiki" : "1/207.92" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 25, 2599 ], "wiki" : "1/103.96" },
+        { "item" : 2132, "name" : "item.raw_beef", "min" : 1, "max" : 1, "chance" : [ 1, 40 ], "wiki" : "4/160" },
+        { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 3097713 ], "wiki" : "1/30,977.13" },
+        { "item" : 7937, "name" : "item.cert_blankrune_high", "min" : 15, "max" : 15, "noted" : true, "chance" : [ 3, 40 ], "wiki" : "12/160" },
+        { "item" : 31086, "name" : "item.custodian_broken_antler", "min" : 1, "max" : 1, "chance" : [ 11, 160 ], "wiki" : "11/160" }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

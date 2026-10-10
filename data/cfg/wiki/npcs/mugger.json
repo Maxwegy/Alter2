@@ -11,8 +11,8 @@
       ],
       "names" : [
         "npc.mugger",
-        "npc.mugger_1461",
-        "npc.mugger_6996"
+        "npc.jail_mugger",
+        "npc.zeah_mugger"
       ],
       "combatLevel" : 6,
       "hitpoints" : 8,
@@ -37,7 +37,7 @@
         13282
       ],
       "names" : [
-        "npc.mugger_13282"
+        "npc.varlamore_mugger"
       ],
       "combatLevel" : 6,
       "hitpoints" : 8,

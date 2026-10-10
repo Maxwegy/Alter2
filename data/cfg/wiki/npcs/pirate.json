@@ -8,7 +8,7 @@
         523
       ],
       "names" : [
-        "npc.pirate_523"
+        "npc.pirate_aggressive"
       ],
       "combatLevel" : 26,
       "hitpoints" : 23,
@@ -36,8 +36,8 @@
         6994
       ],
       "names" : [
-        "npc.pirate_522",
-        "npc.pirate_6994"
+        "npc.pirate2",
+        "npc.zeah_pirate2"
       ],
       "combatLevel" : 23,
       "hitpoints" : 20,
@@ -73,16 +73,16 @@
         4052
       ],
       "names" : [
-        "npc.pirate_4043",
-        "npc.pirate_4044",
-        "npc.pirate_4045",
-        "npc.pirate_4046",
-        "npc.pirate_4047",
-        "npc.pirate_4048",
-        "npc.pirate_4049",
-        "npc.pirate_4050",
-        "npc.pirate_4051",
-        "npc.pirate_4052"
+        "npc.fever_pirate_enemy_01",
+        "npc.fever_pirate_enemy_02",
+        "npc.fever_pirate_enemy_03",
+        "npc.fever_pirate_enemy_04",
+        "npc.fever_pirate_enemy_05",
+        "npc.fever_pirate_enemy_06",
+        "npc.fever_pirate_enemy_07",
+        "npc.fever_pirate_enemy_08",
+        "npc.fever_pirate_enemy_09",
+        "npc.fever_pirate_enemy_10"
       ],
       "combatLevel" : 57,
       "hitpoints" : 52,
@@ -110,8 +110,8 @@
         6993
       ],
       "names" : [
-        "npc.pirate",
-        "npc.pirate_6993"
+        "npc.pirate1",
+        "npc.zeah_pirate1"
       ],
       "combatLevel" : 23,
       "hitpoints" : 20,
@@ -139,8 +139,8 @@
         6995
       ],
       "names" : [
-        "npc.pirate_524",
-        "npc.pirate_6995"
+        "npc.lady_pirate",
+        "npc.zeah_pirate3"
       ],
       "combatLevel" : 23,
       "hitpoints" : 20,
@@ -167,7 +167,7 @@
         1447
       ],
       "names" : [
-        "npc.pirate_1447"
+        "npc.jail_pirate"
       ],
       "combatLevel" : 23,
       "hitpoints" : 20,

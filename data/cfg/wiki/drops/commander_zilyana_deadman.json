@@ -7,18 +7,18 @@
         12445
       ],
       "always" : [
-        { "item" : 12751, "name" : "item.archaic_emblem_tier_5", "min" : 1, "max" : 1 }
+        { "item" : 12751, "name" : "item.bh_emblem_5", "min" : 1, "max" : 1 }
       ],
       "main" : [
         { "item" : 22610, "name" : "item.vestas_spear", "min" : 1, "max" : 1, "chance" : [ 1, 3192 ], "wiki" : "3/9,576", "approx" : true },
         { "item" : 22613, "name" : "item.vestas_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 3192 ], "wiki" : "3/9,576", "approx" : true },
         { "item" : 22616, "name" : "item.vestas_chainbody", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
         { "item" : 22619, "name" : "item.vestas_plateskirt", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
-        { "item" : 22622, "name" : "item.statiuss_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 3192 ], "wiki" : "3/9,576", "approx" : true },
-        { "item" : 22625, "name" : "item.statiuss_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
-        { "item" : 22628, "name" : "item.statiuss_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
-        { "item" : 22631, "name" : "item.statiuss_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
-        { "item" : 22634, "name" : "item.morrigans_throwing_axe", "min" : 100, "max" : 100, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
+        { "item" : 22622, "name" : "item.statius_warhammer", "min" : 1, "max" : 1, "chance" : [ 1, 3192 ], "wiki" : "3/9,576", "approx" : true },
+        { "item" : 22625, "name" : "item.statius_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
+        { "item" : 22628, "name" : "item.statius_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
+        { "item" : 22631, "name" : "item.statius_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
+        { "item" : 22634, "name" : "item.morrigans_thrownaxe", "min" : 100, "max" : 100, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
         { "item" : 22636, "name" : "item.morrigans_javelin", "min" : 100, "max" : 100, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
         { "item" : 22638, "name" : "item.morrigans_coif", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
         { "item" : 22641, "name" : "item.morrigans_leather_body", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
@@ -27,10 +27,12 @@
         { "item" : 22650, "name" : "item.zuriels_hood", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
         { "item" : 22653, "name" : "item.zuriels_robe_top", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
         { "item" : 22656, "name" : "item.zuriels_robe_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 145728 ], "wiki" : "1/145,728", "approx" : true },
-        { "item" : 28564, "name" : "item.trinket_of_fairies", "min" : 1, "max" : 1, "chance" : [ 5, 2394 ], "wiki" : "20/9,576", "approx" : true },
-        { "item" : 28567, "name" : "item.trinket_of_advanced_weaponry", "min" : 1, "max" : 1, "chance" : [ 5, 798 ], "wiki" : "60/9,576", "approx" : true },
-        { "item" : 28570, "name" : "item.trinket_of_undead", "min" : 1, "max" : 1, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
-        { "item" : 29644, "name" : "item.chitin_noted", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 2 ], "wiki" : "1/2" }
+        { "item" : 28564, "name" : "item.magic_rock_of_fairies", "min" : 1, "max" : 1, "chance" : [ 5, 2394 ], "wiki" : "20/9,576", "approx" : true },
+        { "item" : 28567, "name" : "item.magic_rock_of_weapons", "min" : 1, "max" : 1, "chance" : [ 5, 798 ], "wiki" : "60/9,576", "approx" : true },
+        { "item" : 28570, "name" : "item.magic_rock_of_undead", "min" : 1, "max" : 1, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
+        { "item" : 29644, "name" : "item.cert_deadman_overload_chitin", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 33044, "name" : "item.magic_rock_of_avarice", "min" : 1, "max" : 1, "chance" : [ 5, 4788 ], "wiki" : "10/9,576", "approx" : true },
+        { "item" : 33047, "name" : "item.magic_rock_of_fortuity_inactive", "min" : 1, "max" : 1, "chance" : [ 1, 9576 ], "wiki" : "1/9,576", "approx" : true }
       ]
     }
   ]

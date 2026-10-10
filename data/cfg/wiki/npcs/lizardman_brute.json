@@ -9,8 +9,8 @@
         10947
       ],
       "names" : [
-        "npc.lizardman_brute_8564",
-        "npc.lizardman_brute_10947"
+        "npc.molch_lizardbrute_1",
+        "npc.akd_egg_lizardman"
       ],
       "combatLevel" : 75,
       "hitpoints" : 60,
@@ -39,8 +39,8 @@
         6919
       ],
       "names" : [
-        "npc.lizardman_brute",
-        "npc.lizardman_brute_6919"
+        "npc.zeah_lizardman_3_vn",
+        "npc.zeah_lizardman_3_vp"
       ],
       "combatLevel" : 75,
       "hitpoints" : 60,

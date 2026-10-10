@@ -27,6 +27,6 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `ItemMetadataService`: one `try` around a parallel file walk, so the first bad file stops the rest. It should load sorted, sequentially, with per-file errors.
 - `DumpEntityIdService` writes `npcs.rscm` and ignores `output-path`.
 - `PackConfig` writes ITEMS into archive 6.
-- `WeaponCategory` ids disagree with `WeaponType`.
+- `WeaponCategory` ids disagree with `WeaponType`. The 241 cache adds category 2294 (first on item 32712); unknown categories now fall back to unarmed with one warning instead of aborting the item load, but the table itself is still incomplete.
 - `ItemMarketValueService` has an O(n²) boot copy and is never registered.
-- Phase 1.5 (241 cache): the reference-table `0x4` lengths flag and the 229–241 decoder opcodes are fixed; the 241 cache decodes clean (see `docs/phase-1.5-cache-241.md`). Still open for the Phase 1.5 bump PR: commit the 241 RSCM tables from `rscmGenerate` (gameval canonical names + aliases; audit in `docs/rscm-241-migration.md`), edit the 8 content references renamed in `data/cfg/rscm-migrations/overrides.json`, drop XTEA, bump the revision, boot and log in.
+- Phase 1.5 is done: revision 241, rsprot 1.0.0-ALPHA-20261001, gameval RSCM tables with 228 aliases, no XTEA (see `docs/phase-1.5-cache-241.md`). Left over: a login smoke test with a 241 client was not possible without one (boot and `/health` were verified); the 876 unresolved and 192 clashing 228 names were dropped unreviewed (listed in `docs/rscm-241-migration.md`); `RSCM`'s reverse lookup is still O(n) per call; the meaning of flag-only opcodes NPC 129, loc 94 and item 9 is unknown.

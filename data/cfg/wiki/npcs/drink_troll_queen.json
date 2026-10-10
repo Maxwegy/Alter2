@@ -1,0 +1,30 @@
+{
+  "page" : "Drink troll queen",
+  "versions" : [
+    {
+      "source" : "Drink troll queen",
+      "ids" : [
+        15175
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_crate_monkfish_stout_effect"
+      ],
+      "combatLevel" : 217,
+      "hitpoints" : 315,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 155, "ranged" : 1, "magic" : 205 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -63, "rangedDefence" : 50, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

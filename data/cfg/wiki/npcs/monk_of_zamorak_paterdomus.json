@@ -5,10 +5,12 @@
       "source" : "Monk of Zamorak (Paterdomus)#Level 17",
       "version" : "Level 17",
       "ids" : [
-        3485
+        3485,
+        16272
       ],
       "names" : [
-        "npc.monk_of_zamorak_3485"
+        "npc.priestperilevilmonk2",
+        "npc.priestperilevilmonk2_vis"
       ],
       "combatLevel" : 17,
       "hitpoints" : 10,
@@ -32,10 +34,12 @@
       "source" : "Monk of Zamorak (Paterdomus)#Level 22",
       "version" : "Level 22",
       "ids" : [
-        3484
+        3484,
+        16271
       ],
       "names" : [
-        "npc.monk_of_zamorak_3484"
+        "npc.priestperilevilmonk1",
+        "npc.priestperilevilmonk1_vis"
       ],
       "combatLevel" : 22,
       "hitpoints" : 20,
@@ -60,10 +64,12 @@
       "source" : "Monk of Zamorak (Paterdomus)#Level 30",
       "version" : "Level 30",
       "ids" : [
-        3486
+        3486,
+        16273
       ],
       "names" : [
-        "npc.monk_of_zamorak_3486"
+        "npc.priestperilevilmonk3",
+        "npc.priestperilevilmonk3_vis"
       ],
       "combatLevel" : 30,
       "hitpoints" : 25,

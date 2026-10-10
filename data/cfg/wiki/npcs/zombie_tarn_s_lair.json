@@ -8,7 +8,7 @@
         6465
       ],
       "names" : [
-        "npc.zombie_6465"
+        "npc.lotr_zombie2_lvl_18"
       ],
       "combatLevel" : 100,
       "hitpoints" : 102,
@@ -39,7 +39,7 @@
         6449
       ],
       "names" : [
-        "npc.zombie_6449"
+        "npc.lotr_zombie1_lvl_53"
       ],
       "combatLevel" : 40,
       "hitpoints" : 38,
@@ -70,7 +70,7 @@
         6450
       ],
       "names" : [
-        "npc.zombie_6450"
+        "npc.lotr_zombie2_lvl_53"
       ],
       "combatLevel" : 42,
       "hitpoints" : 40,
@@ -100,7 +100,7 @@
         6451
       ],
       "names" : [
-        "npc.zombie_6451"
+        "npc.lotr_zombie3_lvl_53"
       ],
       "combatLevel" : 47,
       "hitpoints" : 42,
@@ -131,7 +131,7 @@
         6452
       ],
       "names" : [
-        "npc.zombie_6452"
+        "npc.lotr_zombie1_lvl_44"
       ],
       "combatLevel" : 50,
       "hitpoints" : 48,
@@ -162,7 +162,7 @@
         6453
       ],
       "names" : [
-        "npc.zombie_6453"
+        "npc.lotr_zombie2_lvl_44"
       ],
       "combatLevel" : 56,
       "hitpoints" : 50,
@@ -193,7 +193,7 @@
         6454
       ],
       "names" : [
-        "npc.zombie_6454"
+        "npc.lotr_zombie3_lvl_44"
       ],
       "combatLevel" : 61,
       "hitpoints" : 57,
@@ -224,7 +224,7 @@
         6455
       ],
       "names" : [
-        "npc.zombie_6455"
+        "npc.lotr_zombie1_lvl_30"
       ],
       "combatLevel" : 67,
       "hitpoints" : 63,
@@ -255,7 +255,7 @@
         6456
       ],
       "names" : [
-        "npc.zombie_6456"
+        "npc.lotr_zombie2_lvl_30"
       ],
       "combatLevel" : 70,
       "hitpoints" : 65,
@@ -286,7 +286,7 @@
         6457
       ],
       "names" : [
-        "npc.zombie_6457"
+        "npc.lotr_zombie3_lvl_30"
       ],
       "combatLevel" : 72,
       "hitpoints" : 68,
@@ -317,7 +317,7 @@
         6458
       ],
       "names" : [
-        "npc.zombie_6458"
+        "npc.lotr_zombie1_lvl_25"
       ],
       "combatLevel" : 76,
       "hitpoints" : 71,
@@ -348,7 +348,7 @@
         6459
       ],
       "names" : [
-        "npc.zombie_6459"
+        "npc.lotr_zombie2_lvl_25"
       ],
       "combatLevel" : 80,
       "hitpoints" : 73,
@@ -379,7 +379,7 @@
         6466
       ],
       "names" : [
-        "npc.zombie_6466"
+        "npc.lotr_zombie3_lvl_18"
       ],
       "combatLevel" : 81,
       "hitpoints" : 76,
@@ -410,7 +410,7 @@
         6460
       ],
       "names" : [
-        "npc.zombie_6460"
+        "npc.lotr_zombie3_lvl_25"
       ],
       "combatLevel" : 85,
       "hitpoints" : 75,
@@ -441,7 +441,7 @@
         6461
       ],
       "names" : [
-        "npc.zombie_6461"
+        "npc.lotr_zombie1_lvl_24"
       ],
       "combatLevel" : 86,
       "hitpoints" : 76,
@@ -472,7 +472,7 @@
         6462
       ],
       "names" : [
-        "npc.zombie_6462"
+        "npc.lotr_zombie2_lvl_24"
       ],
       "combatLevel" : 90,
       "hitpoints" : 81,
@@ -503,7 +503,7 @@
         6463
       ],
       "names" : [
-        "npc.zombie_6463"
+        "npc.lotr_zombie3_lvl_24"
       ],
       "combatLevel" : 95,
       "hitpoints" : 92,
@@ -533,7 +533,7 @@
         6464
       ],
       "names" : [
-        "npc.zombie_6464"
+        "npc.lotr_zombie1_lvl_18"
       ],
       "combatLevel" : 98,
       "hitpoints" : 96,

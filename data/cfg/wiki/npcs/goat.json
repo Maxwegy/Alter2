@@ -9,8 +9,8 @@
         1793
       ],
       "names" : [
-        "npc.goat",
-        "npc.goat_1793"
+        "npc.desert_goat_black1",
+        "npc.desert_goat_black2"
       ],
       "combatLevel" : 23,
       "hitpoints" : 21,
@@ -37,8 +37,8 @@
         1796
       ],
       "names" : [
-        "npc.goat_1795",
-        "npc.goat_1796"
+        "npc.desert_goat_white1",
+        "npc.desert_goat_white2"
       ],
       "combatLevel" : 23,
       "hitpoints" : 21,

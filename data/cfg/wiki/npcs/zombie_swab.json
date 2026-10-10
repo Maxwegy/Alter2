@@ -8,7 +8,7 @@
         619
       ],
       "names" : [
-        "npc.zombie_swab"
+        "npc.deal_pirate_a"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,
@@ -39,7 +39,7 @@
         620
       ],
       "names" : [
-        "npc.zombie_swab_620"
+        "npc.deal_pirate_b"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,
@@ -70,7 +70,7 @@
         621
       ],
       "names" : [
-        "npc.zombie_swab_621"
+        "npc.deal_pirate_c"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,
@@ -101,7 +101,7 @@
         622
       ],
       "names" : [
-        "npc.zombie_swab_622"
+        "npc.deal_pirate_d"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,
@@ -132,7 +132,7 @@
         623
       ],
       "names" : [
-        "npc.zombie_swab_623"
+        "npc.deal_pirate_e"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,
@@ -163,7 +163,7 @@
         624
       ],
       "names" : [
-        "npc.zombie_swab_624"
+        "npc.deal_pirate_f"
       ],
       "combatLevel" : 55,
       "hitpoints" : 50,

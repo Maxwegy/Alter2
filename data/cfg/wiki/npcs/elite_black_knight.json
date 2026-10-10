@@ -9,8 +9,8 @@
         13481
       ],
       "names" : [
-        "npc.elite_black_knight_13464",
-        "npc.elite_black_knight_13481"
+        "npc.elite_black_knight_2",
+        "npc.elite_black_knight_2_cutscene"
       ],
       "combatLevel" : 138,
       "hitpoints" : 90,
@@ -36,8 +36,8 @@
         13480
       ],
       "names" : [
-        "npc.elite_black_knight",
-        "npc.elite_black_knight_13480"
+        "npc.elite_black_knight_1",
+        "npc.elite_black_knight_1_cutscene"
       ],
       "combatLevel" : 138,
       "hitpoints" : 90,

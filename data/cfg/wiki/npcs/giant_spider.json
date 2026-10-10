@@ -8,7 +8,7 @@
         3017
       ],
       "names" : [
-        "npc.giant_spider_3017"
+        "npc.giantspider1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,
@@ -36,7 +36,7 @@
         3018
       ],
       "names" : [
-        "npc.giant_spider_3018"
+        "npc.giantspider2"
       ],
       "combatLevel" : 27,
       "hitpoints" : 32,
@@ -64,7 +64,7 @@
         2477
       ],
       "names" : [
-        "npc.giant_spider"
+        "npc.sos_pest_giantspider1"
       ],
       "combatLevel" : 50,
       "hitpoints" : 50,

@@ -1,0 +1,29 @@
+{
+  "page" : "Captain Ruban Acer",
+  "versions" : [
+    {
+      "source" : "Captain Ruban Acer",
+      "ids" : [
+        15683
+      ],
+      "names" : [
+        "npc.sailing_npc_boat_combat_crew_captain_1"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 55, "defence" : 75, "ranged" : 80, "magic" : 65 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 13, "rangedAttack" : 120, "stabDefence" : 35, "slashDefence" : 11, "crushDefence" : 40, "magicDefence" : 70, "rangedDefence" : 33, "lightRangedDefence" : 21, "heavyRangedDefence" : 40, "attackBonus" : 50, "strengthBonus" : 43, "rangedStrength" : 75, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

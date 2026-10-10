@@ -6,29 +6,30 @@
       "npcIds" : [
         1098
       ],
+      "needsReview" : true,
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
-      "main" : [
-        { "item" : 46, "name" : "item.pearl_bolt_tips", "min" : 3, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+      "tertiary" : [
+        { "item" : 46, "name" : "item.pearl_bolttips", "min" : 3, "max" : 3, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 50, "max" : 50, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 363, "name" : "item.raw_bass", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 377, "name" : "item.raw_lobster", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 401, "name" : "item.seaweed", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 403, "name" : "item.edible_seaweed", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 411, "name" : "item.oyster_pearl", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 413, "name" : "item.oyster_pearls", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 555, "name" : "item.water_rune", "min" : 15, "max" : 15, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 411, "name" : "item.smalloysterpearls", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 413, "name" : "item.bigoysterpearls", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 15, "max" : 15, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 571, "name" : "item.water_orb", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 823, "name" : "item.adamant_dart_tip", "min" : 2, "max" : 2, "chance" : [ 5, 64 ], "wiki" : "10/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 23, "max" : 23, "chance" : [ 7, 128 ], "wiki" : "7/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 24, "max" : 24, "chance" : [ 9, 128 ], "wiki" : "9/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 32, "max" : 32, "chance" : [ 11, 128 ], "wiki" : "11/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 44, "max" : 44, "chance" : [ 15, 32 ], "wiki" : "60/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins", "min" : 23, "max" : 23, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 24, "max" : 24, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 32, "max" : 32, "chance" : [ 11, 128 ], "wiki" : "11/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 44, "max" : 44, "chance" : [ 15, 32 ], "wiki" : "60/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
         { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
@@ -36,12 +37,11 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
-        { "item" : 4160, "name" : "item.broad_arrows_4160", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 4695, "name" : "item.mist_rune", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" }
-      ],
-      "tertiary" : [
-        { "item" : 2801, "name" : "item.clue_scroll_medium", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 2801, "name" : "item.trail_clue_medium_sextant001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 4160, "name" : "item.slayer_broad_arrows", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 4695, "name" : "item.mistrune", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 34410, "name" : "item.water_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" }
       ]
     }
   ]

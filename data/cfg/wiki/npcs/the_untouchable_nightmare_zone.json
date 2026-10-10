@@ -8,7 +8,7 @@
         6121
       ],
       "names" : [
-        "npc.the_untouchable_hard"
+        "npc.nzone_dream_untouchable_hard"
       ],
       "combatLevel" : 440,
       "hitpoints" : 180,
@@ -33,7 +33,7 @@
         6352
       ],
       "names" : [
-        "npc.the_untouchable_6352"
+        "npc.nzone_dream_untouchable_normal"
       ],
       "combatLevel" : 274,
       "hitpoints" : 90,

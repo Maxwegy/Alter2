@@ -10,9 +10,9 @@
         7606
       ],
       "names" : [
-        "npc.skeletal_mystic",
-        "npc.skeletal_mystic_7605",
-        "npc.skeletal_mystic_7606"
+        "npc.raids_skeletonmystic_a",
+        "npc.raids_skeletonmystic_b",
+        "npc.raids_skeletonmystic_c"
       ],
       "hitpoints" : 240,
       "attackSpeed" : 4,
@@ -44,9 +44,9 @@
         7606
       ],
       "names" : [
-        "npc.skeletal_mystic",
-        "npc.skeletal_mystic_7605",
-        "npc.skeletal_mystic_7606"
+        "npc.raids_skeletonmystic_a",
+        "npc.raids_skeletonmystic_b",
+        "npc.raids_skeletonmystic_c"
       ],
       "hitpoints" : 160,
       "attackSpeed" : 4,

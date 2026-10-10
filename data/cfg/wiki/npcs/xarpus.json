@@ -7,7 +7,7 @@
         10768
       ],
       "names" : [
-        "npc.xarpus_10768"
+        "npc.tob_xarpus_combat_story"
       ],
       "combatLevel" : 331,
       "hitpoints" : 3400,
@@ -33,7 +33,7 @@
         10772
       ],
       "names" : [
-        "npc.xarpus_10772"
+        "npc.tob_xarpus_combat_hard"
       ],
       "combatLevel" : 1160,
       "hitpoints" : 6000,
@@ -59,7 +59,7 @@
         8340
       ],
       "names" : [
-        "npc.xarpus_8340"
+        "npc.tob_xarpus_combat"
       ],
       "combatLevel" : 960,
       "hitpoints" : 5000,

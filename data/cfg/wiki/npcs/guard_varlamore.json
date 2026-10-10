@@ -8,7 +8,7 @@
         13100
       ],
       "names" : [
-        "npc.guard_13100"
+        "npc.varlamore_guard_m_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -33,7 +33,7 @@
         13109
       ],
       "names" : [
-        "npc.guard_13109"
+        "npc.varlamore_guard_f_5"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -58,7 +58,7 @@
         13101
       ],
       "names" : [
-        "npc.guard_13101"
+        "npc.varlamore_guard_m_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -83,7 +83,7 @@
         13102
       ],
       "names" : [
-        "npc.guard_13102"
+        "npc.varlamore_guard_m_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -108,7 +108,7 @@
         13103
       ],
       "names" : [
-        "npc.guard_13103"
+        "npc.varlamore_guard_m_4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -133,7 +133,7 @@
         13104
       ],
       "names" : [
-        "npc.guard_13104"
+        "npc.varlamore_guard_m_5"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -158,7 +158,7 @@
         13105
       ],
       "names" : [
-        "npc.guard_13105"
+        "npc.varlamore_guard_f_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -183,7 +183,7 @@
         13106
       ],
       "names" : [
-        "npc.guard_13106"
+        "npc.varlamore_guard_f_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -208,7 +208,7 @@
         13107
       ],
       "names" : [
-        "npc.guard_13107"
+        "npc.varlamore_guard_f_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -233,7 +233,7 @@
         13108
       ],
       "names" : [
-        "npc.guard_13108"
+        "npc.varlamore_guard_f_4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

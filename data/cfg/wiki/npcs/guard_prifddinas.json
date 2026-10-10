@@ -8,7 +8,7 @@
         9182
       ],
       "names" : [
-        "npc.guard_9182"
+        "npc.prif_guard0"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -35,7 +35,7 @@
         9183
       ],
       "names" : [
-        "npc.guard_9183"
+        "npc.prif_guard1"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -62,7 +62,7 @@
         9184
       ],
       "names" : [
-        "npc.guard_9184"
+        "npc.prif_guard2"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -89,7 +89,7 @@
         9185
       ],
       "names" : [
-        "npc.guard_9185"
+        "npc.prif_guard3"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -117,8 +117,8 @@
         9189
       ],
       "names" : [
-        "npc.guard_9186",
-        "npc.guard_9189"
+        "npc.prif_guard4",
+        "npc.prif_guard7"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -145,7 +145,7 @@
         9187
       ],
       "names" : [
-        "npc.guard_9187"
+        "npc.prif_guard5"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -172,7 +172,7 @@
         9188
       ],
       "names" : [
-        "npc.guard_9188"
+        "npc.prif_guard6"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,

@@ -10,10 +10,10 @@
         8920
       ],
       "names" : [
-        "npc.fragment_of_seren",
-        "npc.fragment_of_seren_8918",
-        "npc.fragment_of_seren_8919",
-        "npc.fragment_of_seren_8920"
+        "npc.dark_seren",
+        "npc.dark_seren_phantom",
+        "npc.dark_seren_cutscene",
+        "npc.dark_seren_cutscene_trapped"
       ],
       "combatLevel" : 494,
       "hitpoints" : 1000,

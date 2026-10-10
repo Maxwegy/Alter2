@@ -10,10 +10,10 @@
         7885
       ],
       "names" : [
-        "npc.dawn_7852",
-        "npc.dawn_7853",
-        "npc.dawn_7884",
-        "npc.dawn_7885"
+        "npc.gargboss_dawn_phase1",
+        "npc.gargboss_dawn_phase1_transition",
+        "npc.gargboss_dawn_phase3",
+        "npc.gargboss_dawn_death"
       ],
       "combatLevel" : 228,
       "hitpoints" : 450,

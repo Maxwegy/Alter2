@@ -8,7 +8,7 @@
         13663
       ],
       "names" : [
-        "npc.magic_mark"
+        "npc.deadman_breach_magic_mark"
       ],
       "combatLevel" : 967,
       "hitpoints" : 3500,
@@ -33,7 +33,7 @@
         13663
       ],
       "names" : [
-        "npc.magic_mark"
+        "npc.deadman_breach_magic_mark"
       ],
       "combatLevel" : 467,
       "hitpoints" : 1500,
@@ -58,7 +58,7 @@
         13663
       ],
       "names" : [
-        "npc.magic_mark"
+        "npc.deadman_breach_magic_mark"
       ],
       "combatLevel" : 467,
       "hitpoints" : 1500,

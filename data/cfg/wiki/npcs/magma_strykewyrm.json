@@ -1,0 +1,35 @@
+{
+  "page" : "Magma strykewyrm",
+  "versions" : [
+    {
+      "source" : "Magma strykewyrm",
+      "ids" : [
+        15504
+      ],
+      "names" : [
+        "npc.superior_lava_strykewyrm"
+      ],
+      "combatLevel" : 249,
+      "hitpoints" : 340,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 210, "strength" : 210, "defence" : 110, "ranged" : 250, "magic" : 110 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 30, "crushDefence" : 70, "magicDefence" : 40, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 40, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 3655.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

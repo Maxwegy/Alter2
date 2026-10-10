@@ -8,7 +8,7 @@
         11063
       ],
       "names" : [
-        "npc.bandit_11063"
+        "npc.shayzien_bandit_1"
       ],
       "combatLevel" : 22,
       "hitpoints" : 27,
@@ -34,7 +34,7 @@
         11064
       ],
       "names" : [
-        "npc.bandit_11064"
+        "npc.shayzien_bandit_2"
       ],
       "combatLevel" : 22,
       "hitpoints" : 27,
@@ -60,7 +60,7 @@
         11065
       ],
       "names" : [
-        "npc.bandit_11065"
+        "npc.shayzien_bandit_3"
       ],
       "combatLevel" : 22,
       "hitpoints" : 27,

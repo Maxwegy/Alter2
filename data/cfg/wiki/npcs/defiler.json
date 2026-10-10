@@ -9,8 +9,8 @@
         1725
       ],
       "names" : [
-        "npc.defiler",
-        "npc.defiler_1725"
+        "npc.pest_defiler_1a",
+        "npc.pest_defiler_1b"
       ],
       "combatLevel" : 33,
       "hitpoints" : 27,
@@ -36,8 +36,8 @@
         1727
       ],
       "names" : [
-        "npc.defiler_1726",
-        "npc.defiler_1727"
+        "npc.pest_defiler_2a",
+        "npc.pest_defiler_2b"
       ],
       "combatLevel" : 50,
       "hitpoints" : 45,
@@ -62,7 +62,7 @@
         1728
       ],
       "names" : [
-        "npc.defiler_1728"
+        "npc.pest_defiler_3a"
       ],
       "combatLevel" : 66,
       "hitpoints" : 62,
@@ -87,7 +87,7 @@
         1729
       ],
       "names" : [
-        "npc.defiler_1729"
+        "npc.pest_defiler_3b"
       ],
       "combatLevel" : 67,
       "hitpoints" : 62,
@@ -113,8 +113,8 @@
         1731
       ],
       "names" : [
-        "npc.defiler_1730",
-        "npc.defiler_1731"
+        "npc.pest_defiler_4a",
+        "npc.pest_defiler_4b"
       ],
       "combatLevel" : 80,
       "hitpoints" : 78,
@@ -140,8 +140,8 @@
         1733
       ],
       "names" : [
-        "npc.defiler_1732",
-        "npc.defiler_1733"
+        "npc.pest_defiler_5a",
+        "npc.pest_defiler_5b"
       ],
       "combatLevel" : 97,
       "hitpoints" : 97,

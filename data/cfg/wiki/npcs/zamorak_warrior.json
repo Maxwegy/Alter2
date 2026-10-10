@@ -8,7 +8,7 @@
         7418
       ],
       "names" : [
-        "npc.zamorak_warrior"
+        "npc.rc_zmi_melee"
       ],
       "combatLevel" : 84,
       "hitpoints" : 45,
@@ -34,7 +34,7 @@
         7419
       ],
       "names" : [
-        "npc.zamorak_warrior_7419"
+        "npc.rc_zmi_melee2"
       ],
       "combatLevel" : 85,
       "hitpoints" : 45,

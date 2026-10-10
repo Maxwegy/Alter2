@@ -8,7 +8,7 @@
         8062
       ],
       "names" : [
-        "npc.zombified_spawn"
+        "npc.vorkath_spawn_quest"
       ],
       "combatLevel" : 55,
       "hitpoints" : 8,
@@ -37,7 +37,7 @@
         8063
       ],
       "names" : [
-        "npc.zombified_spawn_8063"
+        "npc.vorkath_spawn"
       ],
       "combatLevel" : 64,
       "hitpoints" : 38,

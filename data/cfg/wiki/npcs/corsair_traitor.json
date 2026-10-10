@@ -8,7 +8,7 @@
         7948
       ],
       "names" : [
-        "npc.corsair_traitor_hard"
+        "npc.nzone_corsaircurse_navigator_hard"
       ],
       "combatLevel" : 103,
       "hitpoints" : 160,
@@ -33,7 +33,7 @@
         7949
       ],
       "names" : [
-        "npc.corsair_traitor"
+        "npc.nzone_corsaircurse_navigator_normal"
       ],
       "combatLevel" : 35,
       "hitpoints" : 55,

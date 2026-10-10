@@ -1,0 +1,36 @@
+{
+  "page" : "Lava Strykewyrm",
+  "versions" : [
+    {
+      "source" : "Lava Strykewyrm",
+      "ids" : [
+        15500
+      ],
+      "names" : [
+        "npc.slayer_lava_strykewyrm"
+      ],
+      "combatLevel" : 116,
+      "hitpoints" : 150,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 50, "ranged" : 110, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 40, "stabDefence" : 30, "slashDefence" : 60, "crushDefence" : 70, "magicDefence" : 40, "rangedDefence" : 120, "lightRangedDefence" : 120, "heavyRangedDefence" : 120, "attackBonus" : 30, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10 (Melee)",
+        "12 (Ranged)"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "burn" : "Immune (normal)" },
+      "attributes" : [
+        "dragon"
+      ],
+      "slayer" : { "level" : 62, "xp" : 154.0, "categories" : [ "Wyrms" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

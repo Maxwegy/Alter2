@@ -7,7 +7,7 @@
         5259
       ],
       "always" : [
-        { "item" : 3180, "name" : "item.medium_ninja_monkey_bones", "min" : 1, "max" : 1 }
+        { "item" : 3180, "name" : "item.mm_medium_ninja_monkey_bones", "min" : 1, "max" : 1 }
       ]
     }
   ]

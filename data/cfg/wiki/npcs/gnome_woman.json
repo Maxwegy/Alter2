@@ -8,7 +8,7 @@
         6086
       ],
       "names" : [
-        "npc.gnome_woman"
+        "npc.gnomefemale"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,
@@ -34,7 +34,7 @@
         6087
       ],
       "names" : [
-        "npc.gnome_woman_6087"
+        "npc.gnomefemale_dskinned"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,

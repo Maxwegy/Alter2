@@ -1,0 +1,29 @@
+{
+  "page" : "Tiger shark",
+  "versions" : [
+    {
+      "source" : "Tiger shark",
+      "ids" : [
+        15198
+      ],
+      "names" : [
+        "npc.sailing_tiger_shark"
+      ],
+      "combatLevel" : 125,
+      "hitpoints" : 174,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 120, "strength" : 85, "defence" : 60, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 100, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

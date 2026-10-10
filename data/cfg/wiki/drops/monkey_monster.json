@@ -8,12 +8,12 @@
         2848
       ],
       "always" : [
-        { "item" : 3166, "name" : "item.monkey_corpse", "min" : 1, "max" : 1 },
-        { "item" : 3183, "name" : "item.monkey_bones", "min" : 1, "max" : 1 },
-        { "item" : 7854, "name" : "item.monkey_paw", "min" : 1, "max" : 1 }
+        { "item" : 3166, "name" : "item.tbwt_monkey_corpse", "min" : 1, "max" : 1 },
+        { "item" : 3183, "name" : "item.mm_normal_monkey_bones", "min" : 1, "max" : 1 },
+        { "item" : 7854, "name" : "item.rag_monkey_bone", "min" : 1, "max" : 1 }
       ],
       "tertiary" : [
-        { "item" : 13451, "name" : "item.ensouled_monkey_head_13451", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
+        { "item" : 13451, "name" : "item.arceuus_corpse_monkey", "min" : 1, "max" : 1, "chance" : [ 1, 35 ], "wiki" : "1/35" }
       ]
     }
   ]

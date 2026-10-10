@@ -8,7 +8,7 @@
         7268
       ],
       "names" : [
-        "npc.possessed_pickaxe_7268"
+        "npc.kourend_pickaxe"
       ],
       "combatLevel" : 50,
       "hitpoints" : 40,
@@ -36,7 +36,7 @@
       ],
       "names" : [
         "npc.possessed_pickaxe",
-        "npc.possessed_pickaxe_6469"
+        "npc.lotr_possessed_pickaxe"
       ],
       "combatLevel" : 50,
       "hitpoints" : 40,

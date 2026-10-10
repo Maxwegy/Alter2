@@ -8,7 +8,7 @@
         1227
       ],
       "names" : [
-        "npc.arzinian_avatar_of_strength"
+        "npc.dwarf_rock_avatar_warrior"
       ],
       "hitpoints" : 200,
       "attackSpeed" : 4,
@@ -31,7 +31,7 @@
         1228
       ],
       "names" : [
-        "npc.arzinian_avatar_of_strength_1228"
+        "npc.dwarf_rock_avatar_warrior_green"
       ],
       "combatLevel" : 125,
       "hitpoints" : 100,
@@ -56,7 +56,7 @@
         1229
       ],
       "names" : [
-        "npc.arzinian_avatar_of_strength_1229"
+        "npc.dwarf_rock_avatar_warrior_yellow"
       ],
       "combatLevel" : 75,
       "hitpoints" : 70,

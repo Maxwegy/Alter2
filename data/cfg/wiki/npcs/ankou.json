@@ -9,8 +9,8 @@
         2517
       ],
       "names" : [
-        "npc.ankou",
-        "npc.ankou_2517"
+        "npc.sos_death_ankou",
+        "npc.sos_death_ankou_strongholdcave"
       ],
       "combatLevel" : 75,
       "hitpoints" : 60,
@@ -43,8 +43,8 @@
         2518
       ],
       "names" : [
-        "npc.ankou_2515",
-        "npc.ankou_2518"
+        "npc.sos_death_ankou2",
+        "npc.sos_death_ankou_strongholdcave_2"
       ],
       "combatLevel" : 82,
       "hitpoints" : 65,
@@ -77,9 +77,9 @@
         6608
       ],
       "names" : [
-        "npc.ankou_2516",
-        "npc.ankou_2519",
-        "npc.ankou_6608"
+        "npc.sos_death_ankou3",
+        "npc.sos_death_ankou_strongholdcave_3",
+        "npc.wilderness_ankou"
       ],
       "combatLevel" : 86,
       "hitpoints" : 70,
@@ -110,7 +110,7 @@
         7257
       ],
       "names" : [
-        "npc.ankou_7257"
+        "npc.kourend_ankou"
       ],
       "combatLevel" : 95,
       "hitpoints" : 60,
@@ -142,7 +142,7 @@
         7864
       ],
       "names" : [
-        "npc.ankou_7864"
+        "npc.wild_cave_ankou"
       ],
       "combatLevel" : 98,
       "hitpoints" : 100,

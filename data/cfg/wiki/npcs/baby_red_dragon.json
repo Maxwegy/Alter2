@@ -8,7 +8,7 @@
         244
       ],
       "names" : [
-        "npc.baby_red_dragon_244"
+        "npc.babyreddragon"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -39,7 +39,7 @@
         245
       ],
       "names" : [
-        "npc.baby_red_dragon_245"
+        "npc.babyreddragon2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -70,7 +70,7 @@
         246
       ],
       "names" : [
-        "npc.baby_red_dragon_246"
+        "npc.babyreddragon3"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,

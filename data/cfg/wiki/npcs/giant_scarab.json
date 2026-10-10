@@ -8,8 +8,8 @@
         798
       ],
       "names" : [
-        "npc.giant_scarab",
-        "npc.giant_scarab_798"
+        "npc.contact_scarab_boss",
+        "npc.contact_dummy_boss"
       ],
       "combatLevel" : 191,
       "hitpoints" : 130,

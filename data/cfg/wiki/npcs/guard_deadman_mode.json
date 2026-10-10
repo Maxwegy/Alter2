@@ -8,7 +8,7 @@
         6576
       ],
       "names" : [
-        "npc.guard_6576"
+        "npc.deadman_guard_catherby_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -33,7 +33,7 @@
         6579
       ],
       "names" : [
-        "npc.guard_6579"
+        "npc.deadman_guard_ardougne_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -58,7 +58,7 @@
         11200
       ],
       "names" : [
-        "npc.guard_11200"
+        "npc.deadman_guard_ardougne_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -83,7 +83,7 @@
         6581
       ],
       "names" : [
-        "npc.guard_6581"
+        "npc.deadman_guard_falador_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -108,7 +108,7 @@
         11202
       ],
       "names" : [
-        "npc.guard_11202"
+        "npc.deadman_guard_falador_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -133,7 +133,7 @@
         6700
       ],
       "names" : [
-        "npc.guard_6700"
+        "npc.deadman_guard_ja_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -158,7 +158,7 @@
         11207
       ],
       "names" : [
-        "npc.guard_11207"
+        "npc.deadman_guard_ja_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -183,7 +183,7 @@
         6574
       ],
       "names" : [
-        "npc.gnome_guard_6574"
+        "npc.deadman_guard_gnome_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -208,7 +208,7 @@
         11199
       ],
       "names" : [
-        "npc.gnome_guard_11199"
+        "npc.deadman_guard_gnome_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -233,7 +233,7 @@
         3361
       ],
       "names" : [
-        "npc.guard_3361"
+        "npc.deadman_guard_zeah_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -258,7 +258,7 @@
         11210
       ],
       "names" : [
-        "npc.guard_11210"
+        "npc.deadman_guard_zeah_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -283,7 +283,7 @@
         6583
       ],
       "names" : [
-        "npc.guard_6583"
+        "npc.deadman_guard_lumbridge_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -308,7 +308,7 @@
         11204
       ],
       "names" : [
-        "npc.guard_11204"
+        "npc.deadman_guard_lumbridge_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -333,7 +333,7 @@
         6698
       ],
       "names" : [
-        "npc.ghost_guard_6698"
+        "npc.deadman_guard_portphas_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -358,7 +358,7 @@
         11205
       ],
       "names" : [
-        "npc.ghost_guard_11205"
+        "npc.deadman_guard_portphas_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -383,7 +383,7 @@
         6595
       ],
       "names" : [
-        "npc.prifddinas_guard"
+        "npc.deadman_guard_prif_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -408,7 +408,7 @@
         11211
       ],
       "names" : [
-        "npc.prifddinas_guard_11211"
+        "npc.deadman_guard_prif_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -433,7 +433,7 @@
         6702
       ],
       "names" : [
-        "npc.guard_6702"
+        "npc.deadman_guard_rellekka_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -458,7 +458,7 @@
         11209
       ],
       "names" : [
-        "npc.guard_11209"
+        "npc.deadman_guard_rellekka_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -477,13 +477,38 @@
       "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
     },
     {
+      "source" : "Guard (Deadman Mode)#Ruins of Unkah",
+      "version" : "Ruins of Unkah",
+      "ids" : [
+        15566
+      ],
+      "names" : [
+        "npc.deadman_guard_unkah_vis"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
       "source" : "Guard (Deadman Mode)#Seers' Village (ranged)",
       "version" : "Seers' Village (ranged)",
       "ids" : [
         6575
       ],
       "names" : [
-        "npc.guard_6575"
+        "npc.deadman_guard_seers_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -508,7 +533,7 @@
         6699
       ],
       "names" : [
-        "npc.guard_6699"
+        "npc.deadman_guard_sophanem_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -533,7 +558,7 @@
         11206
       ],
       "names" : [
-        "npc.guard_11206"
+        "npc.deadman_guard_sophanem_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -558,7 +583,7 @@
         6582
       ],
       "names" : [
-        "npc.guard_6582"
+        "npc.deadman_guard_varrock_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -583,7 +608,7 @@
         11203
       ],
       "names" : [
-        "npc.guard_11203"
+        "npc.deadman_guard_varrock_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -608,7 +633,7 @@
         6701
       ],
       "names" : [
-        "npc.guard_6701"
+        "npc.deadman_guard_voidknight_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -633,7 +658,7 @@
         11208
       ],
       "names" : [
-        "npc.guard_11208"
+        "npc.deadman_guard_voidknight_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -658,7 +683,7 @@
         12460
       ],
       "names" : [
-        "npc.guard_12460"
+        "npc.deadman_guard_warguild_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -683,7 +708,7 @@
         12461
       ],
       "names" : [
-        "npc.guard_12461"
+        "npc.deadman_guard_warguild_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -702,13 +727,38 @@
       "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
     },
     {
+      "source" : "Guard (Deadman Mode)#Wintertodt",
+      "version" : "Wintertodt",
+      "ids" : [
+        15568
+      ],
+      "names" : [
+        "npc.deadman_guard_wintertodt_vis"
+      ],
+      "combatLevel" : 1337,
+      "hitpoints" : 800,
+      "attackSpeed" : 2,
+      "size" : 1,
+      "levels" : { "attack" : 800, "strength" : 400, "defence" : 300, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 8, "slashDefence" : 9, "crushDefence" : 7, "magicDefence" : 0, "rangedDefence" : 8, "lightRangedDefence" : 8, "heavyRangedDefence" : 8, "attackBonus" : 60, "strengthBonus" : 7, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
       "source" : "Guard (Deadman Mode)#Yanille",
       "version" : "Yanille",
       "ids" : [
         6580
       ],
       "names" : [
-        "npc.guard_6580"
+        "npc.deadman_guard_yanille_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,
@@ -733,7 +783,7 @@
         11201
       ],
       "names" : [
-        "npc.guard_11201"
+        "npc.deadman_guard_yanille_range_vis"
       ],
       "combatLevel" : 1337,
       "hitpoints" : 800,

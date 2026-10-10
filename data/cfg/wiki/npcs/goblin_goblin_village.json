@@ -14,13 +14,13 @@
         668
       ],
       "names" : [
-        "npc.goblin_662",
-        "npc.goblin_663",
-        "npc.goblin_664",
-        "npc.goblin_665",
-        "npc.goblin_666",
-        "npc.goblin_667",
-        "npc.goblin_668"
+        "npc.goblin_green_soldier_2",
+        "npc.goblin_green_soldier_3",
+        "npc.goblin_green_soldier_4",
+        "npc.goblin_green_soldier_5",
+        "npc.goblin_green_soldier_6",
+        "npc.goblin_green_soldier_7",
+        "npc.goblin_green_soldier_8"
       ],
       "combatLevel" : 5,
       "hitpoints" : 12,
@@ -53,13 +53,13 @@
         661
       ],
       "names" : [
-        "npc.goblin",
-        "npc.goblin_656",
-        "npc.goblin_657",
-        "npc.goblin_658",
-        "npc.goblin_659",
-        "npc.goblin_660",
-        "npc.goblin_661"
+        "npc.goblin_red_soldier_2",
+        "npc.goblin_red_soldier_3",
+        "npc.goblin_red_soldier_4",
+        "npc.goblin_red_soldier_5",
+        "npc.goblin_red_soldier_6",
+        "npc.goblin_red_soldier_7",
+        "npc.goblin_red_soldier_8"
       ],
       "combatLevel" : 5,
       "hitpoints" : 12,

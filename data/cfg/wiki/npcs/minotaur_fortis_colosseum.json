@@ -8,8 +8,8 @@
         12813
       ],
       "names" : [
-        "npc.minotaur_12812",
-        "npc.minotaur_12813"
+        "npc.colosseum_minotaur",
+        "npc.colosseum_minotaur_routefind"
       ],
       "combatLevel" : 318,
       "hitpoints" : 225,

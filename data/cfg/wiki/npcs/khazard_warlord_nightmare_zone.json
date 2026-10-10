@@ -8,7 +8,7 @@
         6329
       ],
       "names" : [
-        "npc.khazard_warlord_hard"
+        "npc.nzone_khazard_warlord_hard"
       ],
       "combatLevel" : 192,
       "hitpoints" : 255,
@@ -33,7 +33,7 @@
         6390
       ],
       "names" : [
-        "npc.khazard_warlord"
+        "npc.nzone_khazard_warlord_normal"
       ],
       "combatLevel" : 112,
       "hitpoints" : 170,

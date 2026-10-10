@@ -1,0 +1,29 @@
+{
+  "page" : "Veiled kraken",
+  "versions" : [
+    {
+      "source" : "Veiled kraken",
+      "ids" : [
+        15576
+      ],
+      "names" : [
+        "npc.sailing_veiled_kraken"
+      ],
+      "combatLevel" : 210,
+      "hitpoints" : 225,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 200, "strength" : 185, "defence" : 115, "ranged" : 1, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 325, "rangedDefence" : 325, "lightRangedDefence" : 325, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

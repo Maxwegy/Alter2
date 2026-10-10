@@ -18,23 +18,23 @@
       "main" : [
         { "item" : 313, "name" : "item.fishing_bait", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
         { "item" : 436, "name" : "item.copper_ore", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 558, "name" : "item.mind_rune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 558, "name" : "item.mindrune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 882, "name" : "item.bronze_arrow", "min" : 7, "max" : 7, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 3, "max" : 3, "chance" : [ 19, 64 ], "wiki" : "38/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 5, "chance" : [ 9, 128 ], "wiki" : "9/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 23, 128 ], "wiki" : "23/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 15, "max" : 15, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 3, "max" : 3, "chance" : [ 19, 64 ], "wiki" : "38/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 5, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 10, "max" : 10, "chance" : [ 23, 128 ], "wiki" : "23/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 15, "max" : 15, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1139, "name" : "item.bronze_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1965, "name" : "item.cabbage", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
       ],
       "tertiary" : [
-        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" }
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" }
       ]
     },
     {
@@ -52,25 +52,25 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 2, 93 ], "wiki" : "1/46.5" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 621 ], "wiki" : "1/62.1" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 827 ], "wiki" : "1/82.7" },
-        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 532 ], "wiki" : "1/106.4" },
-        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 677 ], "wiki" : "1/135.4" },
-        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 931 ], "wiki" : "1/186.2" },
-        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 5, 1241 ], "wiki" : "1/248.2" },
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 2979 ], "wiki" : "1/297.9" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 1862 ], "wiki" : "1/372.4" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 2, 993 ], "wiki" : "1/496.5" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 2, 93 ], "wiki" : "1/46.5" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 10, 621 ], "wiki" : "1/62.1" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 827 ], "wiki" : "1/82.7" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 532 ], "wiki" : "1/106.4" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 5, 677 ], "wiki" : "1/135.4" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 5, 931 ], "wiki" : "1/186.2" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 5, 1241 ], "wiki" : "1/248.2" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 2979 ], "wiki" : "1/297.9" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 1862 ], "wiki" : "1/372.4" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 2, 993 ], "wiki" : "1/496.5" },
         { "item" : 313, "name" : "item.fishing_bait", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 558, "name" : "item.mind_rune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 3, "max" : 3, "chance" : [ 19, 64 ], "wiki" : "38/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 6, "max" : 6, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 558, "name" : "item.mindrune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 3, "max" : 3, "chance" : [ 19, 64 ], "wiki" : "38/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 25, "max" : 25, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1440, "name" : "item.earth_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 2, 993 ], "wiki" : "1/496.5" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 2, 993 ], "wiki" : "1/496.5" },
         { "item" : 5318, "name" : "item.potato_seed", "min" : 1, "max" : 4, "chance" : [ 2, 19 ], "wiki" : "1/9.5" },
         { "item" : 5319, "name" : "item.onion_seed", "min" : 1, "max" : 3, "chance" : [ 1, 19 ], "wiki" : "1/19" },
         { "item" : 5320, "name" : "item.sweetcorn_seed", "min" : 1, "max" : 2, "chance" : [ 10, 1517 ], "wiki" : "1/151.7" },
@@ -79,15 +79,15 @@
         { "item" : 5323, "name" : "item.strawberry_seed", "min" : 1, "max" : 1, "chance" : [ 5, 1517 ], "wiki" : "1/303.4" },
         { "item" : 5324, "name" : "item.cabbage_seed", "min" : 1, "max" : 3, "chance" : [ 10, 379 ], "wiki" : "1/37.9" },
         { "item" : 5329, "name" : "item.secateurs", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 5340, "name" : "item.watering_can8", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5340, "name" : "item.watering_can_8", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 5341, "name" : "item.rake", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 5343, "name" : "item.seed_dibber", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 5343, "name" : "item.dibber", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 5345, "name" : "item.gardening_boots", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 1, "chance" : [ 5, 3034 ], "wiki" : "1/606.8" }
       ],
       "tertiary" : [
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 23182, "name" : "item.clue_scroll_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" }
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23182, "name" : "item.trail_clue_beginner", "min" : 1, "max" : 1, "chance" : [ 1, 90 ], "wiki" : "1/90" }
       ]
     }
   ]

@@ -8,7 +8,7 @@
         7559
       ],
       "names" : [
-        "npc.deathly_ranger"
+        "npc.raids_tightrope_ranger"
       ],
       "hitpoints" : 180,
       "attackSpeed" : 4,
@@ -35,7 +35,7 @@
         7559
       ],
       "names" : [
-        "npc.deathly_ranger"
+        "npc.raids_tightrope_ranger"
       ],
       "hitpoints" : 120,
       "attackSpeed" : 4,

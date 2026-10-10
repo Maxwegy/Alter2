@@ -7,14 +7,14 @@
         9043
       ],
       "always" : [
-        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 80, "max" : 100 }
+        { "item" : 23824, "name" : "item.gauntlet_crystal_shard_hm", "min" : 80, "max" : 100 }
       ],
       "main" : [
-        { "item" : 23824, "name" : "item.corrupted_shards", "min" : 7, "max" : 14, "chance" : [ 3, 7 ], "wiki" : "9/21" },
-        { "item" : 23834, "name" : "item.weapon_frame", "min" : 1, "max" : 1, "chance" : [ 2, 7 ], "wiki" : "2/7" },
-        { "item" : 23835, "name" : "item.grym_leaf", "min" : 1, "max" : 1, "chance" : [ 2, 21 ], "wiki" : "2/21" },
-        { "item" : 23858, "name" : "item.corrupted_teleport_crystal", "min" : 1, "max" : 1, "chance" : [ 1, 21 ], "wiki" : "1/21" },
-        { "item" : 23872, "name" : "item.raw_paddlefish", "min" : 2, "max" : 4, "chance" : [ 1, 7 ], "wiki" : "3/21" }
+        { "item" : 23824, "name" : "item.gauntlet_crystal_shard_hm", "min" : 7, "max" : 14, "chance" : [ 3, 7 ], "wiki" : "9/21" },
+        { "item" : 23834, "name" : "item.gauntlet_generic_component_hm", "min" : 1, "max" : 1, "chance" : [ 2, 7 ], "wiki" : "2/7" },
+        { "item" : 23835, "name" : "item.gauntlet_herb_hm", "min" : 1, "max" : 1, "chance" : [ 2, 21 ], "wiki" : "2/21" },
+        { "item" : 23858, "name" : "item.gauntlet_teleport_crystal_hm", "min" : 1, "max" : 1, "chance" : [ 1, 21 ], "wiki" : "1/21" },
+        { "item" : 23872, "name" : "item.gauntlet_raw_food", "min" : 2, "max" : 4, "chance" : [ 1, 7 ], "wiki" : "3/21" }
       ]
     }
   ]

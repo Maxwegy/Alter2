@@ -9,8 +9,8 @@
         13791
       ],
       "names" : [
-        "npc.frost_crab",
-        "npc.frost_crab_13791"
+        "npc.frostcrab",
+        "npc.frostcrab_small"
       ],
       "combatLevel" : 15,
       "hitpoints" : 60,
@@ -39,8 +39,8 @@
         13792
       ],
       "names" : [
-        "npc.ice_block_13790",
-        "npc.ice_block_13792"
+        "npc.frostcrab_inactive",
+        "npc.frostcrab_small_inactive"
       ],
       "combatLevel" : 15,
       "hitpoints" : 60,

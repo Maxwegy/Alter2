@@ -8,7 +8,7 @@
         294
       ],
       "names" : [
-        "npc.dwarf_294"
+        "npc.fai_falador_dwarf_normal1"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -34,7 +34,7 @@
         295
       ],
       "names" : [
-        "npc.dwarf_295"
+        "npc.fai_falador_dwarf_normal2"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -60,7 +60,7 @@
         296
       ],
       "names" : [
-        "npc.dwarf_296"
+        "npc.fai_falador_dwarf_normal3"
       ],
       "combatLevel" : 10,
       "hitpoints" : 12,
@@ -86,7 +86,7 @@
         290
       ],
       "names" : [
-        "npc.dwarf_290"
+        "npc.dwarf_normal"
       ],
       "combatLevel" : 10,
       "hitpoints" : 16,
@@ -113,7 +113,7 @@
         292
       ],
       "names" : [
-        "npc.dwarf_292"
+        "npc.dwarf_mountain"
       ],
       "combatLevel" : 20,
       "hitpoints" : 26,
@@ -139,7 +139,7 @@
         1401
       ],
       "names" : [
-        "npc.dwarf_1401"
+        "npc.fai_dwarf_worker_01"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -165,7 +165,7 @@
         1402
       ],
       "names" : [
-        "npc.dwarf_1402"
+        "npc.fai_dwarf_worker_02"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -191,7 +191,7 @@
         1403
       ],
       "names" : [
-        "npc.dwarf_1403"
+        "npc.fai_dwarf_worker_03"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -217,7 +217,7 @@
         1404
       ],
       "names" : [
-        "npc.dwarf_1404"
+        "npc.fai_dwarf_worker_04"
       ],
       "combatLevel" : 11,
       "hitpoints" : 16,
@@ -243,7 +243,7 @@
         1405
       ],
       "names" : [
-        "npc.dwarf_1405"
+        "npc.fai_dwarf_worker_05"
       ],
       "combatLevel" : 10,
       "hitpoints" : 12,
@@ -269,7 +269,7 @@
         1406
       ],
       "names" : [
-        "npc.dwarf_1406"
+        "npc.fai_dwarf_worker_06"
       ],
       "combatLevel" : 11,
       "hitpoints" : 18,
@@ -295,7 +295,7 @@
         1407
       ],
       "names" : [
-        "npc.dwarf_1407"
+        "npc.fai_dwarf_worker_07"
       ],
       "combatLevel" : 11,
       "hitpoints" : 13,
@@ -321,7 +321,7 @@
         1408
       ],
       "names" : [
-        "npc.dwarf_1408"
+        "npc.fai_dwarf_worker_08"
       ],
       "combatLevel" : 7,
       "hitpoints" : 10,
@@ -348,7 +348,7 @@
         8496
       ],
       "names" : [
-        "npc.dwarf_8496"
+        "npc.fai_dwarf_worker_09"
       ],
       "combatLevel" : 11,
       "hitpoints" : 18,

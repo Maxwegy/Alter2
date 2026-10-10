@@ -9,13 +9,13 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 1546, "name" : "item.key_1546", "min" : 1, "max" : 1 }
+        { "item" : 1546, "name" : "item.bluekey", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 7863, "name" : "item.zombie_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
+        { "item" : 7863, "name" : "item.rag_zombie_bone", "min" : 1, "max" : 1, "chance" : [ 1, 4 ], "wiki" : "1/4" }
       ],
       "tertiary" : [
-        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+        { "item" : 6807, "name" : "item.champions_challenge_zombie", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
       ]
     }
   ]

@@ -8,7 +8,7 @@
         11926
       ],
       "names" : [
-        "npc.warrior_11926"
+        "npc.warrior_woman_variant02"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,
@@ -34,7 +34,7 @@
         11929
       ],
       "names" : [
-        "npc.warrior_11929"
+        "npc.warrior_man_variant02"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,
@@ -60,7 +60,7 @@
         3260
       ],
       "names" : [
-        "npc.warrior_3260"
+        "npc.warrior_woman"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,
@@ -86,7 +86,7 @@
         11927
       ],
       "names" : [
-        "npc.warrior_11927"
+        "npc.warrior_man"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,
@@ -112,7 +112,7 @@
         11928
       ],
       "names" : [
-        "npc.warrior_11928"
+        "npc.warrior_man_variant01"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,
@@ -138,7 +138,7 @@
         11925
       ],
       "names" : [
-        "npc.warrior_11925"
+        "npc.warrior_woman_variant01"
       ],
       "combatLevel" : 24,
       "hitpoints" : 20,

@@ -9,9 +9,9 @@
         14042
       ],
       "names" : [
-        "npc.bat",
-        "npc.bat_10888",
-        "npc.bat_14042"
+        "npc.small_bat",
+        "npc.small_bat_outdoors",
+        "npc.small_bat_outdoors_lowwander"
       ],
       "combatLevel" : 6,
       "hitpoints" : 8,

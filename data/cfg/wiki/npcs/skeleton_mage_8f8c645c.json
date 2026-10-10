@@ -8,7 +8,7 @@
         84
       ],
       "names" : [
-        "npc.skeleton_mage"
+        "npc.skeletonmage"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -40,7 +40,7 @@
         4319
       ],
       "names" : [
-        "npc.skeleton_mage_4319"
+        "npc.swan_skeleton_training"
       ],
       "combatLevel" : 83,
       "hitpoints" : 80,

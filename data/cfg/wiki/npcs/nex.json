@@ -12,10 +12,10 @@
       ],
       "names" : [
         "npc.nex",
-        "npc.nex_11279",
-        "npc.nex_11280",
-        "npc.nex_11281",
-        "npc.nex_11282"
+        "npc.nex_spawning",
+        "npc.nex_soulsplit",
+        "npc.nex_deflect",
+        "npc.nex_dying"
       ],
       "combatLevel" : 1001,
       "hitpoints" : 3400,

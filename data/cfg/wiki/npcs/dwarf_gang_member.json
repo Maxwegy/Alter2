@@ -8,7 +8,7 @@
         1354
       ],
       "names" : [
-        "npc.dwarf_gang_member"
+        "npc.favour_gangster_dwarf"
       ],
       "combatLevel" : 44,
       "hitpoints" : 40,
@@ -35,7 +35,7 @@
         1355
       ],
       "names" : [
-        "npc.dwarf_gang_member_1355"
+        "npc.favour_gangster_dwarf_2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 25,
@@ -62,7 +62,7 @@
         1356
       ],
       "names" : [
-        "npc.dwarf_gang_member_1356"
+        "npc.favour_gangster_dwarf_3"
       ],
       "combatLevel" : 49,
       "hitpoints" : 25,

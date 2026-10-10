@@ -8,7 +8,7 @@
         1275
       ],
       "names" : [
-        "npc.experiment_1275"
+        "npc.fenk_experiment_3"
       ],
       "combatLevel" : 25,
       "hitpoints" : 100,
@@ -34,7 +34,7 @@
         1274
       ],
       "names" : [
-        "npc.experiment_1274"
+        "npc.fenk_experiment_2"
       ],
       "combatLevel" : 25,
       "hitpoints" : 100,
@@ -60,7 +60,7 @@
         1273
       ],
       "names" : [
-        "npc.experiment"
+        "npc.fenk_experiment_1"
       ],
       "combatLevel" : 51,
       "hitpoints" : 40,

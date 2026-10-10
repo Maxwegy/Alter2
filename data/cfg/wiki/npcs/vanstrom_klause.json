@@ -12,12 +12,12 @@
         9632
       ],
       "names" : [
-        "npc.vanstrom_klause_9567",
-        "npc.vanstrom_klause_9568",
-        "npc.vanstrom_klause_9569",
-        "npc.vanstrom_klause_9570",
-        "npc.vanstrom_klause_9571",
-        "npc.vanstrom_klause_9632"
+        "npc.myq5_vanstrom_vampyre_cutscene_vislevel",
+        "npc.myq5_vanstrom_vampyre_enrage_cutscene_vislevel",
+        "npc.myq5_vanstrom_combat",
+        "npc.myq5_vanstrom_combat_noop",
+        "npc.myq5_vanstrom_combat_enrage",
+        "npc.route_vanstrom_vampire"
       ],
       "combatLevel" : 459,
       "hitpoints" : 750,
@@ -52,14 +52,14 @@
         8240
       ],
       "names" : [
-        "npc.vanstrom_klause_3734",
-        "npc.vanstrom_klause_3735",
-        "npc.vanstrom_klause_3736",
-        "npc.vanstrom_klause_3737",
-        "npc.vanstrom_klause_3738",
-        "npc.vanstrom_klause_3739",
-        "npc.vanstrom_klause_8239",
-        "npc.vanstrom_klause_8240"
+        "npc.myq3_vanstrom_klause_grounded_vampire_state",
+        "npc.myq3_vanstrom_klause_vampyre_attack",
+        "npc.myq3_vanstrom_klause_vampyre_cutscene",
+        "npc.myq3_vanstrom_klause_flying",
+        "npc.myq3_vanstrom_klause_takeoff",
+        "npc.myq3_vanstrom_klause_landing",
+        "npc.myq4_vanstrom_vampyre",
+        "npc.myq4_vanstrom_vampyre_flying"
       ],
       "combatLevel" : 169,
       "hitpoints" : 155,

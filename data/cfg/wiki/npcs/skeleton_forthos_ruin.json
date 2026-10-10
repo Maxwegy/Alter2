@@ -8,7 +8,7 @@
         10717
       ],
       "names" : [
-        "npc.skeleton_10717"
+        "npc.skeleton_armed_shortrange"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -36,7 +36,7 @@
         10718
       ],
       "names" : [
-        "npc.skeleton_10718"
+        "npc.skeleton_armed2_shortrange"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -64,7 +64,7 @@
         10719
       ],
       "names" : [
-        "npc.skeleton_10719"
+        "npc.skeleton_armed3_shortrange"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -92,7 +92,7 @@
         10720
       ],
       "names" : [
-        "npc.skeleton_10720"
+        "npc.skeleton_armed4_shortrange"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -120,7 +120,7 @@
         10721
       ],
       "names" : [
-        "npc.skeleton_10721"
+        "npc.skeleton_armed5_shortrange"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,

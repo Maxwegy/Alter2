@@ -1,0 +1,31 @@
+{
+  "page" : "Dire gryphon",
+  "versions" : [
+    {
+      "source" : "Dire gryphon",
+      "ids" : [
+        14859
+      ],
+      "names" : [
+        "npc.superior_gryphon"
+      ],
+      "combatLevel" : 209,
+      "hitpoints" : 280,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 160, "strength" : 190, "defence" : 100, "ranged" : 0, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 150, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 51, "xp" : 2800.0, "categories" : [ "Gryphons" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    }
+  ]
+}

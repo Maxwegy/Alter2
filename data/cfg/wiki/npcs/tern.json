@@ -1,0 +1,29 @@
+{
+  "page" : "Tern",
+  "versions" : [
+    {
+      "source" : "Tern",
+      "ids" : [
+        15228
+      ],
+      "names" : [
+        "npc.sailing_tern"
+      ],
+      "combatLevel" : 20,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 25, "strength" : 20, "defence" : 0, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 30, "lightRangedDefence" : 30, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

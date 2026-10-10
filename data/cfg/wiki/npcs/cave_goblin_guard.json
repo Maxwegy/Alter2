@@ -8,7 +8,7 @@
         5335
       ],
       "names" : [
-        "npc.cave_goblin_guard_5335"
+        "npc.cave_goblin_guard2"
       ],
       "combatLevel" : 24,
       "hitpoints" : 26,
@@ -36,7 +36,7 @@
         5334
       ],
       "names" : [
-        "npc.cave_goblin_guard"
+        "npc.cave_goblin_guard1"
       ],
       "combatLevel" : 26,
       "hitpoints" : 26,

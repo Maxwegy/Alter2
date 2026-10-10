@@ -8,7 +8,7 @@
         785
       ],
       "names" : [
-        "npc.me"
+        "npc.quest_lunar_mirror_of_player"
       ],
       "combatLevel" : 79,
       "hitpoints" : 45,
@@ -33,7 +33,7 @@
         786
       ],
       "names" : [
-        "npc.me_786"
+        "npc.quest_lunar_mirror_of_player_female"
       ],
       "combatLevel" : 79,
       "hitpoints" : 45,

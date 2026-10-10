@@ -8,8 +8,8 @@
         5239
       ],
       "names" : [
-        "npc.spider_5238",
-        "npc.spider_5239"
+        "npc.mm_warehouse_spider",
+        "npc.mm_cutscene_spider"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,

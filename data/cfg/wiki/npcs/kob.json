@@ -8,8 +8,8 @@
         7107
       ],
       "names" : [
-        "npc.kob",
-        "npc.kob_7107"
+        "npc.mm2_general_kob_noncombat",
+        "npc.mm2_general_kob_combat"
       ],
       "combatLevel" : 185,
       "hitpoints" : 200,

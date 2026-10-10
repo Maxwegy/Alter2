@@ -8,7 +8,7 @@
         476
       ],
       "names" : [
-        "npc.wall_beast"
+        "npc.swamp_wallbeast_combat"
       ],
       "combatLevel" : 49,
       "hitpoints" : 105,
@@ -35,7 +35,7 @@
         475
       ],
       "names" : [
-        "npc.hole_in_the_wall"
+        "npc.swamp_wallbeast"
       ],
       "combatLevel" : 49,
       "hitpoints" : 105,

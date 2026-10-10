@@ -8,7 +8,7 @@
         10689
       ],
       "names" : [
-        "npc.chaos_golem"
+        "npc.camdozaal_golem_chaos"
       ],
       "combatLevel" : 70,
       "hitpoints" : 94,
@@ -37,7 +37,7 @@
         10690
       ],
       "names" : [
-        "npc.rubble_10690"
+        "npc.camdozaal_golem_chaos_rock"
       ],
       "combatLevel" : 70,
       "hitpoints" : 94,

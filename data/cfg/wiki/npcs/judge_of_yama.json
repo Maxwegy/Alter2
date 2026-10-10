@@ -1,0 +1,34 @@
+{
+  "page" : "Judge of Yama",
+  "versions" : [
+    {
+      "source" : "Judge of Yama",
+      "ids" : [
+        14180
+      ],
+      "names" : [
+        "npc.yama_judge_of_yama"
+      ],
+      "combatLevel" : 168,
+      "hitpoints" : 400,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 150, "ranged" : 200, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "18 (aoe)",
+        "29 (fire surge)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "elementalWeakness" : { "element" : "water", "percent" : 15 }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "page" : "Hermit crab",
+  "versions" : [
+    {
+      "source" : "Hermit crab#Active",
+      "version" : "Active",
+      "ids" : [
+        14852
+      ],
+      "names" : [
+        "npc.great_conch_hermit_crab"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : -50, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "burn" : "Not immune" }
+    },
+    {
+      "source" : "Hermit crab#Hidden",
+      "version" : "Hidden",
+      "ids" : [
+        14853,
+        14854,
+        14855,
+        14856
+      ],
+      "names" : [
+        "npc.great_conch_hermit_crab_inactive_north",
+        "npc.great_conch_hermit_crab_inactive_south",
+        "npc.great_conch_hermit_crab_inactive_east",
+        "npc.great_conch_hermit_crab_inactive_west"
+      ],
+      "combatLevel" : 19,
+      "hitpoints" : 75,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : -50, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "burn" : "Not immune" }
+    }
+  ]
+}

@@ -9,8 +9,8 @@
         1853
       ],
       "names" : [
-        "npc.rabbit_1852",
-        "npc.rabbit_1853"
+        "npc.fairy2_rabbit1",
+        "npc.fairy2_rabbit2"
       ],
       "combatLevel" : 1,
       "hitpoints" : 1,
@@ -38,8 +38,8 @@
         3665
       ],
       "names" : [
-        "npc.rabbit_3664",
-        "npc.rabbit_3665"
+        "npc.misc_rabbit",
+        "npc.misc_rabbit2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,
@@ -68,9 +68,9 @@
         3422
       ],
       "names" : [
-        "npc.rabbit_3420",
-        "npc.rabbit_3421",
-        "npc.rabbit_3422"
+        "npc.regicide_rabbit",
+        "npc.regicide_bunny1",
+        "npc.regicide_bunny2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,
@@ -99,9 +99,9 @@
         12853
       ],
       "names" : [
-        "npc.rabbit_12851",
-        "npc.rabbit_12852",
-        "npc.rabbit_12853"
+        "npc.rabbit_1",
+        "npc.rabbit_2",
+        "npc.rabbit_3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,

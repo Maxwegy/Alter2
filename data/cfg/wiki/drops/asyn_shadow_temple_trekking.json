@@ -7,7 +7,7 @@
         5632
       ],
       "always" : [
-        { "item" : 3402, "name" : "item.asyn_remains", "min" : 1, "max" : 1 }
+        { "item" : 3402, "name" : "item.shade_bones4", "min" : 1, "max" : 1 }
       ]
     }
   ]

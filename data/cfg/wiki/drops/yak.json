@@ -8,9 +8,9 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 10814, "name" : "item.hair", "min" : 1, "max" : 1 },
-        { "item" : 10816, "name" : "item.raw_yak_meat", "min" : 1, "max" : 1 },
-        { "item" : 10818, "name" : "item.yakhide", "min" : 1, "max" : 1 }
+        { "item" : 10814, "name" : "item.yak_hair", "min" : 1, "max" : 1 },
+        { "item" : 10816, "name" : "item.yak_meat_raw", "min" : 1, "max" : 1 },
+        { "item" : 10818, "name" : "item.yak_hide", "min" : 1, "max" : 1 }
       ]
     }
   ]

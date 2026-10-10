@@ -8,7 +8,7 @@
         4131
       ],
       "names" : [
-        "npc.twig_4131"
+        "npc.troll_prison_guard1_awake"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,
@@ -35,7 +35,7 @@
         4133
       ],
       "names" : [
-        "npc.twig_4133"
+        "npc.troll_prison_guard1"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,

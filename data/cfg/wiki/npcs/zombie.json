@@ -8,7 +8,7 @@
         26
       ],
       "names" : [
-        "npc.zombie"
+        "npc.zombie_unarmed"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -39,7 +39,7 @@
         38
       ],
       "names" : [
-        "npc.zombie_38"
+        "npc.zombie_unarmed_sewer1"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -70,7 +70,7 @@
         39
       ],
       "names" : [
-        "npc.zombie_39"
+        "npc.zombie_unarmed_sewer2"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -101,7 +101,7 @@
         40
       ],
       "names" : [
-        "npc.zombie_40"
+        "npc.zombie_unarmed_sewer3"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -132,7 +132,7 @@
         41
       ],
       "names" : [
-        "npc.zombie_41"
+        "npc.zombie_unarmed_sewer4"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -163,7 +163,7 @@
         27
       ],
       "names" : [
-        "npc.zombie_27"
+        "npc.zombie_unarmed2"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -194,7 +194,7 @@
         28
       ],
       "names" : [
-        "npc.zombie_28"
+        "npc.zombie_unarmed3"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -225,7 +225,7 @@
         29
       ],
       "names" : [
-        "npc.zombie_29"
+        "npc.zombie_unarmed4"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -256,7 +256,7 @@
         30
       ],
       "names" : [
-        "npc.zombie_30"
+        "npc.zombie_unarmed5"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -287,7 +287,7 @@
         31
       ],
       "names" : [
-        "npc.zombie_31"
+        "npc.zombie_unarmed6"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -318,7 +318,7 @@
         32
       ],
       "names" : [
-        "npc.zombie_32"
+        "npc.zombie_unarmed_city1"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -349,7 +349,7 @@
         34
       ],
       "names" : [
-        "npc.zombie_34"
+        "npc.zombie_unarmed_city3"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -380,7 +380,7 @@
         37
       ],
       "names" : [
-        "npc.zombie_37"
+        "npc.zombie_unarmed_city6"
       ],
       "combatLevel" : 13,
       "hitpoints" : 22,
@@ -411,7 +411,7 @@
         42
       ],
       "names" : [
-        "npc.zombie_42"
+        "npc.zombie2"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -442,7 +442,7 @@
         43
       ],
       "names" : [
-        "npc.zombie_43"
+        "npc.zombie2_b"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -473,7 +473,7 @@
         44
       ],
       "names" : [
-        "npc.zombie_44"
+        "npc.zombie2_c"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -504,7 +504,7 @@
         49
       ],
       "names" : [
-        "npc.zombie_49"
+        "npc.zombie_armed"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -535,7 +535,7 @@
         50
       ],
       "names" : [
-        "npc.zombie_50"
+        "npc.zombie_armed2"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -566,7 +566,7 @@
         51
       ],
       "names" : [
-        "npc.zombie_51"
+        "npc.zombie_armed3"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -597,7 +597,7 @@
         52
       ],
       "names" : [
-        "npc.zombie_52"
+        "npc.zombie_armed_city1"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -628,7 +628,7 @@
         54
       ],
       "names" : [
-        "npc.zombie_54"
+        "npc.zombie_armed_city3"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -659,7 +659,7 @@
         55
       ],
       "names" : [
-        "npc.zombie_55"
+        "npc.zombie_armed_sewer1"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -690,7 +690,7 @@
         56
       ],
       "names" : [
-        "npc.zombie_56"
+        "npc.zombie_armed_sewer2"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -721,7 +721,7 @@
         57
       ],
       "names" : [
-        "npc.zombie_57"
+        "npc.zombie_armed_sewer3"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -752,7 +752,7 @@
         58
       ],
       "names" : [
-        "npc.zombie_58"
+        "npc.zombie_armed_sewer4"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,

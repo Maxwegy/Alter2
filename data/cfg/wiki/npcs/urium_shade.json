@@ -8,7 +8,7 @@
         10589
       ],
       "names" : [
-        "npc.urium_shade"
+        "npc.shade_level6"
       ],
       "combatLevel" : 140,
       "hitpoints" : 130,
@@ -41,7 +41,7 @@
         6143
       ],
       "names" : [
-        "npc.urium_shadow"
+        "npc.shadeshadow_level6"
       ],
       "combatLevel" : 140,
       "hitpoints" : 130,

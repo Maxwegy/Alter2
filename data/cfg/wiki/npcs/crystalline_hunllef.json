@@ -10,10 +10,10 @@
         9024
       ],
       "names" : [
-        "npc.crystalline_hunllef",
-        "npc.crystalline_hunllef_9022",
-        "npc.crystalline_hunllef_9023",
-        "npc.crystalline_hunllef_9024"
+        "npc.crystal_hunllef_melee",
+        "npc.crystal_hunllef_ranged",
+        "npc.crystal_hunllef_magic",
+        "npc.crystal_hunllef_death"
       ],
       "combatLevel" : 674,
       "hitpoints" : 600,

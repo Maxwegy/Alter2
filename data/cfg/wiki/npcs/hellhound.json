@@ -10,9 +10,9 @@
         7256
       ],
       "names" : [
-        "npc.hellhound_104",
-        "npc.hellhound_105",
-        "npc.hellhound_7256"
+        "npc.hellhound",
+        "npc.hellhound_strongholdcave",
+        "npc.kourend_hellhound"
       ],
       "combatLevel" : 122,
       "hitpoints" : 116,
@@ -43,7 +43,7 @@
         3133
       ],
       "names" : [
-        "npc.hellhound_3133"
+        "npc.godwars_ancient_hellhound"
       ],
       "combatLevel" : 127,
       "hitpoints" : 116,
@@ -73,7 +73,7 @@
         7877
       ],
       "names" : [
-        "npc.hellhound_7877"
+        "npc.wild_cave_hell_hound"
       ],
       "combatLevel" : 136,
       "hitpoints" : 150,

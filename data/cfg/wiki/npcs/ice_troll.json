@@ -13,12 +13,12 @@
         704
       ],
       "names" : [
-        "npc.ice_troll_650",
-        "npc.ice_troll_652",
-        "npc.ice_troll_653",
-        "npc.ice_troll_701",
-        "npc.ice_troll_703",
-        "npc.ice_troll_704"
+        "npc.trollromance_icetroll_melee3",
+        "npc.trollromance_icetroll_melee5",
+        "npc.trollromance_icetroll_melee6",
+        "npc.trollrescue_icetroll_melee3",
+        "npc.trollrescue_icetroll_melee5",
+        "npc.trollrescue_icetroll_melee6"
       ],
       "combatLevel" : 120,
       "hitpoints" : 100,
@@ -49,10 +49,10 @@
         705
       ],
       "names" : [
-        "npc.ice_troll_651",
-        "npc.ice_troll_654",
-        "npc.ice_troll_702",
-        "npc.ice_troll_705"
+        "npc.trollromance_icetroll_melee4",
+        "npc.trollromance_icetroll_melee7",
+        "npc.trollrescue_icetroll_melee4",
+        "npc.trollrescue_icetroll_melee7"
       ],
       "combatLevel" : 121,
       "hitpoints" : 90,
@@ -81,8 +81,8 @@
         700
       ],
       "names" : [
-        "npc.ice_troll_649",
-        "npc.ice_troll_700"
+        "npc.trollromance_icetroll_melee2",
+        "npc.trollrescue_icetroll_melee2"
       ],
       "combatLevel" : 123,
       "hitpoints" : 80,
@@ -111,8 +111,8 @@
         699
       ],
       "names" : [
-        "npc.ice_troll",
-        "npc.ice_troll_699"
+        "npc.trollromance_icetroll_melee1",
+        "npc.trollrescue_icetroll_melee1"
       ],
       "combatLevel" : 124,
       "hitpoints" : 80,

@@ -12,22 +12,22 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 110 ], "wiki" : "1/110" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 1, 220 ], "wiki" : "0.5/110" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 3, 1000 ], "wiki" : "0.33/110" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 1, 110 ], "wiki" : "1/110" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 1, 220 ], "wiki" : "0.5/110" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 3, 1000 ], "wiki" : "0.33/110" },
         { "item" : 314, "name" : "item.feather", "min" : 1, "max" : 6, "chance" : [ 3, 110 ], "wiki" : "3/110" },
         { "item" : 321, "name" : "item.raw_anchovies", "min" : 1, "max" : 3, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 453, "name" : "item.coal", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 590, "name" : "item.tinderbox", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
-        { "item" : 686, "name" : "item.rusty_sword", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
-        { "item" : 688, "name" : "item.buttons", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
-        { "item" : 697, "name" : "item.damaged_armour", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
+        { "item" : 686, "name" : "item.digsitesword", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
+        { "item" : 688, "name" : "item.digsitebuttons", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
+        { "item" : 697, "name" : "item.digsitearmour1", "min" : 1, "max" : 1, "chance" : [ 2, 55 ], "wiki" : "4/110" },
         { "item" : 882, "name" : "item.bronze_arrow", "min" : 1, "max" : 12, "chance" : [ 133, 5500 ], "wiki" : "2.66/110" },
         { "item" : 886, "name" : "item.steel_arrow", "min" : 1, "max" : 10, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 946, "name" : "item.knife", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 20, "chance" : [ 27, 220 ], "wiki" : "13.5/110" },
-        { "item" : 1129, "name" : "item.leather_body", "min" : 1, "max" : 1, "chance" : [ 3, 110 ], "wiki" : "3/110" },
+        { "item" : 995, "name" : "item.coins", "min" : 1, "max" : 20, "chance" : [ 27, 220 ], "wiki" : "13.5/110" },
+        { "item" : 1129, "name" : "item.leather_armour", "min" : 1, "max" : 1, "chance" : [ 3, 110 ], "wiki" : "3/110" },
         { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 110 ], "wiki" : "3/110" },
         { "item" : 1205, "name" : "item.bronze_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 110 ], "wiki" : "3/110" },
         { "item" : 1207, "name" : "item.steel_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
@@ -42,13 +42,13 @@
         { "item" : 1627, "name" : "item.uncut_jade", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 1733, "name" : "item.needle", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 1734, "name" : "item.thread", "min" : 1, "max" : 10, "chance" : [ 1, 55 ], "wiki" : "2/110" },
-        { "item" : 1739, "name" : "item.cowhide", "min" : 1, "max" : 3, "chance" : [ 3, 110 ], "wiki" : "3/110" },
+        { "item" : 1739, "name" : "item.cow_hide", "min" : 1, "max" : 3, "chance" : [ 3, 110 ], "wiki" : "3/110" },
         { "item" : 2138, "name" : "item.raw_chicken", "min" : 1, "max" : 3, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 4298, "name" : "item.ham_shirt", "min" : 1, "max" : 1, "chance" : [ 133, 11000 ], "wiki" : "1.33/110" },
         { "item" : 4300, "name" : "item.ham_robe", "min" : 1, "max" : 1, "chance" : [ 133, 11000 ], "wiki" : "1.33/110" },
         { "item" : 4302, "name" : "item.ham_hood", "min" : 1, "max" : 1, "chance" : [ 1, 110 ], "wiki" : "1/110" },
         { "item" : 4304, "name" : "item.ham_cloak", "min" : 1, "max" : 1, "chance" : [ 1, 110 ], "wiki" : "1/110" },
-        { "item" : 4306, "name" : "item.ham_logo", "min" : 1, "max" : 1, "chance" : [ 133, 11000 ], "wiki" : "1.33/110" },
+        { "item" : 4306, "name" : "item.ham_badge", "min" : 1, "max" : 1, "chance" : [ 133, 11000 ], "wiki" : "1.33/110" },
         { "item" : 4308, "name" : "item.ham_gloves", "min" : 1, "max" : 1, "chance" : [ 1, 44 ], "wiki" : "2.5/110" },
         { "item" : 4310, "name" : "item.ham_boots", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "2/110" },
         { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 31 ], "wiki" : "1/31" },
@@ -61,7 +61,7 @@
         { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 2, "max" : 2, "chance" : [ 1, 1458 ], "wiki" : "1/1,458" }
       ],
       "tertiary" : [
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "1/55" }
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "1/55" }
       ]
     }
   ]

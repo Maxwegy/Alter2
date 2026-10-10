@@ -8,7 +8,7 @@
         6075
       ],
       "names" : [
-        "npc.tortoise"
+        "npc.battle_tortoise"
       ],
       "combatLevel" : 79,
       "hitpoints" : 100,
@@ -35,7 +35,7 @@
         6076
       ],
       "names" : [
-        "npc.tortoise_6076"
+        "npc.battle_tortoise_war2"
       ],
       "combatLevel" : 92,
       "hitpoints" : 120,

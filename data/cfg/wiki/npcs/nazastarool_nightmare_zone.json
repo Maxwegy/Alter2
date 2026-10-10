@@ -8,7 +8,7 @@
         6339
       ],
       "names" : [
-        "npc.nazastarool_hard_6339"
+        "npc.nzone_zq_mainzombie3_hard"
       ],
       "combatLevel" : 181,
       "hitpoints" : 176,
@@ -37,7 +37,7 @@
         6400
       ],
       "names" : [
-        "npc.nazastarool_6400"
+        "npc.nzone_zq_mainzombie3_normal"
       ],
       "combatLevel" : 93,
       "hitpoints" : 80,
@@ -66,7 +66,7 @@
         6338
       ],
       "names" : [
-        "npc.nazastarool_hard_6338"
+        "npc.nzone_zq_mainzombie2_hard"
       ],
       "combatLevel" : 153,
       "hitpoints" : 180,
@@ -91,7 +91,7 @@
         6399
       ],
       "names" : [
-        "npc.nazastarool_6399"
+        "npc.nzone_zq_mainzombie2_normal"
       ],
       "combatLevel" : 68,
       "hitpoints" : 70,
@@ -116,7 +116,7 @@
         6337
       ],
       "names" : [
-        "npc.nazastarool_hard"
+        "npc.nzone_zq_mainzombie1_hard"
       ],
       "combatLevel" : 176,
       "hitpoints" : 154,
@@ -141,7 +141,7 @@
         6398
       ],
       "names" : [
-        "npc.nazastarool_6398"
+        "npc.nzone_zq_mainzombie1_normal"
       ],
       "combatLevel" : 91,
       "hitpoints" : 70,

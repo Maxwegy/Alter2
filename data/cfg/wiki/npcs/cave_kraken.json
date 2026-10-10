@@ -8,7 +8,7 @@
         492
       ],
       "names" : [
-        "npc.cave_kraken_492"
+        "npc.slayer_kraken"
       ],
       "combatLevel" : 127,
       "hitpoints" : 125,
@@ -35,7 +35,7 @@
         493
       ],
       "names" : [
-        "npc.whirlpool"
+        "npc.slayer_kraken_sub"
       ],
       "combatLevel" : 127,
       "hitpoints" : 125,

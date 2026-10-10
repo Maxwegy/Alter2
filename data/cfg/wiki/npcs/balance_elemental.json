@@ -8,7 +8,7 @@
         13530
       ],
       "names" : [
-        "npc.balance_elemental_13530"
+        "npc.wgs_balance_elemental_cutscene"
       ],
       "combatLevel" : 524,
       "hitpoints" : 750,
@@ -33,7 +33,7 @@
         13529
       ],
       "names" : [
-        "npc.balance_elemental_13529"
+        "npc.wgs_balance_elemental_dying"
       ],
       "combatLevel" : 524,
       "hitpoints" : 750,
@@ -58,7 +58,7 @@
         13528
       ],
       "names" : [
-        "npc.balance_elemental"
+        "npc.wgs_balance_elemental"
       ],
       "combatLevel" : 524,
       "hitpoints" : 750,

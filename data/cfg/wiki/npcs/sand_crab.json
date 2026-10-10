@@ -9,8 +9,8 @@
         7206
       ],
       "names" : [
-        "npc.sand_crab",
-        "npc.sand_crab_7206"
+        "npc.zeah_sandcrab",
+        "npc.zeah_sandcrab_small"
       ],
       "combatLevel" : 15,
       "hitpoints" : 60,
@@ -39,8 +39,8 @@
         7207
       ],
       "names" : [
-        "npc.sandy_rocks",
-        "npc.sandy_rocks_7207"
+        "npc.zeah_sandcrab_inactive",
+        "npc.zeah_sandcrab_small_inactive"
       ],
       "combatLevel" : 15,
       "hitpoints" : 60,

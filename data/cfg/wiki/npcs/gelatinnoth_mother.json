@@ -12,12 +12,12 @@
         4889
       ],
       "names" : [
-        "npc.gelatinnoth_mother",
-        "npc.gelatinnoth_mother_4885",
-        "npc.gelatinnoth_mother_4886",
-        "npc.gelatinnoth_mother_4887",
-        "npc.gelatinnoth_mother_4888",
-        "npc.gelatinnoth_mother_4889"
+        "npc.hundred_minion5_air",
+        "npc.hundred_minion5_melee",
+        "npc.hundred_minion5_water",
+        "npc.hundred_minion5_fire",
+        "npc.hundred_minion5_ranged",
+        "npc.hundred_minion5_earth"
       ],
       "combatLevel" : 130,
       "hitpoints" : 240,

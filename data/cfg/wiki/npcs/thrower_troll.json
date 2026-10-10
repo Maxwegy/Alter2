@@ -11,11 +11,11 @@
         935
       ],
       "names" : [
-        "npc.thrower_troll",
-        "npc.thrower_troll_932",
-        "npc.thrower_troll_933",
-        "npc.thrower_troll_934",
-        "npc.thrower_troll_935"
+        "npc.death_troll_thrower1",
+        "npc.death_troll_thrower2",
+        "npc.death_troll_thrower3",
+        "npc.death_troll_thrower4",
+        "npc.death_troll_thrower5"
       ],
       "combatLevel" : 67,
       "hitpoints" : 95,

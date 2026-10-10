@@ -1,0 +1,57 @@
+{
+  "page" : "I DSCIM YOU",
+  "versions" : [
+    {
+      "source" : "I DSCIM YOU#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15553
+      ],
+      "names" : [
+        "npc.deadman_breach_dscim_npc"
+      ],
+      "combatLevel" : 495,
+      "hitpoints" : 1500,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 25, "ranged" : 25, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    },
+    {
+      "source" : "I DSCIM YOU#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15553
+      ],
+      "names" : [
+        "npc.deadman_breach_dscim_npc"
+      ],
+      "combatLevel" : 307,
+      "hitpoints" : 750,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 150, "strength" : 200, "defence" : 25, "ranged" : 25, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 50, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 50 }
+    }
+  ]
+}

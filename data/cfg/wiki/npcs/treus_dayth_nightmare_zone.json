@@ -8,7 +8,7 @@
         6298
       ],
       "names" : [
-        "npc.treus_dayth_hard"
+        "npc.nzone_hauntedmine_boss_ghost_hard"
       ],
       "combatLevel" : 194,
       "hitpoints" : 240,
@@ -37,7 +37,7 @@
         6359
       ],
       "names" : [
-        "npc.treus_dayth_6359"
+        "npc.nzone_hauntedmine_boss_ghost_normal"
       ],
       "combatLevel" : 95,
       "hitpoints" : 100,

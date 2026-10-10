@@ -1,0 +1,59 @@
+{
+  "page" : "Elder aquanite",
+  "versions" : [
+    {
+      "source" : "Elder aquanite#Lure",
+      "version" : "Lure",
+      "ids" : [
+        15502
+      ],
+      "names" : [
+        "npc.superior_aquanite"
+      ],
+      "combatLevel" : 305,
+      "hitpoints" : 400,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 180, "ranged" : 1, "magic" : 330 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 140, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 50 },
+      "maxHits" : [
+        "34 (normal)",
+        "50 (special attack)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 78, "xp" : 4200.0, "categories" : [ "Aquanite" ], "assignedBy" : [ "duradel", "mortimer", "nieve" ] }
+    },
+    {
+      "source" : "Elder aquanite#No lure",
+      "version" : "No lure",
+      "ids" : [
+        15503
+      ],
+      "names" : [
+        "npc.superior_aquanite_nolure"
+      ],
+      "combatLevel" : 305,
+      "hitpoints" : 400,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 180, "ranged" : 1, "magic" : 330 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 80, "crushDefence" : 80, "magicDefence" : 140, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "34 (normal)",
+        "50 (special attack)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : false, "cannon" : true, "thrall" : false },
+      "slayer" : { "level" : 78, "xp" : 4200.0, "categories" : [ "Aquanite" ], "assignedBy" : [ "duradel", "mortimer", "nieve" ] }
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         468
       ],
       "names" : [
-        "npc.skeletal_wyvern_468"
+        "npc.skeletal_wyvern4"
       ],
       "combatLevel" : 140,
       "hitpoints" : 200,
@@ -43,7 +43,7 @@
         465
       ],
       "names" : [
-        "npc.skeletal_wyvern_465"
+        "npc.skeletal_wyvern1"
       ],
       "combatLevel" : 140,
       "hitpoints" : 200,
@@ -78,7 +78,7 @@
         466
       ],
       "names" : [
-        "npc.skeletal_wyvern_466"
+        "npc.skeletal_wyvern2"
       ],
       "combatLevel" : 140,
       "hitpoints" : 200,
@@ -113,7 +113,7 @@
         467
       ],
       "names" : [
-        "npc.skeletal_wyvern_467"
+        "npc.skeletal_wyvern3"
       ],
       "combatLevel" : 140,
       "hitpoints" : 200,

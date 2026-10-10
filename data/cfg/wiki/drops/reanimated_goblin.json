@@ -7,10 +7,10 @@
         7018
       ],
       "always" : [
-        { "item" : 7812, "name" : "item.goblin_skull", "min" : 1, "max" : 1 }
+        { "item" : 7812, "name" : "item.rag_goblin_bone", "min" : 1, "max" : 1 }
       ],
       "tertiary" : [
-        { "item" : 6801, "name" : "item.goblin_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+        { "item" : 6801, "name" : "item.champions_challenge_goblin", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
       ]
     }
   ]

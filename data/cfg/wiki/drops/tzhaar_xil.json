@@ -16,11 +16,11 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "4/512" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "8/512" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "16/512" },
-        { "item" : 6522, "name" : "item.toktzxilul", "min" : 10, "max" : 29, "chance" : [ 1, 512 ], "wiki" : "4/2,048" },
-        { "item" : 6523, "name" : "item.toktzxilak", "min" : 1, "max" : 1, "chance" : [ 3, 2048 ], "wiki" : "3/2,048" },
-        { "item" : 6525, "name" : "item.toktzxilek", "min" : 1, "max" : 1, "chance" : [ 3, 2048 ], "wiki" : "3/2,048" },
-        { "item" : 6529, "name" : "item.tokkul", "min" : 1, "max" : 32, "chance" : [ 9, 16 ], "wiki" : "72/128" },
-        { "item" : 6568, "name" : "item.obsidian_cape", "min" : 1, "max" : 1, "chance" : [ 3, 1024 ], "wiki" : "6/2,048" }
+        { "item" : 6522, "name" : "item.tzhaar_throwingring", "min" : 10, "max" : 29, "chance" : [ 1, 512 ], "wiki" : "4/2,048" },
+        { "item" : 6523, "name" : "item.tzhaar_splitsword", "min" : 1, "max" : 1, "chance" : [ 3, 2048 ], "wiki" : "3/2,048" },
+        { "item" : 6525, "name" : "item.tzhaar_knife", "min" : 1, "max" : 1, "chance" : [ 3, 2048 ], "wiki" : "3/2,048" },
+        { "item" : 6529, "name" : "item.tzhaar_token", "min" : 1, "max" : 32, "chance" : [ 9, 16 ], "wiki" : "72/128" },
+        { "item" : 6568, "name" : "item.tzhaar_cape_obsidian", "min" : 1, "max" : 1, "chance" : [ 3, 1024 ], "wiki" : "6/2,048" }
       ]
     }
   ]

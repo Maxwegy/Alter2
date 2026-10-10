@@ -1,0 +1,14 @@
+{
+  "page" : "Emissary Enforcer",
+  "tables" : [
+    {
+      "source" : "Emissary Enforcer",
+      "npcIds" : [
+        14268
+      ],
+      "always" : [
+        { "item" : 30949, "name" : "item.vmq4_cult_manifest", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

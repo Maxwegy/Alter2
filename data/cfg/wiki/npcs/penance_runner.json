@@ -9,8 +9,8 @@
         5748
       ],
       "names" : [
-        "npc.penance_runner",
-        "npc.penance_runner_5748"
+        "npc.barbassault_pen_runner_tutor",
+        "npc.barbassault_pen_runner_lv1"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -33,7 +33,7 @@
         5749
       ],
       "names" : [
-        "npc.penance_runner_5749"
+        "npc.barbassault_pen_runner_lv2"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -56,7 +56,7 @@
         5750
       ],
       "names" : [
-        "npc.penance_runner_5750"
+        "npc.barbassault_pen_runner_lv3"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -79,7 +79,7 @@
         5751
       ],
       "names" : [
-        "npc.penance_runner_5751"
+        "npc.barbassault_pen_runner_lv4"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -102,7 +102,7 @@
         5752
       ],
       "names" : [
-        "npc.penance_runner_5752"
+        "npc.barbassault_pen_runner_lv5"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -125,7 +125,7 @@
         5753
       ],
       "names" : [
-        "npc.penance_runner_5753"
+        "npc.barbassault_pen_runner_lv6"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -148,7 +148,7 @@
         5754
       ],
       "names" : [
-        "npc.penance_runner_5754"
+        "npc.barbassault_pen_runner_lv7"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -171,7 +171,7 @@
         5755
       ],
       "names" : [
-        "npc.penance_runner_5755"
+        "npc.barbassault_pen_runner_lv8"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,
@@ -194,7 +194,7 @@
         5756
       ],
       "names" : [
-        "npc.penance_runner_5756"
+        "npc.barbassault_pen_runner_lv9"
       ],
       "hitpoints" : 5,
       "attackSpeed" : -1,

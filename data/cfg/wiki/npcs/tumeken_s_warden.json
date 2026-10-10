@@ -9,8 +9,8 @@
         11757
       ],
       "names" : [
-        "npc.tumekens_warden_11756",
-        "npc.tumekens_warden_11757"
+        "npc.toa_warden_tumeken_phase2_mage",
+        "npc.toa_warden_tumeken_phase2_range"
       ],
       "combatLevel" : 489,
       "hitpoints" : 140,
@@ -38,7 +38,7 @@
         11758
       ],
       "names" : [
-        "npc.tumekens_warden_11758"
+        "npc.toa_warden_tumeken_phase2_exposed"
       ],
       "combatLevel" : 489,
       "hitpoints" : 4500,
@@ -66,7 +66,7 @@
         11762
       ],
       "names" : [
-        "npc.tumekens_warden_11762"
+        "npc.toa_warden_tumeken_phase3"
       ],
       "combatLevel" : 544,
       "hitpoints" : 880,
@@ -94,7 +94,7 @@
         11762
       ],
       "names" : [
-        "npc.tumekens_warden_11762"
+        "npc.toa_warden_tumeken_phase3"
       ],
       "combatLevel" : 544,
       "hitpoints" : 880,
@@ -122,7 +122,7 @@
         11764
       ],
       "names" : [
-        "npc.tumekens_warden_11764"
+        "npc.toa_warden_tumeken_phase3_charging"
       ],
       "combatLevel" : 544,
       "hitpoints" : 880,

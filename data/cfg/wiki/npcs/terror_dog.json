@@ -8,7 +8,7 @@
         6474
       ],
       "names" : [
-        "npc.terror_dog_6474"
+        "npc.lotr_terror_dog_small"
       ],
       "combatLevel" : 100,
       "hitpoints" : 82,
@@ -35,7 +35,7 @@
         6473
       ],
       "names" : [
-        "npc.terror_dog_6473"
+        "npc.lotr_terror_dog_large"
       ],
       "combatLevel" : 110,
       "hitpoints" : 87,

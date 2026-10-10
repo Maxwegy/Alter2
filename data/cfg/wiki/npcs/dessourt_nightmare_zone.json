@@ -8,7 +8,7 @@
         6311
       ],
       "names" : [
-        "npc.dessourt_hard"
+        "npc.nzone_hundred_minion4_hard"
       ],
       "combatLevel" : 217,
       "hitpoints" : 255,
@@ -37,7 +37,7 @@
         6372
       ],
       "names" : [
-        "npc.dessourt_6372"
+        "npc.nzone_hundred_minion4_normal"
       ],
       "combatLevel" : 121,
       "hitpoints" : 130,

@@ -11,10 +11,10 @@
         10789
       ],
       "names" : [
-        "npc.nylocas_vasilias_10786",
-        "npc.nylocas_vasilias_10787",
-        "npc.nylocas_vasilias_10788",
-        "npc.nylocas_vasilias_10789"
+        "npc.nylocas_boss_spawning_story",
+        "npc.nylocas_boss_melee_story",
+        "npc.nylocas_boss_magic_story",
+        "npc.nylocas_boss_ranged_story"
       ],
       "combatLevel" : 301,
       "hitpoints" : 1440,
@@ -45,10 +45,10 @@
         10810
       ],
       "names" : [
-        "npc.nylocas_vasilias_10807",
-        "npc.nylocas_vasilias_10808",
-        "npc.nylocas_vasilias_10809",
-        "npc.nylocas_vasilias_10810"
+        "npc.nylocas_boss_spawning_hard",
+        "npc.nylocas_boss_melee_hard",
+        "npc.nylocas_boss_magic_hard",
+        "npc.nylocas_boss_ranged_hard"
       ],
       "combatLevel" : 800,
       "hitpoints" : 2500,
@@ -79,10 +79,10 @@
         8357
       ],
       "names" : [
-        "npc.nylocas_vasilias",
-        "npc.nylocas_vasilias_8355",
-        "npc.nylocas_vasilias_8356",
-        "npc.nylocas_vasilias_8357"
+        "npc.nylocas_boss_spawning",
+        "npc.nylocas_boss_melee",
+        "npc.nylocas_boss_magic",
+        "npc.nylocas_boss_ranged"
       ],
       "combatLevel" : 800,
       "hitpoints" : 2500,

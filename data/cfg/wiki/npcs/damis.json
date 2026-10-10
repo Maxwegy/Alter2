@@ -8,7 +8,7 @@
         682
       ],
       "names" : [
-        "npc.damis"
+        "npc.fd_damis_normal"
       ],
       "combatLevel" : 103,
       "hitpoints" : 90,
@@ -33,7 +33,7 @@
         683
       ],
       "names" : [
-        "npc.damis_683"
+        "npc.fd_damis_tougher"
       ],
       "combatLevel" : 174,
       "hitpoints" : 200,

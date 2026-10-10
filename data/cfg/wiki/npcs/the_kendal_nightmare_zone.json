@@ -8,7 +8,7 @@
         6322
       ],
       "names" : [
-        "npc.the_kendal_hard"
+        "npc.nzone_mdaughter_bearman_fighter_hard"
       ],
       "combatLevel" : 210,
       "hitpoints" : 150,
@@ -33,7 +33,7 @@
         6383
       ],
       "names" : [
-        "npc.the_kendal_6383"
+        "npc.nzone_mdaughter_bearman_fighter_normal"
       ],
       "combatLevel" : 70,
       "hitpoints" : 50,

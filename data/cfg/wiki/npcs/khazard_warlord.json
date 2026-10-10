@@ -8,8 +8,8 @@
         7622
       ],
       "names" : [
-        "npc.khazard_warlord_7621",
-        "npc.khazard_warlord_7622"
+        "npc.khazard_warlord_chat",
+        "npc.khazard_warlord_combat"
       ],
       "combatLevel" : 112,
       "hitpoints" : 170,

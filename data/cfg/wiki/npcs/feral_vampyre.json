@@ -8,7 +8,7 @@
         5641
       ],
       "names" : [
-        "npc.feral_vampyre_5641"
+        "npc.trek_vampire_juve_angry_2"
       ],
       "combatLevel" : 100,
       "hitpoints" : 135,
@@ -37,7 +37,7 @@
         5642
       ],
       "names" : [
-        "npc.feral_vampyre_5642"
+        "npc.trek_vampire_juve_angry_3"
       ],
       "combatLevel" : 130,
       "hitpoints" : 185,
@@ -66,7 +66,7 @@
         3237
       ],
       "names" : [
-        "npc.feral_vampyre_3237"
+        "npc.vampire_juve"
       ],
       "combatLevel" : 61,
       "hitpoints" : 40,
@@ -96,7 +96,7 @@
         4431
       ],
       "names" : [
-        "npc.feral_vampyre_4431"
+        "npc.burgh_vampire_juve_angry"
       ],
       "combatLevel" : 64,
       "hitpoints" : 80,
@@ -126,8 +126,8 @@
         3708
       ],
       "names" : [
-        "npc.feral_vampyre_3707",
-        "npc.feral_vampyre_3708"
+        "npc.myq3_angry_juvenile",
+        "npc.myq3_angry_juvinate"
       ],
       "combatLevel" : 64,
       "hitpoints" : 80,
@@ -156,7 +156,7 @@
         5640
       ],
       "names" : [
-        "npc.feral_vampyre_5640"
+        "npc.trek_vampire_juve_angry_1"
       ],
       "combatLevel" : 70,
       "hitpoints" : 75,
@@ -185,7 +185,7 @@
         3234
       ],
       "names" : [
-        "npc.feral_vampyre_3234"
+        "npc.vampire_flyer"
       ],
       "combatLevel" : 72,
       "hitpoints" : 50,
@@ -214,7 +214,7 @@
         3137
       ],
       "names" : [
-        "npc.feral_vampyre"
+        "npc.godwars_ancient_vampire"
       ],
       "combatLevel" : 77,
       "hitpoints" : 60,

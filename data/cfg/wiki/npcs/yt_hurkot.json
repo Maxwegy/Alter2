@@ -8,7 +8,7 @@
         3128
       ],
       "names" : [
-        "npc.ythurkot"
+        "npc.tzhaar_fightcave_swarm_boss_cleric"
       ],
       "combatLevel" : 108,
       "hitpoints" : 60,
@@ -37,9 +37,9 @@
         10624
       ],
       "names" : [
-        "npc.ythurkot_7701",
-        "npc.ythurkot_7705",
-        "npc.ythurkot_10624"
+        "npc.inferno_jad_healer",
+        "npc.inferno_jad_healer_finalwave",
+        "npc.jad_challenge_healer"
       ],
       "combatLevel" : 141,
       "hitpoints" : 90,

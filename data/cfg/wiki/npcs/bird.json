@@ -8,7 +8,7 @@
         5240
       ],
       "names" : [
-        "npc.bird"
+        "npc.mm_jungle_bird_green"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -37,8 +37,8 @@
         10541
       ],
       "names" : [
-        "npc.bird_5241",
-        "npc.bird_10541"
+        "npc.mm_jungle_bird_blue",
+        "npc.sw_bird_blue"
       ],
       "combatLevel" : 5,
       "hitpoints" : 5,

@@ -8,7 +8,7 @@
         1280
       ],
       "always" : [
-        { "item" : 3398, "name" : "item.phrin_remains", "min" : 1, "max" : 1 }
+        { "item" : 3398, "name" : "item.shade_bones2", "min" : 1, "max" : 1 }
       ]
     }
   ]

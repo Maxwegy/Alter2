@@ -1,0 +1,78 @@
+{
+  "page" : "Yama",
+  "tables" : [
+    {
+      "source" : "Yama",
+      "npcIds" : [
+        14176
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 139, "name" : "item.3doseprayerrestore", "min" : 2, "max" : 2, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 554, "name" : "item.firerune", "min" : 40000, "max" : 40000, "chance" : [ 100, 9511 ], "wiki" : "1/95.11" },
+        { "item" : 563, "name" : "item.lawrune", "min" : 150, "max" : 150, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 565, "name" : "item.bloodrune", "min" : 400, "max" : 400, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 566, "name" : "item.soulrune", "min" : 500, "max" : 500, "chance" : [ 200, 9511 ], "wiki" : "2/95.11" },
+        { "item" : 566, "name" : "item.soulrune", "min" : 1000, "max" : 1000, "chance" : [ 200, 9511 ], "wiki" : "2/95.11" },
+        { "item" : 1114, "name" : "item.cert_rune_chainbody", "min" : 8, "max" : 8, "noted" : true, "chance" : [ 500, 9511 ], "wiki" : "5/95.11" },
+        { "item" : 1128, "name" : "item.cert_rune_platebody", "min" : 8, "max" : 8, "noted" : true, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 1392, "name" : "item.cert_battlestaff", "min" : 40, "max" : 40, "noted" : true, "chance" : [ 400, 9511 ], "wiki" : "4/95.11" },
+        { "item" : 1602, "name" : "item.cert_diamond", "min" : 40, "max" : 40, "noted" : true, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 1604, "name" : "item.cert_ruby", "min" : 40, "max" : 40, "noted" : true, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 1606, "name" : "item.cert_emerald", "min" : 40, "max" : 40, "noted" : true, "chance" : [ 300, 9511 ], "wiki" : "3/95.11" },
+        { "item" : 2301, "name" : "item.pineapple_pizza", "min" : 3, "max" : 4, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 4087, "name" : "item.dragon_platelegs", "min" : 1, "max" : 1, "chance" : [ 200, 9511 ], "wiki" : "2/95.11" },
+        { "item" : 4585, "name" : "item.dragon_plateskirt", "min" : 1, "max" : 1, "chance" : [ 200, 9511 ], "wiki" : "2/95.11" },
+        { "item" : 4697, "name" : "item.smokerune", "min" : 350, "max" : 350, "chance" : [ 200, 9511 ], "wiki" : "2/95.11" },
+        { "item" : 7208, "name" : "item.wild_pie", "min" : 3, "max" : 4, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 9194, "name" : "item.xbows_bolt_tips_onyx", "min" : 150, "max" : 150, "chance" : [ 100, 9511 ], "wiki" : "1/95.11" },
+        { "item" : 11493, "name" : "item.brutal_2dose2restore", "min" : 2, "max" : 2, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 11521, "name" : "item.brutal_2dosepotionofzamorak", "min" : 1, "max" : 1, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 12073, "name" : "item.trail_elite_emote_exp1", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "1/30" },
+        { "item" : 12701, "name" : "item.1dose2combat", "min" : 1, "max" : 1, "chance" : [ 750, 9511 ], "wiki" : "7.5/95.11" },
+        { "item" : 21880, "name" : "item.wrathrune", "min" : 800, "max" : 800, "chance" : [ 100, 9511 ], "wiki" : "1/95.11" },
+        { "item" : 30750, "name" : "item.oathplate_helm", "min" : 1, "max" : 1, "chance" : [ 1, 600 ], "wiki" : "1/600" },
+        { "item" : 30753, "name" : "item.oathplate_chest", "min" : 1, "max" : 1, "chance" : [ 1, 600 ], "wiki" : "1/600" },
+        { "item" : 30756, "name" : "item.oathplate_legs", "min" : 1, "max" : 1, "chance" : [ 1, 600 ], "wiki" : "1/600" },
+        { "item" : 30759, "name" : "item.soulflame_horn", "min" : 1, "max" : 1, "chance" : [ 1, 300 ], "wiki" : "2/600" },
+        { "item" : 30763, "name" : "item.forgotten_lockbox", "min" : 1, "max" : 1, "chance" : [ 1, 33 ], "wiki" : "1/33" },
+        { "item" : 30765, "name" : "item.oathplate_shards", "min" : 12, "max" : 12, "chance" : [ 100, 1707 ], "wiki" : "1/17.07" },
+        { "item" : 30771, "name" : "item.cosmic_soul_catalyst", "min" : 850, "max" : 850, "chance" : [ 700, 9511 ], "wiki" : "7/95.11" },
+        { "item" : 30773, "name" : "item.diabolic_worms", "min" : 90, "max" : 90, "chance" : [ 700, 9511 ], "wiki" : "7/95.11" },
+        { "item" : 30775, "name" : "item.teleportscroll_chasmoffire", "min" : 6, "max" : 6, "chance" : [ 400, 9511 ], "wiki" : "4/95.11" },
+        { "item" : 30795, "name" : "item.demonic_tallow_barrel_full", "min" : 1, "max" : 1, "chance" : [ 500, 9511 ], "wiki" : "5/95.11" },
+        { "item" : 30803, "name" : "item.yama_dossier", "min" : 1, "max" : 1, "chance" : [ 10, 121 ], "wiki" : "1/12.1" },
+        { "item" : 30888, "name" : "item.yamapet", "min" : 1, "max" : 1, "chance" : [ 1, 2500 ], "wiki" : "1/2,500" }
+      ]
+    },
+    {
+      "source" : "Yama#Contract",
+      "npcIds" : [
+        14176
+      ],
+      "always" : [
+        { "item" : 30750, "name" : "item.oathplate_helm", "min" : 1, "max" : 1 },
+        { "item" : 30753, "name" : "item.oathplate_chest", "min" : 1, "max" : 1 },
+        { "item" : 30756, "name" : "item.oathplate_legs", "min" : 1, "max" : 1 },
+        { "item" : 30759, "name" : "item.soulflame_horn", "min" : 1, "max" : 1 },
+        { "item" : 30765, "name" : "item.oathplate_shards", "min" : 45, "max" : 45 },
+        { "item" : 30771, "name" : "item.cosmic_soul_catalyst", "min" : 2000, "max" : 2000 },
+        { "item" : 30773, "name" : "item.diabolic_worms", "min" : 250, "max" : 250 },
+        { "item" : 30783, "name" : "item.purifying_sigil_left", "min" : 1, "max" : 1 },
+        { "item" : 30785, "name" : "item.purifying_sigil_right", "min" : 1, "max" : 1 },
+        { "item" : 30787, "name" : "item.purifying_sigil_middle", "min" : 1, "max" : 1 },
+        { "item" : 30789, "name" : "item.purifying_sigil_top", "min" : 1, "max" : 1 },
+        { "item" : 30791, "name" : "item.purifying_sigil_bottom", "min" : 1, "max" : 1 },
+        { "item" : 30810, "name" : "item.yama_special_contract", "min" : 1, "max" : 1 },
+        { "item" : 30813, "name" : "item.yama_spell_contract", "min" : 1, "max" : 1 },
+        { "item" : 30816, "name" : "item.yama_2h_contract", "min" : 1, "max" : 1 },
+        { "item" : 30819, "name" : "item.yama_heavyranged_contract", "min" : 1, "max" : 1 },
+        { "item" : 30822, "name" : "item.yama_binding_contract", "min" : 1, "max" : 1 },
+        { "item" : 30840, "name" : "item.yama_pet_contract", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 30888, "name" : "item.yamapet", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" }
+      ]
+    }
+  ]
+}

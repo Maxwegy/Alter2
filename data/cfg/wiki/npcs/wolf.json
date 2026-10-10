@@ -8,7 +8,7 @@
         2491
       ],
       "names" : [
-        "npc.wolf_2491"
+        "npc.sos_war_wolf2"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -36,7 +36,7 @@
         2490
       ],
       "names" : [
-        "npc.wolf_2490"
+        "npc.sos_war_wolf"
       ],
       "combatLevel" : 14,
       "hitpoints" : 15,
@@ -64,7 +64,7 @@
         110
       ],
       "names" : [
-        "npc.wolf_110"
+        "npc.pack_wolf_whiter"
       ],
       "combatLevel" : 25,
       "hitpoints" : 34,
@@ -120,7 +120,7 @@
         3912
       ],
       "names" : [
-        "npc.wolf_3912"
+        "npc.viking_wolf"
       ],
       "combatLevel" : 64,
       "hitpoints" : 69,

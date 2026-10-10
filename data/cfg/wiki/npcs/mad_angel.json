@@ -1,0 +1,71 @@
+{
+  "page" : "Mad Angel",
+  "versions" : [
+    {
+      "source" : "Mad Angel#Post-quest",
+      "version" : "Post-quest",
+      "ids" : [
+        16305,
+        16307
+      ],
+      "names" : [
+        "npc.mad_angel",
+        "npc.mad_angel_anim"
+      ],
+      "combatLevel" : 588,
+      "hitpoints" : 755,
+      "attackSpeed" : 6,
+      "respawnTicks" : 26,
+      "size" : 3,
+      "levels" : { "attack" : 150, "strength" : 230, "defence" : 175, "ranged" : 250, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 280, "rangedAttack" : 64, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 40, "magicDefence" : 185, "rangedDefence" : 185, "lightRangedDefence" : 205, "heavyRangedDefence" : 165, "attackBonus" : 200, "strengthBonus" : 11, "rangedStrength" : 6, "magicDamage" : 180 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Immune (strong)", "freeze" : "100% resistance" },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 15 }
+    },
+    {
+      "source" : "Mad Angel#Quest",
+      "version" : "Quest",
+      "ids" : [
+        16309,
+        16311
+      ],
+      "names" : [
+        "npc.mad_angel_quest",
+        "npc.mad_angel_anim_quest"
+      ],
+      "combatLevel" : 270,
+      "hitpoints" : 565,
+      "attackSpeed" : 6,
+      "respawnTicks" : 26,
+      "size" : 3,
+      "levels" : { "attack" : 100, "strength" : 160, "defence" : 125, "ranged" : 170, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 180, "rangedAttack" : 30, "stabDefence" : 40, "slashDefence" : 60, "crushDefence" : 20, "magicDefence" : 165, "rangedDefence" : 155, "lightRangedDefence" : 175, "heavyRangedDefence" : 135, "attackBonus" : 120, "strengthBonus" : 4, "rangedStrength" : 0, "magicDamage" : 140 },
+      "maxHits" : [
+        "31"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Immune (strong)", "freeze" : "100% resistance" },
+      "attributes" : [
+        "golem"
+      ],
+      "elementalWeakness" : { "element" : "Earth", "percent" : 15 }
+    }
+  ]
+}

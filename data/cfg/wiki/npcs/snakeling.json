@@ -8,7 +8,7 @@
         2046
       ],
       "names" : [
-        "npc.snakeling_2046"
+        "npc.snakeboss_minion_magic"
       ],
       "combatLevel" : 90,
       "hitpoints" : 1,
@@ -33,7 +33,7 @@
         2045
       ],
       "names" : [
-        "npc.snakeling"
+        "npc.snakeboss_minion_melee"
       ],
       "combatLevel" : 90,
       "hitpoints" : 1,

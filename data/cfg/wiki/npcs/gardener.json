@@ -8,7 +8,7 @@
         3276
       ],
       "names" : [
-        "npc.gardener_3276"
+        "npc.falador_gardener2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 7,
@@ -36,9 +36,9 @@
         5512
       ],
       "names" : [
-        "npc.gardener",
-        "npc.gardener_3651",
-        "npc.gardener_5512"
+        "npc.falador_gardener",
+        "npc.pirate_irate_gardener",
+        "npc.falador_gardener_diary"
       ],
       "combatLevel" : 4,
       "hitpoints" : 7,

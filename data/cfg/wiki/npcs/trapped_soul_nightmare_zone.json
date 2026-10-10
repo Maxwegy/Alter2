@@ -8,7 +8,7 @@
         8529
       ],
       "names" : [
-        "npc.trapped_soul_hard"
+        "npc.nzone_arceuusquest_soul_hard"
       ],
       "combatLevel" : 101,
       "hitpoints" : 98,
@@ -37,7 +37,7 @@
         8528
       ],
       "names" : [
-        "npc.trapped_soul_8528"
+        "npc.nzone_arceuusquest_soul_normal"
       ],
       "combatLevel" : 30,
       "hitpoints" : 30,

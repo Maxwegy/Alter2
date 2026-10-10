@@ -8,7 +8,7 @@
         6118
       ],
       "names" : [
-        "npc.elvarg_hard"
+        "npc.nzone_elvarg_hard"
       ],
       "combatLevel" : 214,
       "hitpoints" : 240,
@@ -39,7 +39,7 @@
         6349
       ],
       "names" : [
-        "npc.elvarg_6349"
+        "npc.nzone_elvarg_normal"
       ],
       "combatLevel" : 83,
       "hitpoints" : 80,

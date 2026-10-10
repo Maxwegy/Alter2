@@ -1,0 +1,80 @@
+{
+  "page" : "Zemouregal (Deadman)",
+  "versions" : [
+    {
+      "source" : "Zemouregal (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15237
+      ],
+      "names" : [
+        "npc.deadman_breach_lucien"
+      ],
+      "combatLevel" : 984,
+      "hitpoints" : 2500,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 125, "ranged" : 1, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 255, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23+"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Zemouregal (Deadman)#Deadman's chest",
+      "version" : "Deadman's chest",
+      "ids" : [
+        15564
+      ],
+      "names" : [
+        "npc.deadman_chest_zemouregal"
+      ],
+      "combatLevel" : 322,
+      "hitpoints" : 500,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 125, "ranged" : 1, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 255, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23+"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Zemouregal (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15237
+      ],
+      "names" : [
+        "npc.deadman_breach_lucien"
+      ],
+      "combatLevel" : 984,
+      "hitpoints" : 750,
+      "attackSpeed" : 7,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 125, "ranged" : 1, "magic" : 255 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : 30, "crushDefence" : 30, "magicDefence" : 255, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "23+"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

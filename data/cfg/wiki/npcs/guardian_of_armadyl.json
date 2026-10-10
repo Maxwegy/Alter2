@@ -8,7 +8,7 @@
         3446
       ],
       "names" : [
-        "npc.guardian_of_armadyl_3446"
+        "npc.ikov_guardianfemale"
       ],
       "combatLevel" : 43,
       "hitpoints" : 40,
@@ -34,7 +34,7 @@
         3445
       ],
       "names" : [
-        "npc.guardian_of_armadyl"
+        "npc.ikov_guardianmale"
       ],
       "combatLevel" : 45,
       "hitpoints" : 50,

@@ -1,0 +1,32 @@
+{
+  "page" : "Strange creature (Shadows of Custodia)",
+  "versions" : [
+    {
+      "source" : "Strange creature (Shadows of Custodia)",
+      "ids" : [
+        14706
+      ],
+      "names" : [
+        "npc.soc_quest_juvenile"
+      ],
+      "combatLevel" : 93,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 95, "strength" : 55, "defence" : 45, "ranged" : 1, "magic" : 25 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 5, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : -10, "crushDefence" : 50, "magicDefence" : 35, "rangedDefence" : 5, "lightRangedDefence" : -10, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Bleed"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 54, "xp" : 100.0, "categories" : [ "Custodian Stalker" ], "assignedBy" : [ "chaeldar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "page" : "Hammerhead shark",
+  "versions" : [
+    {
+      "source" : "Hammerhead shark",
+      "ids" : [
+        15196
+      ],
+      "names" : [
+        "npc.sailing_hammerhead_shark"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 125,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 65, "defence" : 50, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 20, "lightRangedDefence" : 100, "heavyRangedDefence" : 40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

@@ -11,10 +11,10 @@
         10800
       ],
       "names" : [
-        "npc.nylocas_ischyros_8345",
-        "npc.nylocas_ischyros_8351",
-        "npc.nylocas_ischyros_10794",
-        "npc.nylocas_ischyros_10800"
+        "npc.tob_nylocas_big_incoming_melee",
+        "npc.tob_nylocas_big_fighting_melee",
+        "npc.tob_nylocas_big_incoming_melee_hard",
+        "npc.tob_nylocas_big_fighting_melee_hard"
       ],
       "combatLevel" : 260,
       "hitpoints" : 22,
@@ -41,8 +41,8 @@
         10783
       ],
       "names" : [
-        "npc.nylocas_ischyros_10777",
-        "npc.nylocas_ischyros_10783"
+        "npc.tob_nylocas_big_incoming_melee_story",
+        "npc.tob_nylocas_big_fighting_melee_story"
       ],
       "combatLevel" : 82,
       "hitpoints" : 3,
@@ -71,10 +71,10 @@
         10797
       ],
       "names" : [
-        "npc.nylocas_ischyros_8342",
-        "npc.nylocas_ischyros_8348",
-        "npc.nylocas_ischyros_10791",
-        "npc.nylocas_ischyros_10797"
+        "npc.tob_nylocas_incoming_melee",
+        "npc.tob_nylocas_fighting_melee",
+        "npc.tob_nylocas_incoming_melee_hard",
+        "npc.tob_nylocas_fighting_melee_hard"
       ],
       "combatLevel" : 162,
       "hitpoints" : 11,
@@ -101,8 +101,8 @@
         10780
       ],
       "names" : [
-        "npc.nylocas_ischyros_10774",
-        "npc.nylocas_ischyros_10780"
+        "npc.tob_nylocas_incoming_melee_story",
+        "npc.tob_nylocas_fighting_melee_story"
       ],
       "combatLevel" : 46,
       "hitpoints" : 2,
@@ -129,8 +129,8 @@
         10858
       ],
       "names" : [
-        "npc.nylocas_ischyros_8381",
-        "npc.nylocas_ischyros_10858"
+        "npc.verzik_nylocas_melee",
+        "npc.verzik_nylocas_melee_hard"
       ],
       "combatLevel" : 162,
       "hitpoints" : 25,
@@ -152,7 +152,7 @@
         10841
       ],
       "names" : [
-        "npc.nylocas_ischyros_10841"
+        "npc.verzik_nylocas_melee_story"
       ],
       "combatLevel" : 46,
       "hitpoints" : 3,

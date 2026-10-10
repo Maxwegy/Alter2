@@ -403,7 +403,7 @@ object RangedCombatFormula : CombatFormula {
                 val opal =
                     player.hasEquipped(
                         EquipmentType.AMMO,
-                        "item.opal_bolts",
+                        "item.opal_bolts__228",
                         "item.opal_bolts_e",
                         "item.opal_dragon_bolts",
                         "item.opal_dragon_bolts_e",
@@ -411,7 +411,7 @@ object RangedCombatFormula : CombatFormula {
                 val pearl =
                     player.hasEquipped(
                         EquipmentType.AMMO,
-                        "item.pearl_bolts",
+                        "item.pearl_bolts__228",
                         "item.pearl_bolts_e",
                         "item.pearl_dragon_bolts",
                         "item.pearl_dragon_bolts_e",

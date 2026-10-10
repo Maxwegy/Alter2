@@ -1,0 +1,29 @@
+{
+  "page" : "Snakeling (Sea charting)",
+  "versions" : [
+    {
+      "source" : "Snakeling (Sea charting)",
+      "ids" : [
+        15163
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_crate_snake_gravy_effect_snakeling"
+      ],
+      "combatLevel" : 90,
+      "hitpoints" : 1,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 185 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 80, "rangedAttack" : 0, "stabDefence" : -40, "slashDefence" : -40, "crushDefence" : -40, "magicDefence" : -40, "rangedDefence" : -40, "lightRangedDefence" : -40, "heavyRangedDefence" : -40, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : -20 },
+      "maxHits" : [
+        "13"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

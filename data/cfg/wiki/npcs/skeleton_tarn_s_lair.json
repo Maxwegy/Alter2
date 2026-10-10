@@ -8,7 +8,7 @@
         6448
       ],
       "names" : [
-        "npc.skeleton_6448"
+        "npc.lotr_skeleton_miner1"
       ],
       "combatLevel" : 40,
       "hitpoints" : 26,
@@ -39,7 +39,7 @@
         6446
       ],
       "names" : [
-        "npc.skeleton_6446"
+        "npc.lotr_skeleton_lvl_21"
       ],
       "combatLevel" : 42,
       "hitpoints" : 42,
@@ -70,7 +70,7 @@
         6444
       ],
       "names" : [
-        "npc.skeleton_6444"
+        "npc.lotr_skeleton_lvl_25"
       ],
       "combatLevel" : 42,
       "hitpoints" : 40,
@@ -101,7 +101,7 @@
         6445
       ],
       "names" : [
-        "npc.skeleton_6445"
+        "npc.lotr_skeleton_lvl_22"
       ],
       "combatLevel" : 59,
       "hitpoints" : 53,
@@ -132,7 +132,7 @@
         6447
       ],
       "names" : [
-        "npc.skeleton_6447"
+        "npc.lotr_skeleton_lvl_13"
       ],
       "combatLevel" : 63,
       "hitpoints" : 58,
@@ -163,7 +163,7 @@
         6467
       ],
       "names" : [
-        "npc.skeleton_6467"
+        "npc.lotr_skeleton_possesed_1"
       ],
       "combatLevel" : 72,
       "hitpoints" : 69,
@@ -193,7 +193,7 @@
         6442
       ],
       "names" : [
-        "npc.skeleton_6442"
+        "npc.lotr_skeleton_lvl_77"
       ],
       "combatLevel" : 77,
       "hitpoints" : 80,
@@ -224,7 +224,7 @@
         6443
       ],
       "names" : [
-        "npc.skeleton_6443"
+        "npc.lotr_skeleton_lvl_45"
       ],
       "combatLevel" : 81,
       "hitpoints" : 71,
@@ -255,7 +255,7 @@
         6468
       ],
       "names" : [
-        "npc.skeleton_6468"
+        "npc.lotr_skeleton_possesed_2"
       ],
       "combatLevel" : 87,
       "hitpoints" : 92,

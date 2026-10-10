@@ -8,7 +8,7 @@
         2536
       ],
       "names" : [
-        "npc.ham_guard"
+        "npc.favour_guard_male_no_beard"
       ],
       "combatLevel" : 12,
       "hitpoints" : 15,
@@ -34,7 +34,7 @@
         2537
       ],
       "names" : [
-        "npc.ham_guard_2537"
+        "npc.favour_guard_male_bearded"
       ],
       "combatLevel" : 18,
       "hitpoints" : 20,
@@ -60,7 +60,7 @@
         2538
       ],
       "names" : [
-        "npc.ham_guard_2538"
+        "npc.favour_guard_long_beard"
       ],
       "combatLevel" : 22,
       "hitpoints" : 30,

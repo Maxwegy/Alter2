@@ -1,0 +1,36 @@
+{
+  "page" : "Frigatebird",
+  "tables" : [
+    {
+      "source" : "Frigatebird",
+      "npcIds" : [
+        15226
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 314, "name" : "item.feather", "min" : 300, "max" : 500, "chance" : [ 9, 25 ], "wiki" : "18/50" },
+        { "item" : 371, "name" : "item.raw_swordfish", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 377, "name" : "item.raw_lobster", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "2/50" },
+        { "item" : 1603, "name" : "item.ruby", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 1641, "name" : "item.ruby_ring", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "5/50" },
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 170 ], "wiki" : "1/170", "approx" : true },
+        { "item" : 5070, "name" : "item.bird_nest_egg_red", "min" : 1, "max" : 1, "chance" : [ 1, 1250 ], "wiki" : "1/1,250" },
+        { "item" : 5071, "name" : "item.bird_nest_egg_green", "min" : 1, "max" : 1, "chance" : [ 1, 1250 ], "wiki" : "1/1,250" },
+        { "item" : 5072, "name" : "item.bird_nest_egg_blue", "min" : 1, "max" : 1, "chance" : [ 1, 1250 ], "wiki" : "1/1,250" },
+        { "item" : 5074, "name" : "item.bird_nest_ring", "min" : 1, "max" : 1, "chance" : [ 10, 391 ], "wiki" : "1/39.1" },
+        { "item" : 6047, "name" : "item.maple_roots", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "2/50" },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 1, "max" : 1, "chance" : [ 9, 250 ], "wiki" : "18/500" },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 1, "chance" : [ 9, 500 ], "wiki" : "9/500" },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 1, "chance" : [ 3, 500 ], "wiki" : "3/500" },
+        { "item" : 31541, "name" : "item.flax_seed", "min" : 1, "max" : 1, "chance" : [ 3, 50 ], "wiki" : "30/500" },
+        { "item" : 31543, "name" : "item.hemp_seed", "min" : 1, "max" : 1, "chance" : [ 9, 250 ], "wiki" : "18/500" },
+        { "item" : 31545, "name" : "item.cotton_seed", "min" : 1, "max" : 1, "chance" : [ 3, 125 ], "wiki" : "12/500" },
+        { "item" : 32825, "name" : "item.sailing_frigatebird_feather", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 32844, "name" : "item.sailing_frigatebird_beak", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" }
+      ]
+    }
+  ]
+}

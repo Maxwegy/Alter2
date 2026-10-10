@@ -8,7 +8,7 @@
         7423
       ],
       "names" : [
-        "npc.zamorak_mage_7423"
+        "npc.rc_zmi_mage2"
       ],
       "combatLevel" : 82,
       "hitpoints" : 50,
@@ -34,7 +34,7 @@
         7422
       ],
       "names" : [
-        "npc.zamorak_mage"
+        "npc.rc_zmi_mage"
       ],
       "combatLevel" : 84,
       "hitpoints" : 50,

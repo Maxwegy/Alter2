@@ -8,7 +8,7 @@
         8851
       ],
       "names" : [
-        "npc.knight_of_ardougne_8851"
+        "npc.sote_knight"
       ],
       "combatLevel" : 27,
       "hitpoints" : 40,
@@ -33,7 +33,7 @@
         8852
       ],
       "names" : [
-        "npc.knight_of_ardougne_8852"
+        "npc.sote_knight2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 54,

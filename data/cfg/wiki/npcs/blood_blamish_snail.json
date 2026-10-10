@@ -8,7 +8,7 @@
         2650
       ],
       "names" : [
-        "npc.blood_blamish_snail_2650"
+        "npc.mmsnailpoint_red+black"
       ],
       "combatLevel" : 20,
       "hitpoints" : 10,
@@ -35,7 +35,7 @@
         2645
       ],
       "names" : [
-        "npc.blood_blamish_snail"
+        "npc.mmsnailround_red+black"
       ],
       "combatLevel" : 20,
       "hitpoints" : 13,

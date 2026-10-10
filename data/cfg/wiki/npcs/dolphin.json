@@ -1,0 +1,29 @@
+{
+  "page" : "Dolphin",
+  "versions" : [
+    {
+      "source" : "Dolphin",
+      "ids" : [
+        15234
+      ],
+      "names" : [
+        "npc.sailing_dolphin"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 45,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 25, "strength" : 10, "defence" : 0, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 15, "lightRangedDefence" : 15, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

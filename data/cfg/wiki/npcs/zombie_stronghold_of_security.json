@@ -8,7 +8,7 @@
         2501
       ],
       "names" : [
-        "npc.zombie_2501"
+        "npc.sos_fam_zombie_unarmed"
       ],
       "combatLevel" : 30,
       "hitpoints" : 30,
@@ -39,7 +39,7 @@
         2502
       ],
       "names" : [
-        "npc.zombie_2502"
+        "npc.sos_fam_zombie_unarmed2"
       ],
       "combatLevel" : 30,
       "hitpoints" : 30,
@@ -70,7 +70,7 @@
         2503
       ],
       "names" : [
-        "npc.zombie_2503"
+        "npc.sos_fam_zombie_unarmed3"
       ],
       "combatLevel" : 30,
       "hitpoints" : 30,
@@ -101,7 +101,7 @@
         2504
       ],
       "names" : [
-        "npc.zombie_2504"
+        "npc.sos_fam_zombie2"
       ],
       "combatLevel" : 44,
       "hitpoints" : 40,
@@ -132,7 +132,7 @@
         2505
       ],
       "names" : [
-        "npc.zombie_2505"
+        "npc.sos_fam_zombie2_b"
       ],
       "combatLevel" : 44,
       "hitpoints" : 40,
@@ -163,7 +163,7 @@
         2506
       ],
       "names" : [
-        "npc.zombie_2506"
+        "npc.sos_fam_zombie2_c"
       ],
       "combatLevel" : 44,
       "hitpoints" : 40,
@@ -194,7 +194,7 @@
         2507
       ],
       "names" : [
-        "npc.zombie_2507"
+        "npc.sos_fam_zombie_armed"
       ],
       "combatLevel" : 53,
       "hitpoints" : 50,
@@ -225,7 +225,7 @@
         2508
       ],
       "names" : [
-        "npc.zombie_2508"
+        "npc.sos_fam_zombie_armed2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 50,
@@ -256,7 +256,7 @@
         2509
       ],
       "names" : [
-        "npc.zombie_2509"
+        "npc.sos_fam_zombie_armed3"
       ],
       "combatLevel" : 53,
       "hitpoints" : 50,

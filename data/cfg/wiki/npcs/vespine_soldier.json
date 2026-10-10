@@ -9,8 +9,8 @@
         7539
       ],
       "names" : [
-        "npc.vespine_soldier",
-        "npc.vespine_soldier_7539"
+        "npc.raids_vespula_vespine_flying",
+        "npc.raids_vespula_vespine_walking"
       ],
       "hitpoints" : 150,
       "attackSpeed" : 4,
@@ -39,8 +39,8 @@
         7539
       ],
       "names" : [
-        "npc.vespine_soldier",
-        "npc.vespine_soldier_7539"
+        "npc.raids_vespula_vespine_flying",
+        "npc.raids_vespula_vespine_walking"
       ],
       "hitpoints" : 100,
       "attackSpeed" : 4,

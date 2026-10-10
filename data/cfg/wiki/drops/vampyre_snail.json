@@ -1,0 +1,14 @@
+{
+  "page" : "Vampyre Snail",
+  "tables" : [
+    {
+      "source" : "Vampyre Snail",
+      "npcIds" : [
+        16344
+      ],
+      "always" : [
+        { "item" : 34063, "name" : "item.snelm_vampyre", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

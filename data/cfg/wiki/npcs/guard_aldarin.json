@@ -8,7 +8,7 @@
         13986
       ],
       "names" : [
-        "npc.guard_13986"
+        "npc.aldarin_guard_m_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -33,7 +33,7 @@
         13995
       ],
       "names" : [
-        "npc.guard_13995"
+        "npc.aldarin_guard_f_5"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -58,7 +58,7 @@
         13987
       ],
       "names" : [
-        "npc.guard_13987"
+        "npc.aldarin_guard_m_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -83,7 +83,7 @@
         13988
       ],
       "names" : [
-        "npc.guard_13988"
+        "npc.aldarin_guard_m_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -108,7 +108,7 @@
         13989
       ],
       "names" : [
-        "npc.guard_13989"
+        "npc.aldarin_guard_m_4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -133,7 +133,7 @@
         13990
       ],
       "names" : [
-        "npc.guard_13990"
+        "npc.aldarin_guard_m_5"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -158,7 +158,7 @@
         13991
       ],
       "names" : [
-        "npc.guard_13991"
+        "npc.aldarin_guard_f_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -183,7 +183,7 @@
         13992
       ],
       "names" : [
-        "npc.guard_13992"
+        "npc.aldarin_guard_f_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -208,7 +208,7 @@
         13993
       ],
       "names" : [
-        "npc.guard_13993"
+        "npc.aldarin_guard_f_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -233,7 +233,7 @@
         13994
       ],
       "names" : [
-        "npc.guard_13994"
+        "npc.aldarin_guard_f_4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

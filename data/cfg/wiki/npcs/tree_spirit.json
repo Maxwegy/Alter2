@@ -8,7 +8,7 @@
         1865
       ],
       "names" : [
-        "npc.tree_spirit_1865"
+        "npc.fairy2_dryhadguardian_5"
       ],
       "combatLevel" : 120,
       "hitpoints" : 120,
@@ -34,7 +34,7 @@
         1861
       ],
       "names" : [
-        "npc.tree_spirit_1861"
+        "npc.fairy2_dryhadguardian_1"
       ],
       "combatLevel" : 14,
       "hitpoints" : 25,
@@ -60,7 +60,7 @@
         1866
       ],
       "names" : [
-        "npc.tree_spirit_1866"
+        "npc.fairy2_dryhadguardian_6"
       ],
       "combatLevel" : 159,
       "hitpoints" : 170,
@@ -86,7 +86,7 @@
         1862
       ],
       "names" : [
-        "npc.tree_spirit_1862"
+        "npc.fairy2_dryhadguardian_2"
       ],
       "combatLevel" : 29,
       "hitpoints" : 40,
@@ -112,7 +112,7 @@
         1863
       ],
       "names" : [
-        "npc.tree_spirit_1863"
+        "npc.fairy2_dryhadguardian_3"
       ],
       "combatLevel" : 49,
       "hitpoints" : 60,
@@ -138,7 +138,7 @@
         1864
       ],
       "names" : [
-        "npc.tree_spirit_1864"
+        "npc.fairy2_dryhadguardian_4"
       ],
       "combatLevel" : 79,
       "hitpoints" : 85,

@@ -1,0 +1,35 @@
+{
+  "page" : "Red dragon (Scrambled!)",
+  "versions" : [
+    {
+      "source" : "Red dragon (Scrambled!)",
+      "ids" : [
+        14511
+      ],
+      "names" : [
+        "npc.scrambled_dragon"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 100,
+      "attackSpeed" : 4,
+      "size" : 3,
+      "levels" : { "attack" : 90, "strength" : 90, "defence" : 90, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : 60, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 15, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Slash",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Immune (weak)" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "elementalWeakness" : { "element" : "Water", "percent" : 50 }
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         13656
       ],
       "names" : [
-        "npc.vardorvis_13656"
+        "npc.deadman_breach_vardorvis"
       ],
       "combatLevel" : 777,
       "hitpoints" : 2500,
@@ -35,7 +35,7 @@
         13656
       ],
       "names" : [
-        "npc.vardorvis_13656"
+        "npc.deadman_breach_vardorvis"
       ],
       "combatLevel" : 558,
       "hitpoints" : 1500,
@@ -61,7 +61,7 @@
         13656
       ],
       "names" : [
-        "npc.vardorvis_13656"
+        "npc.deadman_breach_vardorvis"
       ],
       "combatLevel" : 402,
       "hitpoints" : 1000,

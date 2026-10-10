@@ -8,8 +8,8 @@
         5917
       ],
       "names" : [
-        "npc.spawn",
-        "npc.spawn_5917"
+        "npc.abyssalsire_spawn",
+        "npc.abyssalsire_spawn_dying"
       ],
       "combatLevel" : 55,
       "hitpoints" : 15,

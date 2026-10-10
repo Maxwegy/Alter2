@@ -8,7 +8,7 @@
         6310
       ],
       "names" : [
-        "npc.karamel_hard"
+        "npc.nzone_hundred_minion3_hard"
       ],
       "combatLevel" : 186,
       "hitpoints" : 255,
@@ -36,7 +36,7 @@
         6371
       ],
       "names" : [
-        "npc.karamel_6371"
+        "npc.nzone_hundred_minion3_normal"
       ],
       "combatLevel" : 136,
       "hitpoints" : 250,

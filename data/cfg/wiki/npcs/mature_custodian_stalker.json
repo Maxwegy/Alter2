@@ -1,0 +1,33 @@
+{
+  "page" : "Mature custodian stalker",
+  "versions" : [
+    {
+      "source" : "Mature custodian stalker",
+      "ids" : [
+        14703
+      ],
+      "names" : [
+        "npc.mature_custodian_stalker"
+      ],
+      "combatLevel" : 117,
+      "hitpoints" : 190,
+      "attackSpeed" : 4,
+      "respawnTicks" : 10,
+      "size" : 1,
+      "levels" : { "attack" : 105, "strength" : 75, "defence" : 45, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 15, "rangedAttack" : 0, "stabDefence" : 30, "slashDefence" : -10, "crushDefence" : 50, "magicDefence" : 35, "rangedDefence" : 5, "lightRangedDefence" : -10, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8"
+      ],
+      "attackStyles" : [
+        "Crush",
+        "Magic (Bleed)"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 67, "xp" : 190.0, "categories" : [ "Custodian Stalker" ], "assignedBy" : [ "chaeldar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

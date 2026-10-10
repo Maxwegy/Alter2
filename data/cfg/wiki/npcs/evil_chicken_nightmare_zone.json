@@ -8,7 +8,7 @@
         6306
       ],
       "names" : [
-        "npc.evil_chicken_hard"
+        "npc.nzone_chickenquest_evil_chicken_hard"
       ],
       "combatLevel" : 286,
       "hitpoints" : 240,
@@ -34,7 +34,7 @@
         6367
       ],
       "names" : [
-        "npc.evil_chicken_6367"
+        "npc.nzone_chickenquest_evil_chicken_normal"
       ],
       "combatLevel" : 159,
       "hitpoints" : 120,

@@ -10,10 +10,10 @@
         9564
       ],
       "names" : [
-        "npc.damien_leucurte",
-        "npc.damien_leucurte_9562",
-        "npc.damien_leucurte_9563",
-        "npc.damien_leucurte_9564"
+        "npc.myq5_damien_cutscene",
+        "npc.myq5_damien_cutscene_weak",
+        "npc.myq5_damien_cutscene_strong",
+        "npc.myq5_damien_combat"
       ],
       "combatLevel" : 204,
       "hitpoints" : 217,

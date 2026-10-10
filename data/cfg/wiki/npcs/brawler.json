@@ -8,7 +8,7 @@
         1736
       ],
       "names" : [
-        "npc.brawler_1736"
+        "npc.pest_brawler_3"
       ],
       "combatLevel" : 101,
       "hitpoints" : 113,
@@ -33,7 +33,7 @@
         1737
       ],
       "names" : [
-        "npc.brawler_1737"
+        "npc.pest_brawler_4"
       ],
       "combatLevel" : 129,
       "hitpoints" : 143,
@@ -58,7 +58,7 @@
         1738
       ],
       "names" : [
-        "npc.brawler_1738"
+        "npc.pest_brawler_5"
       ],
       "combatLevel" : 158,
       "hitpoints" : 173,
@@ -83,7 +83,7 @@
         1734
       ],
       "names" : [
-        "npc.brawler"
+        "npc.pest_brawler_1"
       ],
       "combatLevel" : 51,
       "hitpoints" : 53,
@@ -108,7 +108,7 @@
         1735
       ],
       "names" : [
-        "npc.brawler_1735"
+        "npc.pest_brawler_2"
       ],
       "combatLevel" : 76,
       "hitpoints" : 83,

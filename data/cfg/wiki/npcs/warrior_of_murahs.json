@@ -8,7 +8,7 @@
         10395
       ],
       "names" : [
-        "npc.warrior_of_murahs_10395"
+        "npc.gh_warrior_3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -22,7 +22,7 @@
         10394
       ],
       "names" : [
-        "npc.warrior_of_murahs_10394"
+        "npc.gh_warrior_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -36,7 +36,7 @@
         10393
       ],
       "names" : [
-        "npc.warrior_of_murahs"
+        "npc.gh_warrior_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

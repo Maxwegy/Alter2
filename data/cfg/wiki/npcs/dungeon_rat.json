@@ -39,8 +39,8 @@
         2867
       ],
       "names" : [
-        "npc.dungeon_rat_2866",
-        "npc.dungeon_rat_2867"
+        "npc.dungeon_rat2",
+        "npc.dungeon_rat3"
       ],
       "combatLevel" : 12,
       "hitpoints" : 12,
@@ -71,9 +71,9 @@
         3609
       ],
       "names" : [
-        "npc.dungeon_rat_3607",
-        "npc.dungeon_rat_3608",
-        "npc.dungeon_rat_3609"
+        "npc.clocktower_rat",
+        "npc.clocktower_rat2",
+        "npc.clocktower_rat3"
       ],
       "combatLevel" : 12,
       "hitpoints" : 12,

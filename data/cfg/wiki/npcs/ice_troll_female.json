@@ -8,7 +8,7 @@
         5830
       ],
       "names" : [
-        "npc.ice_troll_female_5830"
+        "npc.fris_trollf_pc"
       ],
       "combatLevel" : 82,
       "hitpoints" : 80,
@@ -35,7 +35,7 @@
         1876
       ],
       "names" : [
-        "npc.ice_troll_female"
+        "npc.fris_trollf"
       ],
       "combatLevel" : 82,
       "hitpoints" : 80,

@@ -9,8 +9,8 @@
         12004
       ],
       "names" : [
-        "npc.small_lizard",
-        "npc.small_lizard_12004"
+        "npc.slayer_lizard_small1_green",
+        "npc.slayer_lizard_small1_green_lowrange"
       ],
       "combatLevel" : 12,
       "hitpoints" : 15,
@@ -37,7 +37,7 @@
         463
       ],
       "names" : [
-        "npc.small_lizard_463"
+        "npc.slayer_lizard_small2_sandy"
       ],
       "combatLevel" : 12,
       "hitpoints" : 15,

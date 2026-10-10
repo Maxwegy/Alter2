@@ -8,8 +8,8 @@
         6911
       ],
       "names" : [
-        "npc.soldier_tier_4",
-        "npc.soldier_tier_4_6911"
+        "npc.shayzien_armour_4_noncombat",
+        "npc.shayzien_armour_4_combat"
       ],
       "combatLevel" : 70,
       "hitpoints" : 65,

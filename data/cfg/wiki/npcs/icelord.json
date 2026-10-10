@@ -8,7 +8,7 @@
         855
       ],
       "names" : [
-        "npc.icelord_855"
+        "npc.peng_icelord_warrior04"
       ],
       "combatLevel" : 51,
       "hitpoints" : 60,
@@ -36,7 +36,7 @@
         854
       ],
       "names" : [
-        "npc.icelord_854"
+        "npc.peng_icelord_warrior03"
       ],
       "combatLevel" : 51,
       "hitpoints" : 60,
@@ -64,7 +64,7 @@
         853
       ],
       "names" : [
-        "npc.icelord_853"
+        "npc.peng_icelord_warrior02"
       ],
       "combatLevel" : 51,
       "hitpoints" : 60,
@@ -92,7 +92,7 @@
         852
       ],
       "names" : [
-        "npc.icelord"
+        "npc.peng_icelord_warrior01"
       ],
       "combatLevel" : 51,
       "hitpoints" : 60,

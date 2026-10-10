@@ -8,7 +8,7 @@
         2521
       ],
       "names" : [
-        "npc.skeleton_2521"
+        "npc.sos_death_skeleton_unarmed2"
       ],
       "combatLevel" : 60,
       "hitpoints" : 70,
@@ -36,7 +36,7 @@
         2522
       ],
       "names" : [
-        "npc.skeleton_2522"
+        "npc.sos_death_skeleton_unarmed3"
       ],
       "combatLevel" : 60,
       "hitpoints" : 70,
@@ -63,7 +63,7 @@
         2523
       ],
       "names" : [
-        "npc.skeleton_2523"
+        "npc.sos_death_skeleton_unarmed4"
       ],
       "combatLevel" : 60,
       "hitpoints" : 70,
@@ -91,7 +91,7 @@
         2520
       ],
       "names" : [
-        "npc.skeleton_2520"
+        "npc.sos_death_skeleton_unarmed"
       ],
       "combatLevel" : 68,
       "hitpoints" : 70,
@@ -119,7 +119,7 @@
         2524
       ],
       "names" : [
-        "npc.skeleton_2524"
+        "npc.sos_death_skeleton_armed"
       ],
       "combatLevel" : 85,
       "hitpoints" : 77,
@@ -147,7 +147,7 @@
         2525
       ],
       "names" : [
-        "npc.skeleton_2525"
+        "npc.sos_death_skeleton_armed2"
       ],
       "combatLevel" : 85,
       "hitpoints" : 77,
@@ -175,7 +175,7 @@
         2526
       ],
       "names" : [
-        "npc.skeleton_2526"
+        "npc.sos_death_skeleton_armed3"
       ],
       "combatLevel" : 85,
       "hitpoints" : 77,

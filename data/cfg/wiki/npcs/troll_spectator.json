@@ -13,13 +13,13 @@
         4129
       ],
       "names" : [
-        "npc.troll_spectator",
-        "npc.troll_spectator_4124",
-        "npc.troll_spectator_4125",
-        "npc.troll_spectator_4126",
-        "npc.troll_spectator_4127",
-        "npc.troll_spectator_4128",
-        "npc.troll_spectator_4129"
+        "npc.troll_spectator1",
+        "npc.troll_spectator2",
+        "npc.troll_spectator3",
+        "npc.troll_spectator4",
+        "npc.troll_spectator5",
+        "npc.troll_spectator6",
+        "npc.troll_spectator7"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,

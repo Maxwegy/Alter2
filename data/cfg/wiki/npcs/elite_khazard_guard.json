@@ -8,7 +8,7 @@
         13531
       ],
       "names" : [
-        "npc.elite_khazard_guard"
+        "npc.wgs_khazard_guard_1"
       ],
       "combatLevel" : 95,
       "hitpoints" : 85,
@@ -33,7 +33,7 @@
         13532
       ],
       "names" : [
-        "npc.elite_khazard_guard_13532"
+        "npc.wgs_khazard_guard_2"
       ],
       "combatLevel" : 95,
       "hitpoints" : 85,
@@ -58,7 +58,7 @@
         13533
       ],
       "names" : [
-        "npc.elite_khazard_guard_13533"
+        "npc.wgs_khazard_guard_3"
       ],
       "combatLevel" : 95,
       "hitpoints" : 85,
@@ -83,7 +83,7 @@
         13534
       ],
       "names" : [
-        "npc.elite_khazard_guard_13534"
+        "npc.wgs_khazard_guard_4"
       ],
       "combatLevel" : 95,
       "hitpoints" : 85,

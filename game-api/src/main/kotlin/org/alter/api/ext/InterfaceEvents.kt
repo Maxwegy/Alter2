@@ -137,3 +137,11 @@ enum class InterfaceEvent(val flag: Int) {
         infix fun from(value: Int): InterfaceEvent? = InterfaceEvent.values().firstOrNull { it.flag == value }
     }
 }
+
+/**
+ * rsprot 241 (`IfSetEventsV2`) splits the event mask: the if-button bits (ClickOp1..ClickOp10, bits 1..10 of the
+ * legacy mask) move to a second mask where bit n-1 is button n; everything else (pause, drag, target, ...) stays.
+ */
+internal fun legacyEventsToV2(events: Int): Pair<Int, Int> = (events and IFBUTTON_BITS.inv()) to ((events ushr 1) and 0x3FF)
+
+private const val IFBUTTON_BITS = 0x7FE

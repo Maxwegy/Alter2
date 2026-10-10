@@ -8,7 +8,7 @@
         8
       ],
       "names" : [
-        "npc.nechryael_8"
+        "npc.slayer_nechryael"
       ],
       "combatLevel" : 115,
       "hitpoints" : 105,
@@ -38,7 +38,7 @@
         11
       ],
       "names" : [
-        "npc.nechryael_11"
+        "npc.slayer_nechryael_strongholdcave"
       ],
       "combatLevel" : 115,
       "hitpoints" : 105,

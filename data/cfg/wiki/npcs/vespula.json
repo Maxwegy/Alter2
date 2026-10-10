@@ -10,9 +10,9 @@
         7532
       ],
       "names" : [
-        "npc.vespula",
-        "npc.vespula_7531",
-        "npc.vespula_7532"
+        "npc.raids_vespula_flying",
+        "npc.raids_vespula_enraged",
+        "npc.raids_vespula_walking"
       ],
       "hitpoints" : 288,
       "attackSpeed" : 3,
@@ -40,9 +40,9 @@
         7532
       ],
       "names" : [
-        "npc.vespula",
-        "npc.vespula_7531",
-        "npc.vespula_7532"
+        "npc.raids_vespula_flying",
+        "npc.raids_vespula_enraged",
+        "npc.raids_vespula_walking"
       ],
       "hitpoints" : 200,
       "attackSpeed" : 3,

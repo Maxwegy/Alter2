@@ -40,7 +40,7 @@ enum class Food(
     CHICKEN(item = "item.cooked_chicken", heal = 4),
     MEAT(item = "item.cooked_meat", heal = 4),
     ROASTBEASTMEAT(item = "item.roast_beast_meat", heal = 8),
-    KEBAB(item = "item.ugthanki_kebab", heal = 19),
+    KEBAB(item = "item.ugthanki_kebab__228", heal = 19),
 
     /**
      * Pastries.

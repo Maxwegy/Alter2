@@ -1,0 +1,51 @@
+{
+  "page" : "Narwhal",
+  "tables" : [
+    {
+      "source" : "Narwhal",
+      "npcIds" : [
+        15202
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 300, "max" : 800, "chance" : [ 1, 4 ], "wiki" : "15/60" },
+        { "item" : 685, "name" : "item.old_boot", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 7680 ], "wiki" : "1/7,680" },
+        { "item" : 890, "name" : "item.adamant_arrow", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "4/60" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 1, "max" : 1, "chance" : [ 1, 15 ], "wiki" : "4/60" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 7680 ], "wiki" : "1/7,680" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 7680 ], "wiki" : "1/7,680" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 122880 ], "wiki" : "1/122,880" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 1, 327680 ], "wiki" : "1/327,680" },
+        { "item" : 1289, "name" : "item.rune_sword", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 1333, "name" : "item.rune_scimitar", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 1432, "name" : "item.rune_mace", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 2560 ], "wiki" : "1/2,560" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 3840 ], "wiki" : "1/3,840" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 960 ], "wiki" : "1/960" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 480 ], "wiki" : "1/480" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 240 ], "wiki" : "1/240" },
+        { "item" : 1941, "name" : "item.swamppaste", "min" : 40, "max" : 60, "chance" : [ 2, 15 ], "wiki" : "8/60" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 245760 ], "wiki" : "1/245,760" },
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 150 ], "wiki" : "1/150", "approx" : true },
+        { "item" : 21505, "name" : "item.cert_giant_seaweed", "min" : 1, "max" : 1, "noted" : true, "chance" : [ 1, 10 ], "wiki" : "6/60" },
+        { "item" : 31406, "name" : "item.nails_dragon", "min" : 3, "max" : 10, "chance" : [ 1, 75 ], "wiki" : "1/75" },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 1, "max" : 2, "chance" : [ 3, 100 ], "wiki" : "6/200" },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 2, "chance" : [ 3, 200 ], "wiki" : "3/200" },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 2, "chance" : [ 1, 200 ], "wiki" : "1/200" },
+        { "item" : 31541, "name" : "item.flax_seed", "min" : 2, "max" : 3, "chance" : [ 1, 15 ], "wiki" : "5/75" },
+        { "item" : 31543, "name" : "item.hemp_seed", "min" : 2, "max" : 3, "chance" : [ 1, 25 ], "wiki" : "3/75" },
+        { "item" : 31545, "name" : "item.cotton_seed", "min" : 2, "max" : 3, "chance" : [ 2, 75 ], "wiki" : "2/75" },
+        { "item" : 31912, "name" : "item.adamant_cannonball", "min" : 36, "max" : 54, "chance" : [ 1, 15 ], "wiki" : "4/60" },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 30, "max" : 42, "chance" : [ 1, 30 ], "wiki" : "2/60" },
+        { "item" : 31954, "name" : "item.narwhal_horn", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 32813, "name" : "item.sailing_narwhal_blubber", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 32832, "name" : "item.sailing_narwhal_tusk", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" }
+      ]
+    }
+  ]
+}

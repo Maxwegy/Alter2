@@ -10,9 +10,9 @@
         10829
       ],
       "names" : [
-        "npc.blood_spawn",
-        "npc.blood_spawn_10821",
-        "npc.blood_spawn_10829"
+        "npc.maiden_blood_slug",
+        "npc.maiden_blood_slug_story",
+        "npc.maiden_blood_slug_hard"
       ],
       "combatLevel" : 55,
       "hitpoints" : 7,
@@ -40,9 +40,9 @@
         10829
       ],
       "names" : [
-        "npc.blood_spawn",
-        "npc.blood_spawn_10821",
-        "npc.blood_spawn_10829"
+        "npc.maiden_blood_slug",
+        "npc.maiden_blood_slug_story",
+        "npc.maiden_blood_slug_hard"
       ],
       "combatLevel" : 55,
       "hitpoints" : 120,

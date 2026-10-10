@@ -14,13 +14,13 @@
         715
       ],
       "names" : [
-        "npc.ice_wolf_647",
-        "npc.ice_wolf_710",
-        "npc.ice_wolf_711",
-        "npc.ice_wolf_712",
-        "npc.ice_wolf_713",
-        "npc.ice_wolf_714",
-        "npc.ice_wolf_715"
+        "npc.trollromance_ice_wolf_2",
+        "npc.ice_wolf_1",
+        "npc.ice_wolf_2",
+        "npc.ice_wolf_3",
+        "npc.ice_wolf_4",
+        "npc.ice_wolf_5",
+        "npc.ice_wolf_6"
       ],
       "combatLevel" : 132,
       "hitpoints" : 70,
@@ -49,8 +49,8 @@
         646
       ],
       "names" : [
-        "npc.ice_wolf",
-        "npc.ice_wolf_646"
+        "npc.trollromance_ice_wolf_1",
+        "npc.trollromance_ice_wolf_1b"
       ],
       "combatLevel" : 96,
       "hitpoints" : 70,
