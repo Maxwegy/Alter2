@@ -30,7 +30,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - `./gradlew :plugins:tools:gamevalDump -PcacheArgs="<cache dir>"`: dump the gameval name tables (index 24, revision 241+) and compare them with `data/cfg/rscm`.
 - `./gradlew :plugins:tools:rscmGenerate -PcacheArgs="<cache dir> <build> [--commit]"`: generate RSCM tables (gameval names + aliases for every committed name) and a migration report; `--commit` writes `data/cfg`.
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`, `::reloadconsumables`.
-- `data/cfg/consumables/consumables.json`: food and potions (heal, boosts, drains, restores, run energy/stamina, antipoison, antifire, delays, expiry messages), hand-maintained with a wiki URL on every entry; `ConsumablesDataTests` keeps it resolvable. Plugins carry no numbers or strings.
+- `data/cfg/consumables/consumables.json`: food and potions (heal, boosts, drains, restores, run energy/stamina, antipoison, antivenom, antifire, delays, expiry messages), hand-maintained with a wiki URL on every entry (the cockpit's consumable enricher appends entries from `enrich.inv_op` cards); `ConsumablesDataTests` keeps it resolvable. Plugins carry no numbers or strings.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
 
 ## Running the server
