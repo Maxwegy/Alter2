@@ -66,4 +66,4 @@ The server runs with `game-server/` as its working directory, so data paths are 
 
 The current plan (Phase 1 data infrastructure, Phase 1.5 revision upgrade, Phase 1.6 Dev Cockpit) is tracked in the repository's planning docs and PRs. Known bugs that are out of scope for a change go on the follow-up list, not into the change.
 
-Design notes: `docs/roadmap-pillars.md` (spawns, resource nodes, consumables, specials, social, database) and `docs/phase-1.5-cache-241.md` (the 241 cache spike).
+Design notes: `docs/roadmap-pillars.md` (spawns, resource nodes, consumables, specials, social, database) and `docs/phase-1.5-cache-241.md` (the 241 cache spike). Deferred ideas, not designed: `docs/ideas.md`.
