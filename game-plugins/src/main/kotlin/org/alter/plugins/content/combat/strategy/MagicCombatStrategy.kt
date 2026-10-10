@@ -2,7 +2,6 @@ package org.alter.plugins.content.combat.strategy
 
 import org.alter.api.ProjectileType
 import org.alter.api.Skills
-import org.alter.api.ext.getVarbit
 import org.alter.api.ext.playSound
 import org.alter.game.model.Graphic
 import org.alter.game.model.Tile
@@ -12,6 +11,7 @@ import org.alter.game.model.entity.Pawn
 import org.alter.game.model.entity.Player
 import org.alter.plugins.content.combat.Combat
 import org.alter.plugins.content.combat.CombatConfigs
+import org.alter.plugins.content.combat.autocast.Autocast
 import org.alter.plugins.content.combat.createProjectile
 import org.alter.plugins.content.combat.dealHit
 import org.alter.plugins.content.combat.formula.MagicCombatFormula
@@ -100,10 +100,7 @@ object MagicCombatStrategy : CombatStrategy {
         val baseXp = spell.baseXp
 
         if (mode == XpMode.MAGIC) {
-            val defensive =
-                player.getVarbit(
-                    Combat.SELECTED_AUTOCAST_VARBIT,
-                ) != 0 && player.getVarbit(Combat.DEFENSIVE_MAGIC_CAST_VARBIT) != 0
+            val defensive = Autocast.isDefensive(player)
             if (!defensive) {
                 player.addXp(Skills.MAGIC, (modDamage * 2.0 * multiplier) + baseXp)
                 player.addXp(Skills.HITPOINTS, modDamage * 1.33 * multiplier)

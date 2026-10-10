@@ -20,8 +20,8 @@ import org.alter.game.model.queue.QueueTask
 import org.alter.game.model.timer.ATTACK_DELAY
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
+import org.alter.plugins.content.combat.autocast.Autocast
 import org.alter.plugins.content.combat.specialattack.SpecialAttacks
-import org.alter.plugins.content.combat.strategy.magic.CombatSpell
 import org.alter.plugins.content.interfaces.attack.AttackTab
 import java.util.*
 
@@ -155,9 +155,8 @@ class CombatPlugin(
         }
         if (pawn is Player) {
             pawn.setVarp(Combat.PRIORITY_PID_VARP, target.index)
-            if (!pawn.attr.has(Combat.CASTING_SPELL) && pawn.getVarbit(Combat.SELECTED_AUTOCAST_VARBIT) != 0) {
-                val spell =
-                    CombatSpell.values.firstOrNull { it.autoCastId == pawn.getVarbit(Combat.SELECTED_AUTOCAST_VARBIT) }
+            if (!pawn.attr.has(Combat.CASTING_SPELL)) {
+                val spell = Autocast.spell(pawn)
                 if (spell != null) {
                     pawn.attr[Combat.CASTING_SPELL] = spell
                 }

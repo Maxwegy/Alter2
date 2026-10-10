@@ -27,6 +27,27 @@ Known problems that were out of scope for the change that found them. Each is a 
 - Not in the batch: Lightbearer and the Surge potion (energy), the granite maul's ornate handle (50%) and cosmetic variants, the 3rd age axe, the halberd's multi-target sweep and directional graphic, the Saradomin sword's graphic and its splash on Protect from Magic, Excalibur's forced chat, the Tekton and Elite Black Knight exceptions.
 - Unverified against a 241 client: the sound ids (the old plugins' values, `verify: true`), animation and graphic appearance (and whether a graphic belongs on the target), the dragon pickaxe's animation (7138 `rockknocker` vs 2661 `dragon_pickaxe_anim`), the varp 300 scale and the 593:36 / 160:35 component ids. Sounds play to the attacker only (`playSound`), not as area sounds.
 - The bar switches off on every weapon equip and on logout (kept as it was).
+- **241 component ids are one off** (found by the autocast spike, `data/reports/autocast-241-spike.md`; gameval names and if3 definitions):
+  - the special attack bar is 593:39 `special_attack` (op "Use Special Attack"), not 593:36 (`retaliate_text`);
+  - the minimap orb is 160:36 `specbutton`, not 160:35 (`specenergy_backing`);
+  - `AttackTabPlugin`'s style buttons are 593:6/10/14/18, not 5/9/13/17;
+  - auto retaliate is 593:32 `retaliate`, not 31;
+  - `sendWeaponComponentInformation` writes 593:2/3 (`header`, `title`), while the category text is 593:5.
+
+  None of these was exercised with a 241 client.
+
+## Autocast (Phase 3)
+- Not modelled:
+  - the other autocast lists of interface 201: crumble undead, magic dart, Iban blast, the god spells, Arceuus. Script 243 picks them by varp 664 keys such as `slayer_staff`, `ibanstaff`, `sotd`, `kodai_wand` and `barrows_ahrim_weapon`, partly by spellbook, and those spells have no `CombatSpell` entry;
+  - Ahrim's staff's degraded and ornament variants;
+  - weapons the wiki does not name.
+- Varp 664: the server sends -1 (the standard list) on the standard spellbook and 4675 (the Ancients list) on Ancients. The real server's rule for this varp is not in the cache. The menu opens only for the group of the current spellbook.
+- Whether a spellbook change clears autocast is not on the wiki page, so nothing clears it.
+- The restore order on a weapon change prefers the group of the current spellbook (a design choice).
+- Varbit 2668 is set from the button that opened the menu and cleared with the selection. A restored selection keeps the current flag.
+- Not verified with a 241 client:
+  - opening 201 in the combat tab slot and reopening 593 after a choice;
+  - the if_setevents range 0..58 on 201:1.
 
 ## Commands and privileges
 - `::qutest`, `::gc`, `::heap` and `::randbank` have no privilege check.

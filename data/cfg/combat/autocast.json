@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "autocast": "https://oldschool.runescape.wiki/w/Autocast",
+    "ui": "cache 241, data/reports/autocast-241-spike.md"
+  },
+  "pvpSwapLockTicks": 20,
+  "todo": [
+    "whether a spellbook change clears the selection is not on the wiki page; nothing clears it on a spellbook change",
+    "the other spell lists of the 201 menu (crumble undead, magic dart, iban blast, god spells, arceuus; varp 664 keys such as slayer_staff, ibanstaff, sotd, kodai_wand) are not modelled: those spells have no CombatSpell entry",
+    "ahrims_staff degraded and ornament variants, and other staff variants not named on the wiki page, are not listed"
+  ],
+  "groups": [
+    {
+      "name": "standard-elemental",
+      "spellbook": "normal",
+      "menuKey": null,
+      "spells": [
+        "WIND_STRIKE", "WATER_STRIKE", "EARTH_STRIKE", "FIRE_STRIKE",
+        "WIND_BOLT", "WATER_BOLT", "EARTH_BOLT", "FIRE_BOLT",
+        "WIND_BLAST", "WATER_BLAST", "EARTH_BLAST", "FIRE_BLAST",
+        "WIND_WAVE", "WATER_WAVE", "EARTH_WAVE", "FIRE_WAVE",
+        "WIND_SURGE", "WATER_SURGE", "EARTH_SURGE", "FIRE_SURGE"
+      ],
+      "source": "https://oldschool.runescape.wiki/w/Autocast",
+      "notes": ["menuKey null sends varp 664 = -1, whose 201 menu (script 4512) lists autocast ids 1-16 and 48-51; see data/reports/autocast-241-spike.md"]
+    },
+    {
+      "name": "ancients",
+      "spellbook": "ancients",
+      "menuKey": "item.ancient_staff",
+      "spells": [
+        "SMOKE_RUSH", "SHADOW_RUSH", "BLOOD_RUSH", "ICE_RUSH",
+        "SMOKE_BURST", "SHADOW_BURST", "BLOOD_BURST", "ICE_BURST",
+        "SMOKE_BLITZ", "SHADOW_BLITZ", "BLOOD_BLITZ", "ICE_BLITZ",
+        "SMOKE_BARRAGE", "SHADOW_BARRAGE", "BLOOD_BARRAGE", "ICE_BARRAGE"
+      ],
+      "source": "https://oldschool.runescape.wiki/w/Autocast",
+      "notes": ["menuKey item.ancient_staff (4675) sends varp 664 = 4675, whose 201 menu (script 4511) lists autocast ids 31-46; see data/reports/autocast-241-spike.md"]
+    },
+    {
+      "name": "arceuus",
+      "spellbook": "arceuus",
+      "menuKey": null,
+      "spells": [],
+      "source": "https://oldschool.runescape.wiki/w/Autocast",
+      "todo": "Arceuus combat spells have no CombatSpell entry and their menu key is not modelled"
+    }
+  ],
+  "byWeaponType": {
+    "18": ["standard-elemental"]
+  },
+  "byItem": [
+    {
+      "items": [
+        "item.ancient_staff",
+        "item.ancient_sceptre", "item.ancient_sceptre_trouver",
+        "item.ancient_sceptre_blood", "item.ancient_sceptre_ice", "item.ancient_sceptre_smoke", "item.ancient_sceptre_shadow",
+        "item.ancient_sceptre_blood_trouver", "item.ancient_sceptre_ice_trouver", "item.ancient_sceptre_smoke_trouver", "item.ancient_sceptre_shadow_trouver",
+        "item.thammarons_sceptre_a", "item.accursed_sceptre_a",
+        "item.ahrims_staff",
+        "item.blue_moon_spear",
+        "item.master_wand",
+        "item.dragon_hunter_wand",
+        "item.kodai_wand",
+        "item.nightmare_staff", "item.eldritch_nightmare_staff", "item.volatile_nightmare_staff"
+      ],
+      "groups": ["standard-elemental", "ancients"],
+      "source": "https://oldschool.runescape.wiki/w/Autocast",
+      "notes": ["the wiki: these 'can autocast the Ancient Magicks, as well as spells from the standard spellbook'; Ancient sceptre is 'all variants' (the broken ones are left out)"]
+    }
+  ],
+  "ui": {
+    "source": "cache 241, data/reports/autocast-241-spike.md",
+    "combatInterface": 593,
+    "chooseSpellButton": 28,
+    "defensiveButton": 23,
+    "spellButtons": {
+      "interface": 201,
+      "component": 1,
+      "cancelSlot": 0,
+      "lastSlot": 58
+    },
+    "menuVarp": 664,
+    "todo": null
+  }
+}
