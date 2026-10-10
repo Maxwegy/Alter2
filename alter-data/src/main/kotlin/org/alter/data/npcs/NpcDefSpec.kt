@@ -21,8 +21,9 @@ data class NpcCacheStats(val levels: List<Int>?, val params: Map<Int, Int>) {
 
 /**
  * The combat definition the server should use for an NPC, merged with precedence cache > snapshot > default.
- * Hand-written `setCombatDef` definitions and override files win over this entirely; they are applied by
- * the caller. [sources] records where each value came from, for `::wikinpc`.
+ * A hand-written `setCombatDef` definition replaces this entirely; override files then change single fields
+ * of either kind. Both are applied by the caller (game-plugins' `NpcDataService`). [sources] records where each
+ * value came from, for `::wikinpc`.
  */
 data class NpcDefSpec(
     val hitpoints: Int,

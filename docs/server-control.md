@@ -45,7 +45,7 @@ The API listens on `127.0.0.1` only (port 43595 by default, `admin:` in `data/cf
 |---|---|
 | `GET /health` | Health JSON. `status` is `up`, or `stalled` (HTTP 503) when the game thread does not answer within 2 s. |
 | `POST /shutdown?ticks=N&restart=true\|false` | Graceful stop or restart after N ticks (0–6000). 409 if one is already scheduled. |
-| `POST /wiki/reload` | Re-reads the committed wiki snapshot from disk (no network) and swaps it in, like `::wikisync` without the sync. |
+| `POST /wiki/reload` | Re-reads the committed wiki snapshot and the NPC override files from disk (no network) and swaps them in, like `::wikisync` without the sync. Live NPCs whose combat def changed get it at once; the reply has `npcDefs`, `npcDefsChanged` and `liveNpcsUpdated`. |
 | `GET /events` | Server-sent events: `missing` (a missing-content key seen for the first time), `lifecycle` (shutdown/restart scheduled), and a heartbeat every 15 s. |
 
 ## Docker
