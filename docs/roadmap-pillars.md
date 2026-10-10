@@ -108,6 +108,18 @@ pawn)` and the collision map are public today.
 
 ## 2. Resource nodes (Phase 4 prerequisite)
 
+> **Built (Phase 4, 2026-10-10).** `data/cfg/resources/resource_nodes.json` (tree, oak, willow, copper, tin, iron,
+> coal; twelve more kinds as `todo` entries), `ResourceNodeDefs` (parser), `ResourceRules` (pure: `chance256`, start
+> checks, tool choice, roll interval with fast rolls, the gem pre-roll, success, tertiary, depletion, respawn),
+> `NodeStateRegistry` (pure: depletion timers and the respawn queue, keyed by tile and object type),
+> `ResourceNodesService`/`ResourceNodesPlugin` and `::reloadresources`; 21 tests. Deviations from the sketch below:
+> the file is `resource_nodes.json`; charts store the wiki's raw `low`/`high` pair per tier (the table below lists
+> `chance256` at level 1); `objects` pairs each node object with its own depleted object (canonical gameval names);
+> regular-tree respawn is 59–98 ticks (35.4–58.8 s from the infobox); the pickaxe tier table carries the roll
+> interval and animation; the oak and willow bird nests stay `todo`. Empty rocks keep "Mine" in the 241 cache, so
+> only stumps are checked to lack their option. The depletion timer resets once nobody is gathering, rather than
+> regenerating at a rate. Follow-ups are in `docs/follow-ups.md` (Resource nodes).
+
 **Data source.** Hand-maintained `data/cfg/resources/resources.json` (never under `data/cfg/wiki/`), one entry
 per node kind. Verified facts so far, each with its source:
 
