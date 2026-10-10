@@ -1,6 +1,11 @@
 package org.alter.game.task
 
-import net.rsprot.crypto.xtea.XteaKey
+import net.rsprot.protocol.game.outgoing.map.RebuildRegionV2
+import net.rsprot.protocol.game.outgoing.map.RebuildNormalV2
+import net.rsprot.protocol.game.outgoing.info.util.safeReleaseOrThrow
+import net.rsprot.protocol.game.outgoing.info.util.onSuccess
+import net.rsprot.protocol.game.outgoing.info.util.onFailure
+import net.rsprot.protocol.game.outgoing.info.util.isEmpty
 import net.rsprot.protocol.game.outgoing.info.npcinfo.SetNpcUpdateOrigin
 import net.rsprot.protocol.game.outgoing.info.util.BuildArea
 import net.rsprot.protocol.game.outgoing.map.RebuildNormal
@@ -32,27 +37,8 @@ class SequentialSynchronizationTask : GameTask {
 
         worldPlayers.forEach(Player::playerCoordCycleTask)
 
-        world.network.worldEntityInfoProtocol.update()
-
-        // First off, write the world entity info to the client - it must
-        // be aware of the updates before receiving the rebuild world entity packets
-        world.players.forEach {
-            if (it.entityType.isHumanControlled && it.initiated) {
-                it.write(it.worldEntityInfo.toPacket()) // try-catch it, this _can_ throw exceptions during .toPacket()
-            }
-        }
-
-        world.players.forEach {
-            if (it.entityType.isHumanControlled && it.initiated) {
-                // If the player is not on a dynamic world entity, we can set the
-                // origin point as the local player coordinate
-                val (x, z, level) = it.tile
-                it.npcInfo.updateCoord(-1, level, x, z)
-                it.playerInfo.updateRenderCoord(-1, level, x, z)
-            }
-        }
-        world.network.playerInfoProtocol.update()
-        world.network.npcInfoProtocol.update()
+        // rsprot 241: one update builds world entity, player and npc infos for every player.
+        world.network.infoProtocols.update()
 
         world.players.forEach {
             /**
@@ -61,15 +47,7 @@ class SequentialSynchronizationTask : GameTask {
              * not have one.
              */
             if (it.entityType.isHumanControlled && it.initiated) {
-                it.write(SetActiveWorld(SetActiveWorld.RootWorldType(it.tile.height)))
-                it.write(it.playerInfo.toPacket()) // try-catch it, this _can_ throw exceptions during .toPacket()
-                it.write(
-                    SetNpcUpdateOrigin(
-                        it.tile.x - (it.buildArea.zoneX shl 3),
-                        it.tile.z - (it.buildArea.zoneZ shl 3),
-                    ),
-                )
-                it.write(it.npcInfo.toPacket(-1))
+                it.writeInfoPackets()
             }
         }
 
@@ -90,16 +68,15 @@ fun Player.playerPreSynchronizationTask() {
         val regionZ = ((current.z shr 3) - (Chunk.MAX_VIEWPORT shr 4)) shl 3
         // @TODO UpdateZoneFullFollowsMessage
         pawn.lastKnownRegionBase = Coordinate(regionX, regionZ, current.height)
-        val xteaService = pawn.world.xteaKeyService!!
         val instance = pawn.world.instanceAllocator.getMap(current)
         val rebuildMessage =
             when {
                 instance != null -> {
-                    RebuildRegion(
+                    RebuildRegionV2(
                         current.x shr 3,
                         current.z shr 3,
                         true,
-                        object : RebuildRegion.RebuildRegionZoneProvider {
+                        object : RebuildRegionV2.RebuildRegionZoneProvider {
                             override fun provide(
                                 zoneX: Int,
                                 zoneZ: Int,
@@ -112,20 +89,15 @@ fun Player.playerPreSynchronizationTask() {
                                     chunk.zoneZ,
                                     chunk.height,
                                     chunk.rot,
-                                    XteaKey.ZERO,
                                 )
                             }
                         },
                     )
                 }
-                else -> RebuildNormal(current.x shr 3, current.z shr 3, -1, xteaService)
+                else -> RebuildNormalV2(current.x shr 3, current.z shr 3, -1)
             }
-        pawn.buildArea =
-            BuildArea((current.x ushr 3) - 6, (current.z ushr 3) - 6).apply {
-                pawn.playerInfo.updateBuildArea(-1, this)
-                pawn.npcInfo.updateBuildArea(-1, this)
-                pawn.worldEntityInfo.updateBuildArea(this)
-            }
+        pawn.buildArea = BuildArea((current.x ushr 3) - 6, (current.z ushr 3) - 6)
+        pawn.infos.updateRootBuildAreaCenteredOnPlayer(current.x, current.z)
         pawn.write(rebuildMessage)
     }
 }
@@ -163,7 +135,38 @@ fun Npc.npcPostSynchronizationTask() {
  * displacement effects [dspear, etc]
  */
 fun Player.playerCoordCycleTask() {
-    this.playerInfo.updateCoord(this.tile.height, this.tile.x, this.tile.z)
-    this.npcInfo.updateCoord(-1, this.tile.height, this.tile.x, this.tile.z)
-    this.worldEntityInfo.updateCoord(-1, this.tile.height, this.tile.x, this.tile.z)
+    this.infos.updateRootCoord(this.tile.height, this.tile.x, this.tile.z)
 }
+
+/**
+ * Writes this cycle's info packets in the order rsprot documents: active world, npc update origin, world entity
+ * info, player info, npc info (omitted when empty, released instead), then any dynamic worlds, then the root
+ * world again so client-side pathfinding is on the root world.
+ */
+fun Player.writeInfoPackets() {
+    val packets = this.infos.getPackets()
+    val root = packets.rootWorldInfoPackets
+    write(root.activeWorld)
+    write(root.npcUpdateOrigin)
+    root.worldEntityInfo.onSuccess { write(it) }.onFailure { logger.error(it) { "World entity info failed for $username" } }
+    root.playerInfo.onSuccess { write(it) }.onFailure { logger.error(it) { "Player info failed for $username" } }
+    if (root.npcInfo.isEmpty()) {
+        root.npcInfo.safeReleaseOrThrow()
+    } else {
+        root.npcInfo.onSuccess { write(it) }.onFailure { logger.error(it) { "Npc info failed for $username" } }
+    }
+    for (worldPackets in packets.activeWorlds) {
+        write(worldPackets.activeWorld)
+        if (worldPackets.npcInfo.isEmpty()) {
+            worldPackets.npcInfo.safeReleaseOrThrow()
+        } else {
+            write(worldPackets.npcUpdateOrigin)
+            worldPackets.npcInfo.onSuccess { write(it) }.onFailure { logger.error(it) { "Npc info (world ${worldPackets.worldId}) failed for $username" } }
+        }
+    }
+    if (packets.activeWorlds.isNotEmpty()) {
+        write(root.activeWorld)
+    }
+}
+
+private val logger = io.github.oshai.kotlinlogging.KotlinLogging.logger {}

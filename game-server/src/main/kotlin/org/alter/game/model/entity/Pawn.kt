@@ -311,6 +311,8 @@ abstract class Pawn(val world: World) : Entity() {
                         player.avatar.extendedInfo.addHitMark(
                             sourceIndex = hitmark.attackerIndex,
                             selfType = hitmark.type,
+                            sourceType = hitmark.type,
+                            otherType = hitmark.type,
                             value = hitmark.damage,
                             delay = hit.clientDelay,
                         )

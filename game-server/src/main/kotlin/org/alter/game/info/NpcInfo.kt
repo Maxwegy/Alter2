@@ -104,7 +104,7 @@ class NpcInfo(var npc: Npc) {
         z: Int,
         instant: Boolean = false,
     ) {
-        info.setFaceCoord(x, z, instant)
+        info.setFaceCoordGrid(x, z, instant, 0)
     }
 
     fun setFacePathingEntity(index: Int) {

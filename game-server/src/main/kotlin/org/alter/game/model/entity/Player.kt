@@ -1,5 +1,7 @@
 package org.alter.game.model.entity
 
+import net.rsprot.protocol.game.outgoing.map.RebuildLoginV2
+import net.rsprot.protocol.game.outgoing.info.Infos
 import dev.openrune.cache.CacheManager.varpSize
 import gg.rsmod.util.toStringHelper
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet
@@ -420,27 +422,23 @@ open class Player(world: World) : Pawn(world) {
      * @TODO
      * If im not mistaking the [npcInfo] shit should be pulled out and placed into it's own class and update should happend when Player enters region
      */
-    lateinit var playerInfo: PlayerInfo
-    lateinit var npcInfo: NpcInfo
-    lateinit var worldEntityInfo: WorldEntityInfo
+    /** rsprot 241: the three info objects are allocated and updated together through [Infos]. */
+    lateinit var infos: Infos
+    val playerInfo: PlayerInfo get() = infos.playerInfo
+    val npcInfo: NpcInfo get() = infos.npcInfo
+    val worldEntityInfo: WorldEntityInfo get() = infos.worldEntityInfo
     var session: Session<Client>? = null
     var buildArea: BuildArea = BuildArea.INVALID
     /**
      * Handles any logic that should be executed upon log in.
      */
     fun login() {
-        playerInfo.updateCoord(tile.height, tile.x, tile.z)
-        npcInfo.updateCoord(-1, tile.height, tile.x, tile.z)
-        worldEntityInfo.updateCoord(-1, tile.height, tile.x, tile.z)
+        infos.updateRootCoord(tile.height, tile.x, tile.z)
 
         if (entityType.isHumanControlled) {
-            write(RebuildLogin(tile.x ushr 3, tile.z shr 3, -1, world.xteaKeyService!!, playerInfo))
-            buildArea =
-                BuildArea((tile.x ushr 3) - 6, (tile.z ushr 3) - 6).apply {
-                    playerInfo.updateBuildArea(-1, this)
-                    npcInfo.updateBuildArea(-1, this)
-                    worldEntityInfo.updateBuildArea(this)
-                }
+            write(RebuildLoginV2(tile.x ushr 3, tile.z shr 3, -1, playerInfo))
+            buildArea = BuildArea((tile.x ushr 3) - 6, (tile.z ushr 3) - 6)
+            infos.updateRootBuildAreaCenteredOnPlayer(tile.x, tile.z)
             world.getService(LoggerService::class.java, searchSubclasses = true)?.logLogin(this)
         }
         if (world.rebootTimer != -1) {

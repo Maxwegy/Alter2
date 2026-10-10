@@ -22,7 +22,8 @@ import net.rsprot.protocol.game.incoming.buttons.IfButtonT
 import net.rsprot.protocol.game.incoming.events.EventAppletFocus
 import net.rsprot.protocol.game.incoming.events.EventCameraPosition
 import net.rsprot.protocol.game.incoming.events.EventKeyboard
-import net.rsprot.protocol.game.incoming.events.EventMouseClick
+import net.rsprot.protocol.game.incoming.events.EventMouseClickV1
+import net.rsprot.protocol.game.incoming.events.EventMouseClickV2
 import net.rsprot.protocol.game.incoming.friendchat.FriendChatJoinLeave
 import net.rsprot.protocol.game.incoming.locs.OpLoc
 import net.rsprot.protocol.game.incoming.locs.OpLoc6
@@ -129,7 +130,8 @@ class NetworkServiceFactory(
         bldr.addListener(If1Button::class.java, IfModelOp1Handler())
         bldr.addListener(IgnoreListAdd::class.java, IgnoreListAddHandler())
         bldr.addListener(IgnoreListDel::class.java, IgnoreListDeleteHandler())
-        bldr.addListener(EventMouseClick::class.java, EventMouseClickHandler())
+        bldr.addListener(EventMouseClickV2::class.java, EventMouseClickHandler())
+        bldr.addListener(EventMouseClickV1::class.java, EventMouseClickV1Handler())
         bldr.addListener(MessagePrivate::class.java, MessagePrivateSenderHandler())
         bldr.addListener(MessagePublic::class.java, MessagePublicHandler())
         bldr.addListener(OpLoc6::class.java, OpLoc6Handler())
