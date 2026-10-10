@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10809,
   "spawns": [
     {
+      "id": "w4393a4ae43a4",
       "npc": "npc.mdaughter_svidi",
       "x": 2709,
       "z": 3692,
       "height": 0,
       "walkRadius": 15,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Svidi",
         "map": "{{Map|name=Svidi|x=2709|y=3692|r=15|mtype=square}}"
       }
     },
     {
+      "id": "wcdb7cb033997",
       "npc": "npc.shepard_wander",
       "x": 2710,
       "z": 3700,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bernese_Mountain_Dog_(wandering)",
         "map": "{{Map|mtype=rectangle|rectX=40|rectY=60|2710,3700|}}"
       }

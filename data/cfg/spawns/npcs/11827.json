@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11827,
   "spawns": [
     {
+      "id": "w953651f52dc3",
       "npc": "npc.wayne",
       "x": 2972,
       "z": 3313,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wayne",
         "map": "{{Map|name=Wayne|x=2972|y=3313|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wedb43621b6fb",
       "npc": "npc.agrith_noncombat_ghost",
       "x": 2990,
       "z": 3268,
       "height": 0,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ghost_(Malignius_Mortifer)",
         "map": "{{Map|name=Ghost (Malignius Mortifer)|x=2990|y=3268|plane=0|r=9|mtype=square}}"
       }
     },
     {
+      "id": "w2d61b5045c99",
       "npc": "npc.elemental_wizard_boss",
       "x": 2990,
       "z": 3268,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Malignius_Mortifer",
         "map": "{{Map|name=Malignius Mortifer|x=2990|y=3268|r=10|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "we2e8eb1bad4d",
       "npc": "npc.unattackable_skeleton",
       "x": 2990,
       "z": 3268,
       "height": 0,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Skeleton_(Malignius_Mortifer)",
         "map": "{{Map|name=Skeleton|x=2990|y=3268|plane=0|r=9|mtype=square}}"
       }
     },
     {
+      "id": "wb6544ab22e2c",
       "npc": "npc.unattackable_skeleton_mage",
       "x": 2990,
       "z": 3268,
       "height": 0,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Skeleton_mage_(Malignius_Mortifer)",
         "map": "{{Map|name=Skeleton mage|x=2990|y=3268|plane=0|r=9|mtype=square}}"
       }
     },
     {
+      "id": "w8d4962681c37",
       "npc": "npc.unattackable_zombie",
       "x": 2990,
       "z": 3268,
       "height": 0,
       "walkRadius": 9,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zombie_(Malignius_Mortifer)",
         "map": "{{Map|name=Zombie|x=2990|y=3268|plane=0|r=9|mtype=square}}"
       }

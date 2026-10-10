@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11311,
   "spawns": [
     {
+      "id": "wf543e4e6ce76",
       "npc": "npc.shadow_maj_scout1",
       "x": 2835,
       "z": 3053,
       "height": 0,
       "walkRadius": 20,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Scout_(Tai_Bwo_Wannai)",
         "map": "{{Map|name=Scout (Tai Bwo Wannai)|x=2835|y=3053|r=20|mtype=square}}"
       }

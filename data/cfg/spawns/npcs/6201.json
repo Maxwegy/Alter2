@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6201,
   "spawns": [
     {
+      "id": "w95ed6159077a",
       "npc": "npc.akd_rachelle_cutscene",
       "x": 1543,
       "z": 3686,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Rachelle",
         "map": "{{Map|name=Captain Rachelle|x=1543|y=3686|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wf1a1d100d1db",
       "npc": "npc.zeah_general_central",
       "x": 1543,
       "z": 3686,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Rachelle",
         "map": "{{Map|name=Captain Rachelle|x=1543|y=3686|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc39c9e872dfa",
       "npc": "npc.zeah_ranger",
       "x": 1595,
       "z": 3668,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
       }
     },
     {
+      "id": "wa9a6c9c147d9",
       "npc": "npc.zeah_ranger",
       "x": 1595,
       "z": 3672,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
       }
     },
     {
+      "id": "wc3ee0bbf0c5f",
       "npc": "npc.zeah_ranger",
       "x": 1595,
       "z": 3674,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
       }
     },
     {
+      "id": "we140450e532a",
       "npc": "npc.zeah_ranger",
       "x": 1595,
       "z": 3678,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1595,3668|1595,3672|1595,3674|1595,3678|plane=2|mtype=pin}}"
       }

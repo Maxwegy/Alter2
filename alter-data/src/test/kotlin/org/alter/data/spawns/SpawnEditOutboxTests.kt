@@ -11,7 +11,7 @@ class SpawnEditOutboxTests {
         val path = Files.createTempDirectory("outbox").resolve("run/spawn-edits.jsonl")
         val io = IoScope("outbox-test")
         val outbox = SpawnEditOutbox(path, io)
-        val duke = NpcSpawnEntry("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH", NpcSpawnSource.Manual)
+        val duke = Entries.manual("npc.duke_of_lumbridge", 3212, 3220, 1, 4, "SOUTH")
         val edits = (0 until 50).map { SpawnEdit.of("2026-10-10T12:00:00Z", duke, SpawnPlacement.of(duke).copy(walkRadius = it)) }
         edits.forEach(outbox::record)
         io.close()

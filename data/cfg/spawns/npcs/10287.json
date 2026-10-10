@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10287,
   "spawns": [
     {
+      "id": "wf498e8b5da78",
       "npc": "npc.toban",
       "x": 2575,
       "z": 3028,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Toban",
         "map": "{{Map|name=Toban|x=2575|y=3028|r=4|mtype=square}}"
       }

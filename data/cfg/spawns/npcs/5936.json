@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5936,
   "spawns": [
     {
+      "id": "w9a4cb88c7229",
       "npc": "npc.avium_savannah_bard_conch",
       "x": 1511,
       "z": 3105,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bard",
         "map": "{{Map|x=1511|y=3105|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w03d22c18d46c",
       "npc": "npc.avium_savannah_bard_singer",
       "x": 1511,
       "z": 3105,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bard",
         "map": "{{Map|x=1511|y=3105|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w52f095b159dc",
       "npc": "npc.avium_savannah_bard_trumpet",
       "x": 1511,
       "z": 3105,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bard",
         "map": "{{Map|x=1511|y=3105|r=4|mtype=square}}"
       }

@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5177,
   "spawns": [
     {
+      "id": "w714cc548d88c",
       "npc": "npc.farming_guild_guard_1",
       "x": 1289,
       "z": 3695,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Kebos_Lowlands)",
         "map": "{{Map|name=Soldier|1246,3719|1254,3683|1289,3695|mtype=pin}}"
       }
     },
     {
+      "id": "wb8deb9ed015f",
       "npc": "npc.farming_guild_guard_3",
       "x": 1289,
       "z": 3695,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Kebos_Lowlands)",
         "map": "{{Map|name=Ranger|1246,3719|1254,3683|1289,3695|mtype=pin}}"
       }
     },
     {
+      "id": "wf594a08a7558",
       "npc": "npc.molch_city_shaman",
       "x": 1320,
       "z": 3672,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ek'ans_Chan",
         "map": "{{Map|name=Ek'ans Chan|x=1320|y=3672|r=3|mtype=square}}"
       }

@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12582,
   "spawns": [
     {
+      "id": "w50b3acb3fe94",
       "npc": "npc.slayer_gryphon_boss_guardian_vis",
       "x": 3174,
       "z": 2480,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elder_Nama",
         "map": "{{Map|name=Elder Nama|3174,2480|mtype=pin}}"
       }
     },
     {
+      "id": "wffefb5d4b496",
       "npc": "npc.tortugan_grove_guardian",
       "x": 3196,
       "z": 2466,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elder_Katt",
         "map": "{{Map|3196,2466|mtype=pin}}"
       }

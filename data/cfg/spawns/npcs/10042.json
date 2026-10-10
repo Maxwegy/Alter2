@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10042,
   "spawns": [
     {
+      "id": "w216460c00da3",
       "npc": "npc.askeladden_child_rockop",
       "x": 2539,
       "z": 3739,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Askeladden",
         "map": "{{Map|mtype=pin|x=2539|y=3739}}"
       }
     },
     {
+      "id": "w5fd6b6f06631",
       "npc": "npc.viking_dagganoth_cave_waterbirth_island",
       "x": 2544,
       "z": 3761,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jarvald",
         "map": "{{Map|mtype=pin|x=2544|y=3761}}"
       }

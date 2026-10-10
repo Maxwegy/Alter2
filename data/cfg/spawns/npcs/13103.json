@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13103,
   "spawns": [
     {
+      "id": "w19c867dbbeb1",
       "npc": "npc.tourtrap_qip_cart_camel",
       "x": 3286,
       "z": 3024,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cart_Camel",
         "map": "{{Map|name=Cart Camel|x=3286|y=3024|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa3824810fdb3",
       "npc": "npc.mining_cart_driver",
       "x": 3288,
       "z": 3023,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mine_cart_driver",
         "map": "{{Map|name=Mine cart driver|x=3288|y=3023|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4153af13b226",
       "npc": "npc.sailing_crew_captain_siad_world",
       "x": 3290,
       "z": 3032,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ex-Captain_Siad",
         "map": "{{Map|name=Ex-Captain Siad|x=3290|y=3032|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w1143b0579ded",
       "npc": "npc.capt_siad_vis",
       "x": 3291,
       "z": 3033,
       "height": 1,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Siad",
         "map": "{{Map|name=Captain Siad|x=3291|y=3033|plane=1|r=1|mtype=square}}"
       }

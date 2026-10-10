@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9779,
   "spawns": [
     {
+      "id": "wa049aa4c7795",
       "npc": "npc.caveguide_vis",
       "x": 2436,
       "z": 3315,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Koftik",
         "map": "{{Map|zoom=1|mtype=pin|2436,3315}}"
       }
     },
     {
+      "id": "w599c92692b03",
       "npc": "npc.upassmage_1op",
       "x": 2458,
       "z": 3311,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dark_Mage",
         "map": "{{Map|name=Dark Mage|x=2458|y=3311|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w59727b3d72a4",
       "npc": "npc.upassmage_2ops",
       "x": 2458,
       "z": 3311,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dark_Mage",
         "map": "{{Map|name=Dark Mage|x=2458|y=3311|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4fd5e063532a",
       "npc": "npc.chadwell",
       "x": 2467,
       "z": 3287,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Chadwell",
         "map": "{{Map|name=Chadwell|x=2467|y=3287|r=3|mtype=square}}"
       }

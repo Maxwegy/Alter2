@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13366,
   "spawns": [
     {
+      "id": "w1ed7fe439745",
       "npc": "npc.rag_odd_old_man",
       "x": 3360,
       "z": 3504,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Odd_Old_Man",
         "map": "{{Map|name=Odd Old Man|x=3360|y=3504|r=2|mtype=square}}"
       }

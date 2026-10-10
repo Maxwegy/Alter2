@@ -1,223 +1,263 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13613,
   "spawns": [
     {
+      "id": "w5a2ec7a1754b",
       "npc": "npc.magic_carpet_seller8",
       "x": 3401,
       "z": 2918,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
         "map": "{{Map|name=Rug Merchant|3401,2918|3287,2813|3243,2813|plane=0|mapID=0|mtype=pin|group=22}}"
       }
     },
     {
+      "id": "we21e93c1c802",
       "npc": "npc.elid_shield_seller",
       "x": 3406,
       "z": 2922,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Seddu",
         "map": "{{Map|name=Seddu|3406,2922|mtype=pin}}"
       }
     },
     {
+      "id": "w96404d77f793",
       "npc": "npc.elid_villager4",
       "x": 3410,
       "z": 2931,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Habibah",
         "map": "{{Map|name=Habibah|x=3410|y=2931|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w47346164a117",
       "npc": "npc.elid_villager2",
       "x": 3415,
       "z": 2937,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nkuku",
         "map": "{{Map|name=Nkuku|x=3415|y=2937|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w520544e4f495",
       "npc": "npc.elid_general_seller",
       "x": 3416,
       "z": 2908,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kazemde",
         "map": "{{Map|name=Kazemde|3416,2908|mtype=pin}}"
       }
     },
     {
+      "id": "w930eb76e0f3e",
       "npc": "npc.ali_the_carter",
       "x": 3421,
       "z": 2914,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Carter",
         "map": "{{Map|name=Ali the Carter|x=3421|y=2914|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wab35081664a4",
       "npc": "npc.elid_herbalist",
       "x": 3425,
       "z": 2908,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zahur",
         "map": "{{Map|name=Zahur|x=3425|y=2908|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w09750ab1494e",
       "npc": "npc.elid_villager5",
       "x": 3427,
       "z": 2900,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Meskhenet",
         "map": "{{Map|name=Meskhenet|x=3427|y=2900|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w93732b65bc6f",
       "npc": "npc.elid_shiratti",
       "x": 3427,
       "z": 2928,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shiratti_the_Custodian",
         "map": "{{Map|name=Shiratti the Custodian|x=3427|y=2928|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w01128c40688b",
       "npc": "npc.elid_banker",
       "x": 3428,
       "z": 2891,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nardah_Banker",
         "map": "{{Map|name=Nardah Banker|x=3428|y=2891|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc159ea806a1c",
       "npc": "npc.elid_choc_ice_seller",
       "x": 3428,
       "z": 2913,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rokuh",
         "map": "{{Map|name=Rokuh|3428,2913|mtype=pin}}"
       }
     },
     {
+      "id": "wbf69da9ab7c3",
       "npc": "npc.pestlemortar_crusher",
       "x": 3429,
       "z": 2910,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wesley",
         "map": "{{Map|name=Wesley|x=3429|y=2910|r=1|mtype=square}}"
       }
     },
     {
+      "id": "wfefca154cc9c",
       "npc": "npc.elid_villager3",
       "x": 3434,
       "z": 2901,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Garai",
         "map": "{{Map|name=Garai|x=3434|y=2901|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa6d2c86cbc37",
       "npc": "npc.elid_villager1",
       "x": 3439,
       "z": 2891,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Usi",
         "map": "{{Map|name=Usi|x=3439|y=2891|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf741dd84eaa7",
       "npc": "npc.hunting_shop_owner_nardah",
       "x": 3441,
       "z": 2902,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Artimeus",
         "map": "{{Map|name=Artimeus|3441,2902|mtype=pin}}"
       }
     },
     {
+      "id": "w65ba8f8af126",
       "npc": "npc.elid_ghaslor",
       "x": 3443,
       "z": 2933,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ghaslor_the_Elder",
         "map": "{{Map|name=Ghaslor the Elder|x=3443|y=2933|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w3e0950ff9cbd",
       "npc": "npc.elid_mayor",
       "x": 3444,
       "z": 2916,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Awusah_the_Mayor",
         "map": "{{Map|name=Awusah the Mayor|x=3444|y=2916|plane=0|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w1ca19451da4a",
       "npc": "npc.bim_checkal",
       "x": 3446,
       "z": 2903,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Checkal",
         "map": "{{Map|name=Checkal|x=3446|y=2903|mtype=square|r=4}}"
       }
     },
     {
+      "id": "wc7ea56fe76f4",
       "npc": "npc.bim_marley",
       "x": 3446,
       "z": 2903,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marley",
         "map": "{{Map|name=Marley|x=3446|y=2903|mtype=square|r=4}}"
       }
     },
     {
+      "id": "w06a6e573d9d7",
       "npc": "npc.elid_villager6",
       "x": 3449,
       "z": 2897,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zahra",
         "map": "{{Map|name=Zahra|x=3449|y=2897|r=6|mtype=square}}"
       }

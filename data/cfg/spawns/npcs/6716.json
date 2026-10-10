@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6716,
   "spawns": [
     {
+      "id": "wa1483c26021e",
       "npc": "npc.arceuus_darkguardian",
       "x": 1714,
       "z": 3883,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tyss",
         "map": "{{Map|name=Tyss|x=1714|y=3883|plane=0|r=4|mtype=square|bucket=yes}}"
       }

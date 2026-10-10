@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9009,
   "spawns": [
     {
+      "id": "w00db7aa2f036",
       "npc": "npc.regicide_old_camp_tracker_vis",
       "x": 2261,
       "z": 3151,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elf_Tracker",
         "map": "{{Map|name=Elf Tracker|x=2261|y=3151|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w2f370596d092",
       "npc": "npc.sote_lletya_gravestone_vis",
       "x": 2303,
       "z": 3197,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rebel_Scout",
         "map": "{{Map|name=Rebel Scout|x:2303,y:3197|mtype=pin|mapID=0|plane=0}}"
       }

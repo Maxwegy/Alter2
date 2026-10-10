@@ -1,564 +1,666 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6704,
   "spawns": [
     {
+      "id": "wf2fa46d73c61",
       "npc": "npc.fortis_shop_general_1",
       "x": 1669,
       "z": 3122,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Civitas_illa_Fortis)",
         "map": "{{Map|name=Shopkeeper (Civitas illa Fortis)|1669,3122|mtype=pin}}"
       }
     },
     {
+      "id": "wc3e113922925",
       "npc": "npc.varlamore_thieving_house_owner_1",
       "x": 1671,
       "z": 3092,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lavinia",
         "map": "{{Map|x=1671|y=3092|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w3dc8c264ad39",
       "npc": "npc.fortis_shop_fur",
       "x": 1674,
       "z": 3111,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fur_Merchant",
         "map": "{{Map|1674,3111|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w796213488c88",
       "npc": "npc.fortis_shop_gems",
       "x": 1675,
       "z": 3102,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gem_Merchant_(Civitas_illa_Fortis)",
         "map": "{{Map|x=1675|y=3102|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wada5df18c318",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1675,
       "z": 3107,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w9c53949c7213",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1675,
       "z": 3107,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w98188b604b22",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1675,
       "z": 3107,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w1d35637589af",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1675,
       "z": 3107,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wd306d6a69df8",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1680,
       "z": 3082,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w499ce385e044",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1680,
       "z": 3082,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w19ff2ee1a63c",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1680,
       "z": 3082,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "we4079a9f12c5",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1680,
       "z": 3082,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wac3cd5351d09",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1680,
       "z": 3091,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w6d126c1ac53d",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1680,
       "z": 3091,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wd58e6e1f75ae",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1680,
       "z": 3091,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wbe729461b983",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1680,
       "z": 3091,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wcd2e4e654281",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1680,
       "z": 3102,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wf24cd994e3ba",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1680,
       "z": 3102,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w756d7d12f066",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1680,
       "z": 3102,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w7a6fb539f1fa",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1680,
       "z": 3102,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w7843f13a293d",
       "npc": "npc.varlamore_thieving_street_urchin_c",
       "x": 1681,
       "z": 3087,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aurelia",
         "map": "{{Map|x=1681|y=3087|r=4|mtype=square}}"
       }
     },
     {
+      "id": "waef6d0b01bab",
       "npc": "npc.vmq1_knight_2",
       "x": 1682,
       "z": 3104,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Knight_of_Varlamore_(Children_of_the_Sun)",
         "map": "{{Map|x=1682|y=3104|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w6e033f5c670c",
       "npc": "npc.vmq1_knight_1",
       "x": 1683,
       "z": 3105,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Knight_of_Varlamore_(Children_of_the_Sun)",
         "map": "{{Map|x=1683|y=3105|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w1eff6c36b55d",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1684,
       "z": 3087,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w65d804bc0fc3",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1684,
       "z": 3087,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wb341194d059a",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1684,
       "z": 3087,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "weba7e4fc2ead",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1684,
       "z": 3087,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w39c3a8c5b399",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1685,
       "z": 3106,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w1a6ac5757e46",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1685,
       "z": 3106,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w93c7d6a4d49a",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1685,
       "z": 3106,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "we8fb33d65c04",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1685,
       "z": 3106,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w434a76859186",
       "npc": "npc.vmq2_citizen_vis",
       "x": 1686,
       "z": 3109,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Citizen_(Twilight's_Promise)",
         "map": "{{Map|x=1686|y=3109|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wb03544bf2a91",
       "npc": "npc.fortis_shop_baker",
       "x": 1688,
       "z": 3110,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Baker_(Civitas_illa_Fortis)",
         "map": "{{Map|name=Baker (Civitas illa Fortis)|x=1688|y=3110|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd0f8bf678828",
       "npc": "npc.fortis_teoki_ralos_vis",
       "x": 1699,
       "z": 3087,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cuali,_Teoki_of_Ralos",
         "map": "{{Map|x=1699|y=3087|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w2955fbc4860f",
       "npc": "npc.vmq2_metzli_vis",
       "x": 1699,
       "z": 3087,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Metzli,_Teokan_of_Ranul",
         "map": "{{Map|name=Metzli, Teokan of Ranul|x=1699|y=3087|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w07a0922ef018",
       "npc": "npc.fortis_shop_food",
       "x": 1702,
       "z": 3112,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cobado",
         "map": "{{Map|1702,3112|mtype=pin}}"
       }
     },
     {
+      "id": "w731abe765f52",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1711,
       "z": 3105,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wb1b17afd56ac",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1711,
       "z": 3105,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wb3b6a7ad15e0",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1711,
       "z": 3105,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w23fe2051d7bc",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1711,
       "z": 3105,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wd24d55aae02a",
       "npc": "npc.fortis_bartender_1",
       "x": 1711,
       "z": 3116,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(The_Flaming_Arrow)",
         "map": "{{Map|name=Bartender (The Flaming Arrow)|x=1711|y=3116|mtype=pin}}"
       }
     },
     {
+      "id": "w68d1ab09d633",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1714,
       "z": 3101,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w43a137a85cf2",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1714,
       "z": 3101,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w58d132d822d3",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1714,
       "z": 3101,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wbb8f86590c89",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1714,
       "z": 3101,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w57799eb6ffae",
       "npc": "npc.varlamore_wealthy_citizen_a",
       "x": 1717,
       "z": 3104,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "wddbb0d33d330",
       "npc": "npc.varlamore_wealthy_citizen_b",
       "x": 1717,
       "z": 3104,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "we7062f03db16",
       "npc": "npc.varlamore_wealthy_citizen_c",
       "x": 1717,
       "z": 3104,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w26d883f55bd9",
       "npc": "npc.varlamore_wealthy_citizen_d",
       "x": 1717,
       "z": 3104,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wealthy_citizen",
         "map": "{{Map|name=Wealthy citizen|x:1684,y:3087|x:1685,y:3106|x:1717,y:3104|x:1680,y:3091|x:1711,y:3105|x:1675,y:3107|x:1680,y:3082|x:1680,y:3102|x:1714,y:3101|mapID=0|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w9288567b50a4",
       "npc": "npc.vmq1_knight_4",
       "x": 1722,
       "z": 3074,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Knight_of_Varlamore_(Children_of_the_Sun)",
         "map": "{{Map|x=1722|y=3074|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "w73997fe3e164",
       "npc": "npc.fortis_bartender_2",
       "x": 1723,
       "z": 3077,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(Atlazora's_Rest)",
         "map": "{{Map|name=Bartender|x=1723|y=3077|mtype=pin}}"
       }

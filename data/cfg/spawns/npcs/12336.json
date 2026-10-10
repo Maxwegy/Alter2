@@ -1,80 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12336,
   "spawns": [
     {
+      "id": "w7329bf2a8b2b",
       "npc": "npc.newbie_cook_instructor",
       "x": 3075,
       "z": 3085,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Master_Chef",
         "map": "{{Map|x=3075|y=3085|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wea2a29a89cf0",
       "npc": "npc.newbie_quest_instructor",
       "x": 3086,
       "z": 3122,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Quest_Guide",
         "map": "{{Map|name=Quest Guide|x=3086|y=3122|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w6d38dbd611ca",
       "npc": "npc.newbie_basics_instructor",
       "x": 3094,
       "z": 3107,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gielinor_Guide",
         "map": "{{Map|x=3094|y=3107|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wbb8f27f0d521",
       "npc": "npc.tutorial_skip",
       "x": 3096,
       "z": 3109,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Skippy",
         "map": "{{Map|x=3096|y=3109|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w34ee35df65de",
       "npc": "npc.newbie_survival_instructor",
       "x": 3103,
       "z": 3095,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Survival_Expert",
         "map": "{{Map|x=3103|y=3095|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w74eddf500b9b",
       "npc": "npc.brother_noob",
       "x": 3125,
       "z": 3106,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Brace",
         "map": "{{Map|name=Brother Brace|x=3125|y=3106|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we0b4f0be7996",
       "npc": "npc.newbie_account_instructor",
       "x": 3128,
       "z": 3125,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Account_Guide",
         "map": "{{Map|name=Account Guide|x=3128|y=3125|plane=0|squareX=7|squareY=5|mtype=square}}"
       }

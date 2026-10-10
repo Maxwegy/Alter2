@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9023,
   "spawns": [
     {
+      "id": "we6e6f303941e",
       "npc": "npc.torfinn_collect_ungael",
       "x": 2278,
       "z": 4034,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Torfinn",
         "map": "{{Map|name=Torfinn|x=2278|y=4034|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w05f7ecdaa39b",
       "npc": "npc.torfinn_travel_ungael",
       "x": 2278,
       "z": 4034,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Torfinn",
         "map": "{{Map|name=Torfinn|x=2278|y=4034|plane=0|r=4|mtype=square}}"
       }

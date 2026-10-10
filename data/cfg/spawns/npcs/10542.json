@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10542,
   "spawns": [
     {
+      "id": "w6a7a74836aa3",
       "npc": "npc.100_jubbly_ogre_boat",
       "x": 2654,
       "z": 2964,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ogre_boat",
         "map": "{{Map|2654,2964|mtype=pin}}"
       }
     },
     {
+      "id": "wff7a0bb483e4",
       "npc": "npc.bugs",
       "x": 2654,
       "z": 2964,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bugs",
         "map": "{{Map|name=Bugs|x=2654|y=2964|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5d31501ba8f2",
       "npc": "npc.fycie",
       "x": 2654,
       "z": 2964,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fycie",
         "map": "{{Map|name=Fycie|x=2654|y=2964|r=4|mtype=square}}"
       }

@@ -1,135 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12600,
   "spawns": [
     {
+      "id": "w42ea80f9bcbd",
       "npc": "npc.wildy_hub_refugee1",
       "x": 3139,
       "z": 3626,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Skully",
         "map": "{{Map|3139,3626|mtype=pin}}"
       }
     },
     {
+      "id": "w19e15480e852",
       "npc": "npc.pvptut_npc_to_kill_1",
       "x": 3139,
       "z": 3630,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bowman67",
         "map": "{{Map|name=Bowman67|x=3139|y=3630|mtype=pin}}"
       }
     },
     {
+      "id": "wcdfcca86fcae",
       "npc": "npc.pvptut_tutor",
       "x": 3139,
       "z": 3630,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pete_Kayer",
         "map": "{{Map|name=Pete Kayer|x=3139|y=3630|mtype=pin}}"
       }
     },
     {
+      "id": "w3d64a0f17d5e",
       "npc": "npc.br_reward_shopkeeper",
       "x": 3142,
       "z": 3635,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Justine",
         "map": "{{Map|name=Justine|x=3142|y=3635|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbd554dd1b3a4",
       "npc": "npc.br_wizard_casual",
       "x": 3142,
       "z": 3642,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
         "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd8c7cab2c840",
       "npc": "npc.br_wizard_competitive",
       "x": 3142,
       "z": 3642,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
         "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w84b07968cfb4",
       "npc": "npc.br_wizard_highstakes",
       "x": 3142,
       "z": 3642,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wizard_(Last_Man_Standing)",
         "map": "{{Map|name=Wizard (Last Man Standing)|x=3142|y=3642|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w28d4c2fc216f",
       "npc": "npc.wildy_bear_hunter",
       "x": 3152,
       "z": 3644,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Derse_Venator",
         "map": "{{Map|name=Derse Venator|x=3152|y=3644|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0a243728ca90",
       "npc": "npc.wildy_hub_pub_owner",
       "x": 3152,
       "z": 3644,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Camarst",
         "map": "{{Map|name=Camarst|x=3152|y=3644|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wdb3e27d0e5c9",
       "npc": "npc.wildy_skeleton_hunter",
       "x": 3152,
       "z": 3644,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Andros_Mai",
         "map": "{{Map|name=Andros Mai|x=3152|y=3644|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w30327ea1d4ba",
       "npc": "npc.wildy_spider_hunter",
       "x": 3152,
       "z": 3644,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Phabelle_Bile",
         "map": "{{Map|name=Phabelle Bile|x=3152|y=3644|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w3ebb577a428d",
       "npc": "npc.canoeing_marten",
       "x": 3153,
       "z": 3630,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marten",
         "map": "{{Map|name=Marten|3153,3630|mtype=pin}}"
       }

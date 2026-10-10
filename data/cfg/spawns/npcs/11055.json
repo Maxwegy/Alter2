@@ -1,80 +1,94 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11055,
   "spawns": [
     {
+      "id": "w2446d40412c4",
       "npc": "npc.karam_dungeon_backdoor_paid",
       "x": 2759,
       "z": 3061,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banisoch",
         "map": "{{Map|name=Banisoch|x=2759|y=3061|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd62422c6e61d",
       "npc": "npc.karam_dungeon_backdoor_unpaid",
       "x": 2759,
       "z": 3061,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banisoch",
         "map": "{{Map|name=Banisoch|x=2759|y=3061|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc4de648ac3e0",
       "npc": "npc.tbwt_tiadeche_final",
       "x": 2781,
       "z": 3058,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tiadeche",
         "map": "{{Map|name=Tiadeche|x=2781|y=3058|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w270ccdb02a16",
       "npc": "npc.tbwt_tinsay_final",
       "x": 2790,
       "z": 3054,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tinsay",
         "map": "{{Map|name=Tinsay|x=2790|y=3054|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wd83bf22f8d5c",
       "npc": "npc.tbwcu_gabooty",
       "x": 2793,
       "z": 3065,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gabooty",
         "map": "{{Map|name=Gabooty|x=2793|y=3065|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wd410a1b4d183",
       "npc": "npc.tbwcu_gabooty_nosticks",
       "x": 2793,
       "z": 3065,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gabooty",
         "map": "{{Map|name=Gabooty|x=2793|y=3065|r=7|mtype=square}}"
       }
     },
     {
+      "id": "wd8a7bb403be8",
       "npc": "npc.tbwcu_jagbakoba",
       "x": 2797,
       "z": 3048,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jagbakoba",
         "map": "{{Map|name=Jagbakoba|x=2797|y=3048|r=5|mtype=square}}"
       }

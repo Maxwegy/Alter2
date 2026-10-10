@@ -1,168 +1,198 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13365,
   "spawns": [
     {
+      "id": "w1246fd765d46",
       "npc": "npc.student2",
       "x": 3348,
       "z": 3424,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Student",
         "map": "{{Map|name=Student|x=3348|y=3424|plane=0|r=4|mapID=0|mtype=square|group=3634}}"
       }
     },
     {
+      "id": "w75c6afcae107",
       "npc": "npc.vm_canal_barge_workman_hammering",
       "x": 3357,
       "z": 3446,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_workman",
         "map": "{{Map|name=Barge workman|x=3357|y=3446|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wc5e019131041",
       "npc": "npc.vm_canal_barge_workman_painting_tar",
       "x": 3357,
       "z": 3446,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_workman",
         "map": "{{Map|name=Barge workman|x=3357|y=3446|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w00c81187f1e3",
       "npc": "npc.vm_canal_barge_workman_sawing",
       "x": 3357,
       "z": 3446,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_workman",
         "map": "{{Map|name=Barge workman|x=3357|y=3446|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w00e046915a39",
       "npc": "npc.vm_canal_barge_workman_sledgehammering",
       "x": 3357,
       "z": 3446,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_workman",
         "map": "{{Map|name=Barge workman|x=3357|y=3446|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf53bf8e76a27",
       "npc": "npc.vm_digworkman_loader",
       "x": 3361,
       "z": 3418,
       "height": 0,
       "walkRadius": 15,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dig_Site_workman",
         "map": "{{Map|name=Dig Site workman|x=3361|y=3418|r=15|mtype=square}}"
       }
     },
     {
+      "id": "w433cda138eb3",
       "npc": "npc.fossilquest_barge_guard_barge",
       "x": 3362,
       "z": 3448,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_guard",
         "map": "{{Map|name=Barge guard|x=3362|y=3448|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w66af259f8c54",
       "npc": "npc.fossilquest_barge_guard_port_postquest",
       "x": 3362,
       "z": 3448,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_guard",
         "map": "{{Map|name=Barge guard|x=3362|y=3448|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we6ee37a76366",
       "npc": "npc.fossilquest_barge_guard_port_prequest",
       "x": 3362,
       "z": 3448,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_guard",
         "map": "{{Map|name=Barge guard|x=3362|y=3448|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7051c84005cf",
       "npc": "npc.student1",
       "x": 3363,
       "z": 3397,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Student",
         "map": "{{Map|name=Student|x=3363|y=3397|plane=0|r=4|mapID=0|mtype=square|group=3632}}"
       }
     },
     {
+      "id": "w2f3e2b8780a0",
       "npc": "npc.vm_canal_barge_foremen_talking",
       "x": 3363,
       "z": 3444,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Barge_foreman",
         "map": "{{Map|name=Barge foreman|x=3363|y=3444|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wca645e8b02fc",
       "npc": "npc.student3",
       "x": 3370,
       "z": 3416,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Student",
         "map": "{{Map|name=Student|x=3370|y=3416|plane=0|r=4|mapID=0|mtype=square|group=3633}}"
       }
     },
     {
+      "id": "w7beee0b63c12",
       "npc": "npc.golem_elissa",
       "x": 3374,
       "z": 3434,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elissa",
         "map": "{{Map|name=Elissa|x=3374|y=3434|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w446ffe4f0b15",
       "npc": "npc.dt2_banikan_cutscene",
       "x": 3384,
       "z": 3418,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dr_Banikan",
         "map": "{{Map|name=Dr Banikan|x=3384|y=3418|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8eddc1ff54e0",
       "npc": "npc.dt2_banikan_vis",
       "x": 3384,
       "z": 3418,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dr_Banikan",
         "map": "{{Map|name=Dr Banikan|x=3384|y=3418|plane=0|r=4|mtype=square}}"
       }

@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8499,
   "spawns": [
     {
+      "id": "w6131e61f9947",
       "npc": "npc.prif_slippers",
       "x": 2158,
       "z": 3326,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Slippers",
         "map": "{{Map|name=Slippers|x=2158|y=3326|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w5360c364430c",
       "npc": "npc.prif_surma",
       "x": 2160,
       "z": 3326,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Surma",
         "map": "{{Map|name=Surma|x=2160|y=3326|r=1|mtype=square}}"
       }

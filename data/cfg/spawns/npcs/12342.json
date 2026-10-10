@@ -1,124 +1,146 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12342,
   "spawns": [
     {
+      "id": "wddc0319afcf7",
       "npc": "npc.hundred_dave_mum",
       "x": 3079,
       "z": 3492,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Doris",
         "map": "{{Map|name=Doris|3079,3492|mtype=pin}}"
       }
     },
     {
+      "id": "wfd9056090ee1",
       "npc": "npc.generalassistant5",
       "x": 3080,
       "z": 3510,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shop_assistant_(Edgeville)",
         "map": "{{Map|name=Shop assistant (Edgeville)|3080,3510|mtype=pin}}"
       }
     },
     {
+      "id": "wcac6a3bcfe9f",
       "npc": "npc.generalshopkeeper5",
       "x": 3080,
       "z": 3510,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shop_keeper_(Edgeville)",
         "map": "{{Map|name=Shop keeper (Edgeville)|3080,3510|mtype=pin}}"
       }
     },
     {
+      "id": "w611f7fe09b6c",
       "npc": "npc.bim_marley",
       "x": 3088,
       "z": 3472,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marley",
         "map": "{{Map|name=Marley|x=3088|y=3472|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w15228034fba8",
       "npc": "npc.wildwars_redeemer",
       "x": 3096,
       "z": 3483,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Recruiter_(Wilderness_Wars)",
         "map": "{{Map|name=Recruiter (Wilderness Wars)|x=3096|y=3483|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf57eeb5fc100",
       "npc": "npc.emblem_trader",
       "x": 3096,
       "z": 3503,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Emblem_Trader",
         "map": "{{Map|x=3096|y=3503|r=4|mtype=square|group=Edge}}"
       }
     },
     {
+      "id": "wa3bb08a62f6c",
       "npc": "npc.wilderness_capeseller_6",
       "x": 3102,
       "z": 3519,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Richard_(merchant)",
         "map": "{{Map|name=Richard (merchant)|x=3102|y=3519|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wdd80b4718fc2",
       "npc": "npc.slayer_master_7",
       "x": 3109,
       "z": 3516,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Krystilia",
         "map": "{{Map|name=Krystilia|3109,3516|mtype=pin}}"
       }
     },
     {
+      "id": "w37307122a54d",
       "npc": "npc.lesser_fanatic_diary",
       "x": 3121,
       "z": 3516,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lesser_Fanatic",
         "map": "{{Map|name=Lesser Fanatic|x=3121|y=3516|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wdbf3935ecd53",
       "npc": "npc.diary_rabbit",
       "x": 3121,
       "z": 3517,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Luna",
         "map": "{{Map|name=Luna|x=3121|y=3517|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wa487ae41d32a",
       "npc": "npc.canoeing_hari",
       "x": 3132,
       "z": 3509,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hari",
         "map": "{{Map|name=Hari|3132,3509|mtype=pin}}"
       }

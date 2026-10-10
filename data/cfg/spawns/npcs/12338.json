@@ -1,234 +1,276 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12338,
   "spawns": [
     {
+      "id": "wb591b48d06b3",
       "npc": "npc.martin_the_master_farmer",
       "x": 3078,
       "z": 3258,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Martin_the_Master_Gardener",
         "map": "{{Map|name=Martin the Master Gardener|x=3078|y=3258|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w66218d9881f0",
       "npc": "npc.seed_merchant",
       "x": 3079,
       "z": 3250,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Olivia",
         "map": "{{Map|name=Olivia|x=3079|y=3250|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd8a079b2faf0",
       "npc": "npc.wom_olivia",
       "x": 3079,
       "z": 3250,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Olivia",
         "map": "{{Map|name=Olivia|x=3079|y=3250|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbef7216e2fe9",
       "npc": "npc.aprilfoolshorsesalesman",
       "x": 3081,
       "z": 3247,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Diango",
         "map": "{{Map|name=Diango|x=3081|y=3247|plane=0|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w00f4479ab2da",
       "npc": "npc.pmod_town_crier_draynor",
       "x": 3081,
       "z": 3251,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Town_Crier",
         "map": "{{Map|name=Town Crier|x=3081|y=3251|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wb14a3bb4ed08",
       "npc": "npc.wom_fakeplayer5",
       "x": 3081,
       "z": 3253,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cool_Mom227",
         "map": "{{Map|name=Cool Mom227|x=3081|y=3253|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w11f991f14fdc",
       "npc": "npc.wgs_lucien_spy_vis",
       "x": 3082,
       "z": 3242,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shady_stranger",
         "map": "{{Map|name=Shady stranger|3104,3263|3082,3242|plane=0|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wcb4eda2200b3",
       "npc": "npc.rag_wine_merchant",
       "x": 3085,
       "z": 3252,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fortunato",
         "map": "{{Map|name=Fortunato|x=3085|y=3252|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w27212f8e10f0",
       "npc": "npc.aggie_1op",
       "x": 3086,
       "z": 3259,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aggie",
         "map": "{{Map|3086,3259|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wb26d19ab18ca",
       "npc": "npc.aggie_2ops",
       "x": 3086,
       "z": 3259,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aggie",
         "map": "{{Map|3086,3259|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wdb811d5bcb1f",
       "npc": "npc.wom_bankguard",
       "x": 3087,
       "z": 3247,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bank_guard",
         "map": "{{Map|name=Bank guard|x=3087|y=3247|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w6683e49e0222",
       "npc": "npc.wom_bed_inactive",
       "x": 3087,
       "z": 3254,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Thing_under_the_bed",
         "map": "{{Map|3087,3254|plane=1|mtype=pin}}"
       }
     },
     {
+      "id": "w760d48b81e74",
       "npc": "npc.diary_queen",
       "x": 3096,
       "z": 3227,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Twiggy_O'Korn",
         "map": "{{Map|name=Twiggy O'Korn|x=3096|y=3227|plane=0|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wf4915d331874",
       "npc": "npc.wom_gossip",
       "x": 3096,
       "z": 3253,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Miss_Schism",
         "map": "{{Map|name=Miss Schism|x=3096|y=3253|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w0cceda6637de",
       "npc": "npc.ned",
       "x": 3099,
       "z": 3259,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ned",
         "map": "{{Map|name=Ned|x=3099|y=3259|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w2d32fd7d108e",
       "npc": "npc.wgs_spy2_vis",
       "x": 3103,
       "z": 3258,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Suspicious_outsider",
         "map": "{{Map|name=Suspicious outsider|3103,3258|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w82725b307834",
       "npc": "npc.wgs_lucien_spy_vis",
       "x": 3104,
       "z": 3263,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shady_stranger",
         "map": "{{Map|name=Shady stranger|3104,3263|3082,3242|plane=0|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wa718b2796fb5",
       "npc": "npc.leela",
       "x": 3113,
       "z": 3262,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Leela",
         "map": "{{Map|name=Leela|x=3113|y=3262|plane=0|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w38068ddd7ba7",
       "npc": "npc.joe_vis",
       "x": 3124,
       "z": 3244,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Joe_(jail)",
         "map": "{{Map|name=Joe (jail)|x=3124|y=3244|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wa6d1bf8dee3f",
       "npc": "npc.prince_ali_vis_blackeye",
       "x": 3126,
       "z": 3243,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Prince_Ali",
         "map": "{{Map|x=3126|y=3243|mtype=rectangle|zoom=2|rectX=12|rectY=9|3126,3243}}"
       }
     },
     {
+      "id": "we5ae6b4b07a1",
       "npc": "npc.lady_keli_vis",
       "x": 3128,
       "z": 3244,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lady_Keli",
         "map": "{{Map|name=Lady Keli|x=3128|y=3244|plane=0|r=4|mtype=square}}"
       }

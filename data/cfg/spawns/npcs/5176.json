@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5176,
   "spawns": [
     {
+      "id": "w0529af78f09c",
       "npc": "npc.raids_xerician_priest",
       "x": 1305,
       "z": 3618,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Swamp_Priest",
         "map": "{{Map|name=Swamp Priest|x=1305|y=3618|r=4|mtype=square}}"
       }

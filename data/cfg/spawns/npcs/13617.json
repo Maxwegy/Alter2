@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13617,
   "spawns": [
     {
+      "id": "w5647523c6feb",
       "npc": "npc.golem_phoenix",
       "x": 3419,
       "z": 3155,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Desert_Phoenix",
         "map": "{{Map|name=Desert Phoenix|x=3419|y=3155|r=6|mtype=square}}"
       }

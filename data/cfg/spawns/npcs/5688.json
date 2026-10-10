@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5688,
   "spawns": [
     {
+      "id": "wbd46e9ce0e16",
       "npc": "npc.shayzienquest_gravedigger",
       "x": 1429,
       "z": 3593,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grave_digger",
         "map": "{{Map|name=Grave digger|x=1429|y=3593|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w837f56df9b68",
       "npc": "npc.shayzien_forester",
       "x": 1463,
       "z": 3601,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jessie",
         "map": "{{Map|name=Jessie|x=1463|y=3601|r=3|mtype=square}}"
       }

@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11577,
   "spawns": [
     {
+      "id": "we7dc8049c69d",
       "npc": "npc.troll_eadgar",
       "x": 2890,
       "z": 3677,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Eadgar",
         "map": "{{Map|mtype=pin|2890,3677}}"
       }
     },
     {
+      "id": "wf00c832d6659",
       "npc": "npc.eadgar_troll_thistle",
       "x": 2891,
       "z": 3676,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Thistle_(Trollheim)",
         "map": "{{Map|2891,3676|mtype=pin}}"
       }

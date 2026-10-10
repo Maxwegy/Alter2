@@ -1,124 +1,146 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5946,
   "spawns": [
     {
+      "id": "w8c9c1a9d00b7",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1482,
       "z": 3721,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "wb94f1e4c91b1",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1484,
       "z": 3717,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "wd6de12606acc",
       "npc": "npc.lovakengj_assistant_vis",
       "x": 1486,
       "z": 3749,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jorra",
         "map": "{{Map|name=Jorra|x=1486|y=3749|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc32899320687",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1488,
       "z": 3718,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w24c137744cb5",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1489,
       "z": 3716,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "w8c7c7582ded0",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1499,
       "z": 3719,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "wc865413c53fc",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1501,
       "z": 3718,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "w04a74359b2d6",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1502,
       "z": 3715,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "wdedbc57986e5",
       "npc": "npc.lovakengj_minecart_lovakengj",
       "x": 1518,
       "z": 3732,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Miriam",
         "map": "{{Map|name=Miriam|x=1518|y=3732|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w83de2d178751",
       "npc": "npc.lovakengj_citizen_5",
       "x": 1524,
       "z": 3752,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
         "map": "{{Map|name=Dwarf|x=1524|y=3752|r=5|mtype=square}}"
       }
     },
     {
+      "id": "waeabd1d27395",
       "npc": "npc.vmq1_guard_8",
       "x": 1524,
       "z": 3752,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_5)",
         "map": "{{Map|name=Armourer (tier 5)|x=1524|y=3752|r=5|mtype=square}}"
       }

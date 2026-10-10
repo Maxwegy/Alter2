@@ -1,344 +1,406 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13358,
   "spawns": [
     {
+      "id": "w70cbb6952033",
       "npc": "npc.feud_menap_boss_vis",
       "x": 3334,
       "z": 2956,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Menaphite_Leader",
         "map": "{{Map|name=Menaphite Leader|x=3334|y=2956|zoom=2|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w113d28314554",
       "npc": "npc.feud_egyptian_minder",
       "x": 3334,
       "z": 2957,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Operator",
         "map": "{{Map|name=Ali the Operator|x=3334|y=2957|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w8138aef131c7",
       "npc": "npc.feud_egyptian_minder_postquest",
       "x": 3334,
       "z": 2957,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Operator",
         "map": "{{Map|name=Ali the Operator|x=3334|y=2957|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w46a69eb8e150",
       "npc": "npc.enakh_aristarchus",
       "x": 3340,
       "z": 2965,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aristarchus",
         "map": "{{Map|name=Aristarchus|x=3340|y=2965|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w3919185d9dd2",
       "npc": "npc.feud_camel",
       "x": 3343,
       "z": 2964,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Camel",
         "map": "{{Map|name=Ali the Camel|x=3343|y=2964|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc3e24419583a",
       "npc": "npc.feud_camel_postquest",
       "x": 3343,
       "z": 2964,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Camel",
         "map": "{{Map|name=Ali the Camel|x=3343|y=2964|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wcc8f59b67ddb",
       "npc": "npc.feud_camel_postquest2",
       "x": 3343,
       "z": 2964,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Camel",
         "map": "{{Map|name=Ali the Camel|x=3343|y=2964|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w517fc574a551",
       "npc": "npc.feud_hag",
       "x": 3345,
       "z": 2987,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Hag",
         "map": "{{Map|name=Ali the Hag|x=3345|y=2987|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf1458bb72166",
       "npc": "npc.feud_hag_postquest",
       "x": 3345,
       "z": 2987,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Hag",
         "map": "{{Map|name=Ali the Hag|x=3345|y=2987|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4aebcbe0cd85",
       "npc": "npc.feud_ali_the_discount_camel_seller",
       "x": 3349,
       "z": 2966,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Camel_Man",
         "map": "{{Map|name=Ali the Camel Man|x=3349|y=2966|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4e2be5b9e963",
       "npc": "npc.feud_ali_the_discount_camel_seller_postquest",
       "x": 3349,
       "z": 2966,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Camel_Man",
         "map": "{{Map|name=Ali the Camel Man|x=3349|y=2966|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wab7ff93d4896",
       "npc": "npc.feud_bjseller",
       "x": 3350,
       "z": 2971,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Blackjack_seller",
         "map": "{{Map|name=Blackjack seller|x=3350|y=2971|plane=0|r=2|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w4ffc38d88c55",
       "npc": "npc.magic_carpet_seller4",
       "x": 3350,
       "z": 3001,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
         "map": "{{Map|name=Rug Merchant|3467,3110|3350,3001|plane=0|mapID=0|mtype=pin|group=20}}"
       }
     },
     {
+      "id": "w296f1efff6eb",
       "npc": "npc.feud_kebabman",
       "x": 3354,
       "z": 2975,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Kebab_seller",
         "map": "{{Map|name=Ali the Kebab seller|3354,2975|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w96bdb6c764cd",
       "npc": "npc.feud_kebabman_postquest",
       "x": 3354,
       "z": 2975,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Kebab_seller",
         "map": "{{Map|name=Ali the Kebab seller|3354,2975|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wb0099b60c673",
       "npc": "npc.feud_charmers_snake",
       "x": 3355,
       "z": 2953,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Snake_(The_Asp_%26_Snake_Bar)",
         "map": "{{Map|name=Snake (The Asp & Snake Bar)|x=3355|y=2953|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w71be61c0e771",
       "npc": "npc.feud_snakecharmer",
       "x": 3355,
       "z": 2953,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Snake_Charmer",
         "map": "{{Map|name=Ali the Snake Charmer|x=3355|y=2953|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w6138318f0980",
       "npc": "npc.feud_snakecharmer_postquest",
       "x": 3355,
       "z": 2953,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Snake_Charmer",
         "map": "{{Map|name=Ali the Snake Charmer|x=3355|y=2953|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w54645d9a7cd4",
       "npc": "npc.feud_bandit_boss_vis",
       "x": 3355,
       "z": 3000,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bandit_Leader",
         "map": "{{Map|name=Bandit Leader|x=3355|y=3000|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w0e9036339884",
       "npc": "npc.feud_drunken_ali",
       "x": 3359,
       "z": 2958,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Drunken_Ali",
         "map": "{{Map|name=Drunken Ali|x=3359|y=2958|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbc7868219d5c",
       "npc": "npc.feud_drunken_ali_postquest",
       "x": 3359,
       "z": 2958,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Drunken_Ali",
         "map": "{{Map|name=Drunken Ali|x=3359|y=2958|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w45acc340916f",
       "npc": "npc.feud_marketseller",
       "x": 3359,
       "z": 2987,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Market_seller",
         "map": "{{Map|name=Market seller|3359,2987|mtype=pin}}"
       }
     },
     {
+      "id": "we806cde3479b",
       "npc": "npc.feud_street_urchin",
       "x": 3360,
       "z": 2970,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Street_urchin",
         "map": "{{Map|name=Street urchin|x=3360|y=2970|r=10|mtype=square}}"
       }
     },
     {
+      "id": "web15af57f72a",
       "npc": "npc.uncerter_pollnivneach",
       "x": 3360,
       "z": 2988,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banknote_Exchange_Merchant",
         "map": "{{Map|name=Banknote Exchange Merchant|x=3360|y=2988|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w0cec8b488588",
       "npc": "npc.feud_arabian_guard_coward",
       "x": 3360,
       "z": 3000,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cowardly_Bandit",
         "map": "{{Map|name=Cowardly Bandit|x=3360|y=3000|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wf7d73cb85620",
       "npc": "npc.feud_ali_the_barman",
       "x": 3361,
       "z": 2956,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Barman",
         "map": "{{Map|name=Ali the Barman|3361,2956|mtype=pin}}"
       }
     },
     {
+      "id": "wdfe74c0fe2bf",
       "npc": "npc.feud_ali_the_barman_postquest",
       "x": 3361,
       "z": 2956,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Barman",
         "map": "{{Map|name=Ali the Barman|3361,2956|mtype=pin}}"
       }
     },
     {
+      "id": "wfab6ed9d7b0f",
       "npc": "npc.feud_dye_lady",
       "x": 3364,
       "z": 3002,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_dyer",
         "map": "{{Map|3364,3002|mtype=rectangle|rectX=3|rectY=4|bucket=yes}}"
       }
     },
     {
+      "id": "w970830a4f45c",
       "npc": "npc.feud_dye_lady_postquest",
       "x": 3364,
       "z": 3002,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_dyer",
         "map": "{{Map|3364,3002|mtype=rectangle|rectX=3|rectY=4|bucket=yes}}"
       }
     },
     {
+      "id": "wb6a383f73e08",
       "npc": "npc.feud_mayor_geom",
       "x": 3368,
       "z": 2971,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Mayor",
         "map": "{{Map|name=Ali the Mayor|x=3368|y=2971|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3df9a20f7733",
       "npc": "npc.feud_mayor_geom_postquest",
       "x": 3368,
       "z": 2971,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ali_the_Mayor",
         "map": "{{Map|name=Ali the Mayor|x=3368|y=2971|plane=0|r=3|mtype=square}}"
       }

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6455,
   "spawns": [
     {
+      "id": "w0d7feb81e5f7",
       "npc": "npc.watson_bloodhoundpet",
       "x": 1646,
       "z": 3574,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gruff_McScruff",
         "map": "{{Map|name=Gruff McScruff|x=1646|y=3574|plane=0|r=4|mtype=square}}"
       }

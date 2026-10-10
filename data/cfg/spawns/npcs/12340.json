@@ -1,289 +1,341 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12340,
   "spawns": [
     {
+      "id": "w407977821eff",
       "npc": "npc.shadow_maj_scout3",
       "x": 3072,
       "z": 3344,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Scout_(Falador)",
         "map": "{{Map|name=Scout (Falador)|x=3072|y=3344|r=10|mtype=square}}"
       }
     },
     {
+      "id": "web7237f934e6",
       "npc": "npc.anma_assistant",
       "x": 3094,
       "z": 3357,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ava",
         "map": "{{Map|name=Ava|x=3094|y=3357|plane=0|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wa4693e0032af",
       "npc": "npc.anma_witch",
       "x": 3101,
       "z": 3370,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Witch",
         "map": "{{Map|name=Witch|x=3101|y=3370|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wfb0bc5b1c6e9",
       "npc": "npc.nasty_tree_choppable",
       "x": 3103,
       "z": 3347,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w471d5e829b95",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3103,
       "z": 3347,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "w796449a04662",
       "npc": "npc.nasty_tree_choppable",
       "x": 3107,
       "z": 3337,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w7fcade86668e",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3107,
       "z": 3337,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "wbaf9ae018bc1",
       "npc": "npc.nasty_tree_choppable",
       "x": 3107,
       "z": 3342,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "wa56b3f5b8725",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3107,
       "z": 3342,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "wa66f27ad8308",
       "npc": "npc.nasty_tree_choppable",
       "x": 3107,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w29638eb7b11d",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3107,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "we6aefc38c4fd",
       "npc": "npc.nasty_tree_choppable",
       "x": 3108,
       "z": 3346,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "wdaf043ec3f37",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3108,
       "z": 3346,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "w33625d78f593",
       "npc": "npc.ernest_the_chicken",
       "x": 3109,
       "z": 3366,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ernest",
         "map": "{{Map|x=3109|y=3366|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w52cdd78af325",
       "npc": "npc.veronica",
       "x": 3110,
       "z": 3330,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Veronica",
         "map": "{{Map|x=3110|y=3330|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5761df97b5b1",
       "npc": "npc.nasty_tree_choppable",
       "x": 3111,
       "z": 3339,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "wa6ca063265b7",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3111,
       "z": 3339,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "w26e7c55ec6df",
       "npc": "npc.nasty_tree_choppable",
       "x": 3111,
       "z": 3348,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "wf5551bfbbdf3",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3111,
       "z": 3348,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "wcf7f67d068ff",
       "npc": "npc.professor_oddenstein",
       "x": 3111,
       "z": 3367,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Professor_Oddenstein",
         "map": "{{Map|name=Professor Oddenstein|x=3111|y=3367|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w95b33b70f7e4",
       "npc": "npc.nasty_tree_choppable",
       "x": 3115,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w6c4fcee0a146",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3115,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "w54209cfa1e28",
       "npc": "npc.nasty_tree_choppable",
       "x": 3120,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w864f964d08d6",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3120,
       "z": 3344,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }
     },
     {
+      "id": "w040049eb8253",
       "npc": "npc.nasty_tree_choppable",
       "x": 3122,
       "z": 3335,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin}}"
       }
     },
     {
+      "id": "w48c4a674ea88",
       "npc": "npc.nasty_tree_unchoppable",
       "x": 3122,
       "z": 3335,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Undead_tree",
         "map": "{{Map|name=Undead tree|3143,3365|3140,3360|3143,3357|3138,3352|3111,3348|3103,3347|3108,3346|3107,3344|3115,3344|3120,3344|3107,3342|3111,3339|3107,3337|3122,3335|mtype=pin|group=draynor}}"
       }

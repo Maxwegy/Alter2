@@ -1,245 +1,289 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5689,
   "spawns": [
     {
+      "id": "w4d0fb1ee0103",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1409,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wa468f6f7b912",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1411,
       "z": 3704,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w2693dd2bd7e8",
       "npc": "npc.molch_shay_swordsmen_1",
       "x": 1411,
       "z": 3710,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Black scimitar)|1363,3717|1365,3712|1366,3724|1370,3723|1374,3741|1374,3742|1374,3751|1377,3736|1378,3713|1387,3735|1389,3754|1393,3738|1393,3747|1398,3723|1399,3719|1365,3695|1368,3700|1370,3690|1372,3692|1379,3692|1381,3707|1384,3697|1385,3703|1386,3687|1386,3694|1389,3689|1411,3704|1411,3710|mtype=pin}}"
       }
     },
     {
+      "id": "w912d0c208765",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1412,
       "z": 3707,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wbb409fe264ad",
       "npc": "npc.shayzien_chasm_guard_dds_vis",
       "x": 1429,
       "z": 3660,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w04cc6fbf4555",
       "npc": "npc.shayzien_chasm_guard_hammer_vis",
       "x": 1429,
       "z": 3660,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w6974112e38f5",
       "npc": "npc.shayzien_chasm_guard_scim_vis",
       "x": 1429,
       "z": 3660,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w6a3f00c6263e",
       "npc": "npc.shayzien_chasm_guard_dds_vis",
       "x": 1430,
       "z": 3663,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "we0cfb9fc255d",
       "npc": "npc.shayzien_chasm_guard_hammer_vis",
       "x": 1430,
       "z": 3663,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "wfdcb602b1a96",
       "npc": "npc.shayzien_chasm_guard_scim_vis",
       "x": 1430,
       "z": 3663,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w4f7f5b5bd5cf",
       "npc": "npc.shayzien_chasm_guard_dds_vis",
       "x": 1431,
       "z": 3670,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w6105c424adc9",
       "npc": "npc.shayzien_chasm_guard_hammer_vis",
       "x": 1431,
       "z": 3670,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "wf109e058d98b",
       "npc": "npc.shayzien_chasm_guard_scim_vis",
       "x": 1431,
       "z": 3670,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Chasm_of_Fire)",
         "map": "{{Map|1431,3670|1430,3663|1429,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w2bb570ce3158",
       "npc": "npc.shayzien_chasm_guard_axe_vis",
       "x": 1434,
       "z": 3660,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sergeant_(Chasm_of_Fire)",
         "map": "{{Map|name=Sergeant|1434,3660|mtype=pin}}"
       }
     },
     {
+      "id": "w2e37be041d34",
       "npc": "npc.shayzien_chasm_guard_dlong_vis",
       "x": 1435,
       "z": 3661,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lieutenant_(Chasm_of_Fire)",
         "map": "{{Map|name=Lieutenant|1435,3661|mtype=pin}}"
       }
     },
     {
+      "id": "w7d1ee54899b9",
       "npc": "npc.shayzien_lizardfighter_2",
       "x": 1448,
       "z": 3696,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1448,3696|1477,3699|1494,3708|1507,3696|1511,3692|1489,3716|mtype=pin}}"
       }
     },
     {
+      "id": "wd65ab17c9844",
       "npc": "npc.shayzien_lizardfighter_4",
       "x": 1449,
       "z": 3697,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3697|1483,3700|1494,3696|1507,3689|1510,3697|1484,3717|1499,3719|mtype=pin}}"
       }
     },
     {
+      "id": "wc4dd373baab2",
       "npc": "npc.shayzien_lizardfighter_3",
       "x": 1449,
       "z": 3698,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3698|1486,3700|1491,3703|1506,3693|1510,3687|1488,3718|1501,3718|mtype=pin}}"
       }
     },
     {
+      "id": "wa8814a22c539",
       "npc": "npc.shayzien_lizardfighter_1",
       "x": 1449,
       "z": 3699,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_Canyon)",
         "map": "{{Map|1449,3699|1480,3710|1499,3700|1509,3690|1512,3689|1482,3721|1502,3715|mtype=pin}}"
       }
     },
     {
+      "id": "wdf5455d3ea8c",
       "npc": "npc.shayzien_ranger_firing",
       "x": 1467,
       "z": 3703,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1467,3703|1467,3706|1467,3717|1467,3720|mtype=pin}}"
       }
     },
     {
+      "id": "wcb55d9f68417",
       "npc": "npc.shayzien_ranger_firing",
       "x": 1467,
       "z": 3706,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1467,3703|1467,3706|1467,3717|1467,3720|mtype=pin}}"
       }
     },
     {
+      "id": "w1380a9811661",
       "npc": "npc.shayzien_handholds_guard",
       "x": 1468,
       "z": 3682,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Lizardman_kill_count)",
         "map": "{{Map|mtype=pin|1468:3682}}"
       }

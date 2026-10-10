@@ -1,388 +1,458 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13099,
   "spawns": [
     {
+      "id": "wfe616a8350ce",
       "npc": "npc.ics_little_hipriest_vis",
       "x": 3281,
       "z": 2770,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/High_Priest_(Sophanem)",
         "map": "{{Map|name=High Priest (Sophanem)|x=3281|y=2770|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w6b5c95e1052c",
       "npc": "npc.ics_little_embalmer",
       "x": 3286,
       "z": 2754,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Embalmer",
         "map": "{{Map|name=Embalmer|x=3286|y=2754|mtype=pin}}"
       }
     },
     {
+      "id": "web8c2f6d2d38",
       "npc": "npc.ics_little_embalmer_nospots",
       "x": 3286,
       "z": 2754,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Embalmer",
         "map": "{{Map|name=Embalmer|x=3286|y=2754|mtype=pin}}"
       }
     },
     {
+      "id": "wbdfcc31e4af3",
       "npc": "npc.magic_carpet_seller8",
       "x": 3287,
       "z": 2813,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rug_Merchant",
         "map": "{{Map|name=Rug Merchant|3401,2918|3287,2813|3243,2813|plane=0|mapID=0|mtype=pin|group=22}}"
       }
     },
     {
+      "id": "wd45f82942221",
       "npc": "npc.ntk_tarik",
       "x": 3289,
       "z": 2784,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tarik",
         "map": "{{Map|name=Tarik|x=3289|y=2784|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb07716643e3b",
       "npc": "npc.ntk_tarik_nospots",
       "x": 3289,
       "z": 2784,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tarik",
         "map": "{{Map|name=Tarik|x=3289|y=2784|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w06c6cb1a4df6",
       "npc": "npc.ntk_mummy_guardian",
       "x": 3289,
       "z": 2787,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guardian_mummy",
         "map": "{{Map|name=Guardian mummy|x=3289|y=2787|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we098a91563ce",
       "npc": "npc.ics_little_worker1",
       "x": 3290,
       "z": 2763,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w84d82d35e991",
       "npc": "npc.ics_little_worker1_nospots",
       "x": 3290,
       "z": 2763,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w3687a3da5a20",
       "npc": "npc.ics_little_spectre_vis",
       "x": 3290,
       "z": 2785,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Klenter",
         "map": "{{Map|name=Klenter|x=3290|y=2785|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w8930b5959b2c",
       "npc": "npc.neferti_the_camel",
       "x": 3292,
       "z": 2755,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Neferti_the_Camel",
         "map": "{{Map|name=Neferti the Camel|x=3292|y=2755|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w750ef44769b4",
       "npc": "npc.ics_little_worker2",
       "x": 3292,
       "z": 2762,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "w485ee9993aac",
       "npc": "npc.ics_little_worker2_nospots",
       "x": 3292,
       "z": 2762,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "w43ff94aee5d3",
       "npc": "npc.ics_little_worker1",
       "x": 3292,
       "z": 2764,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "wd49ceffd8fa7",
       "npc": "npc.ics_little_worker1_nospots",
       "x": 3292,
       "z": 2764,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w8ec73c8e9dd2",
       "npc": "npc.ics_little_worker2",
       "x": 3296,
       "z": 2796,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "wdb01aef84d63",
       "npc": "npc.ics_little_worker2_nospots",
       "x": 3296,
       "z": 2796,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "wf4a8bd7eb29e",
       "npc": "npc.ics_little_sphinx",
       "x": 3297,
       "z": 2785,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sphinx",
         "map": "{{Map|name=Sphinx|x=3297|y=2785|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w7289e3b2c3a7",
       "npc": "npc.twocats_sphinx_cutscene",
       "x": 3297,
       "z": 2785,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sphinx",
         "map": "{{Map|name=Sphinx|x=3297|y=2785|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w778c3cf8949c",
       "npc": "npc.ics_little_worker1",
       "x": 3297,
       "z": 2798,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w6df20b103d1f",
       "npc": "npc.ics_little_worker1_nospots",
       "x": 3297,
       "z": 2798,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w59c4e4bb0a5a",
       "npc": "npc.contact_market_dagger",
       "x": 3297,
       "z": 2805,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Urbi",
         "map": "{{Map|name=Urbi|x=3297|y=2805|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3b73ddc2666f",
       "npc": "npc.contact_market_baker",
       "x": 3304,
       "z": 2770,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nathifa",
         "map": "{{Map|name=Nathifa|x=3304|y=2770|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wb7bd6515f14f",
       "npc": "npc.ics_little_worker2",
       "x": 3306,
       "z": 2774,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "w61927f7c28ae",
       "npc": "npc.ics_little_worker2_nospots",
       "x": 3306,
       "z": 2774,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3296,2796|3306,2774|3292,2762|plane=0|mapID=0|mtype=pin|group=Black hair}}"
       }
     },
     {
+      "id": "wfdfb7f20fe70",
       "npc": "npc.ics_little_worker1",
       "x": 3307,
       "z": 2772,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "wb8946128ced4",
       "npc": "npc.ics_little_worker1_nospots",
       "x": 3307,
       "z": 2772,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Worker_(Sophanem)",
         "map": "{{Map|name=Worker|3297,2798|3307,2772|3292,2764|3290,2763|plane=0|mapID=0|mtype=pin|group=Bald}}"
       }
     },
     {
+      "id": "w4518cc85654c",
       "npc": "npc.contact_market_craft",
       "x": 3311,
       "z": 2780,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jamila",
         "map": "{{Map|name=Jamila|x=3311|y=2780|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc84498e34371",
       "npc": "npc.contact_jex_nospots",
       "x": 3312,
       "z": 2799,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jex",
         "map": "{{Map|name=Jex|x=3312|y=2799|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wee7a1227d3fa",
       "npc": "npc.bcs_necropolis_citizen_s1",
       "x": 3313,
       "z": 2770,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Carpenter",
         "map": "{{Map|name=Carpenter|x=3313|y=2770|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w61a3298e81b9",
       "npc": "npc.ics_little_carpenter",
       "x": 3313,
       "z": 2770,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Carpenter",
         "map": "{{Map|name=Carpenter|x=3313|y=2770|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w10a68a7e7df3",
       "npc": "npc.contact_stone_mason",
       "x": 3314,
       "z": 2757,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Stonemason_(Sophanem)",
         "map": "{{Map|name=Stonemason|x=3314|y=2757|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd5790da21417",
       "npc": "npc.ics_little_linen2",
       "x": 3315,
       "z": 2786,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Siamun",
         "map": "{{Map|name=Siamun|x=3315|y=2786|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wf98e3d522059",
       "npc": "npc.ics_little_linen2_nospots",
       "x": 3315,
       "z": 2786,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Siamun",
         "map": "{{Map|name=Siamun|x=3315|y=2786|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w3e2c5688cf91",
       "npc": "npc.ics_little_linen1_nospots",
       "x": 3316,
       "z": 2786,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Raetul",
         "map": "{{Map|name=Raetul|x=3316|y=2786|r=3|mtype=square}}"
       }

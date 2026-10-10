@@ -22,6 +22,11 @@ class NpcSpawnIndexService(spawns: Map<NpcSpawnsLoader.Key, NpcSpawnsLoader.Spaw
         byKey[key(new)] = new
     }
 
+    /** Adds [spawn], for an NPC spawned in game that has no entry yet. */
+    fun add(spawn: NpcSpawnsLoader.Spawn) {
+        byKey[key(spawn)] = spawn
+    }
+
     fun remove(spawn: NpcSpawnsLoader.Spawn) {
         byKey.remove(key(spawn))
     }

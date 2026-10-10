@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10805,
   "spawns": [
     {
+      "id": "w2e3a7c9cfa54",
       "npc": "npc.thormac",
       "x": 2702,
       "z": 3406,
       "height": 3,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Thormac",
         "map": "{{Map|name=Thormac|x=2702|y=3406|plane=3|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w8b51cd18bde8",
       "npc": "npc.skillcapes_firemaster",
       "x": 2720,
       "z": 3430,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ignatius_Vulcan",
         "map": "{{Map|name=Ignatius Vulcan|x=2720|y=3430|plane=0|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w2929dee709d2",
       "npc": "npc.sherlock",
       "x": 2733,
       "z": 3413,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sherlock",
         "map": "{{Map|name=Sherlock|x=2733|y=3413|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w8e0389d5f8a6",
       "npc": "npc.diary_flax_keeper",
       "x": 2744,
       "z": 3443,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Flax_keeper",
         "map": "{{Map|name=Flax keeper|x=2744|y=3443|plane=0|r=5|mtype=square}}"
       }

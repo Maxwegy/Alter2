@@ -1,91 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6714,
   "spawns": [
     {
+      "id": "we6543730d0d9",
       "npc": "npc.arceuus_staffshop",
       "x": 1669,
       "z": 3726,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Filamina",
         "map": "{{Map|name=Filamina|1669,3726|mtype=pin}}"
       }
     },
     {
+      "id": "w8829cc120c9d",
       "npc": "npc.arceuus_researcher",
       "x": 1685,
       "z": 3768,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ouditor",
         "map": "{{Map|name=Ouditor|x=1685|y=3768|plane=0|squareX=12|squareY=14|mtype=square}}"
       }
     },
     {
+      "id": "wf747c6a47549",
       "npc": "npc.arceuus_bartender",
       "x": 1687,
       "z": 3728,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rassain",
         "map": "{{Map|name=Rassain|x=1687|y=3728|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w021700e7a789",
       "npc": "npc.arcquest_mori_visible",
       "x": 1700,
       "z": 3742,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mori",
         "map": "{{Map|name=Mori|1700,3742|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9d28a55a1d01",
       "npc": "npc.arceuus_petbat",
       "x": 1702,
       "z": 3769,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Batt_Mellamy",
         "map": "{{Map|name=Batt Mellamy|x=1702|y=3769|r=5|mtype=square}}"
       }
     },
     {
+      "id": "we1f8d45de8bf",
       "npc": "npc.arceuus_petbat_owner",
       "x": 1702,
       "z": 3769,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Freald",
         "map": "{{Map|name=Freald|x=1702|y=3769|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfd6a55cd4945",
       "npc": "npc.arceuus_generalstore",
       "x": 1720,
       "z": 3724,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Regath",
         "map": "{{Map|name=Regath|1720,3724|mtype=pin}}"
       }
     },
     {
+      "id": "w7f6d0f01b620",
       "npc": "npc.arceuus_runeshop",
       "x": 1722,
       "z": 3743,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Thyria",
         "map": "{{Map|name=Thyria|1722,3743|mtype=pin}}"
       }

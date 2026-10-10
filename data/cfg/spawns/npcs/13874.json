@@ -1,377 +1,445 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13874,
   "spawns": [
     {
+      "id": "wac3a7ce1bc91",
       "npc": "npc.burgh_vilager_sit3",
       "x": 3480,
       "z": 3223,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Nicoleta",
         "map": "{{Map|name=Nicoleta|x=3480|y=3223|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w5f4c48e3c773",
       "npc": "npc.templetrek_child_hard",
       "x": 3480,
       "z": 3237,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Smiddi_Ryak_(hard)",
         "map": "{{Map|name=Smiddi Ryak (hard)|x=3480|y=3237|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w5c6edd025397",
       "npc": "npc.templetrek_man_med",
       "x": 3480,
       "z": 3237,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Valantay_Eppel_(medium)",
         "map": "{{Map|name=Valantay Eppel (medium)|x=3480|y=3237|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w10bb7b61f117",
       "npc": "npc.templetrek_oldman_hard",
       "x": 3480,
       "z": 3237,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rolayne_Twickit_(hard)",
         "map": "{{Map|name=Rolayne Twickit (hard)|x=3480|y=3237|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wf584ca7b4c51",
       "npc": "npc.burgh_vilager_sit2",
       "x": 3481,
       "z": 3223,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mihail",
         "map": "{{Map|name=Mihail|x=3481|y=3223|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w4f0693c490f7",
       "npc": "npc.templetrek_retired_soldier_easy",
       "x": 3481,
       "z": 3237,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fyiona_Fray_(easy)",
         "map": "{{Map|name=Fyiona Fray (easy)|x=3481|y=3237|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd6a46524e6ed",
       "npc": "npc.templetrek_retired_man_easy",
       "x": 3482,
       "z": 3236,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dalcian_Fang_(easy)",
         "map": "{{Map|name=Dalcian Fang (easy)|x=3482|y=3236|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w32fce4d9d245",
       "npc": "npc.templetrek_woman_med",
       "x": 3482,
       "z": 3236,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jayene_Kliyn_(medium)",
         "map": "{{Map|name=Jayene Kliyn (medium)|x=3482|y=3236|r=7|mtype=square}}"
       }
     },
     {
+      "id": "w90ccdff03ad6",
       "npc": "npc.burgh_vilager_7",
       "x": 3483,
       "z": 3210,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Emilia",
         "map": "{{Map|name=Emilia|x=3483|y=3210|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4f30861f98e2",
       "npc": "npc.burgh_villager_child3",
       "x": 3483,
       "z": 3210,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Victor",
         "map": "{{Map|name=Victor|x=3483|y=3210|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc9d648168777",
       "npc": "npc.burgh_villager_child4",
       "x": 3483,
       "z": 3210,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Helena",
         "map": "{{Map|name=Helena|x=3483|y=3210|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa7d6ff7ad84d",
       "npc": "npc.burgh_vilager_rat_1",
       "x": 3485,
       "z": 3237,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Vasile",
         "map": "{{Map|name=Vasile|x=3485|y=3237|r=5|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wa0b199ca91ab",
       "npc": "npc.burgh_vilager_8",
       "x": 3485,
       "z": 3243,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Florin",
         "map": "{{Map|name=Florin|x=3485|y=3243|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w704d06b1cc2e",
       "npc": "npc.burgh_vilager_4",
       "x": 3489,
       "z": 3222,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Grigore",
         "map": "{{Map|name=Grigore|x=3489|y=3222|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wbd25c3dcfd31",
       "npc": "npc.burgh_villager_child1",
       "x": 3489,
       "z": 3222,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Catalina",
         "map": "{{Map|name=Catalina|x=3489|y=3222|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we1956b9f10cf",
       "npc": "npc.burgh_vilager_leader",
       "x": 3489,
       "z": 3241,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elisabeta",
         "map": "{{Map|name=Elisabeta|x=3489|y=3241|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w27ee27841bfd",
       "npc": "npc.burgh_vilager_1",
       "x": 3491,
       "z": 3243,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Luscion",
         "map": "{{Map|name=Luscion|x=3491|y=3243|r=2|mtype=square}}"
       }
     },
     {
+      "id": "we939900afdc9",
       "npc": "npc.burgh_vilager_rat_2",
       "x": 3492,
       "z": 3235,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Razvan",
         "map": "{{Map|name=Razvan|x=3492|y=3235|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wd5a34de217e8",
       "npc": "npc.burgh_bank_teller",
       "x": 3494,
       "z": 3211,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cornelius",
         "map": "{{Map|name=Cornelius|x=3494|y=3211|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wf0b082c083ca",
       "npc": "npc.burgh_potential_bank_teller",
       "x": 3494,
       "z": 3211,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cornelius",
         "map": "{{Map|name=Cornelius|x=3494|y=3211|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa9c51491742f",
       "npc": "npc.myq6_veliaf_postquest_vis",
       "x": 3494,
       "z": 3227,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Veliaf_Hurtz",
         "map": "{{Map|name=Veliaf Hurtz|x=3494|y=3227|plane=0|mtype=pin}}"
       }
     },
     {
+      "id": "w0da7619131d9",
       "npc": "npc.burgh_farmer",
       "x": 3504,
       "z": 3241,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Teodor",
         "map": "{{Map|name=Teodor|x=3504|y=3241|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0e656b8cad26",
       "npc": "npc.burgh_vilager_sit1",
       "x": 3504,
       "z": 3243,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Calin",
         "map": "{{Map|name=Calin|x=3504|y=3243|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w911dcc5bedbe",
       "npc": "npc.burgh_vilager_2",
       "x": 3505,
       "z": 3231,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sergiu",
         "map": "{{Map|name=Sergiu|x=3505|y=3231|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w780d8e571230",
       "npc": "npc.burgh_vilager_rat_3",
       "x": 3505,
       "z": 3236,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Luminata",
         "map": "{{Map|name=Luminata|x=3505|y=3236|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we3b63c38a0ce",
       "npc": "npc.burgh_vilager_sit4",
       "x": 3505,
       "z": 3242,
       "height": 0,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Simona",
         "map": "{{Map|name=Simona|x=3505|y=3242|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w77006d794abf",
       "npc": "npc.burgh_vilager_6",
       "x": 3509,
       "z": 3209,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Valeria",
         "map": "{{Map|name=Valeria|x=3509|y=3209|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3f00177dc8ba",
       "npc": "npc.burgh_villager_child2",
       "x": 3509,
       "z": 3209,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ivan",
         "map": "{{Map|name=Ivan|x=3509|y=3209|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd968c5c05cd9",
       "npc": "npc.burgh_vilager_3",
       "x": 3510,
       "z": 3225,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Radu",
         "map": "{{Map|name=Radu|x=3510|y=3225|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w17f72641f2ad",
       "npc": "npc.burgh_vilager_5",
       "x": 3513,
       "z": 3230,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ileana",
         "map": "{{Map|name=Ileana|x=3513|y=3230|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w9a5dce8f1102",
       "npc": "npc.burgh_villager_0",
       "x": 3515,
       "z": 3235,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sorin",
         "map": "{{Map|name=Sorin|x=3515|y=3235|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wcab73ec27e61",
       "npc": "npc.burgh_general_store_owner",
       "x": 3515,
       "z": 3241,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aurel",
         "map": "{{Map|3515,3241|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wf0f0e7490199",
       "npc": "npc.burgh_bed_man",
       "x": 3516,
       "z": 3210,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marius",
         "map": "{{Map|name=Marius|x=3516|y=3210|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wf30c0645c56e",
       "npc": "npc.burgh_bed_man_wife",
       "x": 3516,
       "z": 3210,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gabriela",
         "map": "{{Map|name=Gabriela|x=3516|y=3210|r=3|mtype=square}}"
       }

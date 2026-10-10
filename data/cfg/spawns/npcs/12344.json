@@ -1,135 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12344,
   "spawns": [
     {
+      "id": "w00965232a9c7",
       "npc": "npc.lanscape_finale_shop_npc",
       "x": 3128,
       "z": 3625,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gary_Gilbert",
         "map": "{{Map|3128,3625|mtype=pin}}"
       }
     },
     {
+      "id": "w86dd34532de5",
       "npc": "npc.clanwars_nun",
       "x": 3128,
       "z": 3636,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sister_Scarophia",
         "map": "{{Map|name=Sister Scarophia|x=3128|y=3636|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w130935b6f3fc",
       "npc": "npc.wildy_hub_chief",
       "x": 3128,
       "z": 3636,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ferox",
         "map": "{{Map|name=Ferox|x=3128|y=3636|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w326cbf6b873a",
       "npc": "npc.wildy_hub_refugee4",
       "x": 3129,
       "z": 3617,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Refugee",
         "map": "{{Map|name=Refugee|x=3129|y=3617|zoom=2|mtype=pin}}"
       }
     },
     {
+      "id": "waef78b2e87d8",
       "npc": "npc.wildy_banker_protector",
       "x": 3130,
       "z": 3629,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mercenary_(Ferox_Enclave)",
         "map": "{{Map|name=Mercenary (Ferox Enclave)|x=3130|y=3629|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb49bf0d43374",
       "npc": "npc.wildy_hub_refugee2",
       "x": 3133,
       "z": 3624,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Refugee",
         "map": "{{Map|name=Refugee|x=3133|y=3624|zoom=2|mtype=pin|group=a}}"
       }
     },
     {
+      "id": "we90914ed4c8e",
       "npc": "npc.wildy_hub_refugee3",
       "x": 3134,
       "z": 3628,
       "height": 2,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Refugee",
         "map": "{{Map|name=Refugee|x=3134|y=3628|zoom=2|plane=2|mtype=pin}}"
       }
     },
     {
+      "id": "wd7f0f49ee63c",
       "npc": "npc.wildy_hub_guard",
       "x": 3135,
       "z": 3622,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sigismund",
         "map": "{{Map|name=Sigismund|x=3135|y=3622|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w39d9c18abc8d",
       "npc": "npc.wildy_hub_banker",
       "x": 3135,
       "z": 3629,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Banker_(Ferox_Enclave)",
         "map": "{{Map|name=Banker (Ferox Enclave)|x=3135|y=3629|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4771f7839315",
       "npc": "npc.wildy_hub_acolyte1",
       "x": 3135,
       "z": 3636,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zamorakian_Acolyte",
         "map": "{{Map|name=Zamorakian Acolyte|x=3135|y=3636|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w875e45be7126",
       "npc": "npc.wildy_hub_acolyte2",
       "x": 3135,
       "z": 3636,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zamorakian_Acolyte",
         "map": "{{Map|name=Zamorakian Acolyte|x=3135|y=3636|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we53e950a31e9",
       "npc": "npc.wildy_hub_acolyte3",
       "x": 3135,
       "z": 3636,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zamorakian_Acolyte",
         "map": "{{Map|name=Zamorakian Acolyte|x=3135|y=3636|r=4|mtype=square}}"
       }

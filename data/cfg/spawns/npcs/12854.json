@@ -1,267 +1,315 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12854,
   "spawns": [
     {
+      "id": "w8f2031762a27",
       "npc": "npc.dov_prysin",
       "x": 3203,
       "z": 3472,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Prysin",
         "map": "{{Map|name=Sir Prysin|x=3203|y=3472|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc171c86483c3",
       "npc": "npc.sir_prysin",
       "x": 3203,
       "z": 3472,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Prysin",
         "map": "{{Map|name=Sir Prysin|x=3203|y=3472|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5b09a1caf94e",
       "npc": "npc.sir_prysin_silverlight",
       "x": 3203,
       "z": 3472,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sir_Prysin",
         "map": "{{Map|name=Sir Prysin|x=3203|y=3472|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wd79928b9fcb5",
       "npc": "npc.captain_rovin",
       "x": 3204,
       "z": 3497,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Rovin",
         "map": "{{Map|name=Captain Rovin|x=3204|y=3497|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w273f9b7aca18",
       "npc": "npc.aluft_gnome_diplomat_varrock",
       "x": 3205,
       "z": 3472,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ambassador_Ferrnook",
         "map": "{{Map|name=Ambassador Ferrnook|x=3205|y=3472|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wea3fa3739d06",
       "npc": "npc.surok_zaff",
       "x": 3210,
       "z": 3494,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zaff",
         "map": "{{Map|name=Zaff|3210,3494|mtype=square|r=3}}"
       }
     },
     {
+      "id": "wd839938285bb",
       "npc": "npc.reldo_normal",
       "x": 3210,
       "z": 3495,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Reldo",
         "map": "{{Map|name=Reldo|x=3210|y=3495|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa0ef7ee1e439",
       "npc": "npc.reldo_withbook",
       "x": 3210,
       "z": 3495,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Reldo",
         "map": "{{Map|name=Reldo|x=3210|y=3495|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w260c672bbdd2",
       "npc": "npc.surok_surok_type1",
       "x": 3210,
       "z": 3495,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Surok_Magis",
         "map": "{{Map|name=Surok Magis|x=3210|y=3495|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w14c62f225bf3",
       "npc": "npc.surok_surok_type2",
       "x": 3210,
       "z": 3495,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Surok_Magis",
         "map": "{{Map|name=Surok Magis|x=3210|y=3495|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w98f6bc767991",
       "npc": "npc.fai_varrock_guard_training02_f",
       "x": 3213,
       "z": 3491,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trainee_Guard",
         "map": "{{Map|name=Trainee Guard|x=3213|y=3491|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w3be8e7e36040",
       "npc": "npc.fai_varrock_guard_training02_f_variant01",
       "x": 3213,
       "z": 3491,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trainee_Guard",
         "map": "{{Map|name=Trainee Guard|x=3213|y=3491|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w07b47cc6b073",
       "npc": "npc.fai_varrock_guard_training02_variant01",
       "x": 3213,
       "z": 3491,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trainee_Guard",
         "map": "{{Map|name=Trainee Guard|x=3213|y=3491|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "waf552fa0e986",
       "npc": "npc.dov_aeonisig",
       "x": 3223,
       "z": 3473,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aeonisig_Raispher",
         "map": "{{Map|name=Aeonisig Raispher|x=3223|y=3473|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wf79e2c472519",
       "npc": "npc.ds2_meeting_aeonisig_raispher",
       "x": 3223,
       "z": 3473,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aeonisig_Raispher",
         "map": "{{Map|name=Aeonisig Raispher|x=3223|y=3473|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w683fb9d1c802",
       "npc": "npc.myq3_aeonisig_roalds_advisor",
       "x": 3223,
       "z": 3473,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aeonisig_Raispher",
         "map": "{{Map|name=Aeonisig Raispher|x=3223|y=3473|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5bc1a43ed3ec",
       "npc": "npc.ds2_meeting_denulth",
       "x": 3224,
       "z": 3486,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Denulth",
         "map": "{{Map|x=3224|y=3486|r=3|mtype=pin}}"
       }
     },
     {
+      "id": "wc6c6efd6bfaa",
       "npc": "npc.farming_gardener_tree_3_02",
       "x": 3229,
       "z": 3459,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Treznor",
         "map": "{{Map|name=Treznor|x=3229|y=3459|plane=0|r=4|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w771ed93819f6",
       "npc": "npc.queen_ellamaria",
       "x": 3229,
       "z": 3477,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Queen_Ellamaria",
         "map": "{{Map|name=Ellamaria|x=3229|y=3477|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1d7f5d52b73a",
       "npc": "npc.con_contract_client_1",
       "x": 3237,
       "z": 3484,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bob_(Mahogany_Homes)",
         "map": "{{Map|3237,3484|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wca9f48ab082c",
       "npc": "npc.romeo_juliet_pew_sleeping_man",
       "x": 3253,
       "z": 3477,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jeremy_Clerksin",
         "map": "{{Map|name=Jeremy Clerksin|x=3253|y=3477|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w10f022b36c22",
       "npc": "npc.father_lawrence",
       "x": 3254,
       "z": 3485,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Father_Lawrence",
         "map": "{{Map|name=Father Lawrence|x=3254|y=3485|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w9b7ebd16a66c",
       "npc": "npc.varrock_granny_2",
       "x": 3255,
       "z": 3488,
       "height": 1,
       "walkRadius": 1,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elsie",
         "map": "{{Map|name=Elsie|x=3255|y=3488|plane=1|r=1|mtype=square}}"
       }
     },
     {
+      "id": "w1e6c6ee7c07c",
       "npc": "npc.romeo_juliet_pew_sleeping_woman",
       "x": 3256,
       "z": 3480,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Martina_Scorsby",
         "map": "{{Map|name=Martina Scorsby|x=3256|y=3480|r=3|mtype=square}}"
       }

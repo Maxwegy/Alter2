@@ -1,135 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10803,
   "spawns": [
     {
+      "id": "w51bd3215f6c2",
       "npc": "npc.kent",
       "x": 2711,
       "z": 3283,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Kent",
         "map": "{{Map|name=Kent|x=2711|y=3283|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wab80fae17fc8",
       "npc": "npc.slug2_hobb_stage2",
       "x": 2711,
       "z": 3292,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mayor_Hobb",
         "map": "{{Map|name=Mayor Hobb|x=2711|y=3292|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9042d95e690b",
       "npc": "npc.slug2_hobb_stage3",
       "x": 2711,
       "z": 3292,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mayor_Hobb",
         "map": "{{Map|name=Mayor Hobb|x=2711|y=3292|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wfb5552465fcb",
       "npc": "npc.caroline",
       "x": 2716,
       "z": 3302,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Caroline",
         "map": "{{Map|name=Caroline|x=2716|y=3302|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w56095bfbe17b",
       "npc": "npc.slug2_jeb_stage1",
       "x": 2719,
       "z": 3304,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jeb",
         "map": "{{Map|name=Jeb|x=2719|y=3304|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3be14454e30f",
       "npc": "npc.slug2_jeb_stage2",
       "x": 2719,
       "z": 3304,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jeb",
         "map": "{{Map|name=Jeb|x=2719|y=3304|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd7542aeb66ff",
       "npc": "npc.slug2_maledict_stage1",
       "x": 2722,
       "z": 3284,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Maledict",
         "map": "{{Map|name=Brother Maledict|x=2722|y=3284|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w11cf6acd2758",
       "npc": "npc.slug2_maledict_stage2",
       "x": 2722,
       "z": 3284,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Brother_Maledict",
         "map": "{{Map|name=Brother Maledict|x=2722|y=3284|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9e1dfd4be0f9",
       "npc": "npc.slug2_lovecraft",
       "x": 2734,
       "z": 3292,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ezekial_Lovecraft",
         "map": "{{Map|name=Ezekial Lovecraft|x=2734|y=3292|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w0d8c05031c54",
       "npc": "npc.slug2_oniall_gone",
       "x": 2740,
       "z": 3310,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Chair_(The_Slug_Menace)",
         "map": "{{Map|name=Chair (The Slug Menace)|x:2740,y:3310|plane=0|mapID=0|mtype=pin}}"
       }
     },
     {
+      "id": "wbac579fa8c25",
       "npc": "npc.slug2_oniall_stage1",
       "x": 2740,
       "z": 3310,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Col._O'Niall",
         "map": "{{Map|name=Col. O'Niall|x=2740|y=3310|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w2ed894fd3e71",
       "npc": "npc.slug2_oniall_stage2",
       "x": 2740,
       "z": 3310,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Col._O'Niall",
         "map": "{{Map|name=Col. O'Niall|x=2740|y=3310|r=3|mtype=square}}"
       }

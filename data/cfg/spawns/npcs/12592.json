@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12592,
   "spawns": [
     {
+      "id": "wa127c7562c96",
       "npc": "npc.newbie_magic_instructor",
       "x": 3141,
       "z": 3087,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Magic_Instructor",
         "map": "{{Map|name=Magic Instructor|x=3141|y=3087|r=2|mtype=square}}"
       }

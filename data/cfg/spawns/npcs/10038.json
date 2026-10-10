@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10038,
   "spawns": [
     {
+      "id": "web97c20794c0",
       "npc": "npc.brut_otto",
       "x": 2502,
       "z": 3489,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Otto_Godblessed",
         "map": "{{Map|name=Otto Godblessed|x=2502|y=3489|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wb808d0323b73",
       "npc": "npc.brut_otto_hammer",
       "x": 2502,
       "z": 3489,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Otto_Godblessed",
         "map": "{{Map|name=Otto Godblessed|x=2502|y=3489|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w679291aab742",
       "npc": "npc.brut_ascending_spirit",
       "x": 2503,
       "z": 3498,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Peaceful_barbarian_spirit",
         "map": "{{Map|name=Peaceful barbarian spirit|x=2503|y=3498|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w7b600c98ec2d",
       "npc": "npc.hudon_waterfall_quest",
       "x": 2510,
       "z": 3484,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hudon",
         "map": "{{Map|name=Hudon|x=2510|y=3484|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wb66953854557",
       "npc": "npc.almera_waterfall_quest",
       "x": 2522,
       "z": 3498,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Almera",
         "map": "{{Map|x=2522|y=3498|r=3|mtype=square}}"
       }

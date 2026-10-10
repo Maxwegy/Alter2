@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9778,
   "spawns": [
     {
+      "id": "w6d9e1b610e1f",
       "npc": "npc.rc_zmi_chaosmonk",
       "x": 2455,
       "z": 3233,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mage_of_Zamorak_(Ourania)",
         "map": "{{Map|name=Mage of Zamorak (Ourania)|x=2455|y=3233|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w573ee99cc460",
       "npc": "npc.spirit_of_scorpius",
       "x": 2464,
       "z": 3227,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Spirit_of_Scorpius",
         "map": "{{Map|name=Spirit of Scorpius|x=2464|y=3227|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "wc8a71a57d850",
       "npc": "npc.tracker3",
       "x": 2492,
       "z": 3231,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tracker_gnome_3",
         "map": "{{Map|name=Tracker gnome 3|x=2492|y=3231|plane=0|r=3|mtype=square}}"
       }

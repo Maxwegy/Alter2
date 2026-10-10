@@ -1,135 +1,159 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12084,
   "spawns": [
     {
+      "id": "wa36473d1d5de",
       "npc": "npc.poh_garden_supplier",
       "x": 3017,
       "z": 3373,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Garden_supplier",
         "map": "{{Map|name=Garden supplier|x=3017|y=3373|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w55db74952d07",
       "npc": "npc.mguild_capeseller",
       "x": 3021,
       "z": 3339,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gadrin",
         "map": "{{Map|name=Gadrin|x=3021|y=3339|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w73d4efe6a595",
       "npc": "npc.wyson",
       "x": 3027,
       "z": 3379,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wyson_the_gardener",
         "map": "{{Map|name=Wyson the gardener|x=3027|y=3379|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w1a8f8cb18631",
       "npc": "npc.falador_man4",
       "x": 3036,
       "z": 3345,
       "height": 1,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Norman",
         "map": "{{Map|name=Norman|plane=1|mtype=pin|3036,3345|bucket=yes}}"
       }
     },
     {
+      "id": "wa8354ef14ce2",
       "npc": "npc.con_contract_client_5",
       "x": 3038,
       "z": 3366,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Larry_(Mahogany_Homes)",
         "map": "{{Map|mtype=pin|3038,3366|bucket=yes}}"
       }
     },
     {
+      "id": "w178ae29c4497",
       "npc": "npc.partyroom_barmaid",
       "x": 3046,
       "z": 3374,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Megan",
         "map": "{{Map|name=Megan|x=3046|y=3374|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "wef107317956a",
       "npc": "npc.partyroom_knight",
       "x": 3046,
       "z": 3378,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Knight_(Falador_Party_Room)",
         "map": "{{Map|name=Knight (Falador Party Room)|x=3046|y=3378|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w25c45a4e3774",
       "npc": "npc.secret_ghost_mage",
       "x": 3046,
       "z": 3379,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dhalak",
         "map": "{{Map|name=Dhalak|x=3046|y=3379|squareX=20|squareY=15|mtype=square}}"
       }
     },
     {
+      "id": "wc68428d2bc05",
       "npc": "npc.partyroom_barmaid2",
       "x": 3046,
       "z": 3383,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lucy",
         "map": "{{Map|name=Lucy|x=3046|y=3383|r=4|plane=1|mtype=square}}"
       }
     },
     {
+      "id": "w51b9865b2b35",
       "npc": "npc.con_contract_client_4",
       "x": 3047,
       "z": 3343,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tau",
         "map": "{{Map|mtype=pin|3047,3343|bucket=yes}}"
       }
     },
     {
+      "id": "w46988599597f",
       "npc": "npc.macro_cubenpc",
       "x": 3049,
       "z": 3356,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mysterious_Old_Man",
         "map": "{{Map|name=Mysterious Old Man|x=3049|y=3356|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wcfcb91138372",
       "npc": "npc.partyroom_pete",
       "x": 3053,
       "z": 3374,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Party_Pete",
         "map": "{{Map|name=Party Pete|x=3053|y=3374|r=4|mtype=square}}"
       }

@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9780,
   "spawns": [
     {
+      "id": "wa79b7e5fd32a",
       "npc": "npc.makinghistory_jorral",
       "x": 2436,
       "z": 3346,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jorral",
         "map": "{{Map|name=Jorral|x=2436|y=3346|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w76610162413f",
       "npc": "npc.grandtree_femi",
       "x": 2460,
       "z": 3382,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Femi",
         "map": "{{Map|name=Femi|x=2460|y=3382|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3a6211c700b1",
       "npc": "npc.shadow_maj_scout2",
       "x": 2461,
       "z": 3374,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Scout_(Tree_Gnome_Stronghold)",
         "map": "{{Map|name=Scout (Tree Gnome Stronghold)|x=2461|y=3374|r=10|mtype=square}}"
       }

@@ -58,8 +58,6 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `data/cfg/spawns/item_spawns.yml` is tracked but listed in `data/cfg/spawns/.gitignore`, and nothing reads it.
 - The 115 migrated `manual` spawns keep the old plugins' values, including odd ones worth a review against the wiki: `npc.giant_spider` resolved to id 2477 (canonical `npc.sos_pest_giantspider1`), three Lumbridge men/women on height 1, the goblins with godwars/war-themed ids near Lumbridge, and the Barrows brothers spawned five times each above ground.
 - `::shiftnpc` and `::removespawn` (Phase 2 PR 3) are not built: both need `World.remove`, which never releases the NPC's rsprot avatar, so the removed NPC stays visible to clients and the next `World.spawn` that reuses its index throws in `NpcAvatarRepository.getOrAlloc` (`::removenpc` has the same problem today). They wait for the Phase 5 GS-1 game-server fix; the outbox format and `--apply-edits` already handle moves and removals.
-- An edited wiki entry becomes `manual` with `origin`, but `spawnSync` drops its regenerated wiki twin only while the two overlap (same npc and height within the larger walk radius). Moving an edited entry further away brings the wiki twin back on the next run; the generator could also drop wiki entries whose page is a same-npc manual entry's `origin`.
-- `--apply-edits` only matches existing entries; an add edit (`from: null`, planned for Phase 5 `::spawnnpc --persist`) is not supported yet.
 - `::setdirection` sets `lastFacingDirection` and sends one face-coordinate update; a respawn after death does not re-send the facing. Not exercised with a 241 client.
 
 ## Resource nodes (Phase 4)

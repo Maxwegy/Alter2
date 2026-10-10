@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4919,
   "spawns": [
     {
+      "id": "wb0e2e803cc39",
       "npc": "npc.raids_temple_captain",
       "x": 1234,
       "z": 3572,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Rimor",
         "map": "{{Map|name=Captain Rimor|x=1234|y=3572|r=4|mtype=square}}"
       }

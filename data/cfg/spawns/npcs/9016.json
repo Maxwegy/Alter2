@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9016,
   "spawns": [
     {
+      "id": "w1f4748c0517f",
       "npc": "npc.slayer_kraken_cove_lieve",
       "x": 2280,
       "z": 3609,
       "height": 0,
       "walkRadius": 7,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lieve_McCracken",
         "map": "{{Map|name=Lieve McCracken|x=2280|y=3609|plane=0|r=7|mtype=square}}"
       }

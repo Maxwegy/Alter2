@@ -1,652 +1,770 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12081,
   "spawns": [
     {
+      "id": "w47a7657c1685",
       "npc": "npc.macro_pirate",
       "x": 3013,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cap'n_Hand",
         "map": "{{Map|name=Cap'n Hand|x=3013|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we8da97635734",
       "npc": "npc.sos_guard",
       "x": 3013,
       "z": 3192,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Security_Guard",
         "map": "{{Map|name=Security Guard|3013,3192|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wbcf6052193f4",
       "npc": "npc.jail_guard_lookout",
       "x": 3018,
       "z": 3179,
       "height": 2,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Port_Sarim)",
         "map": "{{Map|name=Guard (Port Sarim)|x=3018|y=3179|plane=2|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w28bb77126de9",
       "npc": "npc.jail_guard_sleeping",
       "x": 3019,
       "z": 3185,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Port_Sarim,_sleeping)",
         "map": "{{Map|name=Guard (Port Sarim, sleeping)|x=3019|y=3185|plane=0|r=4|mtype=pin}}"
       }
     },
     {
+      "id": "wa1e4e030df67",
       "npc": "npc.port_task_master_aldarin",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w3b13b2118eb0",
       "npc": "npc.port_task_master_ardougne",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w9f452be9b2e6",
       "npc": "npc.port_task_master_brimhaven",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w477a7bb95e94",
       "npc": "npc.port_task_master_cairn_isle",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w0b9c2f66632b",
       "npc": "npc.port_task_master_catherby",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w68e5d437d34e",
       "npc": "npc.port_task_master_civitas_illa_fortis",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w7c78a6b14596",
       "npc": "npc.port_task_master_corsair_cove",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w9b0bc539a35c",
       "npc": "npc.port_task_master_deepfin_point",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wdeebda7715a4",
       "npc": "npc.port_task_master_entrana",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w4436103948a0",
       "npc": "npc.port_task_master_etceteria",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w052fa57c7e5a",
       "npc": "npc.port_task_master_hosidius",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wd181ec291b0f",
       "npc": "npc.port_task_master_jatizso",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wb298e9d6b0eb",
       "npc": "npc.port_task_master_lands_end",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wf21002821f02",
       "npc": "npc.port_task_master_lunar_isle",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wef7423374323",
       "npc": "npc.port_task_master_mos_leharmless",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w9d973375bc29",
       "npc": "npc.port_task_master_musa_point",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w8ed01e3c9036",
       "npc": "npc.port_task_master_neitiznot",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w56262c5ee0b4",
       "npc": "npc.port_task_master_pandemonium",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w098f2398462c",
       "npc": "npc.port_task_master_piscatoris",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w06cca834e2d4",
       "npc": "npc.port_task_master_port_khazard",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wf324dd0ebb34",
       "npc": "npc.port_task_master_port_piscarillius",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wa2aa5976af18",
       "npc": "npc.port_task_master_port_roberts",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wd45fa58dbdce",
       "npc": "npc.port_task_master_port_sarim",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "we2b3150f5966",
       "npc": "npc.port_task_master_port_tyras",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wce28c6cbbe4c",
       "npc": "npc.port_task_master_prifddinas",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w67a7ffee92a9",
       "npc": "npc.port_task_master_red_rock",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w4e85e012e257",
       "npc": "npc.port_task_master_rellekka",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "wb0d162101470",
       "npc": "npc.port_task_master_ruins_of_unkah",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w01bee46df28d",
       "npc": "npc.port_task_master_sunset_coast",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w397be699287a",
       "npc": "npc.port_task_master_the_summer_shore",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "web7d43a4c49e",
       "npc": "npc.port_task_master_void_knights_outpost",
       "x": 3028,
       "z": 3194,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Port_master",
         "map": "{{Map|mtype=pin|y=2985|1449,2969|1506,3407|1515,2977|1725,3460|1781,3147|1837,3691|1867,3306|1927,2761|2146,3879|2151,3123|2170,3328|2308,3775|2313,3693|2401,3788|2581,2848|2612,3846|2629,3699|2652,2673|2674,3269|2684,3164|2756,2949|2769,3225|2799,3413|2802,2513|2874,3339|2952,3150|3028,3194|3061,2985|3148,2826|3173,2370}}"
       }
     },
     {
+      "id": "w63d0b1473848",
       "npc": "npc.sailing_transport_trader_stan_aldarin",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w0776cd137b3c",
       "npc": "npc.sailing_transport_trader_stan_barracuda_hq",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5e93eaa44d4b",
       "npc": "npc.sailing_transport_trader_stan_base",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5aa4f9462b62",
       "npc": "npc.sailing_transport_trader_stan_brimhaven",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w45807c1cd53a",
       "npc": "npc.sailing_transport_trader_stan_catherby",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa5dd3bc332d0",
       "npc": "npc.sailing_transport_trader_stan_corsaircove",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w18689210402a",
       "npc": "npc.sailing_transport_trader_stan_deepfin_point",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w7f036fcd7378",
       "npc": "npc.sailing_transport_trader_stan_fortis",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5633065ecbbb",
       "npc": "npc.sailing_transport_trader_stan_landsend",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9fd0ebdfd753",
       "npc": "npc.sailing_transport_trader_stan_mosleharmless",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w968e8fd283e7",
       "npc": "npc.sailing_transport_trader_stan_musapoint",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w62cbaa1951da",
       "npc": "npc.sailing_transport_trader_stan_pandemonium",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1a377d82a31d",
       "npc": "npc.sailing_transport_trader_stan_piscarilius",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w6d5cdf5496ae",
       "npc": "npc.sailing_transport_trader_stan_port_roberts",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w476245a29443",
       "npc": "npc.sailing_transport_trader_stan_portkhazard",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5842acf0a810",
       "npc": "npc.sailing_transport_trader_stan_portphasmatys",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4687d8855e64",
       "npc": "npc.sailing_transport_trader_stan_portsarim",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wae949e0fe228",
       "npc": "npc.sailing_transport_trader_stan_porttyras",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wca6471430507",
       "npc": "npc.sailing_transport_trader_stan_prifddinas",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5552d7d67744",
       "npc": "npc.sailing_transport_trader_stan_red_rock",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w504d51d54944",
       "npc": "npc.sailing_transport_trader_stan_shipyard",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa483f2fd0bb8",
       "npc": "npc.sailing_transport_trader_stan_summer_shore",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5255462b11d6",
       "npc": "npc.sailing_transport_trader_stan_sunsetcoast",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wba28c99ba9a4",
       "npc": "npc.sailing_transport_trader_stan_tempestus",
       "x": 3039,
       "z": 3192,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Trader_Stan",
         "map": "{{Map|name=Trader Stan|x=3039|y=3192|r=3|mtype=square}}"
       }

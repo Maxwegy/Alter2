@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10292,
   "spawns": [
     {
+      "id": "wc01c641f8bd5",
       "npc": "npc.edmond",
       "x": 2568,
       "z": 3334,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Edmond",
         "map": "{{Map|name=Edmond|x=2568|y=3334|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbc1f34b7c996",
       "npc": "npc.canoeing_amergin",
       "x": 2575,
       "z": 3358,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Amergin",
         "map": "{{Map|2575,3358|mtype=square|r=2}}"
       }
     },
     {
+      "id": "wd4f9d275fb6c",
       "npc": "npc.mournertwa_vis",
       "x": 2582,
       "z": 3329,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mourner_(Plague_City)",
         "map": "{{Map|2582,3329|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "w917a3bfc3dfb",
       "npc": "npc.elena2_vis",
       "x": 2592,
       "z": 3336,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elena",
         "map": "{{Map|name=Elena|x=2592|y=3336|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1539ae353038",
       "npc": "npc.farmer_brumty",
       "x": 2593,
       "z": 3360,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Farmer_Brumty",
         "map": "{{Map|name=Farmer Brumty|x=2593|y=3360|plane=0|r=4|mtype=square}}"
       }

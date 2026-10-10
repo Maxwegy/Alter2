@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14391,
   "spawns": [
     {
+      "id": "w5efc6f7dc228",
       "npc": "npc.lyra",
       "x": 3600,
       "z": 3524,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lyra",
         "map": "{{Map|name=Lyra|x=3600|y=3524|plane=0|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w678737c6d850",
       "npc": "npc.ahoy_oldman",
       "x": 3619,
       "z": 3543,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Old_man",
         "map": "{{Map|name=Old man|x=3619|y=3543|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "waf18a55aeb5d",
       "npc": "npc.anma_alice_cutscene",
       "x": 3628,
       "z": 3526,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alice",
         "map": "{{Map|name=Alice|x=3628|y=3526|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w456d99133893",
       "npc": "npc.farming_shopkeeper_4",
       "x": 3628,
       "z": 3526,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alice",
         "map": "{{Map|name=Alice|x=3628|y=3526|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w0532b1e34639",
       "npc": "npc.anma_ghost_farmer_amulet_cutscene_sack",
       "x": 3629,
       "z": 3528,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Malcolm",
         "map": "{{Map|name=Malcolm|x=3629|y=3528|r=5|mtype=square}}"
       }

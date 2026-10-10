@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14129,
   "spawns": [
     {
+      "id": "wc65bff364906",
       "npc": "npc.sang_boat_test",
       "x": 3523,
       "z": 3177,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Boat_(Darkness_of_Hallowvale)",
         "map": "{{Map|x=3523|y=3177|mtype=pin|group=hut}}"
       }

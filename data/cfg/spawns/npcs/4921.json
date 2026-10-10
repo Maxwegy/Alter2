@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4921,
   "spawns": [
     {
+      "id": "w79ffe2aeddee",
       "npc": "npc.ga_mary_1op",
       "x": 1239,
       "z": 3680,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mary_(Getting_Ahead)",
         "map": "{{Map|name=Mary (Getting Ahead)|x=1239|y=3680|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wd08dea25eac0",
       "npc": "npc.farming_guild_guard_1",
       "x": 1254,
       "z": 3683,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Kebos_Lowlands)",
         "map": "{{Map|name=Soldier|1246,3719|1254,3683|1289,3695|mtype=pin}}"
       }
     },
     {
+      "id": "wc485b2eec106",
       "npc": "npc.farming_guild_guard_3",
       "x": 1254,
       "z": 3683,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Kebos_Lowlands)",
         "map": "{{Map|name=Ranger|1246,3719|1254,3683|1289,3695|mtype=pin}}"
       }

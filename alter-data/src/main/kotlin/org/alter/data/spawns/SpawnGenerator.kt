@@ -13,12 +13,16 @@ import kotlin.math.max
  * `{{Map}}` in the map value ([MapTemplateParser]). The id must be a single cache NPC with an RSCM name; the
  * entry gets the canonical (first) RSCM name for that id.
  *
- * Merge rules:
- * - manual entries are kept exactly as they are; every wiki entry is regenerated (stale ones disappear);
- * - a wiki entry is dropped when a manual entry for the same npc and height lies within
+ * Every generated entry gets its wiki id ([SpawnIds.wiki]). Merge rules:
+ * - manual and edit entries are kept exactly as they are; every wiki entry is regenerated (stale ones disappear);
+ * - wiki entries with the same (npc, x, z, height) collapse into the first in canonical order;
+ * - a wiki entry whose id a manual or edit entry carries is dropped: that feature was edited in game and its
+ *   wiki twin never comes back (`droppedClaimedById`);
+ * - a wiki entry is dropped when a manual or edit entry for the same npc and height lies within
  *   max(walkRadius) of it (Chebyshev distance), so the hand-written spawn wins;
  * - the same npc in the same region but not overlapping is kept and reported as a possible duplicate;
- * - wiki entries with the same (npc, x, z, height) collapse into the first in canonical order.
+ * - a manual or edit entry with a wiki id that is no longer generated is kept and listed as
+ *   "Edit origins no longer generated" (`orphanedEdits`).
  *
  * Every skipped version or template is counted by reason ([SpawnSkip.key], plus `noInfobox`, `pageMissing`,
  * `noMapTemplate` and the id reasons) and listed by page in the report.
@@ -30,9 +34,12 @@ class SpawnGenerator(private val cache: CacheView) {
     data class Result(
         val entries: List<NpcSpawnEntry>,
         val manualKept: Int,
+        val editsKept: Int,
         val wikiEntries: Int,
         val skips: Map<String, Int>,
+        val droppedClaimedById: Int,
         val droppedOverlappedByManual: Int,
+        val orphanedEdits: Int,
         val wikiDuplicatesCollapsed: Int,
         val possibleDuplicates: Int,
         val versionPairs: Int,
@@ -74,13 +81,15 @@ class SpawnGenerator(private val cache: CacheView) {
                             is MapTemplateParser.Result.Skipped -> skip(r.skip.key, where, "${r.skip.detail}: ${template.raw}")
                             is MapTemplateParser.Result.Features -> if (name != null) {
                                 r.features.forEach { f ->
+                                    val url = pageUrl(page.title)
                                     generated += NpcSpawnEntry(
+                                        id = SpawnIds.wiki(url, name, f.point.x, f.point.z, f.height),
                                         npc = name,
                                         x = f.point.x,
                                         z = f.point.z,
                                         height = f.height,
                                         walkRadius = SpawnRules.walkRadius(f.shape),
-                                        source = NpcSpawnSource.Wiki(pageUrl(page.title), canonicalMap(template.raw)),
+                                        source = NpcSpawnSource.Wiki(url, canonicalMap(template.raw)),
                                     )
                                 }
                             }
@@ -90,7 +99,9 @@ class SpawnGenerator(private val cache: CacheView) {
             }
         }
 
-        val manual = existing.filter { it.source is NpcSpawnSource.Manual }
+        // Manual and edit entries: kept as they are, and they win over the wiki.
+        val kept = existing.filter { it.source !is NpcSpawnSource.Wiki }
+        val generatedIds = generated.mapTo(HashSet()) { it.id }
 
         // Exact wiki duplicates: keep the first in canonical order (page, then map).
         val byKey = generated.sortedWith(NpcSpawnFiles.canonicalOrder).groupBy { it.key }
@@ -107,39 +118,63 @@ class SpawnGenerator(private val cache: CacheView) {
             group[0]
         }
 
-        val manualByNpc = manual.groupBy { it.npc to it.height }
+        val claimed = kept.filter { it.id.startsWith(SpawnIds.WIKI_PREFIX) }.associateBy { it.id }
+        var claimedDrops = 0
+        val unclaimed = unique.filter { wiki ->
+            val owner = claimed[wiki.id] ?: return@filter true
+            claimedDrops++
+            report.add(
+                "Wiki entries claimed by id",
+                "${wiki.id} ${wiki.npc} at (${wiki.x}, ${wiki.z}, ${wiki.height}) from ${page(wiki)}: ${owner.source.kind} entry at (${owner.x}, ${owner.z}, ${owner.height})",
+                Report.Severity.INFO,
+            )
+            false
+        }
+
+        val keptByNpc = kept.groupBy { it.npc to it.height }
         var overlapped = 0
-        val kept = unique.filter { wiki ->
-            val hit = manualByNpc[wiki.npc to wiki.height]?.firstOrNull { overlaps(it, wiki) }
+        val wiki = unclaimed.filter { w ->
+            val hit = keptByNpc[w.npc to w.height]?.firstOrNull { overlaps(it, w) }
             if (hit != null) {
                 overlapped++
                 report.add(
                     "Wiki entries dropped for a manual entry",
-                    "${wiki.npc} at (${wiki.x}, ${wiki.z}, ${wiki.height}) r${wiki.walkRadius} from ${page(wiki)}: manual at (${hit.x}, ${hit.z}) r${hit.walkRadius}",
+                    "${w.npc} at (${w.x}, ${w.z}, ${w.height}) r${w.walkRadius} from ${page(w)}: ${hit.source.kind} at (${hit.x}, ${hit.z}) r${hit.walkRadius}",
                     Report.Severity.INFO,
                 )
             }
             hit == null
         }
 
-        val manualByRegion = manual.groupBy { it.npc to it.regionId }
+        val keptByRegion = kept.groupBy { it.npc to it.regionId }
         var possible = 0
-        kept.forEach { wiki ->
-            manualByRegion[wiki.npc to wiki.regionId]?.forEach { m ->
+        wiki.forEach { w ->
+            keptByRegion[w.npc to w.regionId]?.forEach { m ->
                 possible++
                 report.add(
                     "Possible duplicates",
-                    "${wiki.npc} in region ${wiki.regionId}: wiki (${wiki.x}, ${wiki.z}, ${wiki.height}) r${wiki.walkRadius} from ${page(wiki)}, manual (${m.x}, ${m.z}, ${m.height}) r${m.walkRadius}",
+                    "${w.npc} in region ${w.regionId}: wiki (${w.x}, ${w.z}, ${w.height}) r${w.walkRadius} from ${page(w)}, ${m.source.kind} (${m.x}, ${m.z}, ${m.height}) r${m.walkRadius}",
                 )
             }
         }
 
+        val orphans = claimed.values.filter { it.id !in generatedIds }
+        orphans.forEach {
+            report.add(
+                "Edit origins no longer generated",
+                "${it.id} ${it.npc} at (${it.x}, ${it.z}, ${it.height}): its wiki feature${(it.source as? NpcSpawnSource.Edit)?.page?.let { p -> " on $p" } ?: ""} is gone; the entry is kept",
+            )
+        }
+
         return Result(
-            entries = (manual + kept).sortedWith(NpcSpawnFiles.canonicalOrder),
-            manualKept = manual.size,
-            wikiEntries = kept.size,
+            entries = (kept + wiki).sortedWith(NpcSpawnFiles.canonicalOrder),
+            manualKept = kept.count { it.source is NpcSpawnSource.Manual },
+            editsKept = kept.count { it.source is NpcSpawnSource.Edit },
+            wikiEntries = wiki.size,
             skips = skips,
+            droppedClaimedById = claimedDrops,
             droppedOverlappedByManual = overlapped,
+            orphanedEdits = orphans.size,
             wikiDuplicatesCollapsed = collapsed,
             possibleDuplicates = possible,
             versionPairs = pairs,

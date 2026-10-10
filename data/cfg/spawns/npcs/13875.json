@@ -1,69 +1,81 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13875,
   "spawns": [
     {
+      "id": "we33a7e6be0de",
       "npc": "npc.shades_coffin_keeper",
       "x": 3480,
       "z": 3316,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dampe",
         "map": "{{Map|name=Vampyressa van Von|x=3480|y=3316|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0a58b1e84d70",
       "npc": "npc.razmire_keelgan",
       "x": 3489,
       "z": 3296,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Razmire_Keelgan",
         "map": "{{Map|name=Razmire Keelgan|3489,3296|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf0d6cb2e563d",
       "npc": "npc.razmire_keelgan_afflicted",
       "x": 3489,
       "z": 3296,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Razmire_Keelgan",
         "map": "{{Map|name=Razmire Keelgan|3489,3296|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w4d68c0bcf223",
       "npc": "npc.ulsquire_shauncy",
       "x": 3496,
       "z": 3290,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ulsquire_Shauncy",
         "map": "{{Map|name=Ulsquire Shauncy|3496,3290|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbc4aa469bed1",
       "npc": "npc.ulsquire_shauncy_afflicted",
       "x": 3496,
       "z": 3290,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ulsquire_Shauncy",
         "map": "{{Map|name=Ulsquire Shauncy|3496,3290|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wf4e07ea8ac62",
       "npc": "npc.route_cyreg_paddlehorn",
       "x": 3519,
       "z": 3284,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Cyreg_Paddlehorn",
         "map": "{{Map|name=Cyreg Paddlehorn|x=3519|y=3284|r=3|mtype=square}}"
       }

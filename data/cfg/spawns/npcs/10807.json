@@ -1,168 +1,198 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10807,
   "spawns": [
     {
+      "id": "w924c6c0e75ed",
       "npc": "npc.trail_falo_the_bard",
       "x": 2689,
       "z": 3549,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Falo_the_Bard",
         "map": "{{Map|name=Falo the Bard|x=2689|y=3549|r=4|mtype=square}}"
       }
     },
     {
+      "id": "we0a12630da20",
       "npc": "npc.stanford_the_gardener",
       "x": 2729,
       "z": 3578,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Stanford",
         "map": "{{Map|name=Stanford|x=2729|y=3578|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w5e6f499737ab",
       "npc": "npc.anna_sinclair",
       "x": 2735,
       "z": 3575,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Anna",
         "map": "{{Map|name=Anna|x=2735|y=3575|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4da699361e7a",
       "npc": "npc.louisa_the_cook",
       "x": 2735,
       "z": 3579,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Louisa",
         "map": "{{Map|name=Louisa|x=2735|y=3579|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wec211700c4a4",
       "npc": "npc.carol_sinclair",
       "x": 2735,
       "z": 3582,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Carol",
         "map": "{{Map|name=Carol|x=2735|y=3582|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w13abf5a591bd",
       "npc": "npc.mary_the_maid",
       "x": 2737,
       "z": 3576,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Mary_(Murder_Mystery)",
         "map": "{{Map|name=Mary|x=2737|y=3576|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w3a034ac1de97",
       "npc": "npc.hobbes_the_butler",
       "x": 2740,
       "z": 3578,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hobbes",
         "map": "{{Map|name=Hobbes|x=2740|y=3578|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w285372c2465c",
       "npc": "npc.gossipy_man",
       "x": 2742,
       "z": 3555,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gossip",
         "map": "{{Map|name=Gossip|x=2742|y=3555|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0787221e4acb",
       "npc": "npc.murderguard",
       "x": 2742,
       "z": 3562,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Guard_(Sinclair_Mansion)",
         "map": "{{Map|name=Guard (Sinclair Mansion)|x=2742|y=3562|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4f37bb0fc26f",
       "npc": "npc.frank_sinclair",
       "x": 2742,
       "z": 3578,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Frank",
         "map": "{{Map|name=Frank|x=2742|y=3578|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wc32f91f38765",
       "npc": "npc.donovan_the_family_handyman",
       "x": 2746,
       "z": 3578,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Donovan_the_Family_Handyman",
         "map": "{{Map|name=Donovan the Family Handyman|x=2746|y=3578|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wf8165d8b9959",
       "npc": "npc.elizabeth_sinclair",
       "x": 2746,
       "z": 3582,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elizabeth",
         "map": "{{Map|name=Elizabeth|x=2746|y=3582|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wbc4f4e2fe1fa",
       "npc": "npc.bob_sinclair",
       "x": 2748,
       "z": 3560,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bob_(Sinclair)",
         "map": "{{Map|name=Bob (Sinclair)|x=2748|y=3560|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w19694fc8ef0f",
       "npc": "npc.pierre_the_family_dog_handler",
       "x": 2750,
       "z": 3574,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Pierre",
         "map": "{{Map|name=Pierre|x=2750|y=3574|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb47350566741",
       "npc": "npc.murder_mystery_guarddog",
       "x": 2750,
       "z": 3580,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sinclair_Guard_dog",
         "map": "{{Map|name=Sinclair Guard dog|x=2750|y=3580|plane=0|r=2|mtype=square}}"
       }

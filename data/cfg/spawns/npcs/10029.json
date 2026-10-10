@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10029,
   "spawns": [
     {
+      "id": "w61b9aad34015",
       "npc": "npc.hunting_jungle_information",
       "x": 2525,
       "z": 2916,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hunting_expert",
         "map": "{{Map|name=Hunting expert|x=2525|y=2916|r=2|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w5b851afe55e3",
       "npc": "npc.chinchompa_area_guide",
       "x": 2526,
       "z": 2894,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hunting_expert_(Red_chinchompa_hunting_ground)",
         "map": "{{Map|name=Hunting expert (Red chinchompa hunting ground)|x=2526|y=2894|r=3|mtype=square}}"
       }

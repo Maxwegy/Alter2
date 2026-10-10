@@ -1,91 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12083,
   "spawns": [
     {
+      "id": "w90b1ddfc57e0",
       "npc": "npc.farm_rooster",
       "x": 3015,
       "z": 3292,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rooster_(South_Falador_Farm)",
         "map": "{{Map|name=Rooster (South Falador Farm)|x=3015|y=3292|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w5ae5ffb5a1c8",
       "npc": "npc.dog",
       "x": 3018,
       "z": 3291,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dog_(NPC)",
         "map": "{{Map|name=Dog|x=3018|y=3291|height=150|mtype=pin}}"
       }
     },
     {
+      "id": "w615f64279146",
       "npc": "npc.corsair_captain_1op",
       "x": 3030,
       "z": 3273,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Tock",
         "map": "{{Map|name=Captain Tock|x=3030|y=3273|mtype=pin|group=1}}"
       }
     },
     {
+      "id": "w9edcc953b6ab",
       "npc": "npc.porcine_sheepdog_anon",
       "x": 3035,
       "z": 3296,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sheepdog",
         "map": "{{Map|name=Sheepdog|x=3035|y=3296|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w2cb22d27f4b0",
       "npc": "npc.porcine_sheepdog_rosie",
       "x": 3035,
       "z": 3296,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sheepdog",
         "map": "{{Map|name=Sheepdog|x=3035|y=3296|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wed322c59b485",
       "npc": "npc.farming_shopkeeper_1",
       "x": 3036,
       "z": 3294,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sarah",
         "map": "{{Map|name=Sarah|x=3036|y=3294|plane=0|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w81d664b457d8",
       "npc": "npc.hw24_straydog",
       "x": 3036,
       "z": 3296,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Stray_dog_(2024_Halloween_event)",
         "map": "{{Map|name=Stray dog|x=3036|y=3296|mtype=pin}}"
       }
     },
     {
+      "id": "w9b98a3809e08",
       "npc": "npc.elstan",
       "x": 3053,
       "z": 3305,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elstan",
         "map": "{{Map|name=Elstan|x=3053|y=3305|plane=0|r=5|mtype=square|bucket=yes}}"
       }

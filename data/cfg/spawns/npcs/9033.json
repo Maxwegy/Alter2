@@ -1,14 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 9033,
   "spawns": [
     {
+      "id": "m74d8e5cec2fc",
       "npc": "npc.king_dragon",
       "x": 2274,
       "z": 4698,
       "height": 0,
       "walkRadius": 5,
-      "source": "manual",
+      "source": {
+        "kind": "manual"
+      },
       "note": "migrated from content/npcs/kbd/KbdConfigsPlugin.kt"
     }
   ]

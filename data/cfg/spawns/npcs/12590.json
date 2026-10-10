@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12590,
   "spawns": [
     {
+      "id": "w0854ab3fb255",
       "npc": "npc.secret_ghost_thief",
       "x": 3162,
       "z": 2982,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rennard",
         "map": "{{Map|name=Rennard|x=3162|y=2982|plane=0|r=4|mapID=0|mtype=square}}"
       }
     },
     {
+      "id": "w9fd5bfd8b9c8",
       "npc": "npc.fourdiamonds_bartender",
       "x": 3162,
       "z": 2983,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bartender_(The_Big_Heist_Lodge)",
         "map": "{{Map|name=Bartender (The Big Heist Lodge)|3162,2983|mtype=pin}}"
       }
     },
     {
+      "id": "wd1ce4b14fb0b",
       "npc": "npc.dt_bandit_shopkeeper",
       "x": 3177,
       "z": 2988,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bandit_shopkeeper",
         "map": "{{Map|name=Bandit shopkeeper|3177,2988|mtype=pin}}"
       }
     },
     {
+      "id": "w374e1c83fcb9",
       "npc": "npc.uncerter_bandit",
       "x": 3177,
       "z": 2988,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tiles",
         "map": "{{Map|name=Tiles|x=3177|y=2988|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w142ba0ef3e3d",
       "npc": "npc.fd_elder_village",
       "x": 3186,
       "z": 2984,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Eblis",
         "map": "{{Map|x=3186|y=2984|rectX=6|rectY=8|mtype=rectangle|bucket=yes}}"
       }

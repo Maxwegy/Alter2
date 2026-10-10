@@ -1,157 +1,185 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11575,
   "spawns": [
     {
+      "id": "wc1039cca7da7",
       "npc": "npc.death_ig_commander",
       "x": 2896,
       "z": 3528,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Denulth",
         "map": "{{Map|x=2896|y=3528|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc7a4bde58b01",
       "npc": "npc.death_headservant",
       "x": 2899,
       "z": 3564,
       "height": 1,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Eohric",
         "map": "{{Map|name=Eohric|x=2899|y=3564|plane=1|r=5|mtype=square}}"
       }
     },
     {
+      "id": "we6f15395ac53",
       "npc": "npc.death_guard_equiproom",
       "x": 2905,
       "z": 3539,
       "height": 1,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Harold",
         "map": "{{Map|x=2905|y=3539|plane=1|r=2|mtype=square}}"
       }
     },
     {
+      "id": "we3579f69ca98",
       "npc": "npc.death_barman",
       "x": 2909,
       "z": 3540,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tostig",
         "map": "{{Map|name=Tostig|x=2909|y=3540|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "weca5d5dc4436",
       "npc": "npc.bernald",
       "x": 2919,
       "z": 3536,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Bernald",
         "map": "{{Map|name=Bernald|x=2919|y=3536|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w08613e75adc1",
       "npc": "npc.death_smithy",
       "x": 2919,
       "z": 3574,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dunstan",
         "map": "{{Map|name=Dunstan|x=2919|y=3574|r=3|mtype=square|bucket=yes}}"
       }
     },
     {
+      "id": "w94a183385dbc",
       "npc": "npc.twocats_unferth_longhair",
       "x": 2920,
       "z": 3559,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Unferth",
         "map": "{{Map|name=Unferth|x=2920|y=3559|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9575f8f010fc",
       "npc": "npc.twocats_unferth_mediumhair",
       "x": 2920,
       "z": 3559,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Unferth",
         "map": "{{Map|name=Unferth|x=2920|y=3559|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we9bd0843de25",
       "npc": "npc.twocats_unferth_shorthair",
       "x": 2920,
       "z": 3559,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Unferth",
         "map": "{{Map|name=Unferth|x=2920|y=3559|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5c026d8596a8",
       "npc": "npc.twocats_unferth_spikeyhair",
       "x": 2920,
       "z": 3559,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Unferth",
         "map": "{{Map|name=Unferth|x=2920|y=3559|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4e5fdec40299",
       "npc": "npc.death_shopkeeper",
       "x": 2928,
       "z": 3547,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Wistan",
         "map": "{{Map|name=Wistan|x=2928|y=3547|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wfe1e89239805",
       "npc": "npc.slayer_master_1_aya",
       "x": 2931,
       "z": 3536,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Aya",
         "map": "{{Map|name=Aya|x=2931|y=3536|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc7844ce6de3d",
       "npc": "npc.slayer_master_1_tureal",
       "x": 2931,
       "z": 3536,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Turael",
         "map": "{{Map|name=Turael|x=2931|y=3536|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc4a6e638efc9",
       "npc": "npc.death_woman_indoors1",
       "x": 2932,
       "z": 3568,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Hild",
         "map": "{{Map|name=Hild|x=2932|y=3568|plane=0|r=5|mtype=square}}"
       }

@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11565,
   "spawns": [
     {
+      "id": "w6aaf2fd02c61",
       "npc": "npc.jungleforester_f",
       "x": 2886,
       "z": 2936,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jungle_forester",
         "map": "{{Map|name=Jungle forester|2814,2944|2886,2936|mtype=square}}"
       }
     },
     {
+      "id": "w8b7d899be4ef",
       "npc": "npc.jungleforester_m",
       "x": 2886,
       "z": 2936,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jungle_forester",
         "map": "{{Map|name=Jungle forester|2814,2944|2886,2936|mtype=square}}"
       }

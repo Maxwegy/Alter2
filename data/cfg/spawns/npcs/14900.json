@@ -1,47 +1,55 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14900,
   "spawns": [
     {
+      "id": "w636e3a028f9f",
       "npc": "npc.myq5_crombwick_cutscene",
       "x": 3718,
       "z": 3358,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lord_Crombwick",
         "map": "{{Map|name=Lord Crombwick|x=3718|y=3358|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w62ba5cf29980",
       "npc": "npc.slepe_crombwick_vis",
       "x": 3718,
       "z": 3358,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Lord_Crombwick",
         "map": "{{Map|name=Lord Crombwick|x=3718|y=3358|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wbc1a31e2cd86",
       "npc": "npc.slepe_damien_vis",
       "x": 3718,
       "z": 3358,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Damien_Leucurte",
         "map": "{{Map|name=Damien Leucurte|x=3718|y=3358|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wa5c07e43a87c",
       "npc": "npc.myq6_veliaf_manor_combat_done",
       "x": 3731,
       "z": 3359,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Veliaf_Hurtz",
         "map": "{{Map|name=Veliaf Hurtz|x=3731|y=3359|plane=0|mtype=pin}}"
       }

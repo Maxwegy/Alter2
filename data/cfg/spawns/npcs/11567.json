@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11567,
   "spawns": [
     {
+      "id": "w88e44c61f0cc",
       "npc": "npc.pilot_grand_tree",
       "x": 2917,
       "z": 3056,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Errdo",
         "map": "{{Map|name=Captain Errdo|2917,3056|mtype=pin}}"
       }

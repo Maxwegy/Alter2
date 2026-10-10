@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 12093,
   "spawns": [
     {
+      "id": "w99142bea03fe",
       "npc": "npc.secret_ghost_thief",
       "x": 3022,
       "z": 3946,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Rennard",
         "map": "{{Map|name=Rennard|x=3022|y=3946|plane=0|r=4|mapID=0|mtype=square}}"
       }
     },
     {
+      "id": "wbabb5dcb14e9",
       "npc": "npc.wilderness_capeseller_4",
       "x": 3023,
       "z": 3945,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Darren",
         "map": "{{Map|name=Darren|x=3023|y=3945|mtype=square|mapID=0}}"
       }

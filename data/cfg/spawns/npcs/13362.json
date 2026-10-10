@@ -1,124 +1,146 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13362,
   "spawns": [
     {
+      "id": "w3956f1873e47",
       "npc": "npc.duel_crowdfemale1",
       "x": 3329,
       "z": 3227,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dalal",
         "map": "{{Map|name=Dalal|x=3329|y=3227|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wb23038b0b891",
       "npc": "npc.duel_crowdmale1",
       "x": 3329,
       "z": 3227,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ima",
         "map": "{{Map|name=Ima|x=3329|y=3227|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wc0fb21f96519",
       "npc": "npc.pvpa_guard_1",
       "x": 3353,
       "z": 3202,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Fronk",
         "map": "{{Map|name=Arena Guard Fronk|x=3353|y=3202|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w0e742b794daf",
       "npc": "npc.aluft_pilot_daerkin",
       "x": 3354,
       "z": 3222,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Daerkin",
         "map": "{{Map|name=Captain Daerkin|x=3354|y=3222|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w0a252450ce77",
       "npc": "npc.duel_crowdmale3",
       "x": 3354,
       "z": 3222,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jadid",
         "map": "{{Map|name=Jadid|x=3354|y=3222|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wea99f78898f9",
       "npc": "npc.duel_crowdfemale2",
       "x": 3356,
       "z": 3207,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Afrah",
         "map": "{{Map|name=Afrah|x=3356|y=3207|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w2c724ba2995a",
       "npc": "npc.pvpa_guard_5",
       "x": 3360,
       "z": 3206,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Fawry",
         "map": "{{Map|name=Arena Guard Fawry|x=3360|y=3206|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w4692b3f86a9b",
       "npc": "npc.pvpa_guard_4",
       "x": 3360,
       "z": 3233,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Nikkolas",
         "map": "{{Map|name=Arena Guard Nikkolas|x=3360|y=3233|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w6adffbf6ad72",
       "npc": "npc.duel_crowdfemale3",
       "x": 3367,
       "z": 3219,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jeed",
         "map": "{{Map|name=Jeed|x=3367|y=3219|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w67df2bebc582",
       "npc": "npc.duel_crowdmale2",
       "x": 3367,
       "z": 3219,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sabeil",
         "map": "{{Map|name=Sabeil|x=3367|y=3219|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "wdca1ff4a39c6",
       "npc": "npc.pvpa_guard_8",
       "x": 3375,
       "z": 3233,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Arena_Guard_Rachi",
         "map": "{{Map|name=Arena Guard Yon|x=3375|y=3233|r=3|mtype=square}}"
       }

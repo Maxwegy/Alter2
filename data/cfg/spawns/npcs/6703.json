@@ -1,25 +1,29 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6703,
   "spawns": [
     {
+      "id": "w1d823583836e",
       "npc": "npc.afl_atza",
       "x": 1697,
       "z": 3064,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Atza",
         "map": "{{Map|name=Atza|x=1697|y=3064|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wbd6571b8c345",
       "npc": "npc.fortis_shop_general_2",
       "x": 1721,
       "z": 3065,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Shopkeeper_(Outer_Fortis)",
         "map": "{{Map|name=Shopkeeper (Outer Fortis)|x=1721|y=3065|r=3|plane=0|mtype=square}}"
       }

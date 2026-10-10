@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10808,
   "spawns": [
     {
+      "id": "wbea3a4714296",
       "npc": "npc.shadow_maj_khazard",
       "x": 2723,
       "z": 3622,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/General_Khazard",
         "map": "{{Map|x=2723|y=3622|plane=0|r=4|mapID=0|mtype=square}}"
       }

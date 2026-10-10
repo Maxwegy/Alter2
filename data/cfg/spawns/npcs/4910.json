@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 4910,
   "spawns": [
     {
+      "id": "w01f460afa37b",
       "npc": "npc.tlati_stranded_man",
       "x": 1238,
       "z": 2999,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Felix",
         "map": "{{Map|name=Felix|1238,2999|mtype=pin}}"
       }

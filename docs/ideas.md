@@ -30,7 +30,7 @@ These would sit on a node-chain schema with nodes such as `PERCEPTION_SCANNER`, 
 
 **Superseded use case:** the per-player "ghost" (a phantom that stalks and talks to one player) is replaced by Phase 6, LLM-driven NPCs: NPCs that everyone can see, wake when a player says their name in public chat, and answer with overhead chat. Phase 6 does not need selective visibility, so nothing on the roadmap depends on this idea any more. What remains here is the technique, kept for Monster Maker content such as party-only bosses.
 
-**Implementation note:** use rsprot's built-in specific NPCs, `NpcAvatarFactory.alloc(specific = true)` plus `npcInfo.setSpecific` and `npcInfo.clearSpecific`. Do not build a custom encoder bitmask. The approved Phase 5 plan carries this as PR 3 (`::showonly` / `::showall`), a manual gate because its game-server wrapper cannot be unit-tested.
+**Implementation note:** use rsprot's built-in specific NPCs, `NpcAvatarFactory.alloc(specific = true)` plus `npcInfo.setSpecific` and `npcInfo.clearSpecific`. Do not build a custom encoder bitmask.
 
 **Why deferred:** its content use belongs to Monster Maker, and the game-server wrapper it needs has no regression test (rule 3).
 
@@ -39,7 +39,7 @@ These would sit on a node-chain schema with nodes such as `PERCEPTION_SCANNER`, 
 - Visibility sets are runtime state, never in `data/cfg`.
 - Combat, aggression and drops must agree with visibility: a player who cannot see an NPC must not be attacked by it or loot it. Check how far that reaches into the engine before planning.
 
-**Matrix row:** Idea, "Selective visibility (spectacle)". Phase 5 PR 3 (`::showonly`) is the only roadmap item that builds it, and it waits on a manual gate.
+**Matrix row:** Idea, "Selective visibility (spectacle)". `::showonly` / `::showall` are part of this idea; no roadmap item builds them.
 
 ## 3. Resource micro-economy / supply chains
 
@@ -78,3 +78,39 @@ These would sit on a node-chain schema with nodes such as `PERCEPTION_SCANNER`, 
 **Rule conflicts to resolve first:** everything listed under sections 1 and 2. On top of that, invented monsters need ids, names and models that do not collide with the cache, because content refers to things by RSCM name (rule 8).
 
 **Matrix row:** Idea, "Monster Maker / MRE". Depends on sections 1 and 2.
+
+## 6. Live World Director (sandbox events)
+
+**What:** the world as a stage for planned, opt-in events instead of a fixed map:
+- Mirage spawns: NPCs that appear near a player and leave again.
+- Path events: temporary barriers or blocked routes.
+- Travelling caravans: groups of NPCs walking between towns over many ticks.
+- Phased areas: a player or group sees a changed version of a place.
+
+**What already exists in the engine (no game-server edit needed):**
+- Runtime spawn and despawn with `World.spawn` / `World.remove`. Despawning safely depends on the Phase 5 GS-1 avatar-release fix.
+- Barriers as real objects through `World.spawn(DynamicObject)`, the same path the Phase 4 resource nodes use. The client sees them and paths around them.
+- Collision can be changed directly: `world.collision` is public, and so are `CollisionFlagMap.add` and `remove`. A flag only the server knows about can disagree with the client's own pathing, so blocking with a real object is preferred. Unverified; needs a 241 client.
+- Phased areas through the existing instance system (`InstancedMapAllocator`). Each group gets its own copy of the area, so nothing needs to be hidden per player.
+- Caravans need multi-tick movement with route waypoints. Check what the engine's walk queue can do before designing anything.
+
+**What would need engine work (stop and ask):**
+- NPCs that only some players can see. That is §2, and it brings the combat, aggression and loot consistency problem with it.
+- Hiding other players from a player. That is a larger network-layer change than §2.
+- Movement that ignores pathing, such as teleport-chasing.
+
+**Rule conflicts:**
+- Event state is runtime state, so it never goes in `data/cfg`. Event definitions can be data that is read at boot.
+- Any tick-driven logic needs a cost bound (rule 4).
+- Collision changes must always be undone. On event end or server restart nothing may stay changed, so they need a restore list.
+- Rule 11 applies to every NPC an event spawns.
+
+**Design principle:** events are opt-in and announced, such as an event mode players join. They are not hidden admin tricks that deceive players or take their items. Opt-in events are also the only kind that can be tested and reasoned about.
+
+**Links:**
+- Phase 6 LLM NPCs could later act as event characters.
+- The behaviour chains in §1 cover caravan and trait logic.
+
+**Why deferred:** no OSRS basis, and it depends on GS-1 (Phase 5 PR 2) and §1.
+
+**Matrix row:** Idea, "Live World Director (sandbox events)".

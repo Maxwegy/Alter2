@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11320,
   "spawns": [
     {
+      "id": "w2baee314d97c",
       "npc": "npc.death_ig_solider_wounded",
       "x": 2841,
       "z": 3590,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Death_Plateau)",
         "map": "{{Map|name=Soldier (Death Plateau)|x=2841|y=3590|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w681901eea3d7",
       "npc": "npc.death_troll_cook1",
       "x": 2865,
       "z": 3591,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dung",
         "map": "{{Map|name=Dung|x=2865|y=3591|plane=0|r=6|mtype=square}}"
       }
     },
     {
+      "id": "w7639379ccd01",
       "npc": "npc.death_troll_cook2",
       "x": 2865,
       "z": 3591,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ash",
         "map": "{{Map|name=Ash|x=2865|y=3591|plane=0|r=6|mtype=square}}"
       }

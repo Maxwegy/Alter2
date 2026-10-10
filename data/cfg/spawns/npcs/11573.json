@@ -1,102 +1,120 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 11573,
   "spawns": [
     {
+      "id": "wce5b57a3cfe0",
       "npc": "npc.gaius",
       "x": 2885,
       "z": 3450,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gaius",
         "map": "{{Map|name=Gaius|x=2885|y=3450|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "weedf76d5b753",
       "npc": "npc.grim_sylas",
       "x": 2891,
       "z": 3454,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sylas",
         "map": "{{Map|name=Sylas|x=2891|y=3454|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w433d2e1e7445",
       "npc": "npc.sanfew",
       "x": 2897,
       "z": 3426,
       "height": 1,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sanfew",
         "map": "{{Map|x=2897|y=3426|plane=1|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w9e599b2177ee",
       "npc": "npc.jatix",
       "x": 2899,
       "z": 3429,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Jatix",
         "map": "{{Map|name=Jatix|2899,3429|mtype=pin}}"
       }
     },
     {
+      "id": "w9598943749cb",
       "npc": "npc.wgs_ivy_sophista",
       "x": 2907,
       "z": 3450,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ivy_Sophista",
         "map": "{{Map|name=Ivy Sophista|x=2907|y=3450|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w1f137561e47b",
       "npc": "npc.eadgar_druid_washing",
       "x": 2913,
       "z": 3418,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tegid",
         "map": "{{Map|name=Tegid|x=2913|y=3418|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w366d7001ba44",
       "npc": "npc.ladyofthelake",
       "x": 2925,
       "z": 3405,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/The_Lady_of_the_Lake",
         "map": "{{Map|name=The Lady of the Lake|x=2925|y=3405|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa2543988334e",
       "npc": "npc.zep_assist_tav",
       "x": 2937,
       "z": 3422,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Assistant_Stan",
         "map": "{{Map|name=Assistant Stan|x=2937|y=3422|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wb8a4bdf65d9b",
       "npc": "npc.farming_gardener_tree_1",
       "x": 2937,
       "z": 3439,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Alain",
         "map": "{{Map|name=Alain|x=2937|y=3439|plane=0|r=4|mtype=square|bucket=yes}}"
       }

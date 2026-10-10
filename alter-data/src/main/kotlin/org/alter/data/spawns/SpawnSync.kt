@@ -77,9 +77,12 @@ class SpawnSync(
         report.summary("versionPairs", generated.versionPairs)
         generated.skips.forEach { (reason, count) -> report.summary("skip.$reason", count) }
         report.summary("wikiDuplicatesCollapsed", generated.wikiDuplicatesCollapsed)
+        report.summary("droppedClaimedById", generated.droppedClaimedById)
         report.summary("droppedOverlappedByManual", generated.droppedOverlappedByManual)
         report.summary("possibleDuplicates", generated.possibleDuplicates)
+        report.summary("orphanedEdits", generated.orphanedEdits)
         report.summary("manualKept", generated.manualKept)
+        report.summary("editsKept", generated.editsKept)
         report.summary("wikiEntries", generated.wikiEntries)
         report.summary("entries", generated.entries.size)
         if (generated.wikiEntries == 0) return reject("The wiki produced zero spawn entries; region files left untouched.")

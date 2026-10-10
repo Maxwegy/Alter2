@@ -1,113 +1,133 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8751,
   "spawns": [
     {
+      "id": "w63266e70baa8",
       "npc": "npc.snakeboss_fisherman",
       "x": 2189,
       "z": 3070,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Onan",
         "map": "{{Map|name=Zul-Onan|x=2189|y=3070|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wee1f3b2d0efb",
       "npc": "npc.snakeboss_highpriest",
       "x": 2193,
       "z": 3056,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/High_Priestess_Zul-Harcinqa",
         "map": "{{Map|name=High Priestess Zul-Harcinqa|x=2193|y=3056|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w753e4c457224",
       "npc": "npc.snakeboss_tyrasguard_1",
       "x": 2195,
       "z": 3060,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Aniel",
         "map": "{{Map|name=Zul-Aniel|x=2195|y=3060|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w37a20bf7f816",
       "npc": "npc.snakeboss_tyrasguard_2",
       "x": 2198,
       "z": 3062,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Areth",
         "map": "{{Map|name=Zul-Areth|x=2198|y=3062|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w929569118cb6",
       "npc": "npc.snakeboss_ogre_1",
       "x": 2200,
       "z": 3056,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Urgish",
         "map": "{{Map|name=Zul-Urgish|x=2200|y=3056|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wf949a7541484",
       "npc": "npc.snakeboss_gnome_2",
       "x": 2202,
       "z": 3049,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Gutusolly",
         "map": "{{Map|name=Zul-Gutusolly|x=2202|y=3049|plane=0|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w6b486591d8ae",
       "npc": "npc.snakeboss_gnome_1",
       "x": 2204,
       "z": 3051,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Zul-Cheray",
         "map": "{{Map|name=Zul-Cheray|x=2204|y=3051|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "w78cc37c1e424",
       "npc": "npc.snakeboss_gnome_victim",
       "x": 2210,
       "z": 3056,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sacrifice",
         "map": "{{Map|name=Sacrifice|x=2210|y=3056|plane=0|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w2331d64e71c6",
       "npc": "npc.snakeboss_priest_1op",
       "x": 2212,
       "z": 3057,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Priestess_Zul-Gwenwynig",
         "map": "{{Map|name=Priestess Zul-Gwenwynig|x=2212|y=3057|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wabff3b811e3d",
       "npc": "npc.snakeboss_priest_2ops",
       "x": 2212,
       "z": 3057,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Priestess_Zul-Gwenwynig",
         "map": "{{Map|name=Priestess Zul-Gwenwynig|x=2212|y=3057|r=2|mtype=square}}"
       }

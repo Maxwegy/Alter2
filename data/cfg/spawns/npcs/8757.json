@@ -1,36 +1,42 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 8757,
   "spawns": [
     {
+      "id": "w5a9f94c26b93",
       "npc": "npc.gwenith_elf_4",
       "x": 2198,
       "z": 3411,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Gwerin_Hapus",
         "map": "{{Map|name=Gwerin Hapus|x=2198|y=3411|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w52a2fb619ae3",
       "npc": "npc.gwenith_elf_6",
       "x": 2207,
       "z": 3404,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Marwolaeth_Dawnsio",
         "map": "{{Map|name=Marwolaeth Dawnsio|x=2207|y=3404|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wa7f5383d0137",
       "npc": "npc.gwenith_elf_5",
       "x": 2211,
       "z": 3414,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Preswylwyr_Dall",
         "map": "{{Map|name=Preswylwyr Dall|x=2211|y=3414|r=3|mtype=square}}"
       }

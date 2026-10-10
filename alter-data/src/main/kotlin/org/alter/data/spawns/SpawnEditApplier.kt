@@ -12,12 +12,15 @@ import java.time.format.DateTimeFormatter
  * Applies the runtime outbox (`data/run/spawn-edits.jsonl`, written by the live spawn commands) to the region
  * files in `data/cfg/spawns/npcs`. Offline: it reads only those two places and never the wiki.
  *
- * Edits apply in outbox order, so a later edit of a moved spawn matches the earlier edit's `to`. Each edit
- * matches the entry with the same `(npc, from.x, from.z, from.height)`:
+ * Edits apply in outbox order, so a later edit of a moved spawn finds the earlier edit's result. Each edit finds
+ * its entry by `id`; a version-1 line without an id matches the entry with the same `(npc, from.x, from.z,
+ * from.height)`:
+ * - `from: null` adds a new `source.kind: "edit"` entry with the line's id (rejected when that id exists or the
+ *   npc already spawns on that tile);
  * - `to: null` deletes the entry;
- * - otherwise the entry takes `to`'s tile, walk radius and direction, moving to another region file when the
- *   region changes; an edited wiki entry becomes `source: "manual"` with `origin` set to its page, so the
- *   generator keeps it and drops its wiki twin when they overlap.
+ * - otherwise the entry keeps its id and takes `to`'s tile, walk radius and direction, moving to another region
+ *   file when the region changes. It becomes `source.kind: "edit"` with the edit's `at`, carrying the wiki page and
+ *   map it was generated from, so the generator keeps it and never brings its wiki twin back.
  *
  * An edit with no matching entry, or one that would put the same NPC twice on a tile, is reported and skipped,
  * never guessed at. The applied outbox is kept as `spawn-edits.applied-<ts>.jsonl` (with every line, including
@@ -27,59 +30,97 @@ object SpawnEditApplier {
     const val TOOL = "spawn-apply-edits"
 
     data class Unmatched(val line: Int, val edit: SpawnEdit, val reason: String) {
-        override fun toString(): String = String.format(
-            "line %04d: %s from (%d, %d, %d): %s",
-            line, edit.npc, edit.from.x, edit.from.z, edit.from.height, reason,
-        )
+        override fun toString(): String {
+            val what = edit.from?.let { "from (${it.x}, ${it.z}, ${it.height})" } ?: edit.to!!.let { "add at (${it.x}, ${it.z}, ${it.height})" }
+            return String.format("line %04d: %s %s: %s", line, edit.npc, what, reason)
+        }
     }
 
-    data class Applied(val entries: List<NpcSpawnEntry>, val applied: Int, val moved: Int, val deleted: Int, val unmatched: List<Unmatched>)
+    data class Applied(
+        val entries: List<NpcSpawnEntry>,
+        val applied: Int,
+        val added: Int,
+        val moved: Int,
+        val deleted: Int,
+        val unmatched: List<Unmatched>,
+    )
 
     /** Pure: applies [edits] (with their line numbers) to [entries]. */
     fun apply(entries: List<NpcSpawnEntry>, edits: List<IndexedValue<SpawnEdit>>): Applied {
-        val byKey = LinkedHashMap<NpcSpawnEntry.Key, NpcSpawnEntry>()
-        entries.forEach { byKey[it.key] = it }
+        val byId = LinkedHashMap<String, NpcSpawnEntry>()
+        val byKey = HashMap<NpcSpawnEntry.Key, NpcSpawnEntry>()
+        entries.forEach {
+            byId[it.id] = it
+            byKey[it.key] = it
+        }
+        fun put(entry: NpcSpawnEntry) {
+            byId[entry.id] = entry
+            byKey[entry.key] = entry
+        }
+        fun drop(entry: NpcSpawnEntry) {
+            byId.remove(entry.id)
+            byKey.remove(entry.key)
+        }
         val unmatched = mutableListOf<Unmatched>()
         var applied = 0
+        var added = 0
         var moved = 0
         var deleted = 0
         edits.forEach { (line, edit) ->
-            val key = NpcSpawnEntry.Key(edit.npc, edit.from.x, edit.from.z, edit.from.height)
-            val entry = byKey[key]
-            if (entry == null) {
-                unmatched += Unmatched(line, edit, "no entry for this npc on that tile")
+            fun skip(reason: String) {
+                unmatched += Unmatched(line, edit, reason)
+            }
+            val from = edit.from
+            val to = edit.to
+            if (from == null) {
+                val id = edit.id!!
+                invalid(to!!)?.let { return@forEach skip(it) }
+                if (byId.containsKey(id)) return@forEach skip("id $id already exists")
+                val entry = NpcSpawnEntry(id, edit.npc, to.x, to.z, to.height, to.walkRadius, to.direction, NpcSpawnSource.Edit(edit.at))
+                if (byKey.containsKey(entry.key)) return@forEach skip("${edit.npc} already spawns at (${to.x}, ${to.z}, ${to.height})")
+                put(entry)
+                applied++
+                added++
                 return@forEach
             }
-            val to = edit.to
+            val entry = if (edit.id != null) {
+                byId[edit.id] ?: return@forEach skip("no entry with id ${edit.id}")
+            } else {
+                byKey[NpcSpawnEntry.Key(edit.npc, from.x, from.z, from.height)] ?: return@forEach skip("no entry for this npc on that tile")
+            }
+            if (entry.npc != edit.npc) return@forEach skip("id ${entry.id} is ${entry.npc}, not ${edit.npc}")
             if (to == null) {
-                byKey.remove(key)
+                drop(entry)
                 applied++
                 deleted++
                 return@forEach
             }
-            invalid(to)?.let {
-                unmatched += Unmatched(line, edit, it)
-                return@forEach
-            }
-            val edited = entry.copy(
-                x = to.x,
-                z = to.z,
-                height = to.height,
-                walkRadius = to.walkRadius,
-                direction = to.direction,
-                source = NpcSpawnSource.Manual,
-                origin = (entry.source as? NpcSpawnSource.Wiki)?.page ?: entry.origin,
-            )
-            if (edited.key != key && byKey.containsKey(edited.key)) {
-                unmatched += Unmatched(line, edit, "${edit.npc} already spawns at (${to.x}, ${to.z}, ${to.height})")
-                return@forEach
-            }
-            byKey.remove(key)
-            byKey[edited.key] = edited
+            invalid(to)?.let { return@forEach skip(it) }
+            val edited = edited(entry, to, edit.at)
+            if (edited.key != entry.key && byKey.containsKey(edited.key)) return@forEach skip("${edit.npc} already spawns at (${to.x}, ${to.z}, ${to.height})")
+            drop(entry)
+            put(edited)
             applied++
             if (edited.regionId != entry.regionId) moved++
         }
-        return Applied(byKey.values.sortedWith(NpcSpawnFiles.canonicalOrder), applied, moved, deleted, unmatched)
+        return Applied(byId.values.sortedWith(NpcSpawnFiles.canonicalOrder), applied, added, moved, deleted, unmatched)
+    }
+
+    /** [entry] with [to]'s placement, as an edit entry made at [at] that keeps its id. */
+    fun edited(entry: NpcSpawnEntry, to: SpawnPlacement, at: String): NpcSpawnEntry = entry.copy(
+        x = to.x,
+        z = to.z,
+        height = to.height,
+        walkRadius = to.walkRadius,
+        direction = to.direction,
+        source = editedSource(entry.source, at),
+    )
+
+    /** An edited entry is an edit entry that keeps the wiki page and map it was first generated from. */
+    fun editedSource(source: NpcSpawnSource, at: String): NpcSpawnSource.Edit = when (source) {
+        NpcSpawnSource.Manual -> NpcSpawnSource.Edit(at)
+        is NpcSpawnSource.Edit -> NpcSpawnSource.Edit(at, source.page, source.map)
+        is NpcSpawnSource.Wiki -> NpcSpawnSource.Edit(at, source.page, source.map)
     }
 
     private fun invalid(to: SpawnPlacement): String? = when {
@@ -151,6 +192,7 @@ object SpawnEditApplier {
 
         val applied = apply(existing, parsed.edits)
         report.summary("applied", applied.applied)
+        report.summary("added", applied.added)
         report.summary("moved", applied.moved)
         report.summary("deleted", applied.deleted)
         report.summary("unmatched", applied.unmatched.size)

@@ -1,14 +1,16 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 13877,
   "spawns": [
     {
+      "id": "w8c1cdc07907c",
       "npc": "npc.route_curpile_fyod_child",
       "x": 3508,
       "z": 3441,
       "height": 0,
       "walkRadius": 10,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Curpile_Fyod",
         "map": "{{Map|name=Curpile Fyod|x=3508|y=3441|mtype=square}}"
       }

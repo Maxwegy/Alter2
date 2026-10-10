@@ -1,58 +1,68 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 10795,
   "spawns": [
     {
+      "id": "w017ca06b2838",
       "npc": "npc.pilot_apeatoll_model",
       "x": 2714,
       "z": 2803,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Captain_Shoracks",
         "map": "{{Map|name=Captain Shoracks|x=2714|y=2803|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w5434f6b53f4c",
       "npc": "npc.mm_duke_noncombat",
       "x": 2729,
       "z": 2765,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Duke_(monkey)",
         "map": "{{Map|name=Duke|x=2729|y=2765|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wfdc0ec124d79",
       "npc": "npc.mm_monkeys_uncle",
       "x": 2737,
       "z": 2793,
       "height": 1,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/The_Monkey's_Uncle",
         "map": "{{Map|name=The Monkey's Uncle|x=2737|y=2793|plane=1|r=4|mtype=square}}"
       }
     },
     {
+      "id": "w0b8ed11635f6",
       "npc": "npc.mm_monkeys_aunt",
       "x": 2741,
       "z": 2793,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/The_Monkey's_Aunt",
         "map": "{{Map|name=The Monkey's Aunt|x=2741|y=2793|plane=0|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w414a3f812772",
       "npc": "npc.mm_monkey_child",
       "x": 2744,
       "z": 2795,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Monkey_Child",
         "map": "{{Map|name=Monkey Child|x=2744|y=2795|r=4|mtype=square}}"
       }

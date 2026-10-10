@@ -1,91 +1,107 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 14651,
   "spawns": [
     {
+      "id": "wecaf6d42cef8",
       "npc": "npc.fossil_tarmonster_bubbles",
       "x": 3666,
       "z": 3792,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wf077eec2f59e",
       "npc": "npc.fossil_tarmonster_passive",
       "x": 3666,
       "z": 3792,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Tar_Monster",
         "map": "{{Map|mtype=pin|x:3666,y:3792|x:3669,y:3742|x:3676,y:3744|x:3683,y:3746|x:3677,y:3767}}"
       }
     },
     {
+      "id": "wd5e685dbfa79",
       "npc": "npc.fossil_squirrel_gardener1",
       "x": 3705,
       "z": 3838,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w02867c587fe5",
       "npc": "npc.fossil_squirrel_gardener2",
       "x": 3705,
       "z": 3838,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "wbee13b20cf34",
       "npc": "npc.fossil_squirrel_gardener3",
       "x": 3705,
       "z": 3838,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w46d40e667b9b",
       "npc": "npc.fossil_squirrel_gardener1",
       "x": 3708,
       "z": 3836,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w0615e883deb5",
       "npc": "npc.fossil_squirrel_gardener2",
       "x": 3708,
       "z": 3836,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }
     },
     {
+      "id": "w659c985490c9",
       "npc": "npc.fossil_squirrel_gardener3",
       "x": 3708,
       "z": 3836,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Squirrel_(Fossil_Island)",
         "map": "{{Map|name=Squirrel (Fossil Island)|3705,3838|3708,3836|3715,3832|plane=0|mapID=0|mtype=pin|bucket=yes}}"
       }

@@ -1,212 +1,250 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 7226,
   "spawns": [
     {
+      "id": "w7dccd4d64bda",
       "npc": "npc.piscquest_citizen",
       "x": 1794,
       "z": 3757,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Robert_O'Reilly",
         "map": "{{Map|name=Robert O'Reilly|x=1794|y=3757|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wc5fb52d7a5c3",
       "npc": "npc.piscarilius_poor_citizen_female_3",
       "x": 1803,
       "z": 3742,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Poor_looking_woman",
         "map": "{{Map|name=Poor looking woman|x:1803,y:3742|mtype=pin|group=3}}"
       }
     },
     {
+      "id": "we3e466d920d8",
       "npc": "npc.piscarilius_generalstore_keeper",
       "x": 1808,
       "z": 3726,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Leenz",
         "map": "{{Map|name=Leenz|1808,3726|mtype=pin}}"
       }
     },
     {
+      "id": "wf87a1901f9b3",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1809,
       "z": 3715,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "we00a6088929f",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1809,
       "z": 3715,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w05c15769d1b0",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1816,
       "z": 3726,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w2884ea2bb5b3",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1816,
       "z": 3726,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w15e1728e0029",
       "npc": "npc.piscarilius_dockmaster",
       "x": 1822,
       "z": 3740,
       "height": 0,
       "walkRadius": 6,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dockmaster",
         "map": "{{Map|name=Dockmaster|x=1822|y=3740|r=6|mtype=square}}"
       }
     },
     {
+      "id": "wad68549a960b",
       "npc": "npc.piscarilius_fisherman",
       "x": 1822,
       "z": 3770,
       "height": 0,
       "walkRadius": 4,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Fisherman_(Port_Piscarilius)",
         "map": "{{Map|name=Fisherman (Port Piscarilius)|x=1822|y=3770|r=4|mtype=square}}"
       }
     },
     {
+      "id": "wb3d6e8ad5090",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1826,
       "z": 3748,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w5e8d031eeafc",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1826,
       "z": 3748,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "wf3d8cb9f79c6",
       "npc": "npc.piscarilius_fish_trader",
       "x": 1830,
       "z": 3722,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Frankie",
         "map": "{{Map|name=Frankie|1830,3722|mtype=pin}}"
       }
     },
     {
+      "id": "w0fa4994575d2",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1831,
       "z": 3737,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "we98d6371398e",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1831,
       "z": 3737,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "wa2c428ad69a6",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1833,
       "z": 3758,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w4c21085b1c43",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1833,
       "z": 3758,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w3414c5e42788",
       "npc": "npc.piscquest_target_alive",
       "x": 1846,
       "z": 3736,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Conrad_King",
         "map": "{{Map|name=Conrad King|x=1846|y=3736|r=3|mtype=pin}}"
       }
     },
     {
+      "id": "w2e6cd062e921",
       "npc": "npc.piscarilius_dockworker_deliver",
       "x": 1848,
       "z": 3722,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }
     },
     {
+      "id": "w5809f272274f",
       "npc": "npc.piscarilius_dockworker_repair",
       "x": 1848,
       "z": 3722,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dock_worker",
         "map": "{{Map|name=Dock worker|1833,3758|1826,3748|1831,3737|1816,3726|1848,3722|1809,3715|mtype=pin|mapID=0}}"
       }

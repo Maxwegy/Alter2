@@ -1,124 +1,146 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 6199,
   "spawns": [
     {
+      "id": "wf10acd426a01",
       "npc": "npc.shayzien_historian",
       "x": 1540,
       "z": 3543,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Amelia",
         "map": "{{Map|name=Amelia|x=1540|y=3543|r=3|mtype=square}}"
       }
     },
     {
+      "id": "we58048122e9e",
       "npc": "npc.shayzien_rangeshop",
       "x": 1540,
       "z": 3557,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Daryl",
         "map": "{{Map|name=Daryl|1540,3557|mtype=pin}}"
       }
     },
     {
+      "id": "wf679488980ac",
       "npc": "npc.shayzien_pub_patron_3",
       "x": 1548,
       "z": 3566,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(The_Cloak_and_Stagger)",
         "map": "{{Map|1548,3566|group=2|mtype=pin}}"
       }
     },
     {
+      "id": "wef9f0dcd7a59",
       "npc": "npc.shayzien_pub_patron_2",
       "x": 1548,
       "z": 3568,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(The_Cloak_and_Stagger)",
         "map": "{{Map|1548,3568|group=1|mtype=pin}}"
       }
     },
     {
+      "id": "w4c77d3ef6533",
       "npc": "npc.shayzien_barman",
       "x": 1550,
       "z": 3562,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Oswald",
         "map": "{{Map|name=Oswald|1550,3562|mtype=pin}}"
       }
     },
     {
+      "id": "w08d4bad772aa",
       "npc": "npc.shayzien_barmaid",
       "x": 1551,
       "z": 3565,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Sheryl",
         "map": "{{Map|name=Sheryl|x=1551|y=3565|r=3|mtype=square}}"
       }
     },
     {
+      "id": "wc0f459214895",
       "npc": "npc.shayzien_pub_patron_4",
       "x": 1551,
       "z": 3565,
       "height": 0,
       "walkRadius": 3,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Drunken_soldier",
         "map": "{{Map|1551,3565|r=3|mtype=square}}"
       }
     },
     {
+      "id": "w41121f3f425b",
       "npc": "npc.shayzien_pub_patron_1",
       "x": 1552,
       "z": 3566,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Farmer_(Shayzien)",
         "map": "{{Map|name=Oswald|x=1552|y=3566|plane=0|r=2|mtype=square}}"
       }
     },
     {
+      "id": "wd280d1df247f",
       "npc": "npc.shayzien_armourshop",
       "x": 1565,
       "z": 3570,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Blair",
         "map": "{{Map|name=Blair|1565,3570|mtype=pin}}"
       }
     },
     {
+      "id": "wc2024e073572",
       "npc": "npc.shayzien_weaponshop",
       "x": 1567,
       "z": 3545,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Briget",
         "map": "{{Map|name=Briget|1567,3545|mtype=pin}}"
       }
     },
     {
+      "id": "wc501f8a4ffce",
       "npc": "npc.shayzien_gardener",
       "x": 1568,
       "z": 3550,
       "height": 0,
       "walkRadius": 2,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Elijah",
         "map": "{{Map|1568,3550|r=2|mtype=square}}"
       }

@@ -1,102 +1,120 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "regionId": 5690,
   "spawns": [
     {
+      "id": "w02a71802f850",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1411,
       "z": 3719,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "wc74d87689a6a",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1412,
       "z": 3712,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w43a3d53336e1",
       "npc": "npc.molch_shay_spearmen_1",
       "x": 1412,
       "z": 3715,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Soldier_(Battlefront)",
         "map": "{{Map|title=Soldier (Spear)|1411,3719|1412,3712|1412,3715|1363,3722|1369,3737|1370,3746|1372,3718|1374,3732|1375,3740|1377,3720|1390,3732|1401,3715|1405,3720|1365,3700|1369,3701|1370,3692|1373,3689|1378,3707|1383,3707|1384,3676|1385,3705|1388,3692|1389,3684|1391,3678|1392,3689|1397,3673|1397,3678|1409,3707|1412,3707|mtype=pin}}"
       }
     },
     {
+      "id": "w39ec1568eb0f",
       "npc": "npc.lovakengj_citizen_1",
       "x": 1453,
       "z": 3747,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
         "map": "{{Map|name=Dwarf|x=1453|y=3747|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w7f6e2fcc8615",
       "npc": "npc.vmq1_guard_4",
       "x": 1453,
       "z": 3747,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_1)",
         "map": "{{Map|name=Armourer (tier 1)|x=1453|y=3747|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w8ac4366a4da6",
       "npc": "npc.lovakengj_citizen_4",
       "x": 1461,
       "z": 3761,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Dwarf_(Lovakengj)",
         "map": "{{Map|name=Dwarf|x=1461|y=3761|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w41b4a3eb817d",
       "npc": "npc.vmq1_guard_7",
       "x": 1461,
       "z": 3761,
       "height": 0,
       "walkRadius": 5,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Armourer_(tier_4)",
         "map": "{{Map|name=Armourer (tier 4)|x=1461|y=3761|r=5|mtype=square}}"
       }
     },
     {
+      "id": "w35e142407902",
       "npc": "npc.shayzien_ranger_firing",
       "x": 1467,
       "z": 3717,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1467,3703|1467,3706|1467,3717|1467,3720|mtype=pin}}"
       }
     },
     {
+      "id": "wb87a9d96d115",
       "npc": "npc.shayzien_ranger_firing",
       "x": 1467,
       "z": 3720,
       "height": 0,
       "walkRadius": 0,
       "source": {
+        "kind": "wiki",
         "page": "https://oldschool.runescape.wiki/w/Ranger_(Shayzien)",
         "map": "{{Map|title=Ranger|1467,3703|1467,3706|1467,3717|1467,3720|mtype=pin}}"
       }
