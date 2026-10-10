@@ -3,7 +3,7 @@
 #   docker compose up -d --build     build and start (see docker-compose.yml for the volumes it needs)
 #   docker compose stop              graceful: SIGTERM runs the shutdown hook, which saves every player
 #
-# The image holds only the server's libraries. The data directory (cache, xteas, rsa key, configs, saves) and
+# The image holds only the server's libraries. The data directory (cache, rsa key, configs, saves) and
 # game.yml come from the host, so the same image serves any checkout of the repository.
 
 FROM eclipse-temurin:17-jdk AS build

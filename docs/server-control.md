@@ -50,7 +50,7 @@ The API listens on `127.0.0.1` only (port 43595 by default, `admin:` in `data/cf
 
 ## Docker
 
-`docker compose up -d --build` builds the image (JDK 17 build stage, JRE runtime) and mounts `./data` and `./game.yml` from the checkout. Before the first start, `data/cache` and `data/xteas.json` must exist and `game.yml` must be copied from `game.example.yml`.
+`docker compose up -d --build` builds the image (JDK 17 build stage, JRE runtime) and mounts `./data` and `./game.yml` from the checkout. Before the first start, `data/cache` must hold the staged revision 241 cache (no `xteas.json` is needed from revision 237 on) and `game.yml` must be copied from `game.example.yml`.
 
 The admin API stays inside the container, so use `docker compose stop|restart|logs` there, not the scripts. On Docker Desktop for Windows or macOS the first boot can take a few minutes because the cache is read through the bind mount.
 

@@ -1,5 +1,5 @@
 # Alter2 game server. Before the first start:
-#   - data/cache and data/xteas.json must exist (they are not committed)
+#   - data/cache must hold the staged revision 241 cache (not committed; no xteas.json from revision 237 on)
 #   - copy game.example.yml to game.yml
 # The RSA key is generated into data/rsa on first boot if it is missing.
 services:

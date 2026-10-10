@@ -116,8 +116,23 @@ name or cannot be resolved block the run until `data/cfg/rscm-migrations/overrid
 referenced clashes are decided there (`rename-alias`, e.g. `item.cup_of_tea` → `item.cup_of_tea__228`), so the
 content edits land with the table swap. The audit of the 228 → 241 run is `docs/rscm-241-migration.md`.
 
-The tables are committed together with the revision bump (part 3b): committing 241 tables while the server
-still runs the 228 cache would resolve the moved ids wrongly.
+The tables were committed together with the revision bump (part 3b), because committing 241 tables while the
+server still ran the 228 cache would have resolved the moved ids wrongly.
+
+## Part 3b: the switch to 241
+
+- `gradle.properties`: `alter.osrsRevision=241`, `alter.rsprotVersion=1.0.0-ALPHA-20261001`.
+- rsprot 241 API: the three info protocols are allocated, updated and released through one `Infos` handle
+  (`network.infoProtocols`); coordinate and build-area updates go through it; per-cycle packets come from
+  `Infos.getPackets()` in rsprot's documented order (active world, npc update origin, world entity info, player
+  info, npc info unless empty). Hit marks carry `sourceType`/`otherType`, face-coord is `setFaceCoordGrid`,
+  projectiles are `MapProjAnimV2` with an end coordinate, rebuild packets are the V2 classes without an XTEA
+  provider, mouse clicks are V1/V2, `AuthenticationType` lost its type parameter, and `IfSetEventsV2` splits the
+  if-button bits into a second mask (`legacyEventsToV2`).
+- XTEA: `XteaKeyService.requiresKeys(revision)` is false from 237 on; no `xteas.json` is loaded and every map
+  square gets zero keys, which the filestore treats as unencrypted.
+- RSCM: `rscmGenerate --commit` wrote the gameval tables with 228 aliases; the 8 renamed references
+  (`item.cup_of_tea__228` and friends) were rewritten in content.
 
 ## Fix options
 
