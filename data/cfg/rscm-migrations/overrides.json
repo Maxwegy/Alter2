@@ -1,0 +1,10 @@
+{
+  "item.cup_of_tea": { "action": "rename-alias", "name": "cup_of_tea__228", "reason": "gameval `cup_of_tea` is id 1978; content referencing 712 keeps it under the renamed alias until migrated" },
+  "item.opal_bolts": { "action": "rename-alias", "name": "opal_bolts__228", "reason": "gameval `opal_bolts` is id 3818; content referencing 879 keeps it under the renamed alias until migrated" },
+  "item.pearl_bolts": { "action": "rename-alias", "name": "pearl_bolts__228", "reason": "gameval `pearl_bolts` is id 3822; content referencing 880 keeps it under the renamed alias until migrated" },
+  "item.ugthanki_kebab": { "action": "rename-alias", "name": "ugthanki_kebab__228", "reason": "gameval `ugthanki_kebab` is id 1885; content referencing 1883 keeps it under the renamed alias until migrated" },
+  "item.fur": { "action": "rename-alias", "name": "fur__228", "reason": "gameval `fur` is id 948; content referencing 6814 keeps it under the renamed alias until migrated" },
+  "item.serpentine_helm": { "action": "rename-alias", "name": "serpentine_helm__228", "reason": "gameval `serpentine_helm` is id 12929; content referencing 12931 keeps it under the renamed alias until migrated" },
+  "object.haystack": { "action": "rename-alias", "name": "haystack__228", "reason": "gameval `haystack` is id 298; content referencing 300 keeps it under the renamed alias until migrated" },
+  "object.seed_stall": { "action": "rename-alias", "name": "seed_stall__228", "reason": "gameval `seed_stall` is id 7053; content referencing 6947 keeps it under the renamed alias until migrated" }
+}

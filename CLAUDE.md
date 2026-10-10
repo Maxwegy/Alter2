@@ -28,6 +28,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - `./gradlew :plugins:tools:cacheStage -PcacheArgs="--build N | --latest"`: download and verify a cache into `data/cache-staging/` (never `data/cache`).
 - `./gradlew :plugins:tools:cacheDryRun -PcacheArgs="<staged dir> <build>"`: what our decoders and RSCM names would do with that cache.
 - `./gradlew :plugins:tools:gamevalDump -PcacheArgs="<cache dir>"`: dump the gameval name tables (index 24, revision 241+) and compare them with `data/cfg/rscm`.
+- `./gradlew :plugins:tools:rscmGenerate -PcacheArgs="<cache dir> <build> [--commit]"`: generate RSCM tables (gameval names + aliases for every committed name) and a migration report; `--commit` writes `data/cfg`.
 - In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
 

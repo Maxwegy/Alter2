@@ -99,6 +99,26 @@ Upstream's "241" commit (`46e2be19`, 2026-10-01) added only `recolAll` (NPC/obje
 item 161 (`keepOnlyDuringSeqs`) and item 251 (`unlockable`); the rest arrived in earlier revisions. Enum, struct,
 varbit, sequence and DB decoders were not reached, so their deltas are unknown until the three above are done.
 
+## RSCM for 241: gameval names + aliases (part 3a)
+
+Decision (plan approved 2026-10-09): from 241 on the canonical RSCM names are the gameval names. They are unique
+(0 collisions over 113,811 ids) and id-free, where the decoded display names collide so often (43% of item,
+82% of NPC, 96% of loc entries carry a `_<id>` suffix) that 843 committed names changed meaning between 228 and
+241. Every committed name is kept as a generated alias line after the canonical block of the same `.rscm` file
+(the loader needs no change: canonical lines come first, so they win the reverse lookup), so content keeps
+working unchanged and migrates to gameval names at its own pace.
+
+`./gradlew :plugins:tools:rscmGenerate -PcacheArgs="<cache dir> <build> [--out <dir>] [--commit]"` generates the
+tables into `<cache dir>/rscm-out/` (nothing under `data/cfg` changes without `--commit`), decides each committed
+name (identical / same id / remapped / unresolved / clash / was null / overridden), and writes
+`migration.md` plus `rscm-migrations/<from>-to-<to>.json`. Names content references that clash with a gameval
+name or cannot be resolved block the run until `data/cfg/rscm-migrations/overrides.json` decides them; the 8
+referenced clashes are decided there (`rename-alias`, e.g. `item.cup_of_tea` → `item.cup_of_tea__228`), so the
+content edits land with the table swap. The audit of the 228 → 241 run is `docs/rscm-241-migration.md`.
+
+The tables are committed together with the revision bump (part 3b): committing 241 tables while the server
+still runs the 228 cache would resolve the moved ids wrongly.
+
 ## Fix options
 
 | option | what | effort | notes |
