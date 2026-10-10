@@ -7,6 +7,7 @@ import org.alter.data.config.DataPaths
 import org.alter.data.config.InfraConfig
 import org.alter.data.io.IoScope
 import org.alter.data.missing.MissingContentStore
+import org.alter.data.spawns.SpawnEditOutbox
 import org.alter.game.Server
 import org.alter.game.model.World
 import org.alter.game.plugin.KotlinPlugin
@@ -14,6 +15,7 @@ import org.alter.game.plugin.PluginRepository
 import org.alter.plugins.content.infrastructure.drops.DropDataService
 import org.alter.plugins.content.infrastructure.missingcontent.MissingContentService
 import org.alter.plugins.content.infrastructure.npcs.NpcDataService
+import org.alter.plugins.content.infrastructure.spawns.SpawnEditOutboxService
 
 /**
  * The one place the Phase 1 data infrastructure is wired together.
@@ -50,6 +52,7 @@ class InfrastructurePlugin(
                 ),
             )
         }
+        loadService(SpawnEditOutboxService(SpawnEditOutbox(paths.spawnEdits, io)))
         if (config.admin.enabled) {
             loadService(AdminControlService(config.admin, paths.runFile, paths.wikiSnapshot, events))
         }

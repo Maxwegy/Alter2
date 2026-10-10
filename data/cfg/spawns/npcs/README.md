@@ -40,5 +40,19 @@ the infobox `{{Map}}` templates and never changes a `manual` one. To change a ge
 `manual` entry (with `origin` set to the page); a manual entry for the same npc and height within the larger
 walk radius makes the generator drop the wiki one.
 
+In game, `::spawninfo`, `::setwander <n>` and `::setdirection <DIR>` (dev power) act on the NPC on your tile: they
+change the live NPC and append one line to the runtime outbox `data/run/spawn-edits.jsonl`, never to these files:
+
+```json
+{"at":"2026-10-10T12:00:00Z","npc":"npc.hans","from":{"x":3221,"z":3219,"height":0,"walkRadius":0,"direction":"EAST"},"to":{"x":3221,"z":3219,"height":0,"walkRadius":5,"direction":"EAST"},"regionId":12850,"source":"manual"}
+```
+
+`to` is `null` for a removal; `source` is `"manual"` or the wiki page. `./gradlew :alter-data:spawnSync
+-PspawnArgs="--apply-edits"` (offline) applies the outbox in order: it matches each line on `(npc, from.x, from.z,
+from.height)`, moves the entry to another file when its region changes, deletes it on `null`, and rewrites an
+edited wiki entry as `manual` with `origin` set to its page. Lines that match nothing (or would put the same NPC
+twice on a tile) are listed in `data/reports/spawn-apply-edits-<ts>.md` and skipped. The applied outbox is kept as
+`spawn-edits.applied-<ts>.jsonl`.
+
 Add spawns here, not with `spawnNpc` in plugin code. Edit on a branch; `spawnItem`/`spawnObj` still live in
 plugins.

@@ -24,12 +24,9 @@ class NpcSpawnsPlugin(
 ) : KotlinPlugin(r, world, server) {
     private val logger = KotlinLogging.logger {}
 
-    /** Every data spawn by (npc id, spawn tile), for the instance-level spawn tools. */
-    val index: Map<NpcSpawnsLoader.Key, NpcSpawnsLoader.Spawn>
-
     init {
         val dir = DataPaths.default().npcSpawns
-        index = when (val result = NpcSpawnsLoader { name -> runCatching { getRSCM(name) }.getOrNull() }.load(dir)) {
+        val index = when (val result = NpcSpawnsLoader { name -> runCatching { getRSCM(name) }.getOrNull() }.load(dir)) {
             NpcSpawnsLoader.Result.Missing -> {
                 logger.warn { "No NPC spawn data in ${dir.toAbsolutePath().normalize()}; no NPCs spawn from data." }
                 emptyMap()
@@ -45,5 +42,7 @@ class NpcSpawnsPlugin(
                 result.index
             }
         }
+        // Every data spawn by (npc id, spawn tile), for the instance-level spawn tools.
+        loadService(NpcSpawnIndexService(index))
     }
 }
