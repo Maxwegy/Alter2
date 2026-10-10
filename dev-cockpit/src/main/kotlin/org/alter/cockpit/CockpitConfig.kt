@@ -19,6 +19,12 @@ data class CockpitConfig(
     data class WorkOrders(
         /** Scaffold branches are cut from this ref; `main` is used when it doesn't exist (no remote). */
         val baseRef: String = "origin/main",
+        /** Compile the card's worktree before committing a scaffold; `false` commits unchecked. */
+        val compileGate: Boolean = true,
+        /** The Gradle task the gate runs in the worktree. */
+        val compileTask: String = ":game-plugins:compileKotlin",
+        /** A compile that runs longer than this fails the gate (a cold daemon plus a full module compile fits). */
+        val compileTimeoutSeconds: Long = 900,
     )
 
     data class Supervisor(

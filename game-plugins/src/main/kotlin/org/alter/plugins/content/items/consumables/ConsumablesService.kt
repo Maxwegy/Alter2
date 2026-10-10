@@ -37,6 +37,8 @@ class ConsumablesService : Service {
 
     val consumables: List<Consumable> get() = table.consumables
 
+    val messages: Messages get() = table.messages
+
     override fun init(server: Server, world: World, serviceProperties: ServerProperties) {
         path = Paths.get(serviceProperties.get("consumables") ?: "../data/cfg/consumables/consumables.json")
         swap(load())

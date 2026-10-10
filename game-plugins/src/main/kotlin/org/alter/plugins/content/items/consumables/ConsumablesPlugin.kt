@@ -7,17 +7,22 @@ import org.alter.api.Skills
 import org.alter.api.ext.player
 import org.alter.api.ext.getInteractingItemId
 import org.alter.api.ext.getInteractingItemSlot
+import org.alter.api.ext.inWilderness
 import org.alter.api.ext.message
 import org.alter.api.ext.playSound
+import org.alter.api.ext.sendRunEnergy
 import org.alter.game.Server
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.priv.Privilege
+import org.alter.game.model.timer.ACTIVE_COMBAT_TIMER
 import org.alter.game.model.timer.ATTACK_DELAY
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.game.service.GameService
 import org.alter.plugins.content.infrastructure.InfrastructureService
+import org.alter.plugins.content.mechanics.poison.Poison
+import org.alter.plugins.content.mechanics.run.RunEnergy
 import org.alter.rscm.RSCM.getRSCM
 
 /**
@@ -81,6 +86,9 @@ class ConsumablesPlugin(
             current = IntArray(skills.maxSkills) { skills.getCurrentLevel(it) },
             hasPrayerGear = service.prayerGearWorn.any { player.equipment.contains(it) } || service.prayerGearCarried.any { player.inventory.contains(it) },
             roll = world.random.nextDouble(),
+            // "In combat in a PvP area" (wiki Anglerfish): the engine's PvP area is the Wilderness overlay, combat the active-combat timer.
+            inPvpCombat = player.inWilderness() && player.timers.has(ACTIVE_COMBAT_TIMER),
+            runEnergy = player.runEnergy.toInt(),
         )
         val plan = when (val decision = ConsumptionRules.decide(consumable, state)) {
             is Decision.Blocked -> return
@@ -95,6 +103,15 @@ class ConsumablesPlugin(
         plan.levels.forEach { (skill, level) -> skills.setCurrentLevel(skill, level) }
         player.timers[consumable.kind.gate] = plan.gateTicks
         if (plan.attackDelayAdd > 0) player.timers[ATTACK_DELAY] = state.attackDelay + plan.attackDelayAdd
+        plan.runEnergy?.let { units ->
+            player.runEnergy = units.toDouble()
+            player.sendRunEnergy(units / 100)
+        }
+        // The stamina effect does not stack: another dose resets the timer (wiki Stamina potion).
+        plan.staminaTicks?.let { player.timers[RunEnergy.STAMINA_BOOST] = it }
+        if (plan.curePoison) Poison.cure(player)
+        plan.poisonImmunityTicks?.let { player.timers[Poison.IMMUNITY_TIMER] = it }
+        plan.antifire?.let { (tier, ticks) -> StatusEffectsPlugin.setAntifire(player, tier, ticks) }
 
         val name = CacheManager.getItem(itemId).name.lowercase()
         when (consumable.kind) {

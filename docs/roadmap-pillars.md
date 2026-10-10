@@ -208,7 +208,15 @@ every numeric field has a `source` or a `todo`.
 > `ConsumablesService`/`ConsumablesPlugin`, `StatNormalisationPlugin`; 17 tests. Deviations from the sketch below: the
 > file has typed `heal` variants (`fixed`, `percentOfBase`, `brackets`, `range`) and typed `effects` (`boost`, `drain`,
 > `restore`); the potion delay is 3 ticks (wiki Potion page); the wiki has no structured heal data, so entries are
-> hand-cited and the cockpit enricher is the future fetcher. Stamina, antifire and antipoison are Phase 3b.
+> hand-cited and the cockpit enricher is the future fetcher.
+>
+> **Phase 3b (2026-10-10).** Three more effect shapes in the same file: `runEnergy` (energy, super energy and
+> stamina potions; the stamina timer is `RunEnergy.STAMINA_BOOST`, whose 0.3 drain multiplier already existed),
+> `antipoison` (`Poison.cure` plus a `Poison.IMMUNITY_TIMER` that `Poison.isImmune` honours) and `antifire`
+> (`partial`/`full` set the two attributes `DragonfireFormula` reads, timed by `ANTIFIRE_TIMER`; a warning 25
+> ticks before expiry). Overhealing is clamped to base while in combat in a PvP area (wiki Anglerfish). Not
+> modelled: venom (the engine has only an orb state), so anti-venom potions are not listed; the stamina orb
+> colour varbit. Expiry chat lines live in the file's `messages` block.
 
 **Data source.** `data/cfg/consumables/consumables.json`, hand-maintained, replacing the `Food` enum and
 `EatingPlugin` (`game-plugins/.../content/items/consumables/food/{EatingPlugin,Food,Foods}.kt`).

@@ -8,6 +8,7 @@ import org.alter.game.model.entity.Npc
 import org.alter.game.model.entity.Pawn
 import org.alter.game.model.entity.Player
 import org.alter.game.model.timer.POISON_TIMER
+import org.alter.game.model.timer.TimerKey
 
 /**
  * @author Tom <rspsmods@gmail.com>
@@ -15,14 +16,25 @@ import org.alter.game.model.timer.POISON_TIMER
 object Poison {
     private const val HP_ORB_VARP = 102
 
+    /** Poison immunity from an antipoison potion; set by the consumables plugin, checked by [isImmune]. */
+    val IMMUNITY_TIMER = TimerKey()
+
     fun getDamageForTicks(ticks: Int) = (ticks / 5) + 1
 
     fun isImmune(pawn: Pawn): Boolean =
-        when (pawn) {
-            is Player -> pawn.hasEquipped(EquipmentType.HEAD, "item.serpentine_helm__228", "item.tanzanite_helm", "item.magma_helm")
-            is Npc -> pawn.combatDef.immunePoison
-            else -> false
-        }
+        pawn.timers.has(IMMUNITY_TIMER) ||
+            when (pawn) {
+                is Player -> pawn.hasEquipped(EquipmentType.HEAD, "item.serpentine_helm__228", "item.tanzanite_helm", "item.magma_helm")
+                is Npc -> pawn.combatDef.immunePoison
+                else -> false
+            }
+
+    /** Ends an active poison: what the poison timer does on its own once the ticks run out. */
+    fun cure(pawn: Pawn) {
+        pawn.attr[POISON_TICKS_LEFT_ATTR] = 0
+        pawn.timers.remove(POISON_TIMER)
+        if (pawn is Player) setHpOrb(pawn, OrbState.NONE)
+    }
 
     fun poison(
         pawn: Pawn,

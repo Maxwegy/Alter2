@@ -83,6 +83,25 @@ sealed interface Effect {
 
         fun amount(base: Int, percent: Int) = plus + base * percent / 100
     }
+
+    /** Restores [restorePercent] of run energy; with [staminaTicks] also starts the stamina effect (70% less depletion). */
+    data class RunEnergy(val restorePercent: Int, val staminaTicks: Int?) : Effect
+
+    /** Cures poison when [cure] and grants poison immunity for [immunityTicks]. */
+    data class Antipoison(val cure: Boolean, val immunityTicks: Int) : Effect
+
+    /** Dragonfire protection for [ticks]: PARTIAL is the antifire potion (full only with a shield), FULL the super antifire. */
+    data class Antifire(val tier: AntifireTier, val ticks: Int) : Effect
+}
+
+enum class AntifireTier(val key: String) {
+    PARTIAL("partial"),
+    FULL("full"),
+    ;
+
+    companion object {
+        fun of(key: String): AntifireTier = values().firstOrNull { it.key == key } ?: throw IllegalArgumentException("Unknown antifire tier '$key'")
+    }
 }
 
 data class Consumable(
@@ -103,10 +122,14 @@ data class Consumable(
 
 data class PrayerGear(val worn: List<String>, val carried: List<String>)
 
+/** Chat lines for effects that end on a timer; data, so the plugins carry no strings either. */
+data class Messages(val antifireWarning: String, val antifireExpired: String, val staminaExpired: String)
+
 data class ConsumablesTable(
     val defaults: Map<Kind, KindDefaults>,
     val prayerGear: PrayerGear,
     val consumables: List<Consumable>,
+    val messages: Messages = Messages("", "", ""),
 ) {
     data class KindDefaults(val delayTicks: Int, val attackDelayTicks: Int, val animation: Int, val sound: Int)
 
@@ -139,7 +162,10 @@ object Consumables {
         val gearNode = root["prayerGear"] ?: throw IllegalArgumentException("consumables.json: prayerGear is missing")
         val prayerGear = PrayerGear(gearNode["worn"].map { it.asText() }, gearNode["carried"].map { it.asText() })
         val consumables = root["consumables"].map { node -> consumable(node, defaults) }
-        return ConsumablesTable(defaults, prayerGear, consumables)
+        val m = root["messages"] ?: throw IllegalArgumentException("consumables.json: messages is missing")
+        fun message(key: String) = m[key]?.asText()?.takeIf { it.isNotBlank() } ?: throw IllegalArgumentException("consumables.json: messages.$key is missing")
+        val messages = Messages(message("antifireWarning"), message("antifireExpired"), message("staminaExpired"))
+        return ConsumablesTable(defaults, prayerGear, consumables, messages)
     }
 
     private fun consumable(node: JsonNode, defaults: Map<Kind, ConsumablesTable.KindDefaults>): Consumable {
@@ -188,7 +214,24 @@ object Consumables {
                 }
                 Effect.Restore(target, it["percentOfBase"]?.asInt() ?: 0, it["plus"]?.asInt() ?: 0, it["prayerGearPercent"]?.asInt())
             }
-            else -> throw IllegalArgumentException("$item: effect needs boost, drain or restore")
+            node.has("runEnergy") -> node["runEnergy"].let {
+                val percent = it["restorePercent"]?.asInt() ?: throw IllegalArgumentException("$item: runEnergy needs restorePercent")
+                require(percent in 1..100) { "$item: runEnergy.restorePercent must be 1..100" }
+                val stamina = it["staminaTicks"]?.asInt()
+                require(stamina == null || stamina > 0) { "$item: runEnergy.staminaTicks must be positive" }
+                Effect.RunEnergy(percent, stamina)
+            }
+            node.has("antipoison") -> node["antipoison"].let {
+                val ticks = it["immunityTicks"]?.asInt() ?: 0
+                require(ticks >= 0) { "$item: antipoison.immunityTicks must not be negative" }
+                Effect.Antipoison(it["cure"]?.asBoolean() ?: true, ticks)
+            }
+            node.has("antifire") -> node["antifire"].let {
+                val ticks = it["ticks"]?.asInt() ?: throw IllegalArgumentException("$item: antifire needs ticks")
+                require(ticks > 0) { "$item: antifire.ticks must be positive" }
+                Effect.Antifire(AntifireTier.of(it["tier"]?.asText() ?: throw IllegalArgumentException("$item: antifire needs tier")), ticks)
+            }
+            else -> throw IllegalArgumentException("$item: effect needs boost, drain, restore, runEnergy, antipoison or antifire")
         }
     }
 }

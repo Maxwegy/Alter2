@@ -29,6 +29,8 @@ import org.alter.cockpit.wiki.PageResolver
 import org.alter.cockpit.workorders.DialogueGenerator
 import org.alter.cockpit.workorders.DoorGenerator
 import org.alter.cockpit.workorders.EnrichmentService
+import org.alter.cockpit.workorders.GradleCompileGate
+import org.alter.cockpit.workorders.NoopCompileGate
 import org.alter.cockpit.workorders.Kt
 import org.alter.cockpit.workorders.PickpocketEnricher
 import org.alter.cockpit.workorders.PickpocketGenerator
@@ -143,7 +145,8 @@ class Cockpit private constructor(
                 listOf(DialogueGenerator(), ShopGenerator(), PickpocketGenerator(), DoorGenerator(), TransportGenerator(), RecipeGenerator(), SkeletonGenerator()),
                 ScaffoldContext(RscmNames(paths.dataDir.resolve("cfg/rscm"))) { pkg -> Files.isDirectory(paths.root.resolve(Kt.packagePath(pkg))) },
             )
-            val workOrders = WorkOrders(inbox, scaffolds, ScaffoldWorkspace(paths.root, paths.cockpitDir.resolve("worktrees"), config.workorders.baseRef))
+            val gate = if (config.workorders.compileGate) GradleCompileGate(config.workorders.compileTask, Duration.ofSeconds(config.workorders.compileTimeoutSeconds)) else NoopCompileGate
+            val workOrders = WorkOrders(inbox, scaffolds, ScaffoldWorkspace(paths.root, paths.cockpitDir.resolve("worktrees"), config.workorders.baseRef), gate, scope)
             val server = CockpitServer(config, tokens, audit, inbox, bus, supervisor, logTail, paths.missingContent, workOrders)
             return Cockpit(db, scope, bus, inbox, supervisor, logTail, missingSource, server, wikiHttp)
         }
