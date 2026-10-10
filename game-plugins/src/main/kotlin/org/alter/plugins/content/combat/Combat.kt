@@ -16,6 +16,7 @@ import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
 import org.alter.game.model.timer.ACTIVE_COMBAT_TIMER
 import org.alter.game.model.timer.ATTACK_DELAY
+import org.alter.plugins.content.combat.autocast.Autocast
 import org.alter.plugins.content.combat.strategy.CombatStrategy
 import org.alter.plugins.content.combat.strategy.MagicCombatStrategy
 import org.alter.plugins.content.combat.strategy.MeleeCombatStrategy
@@ -68,7 +69,10 @@ object Combat {
         if (pawn is Player) pawn.attr[LAST_ATTACK_CYCLE] = pawn.world.currentCycle
         target.attr[LAST_HIT_BY_ATTR] = WeakReference(pawn)
 
-        if (pawn.attr.has(CASTING_SPELL) && pawn is Player && pawn.getVarbit(SELECTED_AUTOCAST_VARBIT) == 0) {
+        // The PvP swap lock: equipping a staff soon after attacking a player in a PvP area clears autocast.
+        if (pawn is Player && target is Player && inPvpArea(pawn)) Autocast.startPvpSwapLock(pawn)
+
+        if (pawn.attr.has(CASTING_SPELL) && pawn is Player && Autocast.selected(pawn) == 0) {
             reset(pawn)
             pawn.attr.remove(CASTING_SPELL)
         }

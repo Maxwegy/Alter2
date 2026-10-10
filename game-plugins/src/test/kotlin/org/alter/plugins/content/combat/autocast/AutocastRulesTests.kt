@@ -61,4 +61,10 @@ class AutocastRulesTests {
         assertEquals(emptyMap(), AutocastRules.decode(null, ancientStaff))
         assertEquals("", AutocastRules.encode(emptyMap(), ancientStaff))
     }
+
+    @Test
+    fun `the memory is saved and survives death`() {
+        assertEquals("autocast_memory", Autocast.MEMORY_ATTR.persistenceKey)
+        assertTrue(!Autocast.MEMORY_ATTR.resetOnDeath)
+    }
 }
