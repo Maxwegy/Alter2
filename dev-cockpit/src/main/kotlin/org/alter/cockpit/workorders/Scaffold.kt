@@ -10,6 +10,8 @@ data class ScaffoldFile(
     val applyable: Boolean = true,
     /** `json-append` into a JSON object file: the top-level key of the array to append to; null for a top-level array. */
     val arrayKey: String? = null,
+    /** The Gradle task the apply gate runs when this file is written (e.g. a data test), instead of compiling. */
+    val verifyTask: String? = null,
 ) {
     companion object {
         const val CREATE = "create"

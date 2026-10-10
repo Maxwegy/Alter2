@@ -15,7 +15,8 @@ import kotlin.concurrent.thread
 interface CompileGate {
     val task: String
 
-    fun compile(worktree: Path): CompileResult
+    /** Runs [task] in [worktree]; a scaffold may ask for its own task (e.g. a data test) instead of the default. */
+    fun compile(worktree: Path, task: String = this.task): CompileResult
 }
 
 data class CompileResult(val passed: Boolean, val errors: List<String>, val durationMs: Long, val task: String) {
@@ -31,7 +32,7 @@ class CompileFailed(val result: CompileResult) : RuntimeException("${result.task
 object NoopCompileGate : CompileGate {
     override val task = "disabled"
 
-    override fun compile(worktree: Path) = CompileResult.skipped("compile gate disabled")
+    override fun compile(worktree: Path, task: String) = CompileResult.skipped("compile gate disabled")
 }
 
 /**
@@ -45,7 +46,7 @@ class GradleCompileGate(
 ) : CompileGate {
     private val logger = KotlinLogging.logger {}
 
-    override fun compile(worktree: Path): CompileResult {
+    override fun compile(worktree: Path, task: String): CompileResult {
         val start = System.nanoTime()
         fun elapsed() = (System.nanoTime() - start) / 1_000_000
         val windows = System.getProperty("os.name").lowercase().contains("win")
@@ -78,9 +79,11 @@ class GradleCompileGate(
         /**
          * The wrapper by absolute path: with `NoDefaultCurrentDirectoryInExePath` set (Git for Windows and other
          * hardened shells set it), `cmd /c gradlew.bat` will not run a program from the working directory.
+         * [task] may carry arguments (`:game-plugins:test --tests *ConsumablesDataTests`), so it is split on whitespace.
          */
         internal fun command(wrapper: Path, windows: Boolean, task: String): List<String> =
-            (if (windows) listOf("cmd", "/c", wrapper.toString()) else listOf(wrapper.toString())) + listOf("--console=plain", "-q", task)
+            (if (windows) listOf("cmd", "/c", wrapper.toString()) else listOf(wrapper.toString())) + listOf("--console=plain", "-q") +
+                task.trim().split(Regex("""\s+"""))
     }
 }
 

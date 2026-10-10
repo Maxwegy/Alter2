@@ -44,9 +44,11 @@ class CompileGateTests {
     private class FakeGate(private val result: CompileResult) : CompileGate {
         override val task = result.task
         val compiled = mutableListOf<Path>()
+        val tasks = mutableListOf<String>()
 
-        override fun compile(worktree: Path): CompileResult {
+        override fun compile(worktree: Path, task: String): CompileResult {
             compiled.add(worktree) // Path is Iterable<Path>, so += would add its elements
+            tasks += task
             return result
         }
     }
@@ -76,6 +78,19 @@ class CompileGateTests {
         assertTrue(applied.compile.passed)
         assertEquals(50, applied.compile.durationMs)
         assertEquals(1, gate.compiled.size)
+        assertEquals(listOf(":game-plugins:compileKotlin"), gate.tasks)
+    }
+
+    @Test
+    fun `a file with a verify task runs that task instead of the compile`() {
+        val gate = FakeGate(CompileResult(true, emptyList(), 70, ":game-plugins:compileKotlin"))
+        val verified = Scaffold(
+            "consumable", "Anchovies", "cockpit/consumable-anchovies-319",
+            listOf(ScaffoldFile("data/cfg/list.json", "{\"b\": 2}", ScaffoldFile.JSON_APPEND, verifyTask = ":game-plugins:test --tests *ConsumablesDataTests")),
+        )
+        workspace.apply("card-4", verified, "Add anchovies", gate)
+        assertEquals(listOf(":game-plugins:test --tests *ConsumablesDataTests"), gate.tasks)
+        assertEquals("Add anchovies", git("log", "--format=%s", "cockpit/consumable-anchovies-319").lines().first())
     }
 
     @Test
@@ -93,6 +108,8 @@ class CompileGateTests {
         val wrapper = repo.resolve("gradlew.bat").toAbsolutePath()
         assertEquals(listOf("cmd", "/c", wrapper.toString(), "--console=plain", "-q", ":game-plugins:compileKotlin"), GradleCompileGate.command(wrapper, windows = true, task = ":game-plugins:compileKotlin"))
         assertTrue(Path.of(GradleCompileGate.command(repo.resolve("gradlew"), windows = false, task = "x").first()).isAbsolute)
+        // A task with arguments becomes separate arguments.
+        assertEquals(listOf("cmd", "/c", wrapper.toString(), "--console=plain", "-q", "a", "b"), GradleCompileGate.command(wrapper, true, "a b"))
     }
 
     @Test

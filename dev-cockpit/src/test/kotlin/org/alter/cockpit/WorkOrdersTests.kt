@@ -51,7 +51,7 @@ class WorkOrdersTests {
         override val task = result.task
         var calls = 0
 
-        override fun compile(worktree: Path): CompileResult {
+        override fun compile(worktree: Path, task: String): CompileResult {
             calls++
             return result
         }

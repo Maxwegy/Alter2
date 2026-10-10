@@ -36,15 +36,21 @@ class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef:
 
     /**
      * Stage, compile, commit. A failing [gate] throws [CompileFailed] and leaves the files staged in the
-     * worktree, so the developer can look at them; nothing is committed. JSON-only scaffolds skip the gate:
-     * the server validates those files at boot, the compiler never sees them.
+     * worktree, so the developer can look at them; nothing is committed. A written file that names a
+     * [ScaffoldFile.verifyTask] (consumables.json → its data test) runs that task instead of the compile; other
+     * JSON-only scaffolds skip the gate: the server validates those files at boot, the compiler never sees them.
      */
     fun apply(cardId: String, scaffold: Scaffold, message: String, gate: CompileGate = NoopCompileGate): Applied {
         val preview = preview(cardId, scaffold)
         if (preview.files.none { it.applied }) throw IllegalStateException("Nothing to apply: every file still needs values")
         val dir = Path.of(preview.worktree)
         if (git(dir, "diff", "--cached", "--name-only").isBlank()) throw IllegalStateException("Nothing to commit: the files already match")
-        val compile = if (preview.files.any { it.applied && it.path.endsWith(".kt") }) gate.compile(dir) else CompileResult.skipped("no Kotlin files")
+        val verifyTask = scaffold.files.firstNotNullOfOrNull { file -> file.verifyTask?.takeIf { file.applyable } }
+        val compile = when {
+            verifyTask != null -> gate.compile(dir, verifyTask)
+            preview.files.any { it.applied && it.path.endsWith(".kt") } -> gate.compile(dir)
+            else -> CompileResult.skipped("no Kotlin files")
+        }
         if (!compile.passed) throw CompileFailed(compile)
         git(dir, "commit", "-q", "-m", message)
         val commit = git(dir, "rev-parse", "--short", "HEAD").trim()
