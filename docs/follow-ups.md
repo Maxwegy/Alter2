@@ -14,7 +14,7 @@ Known problems that were out of scope for the change that found them. Each is a 
 
 ## Interactions
 - `IfButtonTHandler:77-82` has an inverted condition: it prints "Unhandled" when the catch-all did handle the item.
-- Inventory op numbering vs `onItemOption` index+1: string-bound options such as EatingPlugin's might never fire. Verify with the packet log.
+- Inventory op numbering vs `onItemOption` index+1: `InventoryPlugin` passes the client's op straight to `executeItem`, and `onItemOption(String)` binds the option's index + 1, so the first option ("Eat"/"Drink") is op 1; the consumables plugin binds 55 items this way without a skip. Still not exercised with a client.
 - `resetInteractions` (`Pawn.kt:497`) doesn't clear `INTERACTING_ITEM`/`OBJ` attributes, so stale targets leak.
 - `OpNpcTHandler` trusts the client's `selectedObj` without validating it against the inventory, uses the raw npc id and does `println` debug output.
 - NPC op 2 always attacks (`OpNpcHandler:20`), so the unhandled-interaction hook never sees it.

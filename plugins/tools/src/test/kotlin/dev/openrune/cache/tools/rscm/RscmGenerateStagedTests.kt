@@ -41,8 +41,12 @@ class RscmGenerateStagedTests {
                 if (name in overrides) continue // renamed aliases: content changes in the bump PR
                 val id = g.resolve(table, name)
                 assertNotNull("${table.rscm}.$name does not resolve", id)
-                val before = g.oldDisplay.getValue(table)[g.migrations.getValue(table).entries.first { it.oldName == name }.oldId]
-                assertEquals("${table.rscm}.$name ($id) changed meaning", before, g.newDisplay.getValue(table)[id!!])
+                // A name that was never in the 228 table (e.g. halibut, added in 229) only has to resolve.
+                val entry = g.migrations.getValue(table).entries.firstOrNull { it.oldName == name }
+                val before = entry?.let { g.oldDisplay.getValue(table)[it.oldId] }
+                if (before != null) {
+                    assertEquals("${table.rscm}.$name ($id) changed meaning", before, g.newDisplay.getValue(table)[id!!])
+                }
                 checked++
             }
         }
