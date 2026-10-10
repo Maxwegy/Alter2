@@ -90,6 +90,9 @@ sealed interface Effect {
     /** Cures poison when [cure] and grants poison immunity for [immunityTicks]. */
     data class Antipoison(val cure: Boolean, val immunityTicks: Int) : Effect
 
+    /** Cures venom when [cure] and grants venom immunity for [immunityTicks] (JSON key `antivenom`). */
+    data class Antivenom(val cure: Boolean, val immunityTicks: Int) : Effect
+
     /** Dragonfire protection for [ticks]: PARTIAL is the antifire potion (full only with a shield), FULL the super antifire. */
     data class Antifire(val tier: AntifireTier, val ticks: Int) : Effect
 }
@@ -227,12 +230,17 @@ object Consumables {
                 require(ticks >= 0) { "$item: antipoison.immunityTicks must not be negative" }
                 Effect.Antipoison(it["cure"]?.asBoolean() ?: true, ticks)
             }
+            node.has("antivenom") -> node["antivenom"].let {
+                val ticks = it["immunityTicks"]?.asInt() ?: 0
+                require(ticks >= 0) { "$item: antivenom.immunityTicks must not be negative" }
+                Effect.Antivenom(it["cure"]?.asBoolean() ?: true, ticks)
+            }
             node.has("antifire") -> node["antifire"].let {
                 val ticks = it["ticks"]?.asInt() ?: throw IllegalArgumentException("$item: antifire needs ticks")
                 require(ticks > 0) { "$item: antifire.ticks must be positive" }
                 Effect.Antifire(AntifireTier.of(it["tier"]?.asText() ?: throw IllegalArgumentException("$item: antifire needs tier")), ticks)
             }
-            else -> throw IllegalArgumentException("$item: effect needs boost, drain, restore, runEnergy, antipoison or antifire")
+            else -> throw IllegalArgumentException("$item: effect needs boost, drain, restore, runEnergy, antipoison, antivenom or antifire")
         }
     }
 }

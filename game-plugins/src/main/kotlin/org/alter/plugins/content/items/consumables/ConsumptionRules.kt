@@ -43,6 +43,10 @@ data class ConsumptionPlan(
     val curePoison: Boolean = false,
     /** Ticks of poison immunity to grant; null when none. */
     val poisonImmunityTicks: Int? = null,
+    /** Cure venom outright; without it a poison cure turns venom into poison (wiki Venom page). */
+    val cureVenom: Boolean = false,
+    /** Ticks of venom immunity to grant; null when none. */
+    val venomImmunityTicks: Int? = null,
     /** Dragonfire protection to set, with its duration in ticks; null when none. */
     val antifire: Pair<AntifireTier, Int>? = null,
 ) {
@@ -78,6 +82,8 @@ object ConsumptionRules {
         var staminaTicks: Int? = null
         var curePoison = false
         var poisonImmunity: Int? = null
+        var cureVenom = false
+        var venomImmunity: Int? = null
         var antifire: Pair<AntifireTier, Int>? = null
         for (effect in consumable.effects) {
             when (effect) {
@@ -89,6 +95,10 @@ object ConsumptionRules {
                 is Effect.Antipoison -> {
                     if (effect.cure) curePoison = true
                     if (effect.immunityTicks > 0) poisonImmunity = maxOf(poisonImmunity ?: 0, effect.immunityTicks)
+                }
+                is Effect.Antivenom -> {
+                    if (effect.cure) cureVenom = true
+                    if (effect.immunityTicks > 0) venomImmunity = maxOf(venomImmunity ?: 0, effect.immunityTicks)
                 }
                 is Effect.Antifire -> antifire = effect.tier to effect.ticks
                 is Effect.Boost -> effect.skills.forEach { skill ->
@@ -122,7 +132,8 @@ object ConsumptionRules {
             ConsumptionPlan(
                 kind, consumable.delayTicks, attackDelayAdd, levels, healAmount,
                 runEnergy = runEnergy?.takeIf { it != state.runEnergy }, staminaTicks = staminaTicks,
-                curePoison = curePoison, poisonImmunityTicks = poisonImmunity, antifire = antifire,
+                curePoison = curePoison, poisonImmunityTicks = poisonImmunity, cureVenom = cureVenom, venomImmunityTicks = venomImmunity,
+                antifire = antifire,
             ),
         )
     }

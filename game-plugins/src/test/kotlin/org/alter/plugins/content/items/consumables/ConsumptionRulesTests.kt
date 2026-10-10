@@ -166,6 +166,25 @@ class ConsumptionRulesTests {
     }
 
     @Test
+    fun `anti-venom cures poison and venom and grants both immunities, an antipoison only poison`() {
+        val antivenom = apply("item.antivenom4", state())
+        assertTrue(antivenom.curePoison && antivenom.cureVenom)
+        assertEquals(1200, antivenom.poisonImmunityTicks)
+        assertEquals(60, antivenom.venomImmunityTicks)
+        val plus = apply("item.antivenom+1", state(attackDelay = 3))
+        assertEquals(1500, plus.poisonImmunityTicks)
+        assertEquals(360, plus.venomImmunityTicks)
+        assertEquals(0, plus.attackDelayAdd)
+        assertEquals(Decision.Blocked(Kind.POTION), ConsumptionRules.decide(c("item.antivenom+1"), state(potion = 1)))
+        val antipoison = apply("item.antipoison4", state())
+        assertTrue(antipoison.curePoison && !antipoison.cureVenom)
+        assertNull(antipoison.venomImmunityTicks)
+        val shark = apply("item.shark", state())
+        assertTrue(!shark.curePoison && !shark.cureVenom)
+        assertNull(shark.venomImmunityTicks)
+    }
+
+    @Test
     fun `antifire tiers map to partial or full protection with their durations`() {
         assertEquals(AntifireTier.PARTIAL to 600, apply("item.antifire_potion4", state()).antifire)
         assertEquals(AntifireTier.PARTIAL to 1200, apply("item.extended_antifire4", state()).antifire)
