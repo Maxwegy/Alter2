@@ -4,6 +4,7 @@ import org.alter.cockpit.workorders.CompileFailed
 import org.alter.cockpit.workorders.CompileGate
 import org.alter.cockpit.workorders.CompileOutput
 import org.alter.cockpit.workorders.CompileResult
+import org.alter.cockpit.workorders.GradleCompileGate
 import org.alter.cockpit.workorders.Scaffold
 import org.alter.cockpit.workorders.ScaffoldFile
 import org.alter.cockpit.workorders.ScaffoldWorkspace
@@ -85,6 +86,13 @@ class CompileGateTests {
         assertTrue(applied.compile.passed)
         assertTrue(applied.compile.task.startsWith("skipped"))
         assertEquals("Add a door", git("log", "--format=%s", "cockpit/door-1").lines().first())
+    }
+
+    @Test
+    fun `the wrapper is called by absolute path so a hardened shell still finds it`() {
+        val wrapper = repo.resolve("gradlew.bat").toAbsolutePath()
+        assertEquals(listOf("cmd", "/c", wrapper.toString(), "--console=plain", "-q", ":game-plugins:compileKotlin"), GradleCompileGate.command(wrapper, windows = true, task = ":game-plugins:compileKotlin"))
+        assertTrue(Path.of(GradleCompileGate.command(repo.resolve("gradlew"), windows = false, task = "x").first()).isAbsolute)
     }
 
     @Test

@@ -49,9 +49,9 @@ class GradleCompileGate(
         val start = System.nanoTime()
         fun elapsed() = (System.nanoTime() - start) / 1_000_000
         val windows = System.getProperty("os.name").lowercase().contains("win")
-        val wrapper = if (windows) "gradlew.bat" else "gradlew"
-        if (!Files.exists(worktree.resolve(wrapper))) return CompileResult(false, listOf("No $wrapper in $worktree"), elapsed(), task)
-        val command = (if (windows) listOf("cmd", "/c", wrapper) else listOf("./$wrapper")) + listOf("--console=plain", "-q", task)
+        val wrapper = worktree.toAbsolutePath().normalize().resolve(if (windows) "gradlew.bat" else "gradlew")
+        if (!Files.exists(wrapper)) return CompileResult(false, listOf("No ${wrapper.fileName} in $worktree"), elapsed(), task)
+        val command = command(wrapper, windows, task)
         logger.info { "Compile gate: ${command.joinToString(" ")} in $worktree" }
         val process = ProcessBuilder(command).directory(worktree.toFile()).redirectErrorStream(true).start()
         val output = StringBuilder()
@@ -74,6 +74,13 @@ class GradleCompileGate(
 
     companion object {
         const val DEFAULT_TASK = ":game-plugins:compileKotlin"
+
+        /**
+         * The wrapper by absolute path: with `NoDefaultCurrentDirectoryInExePath` set (Git for Windows and other
+         * hardened shells set it), `cmd /c gradlew.bat` will not run a program from the working directory.
+         */
+        internal fun command(wrapper: Path, windows: Boolean, task: String): List<String> =
+            (if (windows) listOf("cmd", "/c", wrapper.toString()) else listOf(wrapper.toString())) + listOf("--console=plain", "-q", task)
     }
 }
 
