@@ -74,6 +74,15 @@ Known problems that were out of scope for the change that found them. Each is a 
 - `::reloadresources` updates numbers for objects already bound; objects added to the file need a restart.
 - Not verified with a 241 client: login and the option index, the visible replace and restore, the axe and pickaxe animations (the dragon pickaxe's 7139 vs 7138), and every `verify: true` object/depleted pairing (only the cache's options and sizes were checked).
 
+## NPC overrides (Phase 5 PR 1)
+- Overrides carry only levels, attack speed, respawn and aggression. Animation and sound fields would let the 8 hand-written defs (`npc.cow`, the Barrows brothers, `npc.king_black_dragon`) move to data.
+- No `::npcoverride` live editor with an outbox; overrides are edited as files and applied with `::reloadnpcs`.
+- `applyToLive` calls `world.setNpcDefaults`, which full-heals the NPC and resets its levels, also mid-fight.
+- An override for an NPC with neither a wiki nor a hand-written def is ignored (no def is created).
+- `RSCM.asRSCM` (the id-to-name reverse lookup) is O(n) per call.
+- Not verified with a 241 client: a temporary `npc.cow` override (`hitpoints: 20`) seen in game after `::reloadnpcs`; the unit tests cover the overlay.
+- `::npc` (ADMIN_POWER) still exists; retiring it in favour of the Phase 5 spawn tools is open.
+
 ## Commands and privileges
 - `::qutest`, `::gc`, `::heap` and `::randbank` have no privilege check.
 

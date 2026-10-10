@@ -17,6 +17,7 @@ import org.alter.game.service.GameService
 import org.alter.game.service.Service
 import org.alter.plugins.content.infrastructure.DataReload
 import org.alter.plugins.content.infrastructure.GameDataService
+import org.alter.plugins.content.infrastructure.npcs.NpcDataService
 import java.nio.file.Files
 import java.nio.file.Path
 import java.time.Instant
@@ -34,6 +35,7 @@ class AdminControlService(
     private val config: InfraConfig.Admin,
     private val runFile: Path,
     private val snapshotDir: Path,
+    private val npcData: NpcDataService,
     val events: EventBroadcaster,
 ) : Service {
     private val logger = KotlinLogging.logger {}
@@ -115,11 +117,22 @@ class AdminControlService(
         return AdminResponse(202, mapOf("action" to if (restart) "restart" else "shutdown", "ticks" to ticks))
     }
 
-    /** `POST /wiki/reload`: re-read the committed snapshot from disk (no network) and swap it in. */
+    /**
+     * `POST /wiki/reload`: re-read the committed snapshot and the NPC override files from disk (no network, not on
+     * the game thread) and swap them in; live NPCs whose def changed get it at once.
+     */
     private fun reloadWiki(request: AdminRequest): AdminResponse {
         val loaded = SnapshotRepository.load(snapshotDir) as? SnapshotRepository.LoadResult.Loaded
             ?: return AdminResponse(409, mapOf("error" to "no loadable snapshot in $snapshotDir"))
-        val result = onGameThread(10_000) { DataReload.apply(world, loaded.repository) }
-        return AdminResponse.ok(mapOf("npcDefs" to result.npcDefs, "snapshot" to loaded.repository.counts()))
+        val npcOverrides = npcData.loadOverrides()
+        val result = onGameThread(10_000) { DataReload.apply(world, loaded.repository, npcOverrides) }
+        return AdminResponse.ok(
+            mapOf(
+                "npcDefs" to result.npcDefs,
+                "npcDefsChanged" to result.npcDefsChanged,
+                "liveNpcsUpdated" to result.liveNpcs,
+                "snapshot" to loaded.repository.counts(),
+            ),
+        )
     }
 }

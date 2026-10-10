@@ -20,12 +20,14 @@ import org.alter.game.model.priv.Privilege
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.game.service.GameService
+import org.alter.plugins.content.infrastructure.npcs.NpcDataService
 import java.util.concurrent.atomic.AtomicBoolean
 
 /**
  * `::wikisync [--offline|--refresh]` (dev only): runs the same sync as `./gradlew :alter-data:wikiSync` on the
- * IO scope, then swaps the new snapshot in on the game thread. The tick never waits on the network.
- * Live NPCs pick up new stats when they respawn; drops and item stats apply immediately.
+ * IO scope, then swaps the new snapshot (and the NPC override files, also read there) in on the game thread. The
+ * tick never waits on the network or the disk. Live NPCs whose def changed get it at once (at full hitpoints);
+ * drops and item stats apply immediately.
  */
 class WikiCommandsPlugin(
     r: PluginRepository,
@@ -45,6 +47,7 @@ class WikiCommandsPlugin(
     private fun startSync(player: Player, options: WikiSync.Options) {
         val infra = world.getService(InfrastructureService::class.java) ?: return player.message("Data infrastructure is not running.")
         val gameService = world.getService(GameService::class.java) ?: return player.message("No game service.")
+        val npcData = world.getService(NpcDataService::class.java)
         if (!running.compareAndSet(false, true)) return player.message("A wiki sync is already running.")
         player.message("Wiki sync started${if (options.offline) " (offline)" else ""}; you'll be told when it's done.")
 
@@ -61,7 +64,8 @@ class WikiCommandsPlugin(
                         is WikiSync.Result.Rejected -> "Wiki sync rejected: ${result.reason}" to null
                         is WikiSync.Result.Written -> {
                             val loaded = SnapshotRepository.load(paths.wikiSnapshot) as? SnapshotRepository.LoadResult.Loaded
-                            "Wiki sync done: ${result.result.written.size} files changed, ${result.result.removed.size} removed." to loaded?.repository
+                            "Wiki sync done: ${result.result.written.size} files changed, ${result.result.removed.size} removed." to
+                                loaded?.repository?.let { it to npcData?.loadOverrides() }
                         }
                     }
                 } finally {
@@ -73,10 +77,12 @@ class WikiCommandsPlugin(
 
             gameService.submitGameThreadJob {
                 running.set(false)
-                val (message, repository) = outcome
-                if (repository != null) {
-                    val reloaded = DataReload.apply(world, repository)
-                    player.message("$message Reloaded ${reloaded.npcDefs} NPC defs; drops and item stats are live, NPC stats apply on respawn.")
+                val (message, reload) = outcome
+                if (reload != null) {
+                    val reloaded = DataReload.apply(world, reload.first, reload.second)
+                    player.message(
+                        "$message Reloaded ${reloaded.npcDefs} NPC defs (${reloaded.npcDefsChanged} changed, ${reloaded.liveNpcs} live NPCs updated); drops and item stats are live.",
+                    )
                 } else {
                     player.message(message)
                 }

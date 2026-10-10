@@ -16,4 +16,12 @@ respawnTicks: 12
 aggressive: false
 ```
 
-NPCs given a definition with `setCombatDef` in a plugin's `init {}` are left alone entirely.
+Overrides also apply to NPCs given a definition with `setCombatDef` in a plugin's `init {}` (for example
+`npc.cow`, the Barrows brothers, `npc.king_black_dragon`): only the fields the file sets change, and the plugin's
+animations, sounds, bonuses, species and immunities are kept. `::wikinpc` then reports
+`hand-written plugin + override (<fields>)`.
+
+Files are read in name order; when two files name the same NPC, the later file wins. A file that does not parse
+or names an unknown NPC is skipped and logged. `::reloadnpcs` (or `::wikisync`, `POST /wiki/reload`) re-reads
+this folder and applies the result to live NPCs whose definition changed (at full hitpoints); deleting a file and
+reloading restores the plugin's or the wiki's values. Tests never write here; they use temporary folders.
