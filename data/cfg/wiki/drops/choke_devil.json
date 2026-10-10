@@ -8,33 +8,33 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 19679, "name" : "item.dark_totem_base", "min" : 1, "max" : 1 },
-        { "item" : 19681, "name" : "item.dark_totem_middle", "min" : 1, "max" : 1 },
-        { "item" : 19683, "name" : "item.dark_totem_top", "min" : 1, "max" : 1 },
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1 }
+        { "item" : 19679, "name" : "item.cata_totem1", "min" : 1, "max" : 1 },
+        { "item" : 19681, "name" : "item.cata_totem2", "min" : 1, "max" : 1 },
+        { "item" : 19683, "name" : "item.cata_totem3", "min" : 1, "max" : 1 },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "1/64" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 853 ], "rolls" : 3, "wiki" : "1/85.3" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 569 ], "rolls" : 3, "wiki" : "1/113.8" },
-        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 1463 ], "rolls" : 3, "wiki" : "1/146.3" },
-        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 931 ], "rolls" : 3, "wiki" : "1/186.2" },
-        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "rolls" : 3, "wiki" : "1/256" },
-        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 3413 ], "rolls" : 3, "wiki" : "1/341.3" },
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 2048 ], "rolls" : 3, "wiki" : "1/409.6" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 6827 ], "rolls" : 3, "wiki" : "1/682.7" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 50, "max" : 50, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 300, "max" : 300, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 300, "max" : 300, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 80, "max" : 80, "chance" : [ 7, 128 ], "rolls" : 3, "wiki" : "7/128" },
-        { "item" : 566, "name" : "item.soul_rune", "min" : 20, "max" : 20, "chance" : [ 1, 32 ], "rolls" : 3, "wiki" : "4/128" },
-        { "item" : 566, "name" : "item.soul_rune", "min" : 50, "max" : 50, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "1/64" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 10, 853 ], "rolls" : 3, "wiki" : "1/85.3" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 569 ], "rolls" : 3, "wiki" : "1/113.8" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 1463 ], "rolls" : 3, "wiki" : "1/146.3" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 5, 931 ], "rolls" : 3, "wiki" : "1/186.2" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "rolls" : 3, "wiki" : "1/256" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 3413 ], "rolls" : 3, "wiki" : "1/341.3" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 2048 ], "rolls" : 3, "wiki" : "1/409.6" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 6827 ], "rolls" : 3, "wiki" : "1/682.7" },
+        { "item" : 554, "name" : "item.firerune", "min" : 50, "max" : 50, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 300, "max" : 300, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 300, "max" : 300, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 80, "max" : 80, "chance" : [ 7, 128 ], "rolls" : 3, "wiki" : "7/128" },
+        { "item" : 566, "name" : "item.soulrune", "min" : 20, "max" : 20, "chance" : [ 1, 32 ], "rolls" : 3, "wiki" : "4/128" },
+        { "item" : 566, "name" : "item.soulrune", "min" : 50, "max" : 50, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
         { "item" : 892, "name" : "item.rune_arrow", "min" : 12, "max" : 12, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 2000, "max" : 4000, "chance" : [ 1, 4 ], "rolls" : 3, "wiki" : "32/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
+        { "item" : 995, "name" : "item.coins", "min" : 2000, "max" : 4000, "chance" : [ 1, 4 ], "rolls" : 3, "wiki" : "32/128" },
         { "item" : 1213, "name" : "item.rune_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
         { "item" : 1215, "name" : "item.dragon_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "rolls" : 3, "wiki" : "1/32,768" },
@@ -49,23 +49,23 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "rolls" : 3, "wiki" : "1/256" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "1/64" },
-        { "item" : 1885, "name" : "item.ugthanki_kebab_1885", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
-        { "item" : 2360, "name" : "item.mithril_bar_noted", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
-        { "item" : 2362, "name" : "item.adamantite_bar_noted", "min" : 4, "max" : 4, "noted" : true, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "rolls" : 3, "wiki" : "1/65,536" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 6827 ], "rolls" : 3, "wiki" : "1/682.7" },
-        { "item" : 2489, "name" : "item.red_dhide_vambraces", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
-        { "item" : 2491, "name" : "item.black_dhide_vambraces", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
-        { "item" : 3140, "name" : "item.dragon_chainbody_3140", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "rolls" : 3, "wiki" : "1/32,768" },
-        { "item" : 4696, "name" : "item.dust_rune", "min" : 200, "max" : 200, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
+        { "item" : 1885, "name" : "item.ugthanki_kebab", "min" : 4, "max" : 4, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 2360, "name" : "item.cert_mithril_bar", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 2362, "name" : "item.cert_adamantite_bar", "min" : 4, "max" : 4, "noted" : true, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "rolls" : 3, "wiki" : "1/65,536" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 6827 ], "rolls" : 3, "wiki" : "1/682.7" },
+        { "item" : 2489, "name" : "item.red_dragon_vambraces", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 2491, "name" : "item.black_dragon_vambraces", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 3140, "name" : "item.dragon_chainbody", "min" : 1, "max" : 1, "chance" : [ 1, 32768 ], "rolls" : 3, "wiki" : "1/32,768" },
+        { "item" : 4696, "name" : "item.dustrune", "min" : 200, "max" : 200, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
         { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 680 ], "wiki" : "1/680" },
         { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 194 ], "wiki" : "1/194" },
         { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 194 ], "wiki" : "1/194" },
         { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 4000 ], "rolls" : 3, "wiki" : "1/4,000" },
-        { "item" : 21270, "name" : "item.eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 680 ], "wiki" : "1/680" }
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 680 ], "wiki" : "1/680" }
       ],
       "tertiary" : [
-        { "item" : 19677, "name" : "item.ancient_shard", "min" : 1, "max" : 1, "chance" : [ 1, 133 ], "wiki" : "1/133" }
+        { "item" : 19677, "name" : "item.cata_shard", "min" : 1, "max" : 1, "chance" : [ 1, 133 ], "wiki" : "1/133" }
       ]
     },
     {
@@ -74,10 +74,10 @@
         7404
       ],
       "always" : [
-        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1 }
+        { "item" : 23490, "name" : "item.slayer_wilderness_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
+        { "item" : 21257, "name" : "item.slayer_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
       ]
     }
   ]

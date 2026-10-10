@@ -8,7 +8,7 @@
         7245
       ],
       "names" : [
-        "npc.greater_demon_7245"
+        "npc.kourend_greater_demon2"
       ],
       "combatLevel" : 100,
       "hitpoints" : 115,
@@ -39,7 +39,7 @@
         7244
       ],
       "names" : [
-        "npc.greater_demon_7244"
+        "npc.kourend_greater_demon1"
       ],
       "combatLevel" : 101,
       "hitpoints" : 120,
@@ -72,9 +72,9 @@
         7873
       ],
       "names" : [
-        "npc.greater_demon_7871",
-        "npc.greater_demon_7872",
-        "npc.greater_demon_7873"
+        "npc.wild_cave_greater_demon",
+        "npc.wild_cave_greater_demon2",
+        "npc.wild_cave_greater_demon3"
       ],
       "combatLevel" : 104,
       "hitpoints" : 120,
@@ -105,7 +105,7 @@
         7246
       ],
       "names" : [
-        "npc.greater_demon_7246"
+        "npc.kourend_greater_demon3"
       ],
       "combatLevel" : 113,
       "hitpoints" : 130,
@@ -144,13 +144,13 @@
       ],
       "names" : [
         "npc.greater_demon",
-        "npc.greater_demon_2026",
-        "npc.greater_demon_2027",
-        "npc.greater_demon_2028",
-        "npc.greater_demon_2029",
-        "npc.greater_demon_2030",
-        "npc.greater_demon_2031",
-        "npc.greater_demon_2032"
+        "npc.greater_demon2",
+        "npc.greater_demon3",
+        "npc.greater_demon4",
+        "npc.greater_demon5",
+        "npc.greater_demon_strongholdcave_1",
+        "npc.greater_demon_strongholdcave_2",
+        "npc.greater_demon_strongholdcave_3"
       ],
       "combatLevel" : 92,
       "hitpoints" : 87,

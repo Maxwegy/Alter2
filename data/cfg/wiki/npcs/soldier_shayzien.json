@@ -14,14 +14,14 @@
         11086
       ],
       "names" : [
-        "npc.soldier_11072",
-        "npc.soldier_11074",
-        "npc.soldier_11076",
-        "npc.soldier_11078",
-        "npc.soldier_11080",
-        "npc.soldier_11082",
-        "npc.soldier_11084",
-        "npc.soldier_11086"
+        "npc.shayzien_soldier_m1",
+        "npc.shayzien_soldier_m2",
+        "npc.shayzien_soldier_m3",
+        "npc.shayzien_soldier_m4",
+        "npc.shayzien_soldier_f1",
+        "npc.shayzien_soldier_f2",
+        "npc.shayzien_soldier_f3",
+        "npc.shayzien_soldier_f4"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,

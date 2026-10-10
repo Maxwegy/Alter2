@@ -12,11 +12,11 @@
       ],
       "always" : [
         { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 },
-        { "item" : 10937, "name" : "item.nail_beast_nails", "min" : 2, "max" : 3 }
+        { "item" : 10937, "name" : "item.nail_beast_nail", "min" : 2, "max" : 3 }
       ],
       "tertiary" : [
-        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
       ]
     }
   ]

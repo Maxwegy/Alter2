@@ -8,7 +8,7 @@
         4764
       ],
       "names" : [
-        "npc.target_4764"
+        "npc.elid_ranging_target_done"
       ],
       "combatLevel" : 1,
       "hitpoints" : 1,
@@ -33,7 +33,7 @@
         4763
       ],
       "names" : [
-        "npc.target"
+        "npc.elid_ranging_target"
       ],
       "combatLevel" : 1,
       "hitpoints" : 1,

@@ -16,8 +16,8 @@
         { "item" : 886, "name" : "item.steel_arrow", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "2/50" },
         { "item" : 888, "name" : "item.mithril_arrow", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "2/50" },
         { "item" : 888, "name" : "item.mithril_arrow", "min" : 20, "max" : 20, "chance" : [ 1, 50 ], "wiki" : "1/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 100, "max" : 100, "chance" : [ 4, 5 ], "wiki" : "40/50" },
-        { "item" : 1778, "name" : "item.bow_string_noted", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "2/50" }
+        { "item" : 995, "name" : "item.coins", "min" : 100, "max" : 100, "chance" : [ 4, 5 ], "wiki" : "40/50" },
+        { "item" : 1778, "name" : "item.cert_bow_string", "min" : 10, "max" : 10, "noted" : true, "chance" : [ 1, 25 ], "wiki" : "2/50" }
       ]
     }
   ]

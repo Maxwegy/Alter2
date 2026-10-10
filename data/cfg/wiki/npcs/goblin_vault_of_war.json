@@ -8,7 +8,7 @@
         2486
       ],
       "names" : [
-        "npc.goblin_2486"
+        "npc.sos_war_goblin_green_soldier_1"
       ],
       "combatLevel" : 11,
       "hitpoints" : 7,
@@ -35,7 +35,7 @@
         2485
       ],
       "names" : [
-        "npc.goblin_2485"
+        "npc.sos_war_goblin_helmet"
       ],
       "combatLevel" : 13,
       "hitpoints" : 16,
@@ -63,8 +63,8 @@
         2489
       ],
       "names" : [
-        "npc.goblin_2487",
-        "npc.goblin_2489"
+        "npc.sos_war_goblin_armed2",
+        "npc.sos_war_goblin_green_soldier_2"
       ],
       "combatLevel" : 16,
       "hitpoints" : 22,
@@ -91,7 +91,7 @@
         2488
       ],
       "names" : [
-        "npc.goblin_2488"
+        "npc.sos_war_goblin_helmet2"
       ],
       "combatLevel" : 25,
       "hitpoints" : 26,
@@ -118,7 +118,7 @@
         2484
       ],
       "names" : [
-        "npc.goblin_2484"
+        "npc.sos_war_goblin_armed"
       ],
       "combatLevel" : 5,
       "hitpoints" : 5,

@@ -4,10 +4,12 @@
     {
       "source" : "Black dragon (Echo)",
       "ids" : [
-        14146
+        14146,
+        15610
       ],
       "names" : [
-        "npc.black_dragon_14146"
+        "npc.black_dragon_echokbd",
+        "npc.league_6_kbd"
       ],
       "combatLevel" : 227,
       "hitpoints" : 190,

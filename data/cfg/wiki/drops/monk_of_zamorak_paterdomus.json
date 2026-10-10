@@ -6,23 +6,27 @@
       "npcIds" : [
         3484,
         3485,
-        3486
+        3486,
+        16271,
+        16272,
+        16273
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 1033, "name" : "item.zamorak_monk_bottom", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
-        { "item" : 1035, "name" : "item.zamorak_monk_top", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
+        { "item" : 1033, "name" : "item.zamrobebottom", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" },
+        { "item" : 1035, "name" : "item.zamrobetop", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
       ]
     },
     {
       "source" : "Monk of Zamorak (Paterdomus)#Level 30",
       "npcIds" : [
-        3486
+        3486,
+        16273
       ],
       "always" : [
-        { "item" : 2944, "name" : "item.golden_key", "min" : 1, "max" : 1 }
+        { "item" : 2944, "name" : "item.pipkey_gold", "min" : 1, "max" : 1 }
       ]
     }
   ]

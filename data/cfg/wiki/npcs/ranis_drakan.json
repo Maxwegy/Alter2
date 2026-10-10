@@ -12,12 +12,12 @@
         8247
       ],
       "names" : [
-        "npc.ranis_drakan_8242",
-        "npc.ranis_drakan_8243",
-        "npc.ranis_drakan_8244",
-        "npc.ranis_drakan_8245",
-        "npc.ranis_drakan_8246",
-        "npc.ranis_drakan_8247"
+        "npc.myq4_ranis_vampyre",
+        "npc.myq4_ranis_vampyre_flying",
+        "npc.myq4_ranis_vampyre_combat",
+        "npc.myq4_ranis_vampyre_transition",
+        "npc.myq4_ranis_vampyre_flying_combat",
+        "npc.myq4_ranis_vampyre_flying_transition"
       ],
       "combatLevel" : 233,
       "hitpoints" : 400,
@@ -46,7 +46,7 @@
         8248
       ],
       "names" : [
-        "npc.ranis_drakan_8248"
+        "npc.myq4_ranis_vampyre_combat_enrage"
       ],
       "combatLevel" : 233,
       "hitpoints" : 400,

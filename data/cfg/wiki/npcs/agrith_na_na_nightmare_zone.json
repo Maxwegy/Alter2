@@ -8,7 +8,7 @@
         6308
       ],
       "names" : [
-        "npc.agrithnana_hard"
+        "npc.nzone_hundred_minion1_hard"
       ],
       "combatLevel" : 235,
       "hitpoints" : 255,
@@ -34,7 +34,7 @@
         6369
       ],
       "names" : [
-        "npc.agrithnana_6369"
+        "npc.nzone_hundred_minion1_normal"
       ],
       "combatLevel" : 146,
       "hitpoints" : 200,

@@ -8,7 +8,7 @@
         2316
       ],
       "names" : [
-        "npc.guard_2316"
+        "npc.dorgesh_guard1"
       ],
       "combatLevel" : 26,
       "hitpoints" : 26,
@@ -35,7 +35,7 @@
         2317
       ],
       "names" : [
-        "npc.guard_2317"
+        "npc.dorgesh_guard2"
       ],
       "combatLevel" : 24,
       "hitpoints" : 26,

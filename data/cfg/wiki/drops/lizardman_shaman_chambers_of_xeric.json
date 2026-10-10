@@ -9,13 +9,13 @@
       ],
       "always" : [
         { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 },
-        { "item" : 20903, "name" : "item.noxifer_seed", "min" : 5, "max" : 10 },
-        { "item" : 20906, "name" : "item.golpar_seed", "min" : 5, "max" : 10 },
-        { "item" : 20909, "name" : "item.buchu_seed", "min" : 5, "max" : 10 }
+        { "item" : 20903, "name" : "item.raids_seed_noxifer", "min" : 5, "max" : 10 },
+        { "item" : 20906, "name" : "item.raids_seed_golpar", "min" : 5, "max" : 10 },
+        { "item" : 20909, "name" : "item.raids_seed_buchuleaf", "min" : 5, "max" : 10 }
       ],
       "tertiary" : [
-        { "item" : 10976, "name" : "item.long_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 10977, "name" : "item.curved_bone", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
       ]
     }
   ]

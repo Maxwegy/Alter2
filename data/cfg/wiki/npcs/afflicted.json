@@ -8,7 +8,7 @@
         1298
       ],
       "names" : [
-        "npc.afflicted_1298"
+        "npc.mort_afflicted_woman2"
       ],
       "combatLevel" : 30,
       "hitpoints" : 24,
@@ -34,7 +34,7 @@
         1297
       ],
       "names" : [
-        "npc.afflicted_1297"
+        "npc.mort_afflicted_man2"
       ],
       "combatLevel" : 32,
       "hitpoints" : 26,
@@ -60,7 +60,7 @@
         1294
       ],
       "names" : [
-        "npc.afflicted_1294"
+        "npc.mort_afflicted_woman"
       ],
       "combatLevel" : 34,
       "hitpoints" : 28,
@@ -86,7 +86,7 @@
         1293
       ],
       "names" : [
-        "npc.afflicted"
+        "npc.mort_afflicted_man"
       ],
       "combatLevel" : 37,
       "hitpoints" : 30,

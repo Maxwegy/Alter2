@@ -9,8 +9,8 @@
         2855
       ],
       "names" : [
-        "npc.rat_2854",
-        "npc.rat_2855"
+        "npc.rat",
+        "npc.rat_indoors"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,
@@ -41,8 +41,8 @@
         2513
       ],
       "names" : [
-        "npc.rat_2492",
-        "npc.rat_2513"
+        "npc.sos_war_rat",
+        "npc.sos_fam_rat"
       ],
       "combatLevel" : 1,
       "hitpoints" : 2,

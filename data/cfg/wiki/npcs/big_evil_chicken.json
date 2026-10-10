@@ -1,0 +1,55 @@
+{
+  "page" : "Big Evil Chicken",
+  "versions" : [
+    {
+      "source" : "Big Evil Chicken#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15547
+      ],
+      "names" : [
+        "npc.deadman_breach_evil_chicken"
+      ],
+      "combatLevel" : 1047,
+      "hitpoints" : 3500,
+      "attackSpeed" : 3,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 25, "ranged" : 0, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 255, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Big Evil Chicken#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15547
+      ],
+      "names" : [
+        "npc.deadman_breach_evil_chicken"
+      ],
+      "combatLevel" : 422,
+      "hitpoints" : 1000,
+      "attackSpeed" : 3,
+      "size" : 3,
+      "levels" : { "attack" : 255, "strength" : 255, "defence" : 25, "ranged" : 0, "magic" : 300 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 25, "magicDefence" : 255, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "26"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

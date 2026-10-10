@@ -10,17 +10,17 @@
         { "item" : 1939, "name" : "item.swamp_tar", "min" : 1, "max" : 6 }
       ],
       "main" : [
-        { "item" : 555, "name" : "item.water_rune", "min" : 15, "max" : 15, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 596, "name" : "item.unlit_torch", "min" : 1, "max" : 1, "chance" : [ 11, 128 ], "wiki" : "11/128" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 15, "max" : 15, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 596, "name" : "item.torch_unlit", "min" : 1, "max" : 1, "chance" : [ 11, 128 ], "wiki" : "11/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 15, 64 ], "wiki" : "30/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 39, 128 ], "wiki" : "39/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 22, "max" : 22, "chance" : [ 5, 64 ], "wiki" : "10/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 46, "max" : 46, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 995, "name" : "item.coins", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 4, "max" : 4, "chance" : [ 15, 64 ], "wiki" : "30/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 10, "max" : 10, "chance" : [ 39, 128 ], "wiki" : "39/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 22, "max" : 22, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 46, "max" : 46, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1155, "name" : "item.bronze_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1191, "name" : "item.iron_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
@@ -34,12 +34,12 @@
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 2357, "name" : "item.gold_bar", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "wiki" : "1/131,072" },
-        { "item" : 4121, "name" : "item.iron_boots", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "wiki" : "1/131,072" },
+        { "item" : 4121, "name" : "item.iron_armoured_boots", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 4540, "name" : "item.oil_lantern_frame", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
       ],
       "tertiary" : [
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" }
       ]
     }
   ]

@@ -8,7 +8,7 @@
         1126
       ],
       "names" : [
-        "npc.barrelchest_hard"
+        "npc.nzone_brain_barrel_chest_hard"
       ],
       "combatLevel" : 380,
       "hitpoints" : 255,
@@ -33,7 +33,7 @@
         6342
       ],
       "names" : [
-        "npc.barrelchest_6342"
+        "npc.nzone_brain_barrel_chest_normal"
       ],
       "combatLevel" : 190,
       "hitpoints" : 134,

@@ -11,8 +11,8 @@
         { "item" : 13372, "name" : "item.shayzien_gloves_4", "min" : 1, "max" : 1 },
         { "item" : 13373, "name" : "item.shayzien_boots_4", "min" : 1, "max" : 1 },
         { "item" : 13374, "name" : "item.shayzien_helm_4", "min" : 1, "max" : 1 },
-        { "item" : 13375, "name" : "item.shayzien_greaves_4", "min" : 1, "max" : 1 },
-        { "item" : 13376, "name" : "item.shayzien_platebody_4", "min" : 1, "max" : 1 }
+        { "item" : 13375, "name" : "item.shayzien_legs_4", "min" : 1, "max" : 1 },
+        { "item" : 13376, "name" : "item.shayzien_body_4", "min" : 1, "max" : 1 }
       ]
     }
   ]

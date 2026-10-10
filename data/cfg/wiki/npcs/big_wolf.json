@@ -8,7 +8,7 @@
         115
       ],
       "names" : [
-        "npc.big_wolf_115"
+        "npc.wolfpack_leader"
       ],
       "combatLevel" : 73,
       "hitpoints" : 74,
@@ -36,7 +36,7 @@
         109
       ],
       "names" : [
-        "npc.big_wolf"
+        "npc.wolfpack_leader_whiter"
       ],
       "combatLevel" : 73,
       "hitpoints" : 74,

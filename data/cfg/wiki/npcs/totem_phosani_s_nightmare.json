@@ -10,10 +10,10 @@
         9444
       ],
       "names" : [
-        "npc.totem_9435",
-        "npc.totem_9438",
-        "npc.totem_9441",
-        "npc.totem_9444"
+        "npc.nightmare_totem_1_ready",
+        "npc.nightmare_totem_2_ready",
+        "npc.nightmare_totem_3_ready",
+        "npc.nightmare_totem_4_ready"
       ],
       "hitpoints" : 200,
       "size" : 3,
@@ -35,10 +35,10 @@
         9445
       ],
       "names" : [
-        "npc.totem_9436",
-        "npc.totem_9439",
-        "npc.totem_9442",
-        "npc.totem_9445"
+        "npc.nightmare_totem_1_charged",
+        "npc.nightmare_totem_2_charged",
+        "npc.nightmare_totem_3_charged",
+        "npc.nightmare_totem_4_charged"
       ],
       "hitpoints" : 200,
       "size" : 3,

@@ -10,10 +10,10 @@
         9635
       ],
       "names" : [
-        "npc.gadderanks",
-        "npc.gadderanks_4484",
-        "npc.gadderanks_4485",
-        "npc.gadderanks_9635"
+        "npc.burgh_gadderanks",
+        "npc.burgh_gadderanks_attackable",
+        "npc.burgh_gadderanks_wounded",
+        "npc.burgh_gadderanks_cutscene"
       ],
       "combatLevel" : 35,
       "hitpoints" : 20,

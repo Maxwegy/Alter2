@@ -8,7 +8,7 @@
         14031
       ],
       "names" : [
-        "npc.chasm_crawler_14031"
+        "npc.superior_cave_crawler_ice"
       ],
       "combatLevel" : 68,
       "hitpoints" : 60,
@@ -35,7 +35,7 @@
         7389
       ],
       "names" : [
-        "npc.chasm_crawler"
+        "npc.superior_cave_crawler"
       ],
       "combatLevel" : 68,
       "hitpoints" : 60,

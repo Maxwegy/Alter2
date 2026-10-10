@@ -8,7 +8,7 @@
         1262
       ],
       "names" : [
-        "npc.ram_1262"
+        "npc.ramunsheered"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -35,7 +35,7 @@
         1263
       ],
       "names" : [
-        "npc.ram_1263"
+        "npc.ramunsheered2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -62,7 +62,7 @@
         1264
       ],
       "names" : [
-        "npc.ram_1264"
+        "npc.ramunsheered3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -89,7 +89,7 @@
         1265
       ],
       "names" : [
-        "npc.ram_1265"
+        "npc.ramunsheeredshaggy"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,
@@ -116,7 +116,7 @@
         1261
       ],
       "names" : [
-        "npc.ram"
+        "npc.ramsheered"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,

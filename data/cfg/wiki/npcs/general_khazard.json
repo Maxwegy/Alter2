@@ -16,16 +16,16 @@
         12059
       ],
       "names" : [
-        "npc.null_1213",
-        "npc.general_khazard_12025",
-        "npc.general_khazard_12026",
-        "npc.general_khazard_12027",
-        "npc.general_khazard_12054",
-        "npc.general_khazard_12055",
-        "npc.general_khazard_12056",
-        "npc.general_khazard_12057",
-        "npc.general_khazard_12058",
-        "npc.general_khazard_12059"
+        "npc.sotn_evelot_initial",
+        "npc.general_khazard",
+        "npc.general_khazard_vis",
+        "npc.general_khazard_cutscene",
+        "npc.sotn_khazard_vis",
+        "npc.sotn_khazard_ghorrock",
+        "npc.sotn_khazard_ghorrock_2",
+        "npc.sotn_khazard_cutscene",
+        "npc.sotn_khazard_sword_cutscene",
+        "npc.sotn_khazard_combat"
       ],
       "combatLevel" : 142,
       "hitpoints" : 170,

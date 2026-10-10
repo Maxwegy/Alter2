@@ -8,7 +8,7 @@
         6295
       ],
       "names" : [
-        "npc.black_demon_hard"
+        "npc.nzone_grandtree_blackdemon_hard"
       ],
       "combatLevel" : 292,
       "hitpoints" : 255,
@@ -38,7 +38,7 @@
         6357
       ],
       "names" : [
-        "npc.black_demon_6357"
+        "npc.nzone_grandtree_blackdemon_normal"
       ],
       "combatLevel" : 172,
       "hitpoints" : 157,

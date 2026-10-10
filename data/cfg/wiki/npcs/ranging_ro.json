@@ -8,7 +8,7 @@
         13664
       ],
       "names" : [
-        "npc.ranging_ro"
+        "npc.deadman_breach_ranging_ro"
       ],
       "combatLevel" : 973,
       "hitpoints" : 3500,
@@ -33,7 +33,7 @@
         13664
       ],
       "names" : [
-        "npc.ranging_ro"
+        "npc.deadman_breach_ranging_ro"
       ],
       "combatLevel" : 473,
       "hitpoints" : 1500,
@@ -58,7 +58,7 @@
         13664
       ],
       "names" : [
-        "npc.ranging_ro"
+        "npc.deadman_breach_ranging_ro"
       ],
       "combatLevel" : 473,
       "hitpoints" : 1500,

@@ -10,9 +10,9 @@
         4493
       ],
       "names" : [
-        "npc.skeleton_fremennik",
-        "npc.skeleton_fremennik_4492",
-        "npc.skeleton_fremennik_4493"
+        "npc.olaf2_undead_viking_lvl40",
+        "npc.olaf2_undead_viking_lvl40_b",
+        "npc.olaf2_undead_viking_lvl40_c"
       ],
       "combatLevel" : 40,
       "hitpoints" : 25,
@@ -45,9 +45,9 @@
         4496
       ],
       "names" : [
-        "npc.skeleton_fremennik_4494",
-        "npc.skeleton_fremennik_4495",
-        "npc.skeleton_fremennik_4496"
+        "npc.olaf2_undead_viking_lvl50",
+        "npc.olaf2_undead_viking_lvl50_b",
+        "npc.olaf2_undead_viking_lvl50_c"
       ],
       "combatLevel" : 50,
       "hitpoints" : 35,
@@ -80,9 +80,9 @@
         4499
       ],
       "names" : [
-        "npc.skeleton_fremennik_4497",
-        "npc.skeleton_fremennik_4498",
-        "npc.skeleton_fremennik_4499"
+        "npc.olaf2_undead_viking_lvl60",
+        "npc.olaf2_undead_viking_lvl60_b",
+        "npc.olaf2_undead_viking_lvl60_c"
       ],
       "combatLevel" : 60,
       "hitpoints" : 40,

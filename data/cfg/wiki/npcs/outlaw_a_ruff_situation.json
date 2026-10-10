@@ -1,0 +1,55 @@
+{
+  "page" : "Outlaw (A Ruff Situation)",
+  "versions" : [
+    {
+      "source" : "Outlaw (A Ruff Situation)#Level 22",
+      "version" : "Level 22",
+      "ids" : [
+        16528
+      ],
+      "names" : [
+        "npc.dogq_outlaw2"
+      ],
+      "combatLevel" : 22,
+      "hitpoints" : 13,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 14, "strength" : 25, "defence" : 20, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune", "freeze" : "0% resistance" }
+    },
+    {
+      "source" : "Outlaw (A Ruff Situation)#Level 23",
+      "version" : "Level 23",
+      "ids" : [
+        16527
+      ],
+      "names" : [
+        "npc.dogq_outlaw1"
+      ],
+      "combatLevel" : 23,
+      "hitpoints" : 20,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 18, "strength" : 25, "defence" : 20, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune", "freeze" : "0% resistance" }
+    }
+  ]
+}

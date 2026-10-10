@@ -8,8 +8,8 @@
         8138
       ],
       "names" : [
-        "npc.spider_8137",
-        "npc.spider_8138"
+        "npc.laboratory_spider",
+        "npc.laboratory_spider_aggressive"
       ],
       "combatLevel" : 35,
       "hitpoints" : 4,

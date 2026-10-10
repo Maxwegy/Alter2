@@ -9,8 +9,8 @@
         9284
       ],
       "names" : [
-        "npc.basilisk_9283",
-        "npc.basilisk_9284"
+        "npc.vikingexile_basilisk",
+        "npc.vikingexile_basilisk_huntplayer"
       ],
       "combatLevel" : 61,
       "hitpoints" : 75,
@@ -38,8 +38,8 @@
         9286
       ],
       "names" : [
-        "npc.basilisk_9285",
-        "npc.basilisk_9286"
+        "npc.vikingexile_basilisk_baby",
+        "npc.vikingexile_basilisk_baby_huntplayer"
       ],
       "combatLevel" : 61,
       "hitpoints" : 75,

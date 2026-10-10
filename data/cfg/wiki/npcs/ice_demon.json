@@ -8,7 +8,7 @@
         7585
       ],
       "names" : [
-        "npc.ice_demon_7585"
+        "npc.raids_icedemon_combat"
       ],
       "hitpoints" : 210,
       "attackSpeed" : 3,
@@ -38,7 +38,7 @@
         7584
       ],
       "names" : [
-        "npc.ice_demon"
+        "npc.raids_icedemon_noncombat"
       ],
       "hitpoints" : 140,
       "attackSpeed" : 3,

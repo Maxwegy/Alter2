@@ -8,7 +8,7 @@
         8701
       ],
       "names" : [
-        "npc.big_frog_8701"
+        "npc.medium_frog_nodrops"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -35,7 +35,7 @@
         478
       ],
       "names" : [
-        "npc.big_frog"
+        "npc.medium_frog"
       ],
       "combatLevel" : 24,
       "hitpoints" : 25,

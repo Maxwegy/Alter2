@@ -8,7 +8,7 @@
         6340
       ],
       "names" : [
-        "npc.cow_hard"
+        "npc.nzone_cow_hard"
       ],
       "combatLevel" : 170,
       "hitpoints" : 160,
@@ -33,7 +33,7 @@
         6401
       ],
       "names" : [
-        "npc.cow_6401"
+        "npc.nzone_cow_normal"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,

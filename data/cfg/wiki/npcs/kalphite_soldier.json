@@ -8,7 +8,7 @@
         958
       ],
       "names" : [
-        "npc.kalphite_soldier_958"
+        "npc.kalphite_soldier_strongholdcave"
       ],
       "combatLevel" : 85,
       "hitpoints" : 90,
@@ -38,7 +38,7 @@
         957
       ],
       "names" : [
-        "npc.kalphite_soldier_957"
+        "npc.kalphite_soldier"
       ],
       "combatLevel" : 85,
       "hitpoints" : 90,

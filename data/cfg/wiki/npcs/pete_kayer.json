@@ -1,0 +1,87 @@
+{
+  "page" : "Pete Kayer",
+  "versions" : [
+    {
+      "source" : "Pete Kayer#Final Challenge",
+      "version" : "Final Challenge",
+      "ids" : [
+        16579,
+        16580,
+        16581,
+        16582,
+        16583,
+        16584,
+        16585,
+        16586
+      ],
+      "names" : [
+        "npc.pvptut_expert_boss_magic",
+        "npc.pvptut_expert_boss_melee_voidwaker",
+        "npc.pvptut_expert_boss_melee_halberd",
+        "npc.pvptut_expert_boss_ranged",
+        "npc.pvptut_expert_boss_tank",
+        "npc.pvptut_expert_boss_melee_mistake",
+        "npc.pvptut_expert_boss_ranged_mistake",
+        "npc.pvptut_expert_boss_magic_mistake"
+      ],
+      "combatLevel" : 135,
+      "hitpoints" : 115,
+      "attackSpeed" : 0,
+      "size" : 1,
+      "levels" : { "attack" : 118, "strength" : 120, "defence" : 120, "ranged" : 112, "magic" : 99 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pete Kayer#Penultimate Challenge",
+      "version" : "Penultimate Challenge",
+      "ids" : [
+        16588,
+        16589,
+        16590,
+        16591,
+        16592,
+        16593,
+        16594,
+        16595,
+        16596
+      ],
+      "names" : [
+        "npc.pvptut_medium_boss_magic",
+        "npc.pvptut_medium_boss_ranged",
+        "npc.pvptut_medium_boss_melee",
+        "npc.pvptut_medium_boss_melee_special",
+        "npc.pvptut_medium_boss_more_magic_than_melee",
+        "npc.pvptut_medium_boss_more_melee_than_magic",
+        "npc.pvptut_medium_boss_more_ranged_than_melee",
+        "npc.pvptut_medium_boss_more_melee_than_ranged",
+        "npc.pvptut_medium_boss_more_ranged_than_magic"
+      ],
+      "combatLevel" : 135,
+      "hitpoints" : 115,
+      "attackSpeed" : 0,
+      "size" : 1,
+      "levels" : { "attack" : 118, "strength" : 120, "defence" : 120, "ranged" : 112, "magic" : 99 },
+      "maxHits" : [
+        "Varies"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged",
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

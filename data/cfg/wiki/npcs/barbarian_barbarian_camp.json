@@ -8,7 +8,7 @@
         10984
       ],
       "names" : [
-        "npc.barbarian_10984"
+        "npc.akd_barbarian_1"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -34,7 +34,7 @@
         10985
       ],
       "names" : [
-        "npc.barbarian_10985"
+        "npc.akd_barbarian_2"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -60,7 +60,7 @@
         10987
       ],
       "names" : [
-        "npc.barbarian_10987"
+        "npc.akd_barbarian_4"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -86,7 +86,7 @@
         10986
       ],
       "names" : [
-        "npc.barbarian_10986"
+        "npc.akd_barbarian_3"
       ],
       "combatLevel" : 15,
       "hitpoints" : 24,
@@ -112,7 +112,7 @@
         10988
       ],
       "names" : [
-        "npc.barbarian_10988"
+        "npc.akd_barbarian_5"
       ],
       "combatLevel" : 9,
       "hitpoints" : 20,

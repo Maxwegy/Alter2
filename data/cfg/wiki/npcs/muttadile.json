@@ -9,8 +9,8 @@
         7563
       ],
       "names" : [
-        "npc.muttadile",
-        "npc.muttadile_7563"
+        "npc.raids_dogodile_submerged",
+        "npc.raids_dogodile"
       ],
       "hitpoints" : 250,
       "attackSpeed" : 4,
@@ -44,8 +44,8 @@
         7563
       ],
       "names" : [
-        "npc.muttadile",
-        "npc.muttadile_7563"
+        "npc.raids_dogodile_submerged",
+        "npc.raids_dogodile"
       ],
       "hitpoints" : 375,
       "attackSpeed" : 4,
@@ -78,7 +78,7 @@
         7562
       ],
       "names" : [
-        "npc.muttadile_7562"
+        "npc.raids_dogodile_junior"
       ],
       "hitpoints" : 250,
       "attackSpeed" : 4,
@@ -108,7 +108,7 @@
         7562
       ],
       "names" : [
-        "npc.muttadile_7562"
+        "npc.raids_dogodile_junior"
       ],
       "hitpoints" : 375,
       "attackSpeed" : 4,

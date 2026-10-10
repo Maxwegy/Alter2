@@ -9,8 +9,8 @@
         12205
       ],
       "names" : [
-        "npc.the_whisperer",
-        "npc.the_whisperer_12205"
+        "npc.whisperer",
+        "npc.whisperer_melee"
       ],
       "combatLevel" : 1146,
       "hitpoints" : 2700,
@@ -43,8 +43,8 @@
         12205
       ],
       "names" : [
-        "npc.the_whisperer",
-        "npc.the_whisperer_12205"
+        "npc.whisperer",
+        "npc.whisperer_melee"
       ],
       "combatLevel" : 791,
       "hitpoints" : 900,
@@ -77,8 +77,8 @@
         12207
       ],
       "names" : [
-        "npc.the_whisperer_12206",
-        "npc.the_whisperer_12207"
+        "npc.whisperer_quest",
+        "npc.whisperer_melee_quest"
       ],
       "combatLevel" : 587,
       "hitpoints" : 660,

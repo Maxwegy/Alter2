@@ -8,7 +8,7 @@
         12078
       ],
       "names" : [
-        "npc.phantom_muspah_12078"
+        "npc.muspah_melee"
       ],
       "combatLevel" : 741,
       "hitpoints" : 850,
@@ -39,7 +39,7 @@
         12080
       ],
       "names" : [
-        "npc.phantom_muspah_12080"
+        "npc.muspah_final"
       ],
       "combatLevel" : 741,
       "hitpoints" : 850,
@@ -72,7 +72,7 @@
         12077
       ],
       "names" : [
-        "npc.phantom_muspah"
+        "npc.muspah"
       ],
       "combatLevel" : 741,
       "hitpoints" : 850,
@@ -105,7 +105,7 @@
         12079
       ],
       "names" : [
-        "npc.phantom_muspah_12079"
+        "npc.muspah_soulsplit"
       ],
       "combatLevel" : 741,
       "hitpoints" : 75,
@@ -139,7 +139,7 @@
         12082
       ],
       "names" : [
-        "npc.phantom_muspah_12082"
+        "npc.muspah_teleport"
       ],
       "combatLevel" : 741,
       "hitpoints" : 850,

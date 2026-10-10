@@ -7,7 +7,7 @@
         3982
       ],
       "always" : [
-        { "item" : 1548, "name" : "item.key_1548", "min" : 1, "max" : 1 },
+        { "item" : 1548, "name" : "item.greenkey", "min" : 1, "max" : 1 },
         { "item" : 25769, "name" : "item.vile_ashes", "min" : 1, "max" : 1 }
       ]
     }

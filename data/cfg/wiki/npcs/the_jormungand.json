@@ -8,8 +8,8 @@
         9291
       ],
       "names" : [
-        "npc.the_jormungand_9290",
-        "npc.the_jormungand_9291"
+        "npc.jormungand_turn",
+        "npc.jormungand"
       ],
       "combatLevel" : 363,
       "hitpoints" : 600,

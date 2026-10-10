@@ -8,7 +8,7 @@
         10399
       ],
       "names" : [
-        "npc.shadow_wyrm_10399"
+        "npc.superior_wyrm_light"
       ],
       "combatLevel" : 259,
       "hitpoints" : 290,
@@ -39,7 +39,7 @@
         10398
       ],
       "names" : [
-        "npc.shadow_wyrm"
+        "npc.superior_wyrm_dark"
       ],
       "combatLevel" : 259,
       "hitpoints" : 290,

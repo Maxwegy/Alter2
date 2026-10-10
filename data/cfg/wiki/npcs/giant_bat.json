@@ -8,7 +8,7 @@
         6824
       ],
       "names" : [
-        "npc.giant_bat_6824"
+        "npc.bat_unaggressive"
       ],
       "combatLevel" : 27,
       "hitpoints" : 32,
@@ -35,7 +35,7 @@
         2834
       ],
       "names" : [
-        "npc.giant_bat"
+        "npc.bat"
       ],
       "combatLevel" : 27,
       "hitpoints" : 32,

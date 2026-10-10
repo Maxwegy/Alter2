@@ -8,7 +8,7 @@
         1046
       ],
       "names" : [
-        "npc.jungle_horror_1046"
+        "npc.harmless_island_jungle_horror_guard"
       ],
       "combatLevel" : 70,
       "hitpoints" : 45,
@@ -36,7 +36,7 @@
         1044
       ],
       "names" : [
-        "npc.jungle_horror_1044"
+        "npc.harmless_island_jungle_horror_warrior"
       ],
       "combatLevel" : 70,
       "hitpoints" : 45,
@@ -64,7 +64,7 @@
         1042
       ],
       "names" : [
-        "npc.jungle_horror"
+        "npc.harmless_island_jungle_horror_worker"
       ],
       "combatLevel" : 70,
       "hitpoints" : 45,
@@ -92,7 +92,7 @@
         1045
       ],
       "names" : [
-        "npc.jungle_horror_1045"
+        "npc.harmless_island_jungle_horror_young_warrior"
       ],
       "combatLevel" : 70,
       "hitpoints" : 45,
@@ -120,7 +120,7 @@
         1043
       ],
       "names" : [
-        "npc.jungle_horror_1043"
+        "npc.harmless_island_jungle_horror_young_worker"
       ],
       "combatLevel" : 70,
       "hitpoints" : 45,

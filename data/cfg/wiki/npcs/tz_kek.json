@@ -8,7 +8,7 @@
         3120
       ],
       "names" : [
-        "npc.tzkek_3120"
+        "npc.tzhaar_fightcave_swarm_2spawn"
       ],
       "combatLevel" : 22,
       "hitpoints" : 10,
@@ -38,10 +38,10 @@
         3119
       ],
       "names" : [
-        "npc.tzkek",
-        "npc.tzkek_2192",
-        "npc.tzkek_3118",
-        "npc.tzkek_3119"
+        "npc.tzhaar_fightpit_swarm_2a",
+        "npc.tzhaar_fightpit_swarm_2b",
+        "npc.tzhaar_fightcave_swarm_2a",
+        "npc.tzhaar_fightcave_swarm_2b"
       ],
       "combatLevel" : 45,
       "hitpoints" : 20,

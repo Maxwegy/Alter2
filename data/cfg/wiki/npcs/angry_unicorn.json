@@ -8,7 +8,7 @@
         1061
       ],
       "names" : [
-        "npc.angry_unicorn"
+        "npc.soulbane_anger_unicorn"
       ],
       "combatLevel" : 45,
       "hitpoints" : 200,
@@ -32,7 +32,7 @@
         4688
       ],
       "names" : [
-        "npc.angry_unicorn_4688"
+        "npc.soulbane_unicorn"
       ],
       "combatLevel" : 47,
       "hitpoints" : 50,

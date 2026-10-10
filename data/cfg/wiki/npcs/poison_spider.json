@@ -8,7 +8,7 @@
         5373
       ],
       "names" : [
-        "npc.poison_spider_5373"
+        "npc.dungeonspider"
       ],
       "combatLevel" : 31,
       "hitpoints" : 25,
@@ -36,8 +36,8 @@
         11999
       ],
       "names" : [
-        "npc.poison_spider",
-        "npc.poison_spider_11999"
+        "npc.poisonspider",
+        "npc.wbr_poisonspider"
       ],
       "combatLevel" : 64,
       "hitpoints" : 64,

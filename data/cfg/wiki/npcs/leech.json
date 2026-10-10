@@ -4,10 +4,12 @@
     {
       "source" : "Leech",
       "ids" : [
-        3233
+        3233,
+        15441
       ],
       "names" : [
-        "npc.leech"
+        "npc.vampire_leech",
+        "npc.giant_leech"
       ],
       "combatLevel" : 52,
       "hitpoints" : 45,

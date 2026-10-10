@@ -16,13 +16,13 @@
       ],
       "names" : [
         "npc.lesser_demon",
-        "npc.lesser_demon_2006",
-        "npc.lesser_demon_2007",
-        "npc.lesser_demon_2008",
-        "npc.lesser_demon_2018",
-        "npc.lesser_demon_7656",
-        "npc.lesser_demon_7657",
-        "npc.lesser_demon_7664"
+        "npc.lesser_demon2",
+        "npc.lesser_demon3",
+        "npc.lesser_demon4",
+        "npc.lesser_demon5",
+        "npc.lesser_demon_slayercave_1",
+        "npc.lesser_demon_slayercave_2",
+        "npc.lesser_demon_slayercave_3"
       ],
       "combatLevel" : 82,
       "hitpoints" : 79,
@@ -53,7 +53,7 @@
         7247
       ],
       "names" : [
-        "npc.lesser_demon_7247"
+        "npc.kourend_lesser_demon1"
       ],
       "combatLevel" : 87,
       "hitpoints" : 87,
@@ -84,7 +84,7 @@
         7248
       ],
       "names" : [
-        "npc.lesser_demon_7248"
+        "npc.kourend_lesser_demon2"
       ],
       "combatLevel" : 94,
       "hitpoints" : 98,
@@ -117,9 +117,9 @@
         7867
       ],
       "names" : [
-        "npc.lesser_demon_7865",
-        "npc.lesser_demon_7866",
-        "npc.lesser_demon_7867"
+        "npc.wild_cave_lesser_demon",
+        "npc.wild_cave_lesser_demon2",
+        "npc.wild_cave_lesser_demon3"
       ],
       "combatLevel" : 94,
       "hitpoints" : 110,

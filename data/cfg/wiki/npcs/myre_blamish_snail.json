@@ -8,7 +8,7 @@
         2649
       ],
       "names" : [
-        "npc.myre_blamish_snail_2649"
+        "npc.mmsnailpoint_swamp"
       ],
       "combatLevel" : 10,
       "hitpoints" : 13,
@@ -35,7 +35,7 @@
         2634
       ],
       "names" : [
-        "npc.myre_blamish_snail"
+        "npc.mmsnailround_swamp"
       ],
       "combatLevel" : 9,
       "hitpoints" : 8,

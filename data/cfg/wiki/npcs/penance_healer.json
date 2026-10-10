@@ -9,8 +9,8 @@
         5766
       ],
       "names" : [
-        "npc.penance_healer",
-        "npc.penance_healer_5766"
+        "npc.barbassault_pen_healer_tutor",
+        "npc.barbassault_pen_healer_lv1"
       ],
       "hitpoints" : 27,
       "attackSpeed" : -1,
@@ -33,7 +33,7 @@
         5767
       ],
       "names" : [
-        "npc.penance_healer_5767"
+        "npc.barbassault_pen_healer_lv2"
       ],
       "hitpoints" : 32,
       "attackSpeed" : -1,
@@ -56,7 +56,7 @@
         5768
       ],
       "names" : [
-        "npc.penance_healer_5768"
+        "npc.barbassault_pen_healer_lv3"
       ],
       "hitpoints" : 37,
       "attackSpeed" : -1,
@@ -79,7 +79,7 @@
         5769
       ],
       "names" : [
-        "npc.penance_healer_5769"
+        "npc.barbassault_pen_healer_lv4"
       ],
       "hitpoints" : 43,
       "attackSpeed" : -1,
@@ -102,7 +102,7 @@
         5770
       ],
       "names" : [
-        "npc.penance_healer_5770"
+        "npc.barbassault_pen_healer_lv5"
       ],
       "hitpoints" : 49,
       "attackSpeed" : -1,
@@ -125,7 +125,7 @@
         5771
       ],
       "names" : [
-        "npc.penance_healer_5771"
+        "npc.barbassault_pen_healer_lv6"
       ],
       "hitpoints" : 55,
       "attackSpeed" : -1,
@@ -148,7 +148,7 @@
         5772
       ],
       "names" : [
-        "npc.penance_healer_5772"
+        "npc.barbassault_pen_healer_lv7"
       ],
       "hitpoints" : 60,
       "attackSpeed" : -1,
@@ -171,7 +171,7 @@
         5773
       ],
       "names" : [
-        "npc.penance_healer_5773"
+        "npc.barbassault_pen_healer_lv8"
       ],
       "hitpoints" : 67,
       "attackSpeed" : -1,
@@ -194,7 +194,7 @@
         5774
       ],
       "names" : [
-        "npc.penance_healer_5774"
+        "npc.barbassault_pen_healer_lv9"
       ],
       "hitpoints" : 76,
       "attackSpeed" : -1,

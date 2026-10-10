@@ -8,7 +8,7 @@
         12392
       ],
       "names" : [
-        "npc.abyssal_walker_12392"
+        "npc.dt2_scar_abyssal_walker"
       ],
       "combatLevel" : 109,
       "hitpoints" : 120,
@@ -33,7 +33,7 @@
         12394
       ],
       "names" : [
-        "npc.abyssal_walker_12394"
+        "npc.dt2_scar_walker"
       ],
       "combatLevel" : 90,
       "hitpoints" : 120,

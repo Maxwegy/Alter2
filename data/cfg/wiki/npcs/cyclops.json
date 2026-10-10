@@ -13,12 +13,12 @@
         2142
       ],
       "names" : [
-        "npc.cyclops_2137",
-        "npc.cyclops_2138",
-        "npc.cyclops_2139",
-        "npc.cyclops_2140",
-        "npc.cyclops_2141",
-        "npc.cyclops_2142"
+        "npc.warguild_cyclops1_high",
+        "npc.warguild_cyclops2_high",
+        "npc.warguild_cyclops3_high",
+        "npc.warguild_cyclops4_high",
+        "npc.warguild_cyclops5_high",
+        "npc.warguild_cyclops6_high"
       ],
       "combatLevel" : 106,
       "hitpoints" : 150,
@@ -47,9 +47,9 @@
         2467
       ],
       "names" : [
-        "npc.cyclops_2463",
-        "npc.cyclops_2465",
-        "npc.cyclops_2467"
+        "npc.warguild_cyclops1",
+        "npc.warguild_cyclops3",
+        "npc.warguild_cyclops5"
       ],
       "combatLevel" : 56,
       "hitpoints" : 75,
@@ -78,9 +78,9 @@
         2468
       ],
       "names" : [
-        "npc.cyclops_2464",
-        "npc.cyclops_2466",
-        "npc.cyclops_2468"
+        "npc.warguild_cyclops2",
+        "npc.warguild_cyclops4",
+        "npc.warguild_cyclops6"
       ],
       "combatLevel" : 76,
       "hitpoints" : 100,

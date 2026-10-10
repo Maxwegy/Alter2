@@ -1,0 +1,69 @@
+{
+  "page" : "Giant Mole (LANScape)",
+  "versions" : [
+    {
+      "source" : "Giant Mole (LANScape)#Bandos",
+      "version" : "Bandos",
+      "ids" : [
+        16357
+      ],
+      "names" : [
+        "npc.mole_giant_bandos"
+      ],
+      "combatLevel" : 495,
+      "hitpoints" : 1000,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 200, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant Mole (LANScape)#Guthix",
+      "version" : "Guthix",
+      "ids" : [
+        16356
+      ],
+      "names" : [
+        "npc.mole_giant_guthix"
+      ],
+      "combatLevel" : 495,
+      "hitpoints" : 1000,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 200, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant Mole (LANScape)#Saradomin",
+      "version" : "Saradomin",
+      "ids" : [
+        16355
+      ],
+      "names" : [
+        "npc.mole_giant_saradomin"
+      ],
+      "combatLevel" : 495,
+      "hitpoints" : 1000,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 200, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Giant Mole (LANScape)#Zamorak",
+      "version" : "Zamorak",
+      "ids" : [
+        16354
+      ],
+      "names" : [
+        "npc.mole_giant_zamorak"
+      ],
+      "combatLevel" : 495,
+      "hitpoints" : 1000,
+      "size" : 3,
+      "levels" : { "attack" : 300, "strength" : 300, "defence" : 200, "ranged" : 1, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 100, "magicDefence" : 80, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

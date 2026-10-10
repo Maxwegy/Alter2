@@ -8,7 +8,7 @@
         1383
       ],
       "names" : [
-        "npc.camp_dweller_1383"
+        "npc.mdaughter_camp_female3"
       ],
       "combatLevel" : 25,
       "hitpoints" : 25,
@@ -34,7 +34,7 @@
         1379
       ],
       "names" : [
-        "npc.camp_dweller"
+        "npc.mdaughter_camp_male1"
       ],
       "combatLevel" : 31,
       "hitpoints" : 30,
@@ -60,7 +60,7 @@
         1380
       ],
       "names" : [
-        "npc.camp_dweller_1380"
+        "npc.mdaughter_camp_male2"
       ],
       "combatLevel" : 31,
       "hitpoints" : 30,
@@ -86,7 +86,7 @@
         1381
       ],
       "names" : [
-        "npc.camp_dweller_1381"
+        "npc.mdaughter_camp_female1"
       ],
       "combatLevel" : 31,
       "hitpoints" : 30,
@@ -112,7 +112,7 @@
         1382
       ],
       "names" : [
-        "npc.camp_dweller_1382"
+        "npc.mdaughter_camp_female2"
       ],
       "combatLevel" : 31,
       "hitpoints" : 30,

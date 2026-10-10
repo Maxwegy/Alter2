@@ -11,10 +11,10 @@
         12429
       ],
       "names" : [
-        "npc.strangled",
-        "npc.strangled_12275",
-        "npc.strangled_12281",
-        "npc.strangled_12429"
+        "npc.dt2_strangled_ruins_t1_1",
+        "npc.dt2_strangled_survival_t1_1",
+        "npc.dt2_strangled_t1_1_cutscene",
+        "npc.dt2_strangled_base_t1_1"
       ],
       "combatLevel" : 138,
       "hitpoints" : 40,
@@ -43,10 +43,10 @@
         12430
       ],
       "names" : [
-        "npc.strangled_12269",
-        "npc.strangled_12276",
-        "npc.strangled_12282",
-        "npc.strangled_12430"
+        "npc.dt2_strangled_ruins_t1_2",
+        "npc.dt2_strangled_survival_t1_2",
+        "npc.dt2_strangled_t1_2_cutscene",
+        "npc.dt2_strangled_base_t1_2"
       ],
       "combatLevel" : 138,
       "hitpoints" : 40,
@@ -75,10 +75,10 @@
         12431
       ],
       "names" : [
-        "npc.strangled_12270",
-        "npc.strangled_12277",
-        "npc.strangled_12283",
-        "npc.strangled_12431"
+        "npc.dt2_strangled_ruins_t1_3",
+        "npc.dt2_strangled_survival_t1_3",
+        "npc.dt2_strangled_t1_3_cutscene",
+        "npc.dt2_strangled_base_t1_3"
       ],
       "combatLevel" : 138,
       "hitpoints" : 40,
@@ -107,10 +107,10 @@
         12432
       ],
       "names" : [
-        "npc.strangled_12271",
-        "npc.strangled_12279",
-        "npc.strangled_12284",
-        "npc.strangled_12432"
+        "npc.dt2_strangled_ruins_t1_4",
+        "npc.dt2_strangled_temple_1",
+        "npc.dt2_strangled_t1_4_cutscene",
+        "npc.dt2_strangled_base_t1_4"
       ],
       "combatLevel" : 138,
       "hitpoints" : 40,
@@ -139,10 +139,10 @@
         12433
       ],
       "names" : [
-        "npc.strangled_12272",
-        "npc.strangled_12280",
-        "npc.strangled_12285",
-        "npc.strangled_12433"
+        "npc.dt2_strangled_ruins_t2_1",
+        "npc.dt2_strangled_temple_2",
+        "npc.dt2_strangled_t2_1_cutscene",
+        "npc.dt2_strangled_base_t2_1"
       ],
       "combatLevel" : 149,
       "hitpoints" : 50,
@@ -171,10 +171,10 @@
         12434
       ],
       "names" : [
-        "npc.strangled_12273",
-        "npc.strangled_12278",
-        "npc.strangled_12286",
-        "npc.strangled_12434"
+        "npc.dt2_strangled_ruins_t2_2",
+        "npc.dt2_strangled_survival_t2_1",
+        "npc.dt2_strangled_t2_2_cutscene",
+        "npc.dt2_strangled_base_t2_2"
       ],
       "combatLevel" : 149,
       "hitpoints" : 50,
@@ -202,9 +202,9 @@
         12435
       ],
       "names" : [
-        "npc.strangled_12274",
-        "npc.strangled_12287",
-        "npc.strangled_12435"
+        "npc.dt2_strangled_ruins_t2_3",
+        "npc.dt2_strangled_t2_3_cutscene",
+        "npc.dt2_strangled_base_t2_3"
       ],
       "combatLevel" : 149,
       "hitpoints" : 50,

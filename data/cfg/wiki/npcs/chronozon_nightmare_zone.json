@@ -8,7 +8,7 @@
         6292
       ],
       "names" : [
-        "npc.chronozon_hard"
+        "npc.nzone_chronozon_hard"
       ],
       "combatLevel" : 297,
       "hitpoints" : 120,
@@ -37,7 +37,7 @@
         6354
       ],
       "names" : [
-        "npc.chronozon_6354"
+        "npc.nzone_chronozon_normal"
       ],
       "combatLevel" : 170,
       "hitpoints" : 60,

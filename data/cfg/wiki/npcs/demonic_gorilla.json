@@ -10,9 +10,9 @@
         7146
       ],
       "names" : [
-        "npc.demonic_gorilla",
-        "npc.demonic_gorilla_7145",
-        "npc.demonic_gorilla_7146"
+        "npc.mm2_demon_gorilla_1_melee",
+        "npc.mm2_demon_gorilla_1_ranged",
+        "npc.mm2_demon_gorilla_1_magic"
       ],
       "combatLevel" : 275,
       "hitpoints" : 380,
@@ -49,10 +49,10 @@
         7152
       ],
       "names" : [
-        "npc.demonic_gorilla_7147",
-        "npc.demonic_gorilla_7148",
-        "npc.demonic_gorilla_7149",
-        "npc.demonic_gorilla_7152"
+        "npc.mm2_demon_gorilla_2_melee",
+        "npc.mm2_demon_gorilla_2_ranged",
+        "npc.mm2_demon_gorilla_2_magic",
+        "npc.mm2_demon_gorilla_noncombat"
       ],
       "combatLevel" : 275,
       "hitpoints" : 380,

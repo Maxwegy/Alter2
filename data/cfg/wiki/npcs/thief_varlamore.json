@@ -8,7 +8,7 @@
         13291
       ],
       "names" : [
-        "npc.thief_13291"
+        "npc.varlamore_thief_m_1"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -33,7 +33,7 @@
         13292
       ],
       "names" : [
-        "npc.thief_13292"
+        "npc.varlamore_thief_m_2"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -58,7 +58,7 @@
         13293
       ],
       "names" : [
-        "npc.thief_13293"
+        "npc.varlamore_thief_m_3"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -83,7 +83,7 @@
         13294
       ],
       "names" : [
-        "npc.thief_13294"
+        "npc.varlamore_thief_f_1"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -108,7 +108,7 @@
         13295
       ],
       "names" : [
-        "npc.thief_13295"
+        "npc.varlamore_thief_f_2"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -133,7 +133,7 @@
         13296
       ],
       "names" : [
-        "npc.thief_13296"
+        "npc.varlamore_thief_f_3"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,

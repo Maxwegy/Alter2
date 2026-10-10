@@ -26,27 +26,27 @@
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 2832, "name" : "item.key_medium", "min" : 1, "max" : 1 }
+        { "item" : 2832, "name" : "item.trail_clue_medium_riddle001_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 554, "name" : "item.fire_rune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 556, "name" : "item.air_rune", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 561, "name" : "item.nature_rune", "min" : 2, "max" : 2, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 3, 64 ], "wiki" : "6/128" },
-        { "item" : 563, "name" : "item.law_rune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 556, "name" : "item.airrune", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 9, "max" : 9, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 2, "max" : 2, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 2, "max" : 2, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 563, "name" : "item.lawrune", "min" : 2, "max" : 2, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
         { "item" : 882, "name" : "item.bronze_arrow", "min" : 9, "max" : 9, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 882, "name" : "item.bronze_arrow", "min" : 12, "max" : 12, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 7, "max" : 7, "chance" : [ 1, 16 ], "wiki" : "8/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 12, "max" : 12, "chance" : [ 3, 64 ], "wiki" : "6/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 25, "max" : 25, "chance" : [ 13, 128 ], "wiki" : "13/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 35, "max" : 35, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 55, "max" : 55, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 1025, "name" : "item.right_eye_patch", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 7, "max" : 7, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 12, "max" : 12, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 25, "max" : 25, "chance" : [ 13, 128 ], "wiki" : "13/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 35, "max" : 35, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 55, "max" : 55, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 1025, "name" : "item.eye_patch", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
         { "item" : 1115, "name" : "item.iron_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1203, "name" : "item.iron_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
@@ -60,8 +60,8 @@
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
         { "item" : 1949, "name" : "item.chefs_hat", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 2351, "name" : "item.iron_bar", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
-        { "item" : 9140, "name" : "item.iron_bolts", "min" : 2, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 9140, "name" : "item.xbows_crossbow_bolts_iron", "min" : 2, "max" : 12, "chance" : [ 5, 64 ], "wiki" : "10/128" }
       ],
       "tertiary" : [
         { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 6 ], "wiki" : "1/6" }
@@ -74,10 +74,10 @@
         6993
       ],
       "main" : [
-        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 304 ], "wiki" : "1/304" }
+        { "item" : 21257, "name" : "item.slayer_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 304 ], "wiki" : "1/304" }
       ],
       "tertiary" : [
-        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 1074 ], "wiki" : "1/1,074" }
+        { "item" : 23490, "name" : "item.slayer_wilderness_key", "min" : 1, "max" : 1, "chance" : [ 1, 1074 ], "wiki" : "1/1,074" }
       ]
     }
   ]

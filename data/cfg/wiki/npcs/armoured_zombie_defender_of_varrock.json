@@ -17,16 +17,16 @@
         12758
       ],
       "names" : [
-        "npc.armoured_zombie_12730",
-        "npc.armoured_zombie_12731",
-        "npc.armoured_zombie_12732",
-        "npc.armoured_zombie_12733",
-        "npc.armoured_zombie_12734",
-        "npc.armoured_zombie_12736",
-        "npc.armoured_zombie_12738",
-        "npc.armoured_zombie_12755",
-        "npc.armoured_zombie_12757",
-        "npc.armoured_zombie_12758"
+        "npc.dov_armoured_zombie_varrock_melee_1",
+        "npc.dov_armoured_zombie_varrock_melee_2",
+        "npc.dov_armoured_zombie_varrock_melee_3",
+        "npc.dov_armoured_zombie_varrock_melee_4",
+        "npc.dov_armoured_zombie_varrock_melee_5",
+        "npc.dov_armoured_zombie_varrock_ranged_2",
+        "npc.dov_armoured_zombie_varrock_ranged_4",
+        "npc.dov_armoured_zombie_varrock_melee_1_huntplayer",
+        "npc.dov_armoured_zombie_varrock_melee_3_huntplayer",
+        "npc.dov_armoured_zombie_varrock_melee_4_huntplayer"
       ],
       "combatLevel" : 82,
       "hitpoints" : 75,
@@ -62,12 +62,12 @@
         12764
       ],
       "names" : [
-        "npc.armoured_zombie_12735",
-        "npc.armoured_zombie_12738",
-        "npc.armoured_zombie_12739",
-        "npc.armoured_zombie_12761",
-        "npc.armoured_zombie_12763",
-        "npc.armoured_zombie_12764"
+        "npc.dov_armoured_zombie_varrock_ranged_1",
+        "npc.dov_armoured_zombie_varrock_ranged_4",
+        "npc.dov_armoured_zombie_varrock_ranged_5",
+        "npc.dov_armoured_zombie_varrock_ranged_2_huntplayer",
+        "npc.dov_armoured_zombie_varrock_ranged_4_huntplayer",
+        "npc.dov_armoured_zombie_varrock_ranged_5_huntplayer"
       ],
       "combatLevel" : 82,
       "hitpoints" : 75,

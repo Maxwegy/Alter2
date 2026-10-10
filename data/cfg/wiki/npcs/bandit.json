@@ -8,7 +8,7 @@
         6605
       ],
       "names" : [
-        "npc.bandit_6605"
+        "npc.wilderness_bandit"
       ],
       "combatLevel" : 130,
       "hitpoints" : 155,
@@ -35,7 +35,7 @@
         1026
       ],
       "names" : [
-        "npc.bandit_1026"
+        "npc.brawling_bandit"
       ],
       "combatLevel" : 22,
       "hitpoints" : 27,

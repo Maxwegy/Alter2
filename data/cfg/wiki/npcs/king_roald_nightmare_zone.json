@@ -8,7 +8,7 @@
         6328
       ],
       "names" : [
-        "npc.king_roald_hard"
+        "npc.nzone_surok_king_hard"
       ],
       "combatLevel" : 188,
       "hitpoints" : 150,
@@ -33,7 +33,7 @@
         6389
       ],
       "names" : [
-        "npc.king_roald_6389"
+        "npc.nzone_surok_king_normal"
       ],
       "combatLevel" : 47,
       "hitpoints" : 75,

@@ -8,8 +8,8 @@
       ],
       "main" : [
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "rolls" : 9, "wiki" : "1/16,384" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "rolls" : 9, "wiki" : "1/16,384" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "rolls" : 9, "wiki" : "1/16,384" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "rolls" : 9, "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "rolls" : 9, "wiki" : "1/16,384" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "rolls" : 9, "wiki" : "1/262,144" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "rolls" : 9, "wiki" : "1/699,050.67" },
         { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "rolls" : 9, "wiki" : "1/5,461.33" },
@@ -17,7 +17,7 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 9, "wiki" : "1/2,048" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "rolls" : 9, "wiki" : "1/1,024" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 9, "wiki" : "1/512" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "rolls" : 9, "wiki" : "1/524,288" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "rolls" : 9, "wiki" : "1/524,288" }
       ]
     }
   ]

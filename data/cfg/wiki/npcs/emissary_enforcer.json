@@ -1,0 +1,30 @@
+{
+  "page" : "Emissary Enforcer",
+  "versions" : [
+    {
+      "source" : "Emissary Enforcer",
+      "ids" : [
+        14268
+      ],
+      "names" : [
+        "npc.vmq4_temple_guard_boss_fight"
+      ],
+      "combatLevel" : 196,
+      "hitpoints" : 126,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 220, "strength" : 170, "defence" : 100, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 80, "crushDefence" : 50, "magicDefence" : 180, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 80, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "18 (Standard)",
+        "30+ (Charge)"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

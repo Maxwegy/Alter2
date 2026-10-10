@@ -8,7 +8,7 @@
         7233
       ],
       "names" : [
-        "npc.lucky_impling"
+        "npc.ii_impling_type_11"
       ],
       "hitpoints" : 10,
       "attackSpeed" : 0,
@@ -31,7 +31,7 @@
         7302
       ],
       "names" : [
-        "npc.lucky_impling_7302"
+        "npc.ii_impling_type_11_maze"
       ],
       "hitpoints" : 10,
       "attackSpeed" : 0,

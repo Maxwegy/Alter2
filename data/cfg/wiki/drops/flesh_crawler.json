@@ -10,15 +10,15 @@
       ],
       "main" : [
         { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 3, "max" : 12, "chance" : [ 19, 100 ], "wiki" : "19/100" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 3, "max" : 12, "chance" : [ 19, 100 ], "wiki" : "19/100" },
         { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "4/100" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 84, "chance" : [ 7, 100 ], "wiki" : "7/100" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 84, "chance" : [ 7, 100 ], "wiki" : "7/100" },
+        { "item" : 995, "name" : "item.coins", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "4/100" },
         { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 3200 ], "wiki" : "1/3,200" },
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
-        { "item" : 9011, "name" : "item.bottom_of_sceptre", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" }
+        { "item" : 9011, "name" : "item.sos_half_sceptre2", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" }
       ]
     },
     {
@@ -29,26 +29,26 @@
         2500
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 5, 57 ], "wiki" : "1/11.4" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 5, 76 ], "wiki" : "1/15.2" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 203 ], "wiki" : "1/20.3" },
-        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 261 ], "wiki" : "1/26.1" },
-        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 5, 166 ], "wiki" : "1/33.2" },
-        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 10, 457 ], "wiki" : "1/45.7" },
-        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 1, 61 ], "wiki" : "1/61" },
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 731 ], "wiki" : "1/73.1" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 457 ], "wiki" : "1/91.4" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 1219 ], "wiki" : "1/121.9" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 5, 57 ], "wiki" : "1/11.4" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 5, 76 ], "wiki" : "1/15.2" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 203 ], "wiki" : "1/20.3" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 261 ], "wiki" : "1/26.1" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 5, 166 ], "wiki" : "1/33.2" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 10, 457 ], "wiki" : "1/45.7" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 1, 61 ], "wiki" : "1/61" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 731 ], "wiki" : "1/73.1" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 5, 457 ], "wiki" : "1/91.4" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 1219 ], "wiki" : "1/121.9" },
         { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
-        { "item" : 441, "name" : "item.iron_ore_noted", "min" : 3, "max" : 7, "noted" : true, "chance" : [ 3, 25 ], "wiki" : "12/100" },
-        { "item" : 554, "name" : "item.fire_rune", "min" : 42, "max" : 42, "chance" : [ 1, 25 ], "wiki" : "4/100" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 3, "max" : 12, "chance" : [ 1, 10 ], "wiki" : "10/100" },
-        { "item" : 561, "name" : "item.nature_rune", "min" : 5, "max" : 5, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 441, "name" : "item.cert_iron_ore", "min" : 3, "max" : 7, "noted" : true, "chance" : [ 3, 25 ], "wiki" : "12/100" },
+        { "item" : 554, "name" : "item.firerune", "min" : 42, "max" : 42, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 3, "max" : 12, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 5, "max" : 5, "chance" : [ 1, 25 ], "wiki" : "4/100" },
         { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "4/100" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 84, "chance" : [ 7, 100 ], "wiki" : "7/100" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 84, "chance" : [ 7, 100 ], "wiki" : "7/100" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 102400 ], "wiki" : "1/102,400" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 27306667 ], "wiki" : "1/273,066.67" },
         { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 213333 ], "wiki" : "1/2,133.33" },
@@ -57,10 +57,10 @@
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
         { "item" : 2355, "name" : "item.silver_bar", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "2/100" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 1219 ], "wiki" : "1/121.9" },
-        { "item" : 4696, "name" : "item.dust_rune", "min" : 3, "max" : 9, "chance" : [ 1, 10 ], "wiki" : "10/100" },
-        { "item" : 9011, "name" : "item.bottom_of_sceptre", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 1219 ], "wiki" : "1/121.9" },
+        { "item" : 4696, "name" : "item.dustrune", "min" : 3, "max" : 9, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 9011, "name" : "item.sos_half_sceptre2", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" }
       ]
     }
   ]

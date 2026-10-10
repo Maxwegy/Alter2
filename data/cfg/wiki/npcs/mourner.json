@@ -8,7 +8,7 @@
         9017
       ],
       "names" : [
-        "npc.mourner_9017"
+        "npc.mourner_hideout_guard_vis"
       ],
       "combatLevel" : 108,
       "hitpoints" : 105,
@@ -34,7 +34,7 @@
         9013
       ],
       "names" : [
-        "npc.mourner_9013"
+        "npc.mourning_overpass_mourner_vis"
       ],
       "combatLevel" : 11,
       "hitpoints" : 19,

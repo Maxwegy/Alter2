@@ -8,7 +8,7 @@
         5616
       ],
       "names" : [
-        "npc.swamp_snake_5616"
+        "npc.templetrek_snake_2"
       ],
       "combatLevel" : 109,
       "hitpoints" : 125,
@@ -33,7 +33,7 @@
         5617
       ],
       "names" : [
-        "npc.swamp_snake_5617"
+        "npc.templetrek_snake_3"
       ],
       "combatLevel" : 139,
       "hitpoints" : 130,
@@ -58,7 +58,7 @@
         5615
       ],
       "names" : [
-        "npc.swamp_snake"
+        "npc.templetrek_snake_1"
       ],
       "combatLevel" : 80,
       "hitpoints" : 120,

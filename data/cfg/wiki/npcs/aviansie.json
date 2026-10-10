@@ -8,7 +8,7 @@
         3183
       ],
       "names" : [
-        "npc.aviansie_3183"
+        "npc.godwars_armadyl_female_armor03_blue"
       ],
       "combatLevel" : 131,
       "hitpoints" : 115,
@@ -39,7 +39,7 @@
         3175
       ],
       "names" : [
-        "npc.aviansie_3175"
+        "npc.godwars_armadyl_male_armor03_green"
       ],
       "combatLevel" : 137,
       "hitpoints" : 124,
@@ -70,7 +70,7 @@
         3176
       ],
       "names" : [
-        "npc.aviansie_3176"
+        "npc.godwars_armadyl_male_armor03_red"
       ],
       "combatLevel" : 148,
       "hitpoints" : 139,
@@ -101,7 +101,7 @@
         3169
       ],
       "names" : [
-        "npc.aviansie"
+        "npc.godwars_armadyl_male_armor01_blue"
       ],
       "combatLevel" : 69,
       "hitpoints" : 70,
@@ -132,7 +132,7 @@
         3177
       ],
       "names" : [
-        "npc.aviansie_3177"
+        "npc.godwars_armadyl_female_armor01_blue"
       ],
       "combatLevel" : 71,
       "hitpoints" : 63,
@@ -163,7 +163,7 @@
         3178
       ],
       "names" : [
-        "npc.aviansie_3178"
+        "npc.godwars_armadyl_female_armor01_green"
       ],
       "combatLevel" : 73,
       "hitpoints" : 67,
@@ -194,7 +194,7 @@
         3170
       ],
       "names" : [
-        "npc.aviansie_3170"
+        "npc.godwars_armadyl_male_armor01_green"
       ],
       "combatLevel" : 79,
       "hitpoints" : 83,
@@ -225,7 +225,7 @@
         3179
       ],
       "names" : [
-        "npc.aviansie_3179"
+        "npc.godwars_armadyl_female_armor01_red"
       ],
       "combatLevel" : 79,
       "hitpoints" : 77,
@@ -256,7 +256,7 @@
         3172
       ],
       "names" : [
-        "npc.aviansie_3172"
+        "npc.godwars_armadyl_male_armor02_blue"
       ],
       "combatLevel" : 83,
       "hitpoints" : 86,
@@ -287,7 +287,7 @@
         3171
       ],
       "names" : [
-        "npc.aviansie_3171"
+        "npc.godwars_armadyl_male_armor01_red"
       ],
       "combatLevel" : 84,
       "hitpoints" : 86,
@@ -318,7 +318,7 @@
         3180
       ],
       "names" : [
-        "npc.aviansie_3180"
+        "npc.godwars_armadyl_female_armor02_blue"
       ],
       "combatLevel" : 89,
       "hitpoints" : 69,
@@ -349,7 +349,7 @@
         3173
       ],
       "names" : [
-        "npc.aviansie_3173"
+        "npc.godwars_armadyl_male_armor02_green"
       ],
       "combatLevel" : 92,
       "hitpoints" : 95,
@@ -380,7 +380,7 @@
         3181
       ],
       "names" : [
-        "npc.aviansie_3181"
+        "npc.godwars_armadyl_female_armor02_green"
       ],
       "combatLevel" : 94,
       "hitpoints" : 75,
@@ -411,7 +411,7 @@
         3174
       ],
       "names" : [
-        "npc.aviansie_3174"
+        "npc.godwars_armadyl_male_armor02_red"
       ],
       "combatLevel" : 97,
       "hitpoints" : 98,
@@ -442,7 +442,7 @@
         3182
       ],
       "names" : [
-        "npc.aviansie_3182"
+        "npc.godwars_armadyl_female_armor02_red"
       ],
       "combatLevel" : 97,
       "hitpoints" : 79,

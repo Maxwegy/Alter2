@@ -1,0 +1,61 @@
+{
+  "page" : "Veiled kraken",
+  "tables" : [
+    {
+      "source" : "Veiled kraken",
+      "npcIds" : [
+        15576
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 10, 1209 ], "wiki" : "1/120.9" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 5, 806 ], "wiki" : "1/161.2" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 2149 ], "wiki" : "1/214.9" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 2763 ], "wiki" : "1/276.3" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 10, 3517 ], "wiki" : "1/351.7" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 5, 2418 ], "wiki" : "1/483.6" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 6447 ], "wiki" : "1/644.7" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 10, 7737 ], "wiki" : "1/773.7" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 10, 9671 ], "wiki" : "1/967.1" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 2, 2579 ], "wiki" : "1/1,289.5" },
+        { "item" : 413, "name" : "item.bigoysterpearls", "min" : 1, "max" : 1, "chance" : [ 5, 136 ], "wiki" : "10/272" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 500, "max" : 750, "chance" : [ 5, 136 ], "wiki" : "10/272" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 500, "max" : 750, "chance" : [ 5, 136 ], "wiki" : "10/272" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 50, "max" : 75, "chance" : [ 1, 34 ], "wiki" : "8/272" },
+        { "item" : 565, "name" : "item.bloodrune", "min" : 30, "max" : 40, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 1079, "name" : "item.rune_platelegs", "min" : 1, "max" : 1, "chance" : [ 5, 68 ], "wiki" : "20/272" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 5, 68 ], "wiki" : "20/272" },
+        { "item" : 1395, "name" : "item.water_battlestaff", "min" : 1, "max" : 1, "chance" : [ 15, 136 ], "wiki" : "30/272" },
+        { "item" : 1399, "name" : "item.earth_battlestaff", "min" : 1, "max" : 1, "chance" : [ 15, 136 ], "wiki" : "30/272" },
+        { "item" : 1403, "name" : "item.mystic_water_staff", "min" : 1, "max" : 1, "chance" : [ 15, 136 ], "wiki" : "30/272" },
+        { "item" : 1407, "name" : "item.mystic_earth_staff", "min" : 1, "max" : 1, "chance" : [ 15, 136 ], "wiki" : "30/272" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 2, 2579 ], "wiki" : "1/1,289.5" },
+        { "item" : 4089, "name" : "item.mystic_hat", "min" : 1, "max" : 1, "chance" : [ 3, 272 ], "wiki" : "3/272" },
+        { "item" : 4095, "name" : "item.mystic_gloves", "min" : 1, "max" : 1, "chance" : [ 3, 272 ], "wiki" : "3/272" },
+        { "item" : 4097, "name" : "item.mystic_boots", "min" : 1, "max" : 1, "chance" : [ 3, 272 ], "wiki" : "3/272" },
+        { "item" : 6287, "name" : "item.village_snake_hide", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 9342, "name" : "item.xbows_crossbow_bolts_runite_tipped_onyx", "min" : 10, "max" : 20, "chance" : [ 1, 136 ], "wiki" : "2/272" },
+        { "item" : 12073, "name" : "item.trail_elite_emote_exp1", "min" : 1, "max" : 1, "chance" : [ 1, 140 ], "wiki" : "1/140", "approx" : true },
+        { "item" : 21504, "name" : "item.giant_seaweed", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 31432, "name" : "item.plank_camphor", "min" : 1, "max" : 1, "chance" : [ 3, 272 ], "wiki" : "3/272" },
+        { "item" : 31547, "name" : "item.camphor_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1813 ], "wiki" : "1/181.3" },
+        { "item" : 31549, "name" : "item.ironwood_seed", "min" : 1, "max" : 1, "chance" : [ 1, 680 ], "wiki" : "1/680" },
+        { "item" : 31551, "name" : "item.rosewood_seed", "min" : 1, "max" : 1, "chance" : [ 1, 2720 ], "wiki" : "1/2,720" },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 80, "max" : 100, "chance" : [ 5, 136 ], "wiki" : "10/272" },
+        { "item" : 31916, "name" : "item.dragon_cannonball", "min" : 25, "max" : 35, "chance" : [ 3, 272 ], "wiki" : "3/272" },
+        { "item" : 31979, "name" : "item.boat_repair_kit_ironwood", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 31982, "name" : "item.boat_repair_kit_rosewood", "min" : 1, "max" : 1, "chance" : [ 1, 272 ], "wiki" : "1/272" },
+        { "item" : 31996, "name" : "item.dragon_sheet", "min" : 1, "max" : 2, "chance" : [ 1, 180 ], "wiki" : "2/360" },
+        { "item" : 32017, "name" : "item.sailing_boat_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 360 ], "wiki" : "1/360" },
+        { "item" : 32038, "name" : "item.sailing_boat_large_keel_part_dragon", "min" : 1, "max" : 1, "chance" : [ 1, 360 ], "wiki" : "1/360" },
+        { "item" : 32093, "name" : "item.sailing_paint_inky", "min" : 1, "max" : 1, "chance" : [ 1, 1900 ], "wiki" : "1/1,900", "approx" : true },
+        { "item" : 32115, "name" : "item.dragon_cannon_barrel", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "1/500" },
+        { "item" : 32333, "name" : "item.raw_halibut", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 32341, "name" : "item.raw_bluefin", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 32861, "name" : "item.sailing_merchant_shipwreck_salvage", "min" : 1, "max" : 1, "chance" : [ 5, 272 ], "wiki" : "5/272" },
+        { "item" : 33144, "name" : "item.sailing_veiled_kraken_tentacle", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 33145, "name" : "item.sailing_veiled_kraken_ink_sac", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" }
+      ]
+    }
+  ]
+}

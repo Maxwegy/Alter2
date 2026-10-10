@@ -1,0 +1,37 @@
+{
+  "page" : "Blink",
+  "versions" : [
+    {
+      "source" : "Blink#1",
+      "version" : "1",
+      "ids" : [
+        16598
+      ],
+      "names" : [
+        "npc.pvptut_combo_eating_npc_agsmaul_spec"
+      ],
+      "combatLevel" : 126,
+      "hitpoints" : 99,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 1, "defence" : 99, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Blink#2",
+      "version" : "2",
+      "ids" : [
+        16625
+      ],
+      "names" : [
+        "npc.pvptut_sa_npc_partner_1"
+      ],
+      "combatLevel" : 126,
+      "hitpoints" : 99,
+      "attackSpeed" : 6,
+      "size" : 1,
+      "levels" : { "attack" : 99, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

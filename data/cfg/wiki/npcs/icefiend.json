@@ -8,7 +8,7 @@
         4813
       ],
       "names" : [
-        "npc.icefiend_4813"
+        "npc.slayer_icefiend_1"
       ],
       "combatLevel" : 13,
       "hitpoints" : 15,
@@ -39,7 +39,7 @@
         3140
       ],
       "names" : [
-        "npc.icefiend"
+        "npc.godwars_icefiend_1"
       ],
       "combatLevel" : 18,
       "hitpoints" : 20,

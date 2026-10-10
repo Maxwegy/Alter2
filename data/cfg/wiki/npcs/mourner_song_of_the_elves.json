@@ -8,7 +8,7 @@
         8846
       ],
       "names" : [
-        "npc.mourner_8846"
+        "npc.sote_mourner_3"
       ],
       "combatLevel" : 106,
       "hitpoints" : 100,
@@ -33,7 +33,7 @@
         8844
       ],
       "names" : [
-        "npc.mourner_8844"
+        "npc.sote_mourner_1"
       ],
       "combatLevel" : 24,
       "hitpoints" : 13,
@@ -58,7 +58,7 @@
         8845
       ],
       "names" : [
-        "npc.mourner_8845"
+        "npc.sote_mourner_2"
       ],
       "combatLevel" : 51,
       "hitpoints" : 29,

@@ -8,7 +8,7 @@
         7307
       ],
       "names" : [
-        "npc.ancient_wizard"
+        "npc.trail_zaros_wizard"
       ],
       "combatLevel" : 98,
       "hitpoints" : 80,
@@ -33,7 +33,7 @@
         7309
       ],
       "names" : [
-        "npc.ancient_wizard_7309"
+        "npc.trail_zaros_melee"
       ],
       "combatLevel" : 112,
       "hitpoints" : 80,
@@ -58,7 +58,7 @@
         7308
       ],
       "names" : [
-        "npc.ancient_wizard_7308"
+        "npc.trail_zaros_range"
       ],
       "combatLevel" : 98,
       "hitpoints" : 80,

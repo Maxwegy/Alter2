@@ -8,7 +8,7 @@
         7533
       ],
       "names" : [
-        "npc.abyssal_portal"
+        "npc.raids_vespula_portal"
       ],
       "hitpoints" : 370,
       "attackSpeed" : 2,
@@ -36,7 +36,7 @@
         7533
       ],
       "names" : [
-        "npc.abyssal_portal"
+        "npc.raids_vespula_portal"
       ],
       "hitpoints" : 250,
       "attackSpeed" : 2,

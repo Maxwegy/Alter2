@@ -7,7 +7,7 @@
         9051
       ],
       "always" : [
-        { "item" : 23907, "name" : "item.imbued_tephra", "min" : 16, "max" : 24 }
+        { "item" : 23907, "name" : "item.zalcano_imbued_ore", "min" : 16, "max" : 24 }
       ]
     }
   ]

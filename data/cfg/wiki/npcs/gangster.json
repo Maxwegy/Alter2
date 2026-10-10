@@ -8,7 +8,7 @@
         6896
       ],
       "names" : [
-        "npc.gangster"
+        "npc.shayzien_criminal_1"
       ],
       "combatLevel" : 45,
       "hitpoints" : 40,
@@ -33,7 +33,7 @@
         6897
       ],
       "names" : [
-        "npc.gangster_6897"
+        "npc.shayzien_criminal_2"
       ],
       "combatLevel" : 45,
       "hitpoints" : 40,
@@ -58,7 +58,7 @@
         6898
       ],
       "names" : [
-        "npc.gangster_6898"
+        "npc.shayzien_criminal_3"
       ],
       "combatLevel" : 50,
       "hitpoints" : 45,
@@ -83,7 +83,7 @@
         6899
       ],
       "names" : [
-        "npc.gangster_6899"
+        "npc.shayzien_criminal_4"
       ],
       "combatLevel" : 50,
       "hitpoints" : 30,

@@ -7,23 +7,23 @@
         7402
       ],
       "always" : [
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1 }
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 3, "chance" : [ 5, 33 ], "rolls" : 3, "wiki" : "1/6.6" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 3, "chance" : [ 5, 44 ], "rolls" : 3, "wiki" : "1/8.8" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 3, "chance" : [ 10, 117 ], "rolls" : 3, "wiki" : "1/11.7" },
-        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 3, "chance" : [ 1, 15 ], "rolls" : 3, "wiki" : "1/15" },
-        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 3, "chance" : [ 10, 191 ], "rolls" : 3, "wiki" : "1/19.1" },
-        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 3, "chance" : [ 10, 263 ], "rolls" : 3, "wiki" : "1/26.3" },
-        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 3, "chance" : [ 1, 35 ], "rolls" : 3, "wiki" : "1/35" },
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 3, "chance" : [ 1, 42 ], "rolls" : 3, "wiki" : "1/42" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 3, "chance" : [ 2, 105 ], "rolls" : 3, "wiki" : "1/52.5" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 3, "chance" : [ 1, 70 ], "rolls" : 3, "wiki" : "1/70" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 3, "chance" : [ 5, 33 ], "rolls" : 3, "wiki" : "1/6.6" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 3, "chance" : [ 5, 44 ], "rolls" : 3, "wiki" : "1/8.8" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 3, "chance" : [ 10, 117 ], "rolls" : 3, "wiki" : "1/11.7" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 3, "chance" : [ 1, 15 ], "rolls" : 3, "wiki" : "1/15" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 3, "chance" : [ 10, 191 ], "rolls" : 3, "wiki" : "1/19.1" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 3, "chance" : [ 10, 263 ], "rolls" : 3, "wiki" : "1/26.3" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 3, "chance" : [ 1, 35 ], "rolls" : 3, "wiki" : "1/35" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 3, "chance" : [ 1, 42 ], "rolls" : 3, "wiki" : "1/42" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 3, "chance" : [ 2, 105 ], "rolls" : 3, "wiki" : "1/52.5" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 3, "chance" : [ 1, 70 ], "rolls" : 3, "wiki" : "1/70" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 5, 16384 ], "rolls" : 3, "wiki" : "1/3,276.8" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 16384 ], "rolls" : 3, "wiki" : "1/3,276.8" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 5, 16384 ], "rolls" : 3, "wiki" : "1/3,276.8" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 460, "max" : 460, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 5, 16384 ], "rolls" : 3, "wiki" : "1/3,276.8" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 5, 16384 ], "rolls" : 3, "wiki" : "1/3,276.8" },
+        { "item" : 995, "name" : "item.coins", "min" : 460, "max" : 460, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1073, "name" : "item.adamant_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1197, "name" : "item.mithril_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
@@ -35,11 +35,11 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 5, 2048 ], "rolls" : 3, "wiki" : "1/409.6" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 5, 1024 ], "rolls" : 3, "wiki" : "1/204.8" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 5, 512 ], "rolls" : 3, "wiki" : "1/102.4" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 5, 524288 ], "rolls" : 3, "wiki" : "1/104,857.6" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 3, "chance" : [ 1, 70 ], "rolls" : 3, "wiki" : "1/70" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 5, 524288 ], "rolls" : 3, "wiki" : "1/104,857.6" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 3, "chance" : [ 1, 70 ], "rolls" : 3, "wiki" : "1/70" },
         { "item" : 3053, "name" : "item.lava_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 4103, "name" : "item.mystic_robe_bottom_dark", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
-        { "item" : 5106, "name" : "item.poison_ivy_seed", "min" : 1, "max" : 1, "chance" : [ 10, 713 ], "rolls" : 3, "wiki" : "1/71.3" },
+        { "item" : 5106, "name" : "item.poisonivy_bush_seed", "min" : 1, "max" : 1, "chance" : [ 10, 713 ], "rolls" : 3, "wiki" : "1/71.3" },
         { "item" : 5280, "name" : "item.cactus_seed", "min" : 1, "max" : 1, "chance" : [ 2, 153 ], "rolls" : 3, "wiki" : "1/76.5" },
         { "item" : 5281, "name" : "item.belladonna_seed", "min" : 1, "max" : 1, "chance" : [ 5, 257 ], "rolls" : 3, "wiki" : "1/51.4" },
         { "item" : 5296, "name" : "item.toadflax_seed", "min" : 1, "max" : 1, "chance" : [ 1, 34 ], "rolls" : 3, "wiki" : "1/34" },
@@ -54,12 +54,12 @@
         { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 760 ], "wiki" : "1/760" },
         { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 217 ], "wiki" : "1/217" },
         { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 217 ], "wiki" : "1/217" },
-        { "item" : 21270, "name" : "item.eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 760 ], "wiki" : "1/760" },
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 760 ], "wiki" : "1/760" },
         { "item" : 22873, "name" : "item.potato_cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1049 ], "rolls" : 3, "wiki" : "1/104.9" },
         { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 3, "max" : 3, "chance" : [ 5, 1836 ], "rolls" : 3, "wiki" : "1/367.2" }
       ],
       "tertiary" : [
-        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
       ]
     }
   ]

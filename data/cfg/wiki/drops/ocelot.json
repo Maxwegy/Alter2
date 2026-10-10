@@ -1,0 +1,16 @@
+{
+  "page" : "Ocelot",
+  "tables" : [
+    {
+      "source" : "Ocelot",
+      "npcIds" : [
+        14545,
+        14546,
+        14547
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

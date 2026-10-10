@@ -8,7 +8,7 @@
         2043
       ],
       "names" : [
-        "npc.zulrah_2043"
+        "npc.snakeboss_boss_melee"
       ],
       "combatLevel" : 725,
       "hitpoints" : 500,
@@ -35,7 +35,7 @@
         2042
       ],
       "names" : [
-        "npc.zulrah"
+        "npc.snakeboss_boss_ranged"
       ],
       "combatLevel" : 725,
       "hitpoints" : 500,
@@ -62,7 +62,7 @@
         2044
       ],
       "names" : [
-        "npc.zulrah_2044"
+        "npc.snakeboss_boss_magic"
       ],
       "combatLevel" : 725,
       "hitpoints" : 500,

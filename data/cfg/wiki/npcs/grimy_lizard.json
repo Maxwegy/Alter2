@@ -4,10 +4,12 @@
     {
       "source" : "Grimy Lizard",
       "ids" : [
-        13029
+        13029,
+        14430
       ],
       "names" : [
-        "npc.grimy_lizard"
+        "npc.grimy_lizard",
+        "npc.crypt_of_tonali_grimy_lizard"
       ],
       "combatLevel" : 50,
       "hitpoints" : 75,

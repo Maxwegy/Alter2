@@ -8,7 +8,7 @@
         5355
       ],
       "names" : [
-        "npc.nazastarool_5355"
+        "npc.zq_mainzombie3"
       ],
       "combatLevel" : 93,
       "hitpoints" : 80,
@@ -39,7 +39,7 @@
         5354
       ],
       "names" : [
-        "npc.nazastarool_5354"
+        "npc.zq_mainzombie2"
       ],
       "combatLevel" : 68,
       "hitpoints" : 70,
@@ -69,7 +69,7 @@
         5353
       ],
       "names" : [
-        "npc.nazastarool"
+        "npc.zq_mainzombie1"
       ],
       "combatLevel" : 91,
       "hitpoints" : 70,

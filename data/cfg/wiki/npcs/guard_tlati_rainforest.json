@@ -1,0 +1,205 @@
+{
+  "page" : "Guard (Tlati Rainforest)",
+  "versions" : [
+    {
+      "source" : "Guard (Tlati Rainforest)#1",
+      "version" : "1",
+      "ids" : [
+        14716
+      ],
+      "names" : [
+        "npc.tlati_guard_m_1"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#2",
+      "version" : "2",
+      "ids" : [
+        14717
+      ],
+      "names" : [
+        "npc.tlati_guard_m_2"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#3",
+      "version" : "3",
+      "ids" : [
+        14718
+      ],
+      "names" : [
+        "npc.tlati_guard_m_3"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 14, "ranged" : 19, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 4, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#4",
+      "version" : "4",
+      "ids" : [
+        14719
+      ],
+      "names" : [
+        "npc.tlati_guard_m_4"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 14, "ranged" : 19, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 4, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#5",
+      "version" : "5",
+      "ids" : [
+        14720
+      ],
+      "names" : [
+        "npc.tlati_guard_f_1"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#6",
+      "version" : "6",
+      "ids" : [
+        14721
+      ],
+      "names" : [
+        "npc.tlati_guard_f_2"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 18, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#7",
+      "version" : "7",
+      "ids" : [
+        14722
+      ],
+      "names" : [
+        "npc.tlati_guard_f_3"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 14, "ranged" : 19, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 4, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Tlati Rainforest)#8",
+      "version" : "8",
+      "ids" : [
+        14723
+      ],
+      "names" : [
+        "npc.tlati_guard_f_4"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 14, "ranged" : 19, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 4, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 20, "attackBonus" : 4, "strengthBonus" : 5, "rangedStrength" : 5, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

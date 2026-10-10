@@ -10,9 +10,9 @@
         1074
       ],
       "names" : [
-        "npc.hopeless_creature",
-        "npc.hopeless_creature_1073",
-        "npc.hopeless_creature_1074"
+        "npc.soulbane_hope_monst3",
+        "npc.soulbane_hope_monst2",
+        "npc.soulbane_hope_monst1"
       ],
       "combatLevel" : 40,
       "hitpoints" : 25,
@@ -40,7 +40,7 @@
         4695
       ],
       "names" : [
-        "npc.hopeless_creature_4695"
+        "npc.soulbane_less_beast3"
       ],
       "combatLevel" : 71,
       "hitpoints" : 71,

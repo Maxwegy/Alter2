@@ -8,7 +8,7 @@
         12360
       ],
       "names" : [
-        "npc.scarred_lesser_demon"
+        "npc.dt2_scar_maze_mage_demon"
       ],
       "combatLevel" : 121,
       "hitpoints" : 100,
@@ -37,7 +37,7 @@
         12362
       ],
       "names" : [
-        "npc.scarred_lesser_demon_12362"
+        "npc.dt2_scar_maze_melee_demon"
       ],
       "combatLevel" : 121,
       "hitpoints" : 100,
@@ -66,7 +66,7 @@
         12364
       ],
       "names" : [
-        "npc.scarred_lesser_demon_12364"
+        "npc.dt2_scar_maze_ranged_demon"
       ],
       "combatLevel" : 121,
       "hitpoints" : 100,
@@ -95,7 +95,7 @@
         12378
       ],
       "names" : [
-        "npc.scarred_lesser_demon_12378"
+        "npc.dt2_scar_maze_3_link_attacker"
       ],
       "combatLevel" : 121,
       "hitpoints" : 70,
@@ -124,7 +124,7 @@
         12390
       ],
       "names" : [
-        "npc.scarred_lesser_demon_12390"
+        "npc.dt2_scar_lesser_demon_2"
       ],
       "combatLevel" : 85,
       "hitpoints" : 79,

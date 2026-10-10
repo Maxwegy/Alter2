@@ -1,0 +1,31 @@
+{
+  "page" : "Chuck up",
+  "versions" : [
+    {
+      "source" : "Chuck up",
+      "ids" : [
+        15169
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_troll_thrower"
+      ],
+      "combatLevel" : 98,
+      "hitpoints" : 110,
+      "attackSpeed" : 7,
+      "size" : 1,
+      "levels" : { "attack" : 30, "strength" : 80, "defence" : 90, "ranged" : 99, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 200, "rangedDefence" : 120, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "9"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 110.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 20 }
+    }
+  ]
+}

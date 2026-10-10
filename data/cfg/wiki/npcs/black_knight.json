@@ -8,7 +8,7 @@
         11953
       ],
       "names" : [
-        "npc.black_knight_11953"
+        "npc.aggressive_black_knight_f"
       ],
       "combatLevel" : 33,
       "hitpoints" : 42,
@@ -36,8 +36,8 @@
         4331
       ],
       "names" : [
-        "npc.black_knight_517",
-        "npc.black_knight_4331"
+        "npc.aggressive_black_knight",
+        "npc.kr_aggressive_black_knight"
       ],
       "combatLevel" : 33,
       "hitpoints" : 42,
@@ -64,7 +64,7 @@
         11952
       ],
       "names" : [
-        "npc.black_knight_11952"
+        "npc.black_knight_f"
       ],
       "combatLevel" : 33,
       "hitpoints" : 42,

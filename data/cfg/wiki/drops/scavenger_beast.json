@@ -17,12 +17,12 @@
         { "item" : 1349, "name" : "item.iron_axe", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "rolls" : 2, "wiki" : "1/18" },
         { "item" : 1523, "name" : "item.lockpick", "min" : 1, "max" : 1, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
         { "item" : 2347, "name" : "item.hammer", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "rolls" : 2, "wiki" : "1/18" },
-        { "item" : 10010, "name" : "item.butterfly_net", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "rolls" : 2, "wiki" : "1/18" },
-        { "item" : 20853, "name" : "item.cave_worms", "min" : 30, "max" : 50, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
-        { "item" : 20910, "name" : "item.stinkhorn_mushroom", "min" : 3, "max" : 11, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
-        { "item" : 20911, "name" : "item.endarkened_juice", "min" : 5, "max" : 14, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
-        { "item" : 20912, "name" : "item.cicely", "min" : 3, "max" : 6, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
-        { "item" : 21036, "name" : "item.mallignum_root_plank", "min" : 2, "max" : 2, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" }
+        { "item" : 10010, "name" : "item.hunting_butterfly_net", "min" : 1, "max" : 1, "chance" : [ 1, 18 ], "rolls" : 2, "wiki" : "1/18" },
+        { "item" : 20853, "name" : "item.raids_fishingbait", "min" : 30, "max" : 50, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
+        { "item" : 20910, "name" : "item.raids_stinkhorn_mushroom", "min" : 3, "max" : 11, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
+        { "item" : 20911, "name" : "item.raids_endarkened_juice", "min" : 5, "max" : 14, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
+        { "item" : 20912, "name" : "item.raids_cicely", "min" : 3, "max" : 6, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" },
+        { "item" : 21036, "name" : "item.raids_plank", "min" : 2, "max" : 2, "chance" : [ 1, 9 ], "rolls" : 2, "wiki" : "2/18" }
       ]
     }
   ]

@@ -45,10 +45,10 @@
         8079
       ],
       "names" : [
-        "npc.red_dragon_248",
-        "npc.red_dragon_8075",
-        "npc.red_dragon_8078",
-        "npc.red_dragon_8079"
+        "npc.red_dragon2",
+        "npc.ds2_red_dragon_flying",
+        "npc.ds2_red_dragon_cutscene_flying",
+        "npc.ds2_red_dragon"
       ],
       "combatLevel" : 152,
       "hitpoints" : 140,
@@ -82,7 +82,7 @@
         249
       ],
       "names" : [
-        "npc.red_dragon_249"
+        "npc.red_dragon3"
       ],
       "combatLevel" : 152,
       "hitpoints" : 140,
@@ -116,7 +116,7 @@
         250
       ],
       "names" : [
-        "npc.red_dragon_250"
+        "npc.red_dragon4"
       ],
       "combatLevel" : 152,
       "hitpoints" : 140,
@@ -150,7 +150,7 @@
         251
       ],
       "names" : [
-        "npc.red_dragon_251"
+        "npc.red_dragon5"
       ],
       "combatLevel" : 152,
       "hitpoints" : 140,

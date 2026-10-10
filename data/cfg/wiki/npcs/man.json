@@ -10,9 +10,9 @@
         6987
       ],
       "names" : [
-        "npc.man_3106",
-        "npc.man_6818",
-        "npc.man_6987"
+        "npc.man",
+        "npc.man_indoor",
+        "npc.zeah_man"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -39,8 +39,8 @@
         6988
       ],
       "names" : [
-        "npc.man_3107",
-        "npc.man_6988"
+        "npc.man2",
+        "npc.zeah_man2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -67,8 +67,8 @@
         6989
       ],
       "names" : [
-        "npc.man_3108",
-        "npc.man_6989"
+        "npc.man3",
+        "npc.zeah_man3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -95,8 +95,8 @@
         6815
       ],
       "names" : [
-        "npc.man_3109",
-        "npc.man_6815"
+        "npc.man4",
+        "npc.death_man_indoors1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -122,7 +122,33 @@
         3110
       ],
       "names" : [
-        "npc.man_3110"
+        "npc.man4_for_musa_point"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
+      "respawnTicks" : 25,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Man#5",
+      "version" : "5",
+      "ids" : [
+        14920
+      ],
+      "names" : [
+        "npc.man5"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -148,7 +174,7 @@
         3261
       ],
       "names" : [
-        "npc.man_3261"
+        "npc.al_kharid_man"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -174,7 +200,7 @@
         3264
       ],
       "names" : [
-        "npc.man_3264"
+        "npc.falador_man2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -200,7 +226,7 @@
         3265
       ],
       "names" : [
-        "npc.man_3265"
+        "npc.falador_man3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -226,7 +252,7 @@
         3652
       ],
       "names" : [
-        "npc.man_3652"
+        "npc.karamja_man"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -252,7 +278,7 @@
         11057
       ],
       "names" : [
-        "npc.man_11057"
+        "npc.shayzien_man_1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -278,7 +304,7 @@
         11058
       ],
       "names" : [
-        "npc.man_11058"
+        "npc.shayzien_man_2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -303,7 +329,7 @@
         3014
       ],
       "names" : [
-        "npc.man_3014"
+        "npc.varrock_man1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,

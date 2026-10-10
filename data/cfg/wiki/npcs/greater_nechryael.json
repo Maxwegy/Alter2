@@ -8,7 +8,7 @@
         7278
       ],
       "names" : [
-        "npc.greater_nechryael"
+        "npc.kourend_nechryael"
       ],
       "combatLevel" : 200,
       "hitpoints" : 205,
@@ -38,7 +38,7 @@
         11240
       ],
       "names" : [
-        "npc.greater_nechryael_11240"
+        "npc.wild_cave_nechryael"
       ],
       "combatLevel" : 200,
       "hitpoints" : 205,

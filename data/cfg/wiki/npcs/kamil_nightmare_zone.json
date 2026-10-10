@@ -8,7 +8,7 @@
         1129
       ],
       "names" : [
-        "npc.kamil_hard"
+        "npc.nzone_icediamond_icewarrior_hard"
       ],
       "combatLevel" : 273,
       "hitpoints" : 255,
@@ -37,7 +37,7 @@
         6345
       ],
       "names" : [
-        "npc.kamil_6345"
+        "npc.nzone_icediamond_icewarrior_normal"
       ],
       "combatLevel" : 154,
       "hitpoints" : 130,

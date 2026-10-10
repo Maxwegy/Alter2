@@ -8,7 +8,7 @@
         2214
       ],
       "names" : [
-        "npc.knight_of_saradomin_2214"
+        "npc.godwars_saradomin_knight_2"
       ],
       "combatLevel" : 101,
       "hitpoints" : 108,
@@ -34,7 +34,7 @@
         2213
       ],
       "names" : [
-        "npc.knight_of_saradomin"
+        "npc.godwars_saradomin_knight_1"
       ],
       "combatLevel" : 103,
       "hitpoints" : 135,

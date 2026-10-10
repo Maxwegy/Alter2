@@ -1,0 +1,61 @@
+{
+  "page" : "Mogre (sea)",
+  "tables" : [
+    {
+      "source" : "Mogre (sea)",
+      "npcIds" : [
+        15230,
+        15232
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 10, "max" : 40, "chance" : [ 23, 128 ], "wiki" : "23/128" },
+        { "item" : 327, "name" : "item.raw_sardine", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 331, "name" : "item.raw_salmon", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 345, "name" : "item.raw_herring", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 349, "name" : "item.raw_pike", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 359, "name" : "item.raw_tuna", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 371, "name" : "item.raw_swordfish", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 383, "name" : "item.raw_shark", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 401, "name" : "item.seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 8 ], "wiki" : "16/128" },
+        { "item" : 407, "name" : "item.oystershell", "min" : 1, "max" : 1, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 20, "max" : 40, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1383, "name" : "item.staff_of_water", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 5100, "name" : "item.limpwurt_seed", "min" : 1, "max" : 1, "chance" : [ 1, 49 ], "wiki" : "1/49" },
+        { "item" : 5104, "name" : "item.jangerberry_bush_seed", "min" : 1, "max" : 1, "chance" : [ 10, 729 ], "wiki" : "1/72.9" },
+        { "item" : 5105, "name" : "item.whiteberry_bush_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1973 ], "wiki" : "1/197.3" },
+        { "item" : 5106, "name" : "item.poisonivy_bush_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5159 ], "wiki" : "1/515.9" },
+        { "item" : 5280, "name" : "item.cactus_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5589 ], "wiki" : "1/558.9" },
+        { "item" : 5281, "name" : "item.belladonna_seed", "min" : 1, "max" : 1, "chance" : [ 5, 1863 ], "wiki" : "1/372.6" },
+        { "item" : 5282, "name" : "item.mushroom_seed", "min" : 1, "max" : 1, "chance" : [ 10, 2313 ], "wiki" : "1/231.3" },
+        { "item" : 5292, "name" : "item.marrentill_seed", "min" : 1, "max" : 1, "chance" : [ 10, 537 ], "wiki" : "1/53.7" },
+        { "item" : 5293, "name" : "item.tarromin_seed", "min" : 1, "max" : 1, "chance" : [ 10, 789 ], "wiki" : "1/78.9" },
+        { "item" : 5294, "name" : "item.harralander_seed", "min" : 1, "max" : 1, "chance" : [ 5, 599 ], "wiki" : "1/119.8" },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 1, 172 ], "wiki" : "1/172" },
+        { "item" : 5296, "name" : "item.toadflax_seed", "min" : 1, "max" : 1, "chance" : [ 5, 1242 ], "wiki" : "1/248.4" },
+        { "item" : 5297, "name" : "item.irit_seed", "min" : 1, "max" : 1, "chance" : [ 5, 1863 ], "wiki" : "1/372.6" },
+        { "item" : 5298, "name" : "item.avantoe_seed", "min" : 1, "max" : 1, "chance" : [ 10, 5589 ], "wiki" : "1/558.9" },
+        { "item" : 5299, "name" : "item.kwuarm_seed", "min" : 1, "max" : 1, "chance" : [ 5, 3726 ], "wiki" : "1/745.2" },
+        { "item" : 5300, "name" : "item.snapdragon_seed", "min" : 1, "max" : 1, "chance" : [ 5, 6707 ], "wiki" : "1/1,341.4" },
+        { "item" : 5301, "name" : "item.cadantine_seed", "min" : 1, "max" : 1, "chance" : [ 5, 8384 ], "wiki" : "1/1,676.8" },
+        { "item" : 5302, "name" : "item.lantadyme_seed", "min" : 1, "max" : 1, "chance" : [ 10, 22357 ], "wiki" : "1/2,235.7" },
+        { "item" : 5303, "name" : "item.dwarf_weed_seed", "min" : 1, "max" : 1, "chance" : [ 5, 16768 ], "wiki" : "1/3,353.6" },
+        { "item" : 5304, "name" : "item.torstol_seed", "min" : 1, "max" : 1, "chance" : [ 5, 33536 ], "wiki" : "1/6,707.2" },
+        { "item" : 5311, "name" : "item.wildblood_hop_seed", "min" : 1, "max" : 1, "chance" : [ 5, 404 ], "wiki" : "1/80.8" },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 1, "max" : 1, "chance" : [ 2, 213 ], "wiki" : "1/106.5" },
+        { "item" : 5323, "name" : "item.strawberry_seed", "min" : 1, "max" : 1, "chance" : [ 5, 256 ], "wiki" : "1/51.2" },
+        { "item" : 6665, "name" : "item.mudskipper_hat", "min" : 1, "max" : 1, "chance" : [ 1, 30 ], "wiki" : "2/60" },
+        { "item" : 6666, "name" : "item.mudskipper_flippers", "min" : 1, "max" : 1, "chance" : [ 1, 60 ], "wiki" : "1/60" },
+        { "item" : 6668, "name" : "item.fishbowl_water", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 21504, "name" : "item.giant_seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 22873, "name" : "item.potato_cactus_seed", "min" : 1, "max" : 1, "chance" : [ 5, 4192 ], "wiki" : "1/838.4" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 1, "chance" : [ 10, 1677 ], "wiki" : "1/167.7" },
+        { "item" : 32827, "name" : "item.sailing_sea_mogre_mace", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
+        { "item" : 32846, "name" : "item.sailing_sea_mogre_head", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" }
+      ]
+    }
+  ]
+}

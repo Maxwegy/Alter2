@@ -8,7 +8,7 @@
         1268
       ],
       "names" : [
-        "npc.vulture_1268"
+        "npc.rag_vulture_flying"
       ],
       "combatLevel" : 31,
       "hitpoints" : 10,
@@ -36,7 +36,7 @@
         1267
       ],
       "names" : [
-        "npc.vulture"
+        "npc.rag_vulture"
       ],
       "combatLevel" : 31,
       "hitpoints" : 10,

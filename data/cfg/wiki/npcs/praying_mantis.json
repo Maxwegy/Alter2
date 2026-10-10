@@ -1,0 +1,80 @@
+{
+  "page" : "Praying mantis",
+  "versions" : [
+    {
+      "source" : "Praying mantis#Brown",
+      "version" : "Brown",
+      "ids" : [
+        15431
+      ],
+      "names" : [
+        "npc.praying_mantis_brown"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 12, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 15, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Praying mantis#Green",
+      "version" : "Green",
+      "ids" : [
+        15430
+      ],
+      "names" : [
+        "npc.praying_mantis"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 12, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 15, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Praying mantis#Orchid",
+      "version" : "Orchid",
+      "ids" : [
+        15432
+      ],
+      "names" : [
+        "npc.praying_mantis_orchid"
+      ],
+      "combatLevel" : 14,
+      "hitpoints" : 18,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 12, "strength" : 12, "defence" : 10, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 15, "crushDefence" : 5, "magicDefence" : 0, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "2"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

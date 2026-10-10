@@ -8,7 +8,7 @@
         6066
       ],
       "names" : [
-        "npc.tower_archer_6066"
+        "npc.guild_towerarcher2"
       ],
       "combatLevel" : 34,
       "hitpoints" : 50,
@@ -33,7 +33,7 @@
         6065
       ],
       "names" : [
-        "npc.tower_archer"
+        "npc.guild_towerarcher1"
       ],
       "combatLevel" : 19,
       "hitpoints" : 30,
@@ -58,7 +58,7 @@
         6067
       ],
       "names" : [
-        "npc.tower_archer_6067"
+        "npc.guild_towerarcher3"
       ],
       "combatLevel" : 49,
       "hitpoints" : 70,
@@ -83,7 +83,7 @@
         6068
       ],
       "names" : [
-        "npc.tower_archer_6068"
+        "npc.guild_towerarcher4"
       ],
       "combatLevel" : 64,
       "hitpoints" : 90,

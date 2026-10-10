@@ -8,7 +8,7 @@
         717
       ],
       "names" : [
-        "npc.mummy"
+        "npc.deserttreasure_mummy_1"
       ],
       "combatLevel" : 96,
       "hitpoints" : 1,
@@ -34,7 +34,7 @@
         724
       ],
       "names" : [
-        "npc.mummy_724"
+        "npc.deserttreasure_mummy_1_on_fire"
       ],
       "combatLevel" : 98,
       "hitpoints" : 10,

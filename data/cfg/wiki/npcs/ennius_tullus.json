@@ -1,0 +1,31 @@
+{
+  "page" : "Ennius Tullus",
+  "versions" : [
+    {
+      "source" : "Ennius Tullus",
+      "ids" : [
+        14331,
+        14332
+      ],
+      "names" : [
+        "npc.vmq4_crypt_ennius_boss",
+        "npc.vmq4_crypt_ennius_boss_noops"
+      ],
+      "combatLevel" : 306,
+      "hitpoints" : 380,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 280, "strength" : 210, "defence" : 75, "ranged" : 1, "magic" : 75 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 70, "slashDefence" : 60, "crushDefence" : 50, "magicDefence" : 100, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 90, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

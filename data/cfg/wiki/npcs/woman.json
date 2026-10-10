@@ -10,9 +10,9 @@
         10728
       ],
       "names" : [
-        "npc.woman_3111",
-        "npc.woman_6990",
-        "npc.woman_10728"
+        "npc.woman",
+        "npc.zeah_woman",
+        "npc.zeah_woman_outside"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -39,8 +39,8 @@
         6991
       ],
       "names" : [
-        "npc.woman_3112",
-        "npc.woman_6991"
+        "npc.woman2",
+        "npc.zeah_woman2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -67,13 +67,38 @@
         6992
       ],
       "names" : [
-        "npc.woman_3113",
-        "npc.woman_6992"
+        "npc.woman3",
+        "npc.zeah_woman3"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
       "attackSpeed" : 4,
       "respawnTicks" : 24,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Woman#4",
+      "version" : "4",
+      "ids" : [
+        14921
+      ],
+      "names" : [
+        "npc.woman4"
+      ],
+      "combatLevel" : 2,
+      "hitpoints" : 7,
+      "attackSpeed" : 4,
       "size" : 1,
       "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
       "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -21, "slashDefence" : -21, "crushDefence" : -21, "magicDefence" : -21, "rangedDefence" : -21, "lightRangedDefence" : -21, "heavyRangedDefence" : -21, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
@@ -94,7 +119,7 @@
         11053
       ],
       "names" : [
-        "npc.woman_11053"
+        "npc.shayzien_woman_1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -119,7 +144,7 @@
         11054
       ],
       "names" : [
-        "npc.woman_11054"
+        "npc.shayzien_woman_2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,
@@ -144,7 +169,7 @@
         3015
       ],
       "names" : [
-        "npc.woman_3015"
+        "npc.varrock_woman1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 7,

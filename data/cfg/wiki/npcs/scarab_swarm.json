@@ -8,7 +8,7 @@
         4192
       ],
       "names" : [
-        "npc.scarab_swarm_4192"
+        "npc.ics_scarab_swarm"
       ],
       "combatLevel" : 98,
       "hitpoints" : 25,
@@ -38,7 +38,7 @@
         1782
       ],
       "names" : [
-        "npc.scarab_swarm"
+        "npc.ntk_scarab_swarm"
       ],
       "combatLevel" : 98,
       "hitpoints" : 25,

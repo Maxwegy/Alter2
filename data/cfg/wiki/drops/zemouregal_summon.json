@@ -1,0 +1,16 @@
+{
+  "page" : "Zemouregal Summon",
+  "tables" : [
+    {
+      "source" : "Zemouregal Summon",
+      "npcIds" : [
+        15558,
+        15559,
+        15560,
+        15561,
+        15562,
+        15563
+      ]
+    }
+  ]
+}

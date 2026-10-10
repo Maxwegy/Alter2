@@ -1,0 +1,21 @@
+{
+  "page" : "Captain Cotus",
+  "versions" : [
+    {
+      "source" : "Captain Cotus",
+      "ids" : [
+        15451
+      ],
+      "names" : [
+        "npc.captain_cotus"
+      ],
+      "combatLevel" : 91,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 85, "strength" : 1, "defence" : 65, "ranged" : 90, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 13, "rangedAttack" : 100, "stabDefence" : 35, "slashDefence" : 11, "crushDefence" : 40, "magicDefence" : 70, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 43, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

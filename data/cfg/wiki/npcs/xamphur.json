@@ -8,8 +8,8 @@
         10955
       ],
       "names" : [
-        "npc.xamphur_10954",
-        "npc.xamphur_10955"
+        "npc.akd_xamphur_cutscene_transition_b",
+        "npc.akd_xamphur_combat"
       ],
       "combatLevel" : 239,
       "hitpoints" : 450,
@@ -34,8 +34,8 @@
         10956
       ],
       "names" : [
-        "npc.xamphur_10953",
-        "npc.xamphur_10956"
+        "npc.akd_xamphur_cutscene_transition_a",
+        "npc.akd_xamphur_combat_nohands"
       ],
       "combatLevel" : 239,
       "hitpoints" : 450,

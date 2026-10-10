@@ -1,0 +1,52 @@
+{
+  "page" : "Vitreous Chilled Jelly",
+  "tables" : [
+    {
+      "source" : "Vitreous Chilled Jelly",
+      "npcIds" : [
+        15501
+      ],
+      "always" : [
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 379, "name" : "item.lobster", "min" : 2, "max" : 2, "chance" : [ 1, 8 ], "rolls" : 3, "wiki" : "16/128" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 15, "max" : 15, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 45, "max" : 45, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 995, "name" : "item.coins", "min" : 11, "max" : 11, "chance" : [ 3, 64 ], "rolls" : 3, "wiki" : "6/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 44, "max" : 44, "chance" : [ 27, 128 ], "rolls" : 3, "wiki" : "27/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 102, "max" : 102, "chance" : [ 27, 128 ], "rolls" : 3, "wiki" : "27/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 220, "max" : 220, "chance" : [ 9, 128 ], "rolls" : 3, "wiki" : "9/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 460, "max" : 460, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 1201, "name" : "item.rune_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "rolls" : 3, "wiki" : "1/65,536" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 17476267 ], "rolls" : 3, "wiki" : "1/174,762.67" },
+        { "item" : 1313, "name" : "item.black_2h_sword", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
+        { "item" : 1317, "name" : "item.adamant_2h_sword", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 1357, "name" : "item.adamant_axe", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 1371, "name" : "item.adamant_battleaxe", "min" : 1, "max" : 1, "chance" : [ 11, 128 ], "rolls" : 3, "wiki" : "11/128" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 136533 ], "rolls" : 3, "wiki" : "1/1,365.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "rolls" : 3, "wiki" : "1/2,048" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "rolls" : 3, "wiki" : "1/512" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "rolls" : 3, "wiki" : "1/256" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 1734, "name" : "item.thread", "min" : 10, "max" : 10, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 2357, "name" : "item.gold_bar", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "rolls" : 3, "wiki" : "1/131,072" },
+        { "item" : 4127, "name" : "item.mithril_armoured_boots", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 872 ], "wiki" : "1/872" },
+        { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 249 ], "wiki" : "1/249" },
+        { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 249 ], "wiki" : "1/249" },
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 872 ], "wiki" : "1/872" },
+        { "item" : 30105, "name" : "item.varlamore_key_half_1", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" }
+      ],
+      "tertiary" : [
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 5, 32 ], "wiki" : "10/64" }
+      ]
+    }
+  ]
+}

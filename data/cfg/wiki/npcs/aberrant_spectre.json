@@ -12,12 +12,12 @@
         7
       ],
       "names" : [
-        "npc.aberrant_spectre_2",
-        "npc.aberrant_spectre_3",
-        "npc.aberrant_spectre_4",
-        "npc.aberrant_spectre_5",
-        "npc.aberrant_spectre_6",
-        "npc.aberrant_spectre_7"
+        "npc.slayer_abberant_spectre_1",
+        "npc.slayer_abberant_spectre_2",
+        "npc.slayer_abberant_spectre_3",
+        "npc.slayer_abberant_spectre_4",
+        "npc.slayer_aberrantspectre_1_strongholdcave",
+        "npc.slayer_aberrantspectre_2_strongholdcave"
       ],
       "combatLevel" : 96,
       "hitpoints" : 90,

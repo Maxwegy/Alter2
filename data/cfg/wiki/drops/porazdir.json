@@ -8,14 +8,14 @@
         7860
       ],
       "always" : [
-        { "item" : 21799, "name" : "item.demons_heart", "min" : 1, "max" : 1 }
+        { "item" : 21799, "name" : "item.ma2_zamorak_heart", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
+        { "item" : 21257, "name" : "item.slayer_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 80 ], "wiki" : "1/80" }
       ],
       "tertiary" : [
         { "item" : 11941, "name" : "item.looting_bag", "min" : 1, "max" : 1, "chance" : [ 1, 3 ], "wiki" : "1/3" },
-        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1, "chance" : [ 1, 70 ], "wiki" : "1/70" }
+        { "item" : 23490, "name" : "item.slayer_wilderness_key", "min" : 1, "max" : 1, "chance" : [ 1, 70 ], "wiki" : "1/70" }
       ]
     }
   ]

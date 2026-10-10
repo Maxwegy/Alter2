@@ -7,7 +7,7 @@
         3294
       ],
       "names" : [
-        "npc.paladin_3294"
+        "npc.paladin2"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -33,7 +33,7 @@
         3293
       ],
       "names" : [
-        "npc.paladin_3293"
+        "npc.paladin"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -59,7 +59,7 @@
         11930
       ],
       "names" : [
-        "npc.paladin_11930"
+        "npc.paladin_variant01"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -85,7 +85,7 @@
         11931
       ],
       "names" : [
-        "npc.paladin_11931"
+        "npc.paladin_variant02"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -111,7 +111,7 @@
         11932
       ],
       "names" : [
-        "npc.paladin_11932"
+        "npc.paladin_f"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -137,7 +137,7 @@
         11933
       ],
       "names" : [
-        "npc.paladin_11933"
+        "npc.paladin_f_variant01"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -163,7 +163,7 @@
         11901
       ],
       "names" : [
-        "npc.paladin_11901"
+        "npc.paladin_west_f_vis"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,
@@ -189,7 +189,7 @@
         8853
       ],
       "names" : [
-        "npc.paladin_8853"
+        "npc.paladin_west_vis"
       ],
       "combatLevel" : 62,
       "hitpoints" : 57,

@@ -9,8 +9,8 @@
         10865
       ],
       "names" : [
-        "npc.sotetseg_10864",
-        "npc.sotetseg_10865"
+        "npc.tob_sotetseg_noncombat_story",
+        "npc.tob_sotetseg_combat_story"
       ],
       "combatLevel" : 336,
       "hitpoints" : 2240,
@@ -39,8 +39,8 @@
         10868
       ],
       "names" : [
-        "npc.sotetseg_10867",
-        "npc.sotetseg_10868"
+        "npc.tob_sotetseg_noncombat_hard",
+        "npc.tob_sotetseg_combat_hard"
       ],
       "combatLevel" : 1195,
       "hitpoints" : 4000,
@@ -69,8 +69,8 @@
         8388
       ],
       "names" : [
-        "npc.sotetseg",
-        "npc.sotetseg_8388"
+        "npc.tob_sotetseg_noncombat",
+        "npc.tob_sotetseg_combat"
       ],
       "combatLevel" : 995,
       "hitpoints" : 4000,

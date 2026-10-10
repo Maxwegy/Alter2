@@ -1,0 +1,29 @@
+{
+  "page" : "Stingray",
+  "versions" : [
+    {
+      "source" : "Stingray",
+      "ids" : [
+        15218
+      ],
+      "names" : [
+        "npc.sailing_stingray"
+      ],
+      "combatLevel" : 92,
+      "hitpoints" : 106,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 130, "strength" : 55, "defence" : 25, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 20, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" }
+    }
+  ]
+}

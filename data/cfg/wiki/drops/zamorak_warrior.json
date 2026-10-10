@@ -12,7 +12,7 @@
       ],
       "main" : [
         { "item" : 379, "name" : "item.lobster", "min" : 3, "max" : 3, "chance" : [ 1, 25 ], "wiki" : "2/50" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 100, "max" : 100, "chance" : [ 4, 5 ], "wiki" : "40/50" },
+        { "item" : 995, "name" : "item.coins", "min" : 100, "max" : 100, "chance" : [ 4, 5 ], "wiki" : "40/50" },
         { "item" : 1207, "name" : "item.steel_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "2/50" },
         { "item" : 1213, "name" : "item.rune_dagger", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "2/50" },
         { "item" : 1301, "name" : "item.adamant_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },

@@ -9,9 +9,9 @@
         4098
       ],
       "names" : [
-        "npc.archer_4096",
-        "npc.archer_4097",
-        "npc.archer_4098"
+        "npc.death_archer1",
+        "npc.death_archer2",
+        "npc.death_archer_trapped"
       ],
       "combatLevel" : 42,
       "hitpoints" : 50,

@@ -8,7 +8,7 @@
         6320
       ],
       "names" : [
-        "npc.me_hard"
+        "npc.nzone_quest_lunar_mirror_of_player_hard"
       ],
       "combatLevel" : 201,
       "hitpoints" : 135,
@@ -33,7 +33,7 @@
         6381
       ],
       "names" : [
-        "npc.me_6381"
+        "npc.nzone_quest_lunar_mirror_of_player_normal"
       ],
       "combatLevel" : 79,
       "hitpoints" : 45,

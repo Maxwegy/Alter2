@@ -8,7 +8,7 @@
         6291
       ],
       "names" : [
-        "npc.tanglefoot_hard"
+        "npc.nzone_fairy_tanglefoot_hard"
       ],
       "combatLevel" : 199,
       "hitpoints" : 204,
@@ -34,7 +34,7 @@
         6353
       ],
       "names" : [
-        "npc.tanglefoot_6353"
+        "npc.nzone_fairy_tanglefoot_normal"
       ],
       "combatLevel" : 111,
       "hitpoints" : 102,

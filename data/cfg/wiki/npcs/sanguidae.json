@@ -1,0 +1,85 @@
+{
+  "page" : "Sanguidae",
+  "versions" : [
+    {
+      "source" : "Sanguidae#Empty",
+      "version" : "Empty",
+      "ids" : [
+        16223
+      ],
+      "names" : [
+        "npc.castle_drakan_sanguidae"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 10,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 90, "defence" : 30, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 10, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 40 }
+    },
+    {
+      "source" : "Sanguidae#Full",
+      "version" : "Full",
+      "ids" : [
+        16225
+      ],
+      "names" : [
+        "npc.castle_drakan_sanguidae_full"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 10,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 90, "defence" : 30, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 10, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 40 }
+    },
+    {
+      "source" : "Sanguidae#Partially full",
+      "version" : "Partially full",
+      "ids" : [
+        15756,
+        16224
+      ],
+      "names" : [
+        "npc.castle_drakan_sanguidae_aranei_bully",
+        "npc.castle_drakan_sanguidae_part_full"
+      ],
+      "combatLevel" : 106,
+      "hitpoints" : 10,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 200, "strength" : 90, "defence" : 30, "ranged" : 1, "magic" : 30 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 5, "crushDefence" : 10, "magicDefence" : 5, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "elementalWeakness" : { "element" : "fire", "percent" : 40 }
+    }
+  ]
+}

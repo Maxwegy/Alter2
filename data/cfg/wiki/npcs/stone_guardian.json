@@ -8,7 +8,7 @@
         8066
       ],
       "names" : [
-        "npc.stone_guardian_8066"
+        "npc.ds2_golem_magic"
       ],
       "combatLevel" : 124,
       "hitpoints" : 62,
@@ -37,7 +37,7 @@
         8064
       ],
       "names" : [
-        "npc.stone_guardian"
+        "npc.ds2_golem_melee"
       ],
       "combatLevel" : 124,
       "hitpoints" : 62,
@@ -67,7 +67,7 @@
         8065
       ],
       "names" : [
-        "npc.stone_guardian_8065"
+        "npc.ds2_golem_ranged"
       ],
       "combatLevel" : 124,
       "hitpoints" : 62,

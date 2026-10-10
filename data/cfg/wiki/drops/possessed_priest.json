@@ -8,10 +8,10 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 2428, "name" : "item.attack_potion4", "min" : 1, "max" : 1 },
-        { "item" : 2432, "name" : "item.defence_potion4", "min" : 1, "max" : 1 },
-        { "item" : 3032, "name" : "item.agility_potion4", "min" : 1, "max" : 1 },
-        { "item" : 3040, "name" : "item.magic_potion4", "min" : 1, "max" : 1 }
+        { "item" : 2428, "name" : "item.4dose1attack", "min" : 1, "max" : 1 },
+        { "item" : 2432, "name" : "item.4dose1defense", "min" : 1, "max" : 1 },
+        { "item" : 3032, "name" : "item.4dose1agility", "min" : 1, "max" : 1 },
+        { "item" : 3040, "name" : "item.4dose1magic", "min" : 1, "max" : 1 }
       ]
     }
   ]

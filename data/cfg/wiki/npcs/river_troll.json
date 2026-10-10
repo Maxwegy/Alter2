@@ -8,7 +8,7 @@
         6736
       ],
       "names" : [
-        "npc.river_troll_6736"
+        "npc.fairy2_rivertrollguardian_5"
       ],
       "combatLevel" : 120,
       "hitpoints" : 120,
@@ -35,7 +35,7 @@
         6732
       ],
       "names" : [
-        "npc.river_troll"
+        "npc.fairy2_rivertrollguardian_1"
       ],
       "combatLevel" : 14,
       "hitpoints" : 25,
@@ -62,7 +62,7 @@
         6737
       ],
       "names" : [
-        "npc.river_troll_6737"
+        "npc.fairy2_rivertrollguardian_6"
       ],
       "combatLevel" : 159,
       "hitpoints" : 170,
@@ -89,7 +89,7 @@
         6733
       ],
       "names" : [
-        "npc.river_troll_6733"
+        "npc.fairy2_rivertrollguardian_2"
       ],
       "combatLevel" : 29,
       "hitpoints" : 40,
@@ -116,7 +116,7 @@
         6734
       ],
       "names" : [
-        "npc.river_troll_6734"
+        "npc.fairy2_rivertrollguardian_3"
       ],
       "combatLevel" : 49,
       "hitpoints" : 60,
@@ -143,7 +143,7 @@
         6735
       ],
       "names" : [
-        "npc.river_troll_6735"
+        "npc.fairy2_rivertrollguardian_4"
       ],
       "combatLevel" : 79,
       "hitpoints" : 85,

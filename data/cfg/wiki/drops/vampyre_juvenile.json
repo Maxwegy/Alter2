@@ -18,10 +18,10 @@
         9734
       ],
       "always" : [
-        { "item" : 3325, "name" : "item.vampyre_dust", "min" : 1, "max" : 1 }
+        { "item" : 3325, "name" : "item.vampire_dust", "min" : 1, "max" : 1 }
       ],
       "tertiary" : [
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 705 ], "wiki" : "1/705" }
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 705 ], "wiki" : "1/705" }
       ]
     }
   ]

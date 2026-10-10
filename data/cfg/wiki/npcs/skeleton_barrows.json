@@ -8,7 +8,7 @@
         1688
       ],
       "names" : [
-        "npc.skeleton_1688"
+        "npc.barrows_skeleton_armed2"
       ],
       "combatLevel" : 77,
       "hitpoints" : 51,
@@ -38,7 +38,7 @@
         1687
       ],
       "names" : [
-        "npc.skeleton_1687"
+        "npc.barrows_skeleton_armed"
       ],
       "combatLevel" : 77,
       "hitpoints" : 51,
@@ -68,7 +68,7 @@
         1685
       ],
       "names" : [
-        "npc.skeleton_1685"
+        "npc.barrows_skeleton_unarmed"
       ],
       "combatLevel" : 77,
       "hitpoints" : 51,
@@ -98,7 +98,7 @@
         1686
       ],
       "names" : [
-        "npc.skeleton_1686"
+        "npc.barrows_skeleton_unarmed2"
       ],
       "combatLevel" : 77,
       "hitpoints" : 51,

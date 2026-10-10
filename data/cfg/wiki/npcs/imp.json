@@ -8,7 +8,7 @@
         3134
       ],
       "names" : [
-        "npc.imp_3134"
+        "npc.godwars_ancient_imp"
       ],
       "combatLevel" : 7,
       "hitpoints" : 10,
@@ -38,7 +38,7 @@
         5007
       ],
       "names" : [
-        "npc.imp_5007"
+        "npc.imp"
       ],
       "combatLevel" : 2,
       "hitpoints" : 8,

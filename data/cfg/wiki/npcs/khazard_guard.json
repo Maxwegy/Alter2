@@ -11,10 +11,10 @@
         12024
       ],
       "names" : [
-        "npc.khazard_guard_1211",
-        "npc.khazard_guard_12021",
-        "npc.khazard_guard_12022",
-        "npc.khazard_guard_12024"
+        "npc.arena_guard4",
+        "npc.arena_guard7",
+        "npc.arena_guard4_cutscene",
+        "npc.arena_guard_family_vis"
       ],
       "combatLevel" : 23,
       "hitpoints" : 25,
@@ -40,7 +40,7 @@
         1208
       ],
       "names" : [
-        "npc.khazard_guard"
+        "npc.arena_guard1"
       ],
       "combatLevel" : 23,
       "hitpoints" : 25,
@@ -67,8 +67,8 @@
         12023
       ],
       "names" : [
-        "npc.khazard_guard_12019",
-        "npc.khazard_guard_12023"
+        "npc.arena_guard5",
+        "npc.arena_guard5_cutscene"
       ],
       "combatLevel" : 23,
       "hitpoints" : 25,
@@ -94,7 +94,7 @@
         12020
       ],
       "names" : [
-        "npc.khazard_guard_12020"
+        "npc.arena_guard6"
       ],
       "combatLevel" : 23,
       "hitpoints" : 25,

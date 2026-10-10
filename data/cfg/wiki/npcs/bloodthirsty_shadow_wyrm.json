@@ -8,7 +8,7 @@
         12585
       ],
       "names" : [
-        "npc.bloodthirsty_shadow_wyrm_12585"
+        "npc.league_superior_wyrm_light"
       ],
       "combatLevel" : 400,
       "hitpoints" : 480,
@@ -38,7 +38,7 @@
         12584
       ],
       "names" : [
-        "npc.bloodthirsty_shadow_wyrm"
+        "npc.league_superior_wyrm_dark"
       ],
       "combatLevel" : 400,
       "hitpoints" : 480,

@@ -7,7 +7,7 @@
         6624
       ],
       "names" : [
-        "npc.energy_sprite"
+        "npc.clanwars_teleport_power"
       ],
       "hitpoints" : 60,
       "attackSpeed" : -1,

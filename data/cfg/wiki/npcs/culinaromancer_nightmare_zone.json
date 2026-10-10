@@ -8,7 +8,7 @@
         6307
       ],
       "names" : [
-        "npc.culinaromancer_hard"
+        "npc.nzone_hundred_culinaromancer_final_hard"
       ],
       "combatLevel" : 209,
       "hitpoints" : 255,
@@ -33,7 +33,7 @@
         6368
       ],
       "names" : [
-        "npc.culinaromancer_6368"
+        "npc.nzone_hundred_culinaromancer_final_normal"
       ],
       "combatLevel" : 75,
       "hitpoints" : 150,

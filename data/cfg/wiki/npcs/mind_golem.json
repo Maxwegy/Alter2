@@ -8,7 +8,7 @@
         10693
       ],
       "names" : [
-        "npc.mind_golem"
+        "npc.camdozaal_golem_mind"
       ],
       "combatLevel" : 30,
       "hitpoints" : 40,
@@ -37,7 +37,7 @@
         10694
       ],
       "names" : [
-        "npc.rubble_10694"
+        "npc.camdozaal_golem_mind_rock"
       ],
       "combatLevel" : 30,
       "hitpoints" : 40,

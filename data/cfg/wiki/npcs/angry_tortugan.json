@@ -1,0 +1,29 @@
+{
+  "page" : "Angry tortugan",
+  "versions" : [
+    {
+      "source" : "Angry tortugan",
+      "ids" : [
+        15170
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_crate_possible_albumen_effect"
+      ],
+      "combatLevel" : 81,
+      "hitpoints" : 75,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 90, "strength" : 65, "defence" : 50, "ranged" : 1, "magic" : 40 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 80, "slashDefence" : 80, "crushDefence" : 50, "magicDefence" : 30, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 80, "attackBonus" : 20, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "7"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         4196
       ],
       "names" : [
-        "npc.apparition_4196"
+        "npc.ics_little_apmeken"
       ],
       "combatLevel" : 75,
       "hitpoints" : 70,
@@ -34,7 +34,7 @@
         4198
       ],
       "names" : [
-        "npc.apparition_4198"
+        "npc.ics_little_crondis"
       ],
       "combatLevel" : 75,
       "hitpoints" : 60,
@@ -60,7 +60,7 @@
         4195
       ],
       "names" : [
-        "npc.apparition"
+        "npc.ics_little_het"
       ],
       "combatLevel" : 81,
       "hitpoints" : 75,
@@ -86,7 +86,7 @@
         4197
       ],
       "names" : [
-        "npc.apparition_4197"
+        "npc.ics_little_scabaras"
       ],
       "combatLevel" : 75,
       "hitpoints" : 50,

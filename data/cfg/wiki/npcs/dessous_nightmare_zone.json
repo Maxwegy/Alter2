@@ -8,7 +8,7 @@
         1128
       ],
       "names" : [
-        "npc.dessous_hard"
+        "npc.nzone_blooddiamond_vampirewarrior_hard"
       ],
       "combatLevel" : 217,
       "hitpoints" : 255,
@@ -41,7 +41,7 @@
         6344
       ],
       "names" : [
-        "npc.dessous_6344"
+        "npc.nzone_blooddiamond_vampirewarrior_normal"
       ],
       "combatLevel" : 139,
       "hitpoints" : 200,

@@ -1,0 +1,31 @@
+{
+  "page" : "Ancient Custodian",
+  "versions" : [
+    {
+      "source" : "Ancient Custodian",
+      "ids" : [
+        14520
+      ],
+      "names" : [
+        "npc.superior_custodian"
+      ],
+      "combatLevel" : 239,
+      "hitpoints" : 330,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 240, "strength" : 180, "defence" : 80, "ranged" : 1, "magic" : 80 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 45, "rangedAttack" : 0, "stabDefence" : 50, "slashDefence" : -30, "crushDefence" : 80, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : -10, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "19"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "level" : 76, "xp" : 3382.0, "categories" : [ "Custodian Stalker" ], "assignedBy" : [ "chaeldar", "mortimer", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 30 }
+    }
+  ]
+}

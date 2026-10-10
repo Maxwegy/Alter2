@@ -11,10 +11,10 @@
         10801
       ],
       "names" : [
-        "npc.nylocas_toxobolos_8346",
-        "npc.nylocas_toxobolos_8352",
-        "npc.nylocas_toxobolos_10795",
-        "npc.nylocas_toxobolos_10801"
+        "npc.tob_nylocas_big_incoming_ranged",
+        "npc.tob_nylocas_big_fighting_ranged",
+        "npc.tob_nylocas_big_incoming_ranged_hard",
+        "npc.tob_nylocas_big_fighting_ranged_hard"
       ],
       "combatLevel" : 260,
       "hitpoints" : 22,
@@ -41,8 +41,8 @@
         10784
       ],
       "names" : [
-        "npc.nylocas_toxobolos_10778",
-        "npc.nylocas_toxobolos_10784"
+        "npc.tob_nylocas_big_incoming_ranged_story",
+        "npc.tob_nylocas_big_fighting_ranged_story"
       ],
       "combatLevel" : 82,
       "hitpoints" : 3,
@@ -71,10 +71,10 @@
         10798
       ],
       "names" : [
-        "npc.nylocas_toxobolos_8343",
-        "npc.nylocas_toxobolos_8349",
-        "npc.nylocas_toxobolos_10792",
-        "npc.nylocas_toxobolos_10798"
+        "npc.tob_nylocas_incoming_ranged",
+        "npc.tob_nylocas_fighting_ranged",
+        "npc.tob_nylocas_incoming_ranged_hard",
+        "npc.tob_nylocas_fighting_ranged_hard"
       ],
       "combatLevel" : 162,
       "hitpoints" : 11,
@@ -101,8 +101,8 @@
         10781
       ],
       "names" : [
-        "npc.nylocas_toxobolos_10775",
-        "npc.nylocas_toxobolos_10781"
+        "npc.tob_nylocas_incoming_ranged_story",
+        "npc.tob_nylocas_fighting_ranged_story"
       ],
       "combatLevel" : 46,
       "hitpoints" : 2,
@@ -129,8 +129,8 @@
         10859
       ],
       "names" : [
-        "npc.nylocas_toxobolos_8382",
-        "npc.nylocas_toxobolos_10859"
+        "npc.verzik_nylocas_ranged",
+        "npc.verzik_nylocas_ranged_hard"
       ],
       "combatLevel" : 162,
       "hitpoints" : 25,
@@ -152,7 +152,7 @@
         10842
       ],
       "names" : [
-        "npc.nylocas_toxobolos_10842"
+        "npc.verzik_nylocas_ranged_story"
       ],
       "combatLevel" : 46,
       "hitpoints" : 3,

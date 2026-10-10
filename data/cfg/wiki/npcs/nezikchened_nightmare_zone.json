@@ -8,7 +8,7 @@
         6318
       ],
       "names" : [
-        "npc.nezikchened_hard"
+        "npc.nzone_nezikchened_hard"
       ],
       "combatLevel" : 295,
       "hitpoints" : 150,
@@ -37,7 +37,7 @@
         6379
       ],
       "names" : [
-        "npc.nezikchened_6379"
+        "npc.nzone_nezikchened_normal"
       ],
       "combatLevel" : 187,
       "hitpoints" : 150,

@@ -17,17 +17,17 @@
         877
       ],
       "names" : [
-        "npc.zogre",
-        "npc.zogre_867",
-        "npc.zogre_868",
-        "npc.zogre_869",
-        "npc.zogre_870",
-        "npc.zogre_871",
-        "npc.zogre_873",
-        "npc.zogre_874",
-        "npc.zogre_875",
-        "npc.zogre_876",
-        "npc.zogre_877"
+        "npc.zogre_1",
+        "npc.zogre_2",
+        "npc.zogre_3",
+        "npc.zogre_4",
+        "npc.zogre_5",
+        "npc.zogre_6",
+        "npc.zogre_dance_1",
+        "npc.zogre_dance_2",
+        "npc.zogre_dance_3",
+        "npc.zogre_dance_4",
+        "npc.zogre_drummer1"
       ],
       "combatLevel" : 44,
       "hitpoints" : 71,

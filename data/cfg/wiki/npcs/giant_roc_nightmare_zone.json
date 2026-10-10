@@ -8,7 +8,7 @@
         6323
       ],
       "names" : [
-        "npc.giant_roc_hard"
+        "npc.nzone_myarm_giant_roc_hard"
       ],
       "combatLevel" : 257,
       "hitpoints" : 255,
@@ -37,7 +37,7 @@
         6384
       ],
       "names" : [
-        "npc.giant_roc_6384"
+        "npc.nzone_myarm_giant_roc_normal"
       ],
       "combatLevel" : 172,
       "hitpoints" : 250,

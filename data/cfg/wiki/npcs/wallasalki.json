@@ -8,7 +8,7 @@
         5938
       ],
       "names" : [
-        "npc.wallasalki"
+        "npc.dungeon_dagganoth_magic_monster"
       ],
       "combatLevel" : 98,
       "hitpoints" : 120,
@@ -35,7 +35,7 @@
         5939
       ],
       "names" : [
-        "npc.wallasalki_5939"
+        "npc.dungeon_dagganoth_magic_monster_deeper"
       ],
       "combatLevel" : 98,
       "hitpoints" : 120,

@@ -8,7 +8,7 @@
         12214
       ],
       "names" : [
-        "npc.the_leviathan"
+        "npc.leviathan"
       ],
       "combatLevel" : 1157,
       "hitpoints" : 2700,
@@ -39,7 +39,7 @@
         12214
       ],
       "names" : [
-        "npc.the_leviathan"
+        "npc.leviathan"
       ],
       "combatLevel" : 798,
       "hitpoints" : 900,
@@ -71,8 +71,8 @@
         12219
       ],
       "names" : [
-        "npc.the_leviathan_12215",
-        "npc.the_leviathan_12219"
+        "npc.leviathan_quest",
+        "npc.leviathan_cutscene"
       ],
       "combatLevel" : 593,
       "hitpoints" : 720,

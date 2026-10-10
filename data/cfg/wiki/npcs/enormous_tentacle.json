@@ -8,7 +8,7 @@
         5535
       ],
       "names" : [
-        "npc.enormous_tentacle"
+        "npc.slayer_kraken_boss_tentacle"
       ],
       "combatLevel" : 112,
       "hitpoints" : 120,
@@ -35,7 +35,7 @@
         5534
       ],
       "names" : [
-        "npc.whirlpool_5534"
+        "npc.slayer_kraken_boss_tentacle_whirlpool"
       ],
       "hitpoints" : 120,
       "attackSpeed" : 4,

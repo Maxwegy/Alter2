@@ -9,9 +9,9 @@
         5866
       ],
       "names" : [
-        "npc.cerberus",
-        "npc.cerberus_5863",
-        "npc.cerberus_5866"
+        "npc.cerberus_attacking",
+        "npc.cerberus_sitting",
+        "npc.cerberus_resetting"
       ],
       "combatLevel" : 318,
       "hitpoints" : 600,

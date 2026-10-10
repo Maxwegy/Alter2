@@ -8,7 +8,7 @@
         441
       ],
       "names" : [
-        "npc.jelly_441"
+        "npc.slayer_jelly_5"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -36,7 +36,7 @@
         11245
       ],
       "names" : [
-        "npc.jelly_11245"
+        "npc.wild_cave_jelly_5"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -64,7 +64,7 @@
         442
       ],
       "names" : [
-        "npc.jelly_442"
+        "npc.slayer_jelly_6"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -92,7 +92,7 @@
         438
       ],
       "names" : [
-        "npc.jelly_438"
+        "npc.slayer_jelly_2"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -120,7 +120,7 @@
         11242
       ],
       "names" : [
-        "npc.jelly_11242"
+        "npc.wild_cave_jelly_2"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -148,7 +148,7 @@
         440
       ],
       "names" : [
-        "npc.jelly_440"
+        "npc.slayer_jelly_4"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -176,7 +176,7 @@
         11244
       ],
       "names" : [
-        "npc.jelly_11244"
+        "npc.wild_cave_jelly_4"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -204,7 +204,7 @@
         437
       ],
       "names" : [
-        "npc.jelly_437"
+        "npc.slayer_jelly_1"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -232,7 +232,7 @@
         11241
       ],
       "names" : [
-        "npc.jelly_11241"
+        "npc.wild_cave_jelly_1"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -260,7 +260,7 @@
         439
       ],
       "names" : [
-        "npc.jelly_439"
+        "npc.slayer_jelly_3"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,
@@ -288,7 +288,7 @@
         11243
       ],
       "names" : [
-        "npc.jelly_11243"
+        "npc.wild_cave_jelly_3"
       ],
       "combatLevel" : 78,
       "hitpoints" : 75,

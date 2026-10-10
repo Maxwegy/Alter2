@@ -8,7 +8,7 @@
         7266
       ],
       "names" : [
-        "npc.king_sand_crab"
+        "npc.kourend_rockcrab"
       ],
       "combatLevel" : 107,
       "hitpoints" : 200,
@@ -36,7 +36,7 @@
         7267
       ],
       "names" : [
-        "npc.sandy_boulder"
+        "npc.kourend_rockcrab_inactive"
       ],
       "combatLevel" : 107,
       "hitpoints" : 200,

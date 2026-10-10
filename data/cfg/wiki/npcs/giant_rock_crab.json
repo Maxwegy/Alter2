@@ -8,7 +8,7 @@
         2261
       ],
       "names" : [
-        "npc.giant_rock_crab"
+        "npc.giant_rockcrab"
       ],
       "combatLevel" : 137,
       "hitpoints" : 180,
@@ -36,7 +36,7 @@
         5940
       ],
       "names" : [
-        "npc.giant_rock_crab_5940"
+        "npc.giant_rockcrab_deeper"
       ],
       "combatLevel" : 137,
       "hitpoints" : 180,

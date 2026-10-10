@@ -9,9 +9,9 @@
         8430
       ],
       "names" : [
-        "npc.mother_8428",
-        "npc.mother_8429",
-        "npc.mother_8430"
+        "npc.my2arm_mother_battle_melee",
+        "npc.my2arm_mother_battle_ranged",
+        "npc.my2arm_mother_battle_magic"
       ],
       "combatLevel" : 198,
       "hitpoints" : 235,

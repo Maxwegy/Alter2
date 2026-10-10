@@ -10,9 +10,9 @@
         2806
       ],
       "names" : [
-        "npc.chicken_2804",
-        "npc.chicken_2805",
-        "npc.chicken_2806"
+        "npc.farm_chicken_brown",
+        "npc.farm_chicken_dark_brown",
+        "npc.farm_chicken_tan"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -42,10 +42,10 @@
         10497
       ],
       "names" : [
-        "npc.chicken_10494",
-        "npc.chicken_10495",
-        "npc.chicken_10496",
-        "npc.chicken_10497"
+        "npc.farm_chicken_brown_outdoors",
+        "npc.farm_chicken_dark_brown_outdoors",
+        "npc.farm_chicken_tan_outdoors",
+        "npc.farm_chicken_brown_indoors"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -73,8 +73,8 @@
         3662
       ],
       "names" : [
-        "npc.chicken_3661",
-        "npc.chicken_3662"
+        "npc.misc_chicken",
+        "npc.misc_chicken_brown"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -103,9 +103,9 @@
         9488
       ],
       "names" : [
-        "npc.chicken_1173",
-        "npc.chicken_1174",
-        "npc.chicken_9488"
+        "npc.chicken",
+        "npc.chicken_brown",
+        "npc.tut2_chicken"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,

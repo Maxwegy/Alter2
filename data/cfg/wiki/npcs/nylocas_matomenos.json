@@ -8,7 +8,7 @@
         10820
       ],
       "names" : [
-        "npc.nylocas_matomenos_10820"
+        "npc.maiden_elemental_story"
       ],
       "combatLevel" : 68,
       "hitpoints" : 64,
@@ -34,7 +34,7 @@
         10845
       ],
       "names" : [
-        "npc.nylocas_matomenos_10845"
+        "npc.tob_verzik_phase2_bloodnylocas_story"
       ],
       "combatLevel" : 68,
       "attackSpeed" : -1,
@@ -59,7 +59,7 @@
         10828
       ],
       "names" : [
-        "npc.nylocas_matomenos_10828"
+        "npc.maiden_elemental_hard"
       ],
       "combatLevel" : 138,
       "hitpoints" : 100,
@@ -85,7 +85,7 @@
         10862
       ],
       "names" : [
-        "npc.nylocas_matomenos_10862"
+        "npc.tob_verzik_phase2_bloodnylocas_hard"
       ],
       "combatLevel" : 138,
       "hitpoints" : 200,
@@ -111,7 +111,7 @@
         8366
       ],
       "names" : [
-        "npc.nylocas_matomenos"
+        "npc.maiden_elemental"
       ],
       "combatLevel" : 115,
       "hitpoints" : 100,
@@ -137,7 +137,7 @@
         8385
       ],
       "names" : [
-        "npc.nylocas_matomenos_8385"
+        "npc.tob_verzik_phase2_bloodnylocas"
       ],
       "combatLevel" : 115,
       "hitpoints" : 200,

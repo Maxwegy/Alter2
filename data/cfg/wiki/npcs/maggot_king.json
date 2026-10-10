@@ -1,0 +1,98 @@
+{
+  "page" : "Maggot King",
+  "versions" : [
+    {
+      "source" : "Maggot King#Far",
+      "version" : "Far",
+      "ids" : [
+        15742
+      ],
+      "names" : [
+        "npc.maggot_king"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 1500,
+      "attackSpeed" : 0,
+      "respawnTicks" : 9,
+      "size" : 5,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 200, "ranged" : 300, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 200, "stabDefence" : 172, "slashDefence" : 100, "crushDefence" : 45, "magicDefence" : 150, "rangedDefence" : 158, "lightRangedDefence" : 232, "heavyRangedDefence" : 43, "attackBonus" : 400, "strengthBonus" : 50, "rangedStrength" : 10, "magicDamage" : 57 },
+      "maxHits" : [
+        "46 (Magic / Ranged)",
+        "~55 (Melee lunge)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 3675.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 80 }
+    },
+    {
+      "source" : "Maggot King#Nearby",
+      "version" : "Nearby",
+      "ids" : [
+        15742
+      ],
+      "names" : [
+        "npc.maggot_king"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 1500,
+      "attackSpeed" : 0,
+      "respawnTicks" : 9,
+      "size" : 5,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 200, "ranged" : 300, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 200, "stabDefence" : 172, "slashDefence" : 100, "crushDefence" : 45, "magicDefence" : 400, "rangedDefence" : 158, "lightRangedDefence" : 232, "heavyRangedDefence" : 43, "attackBonus" : 400, "strengthBonus" : 50, "rangedStrength" : 10, "magicDamage" : 57 },
+      "maxHits" : [
+        "46 (Magic / Ranged)",
+        "~55 (Melee lunge)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 3675.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 5 }
+    },
+    {
+      "source" : "Maggot King#Roaring",
+      "version" : "Roaring",
+      "ids" : [
+        15742
+      ],
+      "names" : [
+        "npc.maggot_king"
+      ],
+      "combatLevel" : 741,
+      "hitpoints" : 1500,
+      "attackSpeed" : 0,
+      "respawnTicks" : 9,
+      "size" : 5,
+      "levels" : { "attack" : 200, "strength" : 250, "defence" : 100, "ranged" : 300, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 200, "rangedAttack" : 200, "stabDefence" : 172, "slashDefence" : 100, "crushDefence" : 45, "magicDefence" : 150, "rangedDefence" : 158, "lightRangedDefence" : 232, "heavyRangedDefence" : 43, "attackBonus" : 400, "strengthBonus" : 50, "rangedStrength" : 10, "magicDamage" : 57 },
+      "maxHits" : [
+        "46 (Magic / Ranged)",
+        "~55 (Melee lunge)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 3675.0, "categories" : [ "Bosses" ], "assignedBy" : [ "duradel", "konar", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 80 }
+    }
+  ]
+}

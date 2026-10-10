@@ -8,7 +8,7 @@
         6051
       ],
       "names" : [
-        "npc.black_guard_berserker_6051"
+        "npc.dwarf_city_berserker2"
       ],
       "combatLevel" : 66,
       "hitpoints" : 50,
@@ -36,8 +36,8 @@
         6052
       ],
       "names" : [
-        "npc.black_guard_berserker",
-        "npc.black_guard_berserker_6052"
+        "npc.dwarf_city_berserker_cutscene",
+        "npc.dwarf_city_berserker3"
       ],
       "combatLevel" : 66,
       "hitpoints" : 50,
@@ -64,7 +64,7 @@
         6050
       ],
       "names" : [
-        "npc.black_guard_berserker_6050"
+        "npc.dwarf_city_berserker1"
       ],
       "combatLevel" : 66,
       "hitpoints" : 50,

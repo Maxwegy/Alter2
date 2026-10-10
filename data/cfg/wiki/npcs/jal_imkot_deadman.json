@@ -8,7 +8,7 @@
         12455
       ],
       "names" : [
-        "npc.jalimkot_12455"
+        "npc.deadman_breach_inferno_melee"
       ],
       "combatLevel" : 240,
       "hitpoints" : 3000,
@@ -35,7 +35,7 @@
         12455
       ],
       "names" : [
-        "npc.jalimkot_12455"
+        "npc.deadman_breach_inferno_melee"
       ],
       "combatLevel" : 240,
       "hitpoints" : 750,
@@ -61,7 +61,7 @@
         12455
       ],
       "names" : [
-        "npc.jalimkot_12455"
+        "npc.deadman_breach_inferno_melee"
       ],
       "combatLevel" : 240,
       "hitpoints" : 1000,
@@ -88,7 +88,7 @@
         12455
       ],
       "names" : [
-        "npc.jalimkot_12455"
+        "npc.deadman_breach_inferno_melee"
       ],
       "combatLevel" : 240,
       "hitpoints" : 500,

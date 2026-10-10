@@ -8,7 +8,7 @@
         1062
       ],
       "names" : [
-        "npc.angry_giant_rat"
+        "npc.soulbane_anger_rat"
       ],
       "combatLevel" : 45,
       "hitpoints" : 200,
@@ -33,8 +33,8 @@
         4690
       ],
       "names" : [
-        "npc.angry_giant_rat_4689",
-        "npc.angry_giant_rat_4690"
+        "npc.soulbane_rat",
+        "npc.soulbane_rat2"
       ],
       "combatLevel" : 47,
       "hitpoints" : 50,

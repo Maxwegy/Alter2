@@ -8,7 +8,7 @@
         3167
       ],
       "names" : [
-        "npc.spiritual_ranger_3167"
+        "npc.godwars_spiritual_armadyl_ranger"
       ],
       "combatLevel" : 127,
       "hitpoints" : 89,
@@ -39,7 +39,7 @@
         2242
       ],
       "names" : [
-        "npc.spiritual_ranger_2242"
+        "npc.godwars_spiritual_bandos_ranger"
       ],
       "combatLevel" : 115,
       "hitpoints" : 131,
@@ -70,7 +70,7 @@
         2211
       ],
       "names" : [
-        "npc.spiritual_ranger"
+        "npc.godwars_spiritual_saradomin_ranger"
       ],
       "combatLevel" : 122,
       "hitpoints" : 106,
@@ -101,7 +101,7 @@
         3160
       ],
       "names" : [
-        "npc.spiritual_ranger_3160"
+        "npc.godwars_spiritual_zamorak_ranger"
       ],
       "combatLevel" : 118,
       "hitpoints" : 120,
@@ -132,7 +132,7 @@
         11291
       ],
       "names" : [
-        "npc.spiritual_ranger_11291"
+        "npc.nex_prison_ranger"
       ],
       "combatLevel" : 158,
       "hitpoints" : 110,

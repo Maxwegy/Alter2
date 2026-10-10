@@ -9,9 +9,9 @@
         11799
       ],
       "names" : [
-        "npc.akkhas_shadow",
-        "npc.akkhas_shadow_11798",
-        "npc.akkhas_shadow_11799"
+        "npc.akkha_shadow",
+        "npc.akkha_shadow_enrage",
+        "npc.akkha_shadow_enrage_dummy"
       ],
       "combatLevel" : 108,
       "hitpoints" : 70,

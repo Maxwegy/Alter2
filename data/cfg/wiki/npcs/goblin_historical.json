@@ -8,7 +8,7 @@
         677
       ],
       "names" : [
-        "npc.goblin_677"
+        "npc.goblin_greenarmour"
       ],
       "combatLevel" : 5,
       "size" : 1,
@@ -21,7 +21,7 @@
         3048
       ],
       "names" : [
-        "npc.goblin_3048"
+        "npc.goblin_green_soldier_1"
       ],
       "combatLevel" : 5,
       "size" : 1,
@@ -34,7 +34,7 @@
         678
       ],
       "names" : [
-        "npc.goblin_678"
+        "npc.goblin_redarmour"
       ],
       "combatLevel" : 5,
       "size" : 1,
@@ -47,7 +47,7 @@
         3047
       ],
       "names" : [
-        "npc.goblin_3047"
+        "npc.goblin_red_soldier_1"
       ],
       "combatLevel" : 5,
       "size" : 1,

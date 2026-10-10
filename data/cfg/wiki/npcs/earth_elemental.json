@@ -8,7 +8,7 @@
         1366
       ],
       "names" : [
-        "npc.earth_elemental"
+        "npc.elemental_earth"
       ],
       "combatLevel" : 35,
       "hitpoints" : 35,
@@ -35,7 +35,7 @@
         1367
       ],
       "names" : [
-        "npc.earth_elemental_1367"
+        "npc.elem1_qip_earth_elemental_rock_version"
       ],
       "combatLevel" : 35,
       "hitpoints" : 35,

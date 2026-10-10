@@ -14,14 +14,14 @@
         11107
       ],
       "names" : [
-        "npc.head_guard_11093",
-        "npc.head_guard_11095",
-        "npc.head_guard_11097",
-        "npc.head_guard_11099",
-        "npc.head_guard_11101",
-        "npc.head_guard_11103",
-        "npc.head_guard_11105",
-        "npc.head_guard_11107"
+        "npc.kourend_guard_m1_big",
+        "npc.kourend_guard_m2_big",
+        "npc.kourend_guard_m3_big",
+        "npc.kourend_guard_m4_big",
+        "npc.kourend_guard_f1_big",
+        "npc.kourend_guard_f2_big",
+        "npc.kourend_guard_f3_big",
+        "npc.kourend_guard_f4_big"
       ],
       "combatLevel" : 84,
       "hitpoints" : 86,

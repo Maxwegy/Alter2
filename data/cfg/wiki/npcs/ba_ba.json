@@ -9,9 +9,9 @@
         11780
       ],
       "names" : [
-        "npc.baba",
-        "npc.baba_11779",
-        "npc.baba_11780"
+        "npc.toa_baba",
+        "npc.toa_baba_coffin",
+        "npc.toa_baba_digging"
       ],
       "combatLevel" : 359,
       "hitpoints" : 380,

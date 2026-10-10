@@ -1,0 +1,14 @@
+{
+  "page" : "Dire bat",
+  "tables" : [
+    {
+      "source" : "Dire bat",
+      "npcIds" : [
+        15757
+      ],
+      "always" : [
+        { "item" : 530, "name" : "item.bat_bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

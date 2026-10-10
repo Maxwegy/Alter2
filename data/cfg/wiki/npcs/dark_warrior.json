@@ -8,7 +8,7 @@
         6606
       ],
       "names" : [
-        "npc.dark_warrior_6606"
+        "npc.wilderness_dark_warrior"
       ],
       "combatLevel" : 145,
       "hitpoints" : 165,
@@ -35,7 +35,7 @@
         11111
       ],
       "names" : [
-        "npc.dark_warrior_11111"
+        "npc.kourend_dark_warrior_3"
       ],
       "combatLevel" : 37,
       "hitpoints" : 50,
@@ -62,7 +62,7 @@
         11110
       ],
       "names" : [
-        "npc.dark_warrior_11110"
+        "npc.kourend_dark_warrior_2"
       ],
       "combatLevel" : 51,
       "hitpoints" : 70,
@@ -89,7 +89,7 @@
         11109
       ],
       "names" : [
-        "npc.dark_warrior_11109"
+        "npc.kourend_dark_warrior_1"
       ],
       "combatLevel" : 62,
       "hitpoints" : 80,

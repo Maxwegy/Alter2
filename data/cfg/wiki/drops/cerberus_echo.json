@@ -1,0 +1,14 @@
+{
+  "page" : "Cerberus (Echo)",
+  "tables" : [
+    {
+      "source" : "Cerberus (Echo)",
+      "npcIds" : [
+        15612
+      ],
+      "main" : [
+        { "item" : 33249, "name" : "item.fang_of_the_hound", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "1/25" }
+      ]
+    }
+  ]
+}

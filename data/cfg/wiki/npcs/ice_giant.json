@@ -8,7 +8,7 @@
         2085
       ],
       "names" : [
-        "npc.ice_giant"
+        "npc.icegiant"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -36,7 +36,7 @@
         2086
       ],
       "names" : [
-        "npc.ice_giant_2086"
+        "npc.icegiant2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -64,7 +64,7 @@
         2087
       ],
       "names" : [
-        "npc.ice_giant_2087"
+        "npc.icegiant3"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -92,7 +92,7 @@
         2088
       ],
       "names" : [
-        "npc.ice_giant_2088"
+        "npc.icegiant_low_wanderrange"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -120,7 +120,7 @@
         2089
       ],
       "names" : [
-        "npc.ice_giant_2089"
+        "npc.icegiant_low_wanderrange2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -148,7 +148,7 @@
         13796
       ],
       "names" : [
-        "npc.ice_giant_13796"
+        "npc.ice_giant_tapoyauik"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -176,7 +176,7 @@
         13797
       ],
       "names" : [
-        "npc.ice_giant_13797"
+        "npc.ice_giant_tapoyauik02"
       ],
       "combatLevel" : 53,
       "hitpoints" : 70,
@@ -204,7 +204,7 @@
         7878
       ],
       "names" : [
-        "npc.ice_giant_7878"
+        "npc.wild_cave_icegiant"
       ],
       "combatLevel" : 67,
       "hitpoints" : 100,
@@ -232,7 +232,7 @@
         7879
       ],
       "names" : [
-        "npc.ice_giant_7879"
+        "npc.wild_cave_icegiant2"
       ],
       "combatLevel" : 67,
       "hitpoints" : 100,
@@ -260,7 +260,7 @@
         7880
       ],
       "names" : [
-        "npc.ice_giant_7880"
+        "npc.wild_cave_icegiant3"
       ],
       "combatLevel" : 67,
       "hitpoints" : 100,

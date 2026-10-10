@@ -7,19 +7,19 @@
         7399
       ],
       "always" : [
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1 }
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 560, "name" : "item.death_rune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 15, "max" : 15, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "rolls" : 3, "wiki" : "3/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 15, "max" : 15, "chance" : [ 5, 128 ], "rolls" : 3, "wiki" : "5/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 11, "max" : 11, "chance" : [ 7, 128 ], "rolls" : 3, "wiki" : "7/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 44, "max" : 44, "chance" : [ 15, 64 ], "rolls" : 3, "wiki" : "30/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 102, "max" : 102, "chance" : [ 39, 128 ], "rolls" : 3, "wiki" : "39/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 220, "max" : 220, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 460, "max" : 460, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 4096 ], "rolls" : 3, "wiki" : "1/4,096" },
+        { "item" : 995, "name" : "item.coins", "min" : 11, "max" : 11, "chance" : [ 7, 128 ], "rolls" : 3, "wiki" : "7/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 44, "max" : 44, "chance" : [ 15, 64 ], "rolls" : 3, "wiki" : "30/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 102, "max" : 102, "chance" : [ 39, 128 ], "rolls" : 3, "wiki" : "39/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 220, "max" : 220, "chance" : [ 5, 64 ], "rolls" : 3, "wiki" : "10/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 460, "max" : 460, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
         { "item" : 1163, "name" : "item.rune_full_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1197, "name" : "item.mithril_kiteshield", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "rolls" : 3, "wiki" : "1/65,536" },
@@ -34,15 +34,15 @@
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 1734, "name" : "item.thread", "min" : 10, "max" : 10, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 2357, "name" : "item.gold_bar", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "2/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "rolls" : 3, "wiki" : "1/131,072" },
-        { "item" : 4127, "name" : "item.mithril_boots", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 131072 ], "rolls" : 3, "wiki" : "1/131,072" },
+        { "item" : 4127, "name" : "item.mithril_armoured_boots", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
         { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 872 ], "wiki" : "1/872" },
         { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 249 ], "wiki" : "1/249" },
         { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 249 ], "wiki" : "1/249" },
-        { "item" : 21270, "name" : "item.eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 872 ], "wiki" : "1/872" }
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 872 ], "wiki" : "1/872" }
       ],
       "tertiary" : [
-        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" }
       ]
     },
     {
@@ -51,10 +51,10 @@
         7399
       ],
       "always" : [
-        { "item" : 23490, "name" : "item.larrans_key", "min" : 1, "max" : 1 }
+        { "item" : 23490, "name" : "item.slayer_wilderness_key", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 21257, "name" : "item.slayers_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 168 ], "wiki" : "1/168" }
+        { "item" : 21257, "name" : "item.slayer_enchantment", "min" : 1, "max" : 1, "chance" : [ 1, 168 ], "wiki" : "1/168" }
       ]
     }
   ]

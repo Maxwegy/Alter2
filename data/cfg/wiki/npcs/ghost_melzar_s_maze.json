@@ -8,7 +8,7 @@
         3975
       ],
       "names" : [
-        "npc.ghost_3975"
+        "npc.dragonslayer_ghost_1_key"
       ],
       "combatLevel" : 19,
       "hitpoints" : 25,
@@ -40,7 +40,7 @@
         3976
       ],
       "names" : [
-        "npc.ghost_3976"
+        "npc.dragonslayer_ghost_2"
       ],
       "combatLevel" : 19,
       "hitpoints" : 25,
@@ -72,7 +72,7 @@
         3977
       ],
       "names" : [
-        "npc.ghost_3977"
+        "npc.dragonslayer_ghost_3"
       ],
       "combatLevel" : 19,
       "hitpoints" : 25,
@@ -104,7 +104,7 @@
         3978
       ],
       "names" : [
-        "npc.ghost_3978"
+        "npc.dragonslayer_ghost_4"
       ],
       "combatLevel" : 19,
       "hitpoints" : 25,
@@ -136,7 +136,7 @@
         3979
       ],
       "names" : [
-        "npc.ghost_3979"
+        "npc.dragonslayer_ghost_5"
       ],
       "combatLevel" : 19,
       "hitpoints" : 25,

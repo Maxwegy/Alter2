@@ -8,7 +8,7 @@
         6729
       ],
       "names" : [
-        "npc.rock_golem_6729"
+        "npc.fairy2_golemguardian_5"
       ],
       "combatLevel" : 115,
       "hitpoints" : 100,
@@ -37,7 +37,7 @@
         6725
       ],
       "names" : [
-        "npc.rock_golem_6725"
+        "npc.fairy2_golemguardian_1"
       ],
       "combatLevel" : 13,
       "hitpoints" : 20,
@@ -66,7 +66,7 @@
         6730
       ],
       "names" : [
-        "npc.rock_golem_6730"
+        "npc.fairy2_golemguardian_6"
       ],
       "combatLevel" : 154,
       "hitpoints" : 150,
@@ -95,7 +95,7 @@
         6726
       ],
       "names" : [
-        "npc.rock_golem_6726"
+        "npc.fairy2_golemguardian_2"
       ],
       "combatLevel" : 27,
       "hitpoints" : 30,
@@ -124,7 +124,7 @@
         6727
       ],
       "names" : [
-        "npc.rock_golem_6727"
+        "npc.fairy2_golemguardian_3"
       ],
       "combatLevel" : 46,
       "hitpoints" : 50,
@@ -153,7 +153,7 @@
         6728
       ],
       "names" : [
-        "npc.rock_golem_6728"
+        "npc.fairy2_golemguardian_4"
       ],
       "combatLevel" : 76,
       "hitpoints" : 70,

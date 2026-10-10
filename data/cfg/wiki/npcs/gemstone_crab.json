@@ -1,0 +1,28 @@
+{
+  "page" : "Gemstone Crab",
+  "versions" : [
+    {
+      "source" : "Gemstone Crab",
+      "ids" : [
+        14779
+      ],
+      "names" : [
+        "npc.gemstone_crab"
+      ],
+      "combatLevel" : 160,
+      "attackSpeed" : 7,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "1"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)", "freeze" : "100% resistance" }
+    }
+  ]
+}

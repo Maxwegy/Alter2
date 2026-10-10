@@ -8,7 +8,7 @@
         6081
       ],
       "names" : [
-        "npc.gnome_guard_6081"
+        "npc.gnomekingsguard"
       ],
       "combatLevel" : 23,
       "hitpoints" : 31,
@@ -34,7 +34,7 @@
         6082
       ],
       "names" : [
-        "npc.gnome_guard_6082"
+        "npc.gnomekingsguard2"
       ],
       "combatLevel" : 23,
       "hitpoints" : 31,

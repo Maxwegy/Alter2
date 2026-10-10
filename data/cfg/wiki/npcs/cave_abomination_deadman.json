@@ -8,7 +8,7 @@
         12454
       ],
       "names" : [
-        "npc.cave_abomination_12454"
+        "npc.deadman_breach_superior_cave_horror"
       ],
       "combatLevel" : 957,
       "hitpoints" : 3000,
@@ -33,7 +33,7 @@
         12454
       ],
       "names" : [
-        "npc.cave_abomination_12454"
+        "npc.deadman_breach_superior_cave_horror"
       ],
       "combatLevel" : 361,
       "hitpoints" : 750,
@@ -58,7 +58,7 @@
         12454
       ],
       "names" : [
-        "npc.cave_abomination_12454"
+        "npc.deadman_breach_superior_cave_horror"
       ],
       "combatLevel" : 395,
       "hitpoints" : 750,

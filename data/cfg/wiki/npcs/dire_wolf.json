@@ -8,7 +8,7 @@
         9181
       ],
       "names" : [
-        "npc.dire_wolf_9181"
+        "npc.gwenith_white_wolf"
       ],
       "combatLevel" : 72,
       "hitpoints" : 74,
@@ -34,7 +34,7 @@
         3426
       ],
       "names" : [
-        "npc.dire_wolf"
+        "npc.direwolf"
       ],
       "combatLevel" : 88,
       "hitpoints" : 85,
@@ -61,7 +61,7 @@
         13813
       ],
       "names" : [
-        "npc.dire_wolf_13813"
+        "npc.mag_direwolf_minion"
       ],
       "combatLevel" : 72,
       "hitpoints" : 10,

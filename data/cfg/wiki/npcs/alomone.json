@@ -10,10 +10,10 @@
         12094
       ],
       "names" : [
-        "npc.null_11976",
-        "npc.alomone",
-        "npc.alomone_12093",
-        "npc.alomone_12094"
+        "npc.alomone_hazeel_cultist",
+        "npc.alomone_hazeel_cultist_1op",
+        "npc.alomone_hazeel_cultist_2op",
+        "npc.alomone_hazeel_cultist_cutscene"
       ],
       "combatLevel" : 13,
       "hitpoints" : 25,

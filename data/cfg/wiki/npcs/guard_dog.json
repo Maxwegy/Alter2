@@ -8,7 +8,7 @@
         7209
       ],
       "names" : [
-        "npc.guard_dog_7209"
+        "npc.hosidius_guarddog"
       ],
       "combatLevel" : 44,
       "hitpoints" : 49,
@@ -35,7 +35,7 @@
         114
       ],
       "names" : [
-        "npc.guard_dog_114"
+        "npc.guarddog"
       ],
       "combatLevel" : 44,
       "hitpoints" : 49,

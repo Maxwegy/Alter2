@@ -8,7 +8,7 @@
         11728
       ],
       "names" : [
-        "npc.egg_11728"
+        "npc.kephri_egg_explode"
       ],
       "combatLevel" : 0,
       "hitpoints" : 35,
@@ -33,7 +33,7 @@
         11729
       ],
       "names" : [
-        "npc.egg_11729"
+        "npc.kephri_egg_hatch"
       ],
       "combatLevel" : 0,
       "hitpoints" : 35,

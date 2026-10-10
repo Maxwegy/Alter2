@@ -14,14 +14,14 @@
         11796
       ],
       "names" : [
-        "npc.akkha",
-        "npc.akkha_11790",
-        "npc.akkha_11791",
-        "npc.akkha_11792",
-        "npc.akkha_11793",
-        "npc.akkha_11794",
-        "npc.akkha_11795",
-        "npc.akkha_11796"
+        "npc.akkha_spawn",
+        "npc.akkha_melee",
+        "npc.akkha_range",
+        "npc.akkha_mage",
+        "npc.akkha_enrage_spawn",
+        "npc.akkha_enrage_initial",
+        "npc.akkha_enrage",
+        "npc.akkha_enrage_dummy"
       ],
       "combatLevel" : 337,
       "hitpoints" : 400,

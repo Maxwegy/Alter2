@@ -1,0 +1,34 @@
+{
+  "page" : "Gryphon",
+  "versions" : [
+    {
+      "source" : "Gryphon",
+      "ids" : [
+        14857,
+        14858
+      ],
+      "names" : [
+        "npc.slayer_gryphon_1",
+        "npc.slayer_gryphon_2"
+      ],
+      "combatLevel" : 95,
+      "hitpoints" : 110,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 65, "strength" : 75, "defence" : 50, "ranged" : 0, "magic" : 50 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 100, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "8",
+        "20+ (special)"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "level" : 51, "xp" : 110.0, "categories" : [ "Gryphons" ], "assignedBy" : [ "chaeldar", "duradel", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "air", "percent" : 50 }
+    }
+  ]
+}

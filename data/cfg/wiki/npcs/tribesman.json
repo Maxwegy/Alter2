@@ -8,8 +8,8 @@
         6407
       ],
       "names" : [
-        "npc.tribesman_6406",
-        "npc.tribesman_6407"
+        "npc.tbwcu_tribesman_instant",
+        "npc.tbwcu_tribesman"
       ],
       "combatLevel" : 32,
       "hitpoints" : 39,
@@ -60,7 +60,7 @@
         11954
       ],
       "names" : [
-        "npc.tribesman_11954"
+        "npc.tribesman_variant01"
       ],
       "combatLevel" : 32,
       "hitpoints" : 39,

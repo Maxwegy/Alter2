@@ -1,0 +1,718 @@
+{
+  "page" : "Doom of Mokhaiotl",
+  "versions" : [
+    {
+      "source" : "Doom of Mokhaiotl#Deep Delve",
+      "version" : "Deep Delve",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 625,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "65 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Deep Delve",
+      "version" : "Deep Delve",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 625,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Deep Delve",
+      "version" : "Deep Delve",
+      "ids" : [
+        14709
+      ],
+      "names" : [
+        "npc.dom_boss_burrowed"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 625,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "60 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 1",
+      "version" : "Delve 1",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 558,
+      "hitpoints" : 525,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "47 <br/> 60 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 1",
+      "version" : "Delve 1",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 558,
+      "hitpoints" : 525,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "60"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 2",
+      "version" : "Delve 2",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 550,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "50 <br/>60 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 2",
+      "version" : "Delve 2",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 608,
+      "hitpoints" : 550,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "60"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 3",
+      "version" : "Delve 3",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 658,
+      "hitpoints" : 575,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "50 <br/>80 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 3",
+      "version" : "Delve 3",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 658,
+      "hitpoints" : 575,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "60"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 4",
+      "version" : "Delve 4",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 708,
+      "hitpoints" : 600,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "80 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 4",
+      "version" : "Delve 4",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 708,
+      "hitpoints" : 600,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "80"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 5",
+      "version" : "Delve 5",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 625,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "53 <br/> 80 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 5",
+      "version" : "Delve 5",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 625,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "80"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 5",
+      "version" : "Delve 5",
+      "ids" : [
+        14709
+      ],
+      "names" : [
+        "npc.dom_boss_burrowed"
+      ],
+      "combatLevel" : 758,
+      "hitpoints" : 625,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 6",
+      "version" : "Delve 6",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 808,
+      "hitpoints" : 650,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 6",
+      "version" : "Delve 6",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 808,
+      "hitpoints" : 650,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 6",
+      "version" : "Delve 6",
+      "ids" : [
+        14709
+      ],
+      "names" : [
+        "npc.dom_boss_burrowed"
+      ],
+      "combatLevel" : 808,
+      "hitpoints" : 650,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "55 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 7",
+      "version" : "Delve 7",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 858,
+      "hitpoints" : 650,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "57 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 7",
+      "version" : "Delve 7",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 858,
+      "hitpoints" : 650,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 7",
+      "version" : "Delve 7",
+      "ids" : [
+        14709
+      ],
+      "names" : [
+        "npc.dom_boss_burrowed"
+      ],
+      "combatLevel" : 858,
+      "hitpoints" : 650,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "56 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 8",
+      "version" : "Delve 8",
+      "ids" : [
+        14707
+      ],
+      "names" : [
+        "npc.dom_boss"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 675,
+      "attackSpeed" : 4,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "65 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 8",
+      "version" : "Delve 8",
+      "ids" : [
+        14708
+      ],
+      "names" : [
+        "npc.dom_boss_shielded"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 675,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "99"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    },
+    {
+      "source" : "Doom of Mokhaiotl#Delve 8",
+      "version" : "Delve 8",
+      "ids" : [
+        14709
+      ],
+      "names" : [
+        "npc.dom_boss_burrowed"
+      ],
+      "combatLevel" : 908,
+      "hitpoints" : 675,
+      "attackSpeed" : 6,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 190, "defence" : 90, "ranged" : 110, "magic" : 275 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 125, "rangedAttack" : 120, "stabDefence" : 300, "slashDefence" : 300, "crushDefence" : 60, "magicDefence" : 160, "rangedDefence" : 160, "lightRangedDefence" : 160, "heavyRangedDefence" : 160, "attackBonus" : 210, "strengthBonus" : 45, "rangedStrength" : 50, "magicDamage" : 30 },
+      "maxHits" : [
+        "58 <br/>99 (charge)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : true,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "attributes" : [
+        "demon"
+      ],
+      "slayer" : { "categories" : [ "Bosses" ] }
+    }
+  ]
+}

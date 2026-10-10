@@ -8,7 +8,7 @@
         13658
       ],
       "names" : [
-        "npc.bee_swarm_13658"
+        "npc.deadman_breach_bees"
       ],
       "combatLevel" : 1420,
       "hitpoints" : 5000,
@@ -34,7 +34,7 @@
         13658
       ],
       "names" : [
-        "npc.bee_swarm_13658"
+        "npc.deadman_breach_bees"
       ],
       "combatLevel" : 670,
       "hitpoints" : 2000,
@@ -60,7 +60,7 @@
         13658
       ],
       "names" : [
-        "npc.bee_swarm_13658"
+        "npc.deadman_breach_bees"
       ],
       "combatLevel" : 545,
       "hitpoints" : 1500,

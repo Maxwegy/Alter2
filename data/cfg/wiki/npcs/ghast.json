@@ -8,7 +8,7 @@
         5626
       ],
       "names" : [
-        "npc.ghast_5626"
+        "npc.templetrek_ghast_vis_2"
       ],
       "combatLevel" : 109,
       "hitpoints" : 135,
@@ -37,7 +37,7 @@
         5627
       ],
       "names" : [
-        "npc.ghast_5627"
+        "npc.templetrek_ghast_vis_3"
       ],
       "combatLevel" : 139,
       "hitpoints" : 160,
@@ -66,7 +66,7 @@
         946
       ],
       "names" : [
-        "npc.ghast_946"
+        "npc.ghast_vis"
       ],
       "combatLevel" : 30,
       "hitpoints" : 45,
@@ -96,7 +96,7 @@
         5625
       ],
       "names" : [
-        "npc.ghast_5625"
+        "npc.templetrek_ghast_vis_1"
       ],
       "combatLevel" : 79,
       "hitpoints" : 115,

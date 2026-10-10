@@ -8,7 +8,7 @@
         8072
       ],
       "names" : [
-        "npc.skeleton_8072"
+        "npc.ds2_skeleton_magic"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -39,7 +39,7 @@
         8070
       ],
       "names" : [
-        "npc.skeleton_8070"
+        "npc.ds2_skeleton_melee"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,
@@ -70,7 +70,7 @@
         8071
       ],
       "names" : [
-        "npc.skeleton_8071"
+        "npc.ds2_skeleton_ranged"
       ],
       "combatLevel" : 132,
       "hitpoints" : 54,

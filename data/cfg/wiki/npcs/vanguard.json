@@ -8,7 +8,7 @@
         7529
       ],
       "names" : [
-        "npc.vanguard_7529"
+        "npc.raids_vanguard_magic"
       ],
       "hitpoints" : 180,
       "attackSpeed" : 4,
@@ -35,7 +35,7 @@
         7529
       ],
       "names" : [
-        "npc.vanguard_7529"
+        "npc.raids_vanguard_magic"
       ],
       "hitpoints" : 280,
       "attackSpeed" : 4,
@@ -62,7 +62,7 @@
         7527
       ],
       "names" : [
-        "npc.vanguard_7527"
+        "npc.raids_vanguard_melee"
       ],
       "hitpoints" : 180,
       "attackSpeed" : 4,
@@ -89,7 +89,7 @@
         7527
       ],
       "names" : [
-        "npc.vanguard_7527"
+        "npc.raids_vanguard_melee"
       ],
       "hitpoints" : 280,
       "attackSpeed" : 4,
@@ -116,7 +116,7 @@
         7526
       ],
       "names" : [
-        "npc.vanguard_7526"
+        "npc.raids_vanguard_walking"
       ],
       "attackSpeed" : 4,
       "size" : 3,
@@ -137,7 +137,7 @@
         7528
       ],
       "names" : [
-        "npc.vanguard_7528"
+        "npc.raids_vanguard_ranged"
       ],
       "hitpoints" : 180,
       "attackSpeed" : 4,
@@ -164,7 +164,7 @@
         7528
       ],
       "names" : [
-        "npc.vanguard_7528"
+        "npc.raids_vanguard_ranged"
       ],
       "hitpoints" : 280,
       "attackSpeed" : 4,

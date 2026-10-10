@@ -8,8 +8,8 @@
         5831
       ],
       "names" : [
-        "npc.ice_troll_grunt",
-        "npc.ice_troll_grunt_5831"
+        "npc.fris_troll_bodyguard",
+        "npc.fris_troll_bodyguard_pc"
       ],
       "combatLevel" : 100,
       "hitpoints" : 80,

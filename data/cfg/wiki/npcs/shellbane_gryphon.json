@@ -1,0 +1,33 @@
+{
+  "page" : "Shellbane gryphon",
+  "versions" : [
+    {
+      "source" : "Shellbane gryphon",
+      "ids" : [
+        14860
+      ],
+      "names" : [
+        "npc.gryphon_boss"
+      ],
+      "combatLevel" : 235,
+      "hitpoints" : 400,
+      "attackSpeed" : 5,
+      "respawnTicks" : 20,
+      "size" : 4,
+      "levels" : { "attack" : 160, "strength" : 210, "defence" : 120, "ranged" : 150, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 20, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 100, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22 <br/> 64 (whirlwinds) <br/> 30 (knockback)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "burn" : "Not immune" },
+      "slayer" : { "level" : 51, "xp" : 400.0, "categories" : [ "Bosses", "Gryphons" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mortimer", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 50 }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "page" : "Pirate (The Red Reef)",
+  "versions" : [
+    {
+      "source" : "Pirate (The Red Reef)#1",
+      "version" : "1",
+      "ids" : [
+        15021
+      ],
+      "names" : [
+        "npc.trr_pirate_1"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (The Red Reef)#2",
+      "version" : "2",
+      "ids" : [
+        15022
+      ],
+      "names" : [
+        "npc.trr_pirate_2"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (The Red Reef)#3",
+      "version" : "3",
+      "ids" : [
+        15023
+      ],
+      "names" : [
+        "npc.trr_pirate_3"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (The Red Reef)#4",
+      "version" : "4",
+      "ids" : [
+        15024
+      ],
+      "names" : [
+        "npc.trr_pirate_4"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

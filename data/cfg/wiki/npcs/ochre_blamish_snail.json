@@ -8,7 +8,7 @@
         2651
       ],
       "names" : [
-        "npc.ochre_blamish_snail_2651"
+        "npc.mmsnailpoint_yellow"
       ],
       "combatLevel" : 15,
       "hitpoints" : 20,
@@ -35,7 +35,7 @@
         2646
       ],
       "names" : [
-        "npc.ochre_blamish_snail"
+        "npc.mmsnailround_yellow"
       ],
       "combatLevel" : 10,
       "hitpoints" : 10,

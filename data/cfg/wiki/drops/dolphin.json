@@ -1,0 +1,28 @@
+{
+  "page" : "Dolphin",
+  "tables" : [
+    {
+      "source" : "Dolphin",
+      "npcIds" : [
+        15234
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 402, "name" : "item.cert_seaweed", "min" : 3, "max" : 5, "noted" : true, "chance" : [ 1, 5 ], "wiki" : "10/50" },
+        { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 555, "name" : "item.waterrune", "min" : 50, "max" : 80, "chance" : [ 3, 10 ], "wiki" : "15/50" },
+        { "item" : 751, "name" : "item.ball_gnomeball_game", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 1941, "name" : "item.swamppaste", "min" : 40, "max" : 60, "chance" : [ 2, 25 ], "wiki" : "4/50" },
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 55 ], "wiki" : "1/55", "approx" : true },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "1/50" },
+        { "item" : 31541, "name" : "item.flax_seed", "min" : 3, "max" : 5, "chance" : [ 2, 25 ], "wiki" : "4/50" },
+        { "item" : 31906, "name" : "item.bronze_cannonball", "min" : 36, "max" : 54, "chance" : [ 3, 25 ], "wiki" : "6/50" },
+        { "item" : 31908, "name" : "item.iron_cannonball", "min" : 30, "max" : 42, "chance" : [ 4, 25 ], "wiki" : "8/50" },
+        { "item" : 31946, "name" : "item.echo_pearl", "min" : 1, "max" : 1, "chance" : [ 1, 1200 ], "wiki" : "1/1,200", "approx" : true }
+      ]
+    }
+  ]
+}

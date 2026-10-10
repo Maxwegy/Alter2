@@ -8,7 +8,7 @@
         5295
       ],
       "names" : [
-        "npc.elf_archer"
+        "npc.mourning_guard_range"
       ],
       "combatLevel" : 90,
       "hitpoints" : 105,
@@ -35,7 +35,7 @@
         5296
       ],
       "names" : [
-        "npc.elf_archer_5296"
+        "npc.mourning_guard_range2"
       ],
       "combatLevel" : 90,
       "hitpoints" : 105,

@@ -18,15 +18,15 @@
       ],
       "names" : [
         "npc.black_dragon",
-        "npc.black_dragon_253",
-        "npc.black_dragon_254",
-        "npc.black_dragon_255",
-        "npc.black_dragon_256",
-        "npc.black_dragon_257",
-        "npc.black_dragon_258",
-        "npc.black_dragon_259",
-        "npc.black_dragon_8084",
-        "npc.black_dragon_8085"
+        "npc.black_dragon2",
+        "npc.black_dragon3",
+        "npc.black_dragon4",
+        "npc.black_dragon5",
+        "npc.black_dragon_strongholdcave_1",
+        "npc.black_dragon_strongholdcave_2",
+        "npc.black_dragon_strongholdcave_3",
+        "npc.ds2_black_dragon_cutscene",
+        "npc.ds2_black_dragon"
       ],
       "combatLevel" : 227,
       "hitpoints" : 190,
@@ -62,9 +62,9 @@
         7863
       ],
       "names" : [
-        "npc.black_dragon_7861",
-        "npc.black_dragon_7862",
-        "npc.black_dragon_7863"
+        "npc.wild_cave_black_dragon",
+        "npc.wild_cave_black_dragon2",
+        "npc.wild_cave_black_dragon3"
       ],
       "combatLevel" : 247,
       "hitpoints" : 250,

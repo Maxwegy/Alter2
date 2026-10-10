@@ -8,7 +8,7 @@
         11508
       ],
       "names" : [
-        "npc.scarab_mage_11508"
+        "npc.bcs_scarab_mage"
       ],
       "combatLevel" : 119,
       "hitpoints" : 120,
@@ -38,7 +38,7 @@
         799
       ],
       "names" : [
-        "npc.scarab_mage_799"
+        "npc.contact_insectoid_mage_b"
       ],
       "combatLevel" : 66,
       "hitpoints" : 50,
@@ -69,7 +69,7 @@
         794
       ],
       "names" : [
-        "npc.scarab_mage"
+        "npc.contact_insectoid_mage"
       ],
       "combatLevel" : 93,
       "hitpoints" : 50,

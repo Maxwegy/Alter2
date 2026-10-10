@@ -1,0 +1,37 @@
+{
+  "page" : "Frost dragon",
+  "versions" : [
+    {
+      "source" : "Frost dragon",
+      "ids" : [
+        14922
+      ],
+      "names" : [
+        "npc.frost_dragon"
+      ],
+      "combatLevel" : 202,
+      "hitpoints" : 230,
+      "attackSpeed" : 4,
+      "respawnTicks" : 7,
+      "size" : 4,
+      "levels" : { "attack" : 180, "strength" : 150, "defence" : 150, "ranged" : 0, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 90, "crushDefence" : 15, "magicDefence" : 50, "rangedDefence" : 50, "lightRangedDefence" : 70, "heavyRangedDefence" : 30, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "16 (Stab)<br/>50 (Dragonfire)"
+      ],
+      "attackStyles" : [
+        "Melee",
+        "Dragonfire"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "burn" : "Not immune" },
+      "attributes" : [
+        "dragon",
+        "fiery"
+      ],
+      "slayer" : { "xp" : 235.5, "categories" : [ "Frost Dragons" ], "assignedBy" : [ "duradel", "nieve" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

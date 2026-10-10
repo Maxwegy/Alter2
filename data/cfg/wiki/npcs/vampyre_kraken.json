@@ -1,0 +1,30 @@
+{
+  "page" : "Vampyre kraken",
+  "versions" : [
+    {
+      "source" : "Vampyre kraken",
+      "ids" : [
+        15212
+      ],
+      "names" : [
+        "npc.sailing_vampyre_kraken"
+      ],
+      "combatLevel" : 211,
+      "hitpoints" : 311,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 115, "ranged" : 1, "magic" : 215 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : -63, "rangedDefence" : 75, "lightRangedDefence" : 120, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false, "burn" : "Immune (strong)" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

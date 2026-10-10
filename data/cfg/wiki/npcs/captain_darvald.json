@@ -1,0 +1,21 @@
+{
+  "page" : "Captain Darvald",
+  "versions" : [
+    {
+      "source" : "Captain Darvald",
+      "ids" : [
+        15457
+      ],
+      "names" : [
+        "npc.captain_darvald"
+      ],
+      "combatLevel" : 137,
+      "hitpoints" : 150,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 1, "defence" : 200, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 120, "slashDefence" : 140, "crushDefence" : 137, "magicDefence" : 0, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 45, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

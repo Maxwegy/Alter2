@@ -1,0 +1,21 @@
+{
+  "page" : "Fremennik warrior",
+  "versions" : [
+    {
+      "source" : "Fremennik warrior",
+      "ids" : [
+        15458
+      ],
+      "names" : [
+        "npc.fremennik_melee_crew"
+      ],
+      "combatLevel" : 61,
+      "hitpoints" : 45,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 60, "strength" : 1, "defence" : 30, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 21, "crushDefence" : 1, "magicDefence" : 0, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 33, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

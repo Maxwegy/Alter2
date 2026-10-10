@@ -7,7 +7,7 @@
         14017
       ],
       "names" : [
-        "npc.hueycoatl_body"
+        "npc.huey_body_part"
       ],
       "combatLevel" : 642,
       "hitpoints" : 250,
@@ -36,7 +36,7 @@
         14012
       ],
       "names" : [
-        "npc.the_hueycoatl_14012"
+        "npc.huey_head_defeated"
       ],
       "combatLevel" : 642,
       "hitpoints" : 2500,
@@ -69,9 +69,9 @@
         14013
       ],
       "names" : [
-        "npc.the_hueycoatl_14009",
-        "npc.the_hueycoatl_14010",
-        "npc.the_hueycoatl_14013"
+        "npc.huey_head",
+        "npc.huey_head_respawn_placeholder",
+        "npc.huey_head_enraged"
       ],
       "combatLevel" : 642,
       "hitpoints" : 2500,
@@ -102,7 +102,7 @@
         14011
       ],
       "names" : [
-        "npc.the_hueycoatl_14011"
+        "npc.huey_head_invulnerable"
       ],
       "combatLevel" : 642,
       "hitpoints" : 2500,
@@ -133,7 +133,7 @@
         14014
       ],
       "names" : [
-        "npc.hueycoatl_tail"
+        "npc.huey_tail"
       ],
       "combatLevel" : 642,
       "hitpoints" : 300,
@@ -162,7 +162,7 @@
         14015
       ],
       "names" : [
-        "npc.hueycoatl_tail_broken"
+        "npc.huey_tail_broken"
       ],
       "combatLevel" : 642,
       "hitpoints" : 300,

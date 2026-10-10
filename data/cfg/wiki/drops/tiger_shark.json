@@ -1,0 +1,44 @@
+{
+  "page" : "Tiger shark",
+  "tables" : [
+    {
+      "source" : "Tiger shark",
+      "npcIds" : [
+        15198
+      ],
+      "needsReview" : true,
+      "tertiary" : [
+        { "item" : 2, "name" : "item.mcannonball", "min" : 48, "max" : 60, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 42, "name" : "item.mithril_arrowheads", "min" : 20, "max" : 40, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 383, "name" : "item.raw_shark", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 20, "max" : 30, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 12800 ], "wiki" : "1/12,800" },
+        { "item" : 1073, "name" : "item.adamant_platelegs", "min" : 1, "max" : 1, "chance" : [ 2, 25 ], "wiki" : "8/100" },
+        { "item" : 1213, "name" : "item.rune_dagger", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 54613333 ], "wiki" : "1/546,133.33" },
+        { "item" : 1391, "name" : "item.battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 1395, "name" : "item.water_battlestaff", "min" : 1, "max" : 1, "chance" : [ 3, 100 ], "wiki" : "3/100" },
+        { "item" : 1430, "name" : "item.adamant_mace", "min" : 1, "max" : 1, "chance" : [ 3, 50 ], "wiki" : "6/100" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 426667 ], "wiki" : "1/4,266.67" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 1600 ], "wiki" : "1/1,600" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 1639, "name" : "item.emerald_ring", "min" : 1, "max" : 1, "chance" : [ 6, 25 ], "wiki" : "24/100" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 409600 ], "wiki" : "1/409,600" },
+        { "item" : 3200, "name" : "item.adamant_halberd", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 6324, "name" : "item.snakeskin_chaps", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "5/100" },
+        { "item" : 9183, "name" : "item.xbows_crossbow_adamantite", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 1, "max" : 1, "chance" : [ 3, 250 ], "wiki" : "12/1,000" },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 1, "chance" : [ 3, 500 ], "wiki" : "6/1,000" },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 1, "chance" : [ 1, 500 ], "wiki" : "2/1,000" },
+        { "item" : 32811, "name" : "item.sailing_tiger_shark_jaw", "min" : 1, "max" : 1, "chance" : [ 1, 2 ], "wiki" : "1/2" },
+        { "item" : 32830, "name" : "item.sailing_tiger_shark_liver", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 32849, "name" : "item.sailing_fisherman_shipwreck_salvage", "min" : 1, "max" : 1, "chance" : [ 1, 50 ], "wiki" : "2/100" }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         9446
       ],
       "names" : [
-        "npc.sleepwalker_9446"
+        "npc.nightmare_sleepwalker_1"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -33,7 +33,7 @@
         9447
       ],
       "names" : [
-        "npc.sleepwalker_9447"
+        "npc.nightmare_sleepwalker_2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -58,7 +58,7 @@
         9448
       ],
       "names" : [
-        "npc.sleepwalker_9448"
+        "npc.nightmare_sleepwalker_3"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -83,7 +83,7 @@
         9449
       ],
       "names" : [
-        "npc.sleepwalker_9449"
+        "npc.nightmare_sleepwalker_4"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -108,7 +108,7 @@
         9450
       ],
       "names" : [
-        "npc.sleepwalker_9450"
+        "npc.nightmare_sleepwalker_5"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -133,7 +133,7 @@
         9451
       ],
       "names" : [
-        "npc.sleepwalker_9451"
+        "npc.nightmare_sleepwalker_6"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,

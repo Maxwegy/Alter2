@@ -7,8 +7,8 @@
         2650
       ],
       "always" : [
-        { "item" : 3357, "name" : "item.blamish_red_shell_3357", "min" : 1, "max" : 1 },
-        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+        { "item" : 3357, "name" : "item.shellpoint_red+black", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.snail_corpse3", "min" : 1, "max" : 1 }
       ]
     },
     {
@@ -17,8 +17,8 @@
         2645
       ],
       "always" : [
-        { "item" : 3347, "name" : "item.blamish_red_shell", "min" : 1, "max" : 1 },
-        { "item" : 3367, "name" : "item.fat_snail", "min" : 1, "max" : 1 }
+        { "item" : 3347, "name" : "item.shellround_red+black", "min" : 1, "max" : 1 },
+        { "item" : 3367, "name" : "item.snail_corpse3", "min" : 1, "max" : 1 }
       ]
     }
   ]

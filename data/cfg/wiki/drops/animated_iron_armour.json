@@ -9,7 +9,7 @@
       "always" : [
         { "item" : 1115, "name" : "item.iron_platebody", "min" : 1, "max" : 1 },
         { "item" : 1153, "name" : "item.iron_full_helm", "min" : 1, "max" : 1 },
-        { "item" : 8851, "name" : "item.warrior_guild_token", "min" : 10, "max" : 10 }
+        { "item" : 8851, "name" : "item.warguild_tokens", "min" : 10, "max" : 10 }
       ],
       "main" : [
         { "item" : 1067, "name" : "item.iron_platelegs", "min" : 1, "max" : 1, "chance" : [ 9, 10 ], "wiki" : "9/10" }

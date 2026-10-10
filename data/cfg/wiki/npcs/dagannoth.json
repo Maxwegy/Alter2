@@ -10,9 +10,9 @@
         972
       ],
       "names" : [
-        "npc.dagannoth_970",
-        "npc.dagannoth_971",
-        "npc.dagannoth_972"
+        "npc.horror_dagganoth_jr",
+        "npc.horror_dagganoth_jr_darker",
+        "npc.horror_dagganoth_jr_lighter"
       ],
       "combatLevel" : 74,
       "hitpoints" : 70,
@@ -40,7 +40,7 @@
         7259
       ],
       "names" : [
-        "npc.dagannoth_7259"
+        "npc.kourend_dagannoth1"
       ],
       "combatLevel" : 74,
       "hitpoints" : 70,
@@ -70,9 +70,9 @@
         975
       ],
       "names" : [
-        "npc.dagannoth_973",
-        "npc.dagannoth_974",
-        "npc.dagannoth_975"
+        "npc.horror_dagannoth_medium",
+        "npc.horror_dagannoth_medium_darker",
+        "npc.horror_dagannoth_medium_lighter"
       ],
       "combatLevel" : 92,
       "hitpoints" : 120,
@@ -100,7 +100,7 @@
         7260
       ],
       "names" : [
-        "npc.dagannoth_7260"
+        "npc.kourend_dagannoth2"
       ],
       "combatLevel" : 92,
       "hitpoints" : 120,

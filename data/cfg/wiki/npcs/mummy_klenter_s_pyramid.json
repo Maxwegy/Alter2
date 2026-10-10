@@ -8,7 +8,7 @@
         949
       ],
       "names" : [
-        "npc.mummy_949"
+        "npc.ics_little_mummy_1"
       ],
       "combatLevel" : 84,
       "hitpoints" : 90,
@@ -34,7 +34,7 @@
         950
       ],
       "names" : [
-        "npc.mummy_950"
+        "npc.ics_little_mummy_2"
       ],
       "combatLevel" : 84,
       "hitpoints" : 90,
@@ -60,7 +60,7 @@
         951
       ],
       "names" : [
-        "npc.mummy_951"
+        "npc.ics_little_mummy_3"
       ],
       "combatLevel" : 84,
       "hitpoints" : 90,
@@ -86,7 +86,7 @@
         952
       ],
       "names" : [
-        "npc.mummy_952"
+        "npc.ics_little_mummy_4"
       ],
       "combatLevel" : 84,
       "hitpoints" : 90,
@@ -112,7 +112,7 @@
         953
       ],
       "names" : [
-        "npc.mummy_953"
+        "npc.ics_little_mummy_5"
       ],
       "combatLevel" : 84,
       "hitpoints" : 90,

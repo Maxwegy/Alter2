@@ -1,0 +1,55 @@
+{
+  "page" : "Metzli, Teokan of Ranul",
+  "versions" : [
+    {
+      "source" : "Metzli, Teokan of Ranul",
+      "ids" : [
+        14318
+      ],
+      "names" : [
+        "npc.vmq4_crypt_metzli_noops"
+      ],
+      "combatLevel" : 396,
+      "hitpoints" : 600,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 180, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 110, "rangedAttack" : 110, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 70, "magicDefence" : 100, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 30 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    },
+    {
+      "source" : "Metzli, Teokan of Ranul",
+      "ids" : [
+        14313
+      ],
+      "names" : [
+        "npc.vmq4_metzli_boss"
+      ],
+      "combatLevel" : 396,
+      "hitpoints" : 600,
+      "attackSpeed" : 3,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 160, "ranged" : 180, "magic" : 180 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 110, "rangedAttack" : 110, "stabDefence" : 60, "slashDefence" : 80, "crushDefence" : 70, "magicDefence" : 100, "rangedDefence" : 20, "lightRangedDefence" : 20, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 30, "magicDamage" : 30 },
+      "maxHits" : [
+        "28"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 30 }
+    }
+  ]
+}

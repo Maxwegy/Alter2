@@ -1,0 +1,73 @@
+{
+  "page" : "Guard (Port Roberts)",
+  "versions" : [
+    {
+      "source" : "Guard (Port Roberts)#1",
+      "version" : "1",
+      "ids" : [
+        14887
+      ],
+      "names" : [
+        "npc.port_roberts_guard_m1"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 1, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Port Roberts)#2",
+      "version" : "2",
+      "ids" : [
+        14888
+      ],
+      "names" : [
+        "npc.port_roberts_guard_m2"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 1, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Port Roberts)#3",
+      "version" : "3",
+      "ids" : [
+        14889
+      ],
+      "names" : [
+        "npc.port_roberts_guard_f1"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 1, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Guard (Port Roberts)#4",
+      "version" : "4",
+      "ids" : [
+        14890
+      ],
+      "names" : [
+        "npc.port_roberts_guard_f2"
+      ],
+      "combatLevel" : 21,
+      "hitpoints" : 22,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 19, "strength" : 1, "defence" : 14, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 18, "slashDefence" : 25, "crushDefence" : 19, "magicDefence" : -4, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 5, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

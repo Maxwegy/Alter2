@@ -13,12 +13,12 @@
         12504
       ],
       "names" : [
-        "npc.warped_terrorbird_12499",
-        "npc.warped_terrorbird_12500",
-        "npc.warped_terrorbird_12501",
-        "npc.warped_terrorbird_12502",
-        "npc.warped_terrorbird_12503",
-        "npc.warped_terrorbird_12504"
+        "npc.pog_mutated_terrorbird_boss_1",
+        "npc.pog_mutated_terrorbird_boss_2",
+        "npc.pog_mutated_terrorbird_boss_3",
+        "npc.pog_mutated_terrorbird_boss_1_background_vis",
+        "npc.pog_mutated_terrorbird_boss_2_background_vis",
+        "npc.pog_mutated_terrorbird_boss_3_background_vis"
       ],
       "combatLevel" : 138,
       "hitpoints" : 200,
@@ -53,14 +53,14 @@
         12498
       ],
       "names" : [
-        "npc.warped_terrorbird",
-        "npc.warped_terrorbird_12492",
-        "npc.warped_terrorbird_12493",
-        "npc.warped_terrorbird_12494",
-        "npc.warped_terrorbird_12495",
-        "npc.warped_terrorbird_12496",
-        "npc.warped_terrorbird_12497",
-        "npc.warped_terrorbird_12498"
+        "npc.pog_mutated_terrorbird_1",
+        "npc.pog_mutated_terrorbird_2",
+        "npc.pog_mutated_terrorbird_3",
+        "npc.pog_mutated_terrorbird_4",
+        "npc.pog_mutated_terrorbird_5",
+        "npc.pog_mutated_terrorbird_6",
+        "npc.pog_mutated_terrorbird_7",
+        "npc.pog_mutated_terrorbird_8"
       ],
       "combatLevel" : 96,
       "hitpoints" : 150,

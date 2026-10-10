@@ -8,7 +8,7 @@
         10691
       ],
       "names" : [
-        "npc.body_golem"
+        "npc.camdozaal_golem_body"
       ],
       "combatLevel" : 50,
       "hitpoints" : 60,
@@ -37,7 +37,7 @@
         10692
       ],
       "names" : [
-        "npc.rubble_10692"
+        "npc.camdozaal_golem_body_rock"
       ],
       "combatLevel" : 50,
       "hitpoints" : 60,

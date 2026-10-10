@@ -1,0 +1,130 @@
+{
+  "page" : "Pirate (Thieving)",
+  "versions" : [
+    {
+      "source" : "Pirate (Thieving)#1",
+      "version" : "1",
+      "ids" : [
+        14933
+      ],
+      "names" : [
+        "npc.pirate_pickpocketable_1"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (Thieving)#2",
+      "version" : "2",
+      "ids" : [
+        14934
+      ],
+      "names" : [
+        "npc.pirate_pickpocketable_2"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (Thieving)#3",
+      "version" : "3",
+      "ids" : [
+        14935
+      ],
+      "names" : [
+        "npc.pirate_pickpocketable_3"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (Thieving)#4",
+      "version" : "4",
+      "ids" : [
+        14936
+      ],
+      "names" : [
+        "npc.pirate_pickpocketable_4"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    },
+    {
+      "source" : "Pirate (Thieving)#5",
+      "version" : "5",
+      "ids" : [
+        14937
+      ],
+      "names" : [
+        "npc.pirate_pickpocketable_5"
+      ],
+      "combatLevel" : 52,
+      "hitpoints" : 38,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 54, "strength" : 50, "defence" : 35, "ranged" : 1, "magic" : 10 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 10, "slashDefence" : 20, "crushDefence" : 10, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Slash"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

@@ -11,10 +11,10 @@
         4439
       ],
       "names" : [
-        "npc.vampyre_juvenile_4436",
-        "npc.vampyre_juvenile_4437",
-        "npc.vampyre_juvenile_4438",
-        "npc.vampyre_juvenile_4439"
+        "npc.burgh_vampire_juvenile_1",
+        "npc.burgh_vampire_juvenile_2",
+        "npc.burgh_vampire_juvenile_3",
+        "npc.burgh_vampire_juvenile_held"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -47,10 +47,10 @@
         9734
       ],
       "names" : [
-        "npc.vampyre_juvenile_9731",
-        "npc.vampyre_juvenile_9732",
-        "npc.vampyre_juvenile_9733",
-        "npc.vampyre_juvenile_9734"
+        "npc.darkm_juvenile_01",
+        "npc.darkm_juvenile_02",
+        "npc.darkm_juvenile_01_held",
+        "npc.darkm_juvenile_02_held"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,
@@ -83,10 +83,10 @@
         3697
       ],
       "names" : [
-        "npc.vampyre_juvenile",
-        "npc.vampyre_juvenile_3693",
-        "npc.vampyre_juvenile_3696",
-        "npc.vampyre_juvenile_3697"
+        "npc.sang_myq3_male_juvenile",
+        "npc.sang_myq3_female_juvenile",
+        "npc.sang_myq3_male_juvenile_held",
+        "npc.sang_myq3_female_juvenile_held"
       ],
       "combatLevel" : 45,
       "hitpoints" : 60,

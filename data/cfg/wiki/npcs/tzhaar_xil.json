@@ -9,8 +9,8 @@
         2170
       ],
       "names" : [
-        "npc.tzhaarxil",
-        "npc.tzhaarxil_2170"
+        "npc.tzhaar_xil1",
+        "npc.tzhaar_xil4"
       ],
       "combatLevel" : 133,
       "hitpoints" : 120,
@@ -39,8 +39,8 @@
         2172
       ],
       "names" : [
-        "npc.tzhaarxil_2169",
-        "npc.tzhaarxil_2172"
+        "npc.tzhaar_xil3",
+        "npc.tzhaar_xil6"
       ],
       "combatLevel" : 133,
       "hitpoints" : 120,
@@ -71,8 +71,8 @@
         2171
       ],
       "names" : [
-        "npc.tzhaarxil_2168",
-        "npc.tzhaarxil_2171"
+        "npc.tzhaar_xil2",
+        "npc.tzhaar_xil5"
       ],
       "combatLevel" : 133,
       "hitpoints" : 120,

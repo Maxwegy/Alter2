@@ -8,7 +8,7 @@
         13012
       ],
       "names" : [
-        "npc.eclipse_moon"
+        "npc.pmoon_boss_eclipse_moon_vis"
       ],
       "combatLevel" : 329,
       "hitpoints" : 500,
@@ -34,7 +34,7 @@
         13012
       ],
       "names" : [
-        "npc.eclipse_moon"
+        "npc.pmoon_boss_eclipse_moon_vis"
       ],
       "combatLevel" : 329,
       "hitpoints" : 500,

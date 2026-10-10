@@ -9,8 +9,8 @@
         7572
       ],
       "names" : [
-        "npc.guardian_7570",
-        "npc.guardian_7572"
+        "npc.raids_stoneguardians_right",
+        "npc.raids_stoneguardians_right_dead"
       ],
       "hitpoints" : 375,
       "attackSpeed" : 4,
@@ -37,8 +37,8 @@
         7571
       ],
       "names" : [
-        "npc.guardian",
-        "npc.guardian_7571"
+        "npc.raids_stoneguardians_left",
+        "npc.raids_stoneguardians_left_dead"
       ],
       "hitpoints" : 250,
       "attackSpeed" : 4,

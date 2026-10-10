@@ -8,7 +8,7 @@
         6326
       ],
       "names" : [
-        "npc.skeleton_hellhound_hard"
+        "npc.nzone_skeleton_hellhound_hard"
       ],
       "combatLevel" : 198,
       "hitpoints" : 132,
@@ -37,7 +37,7 @@
         6387
       ],
       "names" : [
-        "npc.skeleton_hellhound_6387"
+        "npc.nzone_skeleton_hellhound_normal"
       ],
       "combatLevel" : 97,
       "hitpoints" : 55,

@@ -7,8 +7,8 @@
         2648
       ],
       "always" : [
-        { "item" : 3353, "name" : "item.blamish_bark_shell", "min" : 1, "max" : 1 },
-        { "item" : 3365, "name" : "item.lean_snail", "min" : 1, "max" : 1 }
+        { "item" : 3353, "name" : "item.shellround_orange", "min" : 1, "max" : 1 },
+        { "item" : 3365, "name" : "item.snail_corpse2", "min" : 1, "max" : 1 }
       ]
     }
   ]

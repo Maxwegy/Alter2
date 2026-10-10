@@ -8,7 +8,7 @@
         10695
       ],
       "names" : [
-        "npc.flawed_golem"
+        "npc.camdozaal_golem_flawed"
       ],
       "combatLevel" : 13,
       "hitpoints" : 25,
@@ -37,7 +37,7 @@
         10696
       ],
       "names" : [
-        "npc.rubble_10696"
+        "npc.camdozaal_golem_flawed_rock"
       ],
       "combatLevel" : 13,
       "hitpoints" : 25,

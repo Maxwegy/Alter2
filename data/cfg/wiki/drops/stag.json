@@ -4,7 +4,8 @@
     {
       "source" : "Stag",
       "npcIds" : [
-        1845
+        1845,
+        14222
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }

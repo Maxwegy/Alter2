@@ -8,7 +8,7 @@
         2246
       ],
       "names" : [
-        "npc.goblin_2246"
+        "npc.godwars_goblin2"
       ],
       "combatLevel" : 12,
       "hitpoints" : 15,
@@ -35,7 +35,7 @@
         2247
       ],
       "names" : [
-        "npc.goblin_2247"
+        "npc.godwars_goblin3"
       ],
       "combatLevel" : 12,
       "hitpoints" : 3,
@@ -62,7 +62,7 @@
         2249
       ],
       "names" : [
-        "npc.goblin_2249"
+        "npc.godwars_goblin5"
       ],
       "combatLevel" : 13,
       "hitpoints" : 13,
@@ -89,7 +89,7 @@
         2248
       ],
       "names" : [
-        "npc.goblin_2248"
+        "npc.godwars_goblin4"
       ],
       "combatLevel" : 15,
       "hitpoints" : 16,
@@ -116,7 +116,7 @@
         2245
       ],
       "names" : [
-        "npc.goblin_2245"
+        "npc.godwars_goblin1"
       ],
       "combatLevel" : 17,
       "hitpoints" : 18,

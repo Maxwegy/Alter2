@@ -9,8 +9,8 @@
         4304
       ],
       "names" : [
-        "npc.kalphite_queen_965",
-        "npc.kalphite_queen_4304"
+        "npc.kalphite_flyingqueen",
+        "npc.swan_kalphite_2"
       ],
       "combatLevel" : 333,
       "hitpoints" : 255,
@@ -44,8 +44,8 @@
         4303
       ],
       "names" : [
-        "npc.kalphite_queen_963",
-        "npc.kalphite_queen_4303"
+        "npc.kalphite_queen",
+        "npc.swan_kalphite_1"
       ],
       "combatLevel" : 333,
       "hitpoints" : 255,

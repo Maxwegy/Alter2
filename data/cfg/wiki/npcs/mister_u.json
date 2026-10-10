@@ -1,0 +1,29 @@
+{
+  "page" : "Mister U.",
+  "versions" : [
+    {
+      "source" : "Mister U.",
+      "ids" : [
+        15679
+      ],
+      "names" : [
+        "npc.sailing_npc_boat_combat_crew_trr_3"
+      ],
+      "combatLevel" : 77,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 1,
+      "levels" : { "attack" : 55, "strength" : 55, "defence" : 65, "ranged" : 70, "magic" : 60 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 13, "rangedAttack" : 100, "stabDefence" : 35, "slashDefence" : 11, "crushDefence" : 40, "magicDefence" : 70, "rangedDefence" : 33, "lightRangedDefence" : 21, "heavyRangedDefence" : 40, "attackBonus" : 50, "strengthBonus" : 43, "rangedStrength" : 70, "magicDamage" : 0 },
+      "maxHits" : [
+        "11"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

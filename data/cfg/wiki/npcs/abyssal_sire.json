@@ -10,9 +10,9 @@
         5888
       ],
       "names" : [
-        "npc.abyssal_sire",
-        "npc.abyssal_sire_5887",
-        "npc.abyssal_sire_5888"
+        "npc.abyssalsire_sire_stasis_sleeping",
+        "npc.abyssalsire_sire_stasis_awake",
+        "npc.abyssalsire_sire_stasis_stunned"
       ],
       "combatLevel" : 350,
       "hitpoints" : 425,
@@ -44,8 +44,8 @@
         5890
       ],
       "names" : [
-        "npc.abyssal_sire_5889",
-        "npc.abyssal_sire_5890"
+        "npc.abyssalsire_sire_puppet",
+        "npc.abyssalsire_sire_wandering"
       ],
       "combatLevel" : 350,
       "hitpoints" : 425,
@@ -75,7 +75,7 @@
         5891
       ],
       "names" : [
-        "npc.abyssal_sire_5891"
+        "npc.abyssalsire_sire_panicking"
       ],
       "combatLevel" : 350,
       "hitpoints" : 425,
@@ -105,7 +105,7 @@
         5908
       ],
       "names" : [
-        "npc.abyssal_sire_5908"
+        "npc.abyssalsire_sire_apocalypse"
       ],
       "combatLevel" : 350,
       "hitpoints" : 425,

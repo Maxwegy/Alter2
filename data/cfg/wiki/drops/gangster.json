@@ -14,14 +14,14 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "tertiary" : [
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 125, 4096 ], "wiki" : "31.25/1,024" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 25, 1024 ], "wiki" : "25/1,024" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 25, 1024 ], "wiki" : "25/1,024" },
-        { "item" : 564, "name" : "item.cosmic_rune", "min" : 30, "max" : 60, "chance" : [ 5, 64 ], "wiki" : "20/256" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 125, 4096 ], "wiki" : "31.25/1,024" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 25, 1024 ], "wiki" : "25/1,024" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 25, 1024 ], "wiki" : "25/1,024" },
+        { "item" : 564, "name" : "item.cosmicrune", "min" : 30, "max" : 60, "chance" : [ 5, 64 ], "wiki" : "20/256" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 600, "max" : 800, "chance" : [ 15, 128 ], "wiki" : "30/256" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 995, "name" : "item.coins", "min" : 600, "max" : 800, "chance" : [ 15, 128 ], "wiki" : "30/256" },
         { "item" : 1089, "name" : "item.black_plateskirt", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "8/256" },
         { "item" : 1107, "name" : "item.black_chainbody", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "8/256" },
         { "item" : 1151, "name" : "item.black_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "8/256" },
@@ -34,15 +34,15 @@
         { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "1/64" },
-        { "item" : 2358, "name" : "item.gold_bar_noted", "min" : 8, "max" : 16, "noted" : true, "chance" : [ 15, 256 ], "wiki" : "15/256" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 75, 4096 ], "wiki" : "18.75/1,024" },
-        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 65 ], "wiki" : "1/65" },
-        { "item" : 6033, "name" : "item.compost_noted", "min" : 40, "max" : 80, "noted" : true, "chance" : [ 25, 256 ], "wiki" : "25/256" },
-        { "item" : 8779, "name" : "item.oak_plank_noted", "min" : 10, "max" : 20, "noted" : true, "chance" : [ 5, 32 ], "wiki" : "40/256" },
-        { "item" : 8781, "name" : "item.teak_plank_noted", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 15, 128 ], "wiki" : "30/256" },
-        { "item" : 8783, "name" : "item.mahogany_plank_noted", "min" : 4, "max" : 8, "noted" : true, "chance" : [ 5, 64 ], "wiki" : "20/256" },
-        { "item" : 13395, "name" : "item.intelligence", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" }
+        { "item" : 2358, "name" : "item.cert_gold_bar", "min" : 8, "max" : 16, "noted" : true, "chance" : [ 15, 256 ], "wiki" : "15/256" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 65536 ], "wiki" : "1/65,536" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 75, 4096 ], "wiki" : "18.75/1,024" },
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 65 ], "wiki" : "1/65" },
+        { "item" : 6033, "name" : "item.cert_bucket_compost", "min" : 40, "max" : 80, "noted" : true, "chance" : [ 25, 256 ], "wiki" : "25/256" },
+        { "item" : 8779, "name" : "item.cert_plank_oak", "min" : 10, "max" : 20, "noted" : true, "chance" : [ 5, 32 ], "wiki" : "40/256" },
+        { "item" : 8781, "name" : "item.cert_plank_teak", "min" : 5, "max" : 10, "noted" : true, "chance" : [ 15, 128 ], "wiki" : "30/256" },
+        { "item" : 8783, "name" : "item.cert_plank_mahogany", "min" : 4, "max" : 8, "noted" : true, "chance" : [ 5, 64 ], "wiki" : "20/256" },
+        { "item" : 13395, "name" : "item.shayzien_gang_intelligence", "min" : 1, "max" : 1, "chance" : [ 1, 5 ], "wiki" : "1/5" }
       ]
     }
   ]

@@ -12,11 +12,11 @@
         12724
       ],
       "names" : [
-        "npc.armoured_zombie",
-        "npc.armoured_zombie_12721",
-        "npc.armoured_zombie_12722",
-        "npc.armoured_zombie_12723",
-        "npc.armoured_zombie_12724"
+        "npc.dov_armoured_zombie_melee_1",
+        "npc.dov_armoured_zombie_melee_2",
+        "npc.dov_armoured_zombie_melee_3",
+        "npc.dov_armoured_zombie_melee_4",
+        "npc.dov_armoured_zombie_melee_5"
       ],
       "combatLevel" : 82,
       "hitpoints" : 75,
@@ -51,11 +51,11 @@
         12729
       ],
       "names" : [
-        "npc.armoured_zombie_12725",
-        "npc.armoured_zombie_12726",
-        "npc.armoured_zombie_12727",
-        "npc.armoured_zombie_12728",
-        "npc.armoured_zombie_12729"
+        "npc.dov_armoured_zombie_ranged_1",
+        "npc.dov_armoured_zombie_ranged_2",
+        "npc.dov_armoured_zombie_ranged_3",
+        "npc.dov_armoured_zombie_ranged_4",
+        "npc.dov_armoured_zombie_ranged_5"
       ],
       "combatLevel" : 82,
       "hitpoints" : 75,

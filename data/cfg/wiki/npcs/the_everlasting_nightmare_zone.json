@@ -8,7 +8,7 @@
         6120
       ],
       "names" : [
-        "npc.the_everlasting_hard"
+        "npc.nzone_dream_everlasting_hard"
       ],
       "combatLevel" : 365,
       "hitpoints" : 255,
@@ -33,7 +33,7 @@
         6351
       ],
       "names" : [
-        "npc.the_everlasting_6351"
+        "npc.nzone_dream_everlasting_normal"
       ],
       "combatLevel" : 223,
       "hitpoints" : 230,

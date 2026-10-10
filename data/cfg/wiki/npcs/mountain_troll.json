@@ -11,16 +11,22 @@
         939,
         940,
         941,
-        942
+        942,
+        16330,
+        16331,
+        16332
       ],
       "names" : [
-        "npc.mountain_troll",
-        "npc.mountain_troll_937",
-        "npc.mountain_troll_938",
-        "npc.mountain_troll_939",
-        "npc.mountain_troll_940",
-        "npc.mountain_troll_941",
-        "npc.mountain_troll_942"
+        "npc.death_troll_melee1",
+        "npc.death_troll_melee2",
+        "npc.death_troll_melee3",
+        "npc.death_troll_melee4",
+        "npc.death_troll_melee5",
+        "npc.death_troll_melee6",
+        "npc.death_troll_melee7",
+        "npc.ffg_troll_1",
+        "npc.ffg_troll_2",
+        "npc.ffg_troll_3"
       ],
       "combatLevel" : 69,
       "hitpoints" : 90,
@@ -48,7 +54,7 @@
         4143
       ],
       "names" : [
-        "npc.mountain_troll_4143"
+        "npc.troll_melee1"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,

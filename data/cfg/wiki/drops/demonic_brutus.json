@@ -1,0 +1,18 @@
+{
+  "page" : "Demonic Brutus",
+  "tables" : [
+    {
+      "source" : "Demonic Brutus",
+      "npcIds" : [
+        15628,
+        15629
+      ],
+      "always" : [
+        { "item" : 33099, "name" : "item.cow_slippers_recol_4", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 33124, "name" : "item.cowbosspet", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400", "approx" : true }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
         6762
       ],
       "names" : [
-        "npc.pyrelord"
+        "npc.slayer_pyrebeast_1"
       ],
       "combatLevel" : 60,
       "hitpoints" : 80,
@@ -39,7 +39,7 @@
         6795
       ],
       "names" : [
-        "npc.pyrelord_6795"
+        "npc.slayer_pyrebeast_2"
       ],
       "combatLevel" : 60,
       "hitpoints" : 80,

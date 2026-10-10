@@ -8,7 +8,7 @@
         11721
       ],
       "names" : [
-        "npc.kephri_11721"
+        "npc.toa_kephri_boss_enrage"
       ],
       "combatLevel" : 341,
       "hitpoints" : 80,
@@ -37,7 +37,7 @@
         11719
       ],
       "names" : [
-        "npc.kephri"
+        "npc.toa_kephri_boss_shielded"
       ],
       "combatLevel" : 341,
       "hitpoints" : 150,

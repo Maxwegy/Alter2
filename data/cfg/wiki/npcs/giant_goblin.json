@@ -8,7 +8,7 @@
         12452
       ],
       "names" : [
-        "npc.giant_goblin"
+        "npc.deadman_breach_giant_goblin"
       ],
       "combatLevel" : 1022,
       "hitpoints" : 3500,
@@ -34,7 +34,7 @@
         12452
       ],
       "names" : [
-        "npc.giant_goblin"
+        "npc.deadman_breach_giant_goblin"
       ],
       "combatLevel" : 347,
       "hitpoints" : 750,
@@ -60,7 +60,7 @@
         12452
       ],
       "names" : [
-        "npc.giant_goblin"
+        "npc.deadman_breach_giant_goblin"
       ],
       "combatLevel" : 397,
       "hitpoints" : 1000,
@@ -86,7 +86,7 @@
         12452
       ],
       "names" : [
-        "npc.giant_goblin"
+        "npc.deadman_breach_giant_goblin"
       ],
       "combatLevel" : 397,
       "hitpoints" : 1000,

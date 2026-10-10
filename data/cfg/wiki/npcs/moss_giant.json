@@ -9,14 +9,16 @@
         2091,
         2092,
         2093,
-        7262
+        7262,
+        14422
       ],
       "names" : [
-        "npc.moss_giant",
-        "npc.moss_giant_2091",
-        "npc.moss_giant_2092",
-        "npc.moss_giant_2093",
-        "npc.moss_giant_7262"
+        "npc.mossgiant",
+        "npc.mossgiant2",
+        "npc.mossgiant3",
+        "npc.mossgiant4",
+        "npc.kourend_mossgiant",
+        "npc.crypt_of_tonali_mossgiant"
       ],
       "combatLevel" : 42,
       "hitpoints" : 60,
@@ -47,10 +49,10 @@
         12847
       ],
       "names" : [
-        "npc.moss_giant_12844",
-        "npc.moss_giant_12845",
-        "npc.moss_giant_12846",
-        "npc.moss_giant_12847"
+        "npc.tlati_mossgiant01",
+        "npc.tlati_mossgiant02",
+        "npc.tlati_mossgiant03",
+        "npc.tlati_mossgiant04"
       ],
       "combatLevel" : 42,
       "hitpoints" : 60,
@@ -79,8 +81,8 @@
         3852
       ],
       "names" : [
-        "npc.moss_giant_3851",
-        "npc.moss_giant_3852"
+        "npc.lunar_mossgiant",
+        "npc.lunar_mossgiant2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 85,

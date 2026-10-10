@@ -8,7 +8,7 @@
         7254
       ],
       "names" : [
-        "npc.iron_dragon_7254"
+        "npc.kourend_iron_dragon"
       ],
       "combatLevel" : 215,
       "hitpoints" : 195,
@@ -45,8 +45,8 @@
       ],
       "names" : [
         "npc.iron_dragon",
-        "npc.iron_dragon_273",
-        "npc.iron_dragon_8080"
+        "npc.iron_dragon_strongholdcave",
+        "npc.ds2_iron_dragon"
       ],
       "combatLevel" : 189,
       "hitpoints" : 165,

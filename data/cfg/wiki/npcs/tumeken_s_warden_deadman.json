@@ -1,0 +1,57 @@
+{
+  "page" : "Tumeken's Warden (Deadman)",
+  "versions" : [
+    {
+      "source" : "Tumeken's Warden (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15551
+      ],
+      "names" : [
+        "npc.deadman_breach_warden_tumeken_range"
+      ],
+      "combatLevel" : 945,
+      "hitpoints" : 3000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 350, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 12, "magicDamage" : 12 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    },
+    {
+      "source" : "Tumeken's Warden (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15551
+      ],
+      "names" : [
+        "npc.deadman_breach_warden_tumeken_range"
+      ],
+      "combatLevel" : 383,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 300, "strength" : 150, "defence" : 100, "ranged" : 350, "magic" : 190 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 225, "rangedAttack" : 225, "stabDefence" : 70, "slashDefence" : 70, "crushDefence" : 70, "magicDefence" : -30, "rangedDefence" : 70, "lightRangedDefence" : 70, "heavyRangedDefence" : 70, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 12, "magicDamage" : 12 },
+      "maxHits" : [
+        "22"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 50 }
+    }
+  ]
+}

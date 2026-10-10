@@ -8,7 +8,7 @@
         2067
       ],
       "names" : [
-        "npc.mounted_terrorbird_gnome"
+        "npc.terrorbird_mounted"
       ],
       "combatLevel" : 31,
       "hitpoints" : 36,
@@ -38,10 +38,10 @@
         5973
       ],
       "names" : [
-        "npc.mounted_terrorbird_gnome_2068",
-        "npc.mounted_terrorbird_gnome_5971",
-        "npc.mounted_terrorbird_gnome_5972",
-        "npc.mounted_terrorbird_gnome_5973"
+        "npc.terrorbird_mountedspear",
+        "npc.battlefield_terrorbird_mountedspear",
+        "npc.battlefield_terrorbird_mountedspear2",
+        "npc.battlefield_terrorbird_mountedspear3"
       ],
       "combatLevel" : 49,
       "hitpoints" : 55,

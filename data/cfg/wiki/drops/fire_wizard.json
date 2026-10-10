@@ -10,7 +10,7 @@
         { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 554, "name" : "item.fire_rune", "min" : 5, "max" : 10, "chance" : [ 19, 20 ], "wiki" : "19/20" },
+        { "item" : 554, "name" : "item.firerune", "min" : 5, "max" : 10, "chance" : [ 19, 20 ], "wiki" : "19/20" },
         { "item" : 1442, "name" : "item.fire_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 20 ], "wiki" : "1/20" }
       ]
     }

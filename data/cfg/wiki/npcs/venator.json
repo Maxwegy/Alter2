@@ -1,0 +1,155 @@
+{
+  "page" : "Venator",
+  "versions" : [
+    {
+      "source" : "Venator#1",
+      "version" : "1",
+      "ids" : [
+        15765
+      ],
+      "names" : [
+        "npc.venator"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 345,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 120, "ranged" : 75, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : -5, "slashDefence" : 20, "crushDefence" : 90, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)" },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "level" : 74, "xp" : 405.0, "categories" : [ "Vampyres", "Venators" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Venator#2",
+      "version" : "2",
+      "ids" : [
+        15766
+      ],
+      "names" : [
+        "npc.venator_2"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 345,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 120, "ranged" : 75, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : -5, "slashDefence" : 20, "crushDefence" : 90, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)" },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "level" : 74, "xp" : 405.0, "categories" : [ "Vampyres", "Venators" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Venator#3",
+      "version" : "3",
+      "ids" : [
+        15767
+      ],
+      "names" : [
+        "npc.venator_3"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 345,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 120, "ranged" : 75, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : -5, "slashDefence" : 20, "crushDefence" : 90, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)" },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "level" : 74, "xp" : 405.0, "categories" : [ "Vampyres", "Venators" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Venator#4",
+      "version" : "4",
+      "ids" : [
+        15768
+      ],
+      "names" : [
+        "npc.venator_4"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 345,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 120, "ranged" : 75, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : -5, "slashDefence" : 20, "crushDefence" : 90, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)" },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "level" : 74, "xp" : 405.0, "categories" : [ "Vampyres", "Venators" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "mortimer", "nieve", "vannaka" ] }
+    },
+    {
+      "source" : "Venator#5",
+      "version" : "5",
+      "ids" : [
+        15769
+      ],
+      "names" : [
+        "npc.venator_5"
+      ],
+      "combatLevel" : 246,
+      "hitpoints" : 345,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 200, "strength" : 200, "defence" : 120, "ranged" : 75, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 150, "stabDefence" : -5, "slashDefence" : 20, "crushDefence" : 90, "magicDefence" : 100, "rangedDefence" : 100, "lightRangedDefence" : 100, "heavyRangedDefence" : 100, "attackBonus" : 150, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "21"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Ranged"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : true, "burn" : "Immune (strong)" },
+      "attributes" : [
+        "vampyre3"
+      ],
+      "slayer" : { "level" : 74, "xp" : 405.0, "categories" : [ "Vampyres", "Venators" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "mazchna", "mortimer", "nieve", "vannaka" ] }
+    }
+  ]
+}

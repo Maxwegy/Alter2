@@ -8,7 +8,7 @@
         6335
       ],
       "names" : [
-        "npc.witchs_experiment_third_form_hard"
+        "npc.nzone_shapeshifterbear_hard"
       ],
       "combatLevel" : 90,
       "hitpoints" : 102,
@@ -33,7 +33,7 @@
         6396
       ],
       "names" : [
-        "npc.witchs_experiment_third_form_6396"
+        "npc.nzone_shapeshifterbear_normal"
       ],
       "combatLevel" : 42,
       "hitpoints" : 41,
@@ -58,7 +58,7 @@
         6333
       ],
       "names" : [
-        "npc.witchs_experiment_hard"
+        "npc.nzone_shapeshifterglob_hard"
       ],
       "combatLevel" : 47,
       "hitpoints" : 63,
@@ -83,7 +83,7 @@
         6394
       ],
       "names" : [
-        "npc.witchs_experiment_6394"
+        "npc.nzone_shapeshifterglob_normal"
       ],
       "combatLevel" : 19,
       "hitpoints" : 21,
@@ -108,7 +108,7 @@
         6334
       ],
       "names" : [
-        "npc.witchs_experiment_second_form_hard"
+        "npc.nzone_shapeshifterspider_hard"
       ],
       "combatLevel" : 77,
       "hitpoints" : 93,
@@ -133,7 +133,7 @@
         6395
       ],
       "names" : [
-        "npc.witchs_experiment_second_form_6395"
+        "npc.nzone_shapeshifterspider_normal"
       ],
       "combatLevel" : 30,
       "hitpoints" : 31,
@@ -158,7 +158,7 @@
         6336
       ],
       "names" : [
-        "npc.witchs_experiment_fourth_form_hard"
+        "npc.nzone_shapeshifterwolf_hard"
       ],
       "combatLevel" : 103,
       "hitpoints" : 113,
@@ -183,7 +183,7 @@
         6397
       ],
       "names" : [
-        "npc.witchs_experiment_fourth_form_6397"
+        "npc.nzone_shapeshifterwolf_normal"
       ],
       "combatLevel" : 53,
       "hitpoints" : 51,

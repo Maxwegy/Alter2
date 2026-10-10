@@ -8,11 +8,11 @@
       ],
       "always" : [
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
-        { "item" : 7566, "name" : "item.raw_jubbly", "min" : 3, "max" : 7 }
+        { "item" : 7566, "name" : "item.100_jubbly_meat_raw", "min" : 3, "max" : 7 }
       ],
       "main" : [
-        { "item" : 10859, "name" : "item.tea_flask", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
-        { "item" : 10881, "name" : "item.gold_satchel", "min" : 1, "max" : 1, "chance" : [ 3, 20 ], "wiki" : "3/20" }
+        { "item" : 10859, "name" : "item.tol_tea", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "1/10" },
+        { "item" : 10881, "name" : "item.tol_gold_sack", "min" : 1, "max" : 1, "chance" : [ 3, 20 ], "wiki" : "3/20" }
       ]
     }
   ]

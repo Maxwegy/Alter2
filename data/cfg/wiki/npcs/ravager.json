@@ -8,7 +8,7 @@
         1708
       ],
       "names" : [
-        "npc.ravager_1708"
+        "npc.pest_ravager_5"
       ],
       "combatLevel" : 106,
       "hitpoints" : 83,
@@ -33,7 +33,7 @@
         1704
       ],
       "names" : [
-        "npc.ravager"
+        "npc.pest_ravager_1"
       ],
       "combatLevel" : 36,
       "hitpoints" : 23,
@@ -58,7 +58,7 @@
         1705
       ],
       "names" : [
-        "npc.ravager_1705"
+        "npc.pest_ravager_2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 38,
@@ -83,7 +83,7 @@
         1706
       ],
       "names" : [
-        "npc.ravager_1706"
+        "npc.pest_ravager_3"
       ],
       "combatLevel" : 71,
       "hitpoints" : 53,
@@ -108,7 +108,7 @@
         1707
       ],
       "names" : [
-        "npc.ravager_1707"
+        "npc.pest_ravager_4"
       ],
       "combatLevel" : 89,
       "hitpoints" : 68,

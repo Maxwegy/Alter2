@@ -9,8 +9,8 @@
         5964
       ],
       "names" : [
-        "npc.khazard_trooper",
-        "npc.khazard_trooper_5964"
+        "npc.khazard_troop",
+        "npc.battlefield_khazard_troop"
       ],
       "combatLevel" : 19,
       "hitpoints" : 22,
@@ -37,8 +37,8 @@
         5965
       ],
       "names" : [
-        "npc.khazard_trooper_4970",
-        "npc.khazard_trooper_5965"
+        "npc.khazard_troop_spearmen",
+        "npc.battlefield_khazard_troop_spearmen"
       ],
       "combatLevel" : 19,
       "hitpoints" : 22,

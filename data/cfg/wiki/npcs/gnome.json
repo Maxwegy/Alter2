@@ -8,7 +8,7 @@
         5969
       ],
       "names" : [
-        "npc.gnome_5969"
+        "npc.battlefield_darkskinned_gnome_archer"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -35,7 +35,7 @@
         6094
       ],
       "names" : [
-        "npc.gnome_6094"
+        "npc.gnome"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -62,7 +62,7 @@
         6095
       ],
       "names" : [
-        "npc.gnome_6095"
+        "npc.browclothedgnome"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -89,7 +89,7 @@
         6096
       ],
       "names" : [
-        "npc.gnome_6096"
+        "npc.darkskinned_gnome"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -116,7 +116,7 @@
         5968
       ],
       "names" : [
-        "npc.gnome_5968"
+        "npc.battlefield_gnome_troop"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,
@@ -143,7 +143,7 @@
         5970
       ],
       "names" : [
-        "npc.gnome_5970"
+        "npc.battlefield_gnome_archer"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,

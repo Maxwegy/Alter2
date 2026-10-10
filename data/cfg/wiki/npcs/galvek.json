@@ -8,7 +8,7 @@
         8097
       ],
       "names" : [
-        "npc.galvek_8097"
+        "npc.galvek_wind"
       ],
       "combatLevel" : 608,
       "hitpoints" : 1200,
@@ -46,9 +46,9 @@
         8179
       ],
       "names" : [
-        "npc.galvek_8098",
-        "npc.galvek_8178",
-        "npc.galvek_8179"
+        "npc.galvek_earth",
+        "npc.galvek_earth_cutscene",
+        "npc.galvek_earth_dead"
       ],
       "combatLevel" : 608,
       "hitpoints" : 1200,
@@ -86,9 +86,9 @@
         8177
       ],
       "names" : [
-        "npc.galvek",
-        "npc.galvek_8095",
-        "npc.galvek_8177"
+        "npc.galvek_waves",
+        "npc.galvek_fire",
+        "npc.galvek_cutscene"
       ],
       "combatLevel" : 608,
       "hitpoints" : 1200,
@@ -124,7 +124,7 @@
         8096
       ],
       "names" : [
-        "npc.galvek_8096"
+        "npc.galvek_water"
       ],
       "combatLevel" : 608,
       "hitpoints" : 1200,

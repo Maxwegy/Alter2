@@ -8,7 +8,7 @@
         1282
       ],
       "names" : [
-        "npc.riyl_shade"
+        "npc.shade_level3"
       ],
       "combatLevel" : 80,
       "hitpoints" : 76,
@@ -41,7 +41,7 @@
         1281
       ],
       "names" : [
-        "npc.riyl_shadow"
+        "npc.shadeshadow_level3"
       ],
       "combatLevel" : 80,
       "hitpoints" : 76,

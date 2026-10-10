@@ -1,0 +1,33 @@
+{
+  "page" : "Vampyre Snail",
+  "versions" : [
+    {
+      "source" : "Vampyre Snail",
+      "ids" : [
+        16344
+      ],
+      "names" : [
+        "npc.vampyre_snail"
+      ],
+      "combatLevel" : 346,
+      "hitpoints" : 500,
+      "attackSpeed" : 6,
+      "respawnTicks" : 32,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 300, "ranged" : 300, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 600, "slashDefence" : 600, "crushDefence" : 50, "magicDefence" : 600, "rangedDefence" : 50, "lightRangedDefence" : 50, "heavyRangedDefence" : 50, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "87+ (standard)",
+        "30 (slam)"
+      ],
+      "attackStyles" : [
+        "Ranged",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : true, "freeze" : "100% resistance" },
+      "elementalWeakness" : { "element" : "earth", "percent" : 5 }
+    }
+  ]
+}

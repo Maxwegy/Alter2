@@ -8,7 +8,7 @@
         1609
       ],
       "names" : [
-        "npc.kolodion_1609"
+        "npc.koldemon"
       ],
       "combatLevel" : 112,
       "hitpoints" : 107,
@@ -34,7 +34,7 @@
         1608
       ],
       "names" : [
-        "npc.kolodion_1608"
+        "npc.kolethereal"
       ],
       "hitpoints" : 78,
       "attackSpeed" : 7,
@@ -60,9 +60,9 @@
         1605
       ],
       "names" : [
-        "npc.kolodion",
-        "npc.kolodion_1604",
-        "npc.kolodion_1605"
+        "npc.arenamage1",
+        "npc.arenamage2",
+        "npc.kolhuman"
       ],
       "hitpoints" : 3,
       "attackSpeed" : 7,
@@ -86,7 +86,7 @@
         1606
       ],
       "names" : [
-        "npc.kolodion_1606"
+        "npc.kologre"
       ],
       "hitpoints" : 65,
       "attackSpeed" : 7,
@@ -110,7 +110,7 @@
         1607
       ],
       "names" : [
-        "npc.kolodion_1607"
+        "npc.kolspider"
       ],
       "hitpoints" : 78,
       "attackSpeed" : 7,

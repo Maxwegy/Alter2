@@ -2,6 +2,34 @@
   "page" : "Scorpion",
   "versions" : [
     {
+      "source" : "Scorpion#Level 1",
+      "version" : "Level 1",
+      "ids" : [
+        14940
+      ],
+      "names" : [
+        "npc.tinyscorpion"
+      ],
+      "combatLevel" : 1,
+      "hitpoints" : 2,
+      "attackSpeed" : 4,
+      "respawnTicks" : 35,
+      "size" : 1,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 1, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : -53, "slashDefence" : -53, "crushDefence" : -53, "magicDefence" : -53, "rangedDefence" : -53, "lightRangedDefence" : -53, "heavyRangedDefence" : -53, "attackBonus" : -35, "strengthBonus" : -58, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "0"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 2.0, "categories" : [ "Scorpions" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 25 }
+    },
+    {
       "source" : "Scorpion#Level 14",
       "version" : "Level 14",
       "ids" : [
@@ -9,8 +37,8 @@
         13001
       ],
       "names" : [
-        "npc.scorpion_3024",
-        "npc.scorpion_13001"
+        "npc.scorpion",
+        "npc.varlamore_scorpion_savannah"
       ],
       "combatLevel" : 14,
       "hitpoints" : 17,
@@ -38,7 +66,7 @@
         2480
       ],
       "names" : [
-        "npc.scorpion_2480"
+        "npc.sos_pest_scorpion2"
       ],
       "combatLevel" : 37,
       "hitpoints" : 37,
@@ -66,7 +94,7 @@
         5242
       ],
       "names" : [
-        "npc.scorpion_5242"
+        "npc.mm_jungle_scorpion"
       ],
       "combatLevel" : 38,
       "hitpoints" : 15,
@@ -94,7 +122,7 @@
         2479
       ],
       "names" : [
-        "npc.scorpion"
+        "npc.sos_pest_scorpion"
       ],
       "combatLevel" : 59,
       "hitpoints" : 55,

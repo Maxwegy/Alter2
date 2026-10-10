@@ -16,16 +16,16 @@
         4879
       ],
       "names" : [
-        "npc.culinaromancer",
-        "npc.culinaromancer_4849",
-        "npc.culinaromancer_4872",
-        "npc.culinaromancer_4873",
-        "npc.culinaromancer_4874",
-        "npc.culinaromancer_4875",
-        "npc.culinaromancer_4876",
-        "npc.culinaromancer_4877",
-        "npc.culinaromancer_4878",
-        "npc.culinaromancer_4879"
+        "npc.hundred_culinaromancer_base",
+        "npc.culinaromancer_froze",
+        "npc.hundred_culinaromancer_book5",
+        "npc.hundred_culinaromancer_book4",
+        "npc.hundred_culinaromancer_book3",
+        "npc.hundred_culinaromancer_book2",
+        "npc.hundred_culinaromancer_book1",
+        "npc.hundred_culinaromancer_end",
+        "npc.hundred_culinaromancer_final",
+        "npc.hundred_culinaromancer_dead"
       ],
       "combatLevel" : 75,
       "hitpoints" : 150,

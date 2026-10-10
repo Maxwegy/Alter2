@@ -1,0 +1,15 @@
+{
+  "page" : "Outlaw (A Ruff Situation)",
+  "tables" : [
+    {
+      "source" : "Outlaw (A Ruff Situation)",
+      "npcIds" : [
+        16527,
+        16528
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

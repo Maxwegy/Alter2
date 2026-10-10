@@ -8,7 +8,7 @@
         3065
       ],
       "names" : [
-        "npc.barbarian_3065"
+        "npc.fai_barbarian_11"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -34,7 +34,7 @@
         3066
       ],
       "names" : [
-        "npc.barbarian_3066"
+        "npc.fai_barbarian_12"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -60,7 +60,7 @@
         3067
       ],
       "names" : [
-        "npc.barbarian_3067"
+        "npc.fai_barbarian_13"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -86,7 +86,7 @@
         3071
       ],
       "names" : [
-        "npc.barbarian_3071"
+        "npc.fai_barbarian_female_3"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -112,7 +112,7 @@
         3056
       ],
       "names" : [
-        "npc.barbarian_3056"
+        "npc.fai_barbarian_2"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -138,7 +138,7 @@
         3070
       ],
       "names" : [
-        "npc.barbarian_3070"
+        "npc.fai_barbarian_female_2"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -164,7 +164,7 @@
         3061
       ],
       "names" : [
-        "npc.barbarian_3061"
+        "npc.fai_barbarian_7"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -190,7 +190,7 @@
         3060
       ],
       "names" : [
-        "npc.barbarian_3060"
+        "npc.fai_barbarian_6"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -216,7 +216,7 @@
         3059
       ],
       "names" : [
-        "npc.barbarian_3059"
+        "npc.fai_barbarian_5"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -242,7 +242,7 @@
         3064
       ],
       "names" : [
-        "npc.barbarian_3064"
+        "npc.fai_barbarian_10"
       ],
       "combatLevel" : 10,
       "hitpoints" : 18,
@@ -268,7 +268,7 @@
         3068
       ],
       "names" : [
-        "npc.barbarian_3068"
+        "npc.fai_barbarian_14"
       ],
       "combatLevel" : 15,
       "hitpoints" : 24,
@@ -294,7 +294,7 @@
         3055
       ],
       "names" : [
-        "npc.barbarian"
+        "npc.fai_barbarian_1"
       ],
       "combatLevel" : 17,
       "hitpoints" : 24,
@@ -320,7 +320,7 @@
         3069
       ],
       "names" : [
-        "npc.barbarian_3069"
+        "npc.fai_barbarian_female_1"
       ],
       "combatLevel" : 17,
       "hitpoints" : 24,
@@ -346,7 +346,7 @@
         3057
       ],
       "names" : [
-        "npc.barbarian_3057"
+        "npc.fai_barbarian_3"
       ],
       "combatLevel" : 17,
       "hitpoints" : 24,
@@ -372,7 +372,7 @@
         3062
       ],
       "names" : [
-        "npc.barbarian_3062"
+        "npc.fai_barbarian_8"
       ],
       "combatLevel" : 17,
       "hitpoints" : 24,
@@ -398,7 +398,7 @@
         3058
       ],
       "names" : [
-        "npc.barbarian_3058"
+        "npc.fai_barbarian_4"
       ],
       "combatLevel" : 17,
       "hitpoints" : 24,
@@ -424,7 +424,7 @@
         3262
       ],
       "names" : [
-        "npc.barbarian_3262"
+        "npc.barbarianwoman_varrock"
       ],
       "combatLevel" : 8,
       "hitpoints" : 14,
@@ -450,7 +450,7 @@
         3072
       ],
       "names" : [
-        "npc.barbarian_3072"
+        "npc.fai_barbarian_female_4"
       ],
       "combatLevel" : 9,
       "hitpoints" : 20,

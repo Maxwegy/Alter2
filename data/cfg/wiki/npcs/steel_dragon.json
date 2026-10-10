@@ -8,7 +8,7 @@
         274
       ],
       "names" : [
-        "npc.steel_dragon_274"
+        "npc.steel_dragon"
       ],
       "combatLevel" : 246,
       "hitpoints" : 210,
@@ -42,7 +42,7 @@
         275
       ],
       "names" : [
-        "npc.steel_dragon_275"
+        "npc.steel_dragon_strongholdcave"
       ],
       "combatLevel" : 246,
       "hitpoints" : 210,
@@ -76,7 +76,7 @@
         7255
       ],
       "names" : [
-        "npc.steel_dragon_7255"
+        "npc.kourend_steel_dragon"
       ],
       "combatLevel" : 274,
       "hitpoints" : 250,

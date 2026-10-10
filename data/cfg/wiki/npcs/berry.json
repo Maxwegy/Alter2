@@ -8,7 +8,7 @@
         4132
       ],
       "names" : [
-        "npc.berry"
+        "npc.troll_prison_guard2_awake"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,
@@ -35,7 +35,7 @@
         4134
       ],
       "names" : [
-        "npc.berry_4134"
+        "npc.troll_prison_guard2"
       ],
       "combatLevel" : 71,
       "hitpoints" : 90,

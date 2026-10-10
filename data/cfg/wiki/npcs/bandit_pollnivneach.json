@@ -9,8 +9,8 @@
         737
       ],
       "names" : [
-        "npc.bandit_736",
-        "npc.bandit_737"
+        "npc.feud_arabian_guard2_1",
+        "npc.feud_arabian_guard2_2"
       ],
       "combatLevel" : 41,
       "hitpoints" : 30,
@@ -37,8 +37,8 @@
         735
       ],
       "names" : [
-        "npc.bandit_734",
-        "npc.bandit_735"
+        "npc.feud_arabian_guard1_1",
+        "npc.feud_arabian_guard1_2"
       ],
       "combatLevel" : 56,
       "hitpoints" : 30,

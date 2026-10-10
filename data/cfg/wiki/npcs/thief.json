@@ -8,7 +8,7 @@
         4247
       ],
       "names" : [
-        "npc.thief_4247"
+        "npc.thief_blanket"
       ],
       "combatLevel" : 14,
       "hitpoints" : 17,
@@ -34,7 +34,7 @@
         3253
       ],
       "names" : [
-        "npc.thief_3253"
+        "npc.thief2"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -60,7 +60,7 @@
         1448
       ],
       "names" : [
-        "npc.thief"
+        "npc.jail_thief"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -86,7 +86,7 @@
         3252
       ],
       "names" : [
-        "npc.thief_3252"
+        "npc.thief1"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -112,7 +112,7 @@
         7914
       ],
       "names" : [
-        "npc.thief_7914"
+        "npc.warrens_thief_1"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -138,7 +138,7 @@
         7915
       ],
       "names" : [
-        "npc.thief_7915"
+        "npc.warrens_thief_2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -164,7 +164,7 @@
         7916
       ],
       "names" : [
-        "npc.thief_7916"
+        "npc.warrens_thief_stall"
       ],
       "combatLevel" : 21,
       "hitpoints" : 22,
@@ -190,7 +190,7 @@
         5217
       ],
       "names" : [
-        "npc.thief_5217"
+        "npc.qip_soa_thief_male01"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -216,7 +216,7 @@
         5218
       ],
       "names" : [
-        "npc.thief_5218"
+        "npc.qip_soa_thief_male02"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -242,7 +242,7 @@
         5219
       ],
       "names" : [
-        "npc.thief_5219"
+        "npc.qip_soa_thief_female01"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,
@@ -268,7 +268,7 @@
         5220
       ],
       "names" : [
-        "npc.thief_5220"
+        "npc.qip_soa_thief_female02"
       ],
       "combatLevel" : 16,
       "hitpoints" : 17,

@@ -9,8 +9,8 @@
         8619
       ],
       "names" : [
-        "npc.alchemical_hydra_8617",
-        "npc.alchemical_hydra_8619"
+        "npc.hydraboss_p2_transition",
+        "npc.hydraboss_4"
       ],
       "combatLevel" : 426,
       "hitpoints" : 1100,
@@ -44,8 +44,8 @@
         8622
       ],
       "names" : [
-        "npc.alchemical_hydra_8621",
-        "npc.alchemical_hydra_8622"
+        "npc.hydraboss_2",
+        "npc.hydraboss_finaldeath"
       ],
       "combatLevel" : 426,
       "hitpoints" : 1100,
@@ -78,8 +78,8 @@
         8620
       ],
       "names" : [
-        "npc.alchemical_hydra_8618",
-        "npc.alchemical_hydra_8620"
+        "npc.hydraboss_p3_transition",
+        "npc.hydraboss_3"
       ],
       "combatLevel" : 426,
       "hitpoints" : 1100,
@@ -113,8 +113,8 @@
         8616
       ],
       "names" : [
-        "npc.alchemical_hydra",
-        "npc.alchemical_hydra_8616"
+        "npc.hydraboss",
+        "npc.hydraboss_p1_transition"
       ],
       "combatLevel" : 426,
       "hitpoints" : 1100,

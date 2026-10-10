@@ -8,7 +8,7 @@
         2233
       ],
       "names" : [
-        "npc.ogre_2233"
+        "npc.godwars_ancient_ogre"
       ],
       "combatLevel" : 58,
       "hitpoints" : 70,
@@ -38,9 +38,9 @@
         2096
       ],
       "names" : [
+        "npc.poh_ogre",
         "npc.ogre",
-        "npc.ogre_2095",
-        "npc.ogre_2096"
+        "npc.ogre2"
       ],
       "combatLevel" : 53,
       "hitpoints" : 60,
@@ -68,7 +68,7 @@
         1153
       ],
       "names" : [
-        "npc.ogre_1153"
+        "npc.lathastrainingogre"
       ],
       "combatLevel" : 63,
       "hitpoints" : 60,

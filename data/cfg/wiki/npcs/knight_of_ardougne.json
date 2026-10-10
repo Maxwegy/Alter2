@@ -8,7 +8,7 @@
         11936
       ],
       "names" : [
-        "npc.knight_of_ardougne_11936"
+        "npc.knight_of_ardougne_f"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -62,7 +62,7 @@
         11902
       ],
       "names" : [
-        "npc.knight_of_ardougne_11902"
+        "npc.knight_of_ardougne_f_west_vis"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,
@@ -88,7 +88,7 @@
         8854
       ],
       "names" : [
-        "npc.knight_of_ardougne_8854"
+        "npc.knight_of_ardougne_west_vis"
       ],
       "combatLevel" : 46,
       "hitpoints" : 52,

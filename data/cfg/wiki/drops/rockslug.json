@@ -5,7 +5,8 @@
       "source" : "Rockslug",
       "npcIds" : [
         421,
-        422
+        422,
+        14423
       ],
       "main" : [
         { "item" : 436, "name" : "item.copper_ore", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
@@ -13,12 +14,12 @@
         { "item" : 440, "name" : "item.iron_ore", "min" : 1, "max" : 1, "chance" : [ 11, 64 ], "wiki" : "22/128" },
         { "item" : 447, "name" : "item.mithril_ore", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 453, "name" : "item.coal", "min" : 1, "max" : 1, "chance" : [ 13, 128 ], "wiki" : "13/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 5, "max" : 5, "chance" : [ 15, 64 ], "wiki" : "30/128" },
-        { "item" : 557, "name" : "item.earth_rune", "min" : 42, "max" : 42, "chance" : [ 1, 32 ], "wiki" : "4/128" },
-        { "item" : 562, "name" : "item.chaos_rune", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 5, "max" : 5, "chance" : [ 15, 64 ], "wiki" : "30/128" },
+        { "item" : 557, "name" : "item.earthrune", "min" : 42, "max" : 42, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 2, "max" : 2, "chance" : [ 1, 32 ], "wiki" : "4/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 100, 4369067 ], "wiki" : "1/43,690.67" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 25, 2912711 ], "wiki" : "1/116,508.44" },
         { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 50, 45511 ], "wiki" : "1/910.22" },
@@ -31,7 +32,7 @@
         { "item" : 2347, "name" : "item.hammer", "min" : 1, "max" : 1, "chance" : [ 5, 64 ], "wiki" : "10/128" },
         { "item" : 2349, "name" : "item.bronze_bar", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 2351, "name" : "item.iron_bar", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 100, 8738133 ], "wiki" : "1/87,381.33" },
         { "item" : 4115, "name" : "item.mystic_gloves_light", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
         { "item" : 5318, "name" : "item.potato_seed", "min" : 4, "max" : 4, "chance" : [ 1, 38 ], "wiki" : "1/38" },
         { "item" : 5319, "name" : "item.onion_seed", "min" : 4, "max" : 4, "chance" : [ 1, 51 ], "wiki" : "1/51" },

@@ -13,12 +13,12 @@
         6317
       ],
       "names" : [
-        "npc.gelatinnoth_mother_hard",
-        "npc.gelatinnoth_mother_hard_6313",
-        "npc.gelatinnoth_mother_hard_6314",
-        "npc.gelatinnoth_mother_hard_6315",
-        "npc.gelatinnoth_mother_hard_6316",
-        "npc.gelatinnoth_mother_hard_6317"
+        "npc.nzone_hundred_minion5_air_hard",
+        "npc.nzone_hundred_minion5_melee_hard",
+        "npc.nzone_hundred_minion5_water_hard",
+        "npc.nzone_hundred_minion5_fire_hard",
+        "npc.nzone_hundred_minion5_ranged_hard",
+        "npc.nzone_hundred_minion5_earth_hard"
       ],
       "combatLevel" : 201,
       "hitpoints" : 240,
@@ -51,12 +51,12 @@
         6378
       ],
       "names" : [
-        "npc.gelatinnoth_mother_6373",
-        "npc.gelatinnoth_mother_6374",
-        "npc.gelatinnoth_mother_6375",
-        "npc.gelatinnoth_mother_6376",
-        "npc.gelatinnoth_mother_6377",
-        "npc.gelatinnoth_mother_6378"
+        "npc.nzone_hundred_minion5_air_normal",
+        "npc.nzone_hundred_minion5_melee_normal",
+        "npc.nzone_hundred_minion5_water_normal",
+        "npc.nzone_hundred_minion5_fire_normal",
+        "npc.nzone_hundred_minion5_ranged_normal",
+        "npc.nzone_hundred_minion5_earth_normal"
       ],
       "combatLevel" : 130,
       "hitpoints" : 240,

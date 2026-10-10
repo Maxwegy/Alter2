@@ -1,0 +1,34 @@
+{
+  "page" : "TzTok-Jad-Rek",
+  "versions" : [
+    {
+      "source" : "TzTok-Jad-Rek",
+      "ids" : [
+        15557
+      ],
+      "names" : [
+        "npc.deadman_breach_jad_minion"
+      ],
+      "combatLevel" : 186,
+      "hitpoints" : 200,
+      "attackSpeed" : 8,
+      "size" : 3,
+      "levels" : { "attack" : 160, "strength" : 240, "defence" : 25, "ranged" : 250, "magic" : 250 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "25 (Melee)",
+        "?"
+      ],
+      "attackStyles" : [
+        "Stab",
+        "Magic",
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false },
+      "slayer" : { "categories" : [ "TzHaar" ] },
+      "elementalWeakness" : { "element" : "Water", "percent" : 40 }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "page" : "The rocks",
+  "versions" : [
+    {
+      "source" : "The rocks",
+      "ids" : [
+        15168
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_troll_ice"
+      ],
+      "combatLevel" : 154,
+      "hitpoints" : 130,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 190, "strength" : 80, "defence" : 135, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 35, "slashDefence" : 60, "crushDefence" : 35, "magicDefence" : 0, "rangedDefence" : 0, "lightRangedDefence" : 0, "heavyRangedDefence" : 0, "attackBonus" : 60, "strengthBonus" : 100, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "? (Magic)\n23 (Melee)"
+      ],
+      "attackStyles" : [
+        "Magic",
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 147.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Fire", "percent" : 100 }
+    }
+  ]
+}

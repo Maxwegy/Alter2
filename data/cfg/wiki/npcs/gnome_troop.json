@@ -9,8 +9,8 @@
         4974
       ],
       "names" : [
-        "npc.gnome_troop",
-        "npc.gnome_troop_4974"
+        "npc.gnomeknight",
+        "npc.d_skingnomeknight"
       ],
       "combatLevel" : 1,
       "hitpoints" : 3,
@@ -37,8 +37,8 @@
         5967
       ],
       "names" : [
-        "npc.gnome_troop_5966",
-        "npc.gnome_troop_5967"
+        "npc.battlefield_gnomeknight",
+        "npc.battlefield_d_skingnomeknight"
       ],
       "combatLevel" : 3,
       "hitpoints" : 3,

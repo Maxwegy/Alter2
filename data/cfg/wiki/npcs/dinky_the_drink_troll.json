@@ -1,0 +1,29 @@
+{
+  "page" : "Dinky the drink troll",
+  "versions" : [
+    {
+      "source" : "Dinky the drink troll",
+      "ids" : [
+        15171
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_crate_fish_stoutier_effect"
+      ],
+      "hitpoints" : 140,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 140, "defence" : 40, "ranged" : 0, "magic" : 0 },
+      "maxHits" : [
+        "51+"
+      ],
+      "attackStyles" : [
+        "Melee"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 4.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 0 }
+    }
+  ]
+}

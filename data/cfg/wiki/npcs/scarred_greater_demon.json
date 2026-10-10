@@ -8,7 +8,7 @@
         12373
       ],
       "names" : [
-        "npc.scarred_greater_demon"
+        "npc.dt2_scar_maze_2_pillar_attacker"
       ],
       "combatLevel" : 113,
       "hitpoints" : 180,
@@ -37,7 +37,7 @@
         12388
       ],
       "names" : [
-        "npc.scarred_greater_demon_12388"
+        "npc.dt2_scar_greater_demon_2"
       ],
       "combatLevel" : 95,
       "hitpoints" : 87,

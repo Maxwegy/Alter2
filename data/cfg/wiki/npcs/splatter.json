@@ -8,7 +8,7 @@
         1689
       ],
       "names" : [
-        "npc.splatter"
+        "npc.pest_splatter_1"
       ],
       "combatLevel" : 22,
       "hitpoints" : 13,
@@ -33,7 +33,7 @@
         1690
       ],
       "names" : [
-        "npc.splatter_1690"
+        "npc.pest_splatter_2"
       ],
       "combatLevel" : 33,
       "hitpoints" : 23,
@@ -58,7 +58,7 @@
         1691
       ],
       "names" : [
-        "npc.splatter_1691"
+        "npc.pest_splatter_3"
       ],
       "combatLevel" : 44,
       "hitpoints" : 33,
@@ -83,7 +83,7 @@
         1692
       ],
       "names" : [
-        "npc.splatter_1692"
+        "npc.pest_splatter_4"
       ],
       "combatLevel" : 54,
       "hitpoints" : 43,
@@ -108,7 +108,7 @@
         1693
       ],
       "names" : [
-        "npc.splatter_1693"
+        "npc.pest_splatter_5"
       ],
       "combatLevel" : 65,
       "hitpoints" : 53,

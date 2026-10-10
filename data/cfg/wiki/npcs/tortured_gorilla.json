@@ -10,9 +10,9 @@
         7153
       ],
       "names" : [
-        "npc.tortured_gorilla_7150",
-        "npc.tortured_gorilla_7151",
-        "npc.tortured_gorilla_7153"
+        "npc.mm2_tortured_gorilla_1",
+        "npc.mm2_tortured_gorilla_2",
+        "npc.mm2_tortured_gorilla_noncombat"
       ],
       "combatLevel" : 141,
       "hitpoints" : 210,
@@ -43,9 +43,9 @@
         7097
       ],
       "names" : [
-        "npc.tortured_gorilla",
-        "npc.tortured_gorilla_7096",
-        "npc.tortured_gorilla_7097"
+        "npc.mm2_tortured_gorilla_lab",
+        "npc.mm2_tortured_gorilla_lab_defeated",
+        "npc.mm2_tortured_gorilla_stronghold"
       ],
       "combatLevel" : 142,
       "hitpoints" : 110,

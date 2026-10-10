@@ -1,0 +1,55 @@
+{
+  "page" : "Hermit crab",
+  "tables" : [
+    {
+      "source" : "Hermit crab",
+      "npcIds" : [
+        14852,
+        14853,
+        14854,
+        14855,
+        14856
+      ],
+      "always" : [
+        { "item" : 32113, "name" : "item.sailing_paint_sandy", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 45, "name" : "item.opal_bolttips", "min" : 5, "max" : 5, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 303, "name" : "item.net", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 305, "name" : "item.big_net", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 307, "name" : "item.fishing_rod", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 313, "name" : "item.fishing_bait", "min" : 10, "max" : 10, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 317, "name" : "item.raw_shrimp", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 321, "name" : "item.raw_anchovies", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 327, "name" : "item.raw_sardine", "min" : 1, "max" : 1, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 345, "name" : "item.raw_herring", "min" : 1, "max" : 1, "chance" : [ 9, 128 ], "wiki" : "9/128" },
+        { "item" : 401, "name" : "item.seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 403, "name" : "item.edible_seaweed", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 405, "name" : "item.casket", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 409, "name" : "item.oysterempty", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 8, "max" : 8, "chance" : [ 9, 64 ], "wiki" : "18/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 36, "max" : 36, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
+        { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
+        { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 546133 ], "wiki" : "1/5,461.33" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
+        { "item" : 1619, "name" : "item.uncut_ruby", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 3096, "name" : "item.iron_claws", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 5978, "name" : "item.coconut_shell", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 21490, "name" : "item.seaweed_seed", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 21504, "name" : "item.giant_seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 1, "max" : 1, "chance" : [ 3, 640 ], "wiki" : "6/1,280" },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 1, "chance" : [ 3, 1280 ], "wiki" : "3/1,280" },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 1, "chance" : [ 1, 1280 ], "wiki" : "1/1,280" },
+        { "item" : 31908, "name" : "item.iron_cannonball", "min" : 5, "max" : 9, "chance" : [ 3, 64 ], "wiki" : "6/128" }
+      ]
+    }
+  ]
+}

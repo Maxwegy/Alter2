@@ -8,7 +8,7 @@
         6294
       ],
       "names" : [
-        "npc.ice_troll_king_hard"
+        "npc.nzone_fris_troll_king_true_hard"
       ],
       "combatLevel" : 213,
       "hitpoints" : 255,
@@ -35,7 +35,7 @@
         6356
       ],
       "names" : [
-        "npc.ice_troll_king_6356"
+        "npc.nzone_fris_troll_king_true_normal"
       ],
       "combatLevel" : 122,
       "hitpoints" : 150,

@@ -8,7 +8,7 @@
         11950
       ],
       "names" : [
-        "npc.white_knight_11950"
+        "npc.white_knight_green_plumes_f"
       ],
       "combatLevel" : 39,
       "hitpoints" : 52,
@@ -34,7 +34,7 @@
         1800
       ],
       "names" : [
-        "npc.white_knight_1800"
+        "npc.white_knight_green_plumes"
       ],
       "combatLevel" : 39,
       "hitpoints" : 52,
@@ -61,8 +61,8 @@
         11948
       ],
       "names" : [
-        "npc.white_knight_11892",
-        "npc.white_knight_11948"
+        "npc.ds2_white_knight_f",
+        "npc.white_knight_f"
       ],
       "combatLevel" : 36,
       "hitpoints" : 52,
@@ -90,7 +90,7 @@
       ],
       "names" : [
         "npc.white_knight",
-        "npc.white_knight_8149"
+        "npc.ds2_white_knight"
       ],
       "combatLevel" : 36,
       "hitpoints" : 52,
@@ -116,7 +116,7 @@
         11951
       ],
       "names" : [
-        "npc.white_knight_11951"
+        "npc.white_knight_blue_plumes_f"
       ],
       "combatLevel" : 42,
       "hitpoints" : 55,
@@ -142,7 +142,7 @@
         1829
       ],
       "names" : [
-        "npc.white_knight_1829"
+        "npc.white_knight_blue_plumes"
       ],
       "combatLevel" : 42,
       "hitpoints" : 55,
@@ -168,7 +168,7 @@
         11949
       ],
       "names" : [
-        "npc.white_knight_11949"
+        "npc.white_knight_yellow_plumes_f"
       ],
       "combatLevel" : 38,
       "hitpoints" : 52,
@@ -194,7 +194,7 @@
         1799
       ],
       "names" : [
-        "npc.white_knight_1799"
+        "npc.white_knight_yellow_plumes"
       ],
       "combatLevel" : 38,
       "hitpoints" : 52,

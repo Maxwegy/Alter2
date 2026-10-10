@@ -8,7 +8,7 @@
         1241
       ],
       "names" : [
-        "npc.evil_creature"
+        "npc.eyeglo_fluffie_evil_1"
       ],
       "combatLevel" : 1,
       "hitpoints" : 1,
@@ -37,11 +37,11 @@
         1256
       ],
       "names" : [
-        "npc.evil_creature_1244",
-        "npc.evil_creature_1247",
-        "npc.evil_creature_1250",
-        "npc.evil_creature_1253",
-        "npc.evil_creature_1256"
+        "npc.eyeglo_fluffie_evil_2",
+        "npc.eyeglo_fluffie_evil_3",
+        "npc.eyeglo_fluffie_evil_4",
+        "npc.eyeglo_fluffie_evil_5",
+        "npc.eyeglo_fluffie_evil_6"
       ],
       "combatLevel" : 1,
       "hitpoints" : 1,

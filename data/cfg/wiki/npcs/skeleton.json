@@ -8,7 +8,7 @@
         74
       ],
       "names" : [
-        "npc.skeleton_74"
+        "npc.skeleton_unagressive"
       ],
       "combatLevel" : 21,
       "hitpoints" : 24,
@@ -39,7 +39,7 @@
         75
       ],
       "names" : [
-        "npc.skeleton_75"
+        "npc.skeleton_unagressive2"
       ],
       "combatLevel" : 21,
       "hitpoints" : 24,
@@ -70,7 +70,7 @@
         76
       ],
       "names" : [
-        "npc.skeleton_76"
+        "npc.skeleton_unagressive3"
       ],
       "combatLevel" : 21,
       "hitpoints" : 24,
@@ -101,7 +101,7 @@
         70
       ],
       "names" : [
-        "npc.skeleton"
+        "npc.skeleton_unarmed"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -132,7 +132,7 @@
         71
       ],
       "names" : [
-        "npc.skeleton_71"
+        "npc.skeleton_unarmed2"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -163,7 +163,7 @@
         72
       ],
       "names" : [
-        "npc.skeleton_72"
+        "npc.skeleton_unarmed3"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -194,7 +194,7 @@
         73
       ],
       "names" : [
-        "npc.skeleton_73"
+        "npc.skeleton_unarmed4"
       ],
       "combatLevel" : 22,
       "hitpoints" : 29,
@@ -225,7 +225,7 @@
         77
       ],
       "names" : [
-        "npc.skeleton_77"
+        "npc.skeleton_armed"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -256,7 +256,7 @@
         78
       ],
       "names" : [
-        "npc.skeleton_78"
+        "npc.skeleton_armed2"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -287,7 +287,7 @@
         79
       ],
       "names" : [
-        "npc.skeleton_79"
+        "npc.skeleton_armed3"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -318,7 +318,7 @@
         80
       ],
       "names" : [
-        "npc.skeleton_80"
+        "npc.skeleton_armed4"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -349,7 +349,7 @@
         81
       ],
       "names" : [
-        "npc.skeleton_81"
+        "npc.skeleton_armed5"
       ],
       "combatLevel" : 25,
       "hitpoints" : 17,
@@ -374,13 +374,106 @@
       "elementalWeakness" : { "element" : "Earth", "percent" : 35 }
     },
     {
+      "source" : "Skeleton#Level 29, 1",
+      "version" : "1 (Plain)",
+      "ids" : [
+        14426
+      ],
+      "names" : [
+        "npc.crypt_of_tonali_skeleton_1"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 41,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton#Level 29, 2",
+      "version" : "2 (Plain)",
+      "ids" : [
+        14427
+      ],
+      "names" : [
+        "npc.crypt_of_tonali_skeleton_2"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 41,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    },
+    {
+      "source" : "Skeleton#Level 29, 3",
+      "version" : "3 (Plain)",
+      "ids" : [
+        14428
+      ],
+      "names" : [
+        "npc.crypt_of_tonali_skeleton_3"
+      ],
+      "combatLevel" : 29,
+      "hitpoints" : 30,
+      "attackSpeed" : 4,
+      "respawnTicks" : 41,
+      "size" : 1,
+      "levels" : { "attack" : 24, "strength" : 24, "defence" : 24, "ranged" : 1, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 5, "slashDefence" : 5, "crushDefence" : -5, "magicDefence" : 0, "rangedDefence" : 5, "lightRangedDefence" : 5, "heavyRangedDefence" : 5, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "3"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "attributes" : [
+        "undead"
+      ],
+      "slayer" : { "categories" : [ "Skeletons" ], "assignedBy" : [ "krystilia", "mazchna", "spria", "turael" ] },
+      "elementalWeakness" : { "element" : "Air", "percent" : 35 }
+    },
+    {
       "source" : "Skeleton#Level 45, 1",
       "version" : "1 (Armed)",
       "ids" : [
         82
       ],
       "names" : [
-        "npc.skeleton_82"
+        "npc.giantskeleton"
       ],
       "combatLevel" : 45,
       "hitpoints" : 59,
@@ -411,7 +504,7 @@
         83
       ],
       "names" : [
-        "npc.skeleton_83"
+        "npc.giantskeleton2"
       ],
       "combatLevel" : 45,
       "hitpoints" : 59,

@@ -42,7 +42,7 @@
         266
       ],
       "names" : [
-        "npc.blue_dragon_266"
+        "npc.blue_dragon2"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -76,7 +76,7 @@
         267
       ],
       "names" : [
-        "npc.blue_dragon_267"
+        "npc.blue_dragon3"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -110,7 +110,7 @@
         268
       ],
       "names" : [
-        "npc.blue_dragon_268"
+        "npc.blue_dragon4"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -144,7 +144,7 @@
         269
       ],
       "names" : [
-        "npc.blue_dragon_269"
+        "npc.blue_dragon5"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -178,7 +178,7 @@
         14103
       ],
       "names" : [
-        "npc.blue_dragon_14103"
+        "npc.blue_dragon_tapoyauik_1"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -212,7 +212,7 @@
         14104
       ],
       "names" : [
-        "npc.blue_dragon_14104"
+        "npc.blue_dragon_tapoyauik_2"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -246,7 +246,7 @@
         5878
       ],
       "names" : [
-        "npc.blue_dragon_5878"
+        "npc.blue_dragon_strongholdcave_1"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -280,7 +280,7 @@
         5879
       ],
       "names" : [
-        "npc.blue_dragon_5879"
+        "npc.blue_dragon_strongholdcave_2"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -314,7 +314,7 @@
         5880
       ],
       "names" : [
-        "npc.blue_dragon_5880"
+        "npc.blue_dragon_strongholdcave_3"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -348,7 +348,7 @@
         5881
       ],
       "names" : [
-        "npc.blue_dragon_5881"
+        "npc.blue_dragon_strongholdcave_4"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,
@@ -382,7 +382,7 @@
         5882
       ],
       "names" : [
-        "npc.blue_dragon_5882"
+        "npc.blue_dragon_strongholdcave_5"
       ],
       "combatLevel" : 111,
       "hitpoints" : 105,

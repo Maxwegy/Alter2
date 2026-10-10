@@ -9,9 +9,9 @@
         8262
       ],
       "names" : [
-        "npc.abomination",
-        "npc.abomination_8261",
-        "npc.abomination_8262"
+        "npc.myq4_abomination_cutscene",
+        "npc.myq4_abomination_cutscene_weakened",
+        "npc.myq4_abomination"
       ],
       "combatLevel" : 149,
       "hitpoints" : 200,

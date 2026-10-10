@@ -8,7 +8,7 @@
         11709
       ],
       "names" : [
-        "npc.baboon_brawler"
+        "npc.toa_path_apmeken_baboon_melee_1"
       ],
       "combatLevel" : 56,
       "hitpoints" : 25,
@@ -33,7 +33,7 @@
         11712
       ],
       "names" : [
-        "npc.baboon_brawler_11712"
+        "npc.toa_path_apmeken_baboon_melee_2"
       ],
       "combatLevel" : 68,
       "hitpoints" : 30,

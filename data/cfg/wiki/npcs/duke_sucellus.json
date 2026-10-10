@@ -9,8 +9,8 @@
         12167
       ],
       "names" : [
-        "npc.duke_sucellus",
-        "npc.duke_sucellus_12167"
+        "npc.duke_sucellus_inactive",
+        "npc.duke_sucellus_asleep"
       ],
       "combatLevel" : 1099,
       "hitpoints" : 1697,
@@ -43,7 +43,7 @@
         12191
       ],
       "names" : [
-        "npc.duke_sucellus_12191"
+        "npc.duke_sucellus_awake"
       ],
       "combatLevel" : 1099,
       "hitpoints" : 1697,
@@ -77,8 +77,8 @@
         12196
       ],
       "names" : [
-        "npc.duke_sucellus_12192",
-        "npc.duke_sucellus_12196"
+        "npc.duke_sucellus_dead",
+        "npc.duke_sucellus_dead_quest"
       ],
       "combatLevel" : 1099,
       "hitpoints" : 1697,
@@ -112,8 +112,8 @@
         12167
       ],
       "names" : [
-        "npc.duke_sucellus",
-        "npc.duke_sucellus_12167"
+        "npc.duke_sucellus_inactive",
+        "npc.duke_sucellus_asleep"
       ],
       "combatLevel" : 758,
       "hitpoints" : 485,
@@ -146,7 +146,7 @@
         12191
       ],
       "names" : [
-        "npc.duke_sucellus_12191"
+        "npc.duke_sucellus_awake"
       ],
       "combatLevel" : 758,
       "hitpoints" : 485,
@@ -180,8 +180,8 @@
         12196
       ],
       "names" : [
-        "npc.duke_sucellus_12192",
-        "npc.duke_sucellus_12196"
+        "npc.duke_sucellus_dead",
+        "npc.duke_sucellus_dead_quest"
       ],
       "combatLevel" : 758,
       "hitpoints" : 485,
@@ -215,8 +215,8 @@
         12194
       ],
       "names" : [
-        "npc.duke_sucellus_12193",
-        "npc.duke_sucellus_12194"
+        "npc.duke_sucellus_inactive_quest",
+        "npc.duke_sucellus_asleep_quest"
       ],
       "combatLevel" : 538,
       "hitpoints" : 330,
@@ -249,7 +249,7 @@
         12195
       ],
       "names" : [
-        "npc.duke_sucellus_12195"
+        "npc.duke_sucellus_awake_quest"
       ],
       "combatLevel" : 538,
       "hitpoints" : 330,
@@ -282,7 +282,7 @@
         12196
       ],
       "names" : [
-        "npc.duke_sucellus_12196"
+        "npc.duke_sucellus_dead_quest"
       ],
       "combatLevel" : 538,
       "hitpoints" : 330,

@@ -8,7 +8,7 @@
         11293
       ],
       "names" : [
-        "npc.blood_reaver"
+        "npc.nex_prison_blood_reaver"
       ],
       "combatLevel" : 174,
       "hitpoints" : 125,
@@ -37,7 +37,7 @@
         11294
       ],
       "names" : [
-        "npc.blood_reaver_11294"
+        "npc.nex_prison_blood_reaver_boss"
       ],
       "combatLevel" : 161,
       "hitpoints" : 150,

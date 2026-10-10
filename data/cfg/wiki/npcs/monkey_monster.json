@@ -8,7 +8,7 @@
         2848
       ],
       "names" : [
-        "npc.monkey_2848"
+        "npc.monkey"
       ],
       "combatLevel" : 3,
       "hitpoints" : 6,
@@ -35,7 +35,7 @@
         1038
       ],
       "names" : [
-        "npc.monkey_1038"
+        "npc.harmless_island_monkey"
       ],
       "combatLevel" : 3,
       "hitpoints" : 6,

@@ -10,8 +10,8 @@
       ],
       "names" : [
         "npc.jungle_spider",
-        "npc.jungle_spider_6267",
-        "npc.jungle_spider_6271"
+        "npc.tbwcu_jungle_spider",
+        "npc.tbwcu_spider_appear"
       ],
       "combatLevel" : 44,
       "hitpoints" : 50,

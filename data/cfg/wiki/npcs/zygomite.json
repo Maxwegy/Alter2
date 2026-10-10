@@ -7,7 +7,7 @@
         537
       ],
       "names" : [
-        "npc.zygomite"
+        "npc.slayer_mutated_zygomite_adolescent"
       ],
       "combatLevel" : 74,
       "hitpoints" : 65,
@@ -36,7 +36,7 @@
         1024
       ],
       "names" : [
-        "npc.zygomite_1024"
+        "npc.slayer_mutated_zygomite_adult"
       ],
       "combatLevel" : 86,
       "hitpoints" : 75,

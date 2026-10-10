@@ -9,8 +9,8 @@
         5345
       ],
       "names" : [
-        "npc.undead_one_5344",
-        "npc.undead_one_5345"
+        "npc.zqskeleton_armed",
+        "npc.zqskeleton_armed2"
       ],
       "combatLevel" : 61,
       "hitpoints" : 47,
@@ -42,8 +42,8 @@
         5343
       ],
       "names" : [
-        "npc.undead_one",
-        "npc.undead_one_5343"
+        "npc.zqskeleton_unarmed",
+        "npc.zqskeleton_unarmed2"
       ],
       "combatLevel" : 68,
       "hitpoints" : 47,
@@ -76,9 +76,9 @@
         5348
       ],
       "names" : [
-        "npc.undead_one_5346",
-        "npc.undead_one_5347",
-        "npc.undead_one_5348"
+        "npc.zqzombie_unarmed",
+        "npc.zqzombie_unarmed2",
+        "npc.zqzombie_unarmed3"
       ],
       "combatLevel" : 68,
       "hitpoints" : 47,
@@ -111,9 +111,9 @@
         5351
       ],
       "names" : [
-        "npc.undead_one_5349",
-        "npc.undead_one_5350",
-        "npc.undead_one_5351"
+        "npc.zqzombie_armed",
+        "npc.zqzombie_armed2",
+        "npc.zqzombie_armed3"
       ],
       "combatLevel" : 73,
       "hitpoints" : 59,

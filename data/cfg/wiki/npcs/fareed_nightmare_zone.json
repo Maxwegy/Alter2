@@ -8,7 +8,7 @@
         4115
       ],
       "names" : [
-        "npc.fareed_hard"
+        "npc.nzone_firediamond_firewarrior_hard"
       ],
       "combatLevel" : 299,
       "hitpoints" : 255,
@@ -35,7 +35,7 @@
         6348
       ],
       "names" : [
-        "npc.fareed_6348"
+        "npc.nzone_firediamond_firewarrior_normal"
       ],
       "combatLevel" : 167,
       "hitpoints" : 130,

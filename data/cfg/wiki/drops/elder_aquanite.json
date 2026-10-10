@@ -1,0 +1,46 @@
+{
+  "page" : "Elder aquanite",
+  "tables" : [
+    {
+      "source" : "Elder aquanite",
+      "npcIds" : [
+        15502,
+        15503
+      ],
+      "always" : [
+        { "item" : 532, "name" : "item.big_bones", "min" : 1, "max" : 1 }
+      ],
+      "main" : [
+        { "item" : 231, "name" : "item.snape_grass", "min" : 1, "max" : 2, "chance" : [ 1, 13 ], "rolls" : 3, "wiki" : "1/13", "approx" : true },
+        { "item" : 401, "name" : "item.seaweed", "min" : 1, "max" : 1, "chance" : [ 1, 13 ], "rolls" : 3, "wiki" : "1/13", "approx" : true },
+        { "item" : 555, "name" : "item.waterrune", "min" : 150, "max" : 350, "chance" : [ 1, 13 ], "rolls" : 3, "wiki" : "1/13", "approx" : true },
+        { "item" : 995, "name" : "item.coins", "min" : 104, "max" : 188, "chance" : [ 1, 32 ], "rolls" : 3, "wiki" : "1/32", "approx" : true },
+        { "item" : 1395, "name" : "item.water_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 1, 42 ], "rolls" : 3, "wiki" : "1/42", "approx" : true },
+        { "item" : 5287, "name" : "item.pineapple_tree_seed", "min" : 1, "max" : 1, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 5295, "name" : "item.ranarr_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "1/16", "approx" : true },
+        { "item" : 5297, "name" : "item.irit_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "1/16", "approx" : true },
+        { "item" : 5298, "name" : "item.avantoe_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "1/16", "approx" : true },
+        { "item" : 5299, "name" : "item.kwuarm_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "1/16", "approx" : true },
+        { "item" : 5301, "name" : "item.cadantine_seed", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "rolls" : 3, "wiki" : "1/16", "approx" : true },
+        { "item" : 5321, "name" : "item.watermelon_seed", "min" : 3, "max" : 5, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 20724, "name" : "item.imbued_heart", "min" : 1, "max" : 1, "chance" : [ 1, 472 ], "wiki" : "1/472" },
+        { "item" : 20730, "name" : "item.mist_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 135 ], "wiki" : "1/135" },
+        { "item" : 20736, "name" : "item.dust_battlestaff", "min" : 1, "max" : 1, "chance" : [ 1, 135 ], "wiki" : "1/135" },
+        { "item" : 21270, "name" : "item.slayer_eternal_gem", "min" : 1, "max" : 1, "chance" : [ 1, 472 ], "wiki" : "1/472" },
+        { "item" : 22879, "name" : "item.snape_grass_seed", "min" : 1, "max" : 3, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 30900, "name" : "item.shark_lure", "min" : 3, "max" : 5, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 31511, "name" : "item.coral_elkhorn_frag", "min" : 2, "max" : 4, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 31513, "name" : "item.coral_pillar_frag", "min" : 1, "max" : 3, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 31515, "name" : "item.coral_umbral_frag", "min" : 1, "max" : 1, "chance" : [ 1, 22 ], "rolls" : 3, "wiki" : "1/22", "approx" : true },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 14, "max" : 22, "chance" : [ 1, 64 ], "rolls" : 3, "wiki" : "1/64", "approx" : true },
+        { "item" : 31916, "name" : "item.dragon_cannonball", "min" : 9, "max" : 15, "chance" : [ 1, 128 ], "rolls" : 3, "wiki" : "1/128" },
+        { "item" : 32876, "name" : "item.aquanite_tendon", "min" : 1, "max" : 1, "chance" : [ 1, 750 ], "rolls" : 3, "wiki" : "1/750" }
+      ],
+      "tertiary" : [
+        { "item" : 10976, "name" : "item.dorgesh_construction_bone", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 10977, "name" : "item.dorgesh_construction_bone_curved", "min" : 1, "max" : 1, "chance" : [ 2, 10025 ], "wiki" : "1/5,012.5" }
+      ]
+    }
+  ]
+}

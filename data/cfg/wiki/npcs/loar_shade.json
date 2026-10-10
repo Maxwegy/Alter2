@@ -8,7 +8,7 @@
         1277
       ],
       "names" : [
-        "npc.loar_shade"
+        "npc.shade_level1"
       ],
       "combatLevel" : 40,
       "hitpoints" : 38,
@@ -41,7 +41,7 @@
         1276
       ],
       "names" : [
-        "npc.loar_shadow"
+        "npc.shadeshadow_level1"
       ],
       "combatLevel" : 40,
       "hitpoints" : 38,

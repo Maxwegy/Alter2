@@ -13,12 +13,12 @@
         6305
       ],
       "names" : [
-        "npc.dagannoth_mother_hard",
-        "npc.dagannoth_mother_hard_6301",
-        "npc.dagannoth_mother_hard_6302",
-        "npc.dagannoth_mother_hard_6303",
-        "npc.dagannoth_mother_hard_6304",
-        "npc.dagannoth_mother_hard_6305"
+        "npc.nzone_horror_dagganoth_air_hard",
+        "npc.nzone_horror_dagganoth_water_hard",
+        "npc.nzone_horror_dagganoth_fire_hard",
+        "npc.nzone_horror_dagganoth_earth_hard",
+        "npc.nzone_horror_dagganoth_ranged_hard",
+        "npc.nzone_horror_dagganoth_melee_hard"
       ],
       "combatLevel" : 201,
       "hitpoints" : 240,
@@ -52,12 +52,12 @@
         6366
       ],
       "names" : [
-        "npc.dagannoth_mother_6361",
-        "npc.dagannoth_mother_6362",
-        "npc.dagannoth_mother_6363",
-        "npc.dagannoth_mother_6364",
-        "npc.dagannoth_mother_6365",
-        "npc.dagannoth_mother_6366"
+        "npc.nzone_horror_dagganoth_air_normal",
+        "npc.nzone_horror_dagganoth_water_normal",
+        "npc.nzone_horror_dagganoth_fire_normal",
+        "npc.nzone_horror_dagganoth_earth_normal",
+        "npc.nzone_horror_dagganoth_ranged_normal",
+        "npc.nzone_horror_dagganoth_melee_normal"
       ],
       "combatLevel" : 100,
       "hitpoints" : 120,

@@ -10,10 +10,10 @@
         9038
       ],
       "names" : [
-        "npc.corrupted_hunllef",
-        "npc.corrupted_hunllef_9036",
-        "npc.corrupted_hunllef_9037",
-        "npc.corrupted_hunllef_9038"
+        "npc.crystal_hunllef_melee_hm",
+        "npc.crystal_hunllef_ranged_hm",
+        "npc.crystal_hunllef_magic_hm",
+        "npc.crystal_hunllef_death_hm"
       ],
       "combatLevel" : 894,
       "hitpoints" : 1000,

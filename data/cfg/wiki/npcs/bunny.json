@@ -8,7 +8,7 @@
         3902
       ],
       "names" : [
-        "npc.bunny"
+        "npc.viking_bunny_1"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,
@@ -34,7 +34,7 @@
         3903
       ],
       "names" : [
-        "npc.bunny_3903"
+        "npc.viking_bunny_2"
       ],
       "combatLevel" : 2,
       "hitpoints" : 5,

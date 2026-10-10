@@ -10,10 +10,10 @@
         3117
       ],
       "names" : [
-        "npc.tzkih",
-        "npc.tzkih_2190",
-        "npc.tzkih_3116",
-        "npc.tzkih_3117"
+        "npc.tzhaar_fightpit_swarm_1a",
+        "npc.tzhaar_fightpit_swarm_1b",
+        "npc.tzhaar_fightcave_swarm_1a",
+        "npc.tzhaar_fightcave_swarm_1b"
       ],
       "combatLevel" : 22,
       "hitpoints" : 10,

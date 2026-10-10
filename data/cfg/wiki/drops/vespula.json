@@ -9,11 +9,11 @@
         7532
       ],
       "always" : [
-        { "item" : 20893, "name" : "item.transdimensional_notes", "min" : 1, "max" : 1 },
-        { "item" : 20960, "name" : "item.revitalisation_4_20960", "min" : 1, "max" : 1 },
-        { "item" : 20972, "name" : "item.prayer_enhance_4_20972", "min" : 1, "max" : 1 },
-        { "item" : 20984, "name" : "item.xerics_aid_4_20984", "min" : 2, "max" : 2 },
-        { "item" : 20996, "name" : "item.overload_4_20996", "min" : 1, "max" : 1 }
+        { "item" : 20893, "name" : "item.raids_vespula_book", "min" : 1, "max" : 1 },
+        { "item" : 20960, "name" : "item.raids_vial_revitalisation_strong_4", "min" : 1, "max" : 1 },
+        { "item" : 20972, "name" : "item.raids_vial_prayer_strong_4", "min" : 1, "max" : 1 },
+        { "item" : 20984, "name" : "item.raids_vial_xericaid_strong_4", "min" : 2, "max" : 2 },
+        { "item" : 20996, "name" : "item.raids_vial_overload_strong_4", "min" : 1, "max" : 1 }
       ]
     }
   ]

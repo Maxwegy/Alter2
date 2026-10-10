@@ -8,7 +8,7 @@
         10805
       ],
       "names" : [
-        "npc.nylocas_prinkipas_10805"
+        "npc.nylocas_miniboss_magic_hard"
       ],
       "combatLevel" : 400,
       "hitpoints" : 400,
@@ -35,8 +35,8 @@
         10804
       ],
       "names" : [
-        "npc.nylocas_prinkipas",
-        "npc.nylocas_prinkipas_10804"
+        "npc.nylocas_miniboss_spawning_hard",
+        "npc.nylocas_miniboss_melee_hard"
       ],
       "combatLevel" : 400,
       "hitpoints" : 400,
@@ -62,7 +62,7 @@
         10806
       ],
       "names" : [
-        "npc.nylocas_prinkipas_10806"
+        "npc.nylocas_miniboss_ranged_hard"
       ],
       "combatLevel" : 400,
       "hitpoints" : 400,

@@ -7,7 +7,7 @@
         960
       ],
       "names" : [
-        "npc.kalphite_guardian_960"
+        "npc.kalphite_lord_strongholdcave"
       ],
       "combatLevel" : 141,
       "hitpoints" : 170,
@@ -38,7 +38,7 @@
         962
       ],
       "names" : [
-        "npc.kalphite_guardian_962"
+        "npc.kalphite_lord_chamber"
       ],
       "combatLevel" : 141,
       "hitpoints" : 170,
@@ -69,7 +69,7 @@
         959
       ],
       "names" : [
-        "npc.kalphite_guardian"
+        "npc.kalphite_lord"
       ],
       "combatLevel" : 141,
       "hitpoints" : 170,

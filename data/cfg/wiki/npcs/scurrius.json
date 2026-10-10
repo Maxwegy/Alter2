@@ -8,7 +8,7 @@
         7221
       ],
       "names" : [
-        "npc.scurrius"
+        "npc.rat_boss_normal"
       ],
       "combatLevel" : 250,
       "hitpoints" : 1500,
@@ -43,7 +43,7 @@
         7222
       ],
       "names" : [
-        "npc.scurrius_7222"
+        "npc.rat_boss_instance"
       ],
       "combatLevel" : 200,
       "hitpoints" : 500,

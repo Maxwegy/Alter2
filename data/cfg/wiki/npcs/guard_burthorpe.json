@@ -8,7 +8,7 @@
         4099
       ],
       "names" : [
-        "npc.guard_4099"
+        "npc.death_guard1"
       ],
       "combatLevel" : 37,
       "hitpoints" : 40,
@@ -34,7 +34,7 @@
         4100
       ],
       "names" : [
-        "npc.guard_4100"
+        "npc.death_guard2"
       ],
       "combatLevel" : 37,
       "hitpoints" : 40,

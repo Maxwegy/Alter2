@@ -11,10 +11,10 @@
         1071
       ],
       "names" : [
-        "npc.confusion_beast_1068",
-        "npc.confusion_beast_1069",
-        "npc.confusion_beast_1070",
-        "npc.confusion_beast_1071"
+        "npc.soulbane_confu_creeper_fake1",
+        "npc.soulbane_confu_creeper_fake2",
+        "npc.soulbane_confu_creeper_fake3",
+        "npc.soulbane_confu_creeper_fake4"
       ],
       "combatLevel" : 43,
       "hitpoints" : 28,
@@ -39,7 +39,7 @@
         1067
       ],
       "names" : [
-        "npc.confusion_beast"
+        "npc.soulbane_confu_creeper"
       ],
       "combatLevel" : 43,
       "hitpoints" : 28,
@@ -64,7 +64,7 @@
         4694
       ],
       "names" : [
-        "npc.confusion_beast_4694"
+        "npc.soulbane_conf_beast"
       ],
       "combatLevel" : 63,
       "hitpoints" : 64,

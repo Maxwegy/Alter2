@@ -8,7 +8,7 @@
         13738
       ],
       "names" : [
-        "npc.emissary_chosen"
+        "npc.twilight_cultist_chosen_m_1"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,
@@ -34,7 +34,7 @@
         13739
       ],
       "names" : [
-        "npc.emissary_chosen_13739"
+        "npc.twilight_cultist_chosen_m_2"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,
@@ -60,7 +60,7 @@
         13740
       ],
       "names" : [
-        "npc.emissary_chosen_13740"
+        "npc.twilight_cultist_chosen_m_3"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,
@@ -86,7 +86,7 @@
         13741
       ],
       "names" : [
-        "npc.emissary_chosen_13741"
+        "npc.twilight_cultist_chosen_f_1"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,
@@ -112,7 +112,7 @@
         13742
       ],
       "names" : [
-        "npc.emissary_chosen_13742"
+        "npc.twilight_cultist_chosen_f_2"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,
@@ -138,7 +138,7 @@
         13743
       ],
       "names" : [
-        "npc.emissary_chosen_13743"
+        "npc.twilight_cultist_chosen_f_3"
       ],
       "combatLevel" : 76,
       "hitpoints" : 50,

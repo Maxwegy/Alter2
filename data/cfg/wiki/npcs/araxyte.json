@@ -9,8 +9,8 @@
         13667
       ],
       "names" : [
-        "npc.araxyte_11176",
-        "npc.araxyte_13667"
+        "npc.araxyte_large",
+        "npc.araxyte_large_bigwander"
       ],
       "combatLevel" : 146,
       "hitpoints" : 100,
@@ -39,8 +39,8 @@
         13666
       ],
       "names" : [
-        "npc.araxyte_11175",
-        "npc.araxyte_13666"
+        "npc.araxyte_normal",
+        "npc.araxyte_normal_bigwander"
       ],
       "combatLevel" : 96,
       "hitpoints" : 60,

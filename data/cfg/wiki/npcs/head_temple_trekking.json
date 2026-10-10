@@ -8,7 +8,7 @@
         5645
       ],
       "names" : [
-        "npc.head_5645"
+        "npc.templetrek_tentacle_head_spawning"
       ],
       "combatLevel" : 140,
       "hitpoints" : 150,
@@ -33,7 +33,7 @@
         5644
       ],
       "names" : [
-        "npc.head"
+        "npc.templetrek_tentacle_head"
       ],
       "combatLevel" : 140,
       "hitpoints" : 150,

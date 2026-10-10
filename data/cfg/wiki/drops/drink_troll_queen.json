@@ -1,0 +1,15 @@
+{
+  "page" : "Drink troll queen",
+  "tables" : [
+    {
+      "source" : "Drink troll queen",
+      "npcIds" : [
+        15175
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 },
+        { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

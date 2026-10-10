@@ -8,7 +8,7 @@
         6437
       ],
       "names" : [
-        "npc.cave_goblin_6437"
+        "npc.cave_goblin4"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -36,7 +36,7 @@
         6435
       ],
       "names" : [
-        "npc.cave_goblin_6435"
+        "npc.cave_goblin2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -64,7 +64,7 @@
         6434
       ],
       "names" : [
-        "npc.cave_goblin_6434"
+        "npc.cave_goblin"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,
@@ -92,7 +92,7 @@
         6436
       ],
       "names" : [
-        "npc.cave_goblin_6436"
+        "npc.cave_goblin3"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,

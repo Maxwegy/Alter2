@@ -1,0 +1,31 @@
+{
+  "page" : "Daddy's special water",
+  "versions" : [
+    {
+      "source" : "Daddy's special water",
+      "ids" : [
+        15167
+      ],
+      "names" : [
+        "npc.sailing_charting_drink_troll_dad"
+      ],
+      "combatLevel" : 125,
+      "hitpoints" : 120,
+      "attackSpeed" : 8,
+      "size" : 3,
+      "levels" : { "attack" : 99, "strength" : 120, "defence" : 99, "ranged" : 0, "magic" : 0 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 25, "slashDefence" : 25, "crushDefence" : 40, "magicDefence" : 200, "rangedDefence" : 200, "lightRangedDefence" : 200, "heavyRangedDefence" : 200, "attackBonus" : 40, "strengthBonus" : 70, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "27"
+      ],
+      "attackStyles" : [
+        "Crush"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false },
+      "slayer" : { "xp" : 126.0, "categories" : [ "Trolls" ], "assignedBy" : [ "chaeldar", "duradel", "konar", "nieve", "vannaka" ] },
+      "elementalWeakness" : { "element" : "Earth", "percent" : 40 }
+    }
+  ]
+}

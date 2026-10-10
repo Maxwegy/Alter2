@@ -18,24 +18,24 @@
         { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
       ],
       "main" : [
-        { "item" : 199, "name" : "item.grimy_guam_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
-        { "item" : 201, "name" : "item.grimy_marrentill", "min" : 1, "max" : 1, "chance" : [ 10, 1333 ], "wiki" : "1/133.3" },
-        { "item" : 203, "name" : "item.grimy_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 889 ], "wiki" : "1/177.8" },
-        { "item" : 205, "name" : "item.grimy_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 1143 ], "wiki" : "1/228.6" },
-        { "item" : 207, "name" : "item.grimy_ranarr_weed", "min" : 1, "max" : 1, "chance" : [ 10, 2909 ], "wiki" : "1/290.9" },
-        { "item" : 209, "name" : "item.grimy_irit_leaf", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
-        { "item" : 211, "name" : "item.grimy_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 5333 ], "wiki" : "1/533.3" },
-        { "item" : 213, "name" : "item.grimy_kwuarm", "min" : 1, "max" : 1, "chance" : [ 1, 640 ], "wiki" : "1/640" },
-        { "item" : 215, "name" : "item.grimy_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
-        { "item" : 217, "name" : "item.grimy_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 10667 ], "wiki" : "1/1,066.7" },
-        { "item" : 559, "name" : "item.body_rune", "min" : 7, "max" : 7, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 1, 100 ], "wiki" : "1/100" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 10, 1333 ], "wiki" : "1/133.3" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 5, 889 ], "wiki" : "1/177.8" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 5, 1143 ], "wiki" : "1/228.6" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 10, 2909 ], "wiki" : "1/290.9" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 5333 ], "wiki" : "1/533.3" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 1, 640 ], "wiki" : "1/640" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 800 ], "wiki" : "1/800" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 10667 ], "wiki" : "1/1,066.7" },
+        { "item" : 559, "name" : "item.bodyrune", "min" : 7, "max" : 7, "chance" : [ 1, 10 ], "wiki" : "10/100" },
         { "item" : 592, "name" : "item.ashes", "min" : 1, "max" : 1, "chance" : [ 1, 25 ], "wiki" : "4/100" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
         { "item" : 886, "name" : "item.steel_arrow", "min" : 5, "max" : 14, "chance" : [ 1, 5 ], "wiki" : "20/100" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 5, "max" : 84, "chance" : [ 1, 10 ], "wiki" : "10/100" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "4/100" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 6400 ], "wiki" : "1/6,400" },
+        { "item" : 995, "name" : "item.coins", "min" : 5, "max" : 84, "chance" : [ 1, 10 ], "wiki" : "10/100" },
+        { "item" : 995, "name" : "item.coins", "min" : 10, "max" : 10, "chance" : [ 1, 25 ], "wiki" : "4/100" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 102400 ], "wiki" : "1/102,400" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 27306667 ], "wiki" : "1/273,066.67" },
         { "item" : 1462, "name" : "item.nature_talisman", "min" : 1, "max" : 1, "chance" : [ 100, 213333 ], "wiki" : "1/2,133.33" },
@@ -44,11 +44,11 @@
         { "item" : 1621, "name" : "item.uncut_emerald", "min" : 1, "max" : 1, "chance" : [ 1, 400 ], "wiki" : "1/400" },
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 200 ], "wiki" : "1/200" },
         { "item" : 1917, "name" : "item.beer", "min" : 1, "max" : 1, "chance" : [ 1, 10 ], "wiki" : "10/100" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
-        { "item" : 2485, "name" : "item.grimy_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 10667 ], "wiki" : "1/1,066.7" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 204800 ], "wiki" : "1/204,800" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 10667 ], "wiki" : "1/1,066.7" }
       ],
       "tertiary" : [
-        { "item" : 6807, "name" : "item.zombie_champion_scroll", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
+        { "item" : 6807, "name" : "item.champions_challenge_zombie", "min" : 1, "max" : 1, "chance" : [ 1, 5000 ], "wiki" : "1/5,000" }
       ]
     }
   ]

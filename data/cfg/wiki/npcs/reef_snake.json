@@ -1,0 +1,21 @@
+{
+  "page" : "Reef snake",
+  "versions" : [
+    {
+      "source" : "Reef snake",
+      "ids" : [
+        15499
+      ],
+      "names" : [
+        "npc.slayer_reef_snake"
+      ],
+      "combatLevel" : 147,
+      "hitpoints" : 160,
+      "attackSpeed" : 5,
+      "size" : 2,
+      "levels" : { "attack" : 1, "strength" : 1, "defence" : 100, "ranged" : 170, "magic" : 100 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 120, "slashDefence" : 120, "crushDefence" : 120, "magicDefence" : 100, "rangedDefence" : 0, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

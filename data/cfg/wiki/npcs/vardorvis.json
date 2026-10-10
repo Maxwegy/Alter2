@@ -10,7 +10,7 @@
       ],
       "names" : [
         "npc.vardorvis",
-        "npc.vardorvis_12426"
+        "npc.vardorvis_base_postquest"
       ],
       "combatLevel" : 1136,
       "hitpoints" : 1400,
@@ -41,7 +41,7 @@
       ],
       "names" : [
         "npc.vardorvis",
-        "npc.vardorvis_12426"
+        "npc.vardorvis_base_postquest"
       ],
       "combatLevel" : 784,
       "hitpoints" : 700,
@@ -72,9 +72,9 @@
         12425
       ],
       "names" : [
-        "npc.vardorvis_12224",
-        "npc.vardorvis_12228",
-        "npc.vardorvis_12425"
+        "npc.vardorvis_quest",
+        "npc.vardorvis_cutscene",
+        "npc.vardorvis_base_quest"
       ],
       "combatLevel" : 572,
       "hitpoints" : 500,

@@ -1,0 +1,29 @@
+{
+  "page" : "Giant lobster (The Red Reef)",
+  "versions" : [
+    {
+      "source" : "Giant lobster (The Red Reef)",
+      "ids" : [
+        15034
+      ],
+      "names" : [
+        "npc.trr_giant_lobster"
+      ],
+      "combatLevel" : 112,
+      "hitpoints" : 100,
+      "attackSpeed" : 5,
+      "size" : 3,
+      "levels" : { "attack" : 80, "strength" : 90, "defence" : 60, "ranged" : 1, "magic" : 20 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 20, "slashDefence" : 50, "crushDefence" : 30, "magicDefence" : 10, "rangedDefence" : 60, "lightRangedDefence" : 60, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false }
+    }
+  ]
+}

@@ -9,9 +9,9 @@
         4962
       ],
       "names" : [
-        "npc.solus_dellagar",
-        "npc.solus_dellagar_4933",
-        "npc.solus_dellagar_4962"
+        "npc.wanted_solus",
+        "npc.wanted_solus_for_cutscene",
+        "npc.wanted_solus_attackable"
       ],
       "hitpoints" : 40,
       "attackSpeed" : 3,

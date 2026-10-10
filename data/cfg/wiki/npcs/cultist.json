@@ -8,7 +8,7 @@
         12918
       ],
       "names" : [
-        "npc.cultist"
+        "npc.vmq2_cultist_m_1"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,
@@ -33,7 +33,7 @@
         12919
       ],
       "names" : [
-        "npc.cultist_12919"
+        "npc.vmq2_cultist_m_2"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,
@@ -58,7 +58,7 @@
         12920
       ],
       "names" : [
-        "npc.cultist_12920"
+        "npc.vmq2_cultist_m_3"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,
@@ -83,7 +83,7 @@
         12921
       ],
       "names" : [
-        "npc.cultist_12921"
+        "npc.vmq2_cultist_f_1"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,
@@ -108,7 +108,7 @@
         12922
       ],
       "names" : [
-        "npc.cultist_12922"
+        "npc.vmq2_cultist_f_2"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,
@@ -133,7 +133,7 @@
         12923
       ],
       "names" : [
-        "npc.cultist_12923"
+        "npc.vmq2_cultist_f_3"
       ],
       "combatLevel" : 34,
       "hitpoints" : 25,

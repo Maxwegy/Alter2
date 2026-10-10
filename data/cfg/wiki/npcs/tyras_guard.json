@@ -16,16 +16,16 @@
         8964
       ],
       "names" : [
-        "npc.tyras_guard",
-        "npc.tyras_guard_1327",
-        "npc.tyras_guard_3433",
-        "npc.tyras_guard_3434",
-        "npc.tyras_guard_3436",
-        "npc.tyras_guard_8945",
-        "npc.tyras_guard_8961",
-        "npc.tyras_guard_8962",
-        "npc.tyras_guard_8963",
-        "npc.tyras_guard_8964"
+        "npc.regicide_old_camp_guard",
+        "npc.sailing_transport_tyras_guard",
+        "npc.regicide_tyras_camp_guard",
+        "npc.regicide_tyras_guard",
+        "npc.regicide_tyras_camp_tent_guard",
+        "npc.sote_tyras_guard",
+        "npc.sote_tyras_guard_battle",
+        "npc.sote_tyras_guard_battle_heal",
+        "npc.sote_tyras_guard_catapult",
+        "npc.sote_tyras_guard_cutscene"
       ],
       "combatLevel" : 110,
       "hitpoints" : 110,

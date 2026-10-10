@@ -11,11 +11,11 @@
         4139
       ],
       "names" : [
-        "npc.thrower_troll_4135",
-        "npc.thrower_troll_4136",
-        "npc.thrower_troll_4137",
-        "npc.thrower_troll_4138",
-        "npc.thrower_troll_4139"
+        "npc.troll_thrower1",
+        "npc.troll_thrower2",
+        "npc.troll_thrower3",
+        "npc.troll_thrower4",
+        "npc.troll_thrower5"
       ],
       "combatLevel" : 68,
       "hitpoints" : 95,

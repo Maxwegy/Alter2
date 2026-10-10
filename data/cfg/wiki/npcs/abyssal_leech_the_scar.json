@@ -8,7 +8,7 @@
         12393
       ],
       "names" : [
-        "npc.abyssal_leech_12393"
+        "npc.dt2_scar_leech"
       ],
       "combatLevel" : 32,
       "hitpoints" : 50,
@@ -33,7 +33,7 @@
         12366
       ],
       "names" : [
-        "npc.abyssal_leech_12366"
+        "npc.dt2_scar_maze_leech"
       ],
       "combatLevel" : 46,
       "hitpoints" : 30,
@@ -58,7 +58,7 @@
         12391
       ],
       "names" : [
-        "npc.abyssal_leech_12391"
+        "npc.dt2_scar_abyssal_leech"
       ],
       "combatLevel" : 54,
       "hitpoints" : 20,

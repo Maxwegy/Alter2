@@ -8,7 +8,7 @@
         7241
       ],
       "names" : [
-        "npc.abyssal_demon_7241"
+        "npc.kourend_abyssal"
       ],
       "combatLevel" : 124,
       "hitpoints" : 150,
@@ -39,8 +39,8 @@
         416
       ],
       "names" : [
-        "npc.abyssal_demon_415",
-        "npc.abyssal_demon_416"
+        "npc.slayer_abyssal",
+        "npc.slayer_abyssal_strongholdcave"
       ],
       "combatLevel" : 124,
       "hitpoints" : 150,
@@ -70,7 +70,7 @@
         11239
       ],
       "names" : [
-        "npc.abyssal_demon_11239"
+        "npc.wild_cave_abyssal"
       ],
       "combatLevel" : 124,
       "hitpoints" : 150,

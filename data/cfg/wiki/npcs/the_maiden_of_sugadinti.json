@@ -8,7 +8,7 @@
         8363
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti_8363"
+        "npc.tob_maiden_30"
       ],
       "combatLevel" : 940,
       "hitpoints" : 1050,
@@ -33,7 +33,7 @@
         8362
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti_8362"
+        "npc.tob_maiden_50"
       ],
       "combatLevel" : 940,
       "hitpoints" : 1750,
@@ -58,7 +58,7 @@
         8361
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti_8361"
+        "npc.tob_maiden_70"
       ],
       "combatLevel" : 940,
       "hitpoints" : 2450,
@@ -83,7 +83,7 @@
         10814
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti_10814"
+        "npc.tob_maiden_100_story"
       ],
       "combatLevel" : 324,
       "hitpoints" : 2000,
@@ -108,7 +108,7 @@
         10822
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti_10822"
+        "npc.tob_maiden_100_hard"
       ],
       "combatLevel" : 1128,
       "hitpoints" : 3500,
@@ -133,7 +133,7 @@
         8360
       ],
       "names" : [
-        "npc.the_maiden_of_sugadinti"
+        "npc.tob_maiden_100"
       ],
       "combatLevel" : 940,
       "hitpoints" : 3500,

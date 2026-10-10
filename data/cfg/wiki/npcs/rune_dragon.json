@@ -8,8 +8,8 @@
         8091
       ],
       "names" : [
-        "npc.rune_dragon_8031",
-        "npc.rune_dragon_8091"
+        "npc.rune_dragon",
+        "npc.ds2_rune_dragon"
       ],
       "combatLevel" : 380,
       "hitpoints" : 330,

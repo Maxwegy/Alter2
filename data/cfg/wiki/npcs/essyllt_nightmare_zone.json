@@ -8,7 +8,7 @@
         9247
       ],
       "names" : [
-        "npc.essyllt_hard"
+        "npc.nzone_sote_essyllt_hard"
       ],
       "combatLevel" : 395,
       "hitpoints" : 320,
@@ -35,7 +35,7 @@
         9249
       ],
       "names" : [
-        "npc.essyllt_9249"
+        "npc.nzone_sote_essyllt_normal"
       ],
       "combatLevel" : 236,
       "hitpoints" : 320,

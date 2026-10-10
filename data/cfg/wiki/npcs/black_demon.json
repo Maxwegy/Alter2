@@ -17,16 +17,16 @@
         5877
       ],
       "names" : [
+        "npc.black_demon_strongholdcave_1",
         "npc.black_demon",
-        "npc.black_demon_2048",
-        "npc.black_demon_2049",
-        "npc.black_demon_2050",
-        "npc.black_demon_2051",
-        "npc.black_demon_2052",
-        "npc.black_demon_5874",
-        "npc.black_demon_5875",
-        "npc.black_demon_5876",
-        "npc.black_demon_5877"
+        "npc.black_demon2",
+        "npc.black_demon3",
+        "npc.black_demon4",
+        "npc.black_demon5",
+        "npc.black_demon_strongholdcave_2",
+        "npc.black_demon_strongholdcave_3",
+        "npc.black_demon_strongholdcave_4",
+        "npc.black_demon_strongholdcave_5"
       ],
       "combatLevel" : 172,
       "hitpoints" : 157,
@@ -57,7 +57,7 @@
         7243
       ],
       "names" : [
-        "npc.black_demon_7243"
+        "npc.kourend_black_demon_2"
       ],
       "combatLevel" : 178,
       "hitpoints" : 160,
@@ -88,7 +88,7 @@
         7242
       ],
       "names" : [
-        "npc.black_demon_7242"
+        "npc.kourend_black_demon_1"
       ],
       "combatLevel" : 184,
       "hitpoints" : 170,
@@ -121,9 +121,9 @@
         7876
       ],
       "names" : [
-        "npc.black_demon_7874",
-        "npc.black_demon_7875",
-        "npc.black_demon_7876"
+        "npc.wild_cave_black_demon",
+        "npc.wild_cave_black_demon2",
+        "npc.wild_cave_black_demon3"
       ],
       "combatLevel" : 188,
       "hitpoints" : 200,

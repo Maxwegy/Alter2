@@ -7,7 +7,7 @@
         3897
       ],
       "names" : [
-        "npc.koschei_the_deathless"
+        "npc.viking_enemy1"
       ],
       "hitpoints" : 30,
       "attackSpeed" : 4,
@@ -30,7 +30,7 @@
         3898
       ],
       "names" : [
-        "npc.koschei_the_deathless_3898"
+        "npc.viking_enemy2"
       ],
       "hitpoints" : 50,
       "attackSpeed" : 4,
@@ -53,7 +53,7 @@
         3899
       ],
       "names" : [
-        "npc.koschei_the_deathless_3899"
+        "npc.viking_enemy3"
       ],
       "hitpoints" : 70,
       "attackSpeed" : 4,
@@ -76,7 +76,7 @@
         3900
       ],
       "names" : [
-        "npc.koschei_the_deathless_3900"
+        "npc.viking_enemy4"
       ],
       "hitpoints" : 255,
       "attackSpeed" : 1,

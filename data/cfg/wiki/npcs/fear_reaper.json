@@ -8,7 +8,7 @@
         1066
       ],
       "names" : [
-        "npc.fear_reaper"
+        "npc.soulbane_fear_reaper"
       ],
       "combatLevel" : 42,
       "hitpoints" : 25,
@@ -33,7 +33,7 @@
         4693
       ],
       "names" : [
-        "npc.fear_reaper_4693"
+        "npc.soulbane_fear_beast"
       ],
       "combatLevel" : 55,
       "hitpoints" : 57,

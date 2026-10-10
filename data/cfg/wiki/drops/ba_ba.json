@@ -9,8 +9,8 @@
         11780
       ],
       "always" : [
-        { "item" : 27221, "name" : "item.big_banana", "min" : 1, "max" : 1 },
-        { "item" : 27304, "name" : "item.apmekens_capture", "min" : 1, "max" : 1 }
+        { "item" : 27221, "name" : "item.toa_baba_banana", "min" : 1, "max" : 1 },
+        { "item" : 27304, "name" : "item.toa_book_baba", "min" : 1, "max" : 1 }
       ]
     }
   ]

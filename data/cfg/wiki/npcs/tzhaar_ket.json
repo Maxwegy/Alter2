@@ -15,14 +15,14 @@
         2187
       ],
       "names" : [
-        "npc.tzhaarket",
-        "npc.tzhaarket_2174",
-        "npc.tzhaarket_2175",
-        "npc.tzhaarket_2176",
-        "npc.tzhaarket_2177",
-        "npc.tzhaarket_2178",
-        "npc.tzhaarket_2179",
-        "npc.tzhaarket_2187"
+        "npc.tzhaar_ket1",
+        "npc.tzhaar_ket2",
+        "npc.tzhaar_ket3",
+        "npc.tzhaar_ket4",
+        "npc.tzhaar_ket5",
+        "npc.tzhaar_ket6",
+        "npc.tzhaar_ket7",
+        "npc.tzhaar_guard_border"
       ],
       "combatLevel" : 149,
       "hitpoints" : 140,
@@ -50,7 +50,7 @@
         7679
       ],
       "names" : [
-        "npc.tzhaarket_7679"
+        "npc.tzhaar_ket_strong"
       ],
       "combatLevel" : 221,
       "hitpoints" : 200,

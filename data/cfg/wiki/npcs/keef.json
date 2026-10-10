@@ -8,8 +8,8 @@
         7105
       ],
       "names" : [
-        "npc.keef",
-        "npc.keef_7105"
+        "npc.mm2_chieftan_keef_noncombat",
+        "npc.mm2_chieftan_keef_combat"
       ],
       "combatLevel" : 178,
       "hitpoints" : 180,

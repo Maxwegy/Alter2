@@ -10,9 +10,9 @@
         5963
       ],
       "names" : [
-        "npc.spinolyp",
-        "npc.spinolyp_5961",
-        "npc.spinolyp_5963"
+        "npc.dagannoth_water_creature_1x1",
+        "npc.dagannoth_water_creature_1x12",
+        "npc.dagannoth_water_creature_1x13"
       ],
       "combatLevel" : 76,
       "hitpoints" : 100,
@@ -41,9 +41,9 @@
         5962
       ],
       "names" : [
-        "npc.suspicious_water",
-        "npc.suspicious_water_5948",
-        "npc.suspicious_water_5962"
+        "npc.dagannoth_water_creature_1x1_invisible",
+        "npc.dagannoth_water_creature_1x1_invisible2",
+        "npc.dagannoth_water_creature_1x1_invisible3"
       ],
       "combatLevel" : 34,
       "hitpoints" : 100,

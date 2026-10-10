@@ -8,7 +8,7 @@
         45
       ],
       "names" : [
-        "npc.zombie_45"
+        "npc.zombie2_rural1"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -39,7 +39,7 @@
         46
       ],
       "names" : [
-        "npc.zombie_46"
+        "npc.zombie2_rural2"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -70,7 +70,7 @@
         47
       ],
       "names" : [
-        "npc.zombie_47"
+        "npc.zombie2_rural3"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -101,7 +101,7 @@
         48
       ],
       "names" : [
-        "npc.zombie_48"
+        "npc.zombie2_rural4"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -132,7 +132,7 @@
         6596
       ],
       "names" : [
-        "npc.zombie_6596"
+        "npc.wilderness_zombie"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -163,7 +163,7 @@
         6597
       ],
       "names" : [
-        "npc.zombie_6597"
+        "npc.wilderness_zombie2"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -194,7 +194,7 @@
         6598
       ],
       "names" : [
-        "npc.zombie_6598"
+        "npc.wilderness_zombie3"
       ],
       "combatLevel" : 18,
       "hitpoints" : 24,
@@ -225,7 +225,7 @@
         59
       ],
       "names" : [
-        "npc.zombie_59"
+        "npc.zombie_armed_rural1"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -256,7 +256,7 @@
         60
       ],
       "names" : [
-        "npc.zombie_60"
+        "npc.zombie_armed_rural2"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -287,7 +287,7 @@
         61
       ],
       "names" : [
-        "npc.zombie_61"
+        "npc.zombie_armed_rural3"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -318,7 +318,7 @@
         62
       ],
       "names" : [
-        "npc.zombie_62"
+        "npc.zombie_armed_rural4"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,
@@ -349,7 +349,7 @@
         63
       ],
       "names" : [
-        "npc.zombie_63"
+        "npc.zombie_armed_rural5"
       ],
       "combatLevel" : 24,
       "hitpoints" : 30,

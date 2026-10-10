@@ -1,0 +1,66 @@
+{
+  "page" : "Lava Strykewyrm",
+  "tables" : [
+    {
+      "source" : "Lava Strykewyrm",
+      "npcIds" : [
+        15500
+      ],
+      "needsReview" : true,
+      "always" : [
+        { "item" : 31726, "name" : "item.strykewyrm_bones", "min" : 1, "max" : 1 }
+      ],
+      "tertiary" : [
+        { "item" : 145, "name" : "item.3dose2attack", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 163, "name" : "item.3dose2defense", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 199, "name" : "item.unidentified_guam", "min" : 1, "max" : 1, "chance" : [ 1, 256 ], "wiki" : "1/256" },
+        { "item" : 201, "name" : "item.unidentified_marentill", "min" : 1, "max" : 1, "chance" : [ 10, 3413 ], "wiki" : "1/341.3" },
+        { "item" : 203, "name" : "item.unidentified_tarromin", "min" : 1, "max" : 1, "chance" : [ 10, 4551 ], "wiki" : "1/455.1" },
+        { "item" : 205, "name" : "item.unidentified_harralander", "min" : 1, "max" : 1, "chance" : [ 10, 5851 ], "wiki" : "1/585.1" },
+        { "item" : 207, "name" : "item.unidentified_ranarr", "min" : 1, "max" : 1, "chance" : [ 10, 7447 ], "wiki" : "1/744.7" },
+        { "item" : 209, "name" : "item.unidentified_irit", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
+        { "item" : 211, "name" : "item.unidentified_avantoe", "min" : 1, "max" : 1, "chance" : [ 10, 13653 ], "wiki" : "1/1,365.3" },
+        { "item" : 213, "name" : "item.unidentified_kwuarm", "min" : 1, "max" : 1, "chance" : [ 5, 8192 ], "wiki" : "1/1,638.4" },
+        { "item" : 215, "name" : "item.unidentified_cadantine", "min" : 1, "max" : 1, "chance" : [ 1, 2048 ], "wiki" : "1/2,048" },
+        { "item" : 217, "name" : "item.unidentified_dwarf_weed", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 450, "name" : "item.cert_adamantite_ore", "min" : 2, "max" : 4, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 452, "name" : "item.cert_runite_ore", "min" : 1, "max" : 2, "noted" : true, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 454, "name" : "item.cert_coal", "min" : 4, "max" : 6, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 554, "name" : "item.firerune", "min" : 50, "max" : 100, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 5, "max" : 10, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 562, "name" : "item.chaosrune", "min" : 10, "max" : 20, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 569, "name" : "item.fire_orb", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 593, "name" : "item.cert_ashes", "min" : 2, "max" : 3, "noted" : true, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 811, "name" : "item.rune_dart", "min" : 20, "max" : 30, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 868, "name" : "item.rune_knife", "min" : 20, "max" : 30, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 892, "name" : "item.rune_arrow", "min" : 20, "max" : 30, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 100, "max" : 200, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 1123, "name" : "item.adamant_platebody", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1147, "name" : "item.rune_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1275, "name" : "item.rune_pickaxe", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1303, "name" : "item.rune_longsword", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1432, "name" : "item.rune_mace", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 1442, "name" : "item.fire_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1452, "name" : "item.chaos_talisman", "min" : 1, "max" : 1, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 1617, "name" : "item.uncut_diamond", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 2485, "name" : "item.unidentified_lantadyme", "min" : 1, "max" : 1, "chance" : [ 10, 27307 ], "wiki" : "1/2,730.7" },
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 3053, "name" : "item.lava_battlestaff", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 4699, "name" : "item.lavarune", "min" : 50, "max" : 100, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 4699, "name" : "item.lavarune", "min" : 200, "max" : 200, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 7054, "name" : "item.potato_chilli+carne", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 9189, "name" : "item.xbows_bolt_tips_sapphire", "min" : 5, "max" : 10, "chance" : [ 1, 471 ], "wiki" : "1/471" },
+        { "item" : 9190, "name" : "item.xbows_bolt_tips_emerald", "min" : 5, "max" : 10, "chance" : [ 5, 589 ], "wiki" : "1/117.8" },
+        { "item" : 9191, "name" : "item.xbows_bolt_tips_ruby", "min" : 5, "max" : 10, "chance" : [ 5, 589 ], "wiki" : "1/117.8" },
+        { "item" : 9192, "name" : "item.xbows_bolt_tips_diamond", "min" : 5, "max" : 10, "chance" : [ 5, 471 ], "wiki" : "1/94.2" },
+        { "item" : 9193, "name" : "item.xbows_bolt_tips_dragonstone", "min" : 5, "max" : 10, "chance" : [ 1, 157 ], "wiki" : "1/157" },
+        { "item" : 9194, "name" : "item.xbows_bolt_tips_onyx", "min" : 5, "max" : 10, "chance" : [ 2, 673 ], "wiki" : "1/336.5" },
+        { "item" : 11237, "name" : "item.dragon_arrowheads", "min" : 2, "max" : 6, "chance" : [ 1, 32 ], "wiki" : "4/128" },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 77 ], "wiki" : "1/77" },
+        { "item" : 31912, "name" : "item.adamant_cannonball", "min" : 12, "max" : 22, "chance" : [ 3, 128 ], "wiki" : "3/128" },
+        { "item" : 31914, "name" : "item.rune_cannonball", "min" : 9, "max" : 14, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 31996, "name" : "item.dragon_sheet", "min" : 1, "max" : 1, "chance" : [ 1, 115 ], "wiki" : "1/115" }
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@
         1037
       ],
       "names" : [
-        "npc.snake"
+        "npc.harmless_island_snake"
       ],
       "combatLevel" : 35,
       "hitpoints" : 25,

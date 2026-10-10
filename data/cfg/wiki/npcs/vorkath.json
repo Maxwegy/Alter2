@@ -9,8 +9,8 @@
         8060
       ],
       "names" : [
-        "npc.vorkath_8058",
-        "npc.vorkath_8060"
+        "npc.vorkath_sleeping_noop",
+        "npc.vorkath_quest"
       ],
       "combatLevel" : 392,
       "hitpoints" : 460,
@@ -50,8 +50,8 @@
         8061
       ],
       "names" : [
-        "npc.vorkath_8059",
-        "npc.vorkath_8061"
+        "npc.vorkath_sleeping",
+        "npc.vorkath"
       ],
       "combatLevel" : 732,
       "hitpoints" : 750,

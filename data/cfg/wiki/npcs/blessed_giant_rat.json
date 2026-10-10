@@ -8,7 +8,7 @@
         4534
       ],
       "names" : [
-        "npc.blessed_giant_rat"
+        "npc.blessed_giantrat"
       ],
       "combatLevel" : 9,
       "hitpoints" : 30,
@@ -38,7 +38,7 @@
         4535
       ],
       "names" : [
-        "npc.blessed_giant_rat_4535"
+        "npc.blessed_giantrat2"
       ],
       "combatLevel" : 9,
       "hitpoints" : 30,

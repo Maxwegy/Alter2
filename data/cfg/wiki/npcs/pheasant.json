@@ -8,7 +8,7 @@
         373
       ],
       "names" : [
-        "npc.pheasant_373"
+        "npc.macro_pheasant_model_1"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -34,7 +34,7 @@
         5500
       ],
       "names" : [
-        "npc.pheasant_5500"
+        "npc.macro_pheasant_model_2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -60,7 +60,7 @@
         374
       ],
       "names" : [
-        "npc.pheasant_374"
+        "npc.macro_pheasant_model_3"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -86,7 +86,7 @@
         5502
       ],
       "names" : [
-        "npc.pheasant_5502"
+        "npc.macro_pheasant_model_4"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,

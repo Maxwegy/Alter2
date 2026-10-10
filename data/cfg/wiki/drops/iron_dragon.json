@@ -7,10 +7,10 @@
         7254
       ],
       "tertiary" : [
-        { "item" : 19677, "name" : "item.ancient_shard", "min" : 1, "max" : 1, "chance" : [ 1, 203 ], "wiki" : "1/203" },
-        { "item" : 19679, "name" : "item.dark_totem_base", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" },
-        { "item" : 19681, "name" : "item.dark_totem_middle", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" },
-        { "item" : 19683, "name" : "item.dark_totem_top", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" }
+        { "item" : 19677, "name" : "item.cata_shard", "min" : 1, "max" : 1, "chance" : [ 1, 203 ], "wiki" : "1/203" },
+        { "item" : 19679, "name" : "item.cata_totem1", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" },
+        { "item" : 19681, "name" : "item.cata_totem2", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" },
+        { "item" : 19683, "name" : "item.cata_totem3", "min" : 1, "max" : 1, "chance" : [ 1, 305 ], "wiki" : "1/305" }
       ]
     },
     {
@@ -25,26 +25,26 @@
         { "item" : 2351, "name" : "item.iron_bar", "min" : 5, "max" : 5 }
       ],
       "main" : [
-        { "item" : 161, "name" : "item.super_strength1", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
-        { "item" : 443, "name" : "item.silver_ore_noted", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 560, "name" : "item.death_rune", "min" : 45, "max" : 45, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 561, "name" : "item.nature_rune", "min" : 67, "max" : 67, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
-        { "item" : 563, "name" : "item.law_rune", "min" : 45, "max" : 45, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 565, "name" : "item.blood_rune", "min" : 15, "max" : 15, "chance" : [ 19, 128 ], "wiki" : "19/128" },
-        { "item" : 566, "name" : "item.soul_rune", "min" : 3, "max" : 3, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 817, "name" : "item.rune_dartp", "min" : 9, "max" : 9, "chance" : [ 7, 128 ], "wiki" : "7/128" },
+        { "item" : 161, "name" : "item.1dose2strength", "min" : 1, "max" : 1, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 443, "name" : "item.cert_silver_ore", "min" : 100, "max" : 100, "noted" : true, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 560, "name" : "item.deathrune", "min" : 45, "max" : 45, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 561, "name" : "item.naturerune", "min" : 67, "max" : 67, "chance" : [ 100, 273067 ], "wiki" : "1/2,730.67" },
+        { "item" : 563, "name" : "item.lawrune", "min" : 45, "max" : 45, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
+        { "item" : 565, "name" : "item.bloodrune", "min" : 15, "max" : 15, "chance" : [ 19, 128 ], "wiki" : "19/128" },
+        { "item" : 566, "name" : "item.soulrune", "min" : 3, "max" : 3, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 817, "name" : "item.rune_dart_p", "min" : 9, "max" : 9, "chance" : [ 7, 128 ], "wiki" : "7/128" },
         { "item" : 829, "name" : "item.adamant_javelin", "min" : 20, "max" : 20, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 4, "max" : 4, "chance" : [ 5, 32 ], "wiki" : "20/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 100, 494611 ], "wiki" : "1/4,946.11" },
         { "item" : 868, "name" : "item.rune_knife", "min" : 5, "max" : 5, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 886, "name" : "item.steel_arrow", "min" : 150, "max" : 150, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
         { "item" : 892, "name" : "item.rune_arrow", "min" : 42, "max" : 42, "chance" : [ 1, 4096 ], "wiki" : "1/4,096" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 37827 ], "wiki" : "1/378.27" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 100, 37827 ], "wiki" : "1/378.27" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 270, "max" : 270, "chance" : [ 5, 32 ], "wiki" : "20/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 550, "max" : 550, "chance" : [ 5, 64 ], "wiki" : "10/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 990, "max" : 990, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 3000, "max" : 3000, "chance" : [ 10, 3901 ], "wiki" : "1/390.1" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 100, 37827 ], "wiki" : "1/378.27" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 100, 37827 ], "wiki" : "1/378.27" },
+        { "item" : 995, "name" : "item.coins", "min" : 270, "max" : 270, "chance" : [ 5, 32 ], "wiki" : "20/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 550, "max" : 550, "chance" : [ 5, 64 ], "wiki" : "10/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 990, "max" : 990, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 3000, "max" : 3000, "chance" : [ 10, 3901 ], "wiki" : "1/390.1" },
         { "item" : 1147, "name" : "item.rune_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
         { "item" : 1149, "name" : "item.dragon_med_helm", "min" : 1, "max" : 1, "chance" : [ 1, 8192 ], "wiki" : "1/8,192" },
         { "item" : 1183, "name" : "item.adamant_sq_shield", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
@@ -67,16 +67,16 @@
         { "item" : 2011, "name" : "item.curry", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 2361, "name" : "item.adamantite_bar", "min" : 2, "max" : 2, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 2363, "name" : "item.runite_bar", "min" : 1, "max" : 1, "chance" : [ 5, 8192 ], "wiki" : "1/1,638.4" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 25, 393462 ], "wiki" : "1/15,738.48" },
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 25, 393462 ], "wiki" : "1/15,738.48" },
         { "item" : 4087, "name" : "item.dragon_platelegs", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
         { "item" : 4585, "name" : "item.dragon_plateskirt", "min" : 1, "max" : 1, "chance" : [ 1, 1024 ], "wiki" : "1/1,024" },
-        { "item" : 9143, "name" : "item.adamant_bolts", "min" : 2, "max" : 12, "chance" : [ 3, 64 ], "wiki" : "6/128" },
-        { "item" : 9431, "name" : "item.runite_limbs", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
-        { "item" : 11286, "name" : "item.draconic_visage", "min" : 1, "max" : 1, "chance" : [ 1, 10000 ], "wiki" : "1/10,000" }
+        { "item" : 9143, "name" : "item.xbows_crossbow_bolts_adamantite", "min" : 2, "max" : 12, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 9431, "name" : "item.xbows_crossbow_limbs_runite", "min" : 1, "max" : 1, "chance" : [ 5, 128 ], "wiki" : "5/128" },
+        { "item" : 11286, "name" : "item.dragonfire_visage", "min" : 1, "max" : 1, "chance" : [ 1, 10000 ], "wiki" : "1/10,000" }
       ],
       "tertiary" : [
-        { "item" : 2722, "name" : "item.clue_scroll_hard", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 23083, "name" : "item.brimstone_key", "min" : 1, "max" : 1, "chance" : [ 1, 83 ], "wiki" : "1/83" }
+        { "item" : 2722, "name" : "item.trail_clue_hard_map001", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
+        { "item" : 23083, "name" : "item.konar_key", "min" : 1, "max" : 1, "chance" : [ 1, 83 ], "wiki" : "1/83" }
       ]
     }
   ]

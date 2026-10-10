@@ -8,7 +8,7 @@
         241
       ],
       "names" : [
-        "npc.baby_blue_dragon"
+        "npc.babybluedragon"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -39,7 +39,7 @@
         242
       ],
       "names" : [
-        "npc.baby_blue_dragon_242"
+        "npc.babybluedragon2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -70,7 +70,7 @@
         243
       ],
       "names" : [
-        "npc.baby_blue_dragon_243"
+        "npc.babybluedragon3"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -101,7 +101,7 @@
         14105
       ],
       "names" : [
-        "npc.baby_blue_dragon_14105"
+        "npc.baby_blue_dragon_tapoyauik_1"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,
@@ -132,7 +132,7 @@
         14106
       ],
       "names" : [
-        "npc.baby_blue_dragon_14106"
+        "npc.baby_blue_dragon_tapoyauik_2"
       ],
       "combatLevel" : 48,
       "hitpoints" : 50,

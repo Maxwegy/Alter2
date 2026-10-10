@@ -8,7 +8,7 @@
         5457
       ],
       "names" : [
-        "npc.shipyard_worker_5457"
+        "npc.shipyardworker1"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,
@@ -34,7 +34,7 @@
         5729
       ],
       "names" : [
-        "npc.shipyard_worker_5729"
+        "npc.shipyardworker2"
       ],
       "combatLevel" : 11,
       "hitpoints" : 10,

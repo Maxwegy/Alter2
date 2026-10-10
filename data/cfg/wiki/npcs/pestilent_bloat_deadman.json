@@ -1,0 +1,55 @@
+{
+  "page" : "Pestilent Bloat (Deadman)",
+  "versions" : [
+    {
+      "source" : "Pestilent Bloat (Deadman)#Annihilation",
+      "version" : "Annihilation",
+      "ids" : [
+        15556
+      ],
+      "names" : [
+        "npc.deadman_breach_bloat"
+      ],
+      "combatLevel" : 716,
+      "hitpoints" : 2000,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 340, "defence" : 100, "ranged" : 180, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 180, "stabDefence" : 40, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 800, "lightRangedDefence" : 800, "heavyRangedDefence" : 800, "attackBonus" : 150, "strengthBonus" : 82, "rangedStrength" : 4, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    },
+    {
+      "source" : "Pestilent Bloat (Deadman)#Permanent",
+      "version" : "Permanent",
+      "ids" : [
+        15556
+      ],
+      "names" : [
+        "npc.deadman_breach_bloat"
+      ],
+      "combatLevel" : 404,
+      "hitpoints" : 750,
+      "attackSpeed" : 5,
+      "size" : 5,
+      "levels" : { "attack" : 250, "strength" : 340, "defence" : 100, "ranged" : 180, "magic" : 150 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 180, "stabDefence" : 40, "slashDefence" : 20, "crushDefence" : 40, "magicDefence" : 600, "rangedDefence" : 800, "lightRangedDefence" : 800, "heavyRangedDefence" : 800, "attackBonus" : 150, "strengthBonus" : 82, "rangedStrength" : 4, "magicDamage" : 0 },
+      "maxHits" : [
+        "20"
+      ],
+      "attackStyles" : [
+        "Ranged"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : true, "venom" : true, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}

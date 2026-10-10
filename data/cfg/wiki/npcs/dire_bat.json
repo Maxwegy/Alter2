@@ -1,0 +1,31 @@
+{
+  "page" : "Dire bat",
+  "versions" : [
+    {
+      "source" : "Dire bat",
+      "ids" : [
+        15757
+      ],
+      "names" : [
+        "npc.vampyrium_dire_bat"
+      ],
+      "combatLevel" : 142,
+      "hitpoints" : 90,
+      "attackSpeed" : 4,
+      "respawnTicks" : 50,
+      "size" : 2,
+      "levels" : { "attack" : 300, "strength" : 50, "defence" : 160, "ranged" : 1, "magic" : 160 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 15, "slashDefence" : 15, "crushDefence" : 10, "magicDefence" : 20, "rangedDefence" : 10, "lightRangedDefence" : 10, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "6"
+      ],
+      "attackStyles" : [
+        "Typeless Stab"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : false, "thrall" : false, "freeze" : "0% resistance" },
+      "elementalWeakness" : { "element" : "Air", "percent" : 40 }
+    }
+  ]
+}

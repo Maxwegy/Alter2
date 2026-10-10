@@ -9,8 +9,8 @@
         6901
       ],
       "names" : [
-        "npc.gang_boss",
-        "npc.gang_boss_6901"
+        "npc.shayzien_criminal_boss_1_chatting",
+        "npc.shayzien_criminal_boss_1_fighting"
       ],
       "combatLevel" : 83,
       "hitpoints" : 80,
@@ -36,8 +36,8 @@
         6903
       ],
       "names" : [
-        "npc.gang_boss_6902",
-        "npc.gang_boss_6903"
+        "npc.shayzien_criminal_boss_2_chatting",
+        "npc.shayzien_criminal_boss_2_fighting"
       ],
       "combatLevel" : 76,
       "hitpoints" : 80,

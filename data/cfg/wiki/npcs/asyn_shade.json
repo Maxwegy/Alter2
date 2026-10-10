@@ -8,7 +8,7 @@
         1284
       ],
       "names" : [
-        "npc.asyn_shade"
+        "npc.shade_level4"
       ],
       "combatLevel" : 100,
       "hitpoints" : 90,
@@ -41,7 +41,7 @@
         1283
       ],
       "names" : [
-        "npc.asyn_shadow"
+        "npc.shadeshadow_level4"
       ],
       "combatLevel" : 100,
       "hitpoints" : 90,

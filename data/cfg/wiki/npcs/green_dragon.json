@@ -16,13 +16,13 @@
       ],
       "names" : [
         "npc.green_dragon",
-        "npc.green_dragon_261",
-        "npc.green_dragon_262",
-        "npc.green_dragon_263",
-        "npc.green_dragon_264",
-        "npc.green_dragon_8073",
-        "npc.green_dragon_8076",
-        "npc.green_dragon_8082"
+        "npc.green_dragon2",
+        "npc.green_dragon3",
+        "npc.green_dragon4",
+        "npc.green_dragon5",
+        "npc.ds2_green_dragon_flying",
+        "npc.ds2_green_dragon_cutscene_flying",
+        "npc.ds2_green_dragon"
       ],
       "combatLevel" : 79,
       "hitpoints" : 75,
@@ -58,9 +58,9 @@
         7870
       ],
       "names" : [
-        "npc.green_dragon_7868",
-        "npc.green_dragon_7869",
-        "npc.green_dragon_7870"
+        "npc.wild_cave_green_dragon",
+        "npc.wild_cave_green_dragon2",
+        "npc.wild_cave_green_dragon3"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,

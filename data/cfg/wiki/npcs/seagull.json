@@ -8,7 +8,7 @@
         1338
       ],
       "names" : [
-        "npc.seagull"
+        "npc.sarim_seagull_pier"
       ],
       "combatLevel" : 2,
       "hitpoints" : 6,
@@ -33,10 +33,12 @@
       "source" : "Seagull#Level 3",
       "version" : "Level 3",
       "ids" : [
-        1339
+        1339,
+        14938
       ],
       "names" : [
-        "npc.seagull_1339"
+        "npc.sarim_seagull_pier_big",
+        "npc.sarim_seagull_pier_big_outdoors"
       ],
       "combatLevel" : 3,
       "hitpoints" : 10,

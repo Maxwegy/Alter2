@@ -8,7 +8,7 @@
         2603
       ],
       "names" : [
-        "npc.werewolf_2603"
+        "npc.canafis_werewolf_woman3"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -34,7 +34,7 @@
         2593
       ],
       "names" : [
-        "npc.werewolf"
+        "npc.canafis_werewolf_man1"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -60,7 +60,7 @@
         2598
       ],
       "names" : [
-        "npc.werewolf_2598"
+        "npc.canafis_werewolf_man6"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -86,7 +86,7 @@
         2605
       ],
       "names" : [
-        "npc.werewolf_2605"
+        "npc.canafis_werewolf_woman5"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -112,7 +112,7 @@
         2600
       ],
       "names" : [
-        "npc.werewolf_2600"
+        "npc.canafis_werewolf_man8"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -138,7 +138,7 @@
         3135
       ],
       "names" : [
-        "npc.werewolf_3135"
+        "npc.godwars_ancient_werewolf1"
       ],
       "combatLevel" : 93,
       "hitpoints" : 92,
@@ -165,7 +165,7 @@
         3136
       ],
       "names" : [
-        "npc.werewolf_3136"
+        "npc.godwars_ancient_werewolf2"
       ],
       "combatLevel" : 93,
       "hitpoints" : 92,
@@ -192,7 +192,7 @@
         2594
       ],
       "names" : [
-        "npc.werewolf_2594"
+        "npc.canafis_werewolf_man2"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -218,7 +218,7 @@
         2602
       ],
       "names" : [
-        "npc.werewolf_2602"
+        "npc.canafis_werewolf_woman2"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -244,7 +244,7 @@
         2596
       ],
       "names" : [
-        "npc.werewolf_2596"
+        "npc.canafis_werewolf_man4"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -270,7 +270,7 @@
         2607
       ],
       "names" : [
-        "npc.werewolf_2607"
+        "npc.canafis_werewolf_woman7"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -296,7 +296,7 @@
         2599
       ],
       "names" : [
-        "npc.werewolf_2599"
+        "npc.canafis_werewolf_man7"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -322,7 +322,7 @@
         2612
       ],
       "names" : [
-        "npc.werewolf_2612"
+        "npc.canafis_werewolf_woman12"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -348,7 +348,7 @@
         2604
       ],
       "names" : [
-        "npc.werewolf_2604"
+        "npc.canafis_werewolf_woman4"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -374,7 +374,7 @@
         2609
       ],
       "names" : [
-        "npc.werewolf_2609"
+        "npc.canafis_werewolf_woman9"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -400,7 +400,7 @@
         2597
       ],
       "names" : [
-        "npc.werewolf_2597"
+        "npc.canafis_werewolf_man5"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -426,7 +426,7 @@
         2606
       ],
       "names" : [
-        "npc.werewolf_2606"
+        "npc.canafis_werewolf_woman6"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -452,7 +452,7 @@
         2601
       ],
       "names" : [
-        "npc.werewolf_2601"
+        "npc.canafis_werewolf_woman1"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -478,7 +478,7 @@
         2610
       ],
       "names" : [
-        "npc.werewolf_2610"
+        "npc.canafis_werewolf_woman10"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -504,7 +504,7 @@
         2608
       ],
       "names" : [
-        "npc.werewolf_2608"
+        "npc.canafis_werewolf_woman8"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -530,7 +530,7 @@
         2595
       ],
       "names" : [
-        "npc.werewolf_2595"
+        "npc.canafis_werewolf_man3"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,
@@ -556,7 +556,7 @@
         2611
       ],
       "names" : [
-        "npc.werewolf_2611"
+        "npc.canafis_werewolf_woman11"
       ],
       "combatLevel" : 88,
       "hitpoints" : 100,

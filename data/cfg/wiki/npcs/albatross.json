@@ -1,0 +1,29 @@
+{
+  "page" : "Albatross",
+  "versions" : [
+    {
+      "source" : "Albatross",
+      "ids" : [
+        15224
+      ],
+      "names" : [
+        "npc.sailing_albatross"
+      ],
+      "combatLevel" : 110,
+      "hitpoints" : 135,
+      "attackSpeed" : 4,
+      "size" : 2,
+      "levels" : { "attack" : 100, "strength" : 90, "defence" : 60, "ranged" : 0, "magic" : 1 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 0, "rangedAttack" : 0, "stabDefence" : 0, "slashDefence" : 0, "crushDefence" : 0, "magicDefence" : 0, "rangedDefence" : 25, "lightRangedDefence" : 20, "heavyRangedDefence" : 10, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 0 },
+      "maxHits" : [
+        "10"
+      ],
+      "attackStyles" : [
+        "Stab"
+      ],
+      "aggressive" : false,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : true, "cannon" : false, "thrall" : false }
+    }
+  ]
+}

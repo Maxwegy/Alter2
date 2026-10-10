@@ -5,10 +5,12 @@
       "source" : "Rockslug#Adult",
       "version" : "Adult",
       "ids" : [
-        421
+        421,
+        14423
       ],
       "names" : [
-        "npc.rockslug_421"
+        "npc.slayer_rockslug",
+        "npc.slayer_rockslug_crypt_of_tonali"
       ],
       "combatLevel" : 29,
       "hitpoints" : 27,
@@ -36,7 +38,7 @@
         422
       ],
       "names" : [
-        "npc.rockslug_422"
+        "npc.slayer_rockslug_baby"
       ],
       "combatLevel" : 29,
       "hitpoints" : 27,

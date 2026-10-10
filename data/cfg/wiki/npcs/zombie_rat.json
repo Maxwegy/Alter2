@@ -8,7 +8,7 @@
         3969
       ],
       "names" : [
-        "npc.zombie_rat"
+        "npc.dragonslayer_giantrat_1_key"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -40,7 +40,7 @@
         3970
       ],
       "names" : [
-        "npc.zombie_rat_3970"
+        "npc.dragonslayer_giantrat_2"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,
@@ -72,7 +72,7 @@
         3971
       ],
       "names" : [
-        "npc.zombie_rat_3971"
+        "npc.dragonslayer_giantrat_3"
       ],
       "combatLevel" : 3,
       "hitpoints" : 5,

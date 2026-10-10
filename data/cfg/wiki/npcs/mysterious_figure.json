@@ -8,8 +8,8 @@
         12301
       ],
       "names" : [
-        "npc.mysterious_figure_12300",
-        "npc.mysterious_figure_12301"
+        "npc.dt2_pursuer_overworld_combat",
+        "npc.dt2_pursuer_hideout_combat"
       ],
       "combatLevel" : 271,
       "hitpoints" : 450,

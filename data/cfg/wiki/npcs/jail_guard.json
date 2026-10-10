@@ -8,7 +8,7 @@
         4276
       ],
       "names" : [
-        "npc.jail_guard"
+        "npc.jailguard"
       ],
       "combatLevel" : 26,
       "hitpoints" : 32,
@@ -34,7 +34,7 @@
         4277
       ],
       "names" : [
-        "npc.jail_guard_4277"
+        "npc.jailguard_two_patrol"
       ],
       "combatLevel" : 26,
       "hitpoints" : 32,
@@ -60,7 +60,7 @@
         4278
       ],
       "names" : [
-        "npc.jail_guard_4278"
+        "npc.jailguard_three_patrol"
       ],
       "combatLevel" : 26,
       "hitpoints" : 32,
@@ -86,7 +86,7 @@
         4279
       ],
       "names" : [
-        "npc.jail_guard_4279"
+        "npc.jailguard_four_patrol"
       ],
       "combatLevel" : 26,
       "hitpoints" : 32,

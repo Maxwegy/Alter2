@@ -9,7 +9,7 @@
         8299
       ],
       "always" : [
-        { "item" : 2970, "name" : "item.mort_myre_fungus", "min" : 3, "max" : 3 }
+        { "item" : 2970, "name" : "item.mortmyremushroom", "min" : 3, "max" : 3 }
       ],
       "main" : [
         { "item" : 313, "name" : "item.fishing_bait", "min" : 12, "max" : 12, "chance" : [ 1, 64 ], "wiki" : "2/128" },
@@ -22,11 +22,11 @@
         { "item" : 453, "name" : "item.coal", "min" : 2, "max" : 2, "chance" : [ 1, 64 ], "wiki" : "2/128" },
         { "item" : 830, "name" : "item.rune_javelin", "min" : 5, "max" : 5, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
         { "item" : 946, "name" : "item.knife", "min" : 4, "max" : 4, "chance" : [ 29, 128 ], "wiki" : "29/128" },
-        { "item" : 985, "name" : "item.tooth_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 987, "name" : "item.loop_half_of_key", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 4, "max" : 10, "chance" : [ 19, 128 ], "wiki" : "19/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 42, "max" : 42, "chance" : [ 1, 16 ], "wiki" : "8/128" },
-        { "item" : 995, "name" : "item.coins_995", "min" : 120, "max" : 120, "chance" : [ 3, 64 ], "wiki" : "6/128" },
+        { "item" : 985, "name" : "item.keyhalf1", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 987, "name" : "item.keyhalf2", "min" : 1, "max" : 1, "chance" : [ 1, 16384 ], "wiki" : "1/16,384" },
+        { "item" : 995, "name" : "item.coins", "min" : 4, "max" : 10, "chance" : [ 19, 128 ], "wiki" : "19/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 42, "max" : 42, "chance" : [ 1, 16 ], "wiki" : "8/128" },
+        { "item" : 995, "name" : "item.coins", "min" : 120, "max" : 120, "chance" : [ 3, 64 ], "wiki" : "6/128" },
         { "item" : 1247, "name" : "item.rune_spear", "min" : 1, "max" : 1, "chance" : [ 1, 262144 ], "wiki" : "1/262,144" },
         { "item" : 1249, "name" : "item.dragon_spear", "min" : 1, "max" : 1, "chance" : [ 100, 69905067 ], "wiki" : "1/699,050.67" },
         { "item" : 1265, "name" : "item.bronze_pickaxe", "min" : 1, "max" : 1, "chance" : [ 3, 32 ], "wiki" : "12/128" },
@@ -43,12 +43,12 @@
         { "item" : 1623, "name" : "item.uncut_sapphire", "min" : 1, "max" : 1, "chance" : [ 1, 512 ], "wiki" : "1/512" },
         { "item" : 1755, "name" : "item.chisel", "min" : 1, "max" : 1, "chance" : [ 3, 128 ], "wiki" : "3/128" },
         { "item" : 1969, "name" : "item.spinach_roll", "min" : 1, "max" : 1, "chance" : [ 1, 128 ], "wiki" : "1/128" },
-        { "item" : 2366, "name" : "item.shield_left_half", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
-        { "item" : 2970, "name" : "item.mort_myre_fungus", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
-        { "item" : 3239, "name" : "item.bark", "min" : 1, "max" : 2, "chance" : [ 9, 128 ], "wiki" : "9/128" }
+        { "item" : 2366, "name" : "item.dragonshield_a", "min" : 1, "max" : 1, "chance" : [ 1, 524288 ], "wiki" : "1/524,288" },
+        { "item" : 2970, "name" : "item.mortmyremushroom", "min" : 1, "max" : 1, "chance" : [ 1, 64 ], "wiki" : "2/128" },
+        { "item" : 3239, "name" : "item.hollow_bark", "min" : 1, "max" : 2, "chance" : [ 9, 128 ], "wiki" : "9/128" }
       ],
       "tertiary" : [
-        { "item" : 2677, "name" : "item.clue_scroll_easy", "min" : 1, "max" : 1, "chance" : [ 1, 96 ], "wiki" : "1/96" }
+        { "item" : 2677, "name" : "item.trail_clue_easy_simple001", "min" : 1, "max" : 1, "chance" : [ 1, 96 ], "wiki" : "1/96" }
       ]
     }
   ]

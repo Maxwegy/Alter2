@@ -8,7 +8,7 @@
         6119
       ],
       "names" : [
-        "npc.the_inadequacy_hard"
+        "npc.nzone_dream_inadequacy_hard"
       ],
       "combatLevel" : 600,
       "hitpoints" : 255,
@@ -35,7 +35,7 @@
         6350
       ],
       "names" : [
-        "npc.the_inadequacy_6350"
+        "npc.nzone_dream_inadequacy_normal"
       ],
       "combatLevel" : 343,
       "hitpoints" : 180,

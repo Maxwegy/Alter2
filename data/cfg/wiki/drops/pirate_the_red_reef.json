@@ -1,0 +1,17 @@
+{
+  "page" : "Pirate (The Red Reef)",
+  "tables" : [
+    {
+      "source" : "Pirate (The Red Reef)",
+      "npcIds" : [
+        15021,
+        15022,
+        15023,
+        15024
+      ],
+      "always" : [
+        { "item" : 526, "name" : "item.bones", "min" : 1, "max" : 1 }
+      ]
+    }
+  ]
+}

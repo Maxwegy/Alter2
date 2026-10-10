@@ -8,7 +8,7 @@
         11710
       ],
       "names" : [
-        "npc.baboon_thrower"
+        "npc.toa_path_apmeken_baboon_ranged_1"
       ],
       "combatLevel" : 56,
       "hitpoints" : 30,
@@ -33,7 +33,7 @@
         11713
       ],
       "names" : [
-        "npc.baboon_thrower_11713"
+        "npc.toa_path_apmeken_baboon_ranged_2"
       ],
       "combatLevel" : 68,
       "hitpoints" : 35,

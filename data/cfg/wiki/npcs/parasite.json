@@ -8,7 +8,7 @@
         9452
       ],
       "names" : [
-        "npc.parasite"
+        "npc.nightmare_parasite"
       ],
       "combatLevel" : 86,
       "hitpoints" : 80,
@@ -35,7 +35,7 @@
         9453
       ],
       "names" : [
-        "npc.parasite_9453"
+        "npc.nightmare_parasite_weak"
       ],
       "combatLevel" : 57,
       "hitpoints" : 40,

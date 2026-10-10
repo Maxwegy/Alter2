@@ -9,8 +9,8 @@
         7554
       ],
       "names" : [
-        "npc.great_olm",
-        "npc.great_olm_7554"
+        "npc.olm_head_spawning",
+        "npc.olm_head"
       ],
       "combatLevel" : 1043,
       "hitpoints" : 800,
@@ -42,8 +42,8 @@
         7554
       ],
       "names" : [
-        "npc.great_olm",
-        "npc.great_olm_7554"
+        "npc.olm_head_spawning",
+        "npc.olm_head"
       ],
       "combatLevel" : 1043,
       "hitpoints" : 800,
@@ -75,8 +75,8 @@
         7555
       ],
       "names" : [
-        "npc.great_olm_left_claw",
-        "npc.great_olm_left_claw_7555"
+        "npc.olm_hand_left_spawning",
+        "npc.olm_hand_left"
       ],
       "combatLevel" : 750,
       "hitpoints" : 600,
@@ -107,8 +107,8 @@
         7555
       ],
       "names" : [
-        "npc.great_olm_left_claw",
-        "npc.great_olm_left_claw_7555"
+        "npc.olm_hand_left_spawning",
+        "npc.olm_hand_left"
       ],
       "combatLevel" : 750,
       "hitpoints" : 600,
@@ -139,8 +139,8 @@
         7553
       ],
       "names" : [
-        "npc.great_olm_right_claw",
-        "npc.great_olm_right_claw_7553"
+        "npc.olm_hand_right_spawning",
+        "npc.olm_hand_right"
       ],
       "combatLevel" : 549,
       "hitpoints" : 600,
@@ -171,8 +171,8 @@
         7553
       ],
       "names" : [
-        "npc.great_olm_right_claw",
-        "npc.great_olm_right_claw_7553"
+        "npc.olm_hand_right_spawning",
+        "npc.olm_hand_right"
       ],
       "combatLevel" : 549,
       "hitpoints" : 600,

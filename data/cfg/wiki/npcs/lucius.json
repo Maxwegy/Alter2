@@ -1,0 +1,30 @@
+{
+  "page" : "Lucius",
+  "versions" : [
+    {
+      "source" : "Lucius",
+      "ids" : [
+        14363
+      ],
+      "names" : [
+        "npc.vmq4_keystone_chamber_boss_magic"
+      ],
+      "combatLevel" : 160,
+      "hitpoints" : 180,
+      "attackSpeed" : 4,
+      "size" : 1,
+      "levels" : { "attack" : 70, "strength" : 70, "defence" : 70, "ranged" : 60, "magic" : 200 },
+      "bonuses" : { "stabAttack" : 0, "slashAttack" : 0, "crushAttack" : 0, "magicAttack" : 120, "rangedAttack" : 0, "stabDefence" : 90, "slashDefence" : 120, "crushDefence" : 120, "magicDefence" : 200, "rangedDefence" : 80, "lightRangedDefence" : 80, "heavyRangedDefence" : 60, "attackBonus" : 0, "strengthBonus" : 0, "rangedStrength" : 0, "magicDamage" : 10 },
+      "maxHits" : [
+        "24 (magic)",
+        "34 (special attack)"
+      ],
+      "attackStyles" : [
+        "Magic"
+      ],
+      "aggressive" : true,
+      "poisonous" : false,
+      "immunities" : { "poison" : false, "venom" : false, "cannon" : true, "thrall" : false, "freeze" : "100% resistance" }
+    }
+  ]
+}
