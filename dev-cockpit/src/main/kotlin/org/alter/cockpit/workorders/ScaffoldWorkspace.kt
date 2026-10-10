@@ -84,14 +84,19 @@ class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef:
         val target = dir.resolve(file.path)
         Files.createDirectories(target.parent)
         when (file.mode) {
-            ScaffoldFile.JSON_APPEND -> Files.writeString(target, appendToJsonArray(if (Files.exists(target)) Files.readString(target) else "[]", file.content))
+            ScaffoldFile.JSON_APPEND -> Files.writeString(target, appendToJsonArray(if (Files.exists(target)) Files.readString(target) else "[]", file.content, file.arrayKey))
             else -> Files.writeString(target, file.content)
         }
         return PreviewFile(file.path, file.mode, applied = true)
     }
 
-    /** Appends [element] before the array's closing bracket, keeping the file's own formatting so the diff is only the new entry. */
-    internal fun appendToJsonArray(text: String, element: String): String {
+    /**
+     * Appends [element] before the array's closing bracket, keeping the file's own formatting so the diff is only the new entry.
+     * With [arrayKey] the file is a JSON object and the element goes into its top-level `arrayKey` array (e.g. the
+     * `consumables` list of consumables.json), indented like the array's first element.
+     */
+    internal fun appendToJsonArray(text: String, element: String, arrayKey: String? = null): String {
+        if (arrayKey != null) return appendToNamedArray(text, element, arrayKey)
         val existing: List<Any?> = Json.mapper.readValue(text)
         val parsed = Json.mapper.readValue<Any?>(element)
         if (parsed in existing) return text // idempotent: previewing twice must not append twice
@@ -99,6 +104,86 @@ class ScaffoldWorkspace(repoRoot: Path, worktreesDir: Path, private val baseRef:
         val head = text.substring(0, close).trimEnd()
         val pretty = Json.prettyLf.writeValueAsString(parsed).lines().joinToString("\n") { "  $it" }
         return head + (if (existing.isEmpty()) "\n" else ",\n") + pretty + "\n]\n"
+    }
+
+    private fun appendToNamedArray(text: String, element: String, arrayKey: String): String {
+        val root = runCatching { Json.mapper.readValue<Map<String, Any?>>(text) }.getOrElse { throw IllegalStateException("Not a JSON object file") }
+        val existing = root[arrayKey] as? List<*> ?: throw IllegalStateException("\"$arrayKey\" is not an array in this file")
+        val parsed = Json.mapper.readValue<Any?>(element)
+        if (parsed in existing) return text // idempotent: previewing twice must not append twice
+        val open = JsonText.arrayOf(text, arrayKey) ?: throw IllegalStateException("No top-level \"$arrayKey\" array")
+        val close = JsonText.matching(text, open)
+        val first = (open + 1 until close).firstOrNull { !text[it].isWhitespace() }
+        val indent = first?.takeIf { '\n' in text.substring(open, it) }?.let { JsonText.indentOf(text, it) }
+            ?: (JsonText.indentOf(text, open) + "  ")
+        val head = text.substring(0, close).trimEnd()
+        val before = text.substring(head.length, close).takeIf { '\n' in it } ?: ("\n" + JsonText.indentOf(text, open))
+        val pretty = Json.prettyLf.writeValueAsString(parsed).lines().joinToString("\n") { "$indent$it" }
+        return head + (if (first == null) "\n" else ",\n") + pretty + before + text.substring(close)
+    }
+
+    /** Positions in JSON text, skipping string literals so a `]` or `"key"` inside a value is never mistaken for structure. */
+    private object JsonText {
+        /** Index of the `[` that opens the value of [key] in the root object, or null. */
+        fun arrayOf(text: String, key: String): Int? {
+            var depth = 0
+            var i = 0
+            while (i < text.length) {
+                when (text[i]) {
+                    '"' -> {
+                        val end = stringEnd(text, i)
+                        if (depth == 1 && text.substring(i + 1, end) == key) {
+                            var j = end + 1
+                            while (j < text.length && text[j].isWhitespace()) j++
+                            if (j < text.length && text[j] == ':') {
+                                j++
+                                while (j < text.length && text[j].isWhitespace()) j++
+                                if (j < text.length && text[j] == '[') return j
+                            }
+                        }
+                        i = end
+                    }
+                    '{', '[' -> depth++
+                    '}', ']' -> depth--
+                }
+                i++
+            }
+            return null
+        }
+
+        /** Index of the `]` closing the `[` at [open]. */
+        fun matching(text: String, open: Int): Int {
+            var depth = 0
+            var i = open
+            while (i < text.length) {
+                when (text[i]) {
+                    '"' -> i = stringEnd(text, i)
+                    '{', '[' -> depth++
+                    '}', ']' -> { depth--; if (depth == 0) return i }
+                }
+                i++
+            }
+            throw IllegalStateException("Unbalanced JSON array")
+        }
+
+        /** The whitespace that starts the line holding [index]. */
+        fun indentOf(text: String, index: Int): String {
+            val lineStart = text.lastIndexOf('\n', index - 1) + 1
+            return text.substring(lineStart).takeWhile { it == ' ' || it == '\t' }
+        }
+
+        /** Index of the quote closing the string that opens at [start]. */
+        private fun stringEnd(text: String, start: Int): Int {
+            var i = start + 1
+            while (i < text.length) {
+                when (text[i]) {
+                    '\\' -> i++
+                    '"' -> return i
+                }
+                i++
+            }
+            throw IllegalStateException("Unterminated JSON string")
+        }
     }
 
     private fun git(dir: Path, vararg args: String): String {
