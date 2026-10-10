@@ -12,6 +12,7 @@ data class DataPaths(val dataDir: Path) {
     val wikiSnapshot: Path get() = dataDir.resolve("cfg/wiki")
     val npcOverrides: Path get() = dataDir.resolve("cfg/npcs/overrides")
     val dropOverrides: Path get() = dataDir.resolve("cfg/drops/overrides")
+    val npcSpawns: Path get() = dataDir.resolve("cfg/spawns/npcs")
     val wikiCache: Path get() = dataDir.resolve("wiki-cache")
     val reports: Path get() = dataDir.resolve("reports")
     val missingContent: Path get() = dataDir.resolve("missing_content.json")

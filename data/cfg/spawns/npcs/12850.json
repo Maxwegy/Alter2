@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12850,
+  "spawns": [
+    {
+      "npc": "npc.ramunsheeredshaggy",
+      "x": 3201,
+      "z": 3263,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3205,
+      "z": 3204,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3205,
+      "z": 3209,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3206,
+      "z": 3202,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.man",
+      "x": 3206,
+      "z": 3219,
+      "height": 1,
+      "walkRadius": 20,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3207,
+      "z": 3202,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3207,
+      "z": 3203,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rat",
+      "x": 3207,
+      "z": 3209,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.man",
+      "x": 3207,
+      "z": 3227,
+      "height": 0,
+      "walkRadius": 20,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.cook",
+      "x": 3209,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/CookPlugin.kt"
+    },
+    {
+      "npc": "npc.man3",
+      "x": 3209,
+      "z": 3215,
+      "height": 1,
+      "walkRadius": 20,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.banker1_new",
+      "x": 3209,
+      "z": 3222,
+      "height": 2,
+      "walkRadius": 0,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_crafting",
+      "x": 3211,
+      "z": 3212,
+      "height": 1,
+      "walkRadius": 1,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/CraftingTutorPlugin.kt"
+    },
+    {
+      "npc": "npc.woman",
+      "x": 3211,
+      "z": 3213,
+      "height": 1,
+      "walkRadius": 20,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.generalshopkeeper1",
+      "x": 3211,
+      "z": 3246,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/stores/ShopKeeperPlugin.kt"
+    },
+    {
+      "npc": "npc.generalassistant1",
+      "x": 3211,
+      "z": 3247,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/stores/ShopKeeperPlugin.kt"
+    },
+    {
+      "npc": "npc.duke_of_lumbridge",
+      "x": 3212,
+      "z": 3220,
+      "height": 1,
+      "walkRadius": 4,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.man",
+      "x": 3216,
+      "z": 3219,
+      "height": 0,
+      "walkRadius": 20,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_magic",
+      "x": 3216,
+      "z": 3238,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.woman",
+      "x": 3217,
+      "z": 3205,
+      "height": 0,
+      "walkRadius": 20,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.imp",
+      "x": 3217,
+      "z": 3226,
+      "height": 0,
+      "walkRadius": 20,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_ranging",
+      "x": 3218,
+      "z": 3238,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_melee",
+      "x": 3220,
+      "z": 3238,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.hans",
+      "x": 3221,
+      "z": 3219,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/HansPlugin.kt"
+    },
+    {
+      "npc": "npc.man3",
+      "x": 3221,
+      "z": 3219,
+      "height": 0,
+      "walkRadius": 20,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.lumbridge_guide2_man",
+      "x": 3223,
+      "z": 3229,
+      "height": 0,
+      "walkRadius": 19,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/GeePlugin.kt"
+    },
+    {
+      "npc": "npc.lumbridge_guide2_woman",
+      "x": 3228,
+      "z": 3222,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.man4",
+      "x": 3228,
+      "z": 3239,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_woodsman",
+      "x": 3228,
+      "z": 3246,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_smithing_apprentice",
+      "x": 3228,
+      "z": 3254,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.ironman_tutor_1",
+      "x": 3229,
+      "z": 3228,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.woman2",
+      "x": 3229,
+      "z": 3238,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.bob",
+      "x": 3230,
+      "z": 3203,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/stores/BobPlugin.kt"
+    },
+    {
+      "npc": "npc.lost_property_merchant_model",
+      "x": 3230,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 10,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.falador_man1",
+      "x": 3230,
+      "z": 3241,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.varrock_man1",
+      "x": 3231,
+      "z": 3236,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.doomsayer_normal",
+      "x": 3232,
+      "z": 3223,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/DoomsayerPlugin.kt"
+    },
+    {
+      "npc": "npc.ram_bartender",
+      "x": 3232,
+      "z": 3241,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/BartenderPlugin.kt"
+    },
+    {
+      "npc": "npc.hatius_lumbridge_diary",
+      "x": 3233,
+      "z": 3215,
+      "height": 0,
+      "walkRadius": 1,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.lumbridge_guide",
+      "x": 3238,
+      "z": 3220,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.sos_war_goblin_armed",
+      "x": 3241,
+      "z": 3242,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.giantspider1",
+      "x": 3241,
+      "z": 3245,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.aide_tutor_prayer",
+      "x": 3242,
+      "z": 3214,
+      "height": 0,
+      "walkRadius": 3,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/PrayerTutorPlugin.kt"
+    },
+    {
+      "npc": "npc.deadman_nigel_regular",
+      "x": 3243,
+      "z": 3201,
+      "height": 0,
+      "walkRadius": 3,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.father_aereck",
+      "x": 3243,
+      "z": 3206,
+      "height": 0,
+      "walkRadius": 3,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.canoeing_bill",
+      "x": 3243,
+      "z": 3237,
+      "height": 0,
+      "walkRadius": 3,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/BarfyBillPlugin.kt"
+    },
+    {
+      "npc": "npc.godwars_goblin4",
+      "x": 3244,
+      "z": 3244,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.giantspider1",
+      "x": 3245,
+      "z": 3235,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.goblin_cook_charred",
+      "x": 3246,
+      "z": 3246,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/GoblinCookPlugin.kt"
+    },
+    {
+      "npc": "npc.giantspider2",
+      "x": 3246,
+      "z": 3248,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.godwars_goblin2",
+      "x": 3247,
+      "z": 3244,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "NORTH",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.giantspider1",
+      "x": 3253,
+      "z": 3234,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.giantspider1",
+      "x": 3253,
+      "z": 3243,
+      "height": 0,
+      "walkRadius": 7,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.goblin",
+      "x": 3253,
+      "z": 3245,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.goblin_unarmed_melee_in_3",
+      "x": 3255,
+      "z": 3236,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.goblin_armed_melee_4",
+      "x": 3256,
+      "z": 3230,
+      "height": 0,
+      "walkRadius": 8,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    }
+  ]
+}

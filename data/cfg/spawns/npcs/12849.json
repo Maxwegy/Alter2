@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "regionId": 12849,
+  "spawns": [
+    {
+      "npc": "npc.aide_tutor_cooking",
+      "x": 3233,
+      "z": 3195,
+      "height": 0,
+      "walkRadius": 3,
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/npcs/CookingTutorPlugin.kt"
+    },
+    {
+      "npc": "npc.count_check",
+      "x": 3238,
+      "z": 3199,
+      "height": 0,
+      "walkRadius": 0,
+      "direction": "EAST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/ChatSpawnsPlugin.kt"
+    },
+    {
+      "npc": "npc.dragonslayer_giantrat_1_key",
+      "x": 3239,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 5,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.dragonslayer_giantrat_2",
+      "x": 3246,
+      "z": 3198,
+      "height": 0,
+      "walkRadius": 5,
+      "direction": "WEST",
+      "source": "manual",
+      "note": "migrated from content/areas/lumbridge/spawns/SpawnPlugin.kt"
+    }
+  ]
+}

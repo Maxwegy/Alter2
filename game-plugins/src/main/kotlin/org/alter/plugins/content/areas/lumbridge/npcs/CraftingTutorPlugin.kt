@@ -5,7 +5,6 @@ import org.alter.api.ext.chatPlayer
 import org.alter.api.ext.itemMessageBox
 import org.alter.api.ext.player
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -19,8 +18,6 @@ class CraftingTutorPlugin (
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.crafting_tutor", x = 3211, z = 3212, 1, 1, Direction.WEST)
-
         onNpcOption(npc = "npc.crafting_tutor", option = "talk-to") {
             player.queue { dialog(player) }
         }

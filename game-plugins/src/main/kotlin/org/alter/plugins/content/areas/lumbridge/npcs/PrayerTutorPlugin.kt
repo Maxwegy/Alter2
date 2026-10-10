@@ -17,8 +17,6 @@ class PrayerTutorPlugin (
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.prayer_tutor", x = 3242, z = 3214, walkRadius = 3)
-
         onNpcOption("npc.prayer_tutor", option = "talk-to") {
             player.queue { dialog(player) }
         }

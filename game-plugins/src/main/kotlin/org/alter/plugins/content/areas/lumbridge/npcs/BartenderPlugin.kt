@@ -5,7 +5,6 @@ import org.alter.api.ext.chatPlayer
 import org.alter.api.ext.options
 import org.alter.api.ext.player
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -19,8 +18,6 @@ class BartenderPlugin(
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.bartender_7546", x = 3232, z = 3241, direction = Direction.WEST)
-
         onNpcOption("npc.bartender_7546", option = "talk-to", lineOfSightDistance = 4) {
             player.queue { dialog(player) }
         }

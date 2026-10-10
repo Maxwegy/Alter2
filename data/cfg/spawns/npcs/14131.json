@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "regionId": 14131,
+  "spawns": [
+    {
+      "npc": "npc.barrows_torag",
+      "x": 3551,
+      "z": 3280,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_torag",
+      "x": 3551,
+      "z": 3285,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_torag",
+      "x": 3552,
+      "z": 3283,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_torag",
+      "x": 3554,
+      "z": 3280,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_verac",
+      "x": 3555,
+      "z": 3294,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_verac",
+      "x": 3555,
+      "z": 3297,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_torag",
+      "x": 3556,
+      "z": 3284,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/ToragPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_verac",
+      "x": 3557,
+      "z": 3297,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_verac",
+      "x": 3559,
+      "z": 3294,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_verac",
+      "x": 3559,
+      "z": 3300,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/VeracPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_karil",
+      "x": 3563,
+      "z": 3272,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_karil",
+      "x": 3563,
+      "z": 3278,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_ahrim",
+      "x": 3563,
+      "z": 3286,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_ahrim",
+      "x": 3563,
+      "z": 3291,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_karil",
+      "x": 3565,
+      "z": 3275,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_ahrim",
+      "x": 3565,
+      "z": 3289,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_karil",
+      "x": 3567,
+      "z": 3272,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_karil",
+      "x": 3567,
+      "z": 3278,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/KarilPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_ahrim",
+      "x": 3567,
+      "z": 3291,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_ahrim",
+      "x": 3568,
+      "z": 3288,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/AhrimPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_dharok",
+      "x": 3573,
+      "z": 3299,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_dharok",
+      "x": 3574,
+      "z": 3295,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_guthan",
+      "x": 3575,
+      "z": 3279,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_guthan",
+      "x": 3575,
+      "z": 3285,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_dharok",
+      "x": 3576,
+      "z": 3298,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_dharok",
+      "x": 3576,
+      "z": 3300,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_guthan",
+      "x": 3577,
+      "z": 3282,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_dharok",
+      "x": 3578,
+      "z": 3296,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/DharokPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_guthan",
+      "x": 3579,
+      "z": 3279,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
+    },
+    {
+      "npc": "npc.barrows_guthan",
+      "x": 3579,
+      "z": 3285,
+      "height": 0,
+      "walkRadius": 2,
+      "source": "manual",
+      "note": "migrated from content/npcs/barrows/GuthanPlugin.kt"
+    }
+  ]
+}

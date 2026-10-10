@@ -5,7 +5,6 @@ import org.alter.api.ext.chatPlayer
 import org.alter.api.ext.options
 import org.alter.api.ext.player
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -17,9 +16,6 @@ class GeePlugin(
 ) : KotlinPlugin(r, world, server) {
 
     init {
-        spawnNpc("npc.gee", x = 3223, z = 3229, walkRadius = 19, direction = Direction.SOUTH)
-        spawnNpc("npc.gee", 3243, 3265, walkRadius = 22)
-
         onNpcOption("npc.gee", option = "talk-to") {
             player.queue { dialog(player) }
         }

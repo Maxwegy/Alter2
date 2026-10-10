@@ -2,7 +2,6 @@ package org.alter.plugins.content.areas.lumbridge.npcs.stores
 
 import org.alter.api.ext.*
 import org.alter.game.Server
-import org.alter.game.model.Direction
 import org.alter.game.model.World
 import org.alter.game.model.entity.Player
 import org.alter.game.model.queue.QueueTask
@@ -44,9 +43,6 @@ class ShopKeeperPlugin(
     )
 
     init {
-        spawnNpc("npc.shop_keeper", 3211, 3246, 0, 3, Direction.EAST)
-        spawnNpc("npc.shop_assistant", 3211, 3247, 0, 3, Direction.EAST)
-
         createShop("Lumbridge General Store", CoinCurrency(), purchasePolicy = PurchasePolicy.BUY_TRADEABLES) {
             storeItems.forEachIndexed { index, item ->
                 items[index] = item

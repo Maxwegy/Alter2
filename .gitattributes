@@ -7,3 +7,6 @@ gradlew text eol=lf
 # Generated, committed reference data must be byte-identical on every OS so that a
 # no-op wikiSync produces zero diff.
 data/cfg/wiki/** text eol=lf
+
+# NPC spawn files are canonical, LF-only JSON (NpcSpawnDataTests); keep them LF on every OS.
+data/cfg/spawns/npcs/** text eol=lf

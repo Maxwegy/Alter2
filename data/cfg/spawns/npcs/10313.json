@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "regionId": 10313,
+  "spawns": [
+    {
+      "npc": "npc.hero",
+      "x": 2582,
+      "z": 4721,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.feud_egyptian_doorman_2",
+      "x": 2582,
+      "z": 4724,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.dorgesh_male_1",
+      "x": 2582,
+      "z": 4727,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.favour_male_ham_civilian",
+      "x": 2582,
+      "z": 4730,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.paladin",
+      "x": 2586,
+      "z": 4721,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.hos_town_guard_01",
+      "x": 2586,
+      "z": 4724,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.rogue",
+      "x": 2586,
+      "z": 4727,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.farmer1",
+      "x": 2586,
+      "z": 4730,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.knight_of_ardougne",
+      "x": 2591,
+      "z": 4721,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.master_farmer_1",
+      "x": 2591,
+      "z": 4724,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.al_kharid_warrior",
+      "x": 2591,
+      "z": 4727,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    },
+    {
+      "npc": "npc.man",
+      "x": 2591,
+      "z": 4730,
+      "height": 0,
+      "walkRadius": 2,
+      "direction": "SOUTH",
+      "source": "manual",
+      "note": "migrated from content/areas/thieving-test/spawns/SpawnPlugin.kt"
+    }
+  ]
+}
