@@ -3,6 +3,7 @@ package org.alter.game.service.xtea
 import com.google.gson.Gson
 import dev.openrune.cache.CacheManager
 import dev.openrune.cache.MAPS
+import gg.rsmod.util.BuildInfo
 import gg.rsmod.util.ServerProperties
 import io.github.oshai.kotlinlogging.KotlinLogging
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap
@@ -33,14 +34,18 @@ class XteaKeyService : Service, XteaProvider {
         world: World,
         serviceProperties: ServerProperties,
     ) {
-        val path = Paths.get(serviceProperties.getOrDefault("path", "../data/"))
-        val singleFile = path.resolve("xteas.json")
-        if (Files.exists(singleFile)) {
-            loadSingleFile(singleFile)
+        if (requiresKeys(BuildInfo.REVISION)) {
+            val path = Paths.get(serviceProperties.getOrDefault("path", "../data/"))
+            val singleFile = path.resolve("xteas.json")
+            if (Files.exists(singleFile)) {
+                loadSingleFile(singleFile)
+            } else {
+                throw FileNotFoundException(
+                    "Missing xteas.json file at $path. NOTE: You get it in same zip file from which you extracted the cache.",
+                )
+            }
         } else {
-            throw FileNotFoundException(
-                "Missing xteas.json file at $path. NOTE: You get it in same zip file from which you extracted the cache.",
-            )
+            logger.info { "Revision ${BuildInfo.REVISION} ships unencrypted map squares; no XTEA keys are loaded." }
         }
 
         loadKeys(world)
@@ -139,6 +144,11 @@ class XteaKeyService : Service, XteaProvider {
     companion object {
         private val logger = KotlinLogging.logger {}
         val EMPTY_KEYS = intArrayOf(0, 0, 0, 0)
+
+        /** Map squares were XTEA-encrypted up to build 236; OpenRS2 lists no keys after that, and 241 ships none. */
+        const val LAST_ENCRYPTED_REVISION = 236
+
+        fun requiresKeys(revision: Int): Boolean = revision <= LAST_ENCRYPTED_REVISION
     }
 
     override fun provide(region: Int): XteaKey {
