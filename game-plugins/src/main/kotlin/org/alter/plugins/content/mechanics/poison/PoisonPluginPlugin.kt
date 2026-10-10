@@ -29,6 +29,7 @@ class PoisonPluginPlugin(
 
         onPlayerDeath {
             player.timers.remove(POISON_TIMER)
+            player.timers.remove(Poison.VENOM_TIMER)
             Poison.setHpOrb(player, Poison.OrbState.NONE)
         }
 
@@ -51,6 +52,15 @@ class PoisonPluginPlugin(
             }
 
             pawn.timers[POISON_TIMER] = POISON_TICK_DELAY
+        }
+
+        // Venom: one hit every Venom.INTERVAL_TICKS, 6, 8, ... capped at 20, until cured (wiki Venom page).
+        onTimer(Poison.VENOM_TIMER) {
+            val pawn = pawn
+            val damage = pawn.attr[Poison.VENOM_DAMAGE_ATTR] ?: return@onTimer
+            pawn.hit(damage = damage, type = HitType.VENOM)
+            pawn.attr[Poison.VENOM_DAMAGE_ATTR] = Venom.next(damage)
+            pawn.timers[Poison.VENOM_TIMER] = Venom.INTERVAL_TICKS
         }
     }
 }

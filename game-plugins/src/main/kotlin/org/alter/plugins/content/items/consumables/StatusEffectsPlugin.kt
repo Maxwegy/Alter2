@@ -17,7 +17,8 @@ import org.alter.plugins.content.mechanics.run.RunEnergy
 /**
  * Ends the timed status effects that [ConsumablesPlugin] starts: dragonfire protection (`ANTIFIRE_TIMER`, read by
  * `DragonfireFormula` through the two antifire attributes), the stamina effect (`RunEnergy.STAMINA_BOOST`, read by
- * `RunEnergy.drain`) and poison immunity (`Poison.IMMUNITY_TIMER`, read by `Poison.isImmune`). Everything here
+ * `RunEnergy.drain`), poison immunity (`Poison.IMMUNITY_TIMER`, read by `Poison.isImmune`) and venom immunity
+ * (`Poison.VENOM_IMMUNITY_TIMER`, read by `Pawn.venom`). Everything here
  * runs on the game thread from the pawn's timers; the chat lines come from the consumables file.
  */
 class StatusEffectsPlugin(
@@ -40,6 +41,7 @@ class StatusEffectsPlugin(
         }
         // Immunity simply lapses; the handler registers the key so the timer is ticked and removed.
         onTimer(Poison.IMMUNITY_TIMER) {}
+        onTimer(Poison.VENOM_IMMUNITY_TIMER) {}
 
         onLogin {
             // The attributes persist but timers do not: protection that was running at logout has ended.
@@ -51,6 +53,7 @@ class StatusEffectsPlugin(
             player.timers.remove(ANTIFIRE_WARNING)
             player.timers.remove(RunEnergy.STAMINA_BOOST)
             player.timers.remove(Poison.IMMUNITY_TIMER)
+            player.timers.remove(Poison.VENOM_IMMUNITY_TIMER)
         }
     }
 
