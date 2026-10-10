@@ -55,3 +55,8 @@ tasks.register<JavaExec>("gamevalDump") {
     description = "Dump the gameval name tables (index 24, revision 241+) of a cache and compare them with data/cfg/rscm (<dir> [<out dir>])"
     cacheTool("dev.openrune.cache.tools.staging.GamevalDumpMainKt")
 }
+
+tasks.register<JavaExec>("rscmGenerate") {
+    description = "Generate RSCM tables for a staged cache from its gameval names, with aliases for every committed name and a migration report (<dir> <build> [--out] [--commit])"
+    cacheTool("dev.openrune.cache.tools.rscm.RscmGenerateMainKt")
+}
