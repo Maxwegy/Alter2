@@ -278,7 +278,7 @@ object ResourceNodeDefs {
             tertiary = n["tertiary"]?.map { t ->
                 val (num, den) = ratio(id, t["chance"])
                 Tertiary(num, den, text(t["item"]), t["replacesReward"]?.asBoolean() ?: false, text(t["todo"]))
-                    .also { require(!it.loaded || it.item != null) { "$id: a loaded tertiary needs an item" } }
+                    .also { require(!it.loaded || (it.item != null && it.replacesReward)) { "$id: a loaded tertiary needs an item and replacesReward (extra drops are not supported yet)" } }
             } ?: emptyList(),
             source = text(n["source"]),
             notes = notes(n["notes"]),
