@@ -109,7 +109,10 @@ class ConsumablesPlugin(
             player.sendRunEnergy(units / 100)
         }
         // The stamina effect does not stack: another dose resets the timer (wiki Stamina potion).
-        plan.staminaTicks?.let { player.timers[RunEnergy.STAMINA_BOOST] = it }
+        plan.staminaTicks?.let {
+            player.timers[RunEnergy.STAMINA_BOOST] = it
+            StatusEffectsPlugin.setStaminaActive(player, true)
+        }
         // Any poison cure on venom turns it into poison at the venom's damage unless the dose also cures venom
         // (wiki Venom, Antipoison and Poison pages); a second dose then cures that poison.
         if (plan.curePoison) {

@@ -24,8 +24,7 @@
     "anti-venom: venom immunity is 36-54 seconds on the wiki; modelled as 60 ticks (36 s, the lower bound), upper bound TODO",
     "anti-venom: poison immunity is 12 minutes on the item page but 12.3 on the Poison page; 1200 ticks from the item page",
     "anti-venom+: venom immunity is approximately 3.6 minutes on the item page but 3 minutes on the Venom page; 360 ticks from the item page",
-    "extended anti-venom+ is not listed; see docs/follow-ups.md",
-    "the stamina effect orb colour (Varbit.STAMINA_EFFECT_ENABLED) is not driven yet; see docs/follow-ups.md"
+    "extended anti-venom+ is not listed; see docs/follow-ups.md"
   ],
   "messages": {
     "antifireWarning": "Your antifire potion is about to expire.",
