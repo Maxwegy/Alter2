@@ -26,18 +26,20 @@ These would sit on a node-chain schema with nodes such as `PERCEPTION_SCANNER`, 
 
 ## 2. Spectacle: selective visibility
 
-**What:** NPCs that only a target or a party can see, such as a phantom stalking one player or a group-only boss, without instancing the area.
+**What:** NPCs that only a target or a party can see, such as a group-only boss, without instancing the area.
 
-**Implementation note:** use rsprot's built-in specific NPCs, `NpcAvatarFactory.alloc(specific = true)` plus `npcInfo.setSpecific` and `npcInfo.clearSpecific`. Do not build a custom encoder bitmask.
+**Superseded use case:** the per-player "ghost" (a phantom that stalks and talks to one player) is replaced by Phase 6, LLM-driven NPCs: NPCs that everyone can see, wake when a player says their name in public chat, and answer with overhead chat. Phase 6 does not need selective visibility, so nothing on the roadmap depends on this idea any more. What remains here is the technique, kept for Monster Maker content such as party-only bosses.
 
-**Why deferred:** it needs the Phase 5 dev-tool groundwork, and its content use belongs to Monster Maker.
+**Implementation note:** use rsprot's built-in specific NPCs, `NpcAvatarFactory.alloc(specific = true)` plus `npcInfo.setSpecific` and `npcInfo.clearSpecific`. Do not build a custom encoder bitmask. The approved Phase 5 plan carries this as PR 3 (`::showonly` / `::showall`), a manual gate because its game-server wrapper cannot be unit-tested.
+
+**Why deferred:** its content use belongs to Monster Maker, and the game-server wrapper it needs has no regression test (rule 3).
 
 **Rule conflicts to resolve first:**
 - `net.rsprot` stays in the network layer (`.claude/rules/game-server.md`), so content needs a game-api hook rather than direct rsprot calls.
 - Visibility sets are runtime state, never in `data/cfg`.
 - Combat, aggression and drops must agree with visibility: a player who cannot see an NPC must not be attacked by it or loot it. Check how far that reaches into the engine before planning.
 
-**Matrix row:** Idea, "Selective visibility (spectacle)". It is a plan input for the Phase 5 dev tools row.
+**Matrix row:** Idea, "Selective visibility (spectacle)". Phase 5 PR 3 (`::showonly`) is the only roadmap item that builds it, and it waits on a manual gate.
 
 ## 3. Resource micro-economy / supply chains
 
