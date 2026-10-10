@@ -86,6 +86,13 @@ class SpawnSync(
 
         val files = NpcSpawnFiles.group(generated.entries)
         report.summary("regionFiles", files.size)
+        // Never write a file the boot loader (or the next sync) would reject.
+        val invalid = mutableListOf<String>()
+        files.forEach { NpcSpawnFiles.parse("${it.regionId}.json", NpcSpawnFiles.render(it), invalid) }
+        if (invalid.isNotEmpty()) {
+            invalid.forEach { report.add("Generated entries the reader rejects", it, Report.Severity.ERROR) }
+            return reject("${invalid.size} generated problem(s); region files left untouched.")
+        }
         val written = NpcSpawnFiles.write(spawnDir, files)
         report.summary("filesWritten", written.written.size)
         report.summary("filesRemoved", written.removed.size)

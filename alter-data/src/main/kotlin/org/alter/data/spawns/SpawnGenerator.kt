@@ -80,7 +80,7 @@ class SpawnGenerator(private val cache: CacheView) {
                                         z = f.point.z,
                                         height = f.height,
                                         walkRadius = SpawnRules.walkRadius(f.shape),
-                                        source = NpcSpawnSource.Wiki(pageUrl(page.title), template.raw),
+                                        source = NpcSpawnSource.Wiki(pageUrl(page.title), canonicalMap(template.raw)),
                                     )
                                 }
                             }
@@ -170,6 +170,12 @@ class SpawnGenerator(private val cache: CacheView) {
         /** Same npc and height assumed by the caller; within the larger walk radius of the two (Chebyshev). */
         fun overlaps(a: NpcSpawnEntry, b: NpcSpawnEntry): Boolean =
             max(abs(a.x - b.x), abs(a.z - b.z)) <= max(a.walkRadius, b.walkRadius)
+
+        /**
+         * The template as written, except that `{{map|` becomes `{{Map|`: MediaWiki reads the first letter of a
+         * template name case-insensitively, and the region files require `source.map` to start with `{{Map`.
+         */
+        fun canonicalMap(raw: String): String = if (raw.startsWith("{{map")) "{{M" + raw.substring(3) else raw
 
         /** `https://oldschool.runescape.wiki/w/<Title>` with spaces as underscores and URL-unsafe characters escaped. */
         fun pageUrl(title: String): String = NpcSpawnFiles.WIKI_PAGE_PREFIX + title.trim().replace(' ', '_')

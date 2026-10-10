@@ -120,6 +120,16 @@ class SpawnGeneratorTests {
     }
 
     @Test
+    fun `a lower-case map template is stored with the canonical name`() {
+        val page = SpawnGenerator.Page("Hut", "{{Infobox NPC\n|map = {{map|x=3523|y=3177|mtype=pin|group=hut}}\n|id = 2813\n}}")
+        val entry = generate(pages = listOf(page)).entries.single()
+        assertEquals("{{Map|x=3523|y=3177|mtype=pin|group=hut}}", (entry.source as NpcSpawnSource.Wiki).map)
+        val errors = mutableListOf<String>()
+        NpcSpawnFiles.group(listOf(entry)).forEach { NpcSpawnFiles.parse("${it.regionId}.json", NpcSpawnFiles.render(it), errors) }
+        assertEquals(emptyList(), errors)
+    }
+
+    @Test
     fun `page urls use underscores`() {
         assertEquals("https://oldschool.runescape.wiki/w/Shop_keeper_(Lumbridge)", SpawnGenerator.pageUrl("Shop keeper (Lumbridge)"))
         assertEquals("https://oldschool.runescape.wiki/w/Seers'_Village", SpawnGenerator.pageUrl("Seers' Village"))
