@@ -66,10 +66,13 @@ external dataset to fall back on (osrsbox is dead, 2004scape is 2004-era data wi
 
 **Files.**
 
-- `data/cfg/spawns/npcs/<regionId>.json` (Phase 2, done): one file per 64x64 region, `regionId` as
-  `Tile.regionId`. One entry per spawn: `npc` (canonical RSCM name), `x`, `z`, `height`, `walkRadius`, optional
-  `direction`, `source` (`"manual"` or `{ page, map }` with the verbatim `{{Map}}`), optional `origin` and
-  `note`. Format and rules in the directory's `README.md`.
+- `data/cfg/spawns/npcs/<regionId>.json` (Phase 2, done; schema 2 since the Phase 2 follow-up): one file per
+  64x64 region, `regionId` as `Tile.regionId`. One entry per spawn: a stable `id`, `npc` (canonical RSCM name),
+  `x`, `z`, `height`, `walkRadius`, optional `direction`, `source` with a `kind` of `manual`, `wiki` (`page` plus
+  the verbatim `{{Map}}`) or `edit` (`at`, plus the former wiki `page`/`map` of an edited wiki entry), and an
+  optional `note`. Wiki ids hash the page, npc and template tile (`w...`); manual and added ids are minted once
+  (`m...`). Schema 1 files are converted once with `spawnSync --migrate`. Format and rules in the directory's
+  `README.md`.
 - `NpcSpawnsPlugin` / `NpcSpawnsLoader` in `game-plugins/.../infrastructure/spawns` read every file once in
   plugin `init {}` and queue each entry with `spawnNpc`; any invalid entry stops the boot. All 115 hand-written
   `spawnNpc` calls were migrated as `manual` entries and removed from the plugins; `spawnItem`/`spawnObj` stay.
@@ -77,8 +80,10 @@ external dataset to fall back on (osrsbox is dead, 2004scape is 2004-era data wi
   `{{Map}}` of every page that embeds Template:Map and has an NPC or monster infobox. Pins, rectangles, squares
   and circles on the surface become spawns at the shape's centre; polygons, other mtypes, non-zero `mapID`s and
   templates without an `mtype` (Module:Map draws nothing for them) are skipped and counted in the report.
-  `manual` entries are never changed, and a manual entry for the same npc and height within the larger walk
-  radius replaces the wiki one.
+  `manual` and `edit` entries are never changed. A wiki feature whose id a manual or edit entry carries is
+  dropped, so an edited spawn's wiki twin never returns; a manual or edit entry for the same npc and height within
+  the larger walk radius also replaces the wiki one. `--apply-edits` applies the in-game outbox by id (adds,
+  moves, wander/direction changes, removals).
 - Cockpit: a `MapTemplate` parser in `Infobox.kt`, an `enrich.spawn` enricher (page → map templates → candidate
   tiles) and a `spawn` scaffold kind that writes a region file. Deferred; on `docs/follow-ups.md`.
 
