@@ -20,6 +20,14 @@ Known problems that were out of scope for the change that found them. Each is a 
 - NPC op 2 always attacks (`OpNpcHandler:20`), so the unhandled-interaction hook never sees it.
 - Item-on-NPC never walks to the npc.
 
+## Special attacks (Phase 3)
+- TODO entries in `data/cfg/combat/special_attacks.json`, skipped at boot: dragon claws (the 4-hit sequence), dragon scimitar (the PvP prayer lock), dragon battleaxe (the drain base), dragon sword (the prayer bypass), dragon 2h sword (multi-target), dragon spear (pushback), magic shortbow and (i) (the ranged path; the (i) costs 50%), dark bow (ranged minimum hits).
+- `MeleeCombatFormula` has no defence-style override, so specials that roll against slash (AGS, BGS, SGS, DDS, whip, halberd, Saradomin sword) or stab (arclight) defence roll against the current style.
+- Special attack hits grant no melee experience (the old plugins did not either); only the Saradomin sword's magic hit gives its 2 Magic XP per damage.
+- Not in the batch: Lightbearer and the Surge potion (energy), the granite maul's ornate handle (50%) and cosmetic variants, the 3rd age axe, the halberd's multi-target sweep and directional graphic, the Saradomin sword's graphic and its splash on Protect from Magic, Excalibur's forced chat, the Tekton and Elite Black Knight exceptions.
+- Unverified against a 241 client: the sound ids (the old plugins' values, `verify: true`), animation and graphic appearance (and whether a graphic belongs on the target), the dragon pickaxe's animation (7138 `rockknocker` vs 2661 `dragon_pickaxe_anim`), the varp 300 scale and the 593:36 / 160:35 component ids. Sounds play to the attacker only (`playSound`), not as area sounds.
+- The bar switches off on every weapon equip and on logout (kept as it was).
+
 ## Commands and privileges
 - `::qutest`, `::gc`, `::heap` and `::randbank` have no privilege check.
 

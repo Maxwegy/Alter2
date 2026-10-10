@@ -31,6 +31,9 @@ object Combat {
     val DAMAGE_DEAL_MULTIPLIER = AttributeKey<Double>()
     val DAMAGE_TAKE_MULTIPLIER = AttributeKey<Double>()
     val BOLT_ENCHANTMENT_EFFECT = AttributeKey<Boolean>()
+
+    /** The world cycle of the player's last attack; the granite maul's bar-click special homes within a window after it. */
+    val LAST_ATTACK_CYCLE = AttributeKey<Int>()
     const val PRIORITY_PID_VARP = 1075
     const val SELECTED_AUTOCAST_VARBIT = 276
     const val DEFENSIVE_MAGIC_CAST_VARBIT = 2668
@@ -62,6 +65,7 @@ object Combat {
         pawn.attr[BOLT_ENCHANTMENT_EFFECT] = false
 
         pawn.attr[LAST_HIT_ATTR] = WeakReference(target)
+        if (pawn is Player) pawn.attr[LAST_ATTACK_CYCLE] = pawn.world.currentCycle
         target.attr[LAST_HIT_BY_ATTR] = WeakReference(pawn)
 
         if (pawn.attr.has(CASTING_SPELL) && pawn is Player && pawn.getVarbit(SELECTED_AUTOCAST_VARBIT) == 0) {

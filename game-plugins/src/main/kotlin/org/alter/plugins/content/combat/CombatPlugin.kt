@@ -17,6 +17,7 @@ import org.alter.game.model.move.hasMoveDestination
 import org.alter.game.model.move.stopMovement
 import org.alter.game.model.move.walkRoute
 import org.alter.game.model.queue.QueueTask
+import org.alter.game.model.timer.ATTACK_DELAY
 import org.alter.game.plugin.KotlinPlugin
 import org.alter.game.plugin.PluginRepository
 import org.alter.plugins.content.combat.specialattack.SpecialAttacks
@@ -171,9 +172,10 @@ class CombatPlugin(
                     AttackTab.disableSpecial(pawn)
                     if (SpecialAttacks.execute(pawn, target, world)) {
                         Combat.postAttack(pawn, target)
+                        if (SpecialAttacks.skipsAttackDelay(pawn)) pawn.timers.remove(ATTACK_DELAY)
                         return true
                     }
-                    pawn.message("You don't have enough power left.")
+                    // Not enough energy (or no loaded special): the bar is off and a normal attack follows, with no chat line.
                 }
                 strategy.attack(pawn, target)
                 Combat.postAttack(pawn, target)

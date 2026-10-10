@@ -29,8 +29,9 @@ The server runs with `game-server/` as its working directory, so data paths are 
 - `./gradlew :plugins:tools:cacheDryRun -PcacheArgs="<staged dir> <build>"`: what our decoders and RSCM names would do with that cache.
 - `./gradlew :plugins:tools:gamevalDump -PcacheArgs="<cache dir>"`: dump the gameval name tables (index 24, revision 241+) and compare them with `data/cfg/rscm`.
 - `./gradlew :plugins:tools:rscmGenerate -PcacheArgs="<cache dir> <build> [--commit]"`: generate RSCM tables (gameval names + aliases for every committed name) and a migration report; `--commit` writes `data/cfg`.
-- In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`, `::reloadconsumables`.
+- In game (dev power): `::missing`, `::wikinpc`, `::wikidrops`, `::dropsim`, `::wikiitem`, `::wikisync`, `::reloadconsumables`, `::reloadspecials`.
 - `data/cfg/consumables/consumables.json`: food and potions (heal, boosts, drains, restores, run energy/stamina, antipoison, antivenom, antifire, delays, expiry messages), hand-maintained with a wiki URL on every entry (the cockpit's consumable enricher appends entries from `enrich.inv_op` cards); `ConsumablesDataTests` keeps it resolvable. Plugins carry no numbers or strings.
+- `data/cfg/combat/special_attacks.json`: special attacks (cost, hits, effects, animation/graphic, wiki URL per entry); entries with a `todo` are skipped at boot; `SpecialAttacksDataTests` keeps it resolvable.
 - Unscripted interactions and data gaps accumulate in `data/missing_content.json` (schemaVersion 1).
 
 ## Running the server
