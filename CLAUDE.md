@@ -25,6 +25,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 ## Data and cache tools
 
 - `./gradlew :alter-data:wikiSync [-PwikiArgs="--offline|--refresh"]`: regenerate `data/cfg/wiki` from the OSRS Wiki; report in `data/reports/`.
+- `./gradlew :alter-data:spawnSync [-PspawnArgs="--offline|--refresh"]`: regenerate the wiki entries in `data/cfg/spawns/npcs` from the infobox `{{Map}}` templates, keeping every `manual` entry; needs `data/cache`; report `data/reports/spawn-sync-<ts>.{json,md}`. Never touches `data/cfg/wiki`; `::wikisync` does not run it.
 - `./gradlew :plugins:tools:cacheStage -PcacheArgs="--build N | --latest"`: download and verify a cache into `data/cache-staging/` (never `data/cache`).
 - `./gradlew :plugins:tools:cacheDryRun -PcacheArgs="<staged dir> <build>"`: what our decoders and RSCM names would do with that cache.
 - `./gradlew :plugins:tools:gamevalDump -PcacheArgs="<cache dir>"`: dump the gameval name tables (index 24, revision 241+) and compare them with `data/cfg/rscm`.
@@ -62,7 +63,7 @@ The server runs with `game-server/` as its working directory, so data paths are 
 
 - Interaction routing and fallbacks: `game-server/.../model/move/*PathAction.kt`, `.../message/handler/*Handler.kt`, `PluginRepository.execute*`
 - NPC combat defs: `NpcCombatDef`, `game-api/.../dsl/NpcCombatDsl.kt`, `World.setNpcDefaults`
-- NPC spawns: `data/cfg/spawns/npcs/`, `game-plugins/.../infrastructure/spawns/NpcSpawnsPlugin.kt` + `NpcSpawnsLoader.kt`, model and `SpawnRules` in `alter-data/.../spawns/`
+- NPC spawns: `data/cfg/spawns/npcs/`, `game-plugins/.../infrastructure/spawns/NpcSpawnsPlugin.kt` + `NpcSpawnsLoader.kt`, model, `SpawnRules` and the `spawnSync` generator (`SpawnSync`, `SpawnGenerator`, `MapTemplateParser`, `InfoboxFields`) in `alter-data/.../spawns/`
 - Drops: `game-server/.../model/weightedTableBuilder/LootTableBuilder.kt`
 - Item stats: `game-server/.../service/game/ItemMetadataService.kt` (cache params + YAML overrides)
 - Saving: `PlayerSaving`, `ShutdownSaver`, `PlayerAutosave`
